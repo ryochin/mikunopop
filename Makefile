@@ -9,3 +9,5 @@ upload:
 	scp -C ./css/* diana:/web/saihane/htdocs/css/
 	scp -C ./js/* diana:/web/saihane/htdocs/js/
 
+clean:
+	rm -f mikunopop.html

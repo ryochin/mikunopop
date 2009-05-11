@@ -19,7 +19,7 @@ use Encode;
 Getopt::Std::getopts 't' => my $opt = {};
 # -t: local test mode
 
-my $min = defined $opt->{t} ? 12 : 3;    # 少なくとも再生されている数
+my $min = defined $opt->{t} ? 8 : 3;    # 少なくとも再生されている数
 my $uri = 'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-';
 my $output_file = defined $opt->{t} ? './mikunopop.html' : '/web/saihane/htdocs/mikunopop.html';
 
@@ -28,6 +28,7 @@ my @jingle = qw(
 	sm6789315
 	sm6939234
 	sm6981084
+	sm7007629
 );
 
 my $content = get( $uri ) or die "cannot get html!";
@@ -75,16 +76,25 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	
 	next if $video->{$v}->{num} < $min;
 	
+	# ジングルは飛ばそう
+	next if scalar( first { $v eq $_ } @jingle );
+	
+	my $is_ng_nm = ( $v =~ /^nm/io and $video->{$v}->{id} > 6388464 )
+		? 1
+		: 0;
+	
 	push @{ $stash->{video} }, {
 		video_id => $v,
 		vid => $video->{$v}->{id},
 		title => scalar( $video->{$v}->{title} || q/不明/ ),
 		view => $video->{$v}->{num},    # 再生数
-		is_jingle => scalar( first { $v eq $_ } @jingle ),
+#		is_jingle => scalar( first { $v eq $_ } @jingle ),
+		is_ng_nm => $is_ng_nm,
 	};
 }
 
-warn scalar @{ $stash->{video} };
+$stash->{total_video_num} = scalar @{ $stash->{video} };
+warn "total $stash->{total_video_num}";
 
 # out
 my $template = &create_template;
@@ -135,14 +145,14 @@ __DATA__
 <link rel="stylesheet" type="text/css" media="screen,projection,tv,print" href="./css/colorbox.css" charset="utf-8" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
 <script src="./js/jquery.colorbox.js" type="text/javascript"></script>
-<title>ミクノポップ再生回数</title>
+<title>「ミクノポップをきかないか？」再生回数</title>
 <style type="text/css">
 body {
 	color: #eee;
 	background: #000;
 }
 a {
-	color: #eee;
+	color: #eef;
 	text-decoration: none;
 }
 img {
@@ -151,10 +161,20 @@ img {
 table {
 	margin: 4px;
 }
+h1 {
+	font-size: 122%;
+	font-weight: bold;
+}
 p {
+	margin: 2px 2em;
 	font-size: 92%;
+	line-height: 150%;
+}
+span#show-desc {
+	color: #ccccff;
 }
 span.video_id {
+	color: #ffcccc;
 	font-size: 92%;
 	font-weight: bold;
 }
@@ -179,6 +199,12 @@ $(document).ready( function () {
 			transitionSpeed: 200
 		} );
 	} );
+	
+	// show-desc
+	$('#show-desc').click( function () {
+		$('#desc').show();
+		return false;
+	} );
 } );
 
 // ]]> -->
@@ -188,19 +214,23 @@ $(document).ready( function () {
 
 <div id="container">
 
-	<h1>ミクノポップ再生回数 @ [% date.strftime("%Y年%m月%d日 %H時") %] 現在</h1>
+	<h1>「ミクノポップをきかないか？」再生回数</h1>
 	
 	<p>
-		<a href="http://ch.nicovideo.jp/community/co13879" target="_blank">ミクノポップ</a>の過去放送ログから、再生回数が３回以上の曲を、再生回数が多い順（同数なら古い順）に並べています。
+		[% date.strftime("%Y年%m月%d日 %H時") %] 現在の記録です。[% total_video_num | html %] 件の動画をリストしています。<br />
+		<span id="show-desc">[クリックで詳しい説明を表示]</span>
+	</p>
+
+	<p id="desc" style="display: none">
+		<a href="http://ch.nicovideo.jp/community/co13879" target="_blank">ミクノポップ</a>過去放送ログから、再生回数が３回以上の曲を、再生回数が多い順（同数なら古い順）に並べています。<br />
+		日に数回更新。プログラムで自動生成しているので、多少おかしな点があるかも（by <a href="http://www.nicovideo.jp/user/96593" target="_blank">さいはね</a>）。<br />
+		サムネクリックで詳細を表示、曲名クリックで動画を開くよ。IE だと詳細が閉じないけど、まぁいいか・・。<br />
+		<br />
+		ジングル動画は除くことにしました。(05/10)<br />
+		nm63***** 以降の曲には「流れない曲？」と注を出すことにしました。(05/10)
 	</p>
 	
-	<p>
-		プログラムで自動生成しているので、多少おかしな点があるかも。
-	</p>
-	
-	<p>
-		サムネクリックで詳細を表示、曲名クリックで動画を開くよ。IE だと詳細が閉じないけど、まぁいいか・・。
-	</p>
+	<br />
 	
 	<table summary="list">
 [% FOR v = video %]
@@ -210,6 +240,10 @@ $(document).ready( function () {
 				[% IF v.is_jingle %]
 					<br />
 					（ジングル）
+				[% END %]
+				[% IF v.is_ng_nm %]
+					<br />
+					<span title="nm 制限">（流れない曲？）</span>
 				[% END %]
 			</td>
 			<td rowspan="2" valign="top">
@@ -224,6 +258,10 @@ $(document).ready( function () {
 			<td valign="top">
 				<a href="http://www.nicovideo.jp/watch/[% v.video_id | html %]" target="_blank" title="ニコニコ動画で見る">
 					<span class="title">[% v.title | html %]</span>
+				</a>
+				&nbsp;
+				<a href="http://nicosound.anyap.info/sound/[% v.video_id | html %]" target="_blank" title="にこ☆さうんど＃で見る">
+					<img src="/img/music.gif" />
 				</a>
 				&nbsp;
 				<a href="http://dic.nicovideo.jp/v/[% v.video_id | html %]" target="_blank">
