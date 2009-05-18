@@ -1,0 +1,16 @@
+# [Mikunopop Project]
+# 
+# $URL: svn+ssh://ryo@aquahill.net/home/ryo/svn/fumi2/trunk/cron/crontab.txt $
+# $Id: crontab.txt 224 2009-05-10 23:34:04Z ryo $
+
+# ------------------------------------------------
+#  Mikunopop
+# ------------------------------------------------
+
+### rebuild:
+
+# playlist
+44 */4 * * * /bin/nice -10 /usr/bin/perl /web/mikunopop/cron/create_playlist.pl > /dev/null 2>&1
+
+
+# EOF

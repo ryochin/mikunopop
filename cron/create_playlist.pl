@@ -23,9 +23,9 @@ my $stash = {};
 
 my $min_short = $stash->{min_short} = 5;
 my $min_full = 3;
-my $base_dir = defined $opt->{t} ? '.' : '/web/saihane/htdocs/';
-my $output_file_short = file( $base_dir, 'mikunopop.html' )->stringify;
-my $output_file_full = file( $base_dir, 'mikunopop_full.html' )->stringify;
+my $base_dir = defined $opt->{t} ? '.' : '/web/mikunopop/htdocs/play/';
+my $output_file_short = file( $base_dir, 'index.html' )->stringify;
+my $output_file_full = file( $base_dir, 'full.html' )->stringify;
 my $uri_list = [
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-',
 ];
@@ -259,6 +259,7 @@ $(document).ready( function () {
 	
 	<p>
 		[% date.strftime("%Y年%m月%d日 %H時") %] 現在の記録です。[% total_video_num | html %] 件の動画をリストしています。<br />
+		[<a href="/">トップページに戻る</a>]
 		[% IF is_full %]
 			[<a href="./mikunopop.html">簡易版に戻る</a>]
 		[% ELSE %]

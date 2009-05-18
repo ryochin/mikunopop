@@ -21,8 +21,8 @@ Getopt::Std::getopts 't' => my $opt = {};
 
 my $stash = {};
 
-my $base_dir = defined $opt->{t} ? '.' : '/web/saihane/htdocs/';
-my $output_file = file( $base_dir, 'mikunopop_jingle.html' )->stringify;
+my $base_dir = defined $opt->{t} ? '.' : '/web/mikunopop/htdocs/jingle/';
+my $output_file = file( $base_dir, 'index.html' )->stringify;
 
 my @jingle = (
 	{
@@ -212,6 +212,10 @@ $(document).ready( function () {
 	<p>
 		ジングル集です。まだでっち上げ状態なので、情報ください。<br />
 		情報ないなら適当に書いちゃうよ！（さいはね）
+	</p>
+
+	<p>
+		[<a href="/">トップページに戻る</a>]
 	</p>
 
 	<br />

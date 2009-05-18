@@ -8,8 +8,8 @@ htdocs/robots.txt
 htdocs/index.html
 
 # htdocs - css
-htdocs/css/common.css
-htdocs/css/default.css
+#htdocs/css/common.css
+#htdocs/css/default.css
 
 htdocs/css/colorbox.css
 
