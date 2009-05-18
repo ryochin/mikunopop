@@ -1,0 +1,21 @@
+# [Mikunopop Project]
+# 
+# $URL: svn+ssh://ryo@aquahill.net/home/ryo/svn/fumi2/trunk/install/media.txt $
+# $Id: media.txt 217 2009-04-26 03:22:33Z ryo $
+
+# htdocs
+htdocs/robots.txt
+htdocs/index.html
+
+# htdocs - css
+htdocs/css/common.css
+htdocs/css/default.css
+
+htdocs/css/colorbox.css
+
+# htdocs - js
+#htdocs/js/base.js
+
+htdocs/js/jquery.colorbox.js
+
+# EOF
