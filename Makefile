@@ -1,14 +1,18 @@
-all: create upload
+# [Mikunopop Project]
+# 
+# $URL: svn+ssh://ryo@aquahill.net/home/ryo/svn/fumi2/trunk/Makefile $
+# $Id: Makefile 223 2009-05-02 02:29:26Z ryo $
 
-create:
-	nice -10 perl ./mikuno_count.pl
+PROJECT = mikunopop
+BASE = /web/$(PROJECT)
 
-upload:
-	scp -C ./mikuno_count.pl diana:/home/ryo/cron/
-	scp -C ./mikunopop_jingle.pl diana:/home/ryo/cron/
-#	scp -C ./mikunopop.html diana:/web/saihane/htdocs/
-	scp -C ./css/* diana:/web/saihane/htdocs/css/
-	scp -C ./js/* diana:/web/saihane/htdocs/js/
+PERL = /usr/bin/perl -I$(BASE)/lib -I$(BASE)/extlib
+NICE = /bin/nice -10
+SH = /bin/sh
 
-clean:
-	rm -f mikunopop.html
+all:: install
+
+install::
+	$(NICE) $(PERL) install/installer.pl -q
+	chmod 755 $(BASE)/cron/*.pl > /dev/null 2>&1
+

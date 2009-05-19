@@ -18,4 +18,8 @@ htdocs/css/colorbox.css
 
 htdocs/js/jquery.colorbox.js
 
+# img
+htdocs/img/favicon.ico
+htdocs/img/music.gif
+
 # EOF
