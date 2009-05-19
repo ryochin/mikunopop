@@ -16,5 +16,8 @@ Makefile
 cron/create_playlist.pl
 cron/create_jinglelist.pl
 
+# template
+template/play.html
+template/jingle.html
 
 # EOF
