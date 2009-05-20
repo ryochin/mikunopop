@@ -7,6 +7,8 @@
 htdocs/robots.txt
 htdocs/index.html
 
+htdocs/aircaster/index.html
+
 # htdocs - css
 #htdocs/css/common.css
 #htdocs/css/default.css
