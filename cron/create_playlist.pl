@@ -17,15 +17,17 @@ use Encode;
 
 # getopt
 Getopt::Std::getopts 't' => my $opt = {};
-# -t: local test mode
 
 my $stash = {};
 
 my $min_short = $stash->{min_short} = 5;
 my $min_full = 3;
-my $base_dir = defined $opt->{t} ? '.' : '/web/mikunopop/htdocs/play/';
-my $output_file_short = file( $base_dir, 'index.html' )->stringify;
-my $output_file_full = file( $base_dir, 'full.html' )->stringify;
+
+my $base_dir = '/web/mikunopop/';
+my $htdocs_dir = file( $base_dir, "htdocs" );
+
+my $output_file_short = file( $htdocs_dir, "play", 'index.html' )->stringify;
+my $output_file_full = file( $htdocs_dir, "play", 'full.html' )->stringify;
 my $template_file = file( $base_dir, "template", "play.html" )->stringify;
 my $uri_list = [
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-',

@@ -17,13 +17,14 @@ use Encode;
 
 # getopt
 Getopt::Std::getopts 't' => my $opt = {};
-# -t: local test mode
 
 my $stash = {};
 
-my $base_dir = defined $opt->{t} ? '.' : '/web/mikunopop/htdocs/jingle/';
+my $base_dir = '/web/mikunopop/';
+my $htdocs_dir = file( $base_dir, "htdocs" );
+
 my $template_file = file( $base_dir, "template", "jingle.html" )->stringify;
-my $output_file = file( $base_dir, 'index.html' )->stringify;
+my $output_file = file( $htdocs_dir, "jingle", 'index.html' )->stringify;
 
 my @jingle = (
 	{
