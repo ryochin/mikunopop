@@ -45,7 +45,7 @@ my @jingle = (
 		video_id => 'sm6939234',
 		vid => '6939234',
 		title => '【ジングル】ミクノポップクエスト【sunlight loops】',
-		author => '？さん',
+		author => 'きぬこもちさん',
 		desc => '勇者あすたあの冒険編。',
 	},
 	{
@@ -59,7 +59,7 @@ my @jingle = (
 		video_id => 'sm7007629',
 		vid => '7007629',
 		title => '【ジングル】音楽が降りてくる【lysosome】',
-		author => '？さん',
+		author => 'きぬこもちさん',
 		desc => 'A*ster「びにゅＰはおれの嫁」kotac「おれの嫁」higumon「おれの」saihane「俺」io「・・・」',
 	},
 	{
@@ -73,7 +73,7 @@ my @jingle = (
 		video_id => 'sm7075450',
 		vid => '7075450',
 		title => '【ジングル】円の中の世界【EN】',
-		author => '? さん',
+		author => 'きぬこもちさん',
 		desc => '',
 	},
 );
