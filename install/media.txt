@@ -23,5 +23,6 @@ htdocs/js/jquery.colorbox.js
 # img
 htdocs/img/favicon.ico
 htdocs/img/music.gif
+htdocs/img/nico_dummy.png
 
 # EOF

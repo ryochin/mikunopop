@@ -28,6 +28,8 @@ my $htdocs_dir = file( $base_dir, "htdocs" );
 
 my $output_file_short = file( $htdocs_dir, "play", 'index.html' )->stringify;
 my $output_file_full = file( $htdocs_dir, "play", 'full.html' )->stringify;
+my $output_file_all = file( $htdocs_dir, "play", 'all.html' )->stringify;
+
 my $template_file = file( $base_dir, "template", "play.html" )->stringify;
 my $uri_list = [
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-',
@@ -86,8 +88,9 @@ for my $line( split /\n/o, $content ){
 	}
 }
 
-my @video_short;    # mikunopop.html
-my @video_full;    # mikunopop_full.html
+my @video_short;
+my @video_full;
+my @video_all;
 for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{id} <=> $video->{$b}->{id} } keys %{ $video } ){
 	
 	# ジングルは飛ばそう
@@ -108,6 +111,9 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	# full
 	push @video_full, $d
 		if $video->{$v}->{num} >= $min_full;
+	
+	# all
+	push @video_all, $d;
 }
 
 ## short
@@ -129,6 +135,17 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 
 	my $template = &create_template;
 	$template->process( $template_file, $stash, $output_file_full, binmode => ':utf8' )
+		or die $template->error;
+}
+
+## all
+{
+	$stash->{video} = [ @video_all ];
+	$stash->{total_video_num} = scalar @{ $stash->{video} };
+	$stash->{is_all} = 1;
+
+	my $template = &create_template;
+	$template->process( $template_file, $stash, $output_file_all, binmode => ':utf8' )
 		or die $template->error;
 }
 
