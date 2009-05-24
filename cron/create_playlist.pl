@@ -20,8 +20,9 @@ Getopt::Std::getopts 't' => my $opt = {};
 
 my $stash = {};
 
-my $min_short = $stash->{min_short} = 5;
+my $min_short = 5;
 my $min_full = 3;
+my $min_all = 1;
 
 my $base_dir = '/web/mikunopop/';
 my $htdocs_dir = file( $base_dir, "htdocs" );
@@ -121,6 +122,7 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	$stash->{video} = [ @video_short ];
 	$stash->{total_video_num} = scalar @{ $stash->{video} };
 	$stash->{is_full} = 0;
+	$stash->{play_count} = $min_short;
 	
 	my $template = &create_template;
 	$template->process( $template_file, $stash, $output_file_short, binmode => ':utf8' )
@@ -132,6 +134,7 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	$stash->{video} = [ @video_full ];
 	$stash->{total_video_num} = scalar @{ $stash->{video} };
 	$stash->{is_full} = 1;
+	$stash->{play_count} = $min_full;
 
 	my $template = &create_template;
 	$template->process( $template_file, $stash, $output_file_full, binmode => ':utf8' )
@@ -143,6 +146,7 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	$stash->{video} = [ @video_all ];
 	$stash->{total_video_num} = scalar @{ $stash->{video} };
 	$stash->{is_all} = 1;
+	$stash->{play_count} = $min_all;
 
 	my $template = &create_template;
 	$template->process( $template_file, $stash, $output_file_all, binmode => ':utf8' )

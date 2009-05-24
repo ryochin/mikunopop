@@ -45,7 +45,7 @@ p {
 	font-size: 92%;
 	line-height: 150%;
 }
-tr.table-desc {
+tr.table-desc td {
 	color: #999;
 	font-size: 85%;
 }
@@ -101,17 +101,15 @@ $(document).ready( function () {
 
 [% BLOCK links %]
 	<p>
+		<span id="show-desc">[クリックで詳しい説明を表示]</span><br />
+		[<a href="/">トップページに戻る</a>]<br />
 		[% IF is_all %]
-			[<a href="/">トップページに戻る</a>]<br />
 			[<a href="./">再生回数ランキング（５回以上）</a>]<br />
 			[<a href="./full.html">再生回数ランキング（３回以上）</a>]
 		[% ELSIF is_full %]
-			[<a href="/">トップページに戻る</a>]<br />
 			[<a href="./">再生回数ランキング（５回以上）</a>]<br />
 			[<a href="./all.html">再生回数ランキング（すべて・閲覧注意）</a>]
 		[% ELSE %]
-			<span id="show-desc">[クリックで詳しい説明を表示]</span><br />
-			[<a href="/">トップページに戻る</a>]<br />
 			[<a href="./full.html">再生回数ランキング（３回以上）</a>]<br />
 			[<a href="./all.html">再生回数ランキング（すべて・閲覧注意）</a>]
 		[% END %]
@@ -128,13 +126,10 @@ $(document).ready( function () {
 
 	<p id="desc" style="display: none">
 		<a href="http://ch.nicovideo.jp/community/co13879" target="_blank">ミクノポップ</a>過去放送ログから、
-			再生回数が [% min_short %] 回以上の曲を、再生回数が多い順（同数なら古い順）に並べています。<br />
+			再生回数が [% play_count %] 回以上の曲を、再生回数が多い順（同数なら古い順）に並べています。<br />
 		日に数回更新。プログラムで自動生成しているので、多少おかしな点があるかも。<br />
 		サムネクリックで詳細を表示、曲名クリックで動画を開くよ。IE だと詳細が閉じないけど、まぁいいか・・。<br />
 		<br />
-		ジングル動画は除くことにしました。(05/10)<br />
-		nm63***** 以降の曲には「流れない曲？」と注を出すことにしました。(05/10)<br />
-		nm が流れるようになったので注を出さないようにしました。(05/14)<br />
 		そろそろ数が多くなってきたので、回数が少ないものは別ページに分けました。(05/16)<br />
 		サムネ画像も縮小してみました。大きいほうがいい？(05/16)<br />
 	</p>
@@ -143,7 +138,7 @@ $(document).ready( function () {
 	
 	<table summary="list">
 		<tr class="table-desc">
-			<td align="center">再生された回数</td>
+			<td align="center" nowrap="nowrap">再生された回数</td>
 			<td align="center">サムネイル</td>
 			<td align="center" width="32">&nbsp;</td>
 			<td align="left">　動画の説明</td>
@@ -186,8 +181,10 @@ $(document).ready( function () {
 				<a href="http://dic.nicovideo.jp/v/[% v.video_id | html %]" target="_blank">
 					<img src="http://res.nicovideo.jp/img/common/icon/dic_on.gif" />
 				</a>
+[% UNLESS is_all %]
 				&nbsp;
 				<img src="http://b.hatena.ne.jp/entry/image/small/http://www.nicovideo.jp/watch/[% v.video_id | html %]" alt="ブックマークユーザ数" valign="bottom" />
+[% END %]
 			</td>
 		</tr>
 		<tr>
