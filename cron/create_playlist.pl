@@ -11,6 +11,8 @@ use Template;
 use DateTime;
 use LWP::Simple qw(get);
 use Getopt::Std;
+use Text::CSV_XS;
+use Compress::Zlib;
 
 use utf8;
 use Encode;
@@ -30,6 +32,7 @@ my $htdocs_dir = file( $base_dir, "htdocs" );
 my $output_file_short = file( $htdocs_dir, "play", 'index.html' )->stringify;
 my $output_file_full = file( $htdocs_dir, "play", 'full.html' )->stringify;
 my $output_file_all = file( $htdocs_dir, "play", 'all.html' )->stringify;
+my $output_file_csv = file( $htdocs_dir, "play", 'all.csv.gz' )->stringify;
 
 my $template_file = file( $base_dir, "template", "play.html" )->stringify;
 my $uri_list = [
@@ -98,8 +101,8 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	next if scalar( first { $v eq $_ } @jingle );
 	
 	my $d = {
-		video_id => $v,
-		vid => $video->{$v}->{id},
+		video_id => $v,    # sm1234567
+		vid => $video->{$v}->{id},    # 1234567
 		title => scalar( $video->{$v}->{title} || q/不明/ ),
 		view => $video->{$v}->{num},    # 再生数
 #		is_jingle => scalar( first { $v eq $_ } @jingle ),
@@ -151,6 +154,21 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	my $template = &create_template;
 	$template->process( $template_file, $stash, $output_file_all, binmode => ':utf8' )
 		or die $template->error;
+}
+
+# all tsv
+{
+	my $csv = Text::CSV_XS->new( { binary => 1 } );
+	my @csv;
+	for my $v( @video_all ){
+#		push @tsv, join "\t", map { Encode::encode('sjis', $_) } @{$v}{qw(view video_id title)};
+		$csv->combine( map { Encode::encode('sjis', $_) } @{$v}{qw(view video_id title)} );
+		push @csv, $csv->string;
+	}
+
+	my $fh = file( $output_file_csv )->openw or die $!;
+	$fh->print( Compress::Zlib::memGzip( join "\r\n", @csv ) );
+	$fh->close;
 }
 
 exit 0;
