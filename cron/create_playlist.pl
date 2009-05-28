@@ -65,12 +65,17 @@ for my $line( split /\n/o, $content ){
 #	$line = Encode::decode_utf8( $line );
 	$line = CGI::unescapeHTML( $line );
 	
+	my $seen = {};
 	for my $data( split m{<br>}, $line ){
 		next if $data !~ /^(sm|nm)[0-9]{7,8}/o;
 		
 		my ($n, $title) = unpack "A9 A*", $data;
 		$title = Encode::decode_utf8( $title );
 		$title =~ s/^[　\s\t]+//o;
+		
+		# duplicate check
+		next if defined $seen->{ $n };
+		$seen->{ $n } = 1;
 		
 		( my $id = $n ) =~ s/^(sm|nm)+//o;
 		
@@ -105,7 +110,6 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 		vid => $video->{$v}->{id},    # 1234567
 		title => scalar( $video->{$v}->{title} || q/不明/ ),
 		view => $video->{$v}->{num},    # 再生数
-#		is_jingle => scalar( first { $v eq $_ } @jingle ),
 	};
 	
 	# short
@@ -130,6 +134,8 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	my $template = &create_template;
 	$template->process( $template_file, $stash, $output_file_short, binmode => ':utf8' )
 		or die $template->error;
+	
+	printf STDERR "%d: %d videos\n", $min_short, scalar @video_short;
 }
 
 ## full
@@ -142,6 +148,8 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	my $template = &create_template;
 	$template->process( $template_file, $stash, $output_file_full, binmode => ':utf8' )
 		or die $template->error;
+	
+	printf STDERR "%d: %d videos\n", $min_full, scalar @video_full;
 }
 
 ## all
@@ -154,6 +162,8 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	my $template = &create_template;
 	$template->process( $template_file, $stash, $output_file_all, binmode => ':utf8' )
 		or die $template->error;
+	
+	printf STDERR "%d: %d videos\n", $min_all, scalar @video_all;
 }
 
 # all tsv
@@ -161,7 +171,6 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	my $csv = Text::CSV_XS->new( { binary => 1 } );
 	my @csv;
 	for my $v( @video_all ){
-#		push @tsv, join "\t", map { Encode::encode('sjis', $_) } @{$v}{qw(view video_id title)};
 		$csv->combine( map { Encode::encode('sjis', $_) } @{$v}{qw(view video_id title)} );
 		push @csv, $csv->string;
 	}
