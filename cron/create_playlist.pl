@@ -36,7 +36,8 @@ my $output_file_csv = file( $htdocs_dir, "play", 'all.csv.gz' )->stringify;
 
 my $template_file = file( $base_dir, "template", "play.html" )->stringify;
 my $uri_list = [
-	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-',
+	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-400',
+	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1243754024/2-',
 ];
 
 my @jingle = qw(
