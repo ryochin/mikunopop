@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*
+* [Fumi2 Project]
+* 
+* $Id$
+* 
+*/
+
+body {
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	line-height: 1.22;    /* from YUI: Default line-height based on font-size rather than "computed-value" : ( but now 'em' removed experimentally ) */
+	font-size: 13px;
+	*font-size: small;    /* for IE6/7 quirks mode */
+	*font: x-small;    /* for IE6/7 quirks mode */
+}
+
+/* html, body, div, dl, dt, dd, ul, ol, li, */
+html, body, div,
+h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, input, textarea,
+p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	font-size: inherit;
+	font-size: 100%;
+/*	border-collapse: collapse; */
+/*	border-spacing: 0;  */
+}
+
+pre, code {    /* IE to get to 13px equivalent */
+	font-size: 115%;
+	font-family: monospace;
+	*font-size: 100%;
+}
+
+select, input, textarea {    /* for Safari */
+	font-size: 99%;
+}
+
+img {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: text-bottom;
+}
+
+img, input {
+	vertical-align: middle;
+}
+
+div, p, blockquote, pre {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	border: none;
+}
+
+/* EOF */

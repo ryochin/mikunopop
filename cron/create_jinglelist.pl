@@ -32,6 +32,7 @@ my @jingle = (
 		vid => '6789292',
 		title => '【初音ミク】近未来ラジオ【ジングル用】',
 		author => 'ぎんさん',
+		length => '1:55',
 		desc => 'ジングルその１。すべてはここから始まった！',
 	},
 	{
@@ -39,6 +40,7 @@ my @jingle = (
 		vid => '6789315',
 		title => '【初音ミク】近未来ラジオ【ジングル用】',
 		author => 'ぎんさん',
+		length => '1:50',
 		desc => 'ジングルその２。',
 	},
 	{
@@ -46,6 +48,7 @@ my @jingle = (
 		vid => '6939234',
 		title => '【ジングル】ミクノポップクエスト【sunlight loops】',
 		author => 'きぬこもちさん',
+		length => '2:22',
 		desc => '勇者あすたあの冒険編。',
 	},
 	{
@@ -53,6 +56,7 @@ my @jingle = (
 		vid => '6981084',
 		title => '【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】',
 		author => '？さん',
+		length => '1:47',
 		desc => '',
 	},
 	{
@@ -61,12 +65,14 @@ my @jingle = (
 		title => '【ジングル】音楽が降りてくる【lysosome】',
 		author => 'きぬこもちさん',
 		desc => 'A*ster「びにゅＰはおれの嫁」kotac「おれの嫁」higumon「おれの」saihane「俺」io「・・・」',
+		length => '2:08',
 	},
 	{
 		video_id => 'sm7033805',
 		vid => '7033805',
 		title => '【ジングル】ミクノポップをきかないか？【Freestyle ver】',
 		author => 'aoid さん',
+		length => '1:56',
 		desc => '',
 	},
 	{
@@ -74,6 +80,7 @@ my @jingle = (
 		vid => '7075450',
 		title => '【ジングル】円の中の世界【EN】',
 		author => 'きぬこもちさん',
+		length => '2:48',
 		desc => '',
 	},
 );

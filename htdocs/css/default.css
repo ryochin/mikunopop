@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* main */
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #eee;
+	background: #333;
+	margin: 0;
+	padding: 0;
+	zoom: 1;    /* for IE7 bug */
+	line-height: 135%;
+}
+
+a:link {
+	color: #eef;
+/*	text-decoration: underline;*/
+}
+
+a:visited {
+	color: #eef;
+/*	text-decoration: underline;*/
+}
+
+a:active {
+	color: #ffe;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #ffe;
+	text-decoration: underline;
+}
+
+img {
+	border: 0;
+}
+
+img.pngfix {
+	behavior: url(/css/iepngfix.htc);
+}
+
+td {
+	padding: 2px;
+}
+
+textarea {
+	background: #fcfcfc;
+	padding: 2px;
+}
+
+ul, li {
+	line-height: 150%;
+}
+
+/** structure **/
+
+div#container {
+	text-align: left;
+	margin: 1em;
+}
+div#header {
+	height: 70px;
+	margin: 0;
+}
+
+/** headings **/
+
+h1 {
+	width: 700px;
+	font-size: 122%;
+	font-weight : bold;
+	text-decoration: none;
+	padding: 4px 8px;
+	margin: 6px 8px 8px 8px;
+	color: #eee;
+	background: #666;
+	border: 1px #ccc solid;
+	border-left: 5px #fee solid;
+}
+
+h2 {
+	width: 700px;
+	font-size: 114%;
+	font-weight : bold;
+	text-decoration: none;
+	padding: 4px 8px;
+	margin: 6px 8px 8px 8px;
+	color: #eee;
+	background: #666;
+	border: 1px #ccc solid;
+	border-left: 5px #fee solid;
+}
+
+h3 {
+	font-size: 107%;
+	font-weight : normal;
+	text-decoration: none;
+	padding: 2px 8px;
+	margin: 6px 14px;
+	color: #eee;
+	border-left: 5px #fee solid;
+	clear: left;
+}
+
+/* common */
+
+p {
+	margin: 0.5em 2em;
+	font-size: 92%;
+	line-height: 150%;
+}
+
+span.dim {
+	color: #aaa;
+}
+
+/* EOF */
