@@ -1,7 +1,5 @@
 # [Mikunopop Project]
 # 
-# $URL: svn+ssh://ryo@aquahill.net/home/ryo/svn/fumi2/trunk/cron/crontab.txt $
-# $Id: crontab.txt 224 2009-05-10 23:34:04Z ryo $
 
 # ------------------------------------------------
 #  Mikunopop

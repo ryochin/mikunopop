@@ -1,7 +1,5 @@
 # [Mikunopop Project]
 # 
-# $URL: svn+ssh://ryo@aquahill.net/home/ryo/svn/fumi2/trunk/Makefile $
-# $Id: Makefile 223 2009-05-02 02:29:26Z ryo $
 
 PROJECT = mikunopop
 BASE = /web/$(PROJECT)

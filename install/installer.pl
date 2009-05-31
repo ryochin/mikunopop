@@ -1,8 +1,6 @@
 #!/usr/bin/perl --
 # [Mikunopop Project]
 # 
-# $URL: svn+ssh://ryo@aquahill.net/home/ryo/svn/fumi2/trunk/install/installer.pl $
-# $Id: installer.pl 175 2008-12-10 08:04:39Z ryo $
 
 use 5.008;
 use strict;
