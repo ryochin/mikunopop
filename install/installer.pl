@@ -153,9 +153,9 @@ sub install_file {
 		printf "=> mkdir %s .. ", $dir if $debug;
 		unless( eval { File::Path::mkpath $dir } ){
 			print " ($!)" if $debug;
+			$failed++;
 		}
 		print "\n" if $debug;
-		$failed++;
 	}
 
 	printf "=> copying %s -> %s ", $from, $to if $debug;
