@@ -53,26 +53,45 @@ my @jingle = qw(
 my $content;
 for my $uri( @{ $uri_list } ){
 	if( my $c = get( $uri ) ){
+		printf STDERR "uri: %s: ok.\n", $uri;
 		$content .= Encode::decode( 'euc-jp', $c );
 	}
+	else{
+		printf STDERR "uri: %s: failed.\n", $uri;
+	}
+	sleep 1;
 }
 
 $stash->{date} = DateTime->now( time_zone => 'Asia/Tokyo' );
 
+my $ignore = {};    # vid => num
 my $video = {};
 for my $line( split /\n/o, $content ){
 	next if $line !~ /<dt>/o;
 	chomp $line;
-#	$line = Encode::decode_utf8( $line );
 	$line = CGI::unescapeHTML( $line );
 	
 	my $seen = {};
 	for my $data( split m{<br>}, $line ){
-		next if $data !~ /^(sm|nm)[0-9]{7,8}/o;
+		next if $data !~ /^\s*?[\-]*?\s*?(sm|nm)[0-9]{7,8}/o;
 		
-		my ($n, $title) = unpack "A9 A*", $data;
-		$title = Encode::decode_utf8( $title );
-		$title =~ s/^[　\s\t]+//o;
+		$data =~ s/^\s+//o;
+		
+		my $ok = $data =~ s/^[\-]+\s*//o
+			? 0
+			: 1;
+		
+		# まず空白で切ってみる
+		my ($n, $title) = split /[\s\t　]+/o, $data, 2;
+		
+		# 初期のログには空白で区切られていないものがあるので特別に処理する
+		if( $n !~ /^(sm|nm)[0-9]{7,8}$/o ){
+			($n, $title) = unpack "A9 A*", $data;
+		}
+		
+		if( not $ok ){
+			$ignore->{ $n }++;
+		}
 		
 		# duplicate check
 		next if defined $seen->{ $n };
@@ -80,7 +99,14 @@ for my $line( split /\n/o, $content ){
 		
 		( my $id = $n ) =~ s/^(sm|nm)+//o;
 		
-		$video->{ $n }->{num}++;
+		if( $ok ){
+			$video->{ $n }->{num}++;
+		}
+		else{
+			$video->{ $n }->{num}--;
+			next;
+		}
+		
 		$video->{ $n }->{id} ||= $id;
 		
 		# title
@@ -98,10 +124,14 @@ for my $line( split /\n/o, $content ){
 	}
 }
 
+printf STDERR "ignore: %d videos\n", scalar keys %{ $ignore };
+
 my @video_short;
 my @video_full;
 my @video_all;
 for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{id} <=> $video->{$b}->{id} } keys %{ $video } ){
+	# 再生数が０なら飛ばそう
+	next if $video->{$v}->{num} < 1;
 	
 	# ジングルは飛ばそう
 	next if scalar( first { $v eq $_ } @jingle );
@@ -205,7 +235,7 @@ sub create_template {
 }
 
 sub usage {
-	*STDOUT->printf("usage: %s <html file>\n", File::Basename::basename( $0 ));
+	*STDOUT->printf("usage: %s\n", File::Basename::basename( $0 ));
 	exit 1;
 }
 
