@@ -32,4 +32,7 @@ htdocs/img/favicon.ico
 htdocs/img/music.gif
 htdocs/img/nico_dummy.png
 
+htdocs/img/aircaster/higumon.jpg
+htdocs/img/aircaster/saihane.png
+
 # EOF
