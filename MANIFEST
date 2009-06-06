@@ -4,9 +4,12 @@ cron/create_jinglelist.pl
 cron/create_playlist.pl
 cron/crontab.txt
 htdocs/aircaster/index.html
+htdocs/commentlog/1000.html
 htdocs/css/colorbox.css
 htdocs/css/common.css
 htdocs/css/default.css
+htdocs/img/aircaster/higumon.jpg
+htdocs/img/aircaster/saihane.png
 htdocs/img/favicon.ico
 htdocs/img/music.gif
 htdocs/img/nico_dummy.png
