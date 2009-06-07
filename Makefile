@@ -18,3 +18,6 @@ manifest::
 	find . -not -type dl -not -name '\.DS_*' | egrep -v  '\.(svn|git)' | egrep '^[a-zA-Z0-9-/_.]+$$' \
 	| egrep -v '^\.$$' | sed -e 's!^./!!g' | sort > ./MANIFEST
 
+xmllint:
+	find ./htdocs/ -name '*html' | xargs xmllint --html --noout
+
