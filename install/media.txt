@@ -26,6 +26,7 @@ htdocs/css/colorbox.css
 #htdocs/js/base.js
 
 htdocs/js/jquery.colorbox.js
+htdocs/js/jquery.tooltip.js
 
 # img
 htdocs/img/favicon.ico
