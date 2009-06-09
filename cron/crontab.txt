@@ -10,5 +10,7 @@
 # playlist
 44 */4 * * * /bin/nice -10 /usr/bin/perl /web/mikunopop/cron/create_playlist.pl > /dev/null 2>&1
 
+# live status
+*/3 * * * * /bin/nice -10 /usr/bin/perl /web/mikunopop/cron/check_live_status.pl > /dev/null 2>&1
 
 # EOF

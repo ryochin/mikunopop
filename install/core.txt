@@ -13,6 +13,7 @@ Makefile
 # cron
 cron/create_playlist.pl
 cron/create_jinglelist.pl
+cron/check_live_status.pl
 
 # template
 template/play.html

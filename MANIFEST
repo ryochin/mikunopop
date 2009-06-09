@@ -1,5 +1,6 @@
 MANIFEST
 Makefile
+cron/check_live_status.pl
 cron/create_jinglelist.pl
 cron/create_playlist.pl
 cron/crontab.txt
@@ -15,6 +16,8 @@ htdocs/img/music.gif
 htdocs/img/nico_dummy.png
 htdocs/index.html
 htdocs/js/jquery.colorbox.js
+htdocs/js/jquery.tooltip.js
+htdocs/js/live.js
 htdocs/manage/index.html
 htdocs/manual/index.html
 htdocs/manual/memo.html
