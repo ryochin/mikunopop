@@ -1,7 +1,6 @@
 //
 
 var min = 2;    // per min
-var min_disp = '５';
 var is_first = 1;
 
 function loadLive(once) {
@@ -9,16 +8,19 @@ function loadLive(once) {
 		loadLiveMain(once);
 	}
 	else{
-		$('#update').text("更新しています・・");
+		$('#update').text("[状況] 情報を更新しています・・");
 		setTimeout( "loadLiveMain(" + once + ")", 2000 );
 	}
 }
 
 var flag = 0;
 function loadLiveMain(once) {
+	var d = new Date;
+	var epoch = parseInt( d.getTime() / 1000, 10);
+	
 	// get
 	$.ajax( {
-		url: "/var/live_status.js",
+		url: "/var/live_status.js?" + epoch,
 		dataType: "json",
 		success: function (result, status) {
 			if( result.status === 1 ){
@@ -43,7 +45,7 @@ function loadLiveMain(once) {
 			}
 		},
 		error: function (req, status, error) {
-			$('#update').html("！　情報を取得できませんでした orz");
+			$('#update').html("[状況] ！ 情報を取得できませんでした orz");
 		}
 	} );
 
