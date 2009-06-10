@@ -16,6 +16,7 @@ htdocs/img/music.gif
 htdocs/img/nico_dummy.png
 htdocs/index.html
 htdocs/js/jquery.colorbox.js
+htdocs/js/jquery.cookie.js
 htdocs/js/jquery.tooltip.js
 htdocs/js/live.js
 htdocs/manage/index.html
