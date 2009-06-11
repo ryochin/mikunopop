@@ -18,5 +18,6 @@ cron/check_live_status.pl
 # template
 template/play.html
 template/jingle.html
+template/comment.html
 
 # EOF

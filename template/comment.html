@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja-JP" xml:lang="ja-JP" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rev="made" href="mailto:webmaster&#64;example.com" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="stylesheet" type="text/css" media="screen,projection,tv,print" href="/css/common.css" charset="utf-8" />
+<link rel="stylesheet" type="text/css" media="screen,projection,tv,print" href="/css/default.css" charset="utf-8" />
+<link rel="stylesheet" type="text/css" media="screen,projection,tv,print" href="/css/comment.css" charset="utf-8" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
+<script src="/js/jquery.tooltip.js" type="text/javascript"></script>
+<meta name="robots" content="noindex,nofollow" />
+<title>[% title | html %] コメント履歴</title>
+<style type="text/css">
+
+</style>
+<script type="text/javascript">
+<!--// <![CDATA[
+
+$(document).ready( function () {
+	$('a.video').tooltip({ 
+		track: true,
+		delay: 200,
+		showURL: false
+	});     
+} );
+
+// ]]> -->
+</script>
+</head>
+<body>
+
+<div id="container">
+
+	<h1>[% title | html %] コメント履歴</h1>
+	
+	<p>
+		[<a href="/">トップページに戻る</a>]<br />
+	</p>
+
+	<ul>
+		<li>開始：[% start.strftime("%Y年%m月%d日 %H時") | html %]</li>
+		<li>放送者：[% aircaster | html %]</li>
+		<li>枠：[% frame | html %] 枠</li>
+		<li>
+			[% IF prev_page %]
+			← <a href="[% prev_page_url | url | html %]">Part. [% prev_page | html %]</a>
+			[% END %]
+			&nbsp;
+			[% IF next_page %]
+			<a href="[% next_page_url | url | html %]">Part. [% next_page | html %]</a> →
+			[% END %]
+		</li>
+	</ul>
+
+	<div>
+		<table class="comment" summary="comment log">
+			<tr>
+				<th>日時</th>
+				<th>コメント</th>
+				<th>コメ番</th>
+			</tr>
+[% FOR c = content %]
+[% IF c.is_odd %]
+			<tr class="odd">
+[% ELSE %]
+			<tr class="even">
+[% END %]
+				<td nowrap="nowrap">[% c.date | html %]</td>
+[% IF c.is_admin %]
+				<td class="aircaster">[% c.comment # raw %]</td>
+[% ELSE %]
+				<td>[% c.comment # raw %]</td>
+[% END %]
+				<td>[% c.no | html %]</td>
+			</tr>
+[% END %]
+		</table>
+	</div>
+	
+	<h2>戻る</h2>
+
+	<p>
+		[<a href="/">トップページに戻る</a>]<br />
+	</p>
+</div>
+
+</body>
+</html>
+

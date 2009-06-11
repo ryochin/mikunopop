@@ -19,6 +19,7 @@ htdocs/manage/index.html
 # htdocs - css
 htdocs/css/common.css
 htdocs/css/default.css
+htdocs/css/comment.css
 
 htdocs/css/colorbox.css
 

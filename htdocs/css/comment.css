@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+table.comment a:link {
+	color: #3333cc;
+}
+table {
+	width: 96%;
+}
+td {
+	cellpadding: 4px;
+	cellspacing: 4px;
+}
+td {
+	padding: 2px;
+	color: #333;
+}
+tr.odd {
+	background: #e3e3e3;
+}
+tr.even {
+	background: #eee;
+}
+td.aircaster {
+	color: #f34600;
+}
+
+/* EOF */
