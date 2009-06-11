@@ -5,7 +5,7 @@ content:
     comment: ■【初音ミク】[Continue]-2面【オリジナル】 ■P名?
     date: 2009/06/10 18:16:43
     is_admin: 1
-    is_odd: 0
+    is_odd: 1
     "no": 2
   - 
     comment: ■2009.05.10 時/3:01 再/188 コ/6 マ/10 (5.32%)
@@ -41,25 +41,25 @@ content:
     comment: ■2008.07.31 時/3:50 再/101653 コ/2704 マ/5020 (4.94%)
     date: 2009/06/10 18:19:49
     is_admin: 1
-    is_odd: 0
+    is_odd: 1
     "no": 10
   - 
     comment: sm6123519
     date: 2009/06/10 18:21:04
     is_admin: 0
-    is_odd: 1
+    is_odd: 0
     "no": 11
   - 
     comment: リクあり～
     date: 2009/06/10 18:22:35
     is_admin: 1
-    is_odd: 0
+    is_odd: 1
     "no": 12
   - 
     comment: ■【重音テト×巡音ルカ】mistake【オリジナル】 ■いるーP
     date: 2009/06/10 18:23:41
     is_admin: 1
-    is_odd: 1
+    is_odd: 0
     "no": 13
   - 
     comment: ■2009.02.12 時/2:53 再/1207 コ/46 マ/40 (3.31%)
@@ -89,25 +89,25 @@ content:
     comment: ■2009.05.25 時/3:33 再/4324 コ/109 マ/468 (10.82%)
     date: 2009/06/10 18:26:44
     is_admin: 1
-    is_odd: 0
+    is_odd: 1
     "no": 20
   - 
     comment: いいわぁ･･･♪
     date: 2009/06/10 18:28:55
     is_admin: 0
-    is_odd: 1
+    is_odd: 0
     "no": 21
   - 
     comment: 清く正しすぎる。
     date: 2009/06/10 18:30:03
     is_admin: 1
-    is_odd: 0
+    is_odd: 1
     "no": 22
   - 
     comment: ■【初音ミク】Imitate Snow【オリジナル】 ■P名?
     date: 2009/06/10 18:30:18
     is_admin: 1
-    is_odd: 1
+    is_odd: 0
     "no": 23
   - 
     comment: ■2009.05.19 時/4:58 再/562 コ/25 マ/40 (7.12%)
@@ -173,37 +173,37 @@ content:
     comment: ■2009.05.23 時/4:41 再/6772 コ/119 マ/571 (8.43%)
     date: 2009/06/10 18:35:25
     is_admin: 1
-    is_odd: 0
+    is_odd: 1
     "no": 36
   - 
     comment: 50分からかぁ…重くなりそうだね
     date: 2009/06/10 18:36:18
     is_admin: 0
-    is_odd: 1
+    is_odd: 0
     "no": 37
   - 
     comment: まぁ、話題振ったのだが、見に行かないんだけど
     date: 2009/06/10 18:39:09
     is_admin: 0
-    is_odd: 0
+    is_odd: 1
     "no": 38
   - 
     comment: U-skePの曲って面白いね、曲はR＆Bなのにミクの声がテクノっぽいw
     date: 2009/06/10 18:39:12
     is_admin: 0
-    is_odd: 1
+    is_odd: 0
     "no": 39
   - 
     comment: U-skeＰ大好き
     date: 2009/06/10 18:40:01
     is_admin: 1
-    is_odd: 0
+    is_odd: 1
     "no": 40
   - 
     comment: ■☆★初音ミクオリジナル曲　「Happy Star!!」★ ■P名?
     date: 2009/06/10 18:40:11
     is_admin: 1
-    is_odd: 1
+    is_odd: 0
     "no": 41
   - 
     comment: ■2009.05.19 時/1:47 再/738 コ/102 マ/14 (1.90%)
@@ -239,19 +239,19 @@ content:
     comment: じゃね～ﾉｼ
     date: 2009/06/10 18:42:59
     is_admin: 1
-    is_odd: 1
+    is_odd: 0
     "no": 49
   - 
     comment: ノシ
     date: 2009/06/10 18:43:16
     is_admin: 0
-    is_odd: 0
+    is_odd: 1
     "no": 50
   - 
     comment: 主・・・・見にいったなｗ
     date: 2009/06/10 18:43:37
     is_admin: 0
-    is_odd: 1
+    is_odd: 0
     "no": 51
 frame: 1
 part: 1047

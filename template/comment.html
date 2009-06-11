@@ -39,6 +39,7 @@ $(document).ready( function () {
 	
 	<p>
 		[<a href="/">トップページに戻る</a>]<br />
+		[<a href="/comment/">コメント履歴一覧に戻る</a>]<br />
 	</p>
 
 	<ul>
@@ -72,6 +73,8 @@ $(document).ready( function () {
 				<td nowrap="nowrap">[% c.date | html %]</td>
 [% IF c.is_admin %]
 				<td class="aircaster">[% c.comment # raw %]</td>
+[% ELSIF c.is_hidden %]
+				<td class="hidden">[% c.comment # raw %]</td>
 [% ELSE %]
 				<td>[% c.comment # raw %]</td>
 [% END %]
@@ -85,6 +88,7 @@ $(document).ready( function () {
 
 	<p>
 		[<a href="/">トップページに戻る</a>]<br />
+		[<a href="/comment/">コメント履歴一覧に戻る</a>]<br />
 	</p>
 </div>
 

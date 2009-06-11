@@ -21,3 +21,5 @@ manifest::
 xmllint:
 	find ./htdocs/ -name '*html' | xargs xmllint --html --noout
 
+rsync-htdocs:
+	rsync -avz ./htdocs/ diana:/web/mikunopop/htdocs/

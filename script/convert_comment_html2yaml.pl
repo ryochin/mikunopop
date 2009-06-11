@@ -50,13 +50,25 @@ if( $content =~ m{<h2><strong><a href="http://www.nicovideo.jp/my" id="myname">(
 }
 
 my @content;
-$content =~ s{<tr class="(odd|even)".*?>.+?<td nowrap>([\d\/\s\:]+?)</td>.+?<td.+?( style="color:#ff4d00")*>([^<>]+?)</td>.+?<td>(\d+)</td>}{
+my $cnt = 0;
+$content =~ s{<tr class="(odd|even)".*?>.+?<td nowrap>([\d\/\s\:]+?)</td>.+?<td.+?( style="color:\#([\w\d]+)")*>([^<>]+?)</td>.+?<td>(\d+)</td>}{
+	my $is_admin = 0;
+	my $is_hidden = 0;
+	if( my $color = $4 ){
+		if( $color eq 'aaa' ){
+			$is_hidden = 1;
+		}
+		else{
+			$is_admin = 1;
+		}
+	}
 	push @content, {
 		date => $2,
-		is_admin => scalar( ( defined $3 and length $3 > 5 ) ? 1 : 0 ),
-		comment => CGI::unescapeHTML( $4 ),
-		no => $5,
-		is_odd => scalar( $5 % 2 ),
+		is_admin => $is_admin,
+		is_hidden => $is_hidden,
+		comment => CGI::unescapeHTML( $5 ),
+		no => $6,
+		is_odd => scalar( ++$cnt % 2 ),
 	};
 }egos;
 

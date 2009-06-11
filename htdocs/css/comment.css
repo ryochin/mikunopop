@@ -23,5 +23,8 @@ tr.even {
 td.aircaster {
 	color: #f34600;
 }
+td.hidden {
+	color: #aaaaaa;
+}
 
 /* EOF */
