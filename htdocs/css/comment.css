@@ -3,27 +3,27 @@
 table.comment a:link {
 	color: #3333cc;
 }
-table {
+table.comment {
 	width: 96%;
 }
-td {
+table.comment td {
 	cellpadding: 4px;
 	cellspacing: 4px;
 }
-td {
+table.comment td {
 	padding: 2px;
 	color: #333;
 }
-tr.odd {
+table.comment tr.odd {
 	background: #e3e3e3;
 }
-tr.even {
+table.comment tr.even {
 	background: #eee;
 }
-td.aircaster {
+table.comment td.aircaster {
 	color: #f34600;
 }
-td.hidden {
+table.comment td.hidden {
 	color: #aaaaaa;
 }
 

@@ -52,6 +52,7 @@ for my $no( 1 .. max keys %{ $list } ){
 		no => $no,
 		path => $path,
 		start => DateTime->from_epoch( epoch => $db->{start}, time_zone => 'local' ),
+		aircaster => $db->{aircaster},
 	};
 }
 

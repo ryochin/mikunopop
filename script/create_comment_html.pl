@@ -76,7 +76,7 @@ for my $no( 1 .. $page->last_page ){
 	# コメント整形
 	for my $content( @{ $stash->{content} } ){
 		$content->{comment} = CGI::escapeHTML( $content->{comment} );
-		$content->{comment} =~ s{((sm|nm)[0-9]+)}{<a href="http://www.nicovideo.jp/watch/$1" target="_blank" class="video" title="&lt;img src=&quot;http://niconail.info/$1&quot; /&gt;">$1</a>}go;
+		$content->{comment} =~ s{((sm|nm)[0-9]{7,})}{<a href="http://www.nicovideo.jp/watch/$1" target="_blank" class="video" title="&lt;img src=&quot;http://niconail.info/$1&quot; /&gt;">$1</a>}go;
 	}
 	
 	# start

@@ -82,6 +82,19 @@ $(document).ready( function () {
 			</tr>
 [% END %]
 		</table>
+		<br />
+		
+		<ul>
+			<li>
+				[% IF prev_page %]
+				← <a href="[% prev_page_url | url | html %]">Part. [% prev_page | html %]</a>
+				[% END %]
+				&nbsp;
+				[% IF next_page %]
+				<a href="[% next_page_url | url | html %]">Part. [% next_page | html %]</a> →
+				[% END %]
+			</li>
+		</ul>
 	</div>
 	
 	<h2>戻る</h2>
