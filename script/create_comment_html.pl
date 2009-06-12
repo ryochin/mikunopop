@@ -29,7 +29,6 @@ my $base_dir = $opt->{b} || '../';
 my $yaml_dir = dir( $base_dir, 'var', 'comment' )->cleanup;
 my $template_file = file( $base_dir, 'template', 'comment.html' );
 
-#warn $yaml_dir;
 my $list = {};    # no => file obj
 while ( my $dir = $yaml_dir->next) {
 	next if not $dir->is_dir;
