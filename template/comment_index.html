@@ -38,10 +38,17 @@ table {
 
 	<div class="comment">
 		<table summary="comment log list">
+			<tr>
+				<td align="center">Part</td>
+				<td align="center">放送主</td>
+				<td align="center">枠数</td>
+				<td align="center">放送開始時刻</td>
+			</tr>
 [% FOR l = live %]
 			<tr>
 				<td align="center"><a href="[% l.path | url | html %]">Part. [% l.no | html %]</a></td>
 				<td align="center">[% l.aircaster | html %]</td>
+				<td align="center">[% l.frame | html %]</td>
 				<td align="center">[% l.start.strftime("%Y年%m月%d日 %H時") | html %]</td>
 			</tr>
 [% END %]
