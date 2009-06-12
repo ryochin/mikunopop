@@ -37,7 +37,7 @@ for my $file( @file ){
 my $db = {};
 
 # title
-if( $content =~ m{<h3 class="title"><strong>([^<>]+?)</strong>}o ){
+if( $content =~ m{<h3 class="title"><strong>([^<>]+?)</strong>}io ){
 	$db->{title} = CGI::unescapeHTML( $1 );
 	if( $db->{title} =~ m{(\d+)}io ){
 		$db->{part} = $1;
@@ -45,32 +45,35 @@ if( $content =~ m{<h3 class="title"><strong>([^<>]+?)</strong>}o ){
 }
 
 # admin
-if( $content =~ m{<h2><strong><a href="http://www.nicovideo.jp/my" id="myname">([^<>]+?)</a>}o ){
+if( $content =~ m{<h2><strong><a href="http://www.nicovideo.jp/my" id="myname">([^<>]+?)</a>}io ){
 	$db->{aircaster} = CGI::unescapeHTML( $1 );
 }
 
 my @content;
 my $cnt = 0;
-$content =~ s{<tr class="(odd|even)".*?>.+?<td nowrap>([\d\/\s\:]+?)</td>.+?<td.+?( style="color:\#([\w\d]+)")*>([^<>]+?)</td>.+?<td>(\d+)</td>}{
-	my $is_admin = 0;
-	my $is_hidden = 0;
-	if( my $color = $4 ){
-		if( $color eq 'aaa' ){
-			$is_hidden = 1;
+for my $chunk( split m{</tr>}io, $content ){
+	$chunk =~ s{<tr class="(odd|even)".*?>.+?<td nowrap.*>([\d\/\s\:]+?)</td>.+?<td.+?( style="color:\#([\w\d]+)")*>([^<>]+?)</td>.+?<td>(\d+)</td>}{
+		my $is_admin = 0;
+		my $is_hidden = 0;
+		if( my $color = $4 ){
+			if( $color eq 'aaa' ){
+				$is_hidden = 1;
+			}
+			else{
+				$is_admin = 1;
+			}
 		}
-		else{
-			$is_admin = 1;
-		}
-	}
-	push @content, {
-		date => $2,
-		is_admin => $is_admin,
-		is_hidden => $is_hidden,
-		comment => CGI::unescapeHTML( $5 ),
-		no => $6,
-		is_odd => scalar( ++$cnt % 2 ),
-	};
-}egos;
+		warn $6;
+		push @content, {
+			date => $2,
+			is_admin => $is_admin,
+			is_hidden => $is_hidden,
+			comment => CGI::unescapeHTML( $5 ),
+			no => $6,
+			is_odd => scalar( ++$cnt % 2 ),
+		};
+	}egios;
+}
 
 # sort
 @content = sort { $a->{no} <=> $b->{no} } @content;
@@ -114,3 +117,14 @@ __END__
 								<td  width="100%" style="color:#ff4d00">■【初音ミク】[Continue]-2面【オリジナル】 ■P名?</td> 
 								<td>2</td>
 			</tr>
+
+					<TR class="even" style="background-color:#DDD">
+				<TD nowrap="">2009/06/05 00:29:29</TD>
+								<TD width="100&percnt;">長時間乙でした～</TD>
+								<TD>1884</TD>
+			</TR>
+					<TR class="odd">
+				<TD nowrap="">2009/06/05 00:29:34</TD>
+								<TD width="100&percnt;" style="color:#ff4d00">では、みんさんありがとうございました～</TD> 
+								<TD>1885</TD>
+			</TR>

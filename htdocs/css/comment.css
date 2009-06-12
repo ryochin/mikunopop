@@ -4,13 +4,12 @@ table.comment a:link {
 	color: #3333cc;
 }
 table.comment {
-	width: 96%;
+	width: 90%;
+	margin: 1em 3em;
 }
 table.comment td {
 	cellpadding: 4px;
 	cellspacing: 4px;
-}
-table.comment td {
 	padding: 2px;
 	color: #333;
 }
