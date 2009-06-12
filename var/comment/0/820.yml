@@ -247,9 +247,9 @@ content:
     is_odd: 1
     "no": 41
   - 
-    comment: 42
-    date: 2009/05/20 13:19:49
-    is_admin: 0
+    comment: 「訓練」というのが誤報である可能性もあるけど
+    date: 2009/05/20 13:20:33
+    is_admin: 1
     is_hidden: 0
     is_odd: 0
     "no": 43

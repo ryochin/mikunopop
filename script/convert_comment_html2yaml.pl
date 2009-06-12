@@ -63,12 +63,12 @@ for my $chunk( split m{</tr>}io, $content ){
 				$is_admin = 1;
 			}
 		}
-		warn $6;
 		push @content, {
 			date => $2,
 			is_admin => $is_admin,
 			is_hidden => $is_hidden,
-			comment => CGI::unescapeHTML( $5 ),
+#			comment => CGI::unescapeHTML( $5 ),
+			comment => $5,    # すでにエスケープされているんだから、そのまま入れてそのまま表示する方針で。
 			no => $6,
 			is_odd => scalar( ++$cnt % 2 ),
 		};
