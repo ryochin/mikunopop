@@ -1,6 +1,6 @@
 //
 
-var sec = 60;    // per
+var sec = 30;    // per
 var is_first = 1;
 
 function loadLive(once) {
