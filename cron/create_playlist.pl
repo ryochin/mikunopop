@@ -14,6 +14,8 @@ use Getopt::Std;
 use Text::CSV_XS;
 use Compress::Zlib;
 
+use bytes ();
+
 use utf8;
 use Encode;
 
@@ -40,6 +42,7 @@ my $uri_list = [
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1243754024/2-',
 ];
 
+# ジングル
 my @jingle = qw(
 	sm6789292
 	sm6789315
@@ -48,6 +51,13 @@ my @jingle = qw(
 	sm7007629
 	sm7033805
 	sm7075450
+);
+# 告知動画など
+my @ignore = qw(
+	sm7335402
+	sm7337914
+	sm7341325
+	sm7346152
 );
 
 my $content;
@@ -110,7 +120,7 @@ for my $line( split /\n/o, $content ){
 		$video->{ $n }->{id} ||= $id;
 		
 		# title
-		if( defined $title and length( $title ) > 8 ){
+		if( defined $title and bytes::length( $title ) > 1 ){
 			if( defined $video->{ $n }->{title} ){
 				# length
 				if( length( $title ) < length $video->{ $n }->{title} ){
@@ -135,6 +145,9 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	
 	# ジングルは飛ばそう
 	next if scalar( first { $v eq $_ } @jingle );
+	
+	# 告知動画なども飛ばそう
+	next if scalar( first { $v eq $_ } @ignore );
 	
 	my $d = {
 		video_id => $v,    # sm1234567
