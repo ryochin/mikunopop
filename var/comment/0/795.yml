@@ -107,6 +107,20 @@ content:
     is_odd: 1
     "no": 18
   - 
+    comment: （なぜか表示されません）
+    date: 2009/05/16 18:57:39
+    is_admin: 0
+    is_hidden: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: （なぜか表示されません）
+    date: 2009/05/16 18:57:39
+    is_admin: 0
+    is_hidden: 1
+    is_odd: 1
+    "no": 20
+  - 
     comment: ■2008/04/03 時/0:08 再/255 コ/3 マ/1 (0.39%)
     date: 2009/05/16 18:57:44
     is_admin: 1
@@ -148,6 +162,20 @@ content:
     is_hidden: 0
     is_odd: 1
     "no": 28
+  - 
+    comment: （なぜか表示されません）
+    date: 2009/05/16 18:58:22
+    is_admin: 0
+    is_hidden: 1
+    is_odd: 0
+    "no": 29
+  - 
+    comment: （なぜか表示されません）
+    date: 2009/05/16 18:58:22
+    is_admin: 0
+    is_hidden: 1
+    is_odd: 1
+    "no": 30
   - 
     comment: ■2008/01/17 時/0:14 再/2034 コ/36 マ/5 (0.25%)
     date: 2009/05/16 18:58:27

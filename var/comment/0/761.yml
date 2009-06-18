@@ -324,25 +324,32 @@ content:
     is_odd: 0
     "no": 52
   - 
+    comment: （なぜか表示されません）
+    date: 2009/05/14 12:04:00
+    is_admin: 0
+    is_hidden: 1
+    is_odd: 1
+    "no": 53
+  - 
     comment: ■2009/04/17 時/5:44 再/18774 コ/646 マ/1723 (9.18%)
     date: 2009/05/14 12:04:05
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 55
   - 
     comment: どsぷr
     date: 2009/05/14 12:04:06
     is_admin: 0
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 56
   - 
     comment: おっつ～
     date: 2009/05/14 12:04:24
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 57
 frame: 1
 part: 761

@@ -338,18 +338,25 @@ content:
     is_odd: 0
     "no": 56
   - 
+    comment: （なぜか表示されません）
+    date: 2009/05/07 19:31:20
+    is_admin: 0
+    is_hidden: 1
+    is_odd: 1
+    "no": 57
+  - 
     comment: んじゃ、のし！
     date: 2009/05/07 19:31:41
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 58
   - 
     comment: ノシ
     date: 2009/05/07 19:31:47
     is_admin: 0
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 59
 frame: 1
 part: 673

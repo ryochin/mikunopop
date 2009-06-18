@@ -611,74 +611,81 @@ content:
     is_odd: 1
     "no": 97
   - 
+    comment: （なぜか表示されません）
+    date: 2009/05/31 01:10:56
+    is_admin: 0
+    is_hidden: 1
+    is_odd: 0
+    "no": 98
+  - 
     comment: メロは何かの楽器で入れなおすんです？
     date: 2009/05/31 01:11:24
     is_admin: 0
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 99
   - 
     comment: 実は自分で歌っているんだよな？
     date: 2009/05/31 01:11:25
     is_admin: 0
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 100
   - 
     comment: そもそもインスト向けの曲に無理矢理歌つけてるので・・
     date: 2009/05/31 01:12:15
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 101
   - 
     comment: 歌がないほうが完成度高いんです（ぇー
     date: 2009/05/31 01:12:36
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 102
   - 
     comment: そうなんだ
     date: 2009/05/31 01:12:37
     is_admin: 0
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 103
   - 
     comment: 無茶しますねｗ
     date: 2009/05/31 01:12:39
     is_admin: 0
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 104
   - 
     comment: この枠で撤収します、次どなたかよろです～
     date: 2009/05/31 01:12:56
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 105
   - 
     comment: ﾉｼ
     date: 2009/05/31 01:13:05
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 106
   - 
     comment: ﾉｼ
     date: 2009/05/31 01:13:17
     is_admin: 0
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 107
   - 
     comment: ﾉｼ
     date: 2009/05/31 01:13:17
     is_admin: 0
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 108
 frame: 1
 part: 947

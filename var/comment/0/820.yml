@@ -247,67 +247,74 @@ content:
     is_odd: 1
     "no": 41
   - 
+    comment: （なぜか表示されません）
+    date: 2009/05/20 13:19:49
+    is_admin: 0
+    is_hidden: 1
+    is_odd: 0
+    "no": 42
+  - 
     comment: 「訓練」というのが誤報である可能性もあるけど
     date: 2009/05/20 13:20:33
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 43
   - 
     comment: ■【初音ミク】ジェリービーン【オリジナル曲】　(by 霊長類P )
     date: 2009/05/20 13:24:21
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 44
   - 
     comment: ■2009/05/06 時/4:44 再/29654 コ/1312 マ/3018 (10.18%)
     date: 2009/05/20 13:24:26
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 46
   - 
     comment: 真偽がまだ確定しないな
     date: 2009/05/20 13:24:51
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 47
   - 
     comment: NHKでスルーなんで訓練であってると思いますよ
     date: 2009/05/20 13:25:41
     is_admin: 0
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 48
   - 
     comment: 訓練が誤報という情報もまだないので・・
     date: 2009/05/20 13:26:08
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 49
   - 
     comment: とりあえず次枠ぅ
     date: 2009/05/20 13:26:14
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 50
   - 
     comment: 乙でした
     date: 2009/05/20 13:26:27
     is_admin: 0
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 51
   - 
     comment: 乙～
     date: 2009/05/20 13:27:15
     is_admin: 0
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 52
 frame: 1
 part: 820

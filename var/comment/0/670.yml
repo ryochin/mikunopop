@@ -72,102 +72,109 @@ content:
     is_odd: 0
     "no": 14
   - 
+    comment: （なぜか表示されません）
+    date: 2009/05/07 16:29:41
+    is_admin: 0
+    is_hidden: 1
+    is_odd: 1
+    "no": 15
+  - 
     comment: 3:26 再:3095 コ:76 マ:195 (6.30%) 08年09月04日 11時21分38秒
     date: 2009/05/07 16:29:45
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 17
   - 
     comment: 【初音ミク】恋する水色「オリジナル曲」　(by 蜂の巣P )
     date: 2009/05/07 16:33:10
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 18
   - 
     comment: 3:48 再:1763 コ:57 マ:58 (3.29%) 08年09月11日 01時29分07秒
     date: 2009/05/07 16:33:15
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 20
   - 
     comment: つリク　sm6111246
     date: 2009/05/07 16:34:27
     is_admin: 0
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 21
   - 
     comment: ういっしゅ。
     date: 2009/05/07 16:35:18
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 22
   - 
     comment: 【初音ミク】lysosome【オリジナル】　(by びにゅP )
     date: 2009/05/07 16:36:56
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 23
   - 
     comment: 6:24 再:3055 コ:81 マ:193 (6.32%) 09年02月11日 04時52分19秒
     date: 2009/05/07 16:37:01
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 25
   - 
     comment: リク〆
     date: 2009/05/07 16:37:11
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 26
   - 
     comment: びにゅＰの最高傑作・・だと思う。
     date: 2009/05/07 16:38:02
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 27
   - 
     comment: 【オリジナル】Lovers Chorus【初音ミク】　(by びにゅP )
     date: 2009/05/07 16:43:24
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 28
   - 
     comment: 4:53 再:1765 コ:84 マ:49 (2.78%) 08年09月11日 00時55分09秒
     date: 2009/05/07 16:43:29
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 30
   - 
     comment: たっ、たまたま次流そうとしてたのがこれなんだからねっ！（偶然
     date: 2009/05/07 16:44:26
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 31
   - 
     comment: 次ing
     date: 2009/05/07 16:47:27
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 32
   - 
     comment: 乙でした
     date: 2009/05/07 16:47:32
     is_admin: 0
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 33
 frame: 1
 part: 670

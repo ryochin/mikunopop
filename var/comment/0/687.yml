@@ -170,60 +170,67 @@ content:
     is_odd: 0
     "no": 30
   - 
+    comment: （なぜか表示されません）
+    date: 2009/05/08 19:17:45
+    is_admin: 0
+    is_hidden: 1
+    is_odd: 1
+    "no": 31
+  - 
     comment: 2:21 再:608 コ:26 マ:15 (2.47%) 08年12月30日 10時19分51秒
     date: 2009/05/08 19:17:50
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 33
   - 
     comment: ｗｗ
     date: 2009/05/08 19:18:00
     is_admin: 0
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 34
   - 
     comment: これいいな・・
     date: 2009/05/08 19:18:38
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 35
   - 
     comment: 【初音ミク】wish4【オリジナル】　(by  )
     date: 2009/05/08 19:20:00
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 36
   - 
     comment: 4:13 再:1342 コ:37 マ:14 (1.04%) 08年01月14日 06時32分31秒
     date: 2009/05/08 19:20:05
     is_admin: 1
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 38
   - 
     comment: ５分で取れれば続きます
     date: 2009/05/08 19:21:58
     is_admin: 1
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 39
   - 
     comment: ノシ～
     date: 2009/05/08 19:22:09
     is_admin: 0
     is_hidden: 0
-    is_odd: 1
+    is_odd: 0
     "no": 40
   - 
     comment: 乙でした
     date: 2009/05/08 19:22:14
     is_admin: 0
     is_hidden: 0
-    is_odd: 0
+    is_odd: 1
     "no": 41
 frame: 1
 part: 687
