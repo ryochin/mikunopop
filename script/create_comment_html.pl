@@ -22,12 +22,15 @@ use Encode;
 binmode STDOUT, ':utf8';
 
 # getopt
-Getopt::Std::getopts 'b:' => my $opt = {};
+Getopt::Std::getopts 'b:n:' => my $opt = {};
 # -b: base dir
+# -n: least num
 
 my $base_dir = $opt->{b} || '../';
 my $yaml_dir = dir( $base_dir, 'var', 'comment' )->cleanup;
 my $template_file = file( $base_dir, 'template', 'comment.html' );
+
+my $least_num = defined $opt->{n} ? int $opt->{n} : 1;
 
 my $list = {};    # no => file obj
 while ( my $dir = $yaml_dir->next) {
@@ -47,6 +50,7 @@ $page->entries_per_page( 1 );
 
 my $template = &create_template;
 for my $no( 1 .. $page->last_page ){
+	next if $no < $least_num;
 	next if not defined $list->{ $no };
 	my $html_file = sprintf "%d.html", $no;
 	my $dir = int( $no / 1000 );
