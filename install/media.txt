@@ -12,6 +12,8 @@ htdocs/aircaster/index.html
 htdocs/manual/index.html
 htdocs/manual/template.html
 htdocs/manual/memo.html
+htdocs/manual/nicoreq.html
+htdocs/manual/nicoreq.png
 
 # manage
 htdocs/manage/index.html
