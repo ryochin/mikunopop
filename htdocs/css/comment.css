@@ -22,6 +22,9 @@ table.comment tr.even {
 table.comment td.aircaster {
 	color: #f34600;
 }
+table.comment td.aircaster-empty {
+	color: #f69666;
+}
 table.comment td.hidden {
 	color: #aaaaaa;
 }

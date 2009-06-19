@@ -71,13 +71,27 @@ $(document).ready( function () {
 			<tr class="even">
 [% END %]
 				<td nowrap="nowrap">[% c.date | html %]</td>
+
 [% IF c.is_admin %]
+	[% IF c.is_empty %]
+				<td class="aircaster-empty">（なぜか表示されません）</td>
+	[% ELSE %]
 				<td class="aircaster">[% c.comment # raw %]</td>
+	[% END %]
 [% ELSIF c.is_hidden %]
+	[% IF c.is_empty %]
+				<td class="hidden">（なぜか表示されません）</td>
+	[% ELSE %]
 				<td class="hidden">[% c.comment # raw %]</td>
+	[% END %]
 [% ELSE %]
+	[% IF c.is_empty %]
+				<td>（なぜか表示されません）</td>
+	[% ELSE %]
 				<td>[% c.comment # raw %]</td>
+	[% END %]
 [% END %]
+
 				<td>[% c.no | html %]</td>
 			</tr>
 [% END %]

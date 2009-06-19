@@ -4,133 +4,106 @@ content:
   - 
     comment: おつです
     date: 2009/05/14 23:00:18
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 1
   - 
     comment: 乙です
     date: 2009/05/14 23:00:36
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 2
   - 
     comment: らっしゃい！
     date: 2009/05/14 23:01:59
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 4
   - 
     comment: ■【初音ミク】ふたり(ミク/DS-10たん)のもじぴったん(Ver.1.0-Release)【DS-10】　(by TuKuRu )
     date: 2009/05/14 23:02:56
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 5
   - 
     comment: ひさしぶりだな　こんばんわ〜
     date: 2009/05/14 23:02:58
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 7
   - 
     comment: ■2009/03/08 時/2:00 再/3452 コ/106 マ/231 (6.69%)
     date: 2009/05/14 23:03:01
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 8
   - 
     comment: ばわ～
     date: 2009/05/14 23:03:10
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 9
   - 
     comment: こんばんはー今日はやんなのかと思ってたよ
     date: 2009/05/14 23:04:17
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 10
   - 
     comment: DS-10の音も凄いよねぇ、あんなに小さいのに
     date: 2009/05/14 23:04:31
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 11
   - 
     comment: 予約チケットを使ってみたから、今日はみっくみく記念日。
     date: 2009/05/14 23:04:36
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 12
   - 
     comment: 日本語でおｋ
     date: 2009/05/14 23:04:47
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 13
   - 
     comment: おお　ナイス主
     date: 2009/05/14 23:04:50
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 14
   - 
     comment: 期限が00:00だったのよ
     date: 2009/05/14 23:05:01
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 15
   - 
-    comment: （なぜか表示されません）
+    comment: ''
     date: 2009/05/14 23:05:05
-    is_admin: 0
-    is_hidden: 1
+    is_admin: 1
+    is_empty: 1
     is_odd: 0
     "no": 16
   - 
     comment: ■2009/03/31 時/4:13 再/1292 コ/41 マ/56 (4.33%)
     date: 2009/05/14 23:05:10
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 18
   - 
     comment: 予約チケットなんてものがあるのか
     date: 2009/05/14 23:05:19
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 19
   - 
     comment: 無料のやつだよね？
     date: 2009/05/14 23:05:29
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 20
   - 
     comment: このコメントは表示されません
     date: 2009/05/14 23:05:35
-    is_admin: 0
     is_hidden: 1
     is_odd: 0
     "no": 21
   - 
     comment: このコメントは表示されません
     date: 2009/05/14 23:05:37
-    is_admin: 0
     is_hidden: 1
     is_odd: 1
     "no": 22
@@ -138,329 +111,257 @@ content:
     comment: そう　なんか運営から無料で１枚もらったやつね
     date: 2009/05/14 23:05:47
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 23
   - 
     comment: そんなのがあったんだ～
     date: 2009/05/14 23:06:04
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 24
   - 
     comment: プレミアムの人全員に？
     date: 2009/05/14 23:06:24
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 25
   - 
     comment: この優越感ったらないね！（コラ
     date: 2009/05/14 23:06:35
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 26
   - 
     comment: 誰に配られたのかはよくしりませぬ・・
     date: 2009/05/14 23:06:53
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 27
   - 
     comment: 運営と内通！？
     date: 2009/05/14 23:07:00
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 28
   - 
     comment: 俺プレミアだがそんなん知らんです
     date: 2009/05/14 23:07:18
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 29
   - 
     comment: 主を１回でもやったことあったらもらえるとか？
     date: 2009/05/14 23:07:45
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 30
   - 
     comment: でしょうかねぇ
     date: 2009/05/14 23:08:02
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 31
   - 
     comment: ■【初音ミク】 オリジナル　『春色観覧車』　(by ?)
     date: 2009/05/14 23:09:14
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 32
   - 
     comment: ■2009/03/20 時/4:02 再/6958 コ/254 マ/548 (7.88%)
     date: 2009/05/14 23:09:19
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 34
   - 
     comment: 気持ちいいなこの曲
     date: 2009/05/14 23:10:18
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 35
   - 
     comment: 超お気に入り。
     date: 2009/05/14 23:10:30
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 36
   - 
     comment: アコースティック楽器とピコピコの合わせ技好きだ
     date: 2009/05/14 23:10:32
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 37
   - 
     comment: ■【初音ミク】 予言少女　【オリジナル】　(by ?)
     date: 2009/05/14 23:13:20
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 38
   - 
     comment: キミの夜空の人だったかどおりで
     date: 2009/05/14 23:13:22
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 40
   - 
     comment: ■2009/03/30 時/3:54 再/1200 コ/50 マ/48 (4.00%)
     date: 2009/05/14 23:13:25
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 41
   - 
     comment: あれ・・もしや今隣で悶さんの企画やってね・・？orz
     date: 2009/05/14 23:13:49
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 42
   - 
     comment: ボカ生は今ボカマス特集ですな
     date: 2009/05/14 23:14:08
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 43
   - 
     comment: どんまい　主w
     date: 2009/05/14 23:14:29
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 44
   - 
     comment: 忘れてたあああああああ・・ああ・・・・ああ・・あ・あ
     date: 2009/05/14 23:14:40
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 45
   - 
     comment: うおお　いい曲だ〜
     date: 2009/05/14 23:15:52
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 46
   - 
     comment: 同意
     date: 2009/05/14 23:16:02
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 47
   - 
     comment: ■【巡音ルカ・初音ミク】Galaxy_Voice【オリジナル】　(by ?)
     date: 2009/05/14 23:17:17
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 48
   - 
     comment: ■2009/03/29 時/3:28 再/674 コ/13 マ/20 (2.97%)
     date: 2009/05/14 23:17:21
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 50
   - 
     comment: sh_mさんかっこいいね
     date: 2009/05/14 23:18:50
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 51
   - 
     comment: あれ、みっくみくタ・・・いえなんでもないです
     date: 2009/05/14 23:19:10
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 52
   - 
     comment: NASA
     date: 2009/05/14 23:19:18
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 53
   - 
     comment: 宇宙ヤバイ
     date: 2009/05/14 23:19:49
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 54
   - 
     comment: なぜこれが埋もれるのか・・
     date: 2009/05/14 23:20:36
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 55
   - 
     comment: これ系の曲はルカ＋ミクの組み合わせが多いよね　う、浮気じゃないよ
     date: 2009/05/14 23:20:41
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 56
   - 
     comment: ■「初音ミク」でオリジナル曲「ワールズエンドワイルズ」　(by ?)
     date: 2009/05/14 23:20:47
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 57
   - 
     comment: ■2009/03/28 時/4:14 再/1113 コ/39 マ/62 (5.57%)
     date: 2009/05/14 23:20:52
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 59
   - 
     comment: いいメロ
     date: 2009/05/14 23:22:27
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 60
   - 
     comment: 絵もすげえええ
     date: 2009/05/14 23:22:55
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 61
   - 
     comment: ■【初音ミク】 duck the world 【オリジナル】　(by スP )
     date: 2009/05/14 23:25:04
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 62
   - 
     comment: ■2009/03/27 時/3:42 再/4482 コ/183 マ/120 (2.68%)
     date: 2009/05/14 23:25:09
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 64
   - 
     comment: スP！
     date: 2009/05/14 23:25:22
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 65
   - 
     comment: とっても聴き疲れする曲ｷﾀｰ
     date: 2009/05/14 23:25:34
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 66
   - 
     comment: きました　常連w
     date: 2009/05/14 23:25:36
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 67
   - 
     comment: スＰすげー
     date: 2009/05/14 23:26:57
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 68
   - 
     comment: ヘッドホンはキケンだわこれ
     date: 2009/05/14 23:28:28
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 69
   - 
     comment: 頭の中でグルグル回ってますｗ
     date: 2009/05/14 23:28:51
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 70
   - 
     comment: ■【初音ミク×巡音ルカ】『SURVIVOR-Twin Vocal Style-』歌わせてみた　(by ?)
     date: 2009/05/14 23:28:53
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 71
   - 
     comment: ■2009/03/25 時/4:18 再/8695 コ/160 マ/595 (6.84%)
     date: 2009/05/14 23:28:58
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 73
   - 
     comment: ああ・・悶さんに反省部屋に入れられるな・・　またあした～☆
     date: 2009/05/14 23:29:47
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 74
   - 
     comment: ノシ
     date: 2009/05/14 23:29:55
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 75
 frame: 1

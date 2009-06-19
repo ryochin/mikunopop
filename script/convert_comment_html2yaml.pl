@@ -52,33 +52,27 @@ if( $content =~ m{<h2><strong><a href="http://www.nicovideo.jp/my" id="myname">(
 my @content;
 my $cnt = 0;
 for my $chunk( split m{</tr>}io, $content ){
-	$chunk =~ s{<tr class="(odd|even)".*?>.+?<td nowrap.*>([\d\/\s\:]+?)</td>.+?<td.+?( style="color:\#([\w\d]+)")*>([^<>]*?)</td>.+?<td>(\d+)</td>}{
-		my $is_admin = 0;
-		my $is_hidden = 0;
-		if( my $color = $4 ){
-			if( $color eq 'aaa' ){
-				$is_hidden = 1;
-			}
-			else{
-				$is_admin = 1;
-			}
-		}
-		my $content = $5;
-		if( $content eq '' ){
-			# bug?
-			$content = q/（なぜか表示されません）/;
-			$is_admin = 0;
-			$is_hidden = 1;
-		}
-		push @content, {
+	$chunk =~ s{<tr class="(odd|even)".*?>.+?<td nowrap[^<>]*>([\d\/\s\:]+?)</td>.+?<td.+?( style="color:\#([\w\d]+)")*>([^<>]*?)</td>.+?<td>(\d+)</td>}{
+		my $d = {
 			date => $2,
-			is_admin => $is_admin,
-			is_hidden => $is_hidden,
-#			comment => CGI::unescapeHTML( $5 ),
-			comment => $content,    # すでにエスケープされているんだから、そのまま入れてそのまま表示する方針で。
 			no => $6,
 			is_odd => scalar( ++$cnt % 2 ),
 		};
+		my $content = $d->{comment} = $5;    # すでにエスケープされているんだから、そのまま入れてそのまま表示する方針で。
+		if( $content eq '' ){
+			# bug?
+			$d->{is_empty} = 1;
+		}
+		
+		if( my $color = $4 ){
+			if( $color eq 'aaa' ){
+				$d->{is_hidden} = 1;
+			}
+			else{
+				$d->{is_admin} = 1;
+			}
+		}
+		push @content, $d;
 	}egios;
 }
 

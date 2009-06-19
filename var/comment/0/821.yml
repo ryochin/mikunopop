@@ -4,176 +4,144 @@ content:
   - 
     comment: 乙です
     date: 2009/05/20 13:28:22
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 2
   - 
     comment: ジェリービーンまだ終わってないよ！
     date: 2009/05/20 13:28:23
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 3
   - 
     comment: おぅ
     date: 2009/05/20 13:29:19
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 4
   - 
     comment: 乙です
     date: 2009/05/20 13:29:35
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 5
   - 
     comment: NHKでNARUTOｗｗｗ
     date: 2009/05/20 13:30:07
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 6
   - 
     comment: もう少しゆっくりか・・
     date: 2009/05/20 13:30:13
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 7
   - 
     comment: ■【初音ミク】Vacation【オリジナル】　(by トラP )
     date: 2009/05/20 13:30:29
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 8
   - 
     comment: ■2008/08/09 時/5:25 再/3599 コ/132 マ/112 (3.11%)
     date: 2009/05/20 13:30:34
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 10
   - 
     comment: nm7020422　おねがいします
     date: 2009/05/20 13:34:31
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 11
   - 
     comment: はい～
     date: 2009/05/20 13:34:48
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 12
   - 
     comment: ■【初音ミク】ぷれぜんと。【オリジナル】　(by ?)
     date: 2009/05/20 13:35:54
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 13
   - 
     comment: ■2009/05/11 時/4:16 再/723 コ/67 マ/43 (5.95%)
     date: 2009/05/20 13:35:59
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 15
   - 
     comment: なんてカワイイ曲
     date: 2009/05/20 13:37:01
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 16
   - 
     comment: 絶賛ニヤニヤ中
     date: 2009/05/20 13:37:32
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 17
   - 
     comment: ■【ミクオリジナル曲】 「 メガネ・キューティ　」 【キック４つ打ち】　(by ?)
     date: 2009/05/20 13:40:15
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 18
   - 
     comment: ■2009/04/02 時/5:09 再/18407 コ/579 マ/1155 (6.27%)
     date: 2009/05/20 13:40:20
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 20
   - 
     comment: ■地球はまわる【初音ミクオリジナル】　(by ドンドコP )
     date: 2009/05/20 13:45:24
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 21
   - 
     comment: ■2009/02/26 時/3:24 再/1185 コ/37 マ/66 (5.57%)
     date: 2009/05/20 13:45:29
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 23
   - 
     comment: ■【初音ミク】ROUNDABOUT【オリジナル曲】　(by ?)
     date: 2009/05/20 13:48:51
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 24
   - 
     comment: ■2009/04/29 時/5:10 再/17463 コ/467 マ/1341 (7.68%)
     date: 2009/05/20 13:48:56
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 26
   - 
     comment: この枠で休憩します
     date: 2009/05/20 13:52:29
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 27
   - 
     comment: ■【初音ミク】my beautiful life【オリジナル曲】（修正再UP）　(by ?)
     date: 2009/05/20 13:54:07
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 28
   - 
     comment: ■2008/01/08 時/4:00 再/12305 コ/431 マ/499 (4.06%)
     date: 2009/05/20 13:54:12
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 30
   - 
     comment: nosi
     date: 2009/05/20 13:56:56
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 31
   - 
     comment: 乙でした
     date: 2009/05/20 13:56:56
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 32
 frame: 1

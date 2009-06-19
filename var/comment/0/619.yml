@@ -5,252 +5,205 @@ content:
     comment: リクぼちぼちよろです～　２枠はやろうかと。それ以降は未定
     date: 2009/05/04 13:40:30
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 2
   - 
     comment: こんにちは。あ、新主さん？
     date: 2009/05/04 13:40:49
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 3
   - 
     comment: はい、昨日尾から３回目です
     date: 2009/05/04 13:41:09
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 4
   - 
     comment: 【初音ミク】 Resonant 【オリジナル曲】　(by あかやかP )
     date: 2009/05/04 13:41:22
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 5
   - 
     comment: 乙です
     date: 2009/05/04 13:41:26
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 7
   - 
     comment: 5:44 再:5408 コ:166 マ:336 (6.21%) 09年03月02日 06時26分46秒
     date: 2009/05/04 13:41:27
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 8
   - 
     comment: sm6645536
     date: 2009/05/04 13:41:43
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 9
   - 
     comment: sm5707299　おねがいします
     date: 2009/05/04 13:41:59
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 10
   - 
     comment: 了解～
     date: 2009/05/04 13:42:18
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 11
   - 
     comment: 【テト×ルカ】やらなきゃいけない【時田トリビュート】　(by いるーP )
     date: 2009/05/04 13:46:59
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 12
   - 
     comment: 3:17 再:1766 コ:27 マ:74 (4.19%) 09年04月04日 15時18分47秒
     date: 2009/05/04 13:47:04
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 14
   - 
     comment: 絵柄凄い
     date: 2009/05/04 13:48:20
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 15
   - 
     comment: よかった～
     date: 2009/05/04 13:49:51
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 16
   - 
     comment: 空と夢 PV （鏡音リン オリジナル曲PV）　(by ベーコンP 風景P )
     date: 2009/05/04 13:50:14
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 17
   - 
     comment: 4:05 再:259 コ:7 マ:10 (3.86%) 08年12月30日 23時59分19秒
     date: 2009/05/04 13:50:19
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 19
   - 
     comment: これいいなぁ、この再生数が信じられん
     date: 2009/05/04 13:52:47
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 20
   - 
-    comment: （なぜか表示されません）
+    comment: ''
     date: 2009/05/04 13:54:21
-    is_admin: 0
-    is_hidden: 1
+    is_admin: 1
+    is_empty: 1
     is_odd: 1
     "no": 21
   - 
     comment: 3:40 再:4986 コ:146 マ:301 (6.04%) 09年03月06日 15時09分45秒
     date: 2009/05/04 13:54:26
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 23
   - 
     comment: あ、nm再生できるようになった？
     date: 2009/05/04 13:56:12
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 24
   - 
     comment: ある程度古いのならいけるのもあるらしいですけど、よくわからないですね
     date: 2009/05/04 13:56:53
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 25
   - 
     comment: 63・・・・ga
     date: 2009/05/04 13:57:07
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 26
   - 
     comment: ダメなら次ってことで、気にせずトライしてますｗ
     date: 2009/05/04 13:57:21
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 27
   - 
     comment: sm6865106 　おねがいします
     date: 2009/05/04 13:57:31
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 28
   - 
     comment: ごめ。nm63・・・・がまずいってきいていた
     date: 2009/05/04 13:57:41
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 29
   - 
     comment: 29さん　その動画は物理的理由で放送できません。
     date: 2009/05/04 13:57:41
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 30
   - 
     comment: 【巡音ルカ】タメイキ【オリジナルPV】　(by kous )
     date: 2009/05/04 13:58:11
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 31
   - 
     comment: 4:22 再:29209 コ:610 マ:2439 (8.35%) 09年04月26日 21時53分49秒
     date: 2009/05/04 13:58:16
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 33
   - 
     comment: リクしめます～
     date: 2009/05/04 13:58:23
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 34
   - 
     comment: さすがのクオリティ
     date: 2009/05/04 14:01:41
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 35
   - 
     comment: 【初音ミク】 モード 【オリジナル】（音質修正版）　(by river )
     date: 2009/05/04 14:02:33
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 36
   - 
     comment: 4:39 再:1086 コ:21 マ:58 (5.34%) 09年03月06日 17時16分21秒
     date: 2009/05/04 14:02:38
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 38
   - 
     comment: 【初音ミク】ドラスティックサイクル【オリジナル曲】　(by 鉄風P )
     date: 2009/05/04 14:07:15
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 39
   - 
     comment: 4:34 再:51024 コ:1761 マ:3528 (6.91%) 09年03月06日 19時30分20秒
     date: 2009/05/04 14:07:20
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 41
   - 
     comment: 次枠へ、のっし！
     date: 2009/05/04 14:08:51
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 42
   - 
     comment: 乙でした
     date: 2009/05/04 14:08:54
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 43
   - 
     comment: ノシ
     date: 2009/05/04 14:08:55
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 44
 frame: 1

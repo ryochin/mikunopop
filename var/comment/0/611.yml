@@ -5,336 +5,267 @@ content:
     comment: はじめて生主やります、よろです～
     date: 2009/05/03 21:22:40
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 3
   - 
     comment: 頑張れよーい
     date: 2009/05/03 21:23:00
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 4
   - 
     comment: 枠取りがこれほど大変だとは知らなかったよ・・
     date: 2009/05/03 21:23:32
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 5
   - 
     comment: あ、下に書いちゃった
     date: 2009/05/03 21:23:41
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 6
   - 
     comment: このコメントは表示されません
     date: 2009/05/03 21:23:46
-    is_admin: 0
     is_hidden: 1
     is_odd: 1
     "no": 7
   - 
     comment: はじめまして！生主がんばってくださいーっ
     date: 2009/05/03 21:24:08
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 8
   - 
     comment: どもです、とりあえず試験的な感じで・・
     date: 2009/05/03 21:24:58
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 10
   - 
     comment: 【初音ミク】かくれんぼ【時田トリビュート】　(by kous )
     date: 2009/05/03 21:28:08
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 11
   - 
     comment: 2:09 再:3616 コ:101 マ:279 (7.72%) 09年04月04日 00時00分26秒
     date: 2009/05/03 21:28:13
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 13
   - 
     comment: おお　がんばれ〜
     date: 2009/05/03 21:28:51
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 14
   - 
     comment: 初生主おめでと～
     date: 2009/05/03 21:30:06
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 15
   - 
     comment: 【UTAU】PhononBelt【重音テト】　(by 写経P )
     date: 2009/05/03 21:30:22
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 16
   - 
     comment: 4:40 再:1150 コ:110 マ:43 (3.74%) 09年04月12日 14時43分49秒
     date: 2009/05/03 21:30:27
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 18
   - 
     comment: 初めてにしてはレベル高い曲かけるなｗｗ
     date: 2009/05/03 21:31:12
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 19
   - 
     comment: おつー
     date: 2009/05/03 21:31:14
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 20
   - 
     comment: この枠は主セレクトですか？
     date: 2009/05/03 21:33:11
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 21
   - 
     comment: いえ、リクいいですよ
     date: 2009/05/03 21:33:32
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 22
   - 
     comment: 【初音ミク】 コイイロ・ハート 【オリジナル】　(by リーマンP )
     date: 2009/05/03 21:35:03
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 23
   - 
     comment: 3:41 再:3244 コ:79 マ:234 (7.21%) 09年04月01日 00時47分31秒
     date: 2009/05/03 21:35:08
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 25
   - 
     comment: リーマンＰは俺の嫁。
     date: 2009/05/03 21:35:47
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 26
   - 
     comment: ほー、マイリス率も出るようになったのか
     date: 2009/05/03 21:35:51
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 27
   - 
     comment: 阻止しとこう
     date: 2009/05/03 21:35:59
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 28
   - 
     comment: マイリス率なんかは生主が使うツールによります
     date: 2009/05/03 21:36:54
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 29
   - 
     comment: ほうほう
     date: 2009/05/03 21:37:03
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 30
   - 
     comment: なるほどー
     date: 2009/05/03 21:37:05
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 31
   - 
     comment: 「初音ミク」でオリジナル曲「クロスフェード」　(by  )
     date: 2009/05/03 21:38:44
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 32
   - 
     comment: 4:37 再:976 コ:28 マ:54 (5.53%) 09年04月11日 11時50分40秒
     date: 2009/05/03 21:38:49
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 34
   - 
     comment: あれ・・新しいnmはダメなんでしたっけ
     date: 2009/05/03 21:39:28
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 35
   - 
     comment: 初音ミク オリジナル曲　『妄想デイトリッパー』　(by ヘブンズＰ )
     date: 2009/05/03 21:40:28
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 36
   - 
     comment: 4:45 再:7992 コ:240 マ:680 (8.51%) 09年04月19日 01時51分00秒
     date: 2009/05/03 21:40:33
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 38
   - 
     comment: 今北って@8…orz
     date: 2009/05/03 21:42:22
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 39
   - 
     comment: これは主セレクト？爽やかで良い曲だな
     date: 2009/05/03 21:42:41
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 40
   - 
     comment: 今北さんいらっしゃい～
     date: 2009/05/03 21:43:14
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 41
   - 
     comment: 予定してたリストが足りなくなってテンパってますorz
     date: 2009/05/03 21:43:20
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 42
   - 
     comment: つ　sm5638312
     date: 2009/05/03 21:44:04
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 43
   - 
     comment: さんくすです～
     date: 2009/05/03 21:44:38
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 44
   - 
     comment: 【初音ミク】wired【オリジナル曲】　(by なんとかＰ )
     date: 2009/05/03 21:45:10
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 45
   - 
     comment: 5:04 再:15514 コ:502 マ:667 (4.30%) 08年12月23日 23時11分22秒
     date: 2009/05/03 21:45:15
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 47
   - 
     comment: sm3641253　まだいけるか？無理だな
     date: 2009/05/03 21:46:29
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 48
   - 
     comment: ん～厳しいですね
     date: 2009/05/03 21:47:06
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 49
   - 
     comment: 了解です
     date: 2009/05/03 21:47:25
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 50
   - 
     comment: この枠とるのに４０分かかったので、すみませんが次はたぶん無理です
     date: 2009/05/03 21:47:56
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 51
   - 
     comment: というかそもそもこの時間帯が無謀なのか・・
     date: 2009/05/03 21:48:19
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 52
   - 
     comment: このコメントは表示されません
     date: 2009/05/03 21:48:33
-    is_admin: 0
     is_hidden: 1
     is_odd: 0
     "no": 53
   - 
     comment: 一時間クリックしてた人もいたから厳しいと思う
     date: 2009/05/03 21:48:47
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 54
   - 
     comment: GWも関係あるのかなー
     date: 2009/05/03 21:48:55
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 55
   - 
     comment: おつきあいありがとうです、ではまた～
     date: 2009/05/03 21:49:48
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 56
   - 
     comment: ノシ
     date: 2009/05/03 21:49:53
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 57
 frame: 1

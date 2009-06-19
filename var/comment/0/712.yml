@@ -4,84 +4,67 @@ content:
   - 
     comment: 乙、一曲目（ジングル）は早くて1分半ぐらい開始でお願いします
     date: 2009/05/10 10:36:46
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 2
   - 
     comment: 乙です
     date: 2009/05/10 10:36:59
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 3
   - 
     comment: ●【初音ミク】deja vu【オリジナル】　(by ぶちねこP m_yus )
     date: 2009/05/10 10:37:20
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 4
   - 
     comment: ●5:34 再:1228 コ:24 マ:68 (5.54%) 2009年02月06日
     date: 2009/05/10 10:37:25
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 6
   - 
     comment: なるほど、りょうかいです～
     date: 2009/05/10 10:37:46
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 7
   - 
     comment: 乙（前主
     date: 2009/05/10 10:37:57
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 8
   - 
     comment: 前主さま、おつかれさまでした
     date: 2009/05/10 10:38:33
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 9
   - 
     comment: １秒もムダなくとか考えてた・・貧乏性？
     date: 2009/05/10 10:39:25
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 10
   - 
     comment: 最初の30秒は生主のみ、アラート等の反応が1分ぐらいですね
     date: 2009/05/10 10:40:28
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 11
   - 
     comment: sm1236936
     date: 2009/05/10 10:40:59
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 12
   - 
     comment: ふむふむ
     date: 2009/05/10 10:41:09
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 13
   - 
     comment: このコメントは表示されません
     date: 2009/05/10 10:41:21
-    is_admin: 0
     is_hidden: 1
     is_odd: 0
     "no": 14
@@ -89,217 +72,175 @@ content:
     comment: リクありです
     date: 2009/05/10 10:41:24
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 15
   - 
     comment: 最初の30秒は見れないのか・・・
     date: 2009/05/10 10:41:56
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 16
   - 
     comment: ●【初音ミク】 GIRL meets BOY （オリジナル） - AEGIS　(by AEGIS )
     date: 2009/05/10 10:42:51
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 17
   - 
     comment: ●3:00 再:11984 コ:363 マ:312 (2.60%) 2007年10月09日
     date: 2009/05/10 10:42:56
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 19
   - 
     comment: この人の新曲来ないですかねー
     date: 2009/05/10 10:44:34
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 20
   - 
     comment: sm6917513　おにゃー
     date: 2009/05/10 10:44:45
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 21
   - 
     comment: うい～
     date: 2009/05/10 10:45:05
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 22
   - 
     comment: ●【初音ミク】 オリジナル曲：Commuting road 【エレクトロ】　(by ポン酢P )
     date: 2009/05/10 10:45:53
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 23
   - 
     comment: ●5:56 再:3967 コ:92 マ:270 (6.81%) 2009年05月02日
     date: 2009/05/10 10:45:58
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 25
   - 
     comment: 七葉1052式か
     date: 2009/05/10 10:46:32
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 26
   - 
     comment: sm5254296
     date: 2009/05/10 10:49:00
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 27
   - 
     comment: はい～
     date: 2009/05/10 10:49:33
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 28
   - 
     comment: うちニコ生ランチャーがミクノポップを拾わないんですよね
     date: 2009/05/10 10:50:55
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 29
   - 
     comment: ●【初音ミク】 No Title_13 【オリジナル】　(by ?)
     date: 2009/05/10 10:51:51
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 30
   - 
     comment: ●4:51 再:472 コ:8 マ:7 (1.48%) 2008年11月15日
     date: 2009/05/10 10:51:56
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 32
   - 
     comment: xxx or ミクノ or yyyという感じでどうですか
     date: 2009/05/10 10:52:48
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 33
   - 
     comment: ミクの２文字でも拾わないので、なにかが根本的に間違ってそう
     date: 2009/05/10 10:53:23
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 34
   - 
     comment: この埋もれキラピコいいね、リク主GJ
     date: 2009/05/10 10:55:04
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 35
   - 
     comment: さっきのコード進行おもしろかった
     date: 2009/05/10 10:55:23
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 36
   - 
     comment: ●【俺ミク2】 world end 【初音ミクオリジナル】　(by ?)
     date: 2009/05/10 10:56:41
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 37
   - 
     comment: ●5:50 再:8241 コ:319 マ:331 (4.02%) 2009年01月16日
     date: 2009/05/10 10:56:46
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 39
   - 
     comment: ●【初音ミク】 オリジナル　『キミの夜空』 完成版　(by ?)
     date: 2009/05/10 11:02:32
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 40
   - 
     comment: ●4:42 再:15263 コ:692 マ:1026 (6.72%) 2009年02月04日
     date: 2009/05/10 11:02:37
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 42
   - 
     comment: 今枠で休憩します、引き継げる方いらっしゃいましたら。
     date: 2009/05/10 11:02:55
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 43
   - 
     comment: 今回は勘弁（前主
     date: 2009/05/10 11:03:08
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 44
   - 
     comment: ういっしゅ
     date: 2009/05/10 11:03:26
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 45
   - 
     comment: だれぞ、ひきついでくだされ人(*ﾟωﾟ｀*)ｵﾈｶﾞｲｼﾏｽ☆.:ﾟ+｡
     date: 2009/05/10 11:03:56
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 46
   - 
     comment: んじゃもう１枠やるか・・
     date: 2009/05/10 11:04:18
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 47
   - 
     comment: d(ﾟДﾟ)☆ｽﾍﾟｼｬﾙｻﾝｸｽ☆( ﾟДﾟ)b
     date: 2009/05/10 11:04:30
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 48
   - 
     comment: マンガ読むのに忙しいんだが・・
     date: 2009/05/10 11:04:34
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 49
   - 
     comment: ｗｗ
     date: 2009/05/10 11:04:38
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 50
 frame: 1

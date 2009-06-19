@@ -4,477 +4,390 @@ content:
   - 
     comment: 予約おつ～
     date: 2009/06/15 14:31:29
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 2
   - 
     comment: なぜばれたし
     date: 2009/06/15 14:31:47
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 3
   - 
     comment: いやいやばれるってｗ
     date: 2009/06/15 14:31:59
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 4
   - 
     comment: カイトｗｗｗ
     date: 2009/06/15 14:33:05
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 5
   - 
     comment: アッー！
     date: 2009/06/15 14:33:31
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 6
   - 
     comment: ■【オリジナル】 初音ミクの あたまのたいそう ■P名?
     date: 2009/06/15 14:33:39
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 7
   - 
     comment: ■2009.05.11 時/5:01 再/35232 コ/2052 マ/2816 (7.99%)
     date: 2009/06/15 14:33:42
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 9
   - 
     comment: 誰だいまのｗ
     date: 2009/06/15 14:35:22
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 10
   - 
     comment: 読み込み中
     date: 2009/06/15 14:35:35
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 11
   - 
     comment: きたｗ
     date: 2009/06/15 14:35:45
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 12
   - 
     comment: （ ＾ω＾）おっおっおっおっ
     date: 2009/06/15 14:36:00
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 13
   - 
     comment: 調子わるいみたいね？
     date: 2009/06/15 14:37:31
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 14
   - 
     comment: ■【初音ミク】ホシゾラヒコウ (And I Love GOD mix)【オリジナル簡易PV付き】 ■黒ねこP
     date: 2009/06/15 14:38:42
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 15
   - 
     comment: ■2009.04.13 時/2:11 再/3918 コ/134 マ/397 (10.13%)
     date: 2009/06/15 14:38:45
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 17
   - 
     comment: 今北こんにちは
     date: 2009/06/15 14:39:32
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 18
   - 
     comment: ちわん
     date: 2009/06/15 14:39:52
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 19
   - 
     comment: ドットでねぎおどり凄いなぁｗｗ曲も可愛い
     date: 2009/06/15 14:40:05
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 20
   - 
     comment: ありゃ、クリップしてる・・
     date: 2009/06/15 14:41:45
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 22
   - 
     comment: ■【初音ミク】Blunder girl -Full ver' -【オリジナル曲】 ■P名?
     date: 2009/06/15 14:42:50
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 23
   - 
     comment: ■2009.04.13 時/4:02 再/2189 コ/68 マ/213 (9.73%)
     date: 2009/06/15 14:42:53
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 25
   - 
     comment: 今北3番げっと！
     date: 2009/06/15 14:43:32
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 26
   - 
     comment: ■【MEIKO・初音ミク】So Labyrinthine【double M】 ■shu-tP
     date: 2009/06/15 14:47:18
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 28
   - 
     comment: ■2009.04.13 時/4:31 再/21090 コ/1095 マ/1563 (7.41%)
     date: 2009/06/15 14:47:21
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 30
   - 
     comment: そっか、予約するとトップに載るのか。それで来場者が多いのね
     date: 2009/06/15 14:48:56
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 31
   - 
     comment: ちょっと通りますよ
     date: 2009/06/15 14:49:30
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 32
   - 
-    comment: （なぜか表示されません）
+    comment: ''
     date: 2009/06/15 14:50:14
-    is_admin: 0
-    is_hidden: 1
+    is_admin: 1
+    is_empty: 1
     is_odd: 0
     "no": 33
   - 
     comment: ■【MikuMikuDance】「メガネ・キューティ」PV作ってみた【MMD】 ■あつぞうくん
     date: 2009/06/15 14:51:51
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 34
   - 
     comment: ■2009.05.30 時/5:02 再/5051 コ/163 マ/190 (3.76%)
     date: 2009/06/15 14:51:54
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 36
   - 
     comment: メガネミクきたー
     date: 2009/06/15 14:52:15
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 37
   - 
     comment: ちょっと来るのが遅かったかしら
     date: 2009/06/15 14:52:46
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 38
   - 
     comment: いらっしゃいませご主人様
     date: 2009/06/15 14:54:04
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 39
   - 
     comment: いま主がチチンプイプイしてくれるから待っててね
     date: 2009/06/15 14:54:47
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 40
   - 
     comment: 来場者数39人おめーｗ
     date: 2009/06/15 14:55:40
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 41
   - 
     comment: ■【初音ミクオリジナル曲】 キラキラハート 【6ヶ月記念祭】 ■P名?
     date: 2009/06/15 14:57:02
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 42
   - 
     comment: ■2008.10.07 時/4:00 再/606 コ/14 マ/26 (4.29%)
     date: 2009/06/15 14:57:05
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 44
   - 
     comment: 平日昼にしては来場者多いなｗ
     date: 2009/06/15 14:59:32
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 45
   - 
     comment: ７割くらいはマボロシなんよ・・
     date: 2009/06/15 15:00:26
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 46
   - 
     comment: ■【初音ミク】LightSongのリミックスをリミックスしてみた【Remix】 ■吸引力の変わらない唯一の鼻そうめんP 鼻そうめんP
     date: 2009/06/15 15:01:22
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 47
   - 
     comment: ■2009.06.04 時/8:35 再/46364 コ/1818 マ/3402 (7.34%)
     date: 2009/06/15 15:01:25
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 49
   - 
     comment: あれ、延長してる。企画放送ですか
     date: 2009/06/15 15:05:27
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 50
   - 
     comment: 平常運転ですよ
     date: 2009/06/15 15:06:34
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 51
   - 
     comment: ■【初音ミク】INNOCENT VIEW【オリジナル曲】 　(再Mixing) ■ミュムP
     date: 2009/06/15 15:09:58
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 52
   - 
     comment: ■2009.06.02 時/5:34 再/495 コ/17 マ/33 (6.67%)
     date: 2009/06/15 15:10:01
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 54
   - 
     comment: ■【初音ミク】 Mikunologie 【オリジナル曲】 ■X-Plorez
     date: 2009/06/15 15:15:39
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 55
   - 
     comment: ■2009.04.24 時/2:09 再/78166 コ/1987 マ/6520 (8.34%)
     date: 2009/06/15 15:15:42
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 57
   - 
     comment: ■【UTAU】 とどけもの 【重音テト】 ■耳ロボP
     date: 2009/06/15 15:17:53
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 58
   - 
     comment: ■2009.05.02 時/6:43 再/5812 コ/431 マ/407 (7.00%)
     date: 2009/06/15 15:17:56
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 60
   - 
     comment: ■初音ミクオリジナル曲『Callin'』 ■U-skeP
     date: 2009/06/15 15:24:45
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 61
   - 
     comment: ■2009.05.23 時/4:41 再/7153 コ/121 マ/558 (7.80%)
     date: 2009/06/15 15:24:48
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 63
   - 
     comment: ■【初音ミク】Chip Tears (TEARS mix) - short version【オリジナル曲】 ■霊長類P
     date: 2009/06/15 15:29:36
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 64
   - 
     comment: ■2009.04.24 時/4:34 再/1461 コ/32 マ/62 (4.24%)
     date: 2009/06/15 15:29:40
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 66
   - 
     comment: ■【初音ミク】メトロポリス【オリジナル曲】 ■P名?
     date: 2009/06/15 15:34:16
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 67
   - 
     comment: ■2009.05.11 時/4:59 再/3082 コ/61 マ/128 (4.15%)
     date: 2009/06/15 15:34:19
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 69
   - 
     comment: エロエロやん
     date: 2009/06/15 15:36:10
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 70
   - 
     comment: ＊健全オサレ純度１００％でお送りしております＊
     date: 2009/06/15 15:37:43
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 71
   - 
     comment: ■【初音ミク】earpick i☆n Ecstasy【オリジナル】 ■裏街道P GonGoss
     date: 2009/06/15 15:39:15
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 72
   - 
     comment: ■2009.04.27 時/2:19 再/3358 コ/162 マ/165 (4.91%)
     date: 2009/06/15 15:39:18
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 74
   - 
     comment: ■【初音ミク】Pumpin' Drops【オリジナル曲】 ■P名?
     date: 2009/06/15 15:41:41
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 75
   - 
     comment: ■2009.04.24 時/2:03 再/2063 コ/46 マ/115 (5.57%)
     date: 2009/06/15 15:41:44
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 77
   - 
     comment: ■die dream:blue dream/初音ミクオリジナル更に自由にアレンジ ■そうまP
     date: 2009/06/15 15:43:55
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 78
   - 
     comment: ■2009.04.23 時/3:35 再/862 コ/21 マ/41 (4.76%)
     date: 2009/06/15 15:43:58
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 80
   - 
     comment: ■【初音ミク】 スィート・クラッシュ・モンスター【オリジナル】 ■コスモスP
     date: 2009/06/15 15:47:39
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 81
   - 
     comment: ■2009.04.12 時/4:24 再/1285 コ/26 マ/39 (3.04%)
     date: 2009/06/15 15:47:42
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 83
   - 
     comment: ■【初音ミク】消えない色彩【オリジナル】 ■消えないP
     date: 2009/06/15 15:52:10
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 84
   - 
     comment: ■2009.03.28 時/4:11 再/2379 コ/141 マ/164 (6.89%)
     date: 2009/06/15 15:52:13
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 86
   - 
     comment: 無料延長できなかったのでこの枠は終了～
     date: 2009/06/15 15:57:48
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 88
   - 
     comment: ■【UTAU】重音テトで「VOiCE」【テト生誕一周年記念】 ■P名?
     date: 2009/06/15 15:58:22
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 89
   - 
     comment: ■2009.04.01 時/4:33 再/4075 コ/164 マ/262 (6.43%)
     date: 2009/06/15 15:58:25
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 91
 frame: 3

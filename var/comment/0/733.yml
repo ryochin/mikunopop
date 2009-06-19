@@ -4,112 +4,88 @@ content:
   - 
     comment: おつおつー
     date: 2009/05/11 12:33:50
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 2
   - 
     comment: ね☆む☆い
     date: 2009/05/11 12:34:06
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 3
   - 
     comment: 乙ー、昼飯食べながら見るよー
     date: 2009/05/11 12:34:33
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 4
   - 
     comment: ■【初音ミク】ROUNDABOUT【オリジナル曲】　(by ?)
     date: 2009/05/11 12:35:28
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 5
   - 
     comment: ■2009/04/29 時/5:10 再/16333 コ/443 マ/1408 (8.62%)
     date: 2009/05/11 12:35:33
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 7
   - 
     comment: 仕方ない、おれがこくはくしてあげよう
     date: 2009/05/11 12:39:02
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 8
   - 
     comment: ミクは渡さん
     date: 2009/05/11 12:39:23
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 9
   - 
     comment: zzZ...
     date: 2009/05/11 12:39:27
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 10
   - 
     comment: ミク「起きてくれないとネギで殴るわよ」
     date: 2009/05/11 12:39:57
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 11
   - 
     comment: ■【初音ミク】ハートフルドライブ【オリジナル】　(by ?)
     date: 2009/05/11 12:40:41
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 12
   - 
     comment: ■2009/02/20 時/3:43 再/26869 コ/639 マ/1840 (6.85%)
     date: 2009/05/11 12:40:46
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 14
   - 
     comment: Ｐ「ちゅーしてくれたら起きるお・・」
     date: 2009/05/11 12:41:28
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 15
   - 
     comment: （・３・）ぶちゅ～
     date: 2009/05/11 12:41:45
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 16
   - 
     comment: ミク「な、何言ってんのよこの馬鹿Ｐ！」
     date: 2009/05/11 12:42:00
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 17
   - 
     comment: ミク「やっぱりネギで殴る！」
     date: 2009/05/11 12:42:34
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 18
   - 
     comment: このコメントは表示されません
     date: 2009/05/11 12:43:00
-    is_admin: 0
     is_hidden: 1
     is_odd: 0
     "no": 19
@@ -117,62 +93,49 @@ content:
     comment: Ｐ「それよりいっしょに寝ようぜミク・・むにゃむにゃ」
     date: 2009/05/11 12:43:31
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 20
   - 
     comment: ミク「私は寝ません！…別の布団で寝ます」
     date: 2009/05/11 12:44:02
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 21
   - 
     comment: Y～　ｺﾚｦｸﾗｴ！
     date: 2009/05/11 12:44:13
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 22
   - 
     comment: ミク（あんなＰと一緒に寝たらどうなるか分からないわ…）
     date: 2009/05/11 12:44:29
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 23
   - 
     comment: ■【初音ミク】 オリジナル　『キミの夜空』 完成版　(by ?)
     date: 2009/05/11 12:44:31
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 24
   - 
     comment: ■2009/02/04 時/4:42 再/15293 コ/692 マ/1025 (6.70%)
     date: 2009/05/11 12:44:36
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 26
   - 
     comment: Ｐ「ルカ・・うふふふ・・」（寝言）
     date: 2009/05/11 12:45:26
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 27
   - 
     comment: ミク「今日の夕飯はネギだけですからね！」
     date: 2009/05/11 12:46:00
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 28
   - 
     comment: このコメントは表示されません
     date: 2009/05/11 12:46:39
-    is_admin: 0
     is_hidden: 1
     is_odd: 1
     "no": 29
@@ -180,161 +143,130 @@ content:
     comment: 某Ｐから Tsundere.dll をもらってくる必要があるな・・！
     date: 2009/05/11 12:47:23
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 30
   - 
     comment: ミク「私はそんなの使ってもツンデレにはなりませんからね！」
     date: 2009/05/11 12:48:06
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 31
   - 
     comment: ■【初音ミクオリジナル曲】ワタシアナライザー【PV】　(by クヌースP )
     date: 2009/05/11 12:49:27
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 32
   - 
     comment: ■2009/01/19 時/3:33 再/6165 コ/136 マ/356 (5.77%)
     date: 2009/05/11 12:49:32
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 34
   - 
     comment: ■【初音ミク】deja vu【オリジナル】　(by ぶちねこP m_yus )
     date: 2009/05/11 12:53:03
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 35
   - 
     comment: ■2009/02/06 時/5:34 再/1241 コ/24 マ/69 (5.56%)
     date: 2009/05/11 12:53:08
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 37
   - 
     comment: Ｐ「ふ～、よく寝た・・　あれ、ミク？」
     date: 2009/05/11 12:54:27
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 38
   - 
     comment: このコメントは表示されません
     date: 2009/05/11 12:55:02
-    is_admin: 0
     is_hidden: 1
     is_odd: 1
     "no": 39
   - 
     comment: ミク「どうせ私よりルカの方が好きなんでしょ！だったらなんで私のことを…（泣）」
     date: 2009/05/11 12:55:38
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 40
   - 
     comment: Ｐ「ど、どどどうした！？　（俺なにかしたっけ？）」
     date: 2009/05/11 12:56:59
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 41
   - 
     comment: Ｐ「（よくわからんが、適当に・・と）　世界で一番ミクが好きだよ・・！（ｷﾘｯ」
     date: 2009/05/11 12:57:42
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 42
   - 
     comment: ミク「なっ…」
     date: 2009/05/11 12:58:17
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 43
   - 
     comment: この枠できうけいします。
     date: 2009/05/11 12:58:29
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 44
   - 
     comment: ■【初音ミク】 ワタシのウタ 【オリジナル】　(by 律儀P )
     date: 2009/05/11 12:58:37
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 45
   - 
     comment: ■2008/06/11 時/4:01 再/4356 コ/124 マ/140 (3.21%)
     date: 2009/05/11 12:58:42
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 47
   - 
     comment: ミク「私もマスターのことが世界で一番好きですよ…」
     date: 2009/05/11 12:58:45
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 48
   - 
     comment: 休憩了解
     date: 2009/05/11 12:58:50
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 49
   - 
     comment: おつですた～
     date: 2009/05/11 12:59:05
-    is_admin: 0
-    is_hidden: 0
     is_odd: 1
     "no": 50
   - 
     comment: ミク「…多分。」
     date: 2009/05/11 12:59:12
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 51
   - 
     comment: Ｐ「ぐふっ・・」
     date: 2009/05/11 12:59:37
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 52
   - 
     comment: ミク「夕飯全部ネギっていうのは挽回しませんからねっ！」
     date: 2009/05/11 13:00:49
-    is_admin: 0
-    is_hidden: 0
     is_odd: 0
     "no": 53
   - 
     comment: Ｐ「た、たまには外食デートしよっか///」
     date: 2009/05/11 13:01:27
     is_admin: 1
-    is_hidden: 0
     is_odd: 1
     "no": 54
   - 
     comment: 乙！
     date: 2009/05/11 13:01:51
     is_admin: 1
-    is_hidden: 0
     is_odd: 0
     "no": 55
 frame: 1
