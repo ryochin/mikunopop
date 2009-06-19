@@ -12,7 +12,7 @@ use utf8;
 use Encode;
 
 my $community_uri = 'http://ch.nicovideo.jp/community/co13879';
-my $feed_uri = 'http://live.nicovideo.jp/recent/rss?tab=live&sort=start&p=1';
+my $feed_uri = 'http://live.nicovideo.jp/recent/rss?tab=req&sort=start&p=1';
 my $status_file = '/web/mikunopop/htdocs/var/live_status.js';
 
 ## check feed
