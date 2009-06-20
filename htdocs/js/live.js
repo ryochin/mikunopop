@@ -1,6 +1,7 @@
 //
 
-var sec = 30;    // per
+var sec_default = 30;    // per
+var sec = sec_default;    // per
 var is_first = 1;
 
 function loadLive(once) {
@@ -34,10 +35,12 @@ function loadLiveMain(once) {
 				}
 				
 				flag = 1;
+				sec = 120;
 			}
 			else{
 				$('#update').html("[状況] 現在、生放送はありません（１分おきにチェック）。");
 				flag = 0;
+				sec = sec_default;
 			}
 			
 			if( is_first ){
