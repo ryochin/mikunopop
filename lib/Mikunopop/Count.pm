@@ -11,6 +11,7 @@ use JSON::Syck ();
 
 use Apache2::Const -compile => qw(:common);
 use Apache2::RequestRec ();
+use Apache2::Log ();
 
 $VERSION = '0.01';
 
@@ -24,7 +25,9 @@ sub handler : method {    ## no critic
 
 	# insert to memory
 	if( time - $last > $expire ){
+		$r->log_error("=> db file reloaded.");
 		$video = YAML::Syck::LoadFile( $db );
+		$last = time;
 	}
 
 	# 回数を探して返す
