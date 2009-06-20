@@ -1,0 +1,394 @@
+--- 
+aircaster: saihane
+content: 
+  - 
+    comment: こんにちは
+    date: 2009/06/20 16:56:55
+    is_odd: 1
+    "no": 2
+  - 
+    comment: ちっわ～
+    date: 2009/06/20 16:57:12
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: "■【初音ミク】 雨音、既視感 【ミクオリジナル曲】 ■X-Plorez "
+    date: 2009/06/20 16:59:46
+    is_admin: 1
+    is_odd: 1
+    "no": 4
+  - 
+    comment: ■2009.04.20 時/3:33 ラ/7 ◆再/10,291 コ/205 マ/628 (6.10%)
+    date: 2009/06/20 16:59:48
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: ついに　ねんがんの　きのうを　とりいれたぞ！
+    date: 2009/06/20 17:00:20
+    is_admin: 1
+    is_odd: 1
+    "no": 7
+  - 
+    comment: リスト再生とか？
+    date: 2009/06/20 17:00:40
+    is_odd: 0
+    "no": 8
+  - 
+    comment: ラって何？
+    date: 2009/06/20 17:00:54
+    is_odd: 1
+    "no": 9
+  - 
+    comment: ミクノポップ再生回数を表示できるようになった！
+    date: 2009/06/20 17:01:05
+    is_admin: 1
+    is_odd: 0
+    "no": 10
+  - 
+    comment: すげぇ！
+    date: 2009/06/20 17:01:16
+    is_odd: 1
+    "no": 11
+  - 
+    comment: ラ/7
+    date: 2009/06/20 17:01:22
+    is_admin: 1
+    is_odd: 0
+    "no": 12
+  - 
+    comment: ラ＝ミクノでの再生回数？
+    date: 2009/06/20 17:01:30
+    is_odd: 1
+    "no": 13
+  - 
+    comment: そう。ずっとやりたかったんだよね
+    date: 2009/06/20 17:01:44
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: すげぇ。主が改造したの？
+    date: 2009/06/20 17:01:48
+    is_odd: 1
+    "no": 15
+  - 
+    comment: なぜラ？
+    date: 2009/06/20 17:01:49
+    is_odd: 0
+    "no": 16
+  - 
+    comment: ランキング？
+    date: 2009/06/20 17:01:56
+    is_odd: 1
+    "no": 17
+  - 
+    comment: ランキングのラなんだけど、ミにしようか
+    date: 2009/06/20 17:02:01
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: ミの方がいい気がするｗ
+    date: 2009/06/20 17:02:21
+    is_odd: 1
+    "no": 19
+  - 
+    comment: 回とか？
+    date: 2009/06/20 17:02:57
+    is_odd: 0
+    "no": 20
+  - 
+    comment: "■【初音ミク】- Ｓｏｆｉａ - ～Sofia is in my heart～(Original No.013) ■百合んごＰ "
+    date: 2009/06/20 17:03:34
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: ■2009.04.22 時/5:08 ラ/4 ◆再/1,205 コ/18 マ/55 (4.56%)
+    date: 2009/06/20 17:03:36
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: なんかツールの開発って止まってるらしいので、思い切っていじることにしました
+    date: 2009/06/20 17:04:03
+    is_admin: 1
+    is_odd: 1
+    "no": 24
+  - 
+    comment: おー、いいね。数字が小さいときはwktkだね
+    date: 2009/06/20 17:04:13
+    is_odd: 0
+    "no": 25
+  - 
+    comment: 「ミクノ度」とかってに呼ぶことにしようかな・・
+    date: 2009/06/20 17:05:15
+    is_admin: 1
+    is_odd: 1
+    "no": 26
+  - 
+    comment: 初めては0？
+    date: 2009/06/20 17:05:44
+    is_odd: 0
+    "no": 27
+  - 
+    comment: だね
+    date: 2009/06/20 17:06:16
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: 単純に生放送再生回数とかで良くない？
+    date: 2009/06/20 17:06:22
+    is_odd: 0
+    "no": 29
+  - 
+    comment: 長いかな？ｗ
+    date: 2009/06/20 17:07:13
+    is_odd: 1
+    "no": 30
+  - 
+    comment: そう、呼びにくいんだよね、再生数とまぎらわしいし
+    date: 2009/06/20 17:07:41
+    is_admin: 1
+    is_odd: 0
+    "no": 31
+  - 
+    comment: そうですね。呼びやすくて分かりやすいのが一番ですね
+    date: 2009/06/20 17:08:09
+    is_odd: 1
+    "no": 32
+  - 
+    comment: "■初音ミクオリジナル曲『music life of pop creation』 ■U-skeP "
+    date: 2009/06/20 17:08:57
+    is_admin: 1
+    is_odd: 0
+    "no": 33
+  - 
+    comment: ■2009.01.30 時/4:21 ミ/13 ◆再/29,306 コ/822 マ/1,714 (5.85%)
+    date: 2009/06/20 17:08:59
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: さすが名曲、ラ/13であるｗ
+    date: 2009/06/20 17:09:24
+    is_odd: 0
+    "no": 36
+  - 
+    comment: ｗ
+    date: 2009/06/20 17:09:33
+    is_odd: 1
+    "no": 37
+  - 
+    comment: ミになってるぅ！ｗ
+    date: 2009/06/20 17:09:39
+    is_odd: 0
+    "no": 38
+  - 
+    comment: 今北ーいいなぁツール…
+    date: 2009/06/20 17:09:42
+    is_odd: 1
+    "no": 39
+  - 
+    comment: 変更早いｗｗ
+    date: 2009/06/20 17:09:51
+    is_odd: 0
+    "no": 40
+  - 
+    comment: さいはねさんのところで配布？
+    date: 2009/06/20 17:10:30
+    is_odd: 1
+    "no": 41
+  - 
+    comment: 私が開発したものではないので、公に配布はできないですが、
+    date: 2009/06/20 17:11:08
+    is_admin: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: 知り合いにあげるという形式だとまぁ許されるのではないかと。
+    date: 2009/06/20 17:11:29
+    is_admin: 1
+    is_odd: 1
+    "no": 43
+  - 
+    comment: ライセンス表示あったかな、確認してみよう
+    date: 2009/06/20 17:12:12
+    is_admin: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: よし、何か嬉しいからもう呑んじゃおうかな
+    date: 2009/06/20 17:13:07
+    is_odd: 1
+    "no": 45
+  - 
+    comment: "■初音ミクオリジナル曲『fallin' love at first sight』 ■U-skeP "
+    date: 2009/06/20 17:13:21
+    is_admin: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: ■2009.04.23 時/4:36 ミ/4 ◆再/6,884 コ/142 マ/415 (6.03%)
+    date: 2009/06/20 17:13:23
+    is_admin: 1
+    is_odd: 1
+    "no": 48
+  - 
+    comment: 呑むと聞いては黙っておれぬ
+    date: 2009/06/20 17:13:28
+    is_odd: 0
+    "no": 49
+  - 
+    comment: よし、じゃあ49さんも呑もう！・・・・やっぱりkotacさんかな？
+    date: 2009/06/20 17:14:47
+    is_odd: 1
+    "no": 50
+  - 
+    comment: ﾅﾝﾀﾞｯﾃｰ
+    date: 2009/06/20 17:14:58
+    is_odd: 0
+    "no": 51
+  - 
+    comment: nm5628993　ミ/0 のテストｗ
+    date: 2009/06/20 17:16:33
+    is_odd: 1
+    "no": 52
+  - 
+    comment: sm2806600　ミ/0狙いその2
+    date: 2009/06/20 17:17:21
+    is_odd: 0
+    "no": 53
+  - 
+    comment: お！凄い。そんなネタを持っているのか！
+    date: 2009/06/20 17:17:44
+    is_odd: 1
+    "no": 54
+  - 
+    comment: あ、なんかうまく取得できんｗ
+    date: 2009/06/20 17:17:51
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: えええｗ
+    date: 2009/06/20 17:17:59
+    is_odd: 1
+    "no": 56
+  - 
+    comment: ｗ
+    date: 2009/06/20 17:18:00
+    is_odd: 0
+    "no": 57
+  - 
+    comment: ｗｗ
+    date: 2009/06/20 17:18:01
+    is_odd: 1
+    "no": 58
+  - 
+    comment: ■【ミク・レン・ゆっくり】ゆっくりまぜまｔｈｅｒｅ【詩・曲mmbop様】 ■P名?
+    date: 2009/06/20 17:18:03
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: ■2008.12.23 時/3:35 ミ/? ◆再/514 コ/21 マ/13 (2.53%)
+    date: 2009/06/20 17:18:05
+    is_admin: 1
+    is_odd: 1
+    "no": 61
+  - 
+    comment: ？って出るんだｗ
+    date: 2009/06/20 17:19:01
+    is_odd: 0
+    "no": 62
+  - 
+    comment: まーぼちぼち直します。枠取りにくいからテストも面倒という
+    date: 2009/06/20 17:19:45
+    is_admin: 1
+    is_odd: 1
+    "no": 63
+  - 
+    comment: ミクノにはぼちぼちがよく似合う
+    date: 2009/06/20 17:20:14
+    is_odd: 0
+    "no": 64
+  - 
+    comment: 放送に支障がなければ試しながらの放送でおｋ。
+    date: 2009/06/20 17:20:29
+    is_odd: 1
+    "no": 65
+  - 
+    comment: ■『初音ミク』『オリジナル曲』　Crystal Night　+「ＰＶフラッシュアニメ」 ■P名?
+    date: 2009/06/20 17:21:53
+    is_admin: 1
+    is_odd: 0
+    "no": 66
+  - 
+    comment: ■2008.03.27 時/3:52 ミ/0 ◆再/947 コ/80 マ/11 (1.16%)
+    date: 2009/06/20 17:21:56
+    is_admin: 1
+    is_odd: 1
+    "no": 68
+  - 
+    comment: 0キターｗ
+    date: 2009/06/20 17:22:06
+    is_odd: 0
+    "no": 69
+  - 
+    comment: 対応早いｗ
+    date: 2009/06/20 17:22:18
+    is_odd: 1
+    "no": 70
+  - 
+    comment: 今度は成功！
+    date: 2009/06/20 17:22:22
+    is_odd: 0
+    "no": 71
+  - 
+    comment: 数字、合ってればいいなぁ・・（ぇー
+    date: 2009/06/20 17:23:24
+    is_admin: 1
+    is_odd: 1
+    "no": 72
+  - 
+    comment: ｗ
+    date: 2009/06/20 17:23:28
+    is_odd: 0
+    "no": 73
+  - 
+    comment: 次ぎ枠あります？
+    date: 2009/06/20 17:24:49
+    is_odd: 1
+    "no": 74
+  - 
+    comment: どうしよっかな、一応トライしてみようか　横取り歓迎
+    date: 2009/06/20 17:25:10
+    is_admin: 1
+    is_odd: 0
+    "no": 75
+  - 
+    comment: ﾉｼ
+    date: 2009/06/20 17:25:27
+    is_admin: 1
+    is_odd: 1
+    "no": 76
+  - 
+    comment: ノシ
+    date: 2009/06/20 17:25:28
+    is_odd: 0
+    "no": 77
+  - 
+    comment: ﾉｼ
+    date: 2009/06/20 17:25:31
+    is_odd: 1
+    "no": 78
+frame: 1
+part: 1149
+start: 1245484615
+time: 28
+title: ミクノポップをきかないか？ Part.1149
+
