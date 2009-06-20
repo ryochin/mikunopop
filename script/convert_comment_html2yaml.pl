@@ -103,7 +103,7 @@ sub parse_datetime {
 	
 	my $dt = DateTime::Format::MySQL->parse_datetime( $str );    # ->isa: DateTime
 	$dt->set_time_zone("local");
-	return DateTime->from_object( object => $dt );    # ->isa: Fumi2::Date
+	return DateTime->from_object( object => $dt );
 }
 
 sub usage {

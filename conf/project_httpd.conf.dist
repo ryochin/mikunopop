@@ -1,0 +1,40 @@
+# 
+
+# resource
+#PerlModule Apache2::Resource
+#PerlSetEnv PERL_RLIMIT_DATA 72:96
+#PerlSetEnv PERL_RLIMIT_AS 72:96
+#PerlSetEnv PERL_RLIMIT_CPU 60
+#PerlChildInitHandler Apache2::Resource
+
+# debug
+PerlModule Apache2::Reload
+PerlInitHandler Apache2::Reload
+PerlSetVar ReloadAll Off
+PerlSetVar ReloadModules "Mikunopop::*"
+#PerlSetVar ReloadDebug On
+
+# class mapping
+<Perl>
+printf STDERR "=> Loading %s ...\n", $0;
+
+no strict;
+use warnings "all";
+
+my @pkg = (
+	### webinterface
+	'count' => 'Mikunopop::Count',
+);
+
+while( my ($path, $pkg) = splice @pkg, 0, 2 ){
+	my $uri = sprintf "/%s", $path; 
+	printf STDERR "%-24s -> %s\n", $uri => $pkg;
+
+	$Location{$uri} = {
+		SetHandler => 'perl-script',
+		PerlResponseHandler => $pkg,
+	};
+}
+
+</Perl>
+

@@ -13,6 +13,7 @@ use LWP::Simple qw(get);
 use Getopt::Std;
 use Text::CSV_XS;
 use Compress::Zlib;
+use YAML::Syck ();
 
 use bytes ();
 
@@ -30,6 +31,9 @@ my $min_all = 1;
 
 my $base_dir = '/web/mikunopop/';
 my $htdocs_dir = file( $base_dir, "htdocs" );
+my $var_dir = file( $base_dir, "var" );
+
+my $db_file = file( $var_dir, 'count.yml' )->stringify;
 
 my $output_file_short = file( $htdocs_dir, "play", 'index.html' )->stringify;
 my $output_file_full = file( $htdocs_dir, "play", 'full.html' )->stringify;
@@ -221,6 +225,18 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 
 	my $fh = file( $output_file_csv )->openw or die $!;
 	$fh->print( Compress::Zlib::memGzip( join "\r\n", @csv ) );
+	$fh->close;
+}
+
+# count.db
+{
+	my $d = {};
+	for(@video_all){
+		$d->{ $_->{video_id} } = $_->{ view };
+	}
+
+	my $fh = file( $db_file )->openw or die $!;
+	$fh->print( YAML::Syck::Dump( $d ) );
 	$fh->close;
 }
 

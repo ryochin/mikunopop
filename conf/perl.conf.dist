@@ -1,0 +1,20 @@
+# 
+
+# see http://perl.apache.org/docs/2.0/user/config/config.html
+<IfModule mod_perl.c>
+#	PerlSwitches -wT -Ilib -Iextlib
+	PerlSwitches -w -I/web/mikunopop/lib -I/web/mikunopop/extlib
+#	PerlModule Apache::DBI
+	PerlOptions +Parent +GlobalRequest
+#	PerlSetEnv DBIC_NO_WARN_BAD_PERL 1
+	PerlPostConfigRequire /web/mikunopop/conf/startup.pl
+#	PerlTrace all
+
+	# > strace -f ./bin/httpd -D NYTPROF -k start
+#	<IfDefine NYTPROF>
+#		MaxClients 1
+#		PerlSetEnv NYTPROF file=/web/mikunopop/tmp/nytprof.out
+#		PerlModule Devel::NYTProf::Apache
+#	</IfDefine>
+</IfModule>
+
