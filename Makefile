@@ -23,3 +23,10 @@ xmllint:
 
 rsync-htdocs:
 	rsync -avz ./htdocs/ diana:/web/mikunopop/htdocs/
+
+git-add-comment-html:
+	git add var/comment/*/**
+	git add htdocs/comment/*/**
+	git add htdocs/comment/index.html
+
+# EOF
