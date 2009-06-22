@@ -14,6 +14,7 @@ use YAML::Syck;
 local $YAML::Syck::ImplicitUnicode = 1;
 use Data::Page;
 use DateTime;
+use Regexp::Common qw(URI);
 
 use utf8;
 #use bytes ();
@@ -79,7 +80,22 @@ for my $no( 1 .. $page->last_page ){
 	# コメント整形
 	for my $content( @{ $stash->{content} } ){
 #		$content->{comment} = CGI::escapeHTML( $content->{comment} );    # すでにエスケープされているファイルをパースした結果だから必要ない
-		$content->{comment} =~ s{((sm|nm)[0-9]{7,})}{<a href="http://www.nicovideo.jp/watch/$1" target="_blank" class="video" title="&lt;img src=&quot;http://niconail.info/$1&quot; /&gt;">$1</a>}go;
+		
+		# auto link
+		$content->{comment} =~ s{(?!watch/)((sm|nm)[0-9]{7,})}{http://www.nicovideo.jp/watch/$1}go;
+		$content->{comment} =~ s{($RE{URI}{HTTP})}{
+			my $url = $1;
+			if( $url =~ m{((sm|nm)[0-9]{7,})}io ){
+				# 動画へのリンク
+				sprintf q|<a href="http://www.nicovideo.jp/watch/%s" target="_blank" class="video" title="&lt;img src=&quot;http://niconail.info/%s&quot; /&gt;">%s</a>|,
+					$1, $1, $1;
+			}
+			else{
+				# 普通のリンク
+				sprintf q|<a href="%s" target="_blank" rel="nofollow">%s</a>|, $url, $url;
+			}
+		}eg;
+		
 		$content->{comment} =~ s{\n}{<br />}go;
 	}
 	
