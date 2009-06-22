@@ -1,6 +1,6 @@
 //
 
-var sec_default = 30;    // per
+var sec_default = 45;    // per
 var sec = sec_default;    // per
 var is_first = 1;
 
@@ -38,7 +38,7 @@ function loadLiveMain(once) {
 				sec = 120;
 			}
 			else{
-				$('#update').html("[状況] 現在、生放送はありません（１分おきにチェック）。");
+				$('#update').html("[状況] 現在、生放送はありません（定期的にチェック）。");
 				flag = 0;
 				sec = sec_default;
 			}
