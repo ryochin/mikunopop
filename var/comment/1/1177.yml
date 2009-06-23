@@ -1,0 +1,536 @@
+--- 
+aircaster: saihane
+content: 
+  - 
+    comment: おつ～
+    date: 2009/06/23 00:35:45
+    is_odd: 1
+    "no": 2
+  - 
+    comment: 乙
+    date: 2009/06/23 00:35:53
+    is_odd: 0
+    "no": 3
+  - 
+    comment: おつです
+    date: 2009/06/23 00:36:04
+    is_odd: 1
+    "no": 4
+  - 
+    comment: わんばんこー　（＾ω＾U）
+    date: 2009/06/23 00:36:29
+    is_odd: 0
+    "no": 5
+  - 
+    comment: １２時半近くというのがひとつの区切りっぽいよね＞枠
+    date: 2009/06/23 00:36:34
+    is_admin: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: "■初音ミク『プラチナ』-shin'in future Mix- ■10日P U-skeP "
+    date: 2009/06/23 00:37:14
+    is_admin: 1
+    is_odd: 0
+    "no": 7
+  - 
+    comment: ■2009.02.28 時/5:16 ミ/6 ◆再/6,723 コ/117 マ/348 (5.18%)
+    date: 2009/06/23 00:37:17
+    is_admin: 1
+    is_odd: 1
+    "no": 9
+  - 
+    comment: sm3427525　新曲記念
+    date: 2009/06/23 00:37:56
+    is_odd: 0
+    "no": 10
+  - 
+    comment: リクども～
+    date: 2009/06/23 00:38:25
+    is_admin: 1
+    is_odd: 1
+    "no": 11
+  - 
+    comment: sm2318626
+    date: 2009/06/23 00:39:09
+    is_odd: 0
+    "no": 12
+  - 
+    comment: りょうかい
+    date: 2009/06/23 00:39:39
+    is_admin: 1
+    is_odd: 1
+    "no": 13
+  - 
+    comment: sm6378122
+    date: 2009/06/23 00:39:45
+    is_odd: 0
+    "no": 14
+  - 
+    comment: ぼからんからDIVEしてきました
+    date: 2009/06/23 00:40:35
+    is_odd: 1
+    "no": 15
+  - 
+    comment: 音楽ってなんで「潜る」とかそういう言葉が合うんだろうね
+    date: 2009/06/23 00:41:14
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: "■初音ミクオリジナル曲「BOOOOST!」【修正版】 ■nak-amiP "
+    date: 2009/06/23 00:42:36
+    is_admin: 1
+    is_odd: 1
+    "no": 17
+  - 
+    comment: ■2008.05.25 時/2:25 ミ/5 ◆再/1,841 コ/49 マ/57 (3.10%)
+    date: 2009/06/23 00:42:39
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: あんぐら～？とかもそんな語感かな？
+    date: 2009/06/23 00:42:47
+    is_odd: 1
+    "no": 20
+  - 
+    comment: 新曲もカッコ良かったねぇ。さっき聞いたよ
+    date: 2009/06/23 00:43:25
+    is_odd: 0
+    "no": 21
+  - 
+    comment: "■【初音ミク】 My Brand New Love 【オリジナル曲】 ■ああんP "
+    date: 2009/06/23 00:45:03
+    is_admin: 1
+    is_odd: 1
+    "no": 22
+  - 
+    comment: ■2008.02.13 時/4:25 ミ/13 ◆再/66,391 コ/3,420 マ/2,798 (4.21%)
+    date: 2009/06/23 00:45:06
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: ああん　ああん
+    date: 2009/06/23 00:45:28
+    is_odd: 1
+    "no": 25
+  - 
+    comment: この頃毎日これ聴いてる気がするｗ
+    date: 2009/06/23 00:45:29
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: ああん☆ああん
+    date: 2009/06/23 00:45:36
+    is_odd: 1
+    "no": 27
+  - 
+    comment: 同感ｗ
+    date: 2009/06/23 00:45:47
+    is_odd: 0
+    "no": 28
+  - 
+    comment: ああん　ああん
+    date: 2009/06/23 00:45:50
+    is_odd: 1
+    "no": 29
+  - 
+    comment: ぽぴぴ☆ぽぴぴ
+    date: 2009/06/23 00:46:15
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: 新曲が待たれる
+    date: 2009/06/23 00:46:35
+    is_odd: 1
+    "no": 31
+  - 
+    comment: 一日一ああん
+    date: 2009/06/23 00:46:40
+    is_odd: 0
+    "no": 32
+  - 
+    comment: popipi popipi
+    date: 2009/06/23 00:47:01
+    is_odd: 1
+    "no": 33
+  - 
+    comment: popipi　popipi
+    date: 2009/06/23 00:47:16
+    is_odd: 0
+    "no": 34
+  - 
+    comment: ぽぴぴ　ぽぴぴ
+    date: 2009/06/23 00:47:25
+    is_odd: 1
+    "no": 35
+  - 
+    comment: ＞１４　あ、リクあり～（遅
+    date: 2009/06/23 00:47:39
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: ああん　ああん
+    date: 2009/06/23 00:47:52
+    is_odd: 1
+    "no": 37
+  - 
+    comment: あーーーーん　ああん　ああん
+    date: 2009/06/23 00:48:11
+    is_odd: 0
+    "no": 38
+  - 
+    comment: ぶらんにゅうらああああああああぶ
+    date: 2009/06/23 00:49:02
+    is_odd: 1
+    "no": 39
+  - 
+    comment: "■【巡音ルカ】CROSS-D.S.L Remix- ■SHIKI fatP "
+    date: 2009/06/23 00:49:32
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: sm7317837
+    date: 2009/06/23 00:49:33
+    is_odd: 1
+    "no": 42
+  - 
+    comment: ■2009.03.09 時/3:48 ミ/1 ◆再/2,472 コ/44 マ/146 (5.91%)
+    date: 2009/06/23 00:49:33
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: リクさんくす
+    date: 2009/06/23 00:50:01
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: saturationの人か
+    date: 2009/06/23 00:50:10
+    is_odd: 0
+    "no": 45
+  - 
+    comment: 最近よくFlash Playerのエラーでブラウザ落ちるんだけど僕だけ？
+    date: 2009/06/23 00:51:34
+    is_odd: 1
+    "no": 46
+  - 
+    comment: ミクノ系はもっと評価されてもいいと思う
+    date: 2009/06/23 00:52:14
+    is_odd: 0
+    "no": 47
+  - 
+    comment: オサレな大人の音楽だからいいのだ
+    date: 2009/06/23 00:53:02
+    is_odd: 1
+    "no": 48
+  - 
+    comment: "■Scissors Fluff Fluff feat. Megurine Luka ■ハイネケンP "
+    date: 2009/06/23 00:53:22
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: ■2009.06.12 時/4:07 ミ/1 ◆再/1,534 コ/93 マ/180 (11.73%)
+    date: 2009/06/23 00:53:24
+    is_admin: 1
+    is_odd: 1
+    "no": 51
+  - 
+    comment: 打倒ぼかｎ（ﾋﾟｰｰｰ
+    date: 2009/06/23 00:53:40
+    is_admin: 1
+    is_odd: 0
+    "no": 52
+  - 
+    comment: ｗ
+    date: 2009/06/23 00:53:46
+    is_odd: 1
+    "no": 53
+  - 
+    comment: そこに対抗意識燃やしていたんですかｗ
+    date: 2009/06/23 00:54:09
+    is_odd: 0
+    "no": 54
+  - 
+    comment: 裏番組ですかｗ
+    date: 2009/06/23 00:54:11
+    is_odd: 1
+    "no": 55
+  - 
+    comment: 良い曲
+    date: 2009/06/23 00:55:10
+    is_odd: 0
+    "no": 56
+  - 
+    comment: 個性とオサレ具合ではほぼ勝ってる・・・はず！
+    date: 2009/06/23 00:55:22
+    is_odd: 1
+    "no": 57
+  - 
+    comment: あそことは対抗意識ないなぁ　路線が違う
+    date: 2009/06/23 00:55:42
+    is_odd: 0
+    "no": 58
+  - 
+    comment: 負けているのはコメ数かな？
+    date: 2009/06/23 00:56:03
+    is_odd: 1
+    "no": 59
+  - 
+    comment: 最近ぼかｎはおっさｎホイホイだからな・・・ついていけないｗｗｗ
+    date: 2009/06/23 00:56:09
+    is_odd: 0
+    "no": 60
+  - 
+    comment: 視聴者に女の子がいるかどうかは負けてる気がする・・・
+    date: 2009/06/23 00:56:49
+    is_odd: 1
+    "no": 61
+  - 
+    comment: 他所の批判も良くないがネタ曲が多すぎてちょっと辛い
+    date: 2009/06/23 00:56:51
+    is_odd: 0
+    "no": 62
+  - 
+    comment: といってもお隣さんとかよく知らないんだけどね
+    date: 2009/06/23 00:57:04
+    is_admin: 1
+    is_odd: 1
+    "no": 63
+  - 
+    comment: ６１　んなとこで張り合うなｗ
+    date: 2009/06/23 00:57:13
+    is_odd: 0
+    "no": 64
+  - 
+    comment: さいはねさんは浮気しないもんねｗ
+    date: 2009/06/23 00:57:18
+    is_odd: 1
+    "no": 65
+  - 
+    comment: ここにも常連の女の子が一人はいるじゃない
+    date: 2009/06/23 00:57:24
+    is_odd: 0
+    "no": 66
+  - 
+    comment: "■【初音ミク】グラヴィティー【オリジナル】 ■ポコP "
+    date: 2009/06/23 00:57:34
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: ■2009.03.17 時/4:13 ミ/7 ◆再/4,965 コ/121 マ/283 (5.70%)
+    date: 2009/06/23 00:57:37
+    is_admin: 1
+    is_odd: 0
+    "no": 69
+  - 
+    comment: おおこれは好きな曲だ
+    date: 2009/06/23 00:58:06
+    is_odd: 1
+    "no": 70
+  - 
+    comment: というかなぜかいたたまれなくなって５分も居られない・・
+    date: 2009/06/23 00:58:20
+    is_admin: 1
+    is_odd: 0
+    "no": 71
+  - 
+    comment: Gravityって単語が好きだ・・・って前にも言ったか・・・
+    date: 2009/06/23 00:58:33
+    is_odd: 1
+    "no": 72
+  - 
+    comment: 女子率上げたいね！　来期（？）の目標はそれにしよう
+    date: 2009/06/23 00:59:01
+    is_admin: 1
+    is_odd: 0
+    "no": 73
+  - 
+    comment: ｗ
+    date: 2009/06/23 00:59:07
+    is_odd: 1
+    "no": 74
+  - 
+    comment: コミュ毎の色があっていいじゃない
+    date: 2009/06/23 00:59:10
+    is_odd: 0
+    "no": 75
+  - 
+    comment: さいはねさん女の子連れてきてよｗ
+    date: 2009/06/23 00:59:23
+    is_odd: 1
+    "no": 76
+  - 
+    comment: 来期っていつからｗｗ
+    date: 2009/06/23 00:59:25
+    is_odd: 0
+    "no": 77
+  - 
+    comment: こういう時、うまく名乗り出られない・・・♀
+    date: 2009/06/23 01:00:29
+    is_odd: 1
+    "no": 78
+  - 
+    comment: 第２回ボカロ大賞の後ってことか
+    date: 2009/06/23 01:00:33
+    is_odd: 0
+    "no": 79
+  - 
+    comment: むっ！？　にょし居た！？
+    date: 2009/06/23 01:00:42
+    is_admin: 1
+    is_odd: 1
+    "no": 80
+  - 
+    comment: ！？
+    date: 2009/06/23 01:00:49
+    is_odd: 0
+    "no": 81
+  - 
+    comment: 78＞　男のふりをするんだ！
+    date: 2009/06/23 01:00:52
+    is_odd: 1
+    "no": 82
+  - 
+    comment: ｗｗｗｗ
+    date: 2009/06/23 01:00:55
+    is_odd: 0
+    "no": 83
+  - 
+    comment: 常連さん？&gt;78
+    date: 2009/06/23 01:01:19
+    is_odd: 1
+    "no": 84
+  - 
+    comment: なぜここにおにゃのこが少ないのか教えてくださいm(_ _)m
+    date: 2009/06/23 01:01:34
+    is_admin: 1
+    is_odd: 0
+    "no": 85
+  - 
+    comment: 初期からみてますよｗ（78
+    date: 2009/06/23 01:01:37
+    is_odd: 1
+    "no": 86
+  - 
+    comment: これこれそんなにギラギラしない
+    date: 2009/06/23 01:01:38
+    is_odd: 0
+    "no": 87
+  - 
+    comment: 主ｗｗｗｗ
+    date: 2009/06/23 01:01:45
+    is_odd: 1
+    "no": 88
+  - 
+    comment: ''
+    date: 2009/06/23 01:01:54
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 89
+  - 
+    comment: ■2009.04.11 時/3:22 ミ/6 ◆再/10,563 コ/325 マ/625 (5.92%)
+    date: 2009/06/23 01:01:57
+    is_admin: 1
+    is_odd: 1
+    "no": 91
+  - 
+    comment: おにゃのこ結構居ると思うんだけど（78
+    date: 2009/06/23 01:02:09
+    is_odd: 0
+    "no": 92
+  - 
+    comment: 某動画師さんじゃないです？
+    date: 2009/06/23 01:02:13
+    is_odd: 1
+    "no": 93
+  - 
+    comment: みんなシャイなのか・・
+    date: 2009/06/23 01:02:20
+    is_admin: 1
+    is_odd: 0
+    "no": 94
+  - 
+    comment: じゃないです。
+    date: 2009/06/23 01:02:31
+    is_odd: 1
+    "no": 95
+  - 
+    comment: 師匠以外にもいたのか・・・
+    date: 2009/06/23 01:02:34
+    is_odd: 0
+    "no": 96
+  - 
+    comment: ｗｗｗ断られてましたよね？＞き
+    date: 2009/06/23 01:02:54
+    is_odd: 1
+    "no": 97
+  - 
+    comment: その気持ちを忘れたら、もうおｂさん＞主
+    date: 2009/06/23 01:03:08
+    is_odd: 0
+    "no": 98
+  - 
+    comment: お坊さん？　それは悶さんじゃ・・
+    date: 2009/06/23 01:03:35
+    is_admin: 1
+    is_odd: 1
+    "no": 99
+  - 
+    comment: ｗｗ
+    date: 2009/06/23 01:03:41
+    is_odd: 0
+    "no": 100
+  - 
+    comment: ｗ
+    date: 2009/06/23 01:03:44
+    is_odd: 1
+    "no": 101
+  - 
+    comment: ｗｗ
+    date: 2009/06/23 01:03:48
+    is_odd: 0
+    "no": 102
+  - 
+    comment: おつです
+    date: 2009/06/23 01:03:50
+    is_odd: 1
+    "no": 103
+  - 
+    comment: ﾉｼ～
+    date: 2009/06/23 01:03:55
+    is_odd: 0
+    "no": 104
+  - 
+    comment: んじゃまたね～ﾉｼ
+    date: 2009/06/23 01:03:56
+    is_admin: 1
+    is_odd: 1
+    "no": 105
+  - 
+    comment: 乙ですノシ
+    date: 2009/06/23 01:03:57
+    is_odd: 0
+    "no": 106
+  - 
+    comment: ノシ
+    date: 2009/06/23 01:03:59
+    is_odd: 1
+    "no": 107
+frame: 1
+part: 1177
+start: 1245684945
+time: 28
+title: ミクノポップをきかないか？ Part.1177
+
