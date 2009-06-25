@@ -46,6 +46,9 @@ $(document).ready( function () {
 		<li>開始：[% start.strftime("%Y年%m月%d日 %H時") | html %]</li>
 		<li>放送者：[% aircaster | html %]</li>
 		<li>枠：[% frame | html %] 枠</li>
+[% IF meta_info %]
+		<li>特別：[% meta_info | html %]</li>
+[% END %]
 		<li>
 			[% IF prev_page %]
 			← <a href="[% prev_page_url | url | html %]">Part. [% prev_page | html %]</a>

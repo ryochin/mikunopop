@@ -30,8 +30,11 @@ Getopt::Std::getopts 'b:n:' => my $opt = {};
 my $base_dir = $opt->{b} || '../';
 my $yaml_dir = dir( $base_dir, 'var', 'comment' )->cleanup;
 my $template_file = file( $base_dir, 'template', 'comment.html' );
+my $meta_yml = file( $base_dir, 'var', 'comment', 'meta.yml' );
 
 my $least_num = defined $opt->{n} ? int $opt->{n} : 1;
+
+my $meta = YAML::Syck::LoadFile( $meta_yml ) or die $!;
 
 my $list = {};    # no => file obj
 while ( my $dir = $yaml_dir->next) {
@@ -101,6 +104,11 @@ for my $no( 1 .. $page->last_page ){
 	
 	# start
 	$stash->{start} = DateTime->from_epoch( epoch => $stash->{start}, time_zone => 'local' );
+	
+	# meta
+	if( defined $meta->{ $no } and $meta->{ $no } ne '' ){
+		$stash->{meta_info} = $meta->{ $no };
+	}
 	
 	# output
 	$template->process( $template_file->stringify, $stash, $html->stringify, binmode => ':utf8' )

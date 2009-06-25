@@ -27,6 +27,9 @@ my $base_dir = $opt->{b} || '../';
 my $yaml_dir = dir( $base_dir, 'var', 'comment' )->cleanup;
 my $template_file = file( $base_dir, 'template', 'comment_index.html' );
 my $html = file( $base_dir. 'htdocs', 'comment', 'index.html' );
+my $meta_yml = file( $base_dir, 'var', 'comment', 'meta.yml' );
+
+my $meta = YAML::Syck::LoadFile( $meta_yml ) or die $!;
 
 my $list = {};    # no => file obj
 while ( my $dir = $yaml_dir->next) {
@@ -45,6 +48,8 @@ for my $no( 1 .. max keys %{ $list } ){
 	next if not defined $list->{ $no };
 	
 	my $db = YAML::Syck::LoadFile( $list->{$no} );
+
+	printf STDERR "%d ", $no;
 	
 	my $path = sprintf "./%d/%d.html", int( $no / 1000 ), $no;
 		
@@ -54,8 +59,10 @@ for my $no( 1 .. max keys %{ $list } ){
 		start => DateTime->from_epoch( epoch => $db->{start}, time_zone => 'local' ),
 		aircaster => $db->{aircaster},
 		frame => $db->{frame},
+		meta_info => $meta->{ $no },
 	};
 }
+printf STDERR "\n";
 
 my $stash = {};
 
@@ -67,6 +74,8 @@ for my $no( reverse @html ){
 my $template = &create_template;
 $template->process( $template_file->stringify, $stash, $html->stringify, binmode => ':utf8' )
 	or die $template->error;
+
+printf STDERR "=> done.\n";
 
 exit 0;
 
