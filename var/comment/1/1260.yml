@@ -1,0 +1,7463 @@
+--- 
+aircaster: A*ster
+content: 
+  - 
+    comment: おつー
+    date: 2009/06/28 21:00:18
+    is_odd: 1
+    "no": 1
+  - 
+    comment: １
+    date: 2009/06/28 21:00:18
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 枠乙ですー
+    date: 2009/06/28 21:00:22
+    is_odd: 1
+    "no": 3
+  - 
+    comment: 乙です！！
+    date: 2009/06/28 21:00:22
+    is_odd: 0
+    "no": 4
+  - 
+    comment: 乙！
+    date: 2009/06/28 21:00:22
+    is_odd: 1
+    "no": 5
+  - 
+    comment: こんばんわー
+    date: 2009/06/28 21:00:25
+    is_odd: 0
+    "no": 6
+  - 
+    comment: こんばんは～
+    date: 2009/06/28 21:00:29
+    is_odd: 1
+    "no": 7
+  - 
+    comment: こんばんは～
+    date: 2009/06/28 21:00:30
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: 待ってましたああああああ
+    date: 2009/06/28 21:00:32
+    is_odd: 1
+    "no": 9
+  - 
+    comment: ああ１コメゲットできなかった、乙です！
+    date: 2009/06/28 21:00:34
+    is_odd: 0
+    "no": 10
+  - 
+    comment: 5乙乙
+    date: 2009/06/28 21:00:38
+    is_odd: 1
+    "no": 11
+  - 
+    comment: 第2回『ミクノポップ大賞』勝手に授賞式へようこそ！
+    date: 2009/06/28 21:00:41
+    is_admin: 1
+    is_odd: 0
+    "no": 12
+  - 
+    comment: きたああああああ
+    date: 2009/06/28 21:00:43
+    is_odd: 1
+    "no": 13
+  - 
+    comment: まずはジングル代わりに
+    date: 2009/06/28 21:00:58
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: おつん
+    date: 2009/06/28 21:01:03
+    is_odd: 1
+    "no": 15
+  - 
+    comment: 乙ですぅぅぅ
+    date: 2009/06/28 21:01:12
+    is_odd: 0
+    "no": 17
+  - 
+    comment: ああこんな夜なのに頭痛が痛い・・・
+    date: 2009/06/28 21:01:20
+    is_odd: 1
+    "no": 18
+  - 
+    comment: お大事に＞18
+    date: 2009/06/28 21:01:35
+    is_odd: 0
+    "no": 19
+  - 
+    comment: きぬこもちさんありがとうございました～
+    date: 2009/06/28 21:01:40
+    is_admin: 1
+    is_odd: 1
+    "no": 20
+  - 
+    comment: 本スレかららきすた
+    date: 2009/06/28 21:01:42
+    is_odd: 0
+    "no": 21
+  - 
+    comment: つ　バファリン
+    date: 2009/06/28 21:01:54
+    is_odd: 1
+    "no": 22
+  - 
+    comment: ノーシン＞１８
+    date: 2009/06/28 21:02:10
+    is_odd: 0
+    "no": 23
+  - 
+    comment: それでは前回の第1位をおさらい
+    date: 2009/06/28 21:02:22
+    is_admin: 1
+    is_odd: 1
+    "no": 24
+  - 
+    comment: ほいほい
+    date: 2009/06/28 21:02:29
+    is_odd: 0
+    "no": 25
+  - 
+    comment: うむうむ
+    date: 2009/06/28 21:02:31
+    is_odd: 1
+    "no": 26
+  - 
+    comment: 【初音ミク】bpm【オリジナル】  P名:チーターガールP
+    date: 2009/06/28 21:02:31
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: ''
+    date: 2009/06/28 21:02:34
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: わーい！わーい！
+    date: 2009/06/28 21:02:41
+    is_odd: 0
+    "no": 30
+  - 
+    comment: ああ、やっぱこれ好きだわ……
+    date: 2009/06/28 21:02:46
+    is_odd: 1
+    "no": 31
+  - 
+    comment: キングオブオサレ！１
+    date: 2009/06/28 21:02:50
+    is_odd: 0
+    "no": 32
+  - 
+    comment: 名曲！
+    date: 2009/06/28 21:02:53
+    is_odd: 1
+    "no": 33
+  - 
+    comment: オサレだ
+    date: 2009/06/28 21:02:56
+    is_odd: 0
+    "no": 34
+  - 
+    comment: bpm!!
+    date: 2009/06/28 21:03:00
+    is_odd: 1
+    "no": 35
+  - 
+    comment: やはり来たか
+    date: 2009/06/28 21:03:03
+    is_odd: 0
+    "no": 36
+  - 
+    comment: ステキすぎるよなぁ
+    date: 2009/06/28 21:03:05
+    is_odd: 1
+    "no": 37
+  - 
+    comment: かかった瞬間体が動くね
+    date: 2009/06/28 21:03:05
+    is_odd: 0
+    "no": 38
+  - 
+    comment: 体が勝手に小躍りするう
+    date: 2009/06/28 21:03:20
+    is_odd: 1
+    "no": 39
+  - 
+    comment: オサレ曲きたあ！
+    date: 2009/06/28 21:03:22
+    is_odd: 0
+    "no": 40
+  - 
+    comment: 上のおまけから前回の結果が見れます
+    date: 2009/06/28 21:03:40
+    is_admin: 1
+    is_odd: 1
+    "no": 41
+  - 
+    comment: パフュームに聞こえてきてしまうｗｗ
+    date: 2009/06/28 21:03:47
+    is_odd: 0
+    "no": 42
+  - 
+    comment: ｂｐｍ！
+    date: 2009/06/28 21:04:02
+    is_odd: 1
+    "no": 43
+  - 
+    comment: Perfume好きだけど、これとそんなに似てるか……？＞Perfume
+    date: 2009/06/28 21:04:14
+    is_odd: 0
+    "no": 44
+  - 
+    comment: まぁまぁ
+    date: 2009/06/28 21:04:24
+    is_odd: 1
+    "no": 45
+  - 
+    comment: bpmのサビ好きだーーーー
+    date: 2009/06/28 21:04:41
+    is_odd: 0
+    "no": 46
+  - 
+    comment: びーぃぴぃえむっ
+    date: 2009/06/28 21:04:49
+    is_odd: 1
+    "no": 47
+  - 
+    comment: この曲はリンレンコーラスも聴きどころ
+    date: 2009/06/28 21:04:50
+    is_odd: 0
+    "no": 48
+  - 
+    comment: 仕事から今帰宅！間に合った！予約おつです！
+    date: 2009/06/28 21:04:57
+    is_odd: 1
+    "no": 49
+  - 
+    comment: うんうん＞48
+    date: 2009/06/28 21:04:58
+    is_odd: 0
+    "no": 50
+  - 
+    comment: 前回投票してない
+    date: 2009/06/28 21:05:05
+    is_odd: 1
+    "no": 51
+  - 
+    comment: 初見〜いい曲だねぇ
+    date: 2009/06/28 21:05:05
+    is_odd: 0
+    "no": 52
+  - 
+    comment: いらっしゃい
+    date: 2009/06/28 21:05:05
+    is_odd: 1
+    "no": 53
+  - 
+    comment: いらっしゃい～
+    date: 2009/06/28 21:05:09
+    is_odd: 0
+    "no": 54
+  - 
+    comment: いらっしゃいー
+    date: 2009/06/28 21:05:13
+    is_odd: 1
+    "no": 55
+  - 
+    comment: いらっしゃい！
+    date: 2009/06/28 21:05:14
+    is_odd: 0
+    "no": 56
+  - 
+    comment: いらっしゃー
+    date: 2009/06/28 21:05:19
+    is_odd: 1
+    "no": 57
+  - 
+    comment: 「いい曲」程度じゃない、「サイコー」だぜ！
+    date: 2009/06/28 21:05:28
+    is_odd: 0
+    "no": 58
+  - 
+    comment: オサレ空間へようこそ！
+    date: 2009/06/28 21:05:30
+    is_odd: 1
+    "no": 59
+  - 
+    comment: やっぱりいいな、この曲
+    date: 2009/06/28 21:05:35
+    is_odd: 0
+    "no": 60
+  - 
+    comment: 今前回の見てるけどやっぱ１票っての多いなあw
+    date: 2009/06/28 21:05:40
+    is_odd: 1
+    "no": 61
+  - 
+    comment: おｋ「サイコー」だ
+    date: 2009/06/28 21:05:49
+    is_odd: 0
+    "no": 62
+  - 
+    comment: 外で歩きながら聞くと気持ち良いよ～
+    date: 2009/06/28 21:06:03
+    is_odd: 1
+    "no": 63
+  - 
+    comment: 半分は１票曲になるね、この手の企画は
+    date: 2009/06/28 21:06:12
+    is_odd: 0
+    "no": 64
+  - 
+    comment: 後日一票曲特集枠でもやりたい
+    date: 2009/06/28 21:06:41
+    is_odd: 1
+    "no": 65
+  - 
+    comment: 自分の投票曲はランキング外だろうな
+    date: 2009/06/28 21:06:51
+    is_odd: 0
+    "no": 66
+  - 
+    comment: それでは今回の投票結果の概要
+    date: 2009/06/28 21:06:53
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: それ面白そうですね＞１票
+    date: 2009/06/28 21:06:56
+    is_odd: 0
+    "no": 68
+  - 
+    comment: はーいｗｋｔｋ
+    date: 2009/06/28 21:07:00
+    is_odd: 1
+    "no": 69
+  - 
+    comment: 投票人数31人 投票総数310票 全188曲に投票いただきました
+    date: 2009/06/28 21:07:05
+    is_admin: 1
+    is_odd: 0
+    "no": 70
+  - 
+    comment: 俺のも１票だろうなｗ
+    date: 2009/06/28 21:07:08
+    is_odd: 1
+    "no": 71
+  - 
+    comment: おおお、31人
+    date: 2009/06/28 21:07:19
+    is_odd: 0
+    "no": 72
+  - 
+    comment: １８８ｗ
+    date: 2009/06/28 21:07:19
+    is_odd: 1
+    "no": 73
+  - 
+    comment: みなさまご投票ありがとうございました～
+    date: 2009/06/28 21:07:22
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: 前回より増えたーー
+    date: 2009/06/28 21:07:23
+    is_odd: 1
+    "no": 75
+  - 
+    comment: 平均２票以下になっちゃうｗ
+    date: 2009/06/28 21:07:24
+    is_odd: 0
+    "no": 76
+  - 
+    comment: 割れまくりｗ
+    date: 2009/06/28 21:07:27
+    is_odd: 1
+    "no": 77
+  - 
+    comment: １８８曲　割れてるｗ
+    date: 2009/06/28 21:07:34
+    is_odd: 0
+    "no": 78
+  - 
+    comment: では発表に移ります
+    date: 2009/06/28 21:07:35
+    is_admin: 1
+    is_odd: 1
+    "no": 79
+  - 
+    comment: 割れまくったねえｗ
+    date: 2009/06/28 21:07:37
+    is_odd: 0
+    "no": 80
+  - 
+    comment: 母数が多いからなあｗ
+    date: 2009/06/28 21:07:39
+    is_odd: 1
+    "no": 81
+  - 
+    comment: まあ、当然だよな割れるの
+    date: 2009/06/28 21:07:41
+    is_odd: 0
+    "no": 82
+  - 
+    comment: 第08位 4票
+    date: 2009/06/28 21:07:48
+    is_admin: 1
+    is_odd: 1
+    "no": 83
+  - 
+    comment: 母数多すぎるもんねｗ＞いいことだ
+    date: 2009/06/28 21:07:49
+    is_odd: 0
+    "no": 84
+  - 
+    comment: どきどき
+    date: 2009/06/28 21:07:50
+    is_odd: 1
+    "no": 85
+  - 
+    comment: さあ！
+    date: 2009/06/28 21:07:52
+    is_odd: 0
+    "no": 86
+  - 
+    comment: きたー！
+    date: 2009/06/28 21:07:53
+    is_odd: 1
+    "no": 87
+  - 
+    comment: 【ミクオリジナル曲】 vostok2+【修正版】  P名:あつぞうくん
+    date: 2009/06/28 21:07:55
+    is_admin: 1
+    is_odd: 0
+    "no": 88
+  - 
+    comment: でも４票もある！
+    date: 2009/06/28 21:07:56
+    is_odd: 1
+    "no": 90
+  - 
+    comment: ''
+    date: 2009/06/28 21:07:58
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 91
+  - 
+    comment: どれじゃ？
+    date: 2009/06/28 21:07:58
+    is_odd: 1
+    "no": 92
+  - 
+    comment: おおおおおおー
+    date: 2009/06/28 21:07:59
+    is_odd: 0
+    "no": 93
+  - 
+    comment: おおおお
+    date: 2009/06/28 21:07:59
+    is_odd: 1
+    "no": 94
+  - 
+    comment: おおーー
+    date: 2009/06/28 21:08:00
+    is_odd: 0
+    "no": 95
+  - 
+    comment: うおおおおおお
+    date: 2009/06/28 21:08:00
+    is_odd: 1
+    "no": 96
+  - 
+    comment: ｷﾀ――(ﾟ∀ﾟ)――!!
+    date: 2009/06/28 21:08:02
+    is_odd: 0
+    "no": 97
+  - 
+    comment: おおー
+    date: 2009/06/28 21:08:03
+    is_odd: 1
+    "no": 98
+  - 
+    comment: これは仕方ないね
+    date: 2009/06/28 21:08:03
+    is_odd: 0
+    "no": 99
+  - 
+    comment: なんとー！
+    date: 2009/06/28 21:08:04
+    is_odd: 1
+    "no": 100
+  - 
+    comment: うおおおおおおおお
+    date: 2009/06/28 21:08:05
+    is_odd: 0
+    "no": 101
+  - 
+    comment: やっほいいいいいいいいいいい！
+    date: 2009/06/28 21:08:10
+    is_odd: 1
+    "no": 102
+  - 
+    comment: ｋｔｋｒ
+    date: 2009/06/28 21:08:16
+    is_odd: 0
+    "no": 103
+  - 
+    comment: あつぞうさん　まいしてるぅうううううう
+    date: 2009/06/28 21:08:17
+    is_odd: 1
+    "no": 104
+  - 
+    comment: おれもだあああああああああ
+    date: 2009/06/28 21:08:23
+    is_odd: 0
+    "no": 105
+  - 
+    comment: おおおおおおおっ！
+    date: 2009/06/28 21:08:25
+    is_odd: 1
+    "no": 106
+  - 
+    comment: ポッポコがたまらん
+    date: 2009/06/28 21:08:35
+    is_odd: 0
+    "no": 107
+  - 
+    comment: 第8位は全8曲です
+    date: 2009/06/28 21:09:00
+    is_admin: 1
+    is_odd: 1
+    "no": 108
+  - 
+    comment: ww
+    date: 2009/06/28 21:09:08
+    is_odd: 0
+    "no": 109
+  - 
+    comment: うひょーｗ
+    date: 2009/06/28 21:09:09
+    is_odd: 1
+    "no": 110
+  - 
+    comment: ８曲流すの？
+    date: 2009/06/28 21:09:10
+    is_odd: 0
+    "no": 111
+  - 
+    comment: www
+    date: 2009/06/28 21:09:12
+    is_odd: 1
+    "no": 112
+  - 
+    comment: 多いってｗ
+    date: 2009/06/28 21:09:12
+    is_odd: 0
+    "no": 113
+  - 
+    comment: すげぇ
+    date: 2009/06/28 21:09:13
+    is_odd: 1
+    "no": 114
+  - 
+    comment: なんという争いｗ
+    date: 2009/06/28 21:09:13
+    is_odd: 0
+    "no": 115
+  - 
+    comment: 割れたねえｗ
+    date: 2009/06/28 21:09:18
+    is_odd: 1
+    "no": 116
+  - 
+    comment: 多いｗｗｗ
+    date: 2009/06/28 21:09:20
+    is_odd: 0
+    "no": 117
+  - 
+    comment: ていうか何枠やるんですか？
+    date: 2009/06/28 21:09:28
+    is_odd: 1
+    "no": 118
+  - 
+    comment: ４票が８曲かー
+    date: 2009/06/28 21:09:33
+    is_odd: 0
+    "no": 119
+  - 
+    comment: ３枠は確定
+    date: 2009/06/28 21:09:34
+    is_odd: 1
+    "no": 120
+  - 
+    comment: 全部流しますよ～ｗ
+    date: 2009/06/28 21:09:34
+    is_admin: 1
+    is_odd: 0
+    "no": 121
+  - 
+    comment: おおおおおお
+    date: 2009/06/28 21:09:41
+    is_odd: 1
+    "no": 122
+  - 
+    comment: www
+    date: 2009/06/28 21:09:45
+    is_odd: 0
+    "no": 123
+  - 
+    comment: USSR～♪
+    date: 2009/06/28 21:09:48
+    is_odd: 1
+    "no": 124
+  - 
+    comment: ８曲かぁおおいなぁ
+    date: 2009/06/28 21:09:49
+    is_odd: 0
+    "no": 125
+  - 
+    comment: 主は神認定
+    date: 2009/06/28 21:09:51
+    is_odd: 1
+    "no": 126
+  - 
+    comment: ゆーえすえすあーるっ
+    date: 2009/06/28 21:09:53
+    is_odd: 0
+    "no": 127
+  - 
+    comment: わーいわーい
+    date: 2009/06/28 21:09:56
+    is_odd: 1
+    "no": 128
+  - 
+    comment: いいわぁ♪
+    date: 2009/06/28 21:10:04
+    is_odd: 0
+    "no": 129
+  - 
+    comment: うわーい！うわーい！
+    date: 2009/06/28 21:10:06
+    is_odd: 1
+    "no": 130
+  - 
+    comment: もしや１８８曲　流す？　ｗｗ
+    date: 2009/06/28 21:10:13
+    is_odd: 0
+    "no": 131
+  - 
+    comment: 明日仕事でも元気が出たぜ
+    date: 2009/06/28 21:10:19
+    is_odd: 1
+    "no": 132
+  - 
+    comment: この曲、アップテンポでもないのに飽きないから好き
+    date: 2009/06/28 21:10:28
+    is_odd: 0
+    "no": 133
+  - 
+    comment: いやいや、８位以上でしょ
+    date: 2009/06/28 21:10:29
+    is_odd: 1
+    "no": 134
+  - 
+    comment: ちなみにPご本人がいらしたら名乗りででいただけるとありがたいです
+    date: 2009/06/28 21:10:29
+    is_admin: 1
+    is_odd: 0
+    "no": 135
+  - 
+    comment: ありがたいです！
+    date: 2009/06/28 21:10:38
+    is_odd: 1
+    "no": 136
+  - 
+    comment: たしかに
+    date: 2009/06/28 21:10:46
+    is_odd: 0
+    "no": 137
+  - 
+    comment: ありがたいです！
+    date: 2009/06/28 21:10:47
+    is_odd: 1
+    "no": 138
+  - 
+    comment: そうだったら嬉しいけどこのジャンル長い曲多いから一体何枠必要なんだｗｗｗ＞131
+    date: 2009/06/28 21:10:49
+    is_odd: 0
+    "no": 139
+  - 
+    comment: ぜひ！
+    date: 2009/06/28 21:10:50
+    is_odd: 1
+    "no": 140
+  - 
+    comment: 本人降臨したら感動で泣きます！
+    date: 2009/06/28 21:11:00
+    is_odd: 0
+    "no": 141
+  - 
+    comment: a
+    date: 2009/06/28 21:11:13
+    is_odd: 1
+    "no": 142
+  - 
+    comment: 修正版ほんとにありがとう・・・・ッ！！
+    date: 2009/06/28 21:12:04
+    is_odd: 0
+    "no": 143
+  - 
+    comment: 今日は楽しいなぁ
+    date: 2009/06/28 21:12:07
+    is_odd: 1
+    "no": 144
+  - 
+    comment: 最初からこれかよ　今日はすごいな
+    date: 2009/06/28 21:12:23
+    is_odd: 0
+    "no": 145
+  - 
+    comment: あつぞうくんさん大好きだ！！
+    date: 2009/06/28 21:12:29
+    is_odd: 1
+    "no": 146
+  - 
+    comment: お邪魔します、テクノポップって事でいいのかな？
+    date: 2009/06/28 21:12:32
+    is_odd: 0
+    "no": 147
+  - 
+    comment: いらっしゃい！
+    date: 2009/06/28 21:12:44
+    is_odd: 1
+    "no": 148
+  - 
+    comment: この生がこんな序盤でこの来場者数ｗ　いらっしゃーい！
+    date: 2009/06/28 21:12:48
+    is_odd: 0
+    "no": 149
+  - 
+    comment: いらっしゃい～
+    date: 2009/06/28 21:12:50
+    is_odd: 1
+    "no": 150
+  - 
+    comment: テクノ、トランス、ニカ、その他いろいろ
+    date: 2009/06/28 21:12:50
+    is_odd: 0
+    "no": 151
+  - 
+    comment: おおむねｗ
+    date: 2009/06/28 21:12:52
+    is_odd: 1
+    "no": 152
+  - 
+    comment: 同8位 4票
+    date: 2009/06/28 21:12:53
+    is_admin: 1
+    is_odd: 0
+    "no": 153
+  - 
+    comment: 【初音ミク】近未来ラジオ -Full ver'-【オリジナル曲】  P名:Rin（ぎん）
+    date: 2009/06/28 21:12:58
+    is_admin: 1
+    is_odd: 1
+    "no": 154
+  - 
+    comment: ''
+    date: 2009/06/28 21:13:01
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 156
+  - 
+    comment: きたああああああああああ
+    date: 2009/06/28 21:13:03
+    is_odd: 1
+    "no": 157
+  - 
+    comment: ありがとう、聞いてみます
+    date: 2009/06/28 21:13:03
+    is_odd: 0
+    "no": 158
+  - 
+    comment: (　ﾟ∀ﾟ)o彡°みくの！もきの！
+    date: 2009/06/28 21:13:04
+    is_odd: 1
+    "no": 159
+  - 
+    comment: きたああああああああああああ
+    date: 2009/06/28 21:13:05
+    is_odd: 0
+    "no": 160
+  - 
+    comment: RInさん
+    date: 2009/06/28 21:13:05
+    is_odd: 1
+    "no": 161
+  - 
+    comment: やったあ！！
+    date: 2009/06/28 21:13:05
+    is_odd: 0
+    "no": 162
+  - 
+    comment: おおー
+    date: 2009/06/28 21:13:06
+    is_odd: 1
+    "no": 163
+  - 
+    comment: よっしゃあああああああああああああああああ
+    date: 2009/06/28 21:13:07
+    is_odd: 0
+    "no": 164
+  - 
+    comment: 俺の投票したのきたあああああ！
+    date: 2009/06/28 21:13:10
+    is_odd: 1
+    "no": 165
+  - 
+    comment: きたねきたねー
+    date: 2009/06/28 21:13:11
+    is_odd: 0
+    "no": 166
+  - 
+    comment: ぎんすけさ～～～ん
+    date: 2009/06/28 21:13:15
+    is_odd: 1
+    "no": 167
+  - 
+    comment: おおおおおおお
+    date: 2009/06/28 21:13:17
+    is_odd: 0
+    "no": 168
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟぎんさん！ぎんさん！
+    date: 2009/06/28 21:13:19
+    is_odd: 1
+    "no": 169
+  - 
+    comment: これすきいいいいいいい
+    date: 2009/06/28 21:13:21
+    is_odd: 0
+    "no": 170
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟぎんさん！ぎんさん！
+    date: 2009/06/28 21:13:29
+    is_odd: 1
+    "no": 171
+  - 
+    comment: 歌詞がすごく好きだ……
+    date: 2009/06/28 21:13:31
+    is_odd: 0
+    "no": 172
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟぎんさん！ぎんさん！
+    date: 2009/06/28 21:13:32
+    is_odd: 1
+    "no": 173
+  - 
+    comment: ぎんさんおめ～
+    date: 2009/06/28 21:13:45
+    is_admin: 1
+    is_odd: 0
+    "no": 174
+  - 
+    comment: これは外せない
+    date: 2009/06/28 21:13:50
+    is_odd: 1
+    "no": 175
+  - 
+    comment: まさに今妨害中
+    date: 2009/06/28 21:13:57
+    is_odd: 0
+    "no": 176
+  - 
+    comment: これは定番曲だな♪
+    date: 2009/06/28 21:14:07
+    is_odd: 1
+    "no": 177
+  - 
+    comment: ベースがカッコえええ
+    date: 2009/06/28 21:14:13
+    is_odd: 0
+    "no": 178
+  - 
+    comment: 後半の演出もツボです！
+    date: 2009/06/28 21:14:31
+    is_odd: 1
+    "no": 179
+  - 
+    comment: 番組のイメージと一番近い曲だなぁ
+    date: 2009/06/28 21:14:57
+    is_odd: 0
+    "no": 180
+  - 
+    comment: 常時、ラジオのノイズが欲しいと思ってしまう
+    date: 2009/06/28 21:15:05
+    is_odd: 1
+    "no": 181
+  - 
+    comment: つ　脳内再生
+    date: 2009/06/28 21:15:18
+    is_odd: 0
+    "no": 182
+  - 
+    comment: ほんと最高のジングルを作っていただきました
+    date: 2009/06/28 21:15:19
+    is_admin: 1
+    is_odd: 1
+    "no": 183
+  - 
+    comment: 記念すべきジングル第１曲目ですね！
+    date: 2009/06/28 21:15:40
+    is_odd: 0
+    "no": 184
+  - 
+    comment: 今きた＠ぎんすけ
+    date: 2009/06/28 21:15:42
+    is_odd: 1
+    "no": 185
+  - 
+    comment: らっしゃい
+    date: 2009/06/28 21:15:49
+    is_odd: 0
+    "no": 186
+  - 
+    comment: ぎんさああん
+    date: 2009/06/28 21:15:49
+    is_odd: 1
+    "no": 187
+  - 
+    comment: いらっしゃい
+    date: 2009/06/28 21:15:50
+    is_odd: 0
+    "no": 188
+  - 
+    comment: きたー
+    date: 2009/06/28 21:15:50
+    is_odd: 1
+    "no": 189
+  - 
+    comment: おおお、いらっしゃいませ……！
+    date: 2009/06/28 21:15:51
+    is_odd: 0
+    "no": 190
+  - 
+    comment: きったああああああ
+    date: 2009/06/28 21:15:52
+    is_odd: 1
+    "no": 191
+  - 
+    comment: 本人キタアああ
+    date: 2009/06/28 21:15:53
+    is_odd: 0
+    "no": 192
+  - 
+    comment: らっしゃいーー
+    date: 2009/06/28 21:15:54
+    is_odd: 1
+    "no": 193
+  - 
+    comment: 本人きたああ
+    date: 2009/06/28 21:15:54
+    is_odd: 0
+    "no": 194
+  - 
+    comment: いらっしゃ～～～～～～～～～～～～～い
+    date: 2009/06/28 21:15:54
+    is_admin: 1
+    is_odd: 1
+    "no": 195
+  - 
+    comment: いらっしゃいー
+    date: 2009/06/28 21:15:54
+    is_odd: 0
+    "no": 196
+  - 
+    comment: 最初のジングル　提案有って受けてもらえるとは思わなかった
+    date: 2009/06/28 21:15:54
+    is_odd: 1
+    "no": 197
+  - 
+    comment: ktkr
+    date: 2009/06/28 21:16:00
+    is_odd: 0
+    "no": 198
+  - 
+    comment: ぎんさんあいしてるうううううう
+    date: 2009/06/28 21:16:01
+    is_odd: 1
+    "no": 199
+  - 
+    comment: いらしゃあああーーいいいいい
+    date: 2009/06/28 21:16:02
+    is_odd: 0
+    "no": 200
+  - 
+    comment: いらっしゃい～
+    date: 2009/06/28 21:16:08
+    is_odd: 1
+    "no": 201
+  - 
+    comment: あいしてるうううううううううううううううううう
+    date: 2009/06/28 21:16:16
+    is_odd: 0
+    "no": 202
+  - 
+    comment: ぎんさんあいしてる～～～
+    date: 2009/06/28 21:16:16
+    is_odd: 1
+    "no": 203
+  - 
+    comment: 大好きです　大好きです
+    date: 2009/06/28 21:16:19
+    is_odd: 0
+    "no": 204
+  - 
+    comment: ありがとうございます〜＠ぎん
+    date: 2009/06/28 21:16:19
+    is_odd: 1
+    "no": 205
+  - 
+    comment: ぎんさんあいしてるうううううううううううううううううううううううううう
+    date: 2009/06/28 21:16:19
+    is_admin: 1
+    is_odd: 0
+    "no": 206
+  - 
+    comment: だいてぇえええええええええええええ
+    date: 2009/06/28 21:16:26
+    is_odd: 1
+    "no": 207
+  - 
+    comment: 主ｗ
+    date: 2009/06/28 21:16:28
+    is_odd: 0
+    "no": 208
+  - 
+    comment: 主ｗ
+    date: 2009/06/28 21:16:30
+    is_odd: 1
+    "no": 209
+  - 
+    comment: wwww
+    date: 2009/06/28 21:16:33
+    is_odd: 0
+    "no": 210
+  - 
+    comment: 主自重ｗｗｗｗ
+    date: 2009/06/28 21:16:34
+    is_odd: 1
+    "no": 211
+  - 
+    comment: 主もちつけ！
+    date: 2009/06/28 21:16:38
+    is_odd: 0
+    "no": 212
+  - 
+    comment: 自重しないのがここの主連中ですｗ
+    date: 2009/06/28 21:16:45
+    is_odd: 1
+    "no": 213
+  - 
+    comment: この辺ホンと素敵
+    date: 2009/06/28 21:16:59
+    is_odd: 0
+    "no": 214
+  - 
+    comment: 確かに自重しないよなｗ
+    date: 2009/06/28 21:16:59
+    is_odd: 1
+    "no": 215
+  - 
+    comment: うおおおぎんさんんんん
+    date: 2009/06/28 21:17:11
+    is_odd: 0
+    "no": 216
+  - 
+    comment: だがそれがいい＞自重しない
+    date: 2009/06/28 21:17:15
+    is_odd: 1
+    "no": 217
+  - 
+    comment: ぎんすけさん　いつも有難う
+    date: 2009/06/28 21:17:24
+    is_odd: 0
+    "no": 218
+  - 
+    comment: ここでピアノ入れるとかもうね
+    date: 2009/06/28 21:17:24
+    is_odd: 1
+    "no": 219
+  - 
+    comment: もっと自重しないでええええ！
+    date: 2009/06/28 21:17:29
+    is_odd: 0
+    "no": 220
+  - 
+    comment: 鳥肌ｋｔｋｒ！
+    date: 2009/06/28 21:17:35
+    is_odd: 1
+    "no": 221
+  - 
+    comment: この曲大好きです！
+    date: 2009/06/28 21:17:45
+    is_odd: 0
+    "no": 222
+  - 
+    comment: この曲に投票しました！あいしてます！
+    date: 2009/06/28 21:17:58
+    is_odd: 1
+    "no": 223
+  - 
+    comment: 同8位 4票
+    date: 2009/06/28 21:18:15
+    is_admin: 1
+    is_odd: 0
+    "no": 224
+  - 
+    comment: 【初音ミク】 虹 【オリジナル曲】  P名:CleanTears
+    date: 2009/06/28 21:18:19
+    is_admin: 1
+    is_odd: 1
+    "no": 225
+  - 
+    comment: ''
+    date: 2009/06/28 21:18:22
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 227
+  - 
+    comment: おおおー
+    date: 2009/06/28 21:18:24
+    is_odd: 1
+    "no": 228
+  - 
+    comment: おおおおっ
+    date: 2009/06/28 21:18:24
+    is_odd: 0
+    "no": 229
+  - 
+    comment: こっちかー
+    date: 2009/06/28 21:18:29
+    is_odd: 1
+    "no": 230
+  - 
+    comment: うわあお！
+    date: 2009/06/28 21:18:32
+    is_odd: 0
+    "no": 231
+  - 
+    comment: 最初っからこれで体力もつのだろうかｗ
+    date: 2009/06/28 21:18:33
+    is_odd: 1
+    "no": 232
+  - 
+    comment: おお～PVも素敵なんだよ～
+    date: 2009/06/28 21:18:42
+    is_odd: 0
+    "no": 233
+  - 
+    comment: たぶん無理だなｗ＞232
+    date: 2009/06/28 21:18:42
+    is_odd: 1
+    "no": 234
+  - 
+    comment: おお、好きだー
+    date: 2009/06/28 21:18:46
+    is_odd: 0
+    "no": 235
+  - 
+    comment: ３～１位で倒れそうな予感
+    date: 2009/06/28 21:19:14
+    is_odd: 1
+    "no": 236
+  - 
+    comment: この曲もいいなぁ
+    date: 2009/06/28 21:19:18
+    is_odd: 0
+    "no": 237
+  - 
+    comment: 明日仕事だけど全部見るよ～
+    date: 2009/06/28 21:19:27
+    is_odd: 1
+    "no": 238
+  - 
+    comment: 玄人好みのはずなのにすんなり聴ける
+    date: 2009/06/28 21:19:36
+    is_odd: 0
+    "no": 239
+  - 
+    comment: CTさんのミクの声めっちゃ好きだ
+    date: 2009/06/28 21:19:45
+    is_odd: 1
+    "no": 240
+  - 
+    comment: 身体が勝手にリズムとっちゃうなあ
+    date: 2009/06/28 21:19:56
+    is_odd: 0
+    "no": 241
+  - 
+    comment: いいわぁ♪
+    date: 2009/06/28 21:20:01
+    is_odd: 1
+    "no": 242
+  - 
+    comment: 全部で何曲流れるのか…
+    date: 2009/06/28 21:20:10
+    is_odd: 0
+    "no": 243
+  - 
+    comment: 今北ー！セフ？？
+    date: 2009/06/28 21:20:10
+    is_odd: 1
+    "no": 244
+  - 
+    comment: いらしゃい
+    date: 2009/06/28 21:20:18
+    is_odd: 0
+    "no": 245
+  - 
+    comment: まだまだやるよ！
+    date: 2009/06/28 21:20:18
+    is_odd: 1
+    "no": 246
+  - 
+    comment: いらっしゃー
+    date: 2009/06/28 21:20:21
+    is_odd: 0
+    "no": 247
+  - 
+    comment: いらっしゃい！
+    date: 2009/06/28 21:20:22
+    is_odd: 1
+    "no": 248
+  - 
+    comment: 良かった！ありがと！！
+    date: 2009/06/28 21:20:25
+    is_odd: 0
+    "no": 249
+  - 
+    comment: もう鼻血が出そう
+    date: 2009/06/28 21:20:26
+    is_odd: 1
+    "no": 250
+  - 
+    comment: まだまだやるよー！
+    date: 2009/06/28 21:20:31
+    is_odd: 0
+    "no": 251
+  - 
+    comment: ちなみに上の投票結果はまだ公表してません
+    date: 2009/06/28 21:20:34
+    is_admin: 1
+    is_odd: 1
+    "no": 252
+  - 
+    comment: いらっしゃい！現在８位の曲だよ！
+    date: 2009/06/28 21:20:36
+    is_odd: 0
+    "no": 253
+  - 
+    comment: このコメントは表示されません
+    date: 2009/06/28 21:20:42
+    is_hidden: 1
+    is_odd: 1
+    "no": 254
+  - 
+    comment: いいＰＶだ
+    date: 2009/06/28 21:21:29
+    is_odd: 0
+    "no": 255
+  - 
+    comment: ８位は８曲あるよ！
+    date: 2009/06/28 21:21:30
+    is_odd: 1
+    "no": 256
+  - 
+    comment: GUMI巡ってるより絶対楽しいっw
+    date: 2009/06/28 21:21:43
+    is_odd: 0
+    "no": 257
+  - 
+    comment: GUMI巡るのは明日でも出来るんだぜ
+    date: 2009/06/28 21:22:04
+    is_odd: 1
+    "no": 258
+  - 
+    comment: GUMI？　なにそれ、食えるの？
+    date: 2009/06/28 21:22:11
+    is_odd: 0
+    "no": 259
+  - 
+    comment: GUMI配信はもうやったので　満足ｗ
+    date: 2009/06/28 21:22:14
+    is_odd: 1
+    "no": 260
+  - 
+    comment: ニンジンらしいよＧＵＭＩ！
+    date: 2009/06/28 21:22:24
+    is_odd: 0
+    "no": 261
+  - 
+    comment: お前らヒドスｗｗ
+    date: 2009/06/28 21:22:33
+    is_odd: 1
+    "no": 262
+  - 
+    comment: GUMIは光るらしいよ
+    date: 2009/06/28 21:22:43
+    is_odd: 0
+    "no": 263
+  - 
+    comment: u-jiさんのGUMIに夢中です
+    date: 2009/06/28 21:22:44
+    is_odd: 1
+    "no": 264
+  - 
+    comment: 目からビーム出せる新人らしい
+    date: 2009/06/28 21:22:54
+    is_odd: 0
+    "no": 265
+  - 
+    comment: あれはいいものだU-jiさん
+    date: 2009/06/28 21:22:59
+    is_odd: 1
+    "no": 266
+  - 
+    comment: ミクは俺の嫁ええええええええええええ！
+    date: 2009/06/28 21:23:06
+    is_odd: 0
+    "no": 267
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:23:10
+    is_odd: 1
+    "no": 268
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:23:10
+    is_odd: 0
+    "no": 269
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:23:12
+    is_odd: 1
+    "no": 270
+  - 
+    comment: ＧＵＭＩ頭指してるらしいよ！
+    date: 2009/06/28 21:23:13
+    is_odd: 0
+    "no": 271
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:23:14
+    is_odd: 1
+    "no": 272
+  - 
+    comment: ｓｓ
+    date: 2009/06/28 21:23:15
+    is_odd: 0
+    "no": 273
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:23:18
+    is_odd: 1
+    "no": 274
+  - 
+    comment: sosi
+    date: 2009/06/28 21:23:24
+    is_odd: 0
+    "no": 275
+  - 
+    comment: 阻止はやいｗ
+    date: 2009/06/28 21:23:24
+    is_odd: 1
+    "no": 276
+  - 
+    comment: お前らココおっかしんじゃねーの!?と挑発的なGUMIさん
+    date: 2009/06/28 21:23:26
+    is_odd: 0
+    "no": 277
+  - 
+    comment: 冷静だなｗ
+    date: 2009/06/28 21:23:27
+    is_odd: 1
+    "no": 278
+  - 
+    comment: ＞２６７の人気に嫉妬
+    date: 2009/06/28 21:23:34
+    is_odd: 0
+    "no": 279
+  - 
+    comment: GUMIも好きですよ
+    date: 2009/06/28 21:23:44
+    is_odd: 1
+    "no": 280
+  - 
+    comment: ああ～良い曲だわ
+    date: 2009/06/28 21:24:04
+    is_odd: 0
+    "no": 281
+  - 
+    comment: ま、まぁ、飴ちゃんとかに飽きたときはいいよね・・
+    date: 2009/06/28 21:24:05
+    is_odd: 1
+    "no": 282
+  - 
+    comment: めぐぽ　声質　思ったよりﾖｶﾀ
+    date: 2009/06/28 21:24:10
+    is_odd: 0
+    "no": 283
+  - 
+    comment: 同8位 4票
+    date: 2009/06/28 21:24:14
+    is_admin: 1
+    is_odd: 1
+    "no": 284
+  - 
+    comment: ｗｋｗｋ
+    date: 2009/06/28 21:24:17
+    is_odd: 0
+    "no": 285
+  - 
+    comment: さてさて
+    date: 2009/06/28 21:24:20
+    is_odd: 1
+    "no": 286
+  - 
+    comment: ｔｋｔｋ
+    date: 2009/06/28 21:24:23
+    is_odd: 0
+    "no": 287
+  - 
+    comment: Chaining Intention【初音ミクオリジナル】  P名:Treow(逆衝動P)
+    date: 2009/06/28 21:24:23
+    is_admin: 1
+    is_odd: 1
+    "no": 288
+  - 
+    comment: ''
+    date: 2009/06/28 21:24:26
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 290
+  - 
+    comment: おおおおおおおおおお
+    date: 2009/06/28 21:24:27
+    is_odd: 1
+    "no": 291
+  - 
+    comment: めぐぽのアンビエントにwktk
+    date: 2009/06/28 21:24:27
+    is_odd: 0
+    "no": 292
+  - 
+    comment: おおおおおおう
+    date: 2009/06/28 21:24:28
+    is_odd: 1
+    "no": 293
+  - 
+    comment: おおおおおおおおおおおお
+    date: 2009/06/28 21:24:29
+    is_odd: 0
+    "no": 294
+  - 
+    comment: しゃあああああ
+    date: 2009/06/28 21:24:29
+    is_odd: 1
+    "no": 295
+  - 
+    comment: きたー
+    date: 2009/06/28 21:24:29
+    is_odd: 0
+    "no": 296
+  - 
+    comment: おおおお
+    date: 2009/06/28 21:24:32
+    is_odd: 1
+    "no": 297
+  - 
+    comment: うんうん
+    date: 2009/06/28 21:24:33
+    is_odd: 0
+    "no": 298
+  - 
+    comment: さっきも聞いたぞぅ
+    date: 2009/06/28 21:24:34
+    is_odd: 1
+    "no": 299
+  - 
+    comment: いえええええ
+    date: 2009/06/28 21:24:36
+    is_odd: 0
+    "no": 300
+  - 
+    comment: おおおおおお
+    date: 2009/06/28 21:24:36
+    is_odd: 1
+    "no": 301
+  - 
+    comment: ｷﾀｰ
+    date: 2009/06/28 21:24:37
+    is_odd: 0
+    "no": 302
+  - 
+    comment: 逆衝動P！
+    date: 2009/06/28 21:24:38
+    is_odd: 1
+    "no": 303
+  - 
+    comment: おおおおおお！
+    date: 2009/06/28 21:24:42
+    is_odd: 0
+    "no": 304
+  - 
+    comment: さかさんキター
+    date: 2009/06/28 21:24:46
+    is_odd: 1
+    "no": 305
+  - 
+    comment: 今日ずっとiPodで聴いてた
+    date: 2009/06/28 21:24:47
+    is_odd: 0
+    "no": 306
+  - 
+    comment: とれおぅ
+    date: 2009/06/28 21:24:48
+    is_odd: 1
+    "no": 307
+  - 
+    comment: きたああ
+    date: 2009/06/28 21:24:50
+    is_odd: 0
+    "no": 308
+  - 
+    comment: 逆衝動！　逆衝動！
+    date: 2009/06/28 21:24:54
+    is_odd: 1
+    "no": 309
+  - 
+    comment: 音の並べ方がすっごく素敵です！
+    date: 2009/06/28 21:24:54
+    is_odd: 0
+    "no": 310
+  - 
+    comment: ひげも23回まわってますね
+    date: 2009/06/28 21:24:58
+    is_admin: 1
+    is_odd: 1
+    "no": 311
+  - 
+    comment: ｗｗｗ
+    date: 2009/06/28 21:25:02
+    is_odd: 0
+    "no": 312
+  - 
+    comment: これ・・どうやら「さかしょうどう」って読むらしいぜ・・
+    date: 2009/06/28 21:25:05
+    is_odd: 1
+    "no": 313
+  - 
+    comment: ｗｗ
+    date: 2009/06/28 21:25:06
+    is_odd: 0
+    "no": 314
+  - 
+    comment: これはカテゴリ的にここに入るのか
+    date: 2009/06/28 21:25:16
+    is_odd: 1
+    "no": 315
+  - 
+    comment: treowさん!!
+    date: 2009/06/28 21:25:20
+    is_odd: 0
+    "no": 316
+  - 
+    comment: ぎゃくしょうどうって呼んで恥かきそうになったのは秘密
+    date: 2009/06/28 21:25:24
+    is_odd: 1
+    "no": 317
+  - 
+    comment: 逆衝動Pはだいたいここ＞カテゴリ的に
+    date: 2009/06/28 21:25:29
+    is_odd: 0
+    "no": 318
+  - 
+    comment: 殿堂入りおめでとうううう！
+    date: 2009/06/28 21:25:31
+    is_odd: 1
+    "no": 319
+  - 
+    comment: センスパネェ
+    date: 2009/06/28 21:25:37
+    is_odd: 0
+    "no": 320
+  - 
+    comment: さかしょうどうﾒﾓﾒﾓ
+    date: 2009/06/28 21:25:46
+    is_odd: 1
+    "no": 321
+  - 
+    comment: 音の数多いのに響きが綺麗にまとまっていてスゲー
+    date: 2009/06/28 21:26:20
+    is_odd: 0
+    "no": 322
+  - 
+    comment: このコメントは表示されません
+    date: 2009/06/28 21:26:28
+    is_hidden: 1
+    is_odd: 1
+    "no": 323
+  - 
+    comment: ある意味職人技か
+    date: 2009/06/28 21:26:36
+    is_odd: 0
+    "no": 324
+  - 
+    comment: 主、市場に主と同じ名前の人形があるんだが
+    date: 2009/06/28 21:27:02
+    is_odd: 1
+    "no": 325
+  - 
+    comment: ここらへんで絶頂になっちゃうｗ
+    date: 2009/06/28 21:27:14
+    is_odd: 0
+    "no": 326
+  - 
+    comment: あれって主の玩具？
+    date: 2009/06/28 21:27:16
+    is_odd: 1
+    "no": 327
+  - 
+    comment: なぬっ！
+    date: 2009/06/28 21:27:17
+    is_admin: 1
+    is_odd: 0
+    "no": 328
+  - 
+    comment: 主って人形だったのか
+    date: 2009/06/28 21:27:27
+    is_odd: 1
+    "no": 329
+  - 
+    comment: ここがやっぱええわぁ
+    date: 2009/06/28 21:27:30
+    is_odd: 0
+    "no": 330
+  - 
+    comment: やはり愛なのか・・・
+    date: 2009/06/28 21:27:36
+    is_admin: 1
+    is_odd: 1
+    "no": 331
+  - 
+    comment: 主は人形　ﾒﾓﾒﾓ
+    date: 2009/06/28 21:27:40
+    is_odd: 0
+    "no": 332
+  - 
+    comment: 愛だねぇ
+    date: 2009/06/28 21:27:43
+    is_odd: 1
+    "no": 333
+  - 
+    comment: ピアノ、ハンドクラップ最高です！
+    date: 2009/06/28 21:27:43
+    is_odd: 0
+    "no": 334
+  - 
+    comment: ミクノは愛ですね！
+    date: 2009/06/28 21:28:14
+    is_odd: 1
+    "no": 335
+  - 
+    comment: これ音源が謎だ
+    date: 2009/06/28 21:28:22
+    is_odd: 0
+    "no": 336
+  - 
+    comment: 愛だよ愛！
+    date: 2009/06/28 21:28:36
+    is_odd: 1
+    "no": 337
+  - 
+    comment: Reason?
+    date: 2009/06/28 21:28:46
+    is_odd: 0
+    "no": 338
+  - 
+    comment: 愛・・だよな！
+    date: 2009/06/28 21:28:47
+    is_odd: 1
+    "no": 339
+  - 
+    comment: 愛スが好きな生主もいます
+    date: 2009/06/28 21:28:58
+    is_odd: 0
+    "no": 340
+  - 
+    comment: 同8位 4票
+    date: 2009/06/28 21:29:04
+    is_admin: 1
+    is_odd: 1
+    "no": 341
+  - 
+    comment: 愛スｗｗｗ
+    date: 2009/06/28 21:29:06
+    is_odd: 0
+    "no": 342
+  - 
+    comment: 音の魔術師として覚えておくよ
+    date: 2009/06/28 21:29:07
+    is_odd: 1
+    "no": 343
+  - 
+    comment: 【初音ミク】 クォーツ・ユニット 【オリジナル】  P名:律儀Ｐ
+    date: 2009/06/28 21:29:10
+    is_admin: 1
+    is_odd: 0
+    "no": 344
+  - 
+    comment: ふんむぅ！（何
+    date: 2009/06/28 21:29:12
+    is_odd: 1
+    "no": 346
+  - 
+    comment: ''
+    date: 2009/06/28 21:29:13
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 347
+  - 
+    comment: いいよいいよー
+    date: 2009/06/28 21:29:16
+    is_odd: 1
+    "no": 348
+  - 
+    comment: うおおお
+    date: 2009/06/28 21:29:16
+    is_odd: 0
+    "no": 349
+  - 
+    comment: よっしよっし！！
+    date: 2009/06/28 21:29:16
+    is_odd: 1
+    "no": 350
+  - 
+    comment: おおお！！
+    date: 2009/06/28 21:29:17
+    is_odd: 0
+    "no": 351
+  - 
+    comment: やっぱり
+    date: 2009/06/28 21:29:18
+    is_odd: 1
+    "no": 352
+  - 
+    comment: おおおおおおおおー
+    date: 2009/06/28 21:29:20
+    is_odd: 0
+    "no": 353
+  - 
+    comment: すきだあああああああああああ
+    date: 2009/06/28 21:29:29
+    is_odd: 1
+    "no": 354
+  - 
+    comment: 個人的１位ｷﾀああああああああ
+    date: 2009/06/28 21:29:32
+    is_odd: 0
+    "no": 355
+  - 
+    comment: 鳥肌キター
+    date: 2009/06/28 21:29:48
+    is_odd: 1
+    "no": 356
+  - 
+    comment: 今日のプレイリストは最高すぎますね！
+    date: 2009/06/28 21:29:53
+    is_admin: 1
+    is_odd: 0
+    "no": 357
+  - 
+    comment: " \n\n\n \n\n\n \n♥"
+    date: 2009/06/28 21:29:57
+    is_odd: 1
+    "no": 358
+  - 
+    comment: ですね～！！
+    date: 2009/06/28 21:30:01
+    is_odd: 0
+    "no": 359
+  - 
+    comment: サイコーじゃあ！
+    date: 2009/06/28 21:30:12
+    is_odd: 1
+    "no": 360
+  - 
+    comment: 律儀Pの実力パネェ
+    date: 2009/06/28 21:30:15
+    is_odd: 0
+    "no": 361
+  - 
+    comment: 職人も乙
+    date: 2009/06/28 21:30:40
+    is_odd: 1
+    "no": 362
+  - 
+    comment: 第8位残り3曲
+    date: 2009/06/28 21:31:40
+    is_admin: 1
+    is_odd: 0
+    "no": 363
+  - 
+    comment: 7位が何曲あるかが気になるｗ
+    date: 2009/06/28 21:32:00
+    is_odd: 1
+    "no": 364
+  - 
+    comment: キラキラブリブリ　透明感　最高すぎる
+    date: 2009/06/28 21:32:01
+    is_odd: 0
+    "no": 365
+  - 
+    comment: ああん、もう幸せメーターがふりきれそう
+    date: 2009/06/28 21:32:08
+    is_odd: 1
+    "no": 366
+  - 
+    comment: いいわぁ♪オサレすぎる！
+    date: 2009/06/28 21:32:24
+    is_odd: 0
+    "no": 367
+  - 
+    comment: ヘッドホン極楽のミクノポップ
+    date: 2009/06/28 21:32:25
+    is_odd: 1
+    "no": 368
+  - 
+    comment: いい声だ
+    date: 2009/06/28 21:32:28
+    is_odd: 0
+    "no": 369
+  - 
+    comment: この高音がいい～！
+    date: 2009/06/28 21:32:35
+    is_odd: 1
+    "no": 370
+  - 
+    comment: いいっw
+    date: 2009/06/28 21:32:43
+    is_odd: 0
+    "no": 371
+  - 
+    comment: 気持ちええ
+    date: 2009/06/28 21:32:43
+    is_odd: 1
+    "no": 372
+  - 
+    comment: ミクならではだよな！
+    date: 2009/06/28 21:32:47
+    is_odd: 0
+    "no": 373
+  - 
+    comment: " \n\n\n \n\n　／^⌒^ヽ\n〆》ノノ＼《ヽ\n|　|　。　。 |　|\n|　|＼□／|  |\n|.ノ　　　　 |.ノ"
+    date: 2009/06/28 21:32:52
+    is_odd: 1
+    "no": 374
+  - 
+    comment: この曲好きすぐる
+    date: 2009/06/28 21:33:15
+    is_odd: 0
+    "no": 375
+  - 
+    comment: 涙目ミクさんの涙頂いていきます
+    date: 2009/06/28 21:34:02
+    is_odd: 1
+    "no": 376
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:34:10
+    is_odd: 0
+    "no": 377
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:34:14
+    is_odd: 1
+    "no": 378
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:34:17
+    is_odd: 0
+    "no": 379
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:34:18
+    is_odd: 1
+    "no": 380
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:34:19
+    is_odd: 0
+    "no": 381
+  - 
+    comment: 同8位 4票
+    date: 2009/06/28 21:34:22
+    is_admin: 1
+    is_odd: 1
+    "no": 382
+  - 
+    comment: spsi
+    date: 2009/06/28 21:34:23
+    is_odd: 0
+    "no": 383
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:34:24
+    is_odd: 1
+    "no": 384
+  - 
+    comment: 阻止多いよ阻止
+    date: 2009/06/28 21:34:28
+    is_odd: 0
+    "no": 385
+  - 
+    comment: 【初音ミク】メービウス【オリジナル】  P名:DixieFlatline
+    date: 2009/06/28 21:34:32
+    is_admin: 1
+    is_odd: 1
+    "no": 386
+  - 
+    comment: 383落ち着けｗ
+    date: 2009/06/28 21:34:34
+    is_odd: 0
+    "no": 388
+  - 
+    comment: ''
+    date: 2009/06/28 21:34:35
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 389
+  - 
+    comment: "　　 ／⌒ヽ 　ﾁｬﾌﾟｯ\n　　/　´_ゝ`）\n  　|　 　　/\n二| /|　|二"
+    date: 2009/06/28 21:34:36
+    is_odd: 0
+    "no": 390
+  - 
+    comment: やったあ！！
+    date: 2009/06/28 21:34:37
+    is_odd: 1
+    "no": 391
+  - 
+    comment: うはああああああああ
+    date: 2009/06/28 21:34:40
+    is_odd: 0
+    "no": 392
+  - 
+    comment: ほほぅ！
+    date: 2009/06/28 21:34:41
+    is_odd: 1
+    "no": 393
+  - 
+    comment: 名曲きたー
+    date: 2009/06/28 21:34:42
+    is_odd: 0
+    "no": 394
+  - 
+    comment: すきだああああああ
+    date: 2009/06/28 21:34:42
+    is_odd: 1
+    "no": 395
+  - 
+    comment: なんかいたｗ
+    date: 2009/06/28 21:34:42
+    is_odd: 0
+    "no": 396
+  - 
+    comment: おおおジェミニの人
+    date: 2009/06/28 21:34:43
+    is_odd: 1
+    "no": 397
+  - 
+    comment: おおおおおおおおおお
+    date: 2009/06/28 21:34:46
+    is_odd: 0
+    "no": 398
+  - 
+    comment: 6/9投稿だろｗ
+    date: 2009/06/28 21:34:52
+    is_odd: 1
+    "no": 399
+  - 
+    comment: いいとこくるね～
+    date: 2009/06/28 21:34:53
+    is_odd: 0
+    "no": 400
+  - 
+    comment: ディクシーさああああぁぁ
+    date: 2009/06/28 21:34:53
+    is_odd: 1
+    "no": 401
+  - 
+    comment: 耳が気持ちいいいいいいいい
+    date: 2009/06/28 21:34:59
+    is_odd: 0
+    "no": 402
+  - 
+    comment: この曲気持ちいいんだよなあ
+    date: 2009/06/28 21:34:59
+    is_odd: 1
+    "no": 403
+  - 
+    comment: 去年のかｗ
+    date: 2009/06/28 21:35:06
+    is_odd: 0
+    "no": 404
+  - 
+    comment: ミクさんの頬の赤らみは私がいただいていきますね
+    date: 2009/06/28 21:35:21
+    is_odd: 1
+    "no": 405
+  - 
+    comment: 阻止
+    date: 2009/06/28 21:35:26
+    is_odd: 0
+    "no": 406
+  - 
+    comment: あれ、気がついたら延長してるｗ
+    date: 2009/06/28 21:35:26
+    is_odd: 1
+    "no": 407
+  - 
+    comment: ３枠は確定
+    date: 2009/06/28 21:35:33
+    is_odd: 0
+    "no": 408
+  - 
+    comment: 詩が好きだな
+    date: 2009/06/28 21:35:44
+    is_odd: 1
+    "no": 409
+  - 
+    comment: 100人おめー
+    date: 2009/06/28 21:36:19
+    is_odd: 0
+    "no": 410
+  - 
+    comment: ＊　１００人超えたぜ！　＊
+    date: 2009/06/28 21:36:19
+    is_odd: 1
+    "no": 411
+  - 
+    comment: 来場者数１００人オメ！
+    date: 2009/06/28 21:36:20
+    is_odd: 0
+    "no": 412
+  - 
+    comment: 100人おめでとう！
+    date: 2009/06/28 21:36:25
+    is_odd: 1
+    "no": 413
+  - 
+    comment: 100人超えオメデトー！
+    date: 2009/06/28 21:36:36
+    is_odd: 0
+    "no": 414
+  - 
+    comment: 100人わっしょい！
+    date: 2009/06/28 21:36:37
+    is_admin: 1
+    is_odd: 1
+    "no": 415
+  - 
+    comment: 100人！ビックリだ！！
+    date: 2009/06/28 21:36:39
+    is_odd: 0
+    "no": 416
+  - 
+    comment: もっと、来る！
+    date: 2009/06/28 21:36:39
+    is_odd: 1
+    "no": 417
+  - 
+    comment: １００人というと、
+    date: 2009/06/28 21:36:44
+    is_odd: 0
+    "no": 418
+  - 
+    comment: わっしょー！
+    date: 2009/06/28 21:36:47
+    is_odd: 1
+    "no": 419
+  - 
+    comment: わっっしょい！祭りじゃー！
+    date: 2009/06/28 21:36:49
+    is_odd: 0
+    "no": 420
+  - 
+    comment: まずは100人おめでとうございます
+    date: 2009/06/28 21:37:00
+    is_odd: 1
+    "no": 421
+  - 
+    comment: 100人来てもだいじょうＶ
+    date: 2009/06/28 21:37:04
+    is_odd: 0
+    "no": 422
+  - 
+    comment: ｗｗ
+    date: 2009/06/28 21:37:11
+    is_odd: 1
+    "no": 423
+  - 
+    comment: ここ好き
+    date: 2009/06/28 21:37:39
+    is_odd: 0
+    "no": 424
+  - 
+    comment: 同感～
+    date: 2009/06/28 21:37:48
+    is_odd: 1
+    "no": 425
+  - 
+    comment: 好き？ 俺は愛してるぜ
+    date: 2009/06/28 21:37:51
+    is_odd: 0
+    "no": 426
+  - 
+    comment: ドラムかっこいい！
+    date: 2009/06/28 21:37:59
+    is_odd: 1
+    "no": 427
+  - 
+    comment: " \n\n\n \n\n\n \n\n♥"
+    date: 2009/06/28 21:38:14
+    is_odd: 0
+    "no": 428
+  - 
+    comment: 歌詞もステキ・・
+    date: 2009/06/28 21:38:30
+    is_odd: 1
+    "no": 429
+  - 
+    comment: ヘッドホンして聞いてると昇天しそう・・・♪
+    date: 2009/06/28 21:38:39
+    is_odd: 0
+    "no": 430
+  - 
+    comment: ぴょ～～ん♪
+    date: 2009/06/28 21:38:46
+    is_odd: 1
+    "no": 431
+  - 
+    comment: リズムが心地いいぜ
+    date: 2009/06/28 21:38:56
+    is_odd: 0
+    "no": 432
+  - 
+    comment: あーあーあー♪
+    date: 2009/06/28 21:39:09
+    is_odd: 1
+    "no": 433
+  - 
+    comment: あー♪あー♪あー♪
+    date: 2009/06/28 21:39:15
+    is_odd: 0
+    "no": 434
+  - 
+    comment: 上の鳴り物がすごいよなー
+    date: 2009/06/28 21:39:18
+    is_odd: 1
+    "no": 435
+  - 
+    comment: 同8位 4票
+    date: 2009/06/28 21:39:45
+    is_admin: 1
+    is_odd: 0
+    "no": 436
+  - 
+    comment: ループでも打ち込める気がしない
+    date: 2009/06/28 21:39:49
+    is_odd: 1
+    "no": 437
+  - 
+    comment: 【初音ミク】 ブライトワルト  P名:よよＰ
+    date: 2009/06/28 21:39:50
+    is_admin: 1
+    is_odd: 0
+    "no": 438
+  - 
+    comment: ''
+    date: 2009/06/28 21:39:53
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 440
+  - 
+    comment: おおおおおおおおおおおおおおおおおおおお
+    date: 2009/06/28 21:39:56
+    is_odd: 0
+    "no": 441
+  - 
+    comment: きたああああああああああ
+    date: 2009/06/28 21:39:58
+    is_odd: 1
+    "no": 442
+  - 
+    comment: うは！
+    date: 2009/06/28 21:39:58
+    is_odd: 0
+    "no": 443
+  - 
+    comment: うおおおおお
+    date: 2009/06/28 21:39:59
+    is_odd: 1
+    "no": 444
+  - 
+    comment: よよP！！！！
+    date: 2009/06/28 21:40:01
+    is_odd: 0
+    "no": 445
+  - 
+    comment: 抱っこし隊！
+    date: 2009/06/28 21:40:04
+    is_odd: 1
+    "no": 446
+  - 
+    comment: おおおおお
+    date: 2009/06/28 21:40:06
+    is_odd: 0
+    "no": 447
+  - 
+    comment: よよP　抱っこしたい！！
+    date: 2009/06/28 21:40:07
+    is_odd: 1
+    "no": 448
+  - 
+    comment: よよpだＫＪこしたい
+    date: 2009/06/28 21:40:09
+    is_odd: 0
+    "no": 449
+  - 
+    comment: おんぶし隊！
+    date: 2009/06/28 21:40:18
+    is_odd: 1
+    "no": 450
+  - 
+    comment: 再生失敗しすぎ・・・
+    date: 2009/06/28 21:40:18
+    is_odd: 0
+    "no": 451
+  - 
+    comment: へぇぇ、個人的に意外なとこきたー
+    date: 2009/06/28 21:40:19
+    is_odd: 1
+    "no": 452
+  - 
+    comment: 抱っこし隊きたー
+    date: 2009/06/28 21:40:19
+    is_odd: 0
+    "no": 453
+  - 
+    comment: やっぱりこの分野はミクの独占だな
+    date: 2009/06/28 21:40:20
+    is_odd: 1
+    "no": 454
+  - 
+    comment: 読み込み遅いよよよ・・・
+    date: 2009/06/28 21:40:21
+    is_odd: 0
+    "no": 455
+  - 
+    comment: ktkr
+    date: 2009/06/28 21:40:34
+    is_odd: 1
+    "no": 456
+  - 
+    comment: くるくるＰはもうでた？　今来た
+    date: 2009/06/28 21:40:40
+    is_odd: 0
+    "no": 457
+  - 
+    comment: 画　かわゆす
+    date: 2009/06/28 21:40:42
+    is_odd: 1
+    "no": 458
+  - 
+    comment: うっほほー！いい音
+    date: 2009/06/28 21:40:45
+    is_odd: 0
+    "no": 459
+  - 
+    comment: めぐぽ　参入するかも　素材ヨロシ
+    date: 2009/06/28 21:40:56
+    is_odd: 1
+    "no": 460
+  - 
+    comment: 楽しみにしてるー＞460
+    date: 2009/06/28 21:41:07
+    is_odd: 0
+    "no": 461
+  - 
+    comment: そういえば一つパフュームみたいなの来てたな＞めぐぽ
+    date: 2009/06/28 21:41:31
+    is_odd: 1
+    "no": 462
+  - 
+    comment: アンビエント、エレクトロニカ系かな？ってwktkしてます。
+    date: 2009/06/28 21:41:33
+    is_odd: 0
+    "no": 463
+  - 
+    comment: " \n\n\nヘッドフォン　推奨！"
+    date: 2009/06/28 21:41:35
+    is_odd: 1
+    "no": 464
+  - 
+    comment: 第３回投票は、めぐぽにも期待！ですかね
+    date: 2009/06/28 21:42:06
+    is_odd: 0
+    "no": 465
+  - 
+    comment: ですねー
+    date: 2009/06/28 21:43:13
+    is_odd: 1
+    "no": 466
+  - 
+    comment: 今回だってミク以外はいくつ入るかなぁ～
+    date: 2009/06/28 21:43:19
+    is_odd: 0
+    "no": 467
+  - 
+    comment: それまでにどんどんいい曲が来るといいですね～
+    date: 2009/06/28 21:43:52
+    is_odd: 1
+    "no": 468
+  - 
+    comment: ルカ様は入っておらんのかー！？
+    date: 2009/06/28 21:43:55
+    is_odd: 0
+    "no": 469
+  - 
+    comment: よよPは実力者だな
+    date: 2009/06/28 21:44:01
+    is_odd: 1
+    "no": 470
+  - 
+    comment: ミク以外は投票が割れる傾向ですね
+    date: 2009/06/28 21:44:02
+    is_odd: 0
+    "no": 471
+  - 
+    comment: ルカ曲は母数がすくないお
+    date: 2009/06/28 21:44:12
+    is_odd: 1
+    "no": 472
+  - 
+    comment: 同8位 4票
+    date: 2009/06/28 21:44:23
+    is_admin: 1
+    is_odd: 0
+    "no": 473
+  - 
+    comment: ルカさん来たばっかだからな～
+    date: 2009/06/28 21:44:26
+    is_odd: 1
+    "no": 474
+  - 
+    comment: ルカはイントネーション入るから難しいのかも
+    date: 2009/06/28 21:44:30
+    is_odd: 0
+    "no": 475
+  - 
+    comment: 「ストロボナイツ」  P名:kz
+    date: 2009/06/28 21:44:32
+    is_admin: 1
+    is_odd: 1
+    "no": 476
+  - 
+    comment: ''
+    date: 2009/06/28 21:44:35
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 478
+  - 
+    comment: おおう
+    date: 2009/06/28 21:44:36
+    is_odd: 1
+    "no": 479
+  - 
+    comment: おおおおお
+    date: 2009/06/28 21:44:36
+    is_odd: 0
+    "no": 480
+  - 
+    comment: 俺はルカ曲に入れたぜ！
+    date: 2009/06/28 21:44:37
+    is_odd: 1
+    "no": 481
+  - 
+    comment: おおー
+    date: 2009/06/28 21:44:38
+    is_odd: 0
+    "no": 482
+  - 
+    comment: ぎゃああああああああああああああ
+    date: 2009/06/28 21:44:40
+    is_odd: 1
+    "no": 483
+  - 
+    comment: ここまで鏡音一家の話題なし
+    date: 2009/06/28 21:44:47
+    is_odd: 0
+    "no": 484
+  - 
+    comment: 俺もルカ曲入れたぜ！
+    date: 2009/06/28 21:44:50
+    is_odd: 1
+    "no": 485
+  - 
+    comment: リンレン不憫
+    date: 2009/06/28 21:44:57
+    is_odd: 0
+    "no": 486
+  - 
+    comment: きゃああああああああああ
+    date: 2009/06/28 21:44:58
+    is_odd: 1
+    "no": 487
+  - 
+    comment: 鉄板！
+    date: 2009/06/28 21:44:59
+    is_odd: 0
+    "no": 488
+  - 
+    comment: ミクゲーが頭に浮かぶ
+    date: 2009/06/28 21:45:00
+    is_odd: 1
+    "no": 489
+  - 
+    comment: ぬぉおおおおおおおおおおお
+    date: 2009/06/28 21:45:00
+    is_odd: 0
+    "no": 490
+  - 
+    comment: 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　ルカ様に踏まれたい
+    date: 2009/06/28 21:45:02
+    is_odd: 1
+    "no": 491
+  - 
+    comment: 当然だろ！
+    date: 2009/06/28 21:45:02
+    is_odd: 0
+    "no": 492
+  - 
+    comment: いぇーーーーーーーー
+    date: 2009/06/28 21:45:03
+    is_odd: 1
+    "no": 493
+  - 
+    comment: 最高でしょう
+    date: 2009/06/28 21:45:05
+    is_odd: 0
+    "no": 494
+  - 
+    comment: DIVA思い出すなｗ
+    date: 2009/06/28 21:45:08
+    is_odd: 1
+    "no": 495
+  - 
+    comment: 私も入れたー、リンにも入れたー、阻止
+    date: 2009/06/28 21:45:09
+    is_odd: 0
+    "no": 496
+  - 
+    comment: 好きだ！んモー！
+    date: 2009/06/28 21:45:14
+    is_odd: 1
+    "no": 497
+  - 
+    comment: リンには入れたぜｗ
+    date: 2009/06/28 21:45:20
+    is_odd: 0
+    "no": 498
+  - 
+    comment: いいわぁ♪
+    date: 2009/06/28 21:45:22
+    is_odd: 1
+    "no": 499
+  - 
+    comment: kzさんは王道ですね
+    date: 2009/06/28 21:45:34
+    is_admin: 1
+    is_odd: 0
+    "no": 500
+  - 
+    comment: 完成度の高さは異常
+    date: 2009/06/28 21:45:43
+    is_odd: 1
+    "no": 501
+  - 
+    comment: これがこの位置と言う事は１位見えてきたｗ
+    date: 2009/06/28 21:45:48
+    is_odd: 0
+    "no": 502
+  - 
+    comment: DIVAやりてー
+    date: 2009/06/28 21:45:53
+    is_odd: 1
+    "no": 503
+  - 
+    comment: ピコブリ
+    date: 2009/06/28 21:45:56
+    is_odd: 0
+    "no": 504
+  - 
+    comment: DIVAも楽しみだねー
+    date: 2009/06/28 21:46:05
+    is_odd: 1
+    "no": 505
+  - 
+    comment: ミクノポップにおいては反則でありゅ～♪
+    date: 2009/06/28 21:46:08
+    is_odd: 0
+    "no": 506
+  - 
+    comment: DIVAのダンス編集に、期待してる俺
+    date: 2009/06/28 21:46:16
+    is_odd: 1
+    "no": 507
+  - 
+    comment: エディット難しそうだね
+    date: 2009/06/28 21:46:25
+    is_odd: 0
+    "no": 508
+  - 
+    comment: 前回はpackagedとファインダーが上位だったんだね
+    date: 2009/06/28 21:46:26
+    is_odd: 1
+    "no": 509
+  - 
+    comment: ＤＩＶＡ予約してＰＳＰ持ってないぜ！
+    date: 2009/06/28 21:46:37
+    is_odd: 0
+    "no": 510
+  - 
+    comment: よう俺
+    date: 2009/06/28 21:46:45
+    is_odd: 1
+    "no": 511
+  - 
+    comment: それ良く聞くなｗ
+    date: 2009/06/28 21:46:49
+    is_odd: 0
+    "no": 512
+  - 
+    comment: それなんて俺？
+    date: 2009/06/28 21:46:50
+    is_odd: 1
+    "no": 513
+  - 
+    comment: 同士よ！
+    date: 2009/06/28 21:46:51
+    is_odd: 0
+    "no": 514
+  - 
+    comment: PSPは緑のヤツを買うんだ
+    date: 2009/06/28 21:46:53
+    is_odd: 1
+    "no": 515
+  - 
+    comment: こないだ買ったばっかりだよ
+    date: 2009/06/28 21:46:56
+    is_odd: 0
+    "no": 516
+  - 
+    comment: ファインダーもいいよな・・・
+    date: 2009/06/28 21:47:00
+    is_odd: 1
+    "no": 517
+  - 
+    comment: ブルーの方がミク色に近い
+    date: 2009/06/28 21:47:06
+    is_odd: 0
+    "no": 518
+  - 
+    comment: スパーン！
+    date: 2009/06/28 21:47:09
+    is_odd: 1
+    "no": 519
+  - 
+    comment: リラホルンは俺の嫁
+    date: 2009/06/28 21:47:10
+    is_odd: 0
+    "no": 520
+  - 
+    comment: 頼む！黒買わせてくれｗｗｗ
+    date: 2009/06/28 21:47:10
+    is_odd: 1
+    "no": 521
+  - 
+    comment: ファインダーが一番こすきかな
+    date: 2009/06/28 21:47:14
+    is_odd: 0
+    "no": 522
+  - 
+    comment: Pacｋagedは渡さんー
+    date: 2009/06/28 21:47:21
+    is_odd: 1
+    "no": 523
+  - 
+    comment: ブルーはカイトみたいでちょっと
+    date: 2009/06/28 21:47:23
+    is_odd: 0
+    "no": 524
+  - 
+    comment: 黒は面白くないだろう・・・
+    date: 2009/06/28 21:47:28
+    is_odd: 1
+    "no": 525
+  - 
+    comment: c
+    date: 2009/06/28 21:47:56
+    is_odd: 0
+    "no": 526
+  - 
+    comment: amazonすんごい安くなってるのねー
+    date: 2009/06/28 21:48:16
+    is_odd: 1
+    "no": 527
+  - 
+    comment: この曲チーターPのリミックス版もいいよねー
+    date: 2009/06/28 21:48:27
+    is_odd: 0
+    "no": 528
+  - 
+    comment: ミクさんのツインテって刃物のようだ
+    date: 2009/06/28 21:48:32
+    is_odd: 1
+    "no": 529
+  - 
+    comment: うんうん
+    date: 2009/06/28 21:48:32
+    is_odd: 0
+    "no": 530
+  - 
+    comment: って発売まであと４日！？
+    date: 2009/06/28 21:48:47
+    is_odd: 1
+    "no": 531
+  - 
+    comment: ですね～楽しみ
+    date: 2009/06/28 21:48:56
+    is_odd: 0
+    "no": 532
+  - 
+    comment: ツインテールで外野フライもキャッチするしな
+    date: 2009/06/28 21:48:56
+    is_odd: 1
+    "no": 533
+  - 
+    comment: まだPSP持ってないーよ・・
+    date: 2009/06/28 21:49:04
+    is_odd: 0
+    "no": 534
+  - 
+    comment: 発売日近くはたぶんデスマーチ中
+    date: 2009/06/28 21:49:12
+    is_odd: 1
+    "no": 535
+  - 
+    comment: お疲れ・・
+    date: 2009/06/28 21:49:19
+    is_odd: 0
+    "no": 536
+  - 
+    comment: 乙！
+    date: 2009/06/28 21:49:19
+    is_odd: 1
+    "no": 537
+  - 
+    comment: このコメントは表示されません
+    date: 2009/06/28 21:49:26
+    is_hidden: 1
+    is_odd: 0
+    "no": 538
+  - 
+    comment: このコメントは表示されません
+    date: 2009/06/28 21:49:36
+    is_hidden: 1
+    is_odd: 1
+    "no": 539
+  - 
+    comment: 気ん持ちいい～♪
+    date: 2009/06/28 21:50:00
+    is_odd: 0
+    "no": 540
+  - 
+    comment: やっぱ公式絵のミクさんはまぶしいぜ
+    date: 2009/06/28 21:50:04
+    is_odd: 1
+    "no": 541
+  - 
+    comment: ほめミクさんに会いたい
+    date: 2009/06/28 21:50:10
+    is_odd: 0
+    "no": 542
+  - 
+    comment: ｲｷﾛ　と書いた方がﾖｶﾀかw
+    date: 2009/06/28 21:50:13
+    is_odd: 1
+    "no": 543
+  - 
+    comment: 定番過ぎて普段聴かないけどなぁｗ
+    date: 2009/06/28 21:50:19
+    is_odd: 0
+    "no": 544
+  - 
+    comment: では 第5位 5票
+    date: 2009/06/28 21:50:28
+    is_admin: 1
+    is_odd: 1
+    "no": 545
+  - 
+    comment: おおお
+    date: 2009/06/28 21:50:33
+    is_odd: 0
+    "no": 546
+  - 
+    comment: 【初音ミク】lysosome【オリジナル】  P名:びにゅP
+    date: 2009/06/28 21:50:33
+    is_admin: 1
+    is_odd: 1
+    "no": 547
+  - 
+    comment: ''
+    date: 2009/06/28 21:50:36
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 549
+  - 
+    comment: ５位！
+    date: 2009/06/28 21:50:36
+    is_odd: 1
+    "no": 550
+  - 
+    comment: 5位!
+    date: 2009/06/28 21:50:37
+    is_odd: 0
+    "no": 551
+  - 
+    comment: おおおおおおおおお
+    date: 2009/06/28 21:50:38
+    is_odd: 1
+    "no": 552
+  - 
+    comment: わああああああ
+    date: 2009/06/28 21:50:39
+    is_odd: 0
+    "no": 553
+  - 
+    comment: "∧＿∧\n( ´･ω･) みなさん、\n( つ旦Oお茶です・・・・。\nと＿)＿)\n旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦"
+    date: 2009/06/28 21:50:39
+    is_odd: 1
+    "no": 554
+  - 
+    comment: びにゅPあいしてるううううう
+    date: 2009/06/28 21:50:39
+    is_odd: 0
+    "no": 555
+  - 
+    comment: ( ﾟ∀ﾟ)ｏ彡ﾟびにゅＰ！びにゅＰ！
+    date: 2009/06/28 21:50:40
+    is_odd: 1
+    "no": 556
+  - 
+    comment: 出たーーーーーー
+    date: 2009/06/28 21:50:40
+    is_odd: 0
+    "no": 557
+  - 
+    comment: おおおおおおおおおおおおっしゃぁ！！！
+    date: 2009/06/28 21:50:42
+    is_odd: 1
+    "no": 558
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:50:44
+    is_odd: 0
+    "no": 559
+  - 
+    comment: ｷﾀｰ
+    date: 2009/06/28 21:50:44
+    is_odd: 1
+    "no": 560
+  - 
+    comment: よっしゃあああああ
+    date: 2009/06/28 21:50:47
+    is_odd: 0
+    "no": 561
+  - 
+    comment: ~~旦_(-ω- ) ドモドモ
+    date: 2009/06/28 21:50:56
+    is_odd: 1
+    "no": 562
+  - 
+    comment: 再生４０００・・・
+    date: 2009/06/28 21:50:58
+    is_odd: 0
+    "no": 563
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！　( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:51:00
+    is_odd: 1
+    "no": 564
+  - 
+    comment: びにゅP！　びにゅP！
+    date: 2009/06/28 21:51:01
+    is_odd: 0
+    "no": 565
+  - 
+    comment: コミュ公式ソングキターーー
+    date: 2009/06/28 21:51:02
+    is_odd: 1
+    "no": 566
+  - 
+    comment: びにゅPあいしてるうううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううう
+    date: 2009/06/28 21:51:05
+    is_admin: 1
+    is_odd: 0
+    "no": 567
+  - 
+    comment: ＷＷＷＷＷＷＷＷＷＷＷＷＷＷＷ
+    date: 2009/06/28 21:51:11
+    is_odd: 1
+    "no": 568
+  - 
+    comment: おれも音楽の海に還りたい・・・
+    date: 2009/06/28 21:51:13
+    is_odd: 0
+    "no": 569
+  - 
+    comment: うおおおおおおおおおおお愛してるうううううううううううううううううううううう
+    date: 2009/06/28 21:51:14
+    is_odd: 1
+    "no": 570
+  - 
+    comment: 主ｗｗｗ
+    date: 2009/06/28 21:51:14
+    is_odd: 0
+    "no": 571
+  - 
+    comment: びにゅPあいしてるううううううううううううううううううううううううううううう
+    date: 2009/06/28 21:51:15
+    is_odd: 1
+    "no": 572
+  - 
+    comment: あいしてるううううううううううううううう！
+    date: 2009/06/28 21:51:21
+    is_odd: 0
+    "no": 573
+  - 
+    comment: おれもだあああああああああああああああああ
+    date: 2009/06/28 21:51:21
+    is_odd: 1
+    "no": 574
+  - 
+    comment: びにゅPの愛され方は半端ないねｗ
+    date: 2009/06/28 21:51:23
+    is_odd: 0
+    "no": 575
+  - 
+    comment: はよ再生しろーーーーーーーー
+    date: 2009/06/28 21:51:23
+    is_odd: 1
+    "no": 576
+  - 
+    comment: マジでかw@びにゅP
+    date: 2009/06/28 21:51:28
+    is_odd: 0
+    "no": 577
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:51:29
+    is_odd: 1
+    "no": 578
+  - 
+    comment: こんばんはー
+    date: 2009/06/28 21:51:34
+    is_odd: 0
+    "no": 579
+  - 
+    comment: びにゅPいいいい
+    date: 2009/06/28 21:51:37
+    is_odd: 1
+    "no": 580
+  - 
+    comment: 本人いたあああああ！（さ
+    date: 2009/06/28 21:51:38
+    is_odd: 0
+    "no": 581
+  - 
+    comment: ばんわー
+    date: 2009/06/28 21:51:39
+    is_odd: 1
+    "no": 582
+  - 
+    comment: びにゅPまいしてううううううううううううううう
+    date: 2009/06/28 21:51:40
+    is_odd: 0
+    "no": 583
+  - 
+    comment: びにゅＰいいいいいいいいいいいいいいいいいいいいいいいいいいいいい
+    date: 2009/06/28 21:51:40
+    is_odd: 1
+    "no": 584
+  - 
+    comment: いたーｗこんばんはー
+    date: 2009/06/28 21:51:40
+    is_odd: 0
+    "no": 585
+  - 
+    comment: ほ、本人！　あいしてます！
+    date: 2009/06/28 21:51:46
+    is_odd: 1
+    "no": 586
+  - 
+    comment: いただきます　つ旦
+    date: 2009/06/28 21:51:47
+    is_odd: 0
+    "no": 587
+  - 
+    comment: りゅーりゅーさんこんばんわ
+    date: 2009/06/28 21:51:48
+    is_odd: 1
+    "no": 588
+  - 
+    comment: 本人！こんばんわ～
+    date: 2009/06/28 21:51:49
+    is_odd: 0
+    "no": 589
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:51:50
+    is_odd: 1
+    "no": 590
+  - 
+    comment: あいしてるうううううううううううううううう
+    date: 2009/06/28 21:51:50
+    is_odd: 0
+    "no": 591
+  - 
+    comment: これが４０００で埋もれるとか・・・
+    date: 2009/06/28 21:51:50
+    is_odd: 1
+    "no": 592
+  - 
+    comment: こんばんは～
+    date: 2009/06/28 21:51:52
+    is_admin: 1
+    is_odd: 0
+    "no": 593
+  - 
+    comment: りゅ～りゅ～さん　まいしてぅううううううううううううううううううう
+    date: 2009/06/28 21:51:54
+    is_odd: 1
+    "no": 594
+  - 
+    comment: ( ﾟ∀ﾟ)ｏ彡ﾟびにゅＰ！びにゅＰ！
+    date: 2009/06/28 21:51:56
+    is_odd: 0
+    "no": 595
+  - 
+    comment: 本人ｋｔｋｒ
+    date: 2009/06/28 21:51:58
+    is_odd: 1
+    "no": 596
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:52:03
+    is_odd: 0
+    "no": 597
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:52:06
+    is_odd: 1
+    "no": 598
+  - 
+    comment: 本人いらっしゃったか
+    date: 2009/06/28 21:52:09
+    is_odd: 0
+    "no": 599
+  - 
+    comment: あいしてますうううううう
+    date: 2009/06/28 21:52:10
+    is_odd: 1
+    "no": 600
+  - 
+    comment: 何か一言！
+    date: 2009/06/28 21:52:11
+    is_admin: 1
+    is_odd: 0
+    "no": 601
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:52:15
+    is_odd: 1
+    "no": 602
+  - 
+    comment: 愛してます
+    date: 2009/06/28 21:52:18
+    is_odd: 0
+    "no": 603
+  - 
+    comment: びにゅPまた曲使ってしまったー！ごめんなさーい！
+    date: 2009/06/28 21:52:20
+    is_odd: 1
+    "no": 604
+  - 
+    comment: ( ﾟ∀ﾟ)ｏ彡ﾟびにゅＰ！びにゅＰ！
+    date: 2009/06/28 21:52:21
+    is_odd: 0
+    "no": 605
+  - 
+    comment: 落ち着いて下さいw＠びにゅ
+    date: 2009/06/28 21:52:38
+    is_odd: 1
+    "no": 606
+  - 
+    comment: 目から水が出てきたあ
+    date: 2009/06/28 21:52:40
+    is_odd: 0
+    "no": 607
+  - 
+    comment: この間の６時間枠で流せなくてｻｰｾﾝ
+    date: 2009/06/28 21:52:44
+    is_odd: 1
+    "no": 608
+  - 
+    comment: ｻｰｾﾝｗ
+    date: 2009/06/28 21:52:49
+    is_admin: 1
+    is_odd: 0
+    "no": 609
+  - 
+    comment: 冷静なびにゅpＷＷＷＷ
+    date: 2009/06/28 21:52:53
+    is_odd: 1
+    "no": 610
+  - 
+    comment: みんな全力で落ち着くんだああああ
+    date: 2009/06/28 21:52:57
+    is_odd: 0
+    "no": 611
+  - 
+    comment: びにゅP好き過ぎてｻｰｾﾝｗ
+    date: 2009/06/28 21:53:00
+    is_odd: 1
+    "no": 612
+  - 
+    comment: ふぅ・・
+    date: 2009/06/28 21:53:04
+    is_odd: 0
+    "no": 613
+  - 
+    comment: サーセンｗ
+    date: 2009/06/28 21:53:07
+    is_odd: 1
+    "no": 614
+  - 
+    comment: 落ち着いていられませんんん・・・・ｻｰｾﾝ
+    date: 2009/06/28 21:53:08
+    is_odd: 0
+    "no": 615
+  - 
+    comment: いいなあ
+    date: 2009/06/28 21:53:09
+    is_odd: 1
+    "no": 616
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:53:14
+    is_odd: 0
+    "no": 617
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:53:18
+    is_odd: 1
+    "no": 618
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:53:20
+    is_odd: 0
+    "no": 619
+  - 
+    comment: この空間は・・なんだろね、この心地よさ
+    date: 2009/06/28 21:53:31
+    is_odd: 1
+    "no": 620
+  - 
+    comment: 左耳のピロリロがああコーフンするううう
+    date: 2009/06/28 21:53:38
+    is_odd: 0
+    "no": 621
+  - 
+    comment: 響きが綺麗でサイコーです。
+    date: 2009/06/28 21:53:51
+    is_odd: 1
+    "no": 622
+  - 
+    comment: びにゅP好きだｗ俺の娘嫁にもらってくれ！
+    date: 2009/06/28 21:54:07
+    is_odd: 0
+    "no": 623
+  - 
+    comment: こらｗ
+    date: 2009/06/28 21:54:15
+    is_odd: 1
+    "no": 624
+  - 
+    comment: ちょｗｗｗ
+    date: 2009/06/28 21:54:20
+    is_odd: 0
+    "no": 625
+  - 
+    comment: 娘ｗｗ
+    date: 2009/06/28 21:54:22
+    is_odd: 1
+    "no": 626
+  - 
+    comment: ああああおおおおおううううう
+    date: 2009/06/28 21:54:23
+    is_odd: 0
+    "no": 627
+  - 
+    comment: あたらしいｗｗ
+    date: 2009/06/28 21:54:25
+    is_odd: 1
+    "no": 628
+  - 
+    comment: 父親しっかりしてｗｗｗ
+    date: 2009/06/28 21:54:29
+    is_odd: 0
+    "no": 629
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:54:32
+    is_odd: 1
+    "no": 630
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:54:39
+    is_odd: 0
+    "no": 631
+  - 
+    comment: この柔らかい音・・さいこー
+    date: 2009/06/28 21:54:45
+    is_odd: 1
+    "no": 632
+  - 
+    comment: 音の海に飲まれる。還りてー
+    date: 2009/06/28 21:55:01
+    is_odd: 0
+    "no": 633
+  - 
+    comment: これいいなあ　初めて聞いたけど
+    date: 2009/06/28 21:55:09
+    is_odd: 1
+    "no": 634
+  - 
+    comment: ( ﾟ∀ﾟ)ｏ彡ﾟびにゅＰ♪びにゅＰ♪
+    date: 2009/06/28 21:55:16
+    is_odd: 0
+    "no": 635
+  - 
+    comment: 初めてとは羨ましい
+    date: 2009/06/28 21:55:20
+    is_odd: 1
+    "no": 636
+  - 
+    comment: いつ聴いても癒される
+    date: 2009/06/28 21:55:21
+    is_odd: 0
+    "no": 637
+  - 
+    comment: 　神　曲
+    date: 2009/06/28 21:55:21
+    is_odd: 1
+    "no": 638
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:55:26
+    is_odd: 0
+    "no": 639
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 21:55:28
+    is_odd: 1
+    "no": 640
+  - 
+    comment: 鳥肌が～～
+    date: 2009/06/28 21:55:29
+    is_odd: 0
+    "no": 641
+  - 
+    comment: やっぱりあいしてるううううう
+    date: 2009/06/28 21:55:31
+    is_odd: 1
+    "no": 642
+  - 
+    comment: もう１００回は聴いてるな
+    date: 2009/06/28 21:55:33
+    is_odd: 0
+    "no": 643
+  - 
+    comment: いいなぁ。
+    date: 2009/06/28 21:56:00
+    is_odd: 1
+    "no": 644
+  - 
+    comment: 何度聴いても良い
+    date: 2009/06/28 21:56:01
+    is_odd: 0
+    "no": 645
+  - 
+    comment: びにゅPの曲はSundayが一番好きだなあ……これも大好きだけど
+    date: 2009/06/28 21:56:04
+    is_odd: 1
+    "no": 646
+  - 
+    comment: Sundayも素晴らしい！
+    date: 2009/06/28 21:56:20
+    is_odd: 0
+    "no": 647
+  - 
+    comment: うさぎさーーーーーん！
+    date: 2009/06/28 21:56:33
+    is_odd: 1
+    "no": 648
+  - 
+    comment: ありがとうございました！@びにゅ
+    date: 2009/06/28 21:56:56
+    is_odd: 0
+    "no": 649
+  - 
+    comment: りゅーりゅーさんありがとうございました～
+    date: 2009/06/28 21:56:57
+    is_admin: 1
+    is_odd: 1
+    "no": 650
+  - 
+    comment: 好きだあああああああああああ！（さ
+    date: 2009/06/28 21:56:58
+    is_odd: 0
+    "no": 651
+  - 
+    comment: おわるのはやいいいい
+    date: 2009/06/28 21:57:04
+    is_odd: 1
+    "no": 652
+  - 
+    comment: ありがとう～～～～
+    date: 2009/06/28 21:57:05
+    is_odd: 0
+    "no": 653
+  - 
+    comment: すきだああああああああああ
+    date: 2009/06/28 21:57:06
+    is_odd: 1
+    "no": 654
+  - 
+    comment: 同5位 5票
+    date: 2009/06/28 21:57:07
+    is_admin: 1
+    is_odd: 0
+    "no": 655
+  - 
+    comment: 生主たち落ち着けｗ
+    date: 2009/06/28 21:57:11
+    is_odd: 1
+    "no": 656
+  - 
+    comment: 【初音ミク】 flowertone 【オリジナル】  P名:古墳P
+    date: 2009/06/28 21:57:13
+    is_admin: 1
+    is_odd: 0
+    "no": 657
+  - 
+    comment: こちらこそ！！！
+    date: 2009/06/28 21:57:14
+    is_odd: 1
+    "no": 659
+  - 
+    comment: ''
+    date: 2009/06/28 21:57:16
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 660
+  - 
+    comment: おおおおおおおおお
+    date: 2009/06/28 21:57:18
+    is_odd: 1
+    "no": 661
+  - 
+    comment: おお！
+    date: 2009/06/28 21:57:24
+    is_odd: 0
+    "no": 662
+  - 
+    comment: 古墳
+    date: 2009/06/28 21:57:30
+    is_odd: 1
+    "no": 663
+  - 
+    comment: おお～そうきたか
+    date: 2009/06/28 21:57:31
+    is_odd: 0
+    "no": 664
+  - 
+    comment: ほほ～　みんなわかっとるねぇ
+    date: 2009/06/28 21:57:46
+    is_odd: 1
+    "no": 665
+  - 
+    comment: エコノミー頑張れ
+    date: 2009/06/28 21:57:47
+    is_odd: 0
+    "no": 666
+  - 
+    comment: ミクトランスきたー
+    date: 2009/06/28 21:57:51
+    is_odd: 1
+    "no": 667
+  - 
+    comment: 自重なんかしてたら生主やってられませんｗ
+    date: 2009/06/28 21:57:51
+    is_odd: 0
+    "no": 668
+  - 
+    comment: P名初めて知ったｗｗ
+    date: 2009/06/28 21:58:03
+    is_odd: 1
+    "no": 669
+  - 
+    comment: 調教すごいな
+    date: 2009/06/28 21:58:34
+    is_odd: 0
+    "no": 670
+  - 
+    comment: かっちょえええ
+    date: 2009/06/28 21:58:38
+    is_odd: 1
+    "no": 671
+  - 
+    comment: 消失ＰＶの人
+    date: 2009/06/28 21:58:57
+    is_odd: 0
+    "no": 672
+  - 
+    comment: すばらしい、うん
+    date: 2009/06/28 21:59:13
+    is_odd: 1
+    "no": 673
+  - 
+    comment: これもきたか！
+    date: 2009/06/28 21:59:13
+    is_odd: 0
+    "no": 674
+  - 
+    comment: ベンチマーク中ｗ
+    date: 2009/06/28 21:59:32
+    is_odd: 1
+    "no": 675
+  - 
+    comment: ノリノリになってきたあああ
+    date: 2009/06/28 21:59:36
+    is_odd: 0
+    "no": 676
+  - 
+    comment: この動画重いよね～・・
+    date: 2009/06/28 21:59:47
+    is_odd: 1
+    "no": 677
+  - 
+    comment: 結構力強く歌っている
+    date: 2009/06/28 21:59:53
+    is_odd: 0
+    "no": 678
+  - 
+    comment: いまPCの前で１００人が首降ってる図が見えるｗ
+    date: 2009/06/28 22:00:00
+    is_odd: 1
+    "no": 679
+  - 
+    comment: ずぼしですｗ
+    date: 2009/06/28 22:00:16
+    is_odd: 0
+    "no": 680
+  - 
+    comment: 60分経ってまだ8位ｗ
+    date: 2009/06/28 22:00:21
+    is_odd: 1
+    "no": 681
+  - 
+    comment: なぜばれたし
+    date: 2009/06/28 22:00:25
+    is_odd: 0
+    "no": 682
+  - 
+    comment: ごめん、おれムチウチ中
+    date: 2009/06/28 22:00:26
+    is_odd: 1
+    "no": 683
+  - 
+    comment: おだいじに
+    date: 2009/06/28 22:00:33
+    is_odd: 0
+    "no": 684
+  - 
+    comment: もう５位だｗ
+    date: 2009/06/28 22:00:34
+    is_odd: 1
+    "no": 685
+  - 
+    comment: 足首を振ってます
+    date: 2009/06/28 22:00:34
+    is_odd: 0
+    "no": 686
+  - 
+    comment: 棒立ちです
+    date: 2009/06/28 22:00:50
+    is_odd: 1
+    "no": 687
+  - 
+    comment: マウス握る指先でポンポンしとります
+    date: 2009/06/28 22:00:54
+    is_odd: 0
+    "no": 688
+  - 
+    comment: ただいま第5位を放送中です
+    date: 2009/06/28 22:01:02
+    is_admin: 1
+    is_odd: 1
+    "no": 689
+  - 
+    comment: ５位は何曲有るんだ
+    date: 2009/06/28 22:01:04
+    is_odd: 0
+    "no": 690
+  - 
+    comment: いいねー
+    date: 2009/06/28 22:01:06
+    is_odd: 1
+    "no": 691
+  - 
+    comment: リズムよく色塗ってます
+    date: 2009/06/28 22:01:10
+    is_odd: 0
+    "no": 692
+  - 
+    comment: ５位は三曲じゃね？
+    date: 2009/06/28 22:01:42
+    is_odd: 1
+    "no": 693
+  - 
+    comment: 最初この動画みたときは衝撃だったよ
+    date: 2009/06/28 22:01:42
+    is_odd: 0
+    "no": 694
+  - 
+    comment: すんばらしいのう
+    date: 2009/06/28 22:01:55
+    is_odd: 1
+    "no": 695
+  - 
+    comment: 全部商業レベルに聞こえる
+    date: 2009/06/28 22:02:13
+    is_odd: 0
+    "no": 696
+  - 
+    comment: まさかのVISITORからの刺客
+    date: 2009/06/28 22:02:13
+    is_odd: 1
+    "no": 697
+  - 
+    comment: もう商業とかアマチュアとかいう時代を軽く越えちゃったんだよ
+    date: 2009/06/28 22:02:47
+    is_odd: 0
+    "no": 698
+  - 
+    comment: "　　_, ._/（　ﾟ Дﾟ） 　　ｶﾞｼｬ\n( つ　O.\nと＿)_) （__(）､;.o：。　　　　　　　　　*･:"
+    date: 2009/06/28 22:02:53
+    is_odd: 1
+    "no": 699
+  - 
+    comment: いいわぁ・・・それしか言えない♪
+    date: 2009/06/28 22:02:57
+    is_odd: 0
+    "no": 700
+  - 
+    comment: 同5位 5票
+    date: 2009/06/28 22:02:57
+    is_admin: 1
+    is_odd: 1
+    "no": 701
+  - 
+    comment: 職人ｗ
+    date: 2009/06/28 22:03:02
+    is_odd: 0
+    "no": 702
+  - 
+    comment: 【初音ミク】moon(Fullver.)【オリジナル】  P名:iroha(sasaki)
+    date: 2009/06/28 22:03:04
+    is_admin: 1
+    is_odd: 1
+    "no": 703
+  - 
+    comment: ずれてたｗ
+    date: 2009/06/28 22:03:05
+    is_odd: 0
+    "no": 705
+  - 
+    comment: ''
+    date: 2009/06/28 22:03:07
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 706
+  - 
+    comment: おおおおおおおおー
+    date: 2009/06/28 22:03:09
+    is_odd: 0
+    "no": 707
+  - 
+    comment: おおおおおおおおおおおおおおおお
+    date: 2009/06/28 22:03:12
+    is_odd: 1
+    "no": 708
+  - 
+    comment: ひょおおおおおお
+    date: 2009/06/28 22:03:13
+    is_odd: 0
+    "no": 709
+  - 
+    comment: ｋｔｋｒ
+    date: 2009/06/28 22:03:13
+    is_odd: 1
+    "no": 710
+  - 
+    comment: うおおおおおおおおおおおおおおおおおおおおお
+    date: 2009/06/28 22:03:14
+    is_odd: 0
+    "no": 711
+  - 
+    comment: 人気あるなｗ
+    date: 2009/06/28 22:03:15
+    is_odd: 1
+    "no": 712
+  - 
+    comment: irohaさん
+    date: 2009/06/28 22:03:15
+    is_odd: 0
+    "no": 713
+  - 
+    comment: 名曲だ
+    date: 2009/06/28 22:03:16
+    is_odd: 1
+    "no": 714
+  - 
+    comment: うおｓっしゃｈｈっあああ
+    date: 2009/06/28 22:03:20
+    is_odd: 0
+    "no": 715
+  - 
+    comment: あああああ
+    date: 2009/06/28 22:03:20
+    is_odd: 1
+    "no": 716
+  - 
+    comment: 俺投票したよー！
+    date: 2009/06/28 22:03:22
+    is_odd: 0
+    "no": 717
+  - 
+    comment: 第5位は3曲でした～
+    date: 2009/06/28 22:03:28
+    is_admin: 1
+    is_odd: 1
+    "no": 718
+  - 
+    comment: おｋ
+    date: 2009/06/28 22:03:33
+    is_odd: 0
+    "no": 719
+  - 
+    comment: ええい、PVはまだか！?
+    date: 2009/06/28 22:03:45
+    is_odd: 1
+    "no": 720
+  - 
+    comment: ねぎみそさんのPVはいつ来るんだろう
+    date: 2009/06/28 22:03:49
+    is_odd: 0
+    "no": 721
+  - 
+    comment: 彩花がいまいち伸びなくて寂しいのは俺だけじゃないと信じたい
+    date: 2009/06/28 22:03:52
+    is_odd: 1
+    "no": 722
+  - 
+    comment: ねぎみそさんってｗ
+    date: 2009/06/28 22:03:59
+    is_odd: 0
+    "no": 723
+  - 
+    comment: "　　_, ._\n（　ﾟ Дﾟ） 　　ｶﾞｼｬ\n( つ　O.\nと＿)_) （__(）､;.o：。　　　　　　　　　*･:"
+    date: 2009/06/28 22:04:09
+    is_odd: 1
+    "no": 724
+  - 
+    comment: このコメントは表示されません
+    date: 2009/06/28 22:04:13
+    is_hidden: 1
+    is_odd: 0
+    "no": 725
+  - 
+    comment: 職人修正乙
+    date: 2009/06/28 22:04:17
+    is_odd: 1
+    "no": 726
+  - 
+    comment: いろいろ思い出すな・・って職人はなにがショックなんだｗ
+    date: 2009/06/28 22:04:20
+    is_odd: 0
+    "no": 727
+  - 
+    comment: 修正乙ｗ
+    date: 2009/06/28 22:04:23
+    is_admin: 1
+    is_odd: 1
+    "no": 728
+  - 
+    comment: carol
+    date: 2009/06/28 22:04:31
+    is_odd: 0
+    "no": 729
+  - 
+    comment: にんじんｗ
+    date: 2009/06/28 22:04:39
+    is_odd: 1
+    "no": 730
+  - 
+    comment: お茶を落っことすほどの感動か
+    date: 2009/06/28 22:04:45
+    is_odd: 0
+    "no": 731
+  - 
+    comment: しかし前回と被って無さ加減がすごいなー
+    date: 2009/06/28 22:04:55
+    is_odd: 1
+    "no": 732
+  - 
+    comment: いつ聴いてもいいわぁ
+    date: 2009/06/28 22:05:03
+    is_odd: 0
+    "no": 733
+  - 
+    comment: ミクが本物だと思い知らされた曲です
+    date: 2009/06/28 22:05:21
+    is_odd: 1
+    "no": 734
+  - 
+    comment: CD欲しくて初めてボーマス行ったなあ～
+    date: 2009/06/28 22:05:25
+    is_odd: 0
+    "no": 735
+  - 
+    comment: うんうん
+    date: 2009/06/28 22:05:26
+    is_odd: 1
+    "no": 736
+  - 
+    comment: " \n\n\n \n\n\n5"
+    date: 2009/06/28 22:05:37
+    is_odd: 0
+    "no": 737
+  - 
+    comment: 職人、いまさらなんだが豆腐が見えてるんだ・・
+    date: 2009/06/28 22:06:16
+    is_odd: 1
+    "no": 738
+  - 
+    comment: みくよんもmoonが題材だっけ
+    date: 2009/06/28 22:06:59
+    is_odd: 0
+    "no": 739
+  - 
+    comment: へぇぇ
+    date: 2009/06/28 22:07:06
+    is_odd: 1
+    "no": 740
+  - 
+    comment: そうだったよね
+    date: 2009/06/28 22:07:17
+    is_odd: 0
+    "no": 741
+  - 
+    comment: そうですよ
+    date: 2009/06/28 22:08:04
+    is_odd: 1
+    "no": 742
+  - 
+    comment: この曲に出会わなかったらなぎみそさんはむっちり絵師になっていたと思われｗ
+    date: 2009/06/28 22:08:15
+    is_odd: 0
+    "no": 743
+  - 
+    comment: ｗｗｗ
+    date: 2009/06/28 22:08:20
+    is_odd: 1
+    "no": 744
+  - 
+    comment: むっちり絵師ｗｗあれも好きなんだがｗ
+    date: 2009/06/28 22:08:33
+    is_odd: 0
+    "no": 745
+  - 
+    comment: 第4位 6票
+    date: 2009/06/28 22:08:44
+    is_admin: 1
+    is_odd: 1
+    "no": 746
+  - 
+    comment: tautology -short ver.- 【初音ミクオリジナル曲】  P名:m@rk
+    date: 2009/06/28 22:08:50
+    is_admin: 1
+    is_odd: 0
+    "no": 747
+  - 
+    comment: ''
+    date: 2009/06/28 22:08:53
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 749
+  - 
+    comment: おー
+    date: 2009/06/28 22:08:55
+    is_odd: 0
+    "no": 750
+  - 
+    comment: きったああああああ
+    date: 2009/06/28 22:08:56
+    is_odd: 1
+    "no": 751
+  - 
+    comment: うほほほー
+    date: 2009/06/28 22:08:58
+    is_odd: 0
+    "no": 752
+  - 
+    comment: これか！！
+    date: 2009/06/28 22:08:59
+    is_odd: 1
+    "no": 753
+  - 
+    comment: おおおおおおおおおおー
+    date: 2009/06/28 22:09:02
+    is_odd: 0
+    "no": 754
+  - 
+    comment: おおおお！これきた！
+    date: 2009/06/28 22:09:07
+    is_odd: 1
+    "no": 755
+  - 
+    comment: おお～いいところついてくるねえ
+    date: 2009/06/28 22:09:07
+    is_odd: 0
+    "no": 756
+  - 
+    comment: あいしてぅううううううううううううううううううううううううううううう
+    date: 2009/06/28 22:09:09
+    is_odd: 1
+    "no": 757
+  - 
+    comment: ああ大好きだ
+    date: 2009/06/28 22:09:11
+    is_odd: 0
+    "no": 758
+  - 
+    comment: おお、これも人気だね
+    date: 2009/06/28 22:09:11
+    is_odd: 1
+    "no": 759
+  - 
+    comment: みくみくのカバーも良かったね
+    date: 2009/06/28 22:09:15
+    is_odd: 0
+    "no": 760
+  - 
+    comment: これは歌詞も最高
+    date: 2009/06/28 22:09:20
+    is_odd: 1
+    "no": 761
+  - 
+    comment: 復帰して歓喜した人多数
+    date: 2009/06/28 22:09:22
+    is_odd: 0
+    "no": 762
+  - 
+    comment: 殿堂入り嬉しかったなー
+    date: 2009/06/28 22:09:26
+    is_odd: 1
+    "no": 763
+  - 
+    comment: みくみくはオサレだった
+    date: 2009/06/28 22:09:28
+    is_odd: 0
+    "no": 764
+  - 
+    comment: m@rkさん愛してる
+    date: 2009/06/28 22:09:35
+    is_odd: 1
+    "no": 765
+  - 
+    comment: 俺専！ミクメドレーでも評判良かったね
+    date: 2009/06/28 22:09:41
+    is_odd: 0
+    "no": 766
+  - 
+    comment: このしっとり感が良い
+    date: 2009/06/28 22:09:47
+    is_odd: 1
+    "no": 767
+  - 
+    comment: " \n\n\nみ\n\n\n \n\n\n　　　　　　　　　　　　　　　　　　　く"
+    date: 2009/06/28 22:09:52
+    is_odd: 0
+    "no": 768
+  - 
+    comment: m@rkさんはこの前復帰したね
+    date: 2009/06/28 22:10:00
+    is_odd: 1
+    "no": 769
+  - 
+    comment: 歌詞もいいんだ
+    date: 2009/06/28 22:10:00
+    is_odd: 0
+    "no": 770
+  - 
+    comment: この雰囲気がたまらない！
+    date: 2009/06/28 22:10:05
+    is_odd: 1
+    "no": 771
+  - 
+    comment: 歌詞凝ってるよね
+    date: 2009/06/28 22:10:11
+    is_odd: 0
+    "no": 772
+  - 
+    comment: この歌詞が好き
+    date: 2009/06/28 22:10:18
+    is_odd: 1
+    "no": 773
+  - 
+    comment: このミクの絵もいいね
+    date: 2009/06/28 22:10:29
+    is_odd: 0
+    "no": 774
+  - 
+    comment: 凛々しいミクさん
+    date: 2009/06/28 22:10:34
+    is_odd: 1
+    "no": 775
+  - 
+    comment: 要するに全部良い
+    date: 2009/06/28 22:10:42
+    is_odd: 0
+    "no": 776
+  - 
+    comment: その通りｗ
+    date: 2009/06/28 22:10:48
+    is_odd: 1
+    "no": 777
+  - 
+    comment: ベースとドラムかっこいいなぁー
+    date: 2009/06/28 22:11:05
+    is_odd: 0
+    "no": 778
+  - 
+    comment: オサレだなぁ
+    date: 2009/06/28 22:11:13
+    is_odd: 1
+    "no": 779
+  - 
+    comment: この曲流すと前の流れ全てリセットされるので主としても使いやすい
+    date: 2009/06/28 22:11:26
+    is_odd: 0
+    "no": 780
+  - 
+    comment: ほう
+    date: 2009/06/28 22:11:35
+    is_odd: 1
+    "no": 781
+  - 
+    comment: なるほどｗ
+    date: 2009/06/28 22:11:36
+    is_odd: 0
+    "no": 782
+  - 
+    comment: １発で世界に引き込んでしまう
+    date: 2009/06/28 22:11:46
+    is_odd: 1
+    "no": 783
+  - 
+    comment: ついにトップ3です
+    date: 2009/06/28 22:11:46
+    is_admin: 1
+    is_odd: 0
+    "no": 784
+  - 
+    comment: ｗｋｔｋ
+    date: 2009/06/28 22:11:50
+    is_odd: 1
+    "no": 785
+  - 
+    comment: さあ！
+    date: 2009/06/28 22:11:52
+    is_odd: 0
+    "no": 786
+  - 
+    comment: 第3位 7票
+    date: 2009/06/28 22:12:01
+    is_admin: 1
+    is_odd: 1
+    "no": 787
+  - 
+    comment: うおおお
+    date: 2009/06/28 22:12:01
+    is_odd: 0
+    "no": 788
+  - 
+    comment: うおおお
+    date: 2009/06/28 22:12:03
+    is_odd: 1
+    "no": 789
+  - 
+    comment: 三位二曲？
+    date: 2009/06/28 22:12:04
+    is_odd: 0
+    "no": 790
+  - 
+    comment: 【初音ミク】Chip Tears【オリジナル曲】  P名:U-ji
+    date: 2009/06/28 22:12:05
+    is_admin: 1
+    is_odd: 1
+    "no": 791
+  - 
+    comment: ''
+    date: 2009/06/28 22:12:08
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 793
+  - 
+    comment: うおおおおおおおおおおおお
+    date: 2009/06/28 22:12:10
+    is_odd: 1
+    "no": 794
+  - 
+    comment: おおおおおおう
+    date: 2009/06/28 22:12:10
+    is_odd: 0
+    "no": 795
+  - 
+    comment: これかああああああああ
+    date: 2009/06/28 22:12:11
+    is_odd: 1
+    "no": 796
+  - 
+    comment: おおおおおおおおおおおお
+    date: 2009/06/28 22:12:12
+    is_odd: 0
+    "no": 797
+  - 
+    comment: おおおおおお。来ると思ったｗ
+    date: 2009/06/28 22:12:12
+    is_odd: 1
+    "no": 798
+  - 
+    comment: よっしゃああああああ
+    date: 2009/06/28 22:12:12
+    is_odd: 0
+    "no": 799
+  - 
+    comment: これか！
+    date: 2009/06/28 22:12:13
+    is_odd: 1
+    "no": 800
+  - 
+    comment: うむうむ！
+    date: 2009/06/28 22:12:18
+    is_odd: 0
+    "no": 801
+  - 
+    comment: 止めても動く！
+    date: 2009/06/28 22:12:19
+    is_odd: 1
+    "no": 802
+  - 
+    comment: 低画質推奨ｗ
+    date: 2009/06/28 22:12:24
+    is_odd: 0
+    "no": 803
+  - 
+    comment: チップチューンいいねー
+    date: 2009/06/28 22:12:25
+    is_odd: 1
+    "no": 804
+  - 
+    comment: 最強チップチューンだ
+    date: 2009/06/28 22:12:30
+    is_odd: 0
+    "no": 805
+  - 
+    comment: この人のGUMI良かったね
+    date: 2009/06/28 22:12:35
+    is_odd: 1
+    "no": 806
+  - 
+    comment: おっしゃ大好きあ
+    date: 2009/06/28 22:12:36
+    is_odd: 0
+    "no": 807
+  - 
+    comment: おおっ！
+    date: 2009/06/28 22:12:38
+    is_odd: 1
+    "no": 808
+  - 
+    comment: 良かったね～
+    date: 2009/06/28 22:12:46
+    is_odd: 0
+    "no": 809
+  - 
+    comment: いい音だあ
+    date: 2009/06/28 22:12:46
+    is_odd: 1
+    "no": 810
+  - 
+    comment: "よかった\n　　　みんなが\n　　　　　　　　　　　　きて！"
+    date: 2009/06/28 22:13:05
+    is_odd: 0
+    "no": 811
+  - 
+    comment: 低画質推奨！
+    date: 2009/06/28 22:13:20
+    is_odd: 1
+    "no": 812
+  - 
+    comment: ミクさんうちのおじいちゃんの口の動きと一緒だ
+    date: 2009/06/28 22:13:28
+    is_odd: 0
+    "no": 813
+  - 
+    comment: 再生されないオレ
+    date: 2009/06/28 22:13:31
+    is_odd: 1
+    "no": 814
+  - 
+    comment: 更新押すんだ！
+    date: 2009/06/28 22:13:38
+    is_odd: 0
+    "no": 815
+  - 
+    comment: どんまい！
+    date: 2009/06/28 22:13:38
+    is_odd: 1
+    "no": 816
+  - 
+    comment: 右クリック→画質→「低」
+    date: 2009/06/28 22:13:43
+    is_odd: 0
+    "no": 817
+  - 
+    comment: nmだからかな
+    date: 2009/06/28 22:13:44
+    is_odd: 1
+    "no": 818
+  - 
+    comment: モゴモゴ～
+    date: 2009/06/28 22:13:46
+    is_odd: 0
+    "no": 819
+  - 
+    comment: 大事にしてやれ＞８１３
+    date: 2009/06/28 22:13:51
+    is_odd: 1
+    "no": 820
+  - 
+    comment: いいなーこのＰＶ
+    date: 2009/06/28 22:14:17
+    is_odd: 0
+    "no": 821
+  - 
+    comment: 820の優しさに惚れた
+    date: 2009/06/28 22:14:26
+    is_odd: 1
+    "no": 822
+  - 
+    comment: スネアなんてわりと古めかしい音なのに全体は新しいという
+    date: 2009/06/28 22:14:34
+    is_odd: 0
+    "no": 823
+  - 
+    comment: ありがと、じいちゃん元気すぎるぜ
+    date: 2009/06/28 22:14:50
+    is_odd: 1
+    "no": 824
+  - 
+    comment: 画面が下がりました＞817
+    date: 2009/06/28 22:15:10
+    is_odd: 0
+    "no": 825
+  - 
+    comment: 同じく
+    date: 2009/06/28 22:15:17
+    is_odd: 1
+    "no": 826
+  - 
+    comment: 生放送じゃうまくいかないんだよね
+    date: 2009/06/28 22:15:26
+    is_odd: 0
+    "no": 827
+  - 
+    comment: さあ皆、これが終わったら元動画に行って低画質を試すんだ！
+    date: 2009/06/28 22:15:50
+    is_odd: 1
+    "no": 828
+  - 
+    comment: 了解!
+    date: 2009/06/28 22:16:05
+    is_odd: 0
+    "no": 829
+  - 
+    comment: さてさて
+    date: 2009/06/28 22:16:19
+    is_odd: 1
+    "no": 830
+  - 
+    comment: 第2位！ 8票
+    date: 2009/06/28 22:16:20
+    is_admin: 1
+    is_odd: 0
+    "no": 831
+  - 
+    comment: そしてこの人のＧＵＭＩの新曲もお勧めだ
+    date: 2009/06/28 22:16:24
+    is_odd: 1
+    "no": 832
+  - 
+    comment: ドキドキ
+    date: 2009/06/28 22:16:25
+    is_odd: 0
+    "no": 833
+  - 
+    comment: 【初音ミクオリジナル曲】＊ハロー、プラネット。【ドットPV付き】  P名:ささくれP
+    date: 2009/06/28 22:16:26
+    is_admin: 1
+    is_odd: 1
+    "no": 834
+  - 
+    comment: きたああああああ
+    date: 2009/06/28 22:16:28
+    is_odd: 0
+    "no": 836
+  - 
+    comment: ''
+    date: 2009/06/28 22:16:29
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 837
+  - 
+    comment: おおおおおおおおおおー
+    date: 2009/06/28 22:16:30
+    is_odd: 0
+    "no": 838
+  - 
+    comment: おおおおおお
+    date: 2009/06/28 22:16:31
+    is_odd: 1
+    "no": 839
+  - 
+    comment: "|&#039;ω&#039;|三|&#039;ω&#039;|三|&#039;ω&#039;|ｼﾊﾞﾊﾞｰﾝ"
+    date: 2009/06/28 22:16:34
+    is_odd: 0
+    "no": 840
+  - 
+    comment: おおおおおおおおおおおおおおおおおおお！
+    date: 2009/06/28 22:16:34
+    is_odd: 1
+    "no": 841
+  - 
+    comment: ｋｔｋｒ
+    date: 2009/06/28 22:16:36
+    is_odd: 0
+    "no": 842
+  - 
+    comment: おおおおおおおおおおおおおおお
+    date: 2009/06/28 22:16:36
+    is_odd: 1
+    "no": 843
+  - 
+    comment: うおおおおおおおおおおおおおおおおおおおおおお
+    date: 2009/06/28 22:16:39
+    is_odd: 0
+    "no": 844
+  - 
+    comment: ！！！！
+    date: 2009/06/28 22:16:40
+    is_odd: 1
+    "no": 845
+  - 
+    comment: そっちとな！
+    date: 2009/06/28 22:16:40
+    is_odd: 0
+    "no": 846
+  - 
+    comment: 実はワンダーラストのほうが好きだ……
+    date: 2009/06/28 22:16:42
+    is_odd: 1
+    "no": 847
+  - 
+    comment: おおおおおおおおおおお
+    date: 2009/06/28 22:16:42
+    is_odd: 0
+    "no": 848
+  - 
+    comment: "|&#039;ω&#039;|三|&#039;ω&#039;|三|&#039;ω&#039;|ｼﾊﾞﾊﾞｰﾝ"
+    date: 2009/06/28 22:16:43
+    is_odd: 1
+    "no": 849
+  - 
+    comment: もう34万かー
+    date: 2009/06/28 22:16:48
+    is_odd: 0
+    "no": 850
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:16:50
+    is_odd: 1
+    "no": 851
+  - 
+    comment: まずい、泣いちゃうじゃないか
+    date: 2009/06/28 22:16:51
+    is_odd: 0
+    "no": 852
+  - 
+    comment: "|&#039;ω&#039;|三|&#039;ω&#039;|三|&#039;ω&#039;|ｼﾊﾞﾊﾞｰﾝ"
+    date: 2009/06/28 22:16:57
+    is_odd: 1
+    "no": 853
+  - 
+    comment: チップチューン好きなひと多いんだなぁ
+    date: 2009/06/28 22:17:02
+    is_odd: 0
+    "no": 854
+  - 
+    comment: ささくれPはずいぶん人気出たなぁ
+    date: 2009/06/28 22:17:02
+    is_odd: 1
+    "no": 855
+  - 
+    comment: "|&#039;ω&#039;|三|&#039;ω&#039;|三|&#039;ω&#039;|ｼﾊﾞﾊﾞｰﾝ"
+    date: 2009/06/28 22:17:03
+    is_odd: 0
+    "no": 856
+  - 
+    comment: いいわぁ♪
+    date: 2009/06/28 22:17:18
+    is_odd: 1
+    "no": 857
+  - 
+    comment: カバーも凄いよね
+    date: 2009/06/28 22:17:21
+    is_odd: 0
+    "no": 858
+  - 
+    comment: あれ、ひょっとしてランクイン全部ミクだったか？
+    date: 2009/06/28 22:17:38
+    is_odd: 1
+    "no": 859
+  - 
+    comment: そうかも
+    date: 2009/06/28 22:17:52
+    is_odd: 0
+    "no": 860
+  - 
+    comment: ピコピコいいわー
+    date: 2009/06/28 22:17:57
+    is_odd: 1
+    "no": 861
+  - 
+    comment: かもしれないね
+    date: 2009/06/28 22:17:57
+    is_odd: 0
+    "no": 862
+  - 
+    comment: ミクさんマジパネェっす
+    date: 2009/06/28 22:17:58
+    is_odd: 1
+    "no": 863
+  - 
+    comment: ミクだけみたい
+    date: 2009/06/28 22:17:58
+    is_odd: 0
+    "no": 864
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:18:01
+    is_odd: 1
+    "no": 865
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:18:01
+    is_odd: 0
+    "no": 866
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:18:02
+    is_odd: 1
+    "no": 867
+  - 
+    comment: オハヨー、ハヨー
+    date: 2009/06/28 22:18:02
+    is_odd: 0
+    "no": 868
+  - 
+    comment: オハヨーハヨー♪；；
+    date: 2009/06/28 22:18:03
+    is_odd: 1
+    "no": 869
+  - 
+    comment: オハヨーハヨ
+    date: 2009/06/28 22:18:03
+    is_odd: 0
+    "no": 870
+  - 
+    comment: おはよーおはよー
+    date: 2009/06/28 22:18:05
+    is_odd: 1
+    "no": 871
+  - 
+    comment: 今のところ全部ミクさんだね、やっっぱりこの分野は強い
+    date: 2009/06/28 22:18:06
+    is_odd: 0
+    "no": 872
+  - 
+    comment: オハヨー、ハヨー
+    date: 2009/06/28 22:18:06
+    is_odd: 1
+    "no": 873
+  - 
+    comment: オハヨー　ハヨー
+    date: 2009/06/28 22:18:07
+    is_odd: 0
+    "no": 874
+  - 
+    comment: 場違いな質問かも知れませんがなぜこれがいいのでしょう？
+    date: 2009/06/28 22:18:08
+    is_odd: 1
+    "no": 875
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:18:09
+    is_odd: 0
+    "no": 876
+  - 
+    comment: 　オハヨーハヨー
+    date: 2009/06/28 22:18:10
+    is_odd: 1
+    "no": 877
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:18:10
+    is_odd: 0
+    "no": 878
+  - 
+    comment: 　オハヨー、ハヨー
+    date: 2009/06/28 22:18:10
+    is_odd: 1
+    "no": 879
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:18:11
+    is_odd: 0
+    "no": 880
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:18:12
+    is_odd: 1
+    "no": 881
+  - 
+    comment: オハヨー ハヨー
+    date: 2009/06/28 22:18:14
+    is_odd: 0
+    "no": 882
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:18:14
+    is_odd: 1
+    "no": 883
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:18:15
+    is_odd: 0
+    "no": 884
+  - 
+    comment: オハヨー、ハヨー
+    date: 2009/06/28 22:18:16
+    is_odd: 1
+    "no": 885
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:18:20
+    is_odd: 0
+    "no": 886
+  - 
+    comment: 　オハヨーハヨー
+    date: 2009/06/28 22:18:21
+    is_odd: 1
+    "no": 887
+  - 
+    comment: オハヨーハヨーオハヨーハヨー
+    date: 2009/06/28 22:18:21
+    is_odd: 0
+    "no": 888
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:18:22
+    is_odd: 1
+    "no": 889
+  - 
+    comment: オハヨー
+    date: 2009/06/28 22:18:22
+    is_odd: 0
+    "no": 890
+  - 
+    comment: オハヨーハヨー♪
+    date: 2009/06/28 22:18:23
+    is_odd: 1
+    "no": 891
+  - 
+    comment: オハヨーハヨー♪
+    date: 2009/06/28 22:18:27
+    is_odd: 0
+    "no": 892
+  - 
+    comment: 音作りも世界観もすごいと思う
+    date: 2009/06/28 22:18:36
+    is_odd: 1
+    "no": 893
+  - 
+    comment: とりあえずワンダーラストを聞いてからこれを聞こうか。動画もじっくりな＞875
+    date: 2009/06/28 22:18:39
+    is_odd: 0
+    "no": 894
+  - 
+    comment: ニジイロアドベンチュアも好きだ
+    date: 2009/06/28 22:18:50
+    is_odd: 1
+    "no": 895
+  - 
+    comment: みんなちがってみんなイイ
+    date: 2009/06/28 22:18:55
+    is_odd: 0
+    "no": 896
+  - 
+    comment: ふむふむ
+    date: 2009/06/28 22:19:00
+    is_odd: 1
+    "no": 897
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:19:05
+    is_odd: 0
+    "no": 898
+  - 
+    comment: " \n\n\n \n\n　／^⌒^ヽ\n〆》ノノ＼《ヽ\n|　|　。　。 |　|\n|　|＼□／|  |\n|.ノ　　　　 |.ノ"
+    date: 2009/06/28 22:19:14
+    is_odd: 1
+    "no": 899
+  - 
+    comment: 　オハヨーハヨー
+    date: 2009/06/28 22:19:23
+    is_odd: 0
+    "no": 900
+  - 
+    comment: オハヨー　ハヨー
+    date: 2009/06/28 22:19:25
+    is_odd: 1
+    "no": 901
+  - 
+    comment: オハヨー　ハヨー
+    date: 2009/06/28 22:19:27
+    is_odd: 0
+    "no": 902
+  - 
+    comment: "|&#039;ω&#039;っ|＝3 ﾄﾞｯｺｲ"
+    date: 2009/06/28 22:19:35
+    is_odd: 1
+    "no": 903
+  - 
+    comment: ♪
+    date: 2009/06/28 22:19:37
+    is_odd: 0
+    "no": 904
+  - 
+    comment: ♪
+    date: 2009/06/28 22:19:39
+    is_odd: 1
+    "no": 905
+  - 
+    comment: 一瞬コメ出来なかった
+    date: 2009/06/28 22:19:42
+    is_odd: 0
+    "no": 906
+  - 
+    comment: ♪
+    date: 2009/06/28 22:19:43
+    is_odd: 1
+    "no": 907
+  - 
+    comment: 出来なかったね・・
+    date: 2009/06/28 22:19:50
+    is_odd: 0
+    "no": 908
+  - 
+    comment: 連続コメ規制くらったやつ多数とみた
+    date: 2009/06/28 22:20:05
+    is_odd: 1
+    "no": 909
+  - 
+    comment: やばい、泣く
+    date: 2009/06/28 22:20:21
+    is_odd: 0
+    "no": 910
+  - 
+    comment: オハヨーハヨー♪
+    date: 2009/06/28 22:20:21
+    is_odd: 1
+    "no": 911
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:20:21
+    is_odd: 0
+    "no": 912
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:20:22
+    is_odd: 1
+    "no": 913
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:20:32
+    is_odd: 0
+    "no": 914
+  - 
+    comment: " \n\n\n \n\n♪"
+    date: 2009/06/28 22:20:35
+    is_odd: 1
+    "no": 915
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:20:35
+    is_odd: 0
+    "no": 916
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:20:42
+    is_odd: 1
+    "no": 917
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:20:42
+    is_odd: 0
+    "no": 918
+  - 
+    comment: オハヨーハヨー
+    date: 2009/06/28 22:20:42
+    is_odd: 1
+    "no": 919
+  - 
+    comment: 曲自体いいな
+    date: 2009/06/28 22:20:43
+    is_odd: 0
+    "no": 920
+  - 
+    comment: 楽曲もスゲェぞこれ。
+    date: 2009/06/28 22:20:59
+    is_odd: 1
+    "no": 921
+  - 
+    comment: すげぇ
+    date: 2009/06/28 22:21:12
+    is_odd: 0
+    "no": 922
+  - 
+    comment: がんばったんだね
+    date: 2009/06/28 22:21:15
+    is_odd: 1
+    "no": 923
+  - 
+    comment: Shibuyaのヤツもいいぞ
+    date: 2009/06/28 22:21:27
+    is_odd: 0
+    "no": 924
+  - 
+    comment: " \n\n\n \n\n\n♪"
+    date: 2009/06/28 22:21:28
+    is_odd: 1
+    "no": 925
+  - 
+    comment: ではいきますよ・・・・・・
+    date: 2009/06/28 22:21:36
+    is_admin: 1
+    is_odd: 0
+    "no": 926
+  - 
+    comment: どきどき
+    date: 2009/06/28 22:21:41
+    is_odd: 1
+    "no": 927
+  - 
+    comment: ｗｋｔｋ
+    date: 2009/06/28 22:21:41
+    is_odd: 0
+    "no": 928
+  - 
+    comment: どきどきそわそわ
+    date: 2009/06/28 22:21:42
+    is_odd: 1
+    "no": 929
+  - 
+    comment: wktk
+    date: 2009/06/28 22:21:42
+    is_odd: 0
+    "no": 930
+  - 
+    comment: ドキドキ
+    date: 2009/06/28 22:21:42
+    is_odd: 1
+    "no": 931
+  - 
+    comment: さてさて
+    date: 2009/06/28 22:21:43
+    is_odd: 0
+    "no": 932
+  - 
+    comment: ごくり
+    date: 2009/06/28 22:21:44
+    is_odd: 1
+    "no": 933
+  - 
+    comment: 第1位！！！！！ 10票
+    date: 2009/06/28 22:21:47
+    is_admin: 1
+    is_odd: 0
+    "no": 934
+  - 
+    comment: ふぅ～
+    date: 2009/06/28 22:21:47
+    is_odd: 1
+    "no": 935
+  - 
+    comment: ・・・・
+    date: 2009/06/28 22:21:48
+    is_odd: 0
+    "no": 936
+  - 
+    comment: 【初音ミク】 My Brand New Love 【オリジナル曲】  P名:ああんP
+    date: 2009/06/28 22:21:56
+    is_admin: 1
+    is_odd: 1
+    "no": 937
+  - 
+    comment: おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお
+    date: 2009/06/28 22:21:57
+    is_odd: 0
+    "no": 939
+  - 
+    comment: うおおおおおおおおおおおおおおおおおお
+    date: 2009/06/28 22:21:57
+    is_odd: 1
+    "no": 940
+  - 
+    comment: きたあああああああああああ
+    date: 2009/06/28 22:21:57
+    is_odd: 0
+    "no": 941
+  - 
+    comment: つえぇえええええええええ
+    date: 2009/06/28 22:21:57
+    is_odd: 1
+    "no": 942
+  - 
+    comment: ああん！！！
+    date: 2009/06/28 22:21:58
+    is_odd: 0
+    "no": 943
+  - 
+    comment: ''
+    date: 2009/06/28 22:21:59
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 944
+  - 
+    comment: おおおおおー
+    date: 2009/06/28 22:22:00
+    is_odd: 0
+    "no": 945
+  - 
+    comment: きたああああああああああああああああああああああああああ
+    date: 2009/06/28 22:22:00
+    is_odd: 1
+    "no": 946
+  - 
+    comment: P名→　×：ああんP　○：2am
+    date: 2009/06/28 22:22:01
+    is_odd: 0
+    "no": 947
+  - 
+    comment: ああん
+    date: 2009/06/28 22:22:01
+    is_odd: 1
+    "no": 948
+  - 
+    comment: これは予想外
+    date: 2009/06/28 22:22:02
+    is_odd: 0
+    "no": 949
+  - 
+    comment: ああああんああああんああああん！
+    date: 2009/06/28 22:22:03
+    is_odd: 1
+    "no": 950
+  - 
+    comment: あああああああああああ
+    date: 2009/06/28 22:22:03
+    is_odd: 0
+    "no": 951
+  - 
+    comment: oooo
+    date: 2009/06/28 22:22:04
+    is_odd: 1
+    "no": 952
+  - 
+    comment: 鉄板きたー
+    date: 2009/06/28 22:22:05
+    is_odd: 0
+    "no": 953
+  - 
+    comment: ああんああん
+    date: 2009/06/28 22:22:06
+    is_odd: 1
+    "no": 954
+  - 
+    comment: ＼(^o^)~≪☆♪祝*CONGRATULATIONS*祝♪☆≫~(^o^)／
+    date: 2009/06/28 22:22:08
+    is_odd: 0
+    "no": 955
+  - 
+    comment: こ、れ、かー
+    date: 2009/06/28 22:22:10
+    is_odd: 1
+    "no": 956
+  - 
+    comment: きたぜきたぜーーーーー
+    date: 2009/06/28 22:22:10
+    is_odd: 0
+    "no": 957
+  - 
+    comment: かわいい
+    date: 2009/06/28 22:22:10
+    is_odd: 1
+    "no": 958
+  - 
+    comment: ああんあーんあんあーん
+    date: 2009/06/28 22:22:16
+    is_odd: 0
+    "no": 959
+  - 
+    comment: 弾幕行くぜ！
+    date: 2009/06/28 22:22:20
+    is_odd: 1
+    "no": 960
+  - 
+    comment: ああん　ああん
+    date: 2009/06/28 22:22:27
+    is_odd: 0
+    "no": 961
+  - 
+    comment: ああん♥ああん♥
+    date: 2009/06/28 22:22:27
+    is_odd: 1
+    "no": 962
+  - 
+    comment: ああんああｎ
+    date: 2009/06/28 22:22:28
+    is_odd: 0
+    "no": 963
+  - 
+    comment: ああん♪ああん♪
+    date: 2009/06/28 22:22:29
+    is_odd: 1
+    "no": 964
+  - 
+    comment: popipi♪popipi♪
+    date: 2009/06/28 22:22:29
+    is_odd: 0
+    "no": 965
+  - 
+    comment: ああん　ああん
+    date: 2009/06/28 22:22:29
+    is_odd: 1
+    "no": 966
+  - 
+    comment: ああんあああーん
+    date: 2009/06/28 22:22:31
+    is_odd: 0
+    "no": 967
+  - 
+    comment: ああん　あああｎ
+    date: 2009/06/28 22:22:31
+    is_odd: 1
+    "no": 968
+  - 
+    comment: ああん　ああん♪
+    date: 2009/06/28 22:22:31
+    is_odd: 0
+    "no": 969
+  - 
+    comment: おまえらｗｗｗ
+    date: 2009/06/28 22:22:34
+    is_odd: 1
+    "no": 970
+  - 
+    comment: 厚いな
+    date: 2009/06/28 22:22:34
+    is_odd: 0
+    "no": 971
+  - 
+    comment: ああん　ああん
+    date: 2009/06/28 22:22:36
+    is_odd: 1
+    "no": 972
+  - 
+    comment: ああん♪ああん♪
+    date: 2009/06/28 22:22:41
+    is_odd: 0
+    "no": 973
+  - 
+    comment: ああんああんああん
+    date: 2009/06/28 22:22:42
+    is_odd: 1
+    "no": 974
+  - 
+    comment: ああん　ああん♪
+    date: 2009/06/28 22:22:42
+    is_odd: 0
+    "no": 975
+  - 
+    comment: ああん　ああん
+    date: 2009/06/28 22:22:43
+    is_odd: 1
+    "no": 976
+  - 
+    comment: ああんああん
+    date: 2009/06/28 22:22:43
+    is_odd: 0
+    "no": 977
+  - 
+    comment: ああああああああああああああああああああああああ
+    date: 2009/06/28 22:22:44
+    is_odd: 1
+    "no": 978
+  - 
+    comment: ああーんあんあーん
+    date: 2009/06/28 22:22:44
+    is_odd: 0
+    "no": 979
+  - 
+    comment: ああああああああああああああああああああ
+    date: 2009/06/28 22:22:46
+    is_odd: 1
+    "no": 980
+  - 
+    comment: ああん
+    date: 2009/06/28 22:22:47
+    is_odd: 0
+    "no": 981
+  - 
+    comment: アッー！
+    date: 2009/06/28 22:22:48
+    is_odd: 1
+    "no": 982
+  - 
+    comment: あああああああああああああああああ
+    date: 2009/06/28 22:22:49
+    is_odd: 0
+    "no": 983
+  - 
+    comment: ああんなーーーんｎ
+    date: 2009/06/28 22:22:50
+    is_odd: 1
+    "no": 984
+  - 
+    comment: とういわけで第2回『ミクノポップ大賞』受賞曲はああんPのMy Brand New Loveに決定しました～
+    date: 2009/06/28 22:22:55
+    is_admin: 1
+    is_odd: 0
+    "no": 985
+  - 
+    comment: あんあんあんあんああん
+    date: 2009/06/28 22:22:56
+    is_odd: 1
+    "no": 986
+  - 
+    comment: "(・´ω｀・)ﾄﾞｩｰﾝ\n(・´ω｀・)ﾄﾞｩｰﾝ\n(・´ω｀・)ﾄﾞｩｰﾝ"
+    date: 2009/06/28 22:22:58
+    is_odd: 0
+    "no": 987
+  - 
+    comment: おめでとおおおおおおおおおおおおおおおおおおおお
+    date: 2009/06/28 22:23:02
+    is_odd: 1
+    "no": 988
+  - 
+    comment: おめでとうございます！
+    date: 2009/06/28 22:23:04
+    is_admin: 1
+    is_odd: 0
+    "no": 989
+  - 
+    comment: popipi★popipi
+    date: 2009/06/28 22:23:05
+    is_odd: 1
+    "no": 990
+  - 
+    comment: popipi popipi
+    date: 2009/06/28 22:23:05
+    is_odd: 0
+    "no": 991
+  - 
+    comment: popipi☆pipipi
+    date: 2009/06/28 22:23:06
+    is_odd: 1
+    "no": 992
+  - 
+    comment: popipi popipi
+    date: 2009/06/28 22:23:06
+    is_odd: 0
+    "no": 993
+  - 
+    comment: popipi popipi
+    date: 2009/06/28 22:23:07
+    is_odd: 1
+    "no": 994
+  - 
+    comment: ぽぴぴ
+    date: 2009/06/28 22:23:07
+    is_odd: 0
+    "no": 995
+  - 
+    comment: おめでとう！
+    date: 2009/06/28 22:23:08
+    is_odd: 1
+    "no": 996
+  - 
+    comment: ぽぴぴ　☆　ぽぴぴ
+    date: 2009/06/28 22:23:09
+    is_odd: 0
+    "no": 997
+  - 
+    comment: (⌒▽⌒)／゜・:*【ネ兄】*:・゜＼(⌒▽⌒)
+    date: 2009/06/28 22:23:10
+    is_odd: 1
+    "no": 998
+  - 
+    comment: popipi☆popipi
+    date: 2009/06/28 22:23:10
+    is_odd: 0
+    "no": 999
+  - 
+    comment: popipi♪popipi
+    date: 2009/06/28 22:23:13
+    is_odd: 1
+    "no": 1000
+  - 
+    comment: ぽぴぴぽぴぴ
+    date: 2009/06/28 22:23:13
+    is_odd: 0
+    "no": 1001
+  - 
+    comment: "か\n\n　　　わ\n\n　　　　　　い\n\n　　　　　　　　　い"
+    date: 2009/06/28 22:23:13
+    is_odd: 1
+    "no": 1002
+  - 
+    comment: ぽぴぴぽぴぴ
+    date: 2009/06/28 22:23:15
+    is_odd: 0
+    "no": 1003
+  - 
+    comment: おめでとーーーー！！
+    date: 2009/06/28 22:23:17
+    is_odd: 1
+    "no": 1004
+  - 
+    comment: ぽぴぴぽぴぴ
+    date: 2009/06/28 22:23:19
+    is_odd: 0
+    "no": 1005
+  - 
+    comment: popipi☆pipipi
+    date: 2009/06/28 22:23:20
+    is_odd: 1
+    "no": 1006
+  - 
+    comment: popipi  popipi
+    date: 2009/06/28 22:23:20
+    is_odd: 0
+    "no": 1007
+  - 
+    comment: popipi★popipi
+    date: 2009/06/28 22:23:20
+    is_admin: 1
+    is_odd: 1
+    "no": 1008
+  - 
+    comment: popipi popipi
+    date: 2009/06/28 22:23:23
+    is_odd: 0
+    "no": 1009
+  - 
+    comment: popipi☆pipipi
+    date: 2009/06/28 22:23:23
+    is_odd: 1
+    "no": 1010
+  - 
+    comment: popipi☆popipi
+    date: 2009/06/28 22:23:23
+    is_odd: 0
+    "no": 1011
+  - 
+    comment: フヒヒ★フヒヒ
+    date: 2009/06/28 22:23:27
+    is_odd: 1
+    "no": 1012
+  - 
+    comment: popipi popipi
+    date: 2009/06/28 22:23:27
+    is_odd: 0
+    "no": 1013
+  - 
+    comment: popipi
+    date: 2009/06/28 22:23:29
+    is_odd: 1
+    "no": 1014
+  - 
+    comment: popipi popipi
+    date: 2009/06/28 22:23:29
+    is_odd: 0
+    "no": 1015
+  - 
+    comment: しかし、強いなーこの曲
+    date: 2009/06/28 22:23:36
+    is_odd: 1
+    "no": 1016
+  - 
+    comment: フヒヒ自重ｗ
+    date: 2009/06/28 22:23:38
+    is_odd: 0
+    "no": 1017
+  - 
+    comment: フヒヒやめいｗ
+    date: 2009/06/28 22:23:39
+    is_odd: 1
+    "no": 1018
+  - 
+    comment: ノリノリですよ
+    date: 2009/06/28 22:23:41
+    is_odd: 0
+    "no": 1019
+  - 
+    comment: ベースが、ベースが・・・！
+    date: 2009/06/28 22:23:44
+    is_odd: 1
+    "no": 1020
+  - 
+    comment: 一緒になって盛り上がる　弾幕曲強いね
+    date: 2009/06/28 22:23:49
+    is_odd: 0
+    "no": 1021
+  - 
+    comment: 最高だ
+    date: 2009/06/28 22:23:51
+    is_odd: 1
+    "no": 1022
+  - 
+    comment: ああーんあんあん
+    date: 2009/06/28 22:24:03
+    is_odd: 0
+    "no": 1023
+  - 
+    comment: popipi popipi
+    date: 2009/06/28 22:24:07
+    is_odd: 1
+    "no": 1024
+  - 
+    comment: popipi☆pipipi
+    date: 2009/06/28 22:24:09
+    is_odd: 0
+    "no": 1025
+  - 
+    comment: popipi☆popipi
+    date: 2009/06/28 22:24:15
+    is_odd: 1
+    "no": 1026
+  - 
+    comment: popipipopipi
+    date: 2009/06/28 22:24:17
+    is_odd: 0
+    "no": 1027
+  - 
+    comment: popipi☆pipipipopipi☆pipipi
+    date: 2009/06/28 22:24:18
+    is_odd: 1
+    "no": 1028
+  - 
+    comment: popipi　popipi
+    date: 2009/06/28 22:24:22
+    is_odd: 0
+    "no": 1029
+  - 
+    comment: popipi☆pipipi
+    date: 2009/06/28 22:24:23
+    is_odd: 1
+    "no": 1030
+  - 
+    comment: popipi♪popipi♪
+    date: 2009/06/28 22:24:24
+    is_odd: 0
+    "no": 1031
+  - 
+    comment: popipi　popipi
+    date: 2009/06/28 22:24:24
+    is_odd: 1
+    "no": 1032
+  - 
+    comment: popipi☆popipi
+    date: 2009/06/28 22:24:29
+    is_odd: 0
+    "no": 1033
+  - 
+    comment: popipi☆popipi
+    date: 2009/06/28 22:24:31
+    is_odd: 1
+    "no": 1034
+  - 
+    comment: popipi☆popipi
+    date: 2009/06/28 22:24:34
+    is_odd: 0
+    "no": 1035
+  - 
+    comment: どぅーんもいい
+    date: 2009/06/28 22:24:44
+    is_odd: 1
+    "no": 1036
+  - 
+    comment: ああんああん
+    date: 2009/06/28 22:24:45
+    is_odd: 0
+    "no": 1037
+  - 
+    comment: ああん　ああん
+    date: 2009/06/28 22:24:46
+    is_odd: 1
+    "no": 1038
+  - 
+    comment: ああん♥　ああん♥
+    date: 2009/06/28 22:24:46
+    is_odd: 0
+    "no": 1039
+  - 
+    comment: ああん♥ああん♥あーーん♥
+    date: 2009/06/28 22:24:49
+    is_odd: 1
+    "no": 1040
+  - 
+    comment: あああんなあんｎ
+    date: 2009/06/28 22:24:50
+    is_odd: 0
+    "no": 1041
+  - 
+    comment: ああんああん
+    date: 2009/06/28 22:24:50
+    is_odd: 1
+    "no": 1042
+  - 
+    comment: ああんああああああああ
+    date: 2009/06/28 22:24:52
+    is_odd: 0
+    "no": 1043
+  - 
+    comment: あああああ～ん
+    date: 2009/06/28 22:24:52
+    is_odd: 1
+    "no": 1044
+  - 
+    comment: アッー！あっあっ
+    date: 2009/06/28 22:24:54
+    is_odd: 0
+    "no": 1045
+  - 
+    comment: あーんあーんあんあ
+    date: 2009/06/28 22:24:54
+    is_odd: 1
+    "no": 1046
+  - 
+    comment: ああああああああああああああ
+    date: 2009/06/28 22:24:55
+    is_odd: 0
+    "no": 1047
+  - 
+    comment: あああああああああああああああ
+    date: 2009/06/28 22:25:02
+    is_odd: 1
+    "no": 1048
+  - 
+    comment: あああーんあーんん
+    date: 2009/06/28 22:25:02
+    is_odd: 0
+    "no": 1049
+  - 
+    comment: ああんあんあん
+    date: 2009/06/28 22:25:09
+    is_odd: 1
+    "no": 1050
+  - 
+    comment: ミクさんたまらないっす！
+    date: 2009/06/28 22:25:11
+    is_odd: 0
+    "no": 1051
+  - 
+    comment: " \n\n\n　／^⌒^ヽ\n〆》ノノ＼《ヽ\n|　|　。　。 |　|\n|　|＼□／|  |\n|.ノ　　　　 |.ノ"
+    date: 2009/06/28 22:25:24
+    is_odd: 1
+    "no": 1052
+  - 
+    comment: 押さえられないーーーーーーッ！！
+    date: 2009/06/28 22:25:24
+    is_odd: 0
+    "no": 1053
+  - 
+    comment: 今回もミク曲優位だった＿
+    date: 2009/06/28 22:25:28
+    is_odd: 1
+    "no": 1054
+  - 
+    comment: 職人ＧＪ！
+    date: 2009/06/28 22:25:32
+    is_odd: 0
+    "no": 1055
+  - 
+    comment: 職人乙ー
+    date: 2009/06/28 22:25:33
+    is_odd: 1
+    "no": 1056
+  - 
+    comment: GUMIはこの牙城を崩せる事が出来るのか
+    date: 2009/06/28 22:25:47
+    is_odd: 0
+    "no": 1057
+  - 
+    comment: みんなで踊りたいな！
+    date: 2009/06/28 22:25:51
+    is_odd: 1
+    "no": 1058
+  - 
+    comment: ミク以外の大賞も見てみたい希ガス
+    date: 2009/06/28 22:25:52
+    is_odd: 0
+    "no": 1059
+  - 
+    comment: ぶらんにゅう　らあああああああああああぶ
+    date: 2009/06/28 22:25:55
+    is_odd: 1
+    "no": 1060
+  - 
+    comment: マイブランらんにゅうらぁぁぁぁあああぁぁああ
+    date: 2009/06/28 22:25:57
+    is_odd: 0
+    "no": 1061
+  - 
+    comment: ぽぴぴ☆ポピピ
+    date: 2009/06/28 22:26:03
+    is_odd: 1
+    "no": 1062
+  - 
+    comment: あいしてるぅ
+    date: 2009/06/28 22:26:11
+    is_odd: 0
+    "no": 1063
+  - 
+    comment: 層が厚すぎるｗ
+    date: 2009/06/28 22:26:24
+    is_odd: 1
+    "no": 1064
+  - 
+    comment: 終わった・・・
+    date: 2009/06/28 22:26:24
+    is_odd: 0
+    "no": 1065
+  - 
+    comment: 一位おめー
+    date: 2009/06/28 22:26:24
+    is_odd: 1
+    "no": 1066
+  - 
+    comment: 以上でミクノポップ大賞の発表は終わりましたが、
+    date: 2009/06/28 22:26:31
+    is_admin: 1
+    is_odd: 0
+    "no": 1067
+  - 
+    comment: いやぁ、すごかった。
+    date: 2009/06/28 22:26:34
+    is_odd: 1
+    "no": 1068
+  - 
+    comment: が？
+    date: 2009/06/28 22:26:38
+    is_odd: 0
+    "no": 1069
+  - 
+    comment: お疲れ様
+    date: 2009/06/28 22:26:39
+    is_odd: 1
+    "no": 1070
+  - 
+    comment: 手が勝手に延長ボタンを押したので
+    date: 2009/06/28 22:26:40
+    is_admin: 1
+    is_odd: 0
+    "no": 1071
+  - 
+    comment: 良かったよー
+    date: 2009/06/28 22:26:42
+    is_odd: 1
+    "no": 1072
+  - 
+    comment: ８位以下曲の紹介？
+    date: 2009/06/28 22:26:43
+    is_odd: 0
+    "no": 1073
+  - 
+    comment: 1位には間に合ったぁ…orz
+    date: 2009/06/28 22:26:43
+    is_odd: 1
+    "no": 1074
+  - 
+    comment: ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ
+    date: 2009/06/28 22:26:44
+    is_odd: 0
+    "no": 1075
+  - 
+    comment: 主ｗｗｗ
+    date: 2009/06/28 22:26:45
+    is_odd: 1
+    "no": 1076
+  - 
+    comment: 勝手にｗ
+    date: 2009/06/28 22:26:45
+    is_odd: 0
+    "no": 1077
+  - 
+    comment: 続けますｗ
+    date: 2009/06/28 22:26:45
+    is_admin: 1
+    is_odd: 1
+    "no": 1078
+  - 
+    comment: ｗｗｗｗｗｗ
+    date: 2009/06/28 22:26:46
+    is_odd: 0
+    "no": 1079
+  - 
+    comment: うおおおおお！！！
+    date: 2009/06/28 22:26:46
+    is_odd: 1
+    "no": 1080
+  - 
+    comment: おおおおおおおお
+    date: 2009/06/28 22:26:46
+    is_odd: 0
+    "no": 1081
+  - 
+    comment: 乙　で〜す！
+    date: 2009/06/28 22:26:47
+    is_odd: 1
+    "no": 1082
+  - 
+    comment: ちょｗ
+    date: 2009/06/28 22:26:47
+    is_odd: 0
+    "no": 1083
+  - 
+    comment: ちょｗ
+    date: 2009/06/28 22:26:47
+    is_odd: 1
+    "no": 1084
+  - 
+    comment: なんだってーｗ
+    date: 2009/06/28 22:26:49
+    is_odd: 0
+    "no": 1085
+  - 
+    comment: おいｗｗｗ
+    date: 2009/06/28 22:26:50
+    is_odd: 1
+    "no": 1086
+  - 
+    comment: ｗｗｗｗｗ
+    date: 2009/06/28 22:26:50
+    is_odd: 0
+    "no": 1087
+  - 
+    comment: なんだってｗｗｗｗｗｗｗｗｗ
+    date: 2009/06/28 22:26:51
+    is_odd: 1
+    "no": 1088
+  - 
+    comment: まさかの展開ｋｔｋｒ
+    date: 2009/06/28 22:26:51
+    is_odd: 0
+    "no": 1089
+  - 
+    comment: おおおー
+    date: 2009/06/28 22:26:53
+    is_odd: 1
+    "no": 1090
+  - 
+    comment: ひとまずお疲れ様でした。延長戦ｋｔｋｒ
+    date: 2009/06/28 22:26:56
+    is_odd: 0
+    "no": 1091
+  - 
+    comment: 全曲発表か
+    date: 2009/06/28 22:26:56
+    is_odd: 1
+    "no": 1092
+  - 
+    comment: やほー
+    date: 2009/06/28 22:26:56
+    is_odd: 0
+    "no": 1093
+  - 
+    comment: っw
+    date: 2009/06/28 22:26:57
+    is_odd: 1
+    "no": 1094
+  - 
+    comment: 超展開！
+    date: 2009/06/28 22:26:58
+    is_odd: 0
+    "no": 1095
+  - 
+    comment: 超展開きたｗ
+    date: 2009/06/28 22:26:58
+    is_odd: 1
+    "no": 1096
+  - 
+    comment: 流石あすたーさんw
+    date: 2009/06/28 22:26:59
+    is_odd: 0
+    "no": 1097
+  - 
+    comment: ヽ（ﾟ∀ﾟ）メ（ﾟ∀ﾟ）メ（ﾟ∀ﾟ）ノ
+    date: 2009/06/28 22:26:59
+    is_odd: 1
+    "no": 1098
+  - 
+    comment: ナイスアクシデント
+    date: 2009/06/28 22:27:00
+    is_odd: 0
+    "no": 1099
+  - 
+    comment: 上の投票結果からリクください
+    date: 2009/06/28 22:27:01
+    is_admin: 1
+    is_odd: 1
+    "no": 1100
+  - 
+    comment: ほうほう
+    date: 2009/06/28 22:27:06
+    is_odd: 0
+    "no": 1101
+  - 
+    comment: リク！
+    date: 2009/06/28 22:27:06
+    is_odd: 1
+    "no": 1102
+  - 
+    comment: 主　きめて
+    date: 2009/06/28 22:27:15
+    is_odd: 0
+    "no": 1103
+  - 
+    comment: 安価ですか？
+    date: 2009/06/28 22:27:19
+    is_odd: 1
+    "no": 1104
+  - 
+    comment: 自重しないリクが来るけどいいのかな
+    date: 2009/06/28 22:27:32
+    is_odd: 0
+    "no": 1105
+  - 
+    comment: じゃあ勝手に
+    date: 2009/06/28 22:27:38
+    is_admin: 1
+    is_odd: 1
+    "no": 1106
+  - 
+    comment: sm4079547
+    date: 2009/06/28 22:27:38
+    is_odd: 0
+    "no": 1107
+  - 
+    comment: sm6886801
+    date: 2009/06/28 22:27:39
+    is_odd: 1
+    "no": 1108
+  - 
+    comment: sm7287439　へっへー
+    date: 2009/06/28 22:27:40
+    is_odd: 0
+    "no": 1109
+  - 
+    comment: よろ
+    date: 2009/06/28 22:27:42
+    is_odd: 1
+    "no": 1110
+  - 
+    comment: sm7139747
+    date: 2009/06/28 22:27:43
+    is_odd: 0
+    "no": 1111
+  - 
+    comment: sm5800814
+    date: 2009/06/28 22:27:43
+    is_odd: 1
+    "no": 1112
+  - 
+    comment: sm6886801
+    date: 2009/06/28 22:27:43
+    is_odd: 0
+    "no": 1113
+  - 
+    comment: エンディングは～？
+    date: 2009/06/28 22:27:55
+    is_odd: 1
+    "no": 1114
+  - 
+    comment: 弾幕ソングならsm3945173
+    date: 2009/06/28 22:27:58
+    is_odd: 0
+    "no": 1115
+  - 
+    comment: 【初音ミク】ROUNDABOUT【オリジナル曲】  P名:ミュムP
+    date: 2009/06/28 22:28:00
+    is_admin: 1
+    is_odd: 1
+    "no": 1116
+  - 
+    comment: sm3299687
+    date: 2009/06/28 22:28:02
+    is_odd: 0
+    "no": 1118
+  - 
+    comment: ''
+    date: 2009/06/28 22:28:03
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 1119
+  - 
+    comment: うぉいぇい
+    date: 2009/06/28 22:28:06
+    is_odd: 0
+    "no": 1120
+  - 
+    comment: おおお
+    date: 2009/06/28 22:28:08
+    is_odd: 1
+    "no": 1121
+  - 
+    comment: sm6935693
+    date: 2009/06/28 22:28:09
+    is_odd: 0
+    "no": 1122
+  - 
+    comment: おおおおー
+    date: 2009/06/28 22:28:10
+    is_odd: 1
+    "no": 1123
+  - 
+    comment: やったあああああああああああああああああ
+    date: 2009/06/28 22:28:10
+    is_odd: 0
+    "no": 1124
+  - 
+    comment: うぉいぇい
+    date: 2009/06/28 22:28:11
+    is_odd: 1
+    "no": 1125
+  - 
+    comment: ミュムP～！
+    date: 2009/06/28 22:28:12
+    is_odd: 0
+    "no": 1126
+  - 
+    comment: おおおおおっ！
+    date: 2009/06/28 22:28:15
+    is_odd: 1
+    "no": 1127
+  - 
+    comment: 大好き!
+    date: 2009/06/28 22:28:20
+    is_odd: 0
+    "no": 1128
+  - 
+    comment: ミュムＰ！
+    date: 2009/06/28 22:28:22
+    is_odd: 1
+    "no": 1129
+  - 
+    comment: くぁ
+    date: 2009/06/28 22:28:25
+    is_odd: 0
+    "no": 1130
+  - 
+    comment: うぉういぇ～
+    date: 2009/06/28 22:28:30
+    is_odd: 1
+    "no": 1131
+  - 
+    comment: わ
+    date: 2009/06/28 22:28:32
+    is_odd: 0
+    "no": 1132
+  - 
+    comment: うぉうぇい
+    date: 2009/06/28 22:28:34
+    is_odd: 1
+    "no": 1133
+  - 
+    comment: うぉいぇい～
+    date: 2009/06/28 22:28:36
+    is_odd: 0
+    "no": 1134
+  - 
+    comment: い
+    date: 2009/06/28 22:28:38
+    is_odd: 1
+    "no": 1135
+  - 
+    comment: 音すげぇな
+    date: 2009/06/28 22:28:40
+    is_odd: 0
+    "no": 1136
+  - 
+    comment: いぃ
+    date: 2009/06/28 22:28:48
+    is_odd: 1
+    "no": 1137
+  - 
+    comment: sm4441941
+    date: 2009/06/28 22:28:48
+    is_odd: 0
+    "no": 1138
+  - 
+    comment: 俺的１位だぜ！！！！！（さ
+    date: 2009/06/28 22:28:59
+    is_odd: 1
+    "no": 1139
+  - 
+    comment: みく
+    date: 2009/06/28 22:29:05
+    is_odd: 0
+    "no": 1140
+  - 
+    comment: うぉいぇ～い
+    date: 2009/06/28 22:29:05
+    is_odd: 1
+    "no": 1141
+  - 
+    comment: うぉいぇい♪
+    date: 2009/06/28 22:29:07
+    is_odd: 0
+    "no": 1142
+  - 
+    comment: うぉいぇい～
+    date: 2009/06/28 22:29:07
+    is_odd: 1
+    "no": 1143
+  - 
+    comment: I
+    date: 2009/06/28 22:29:09
+    is_odd: 0
+    "no": 1144
+  - 
+    comment: nm6491915
+    date: 2009/06/28 22:29:13
+    is_odd: 1
+    "no": 1145
+  - 
+    comment: うぉういぇい～♪
+    date: 2009/06/28 22:29:18
+    is_odd: 0
+    "no": 1146
+  - 
+    comment: Love
+    date: 2009/06/28 22:29:22
+    is_odd: 1
+    "no": 1147
+  - 
+    comment: You
+    date: 2009/06/28 22:29:28
+    is_odd: 0
+    "no": 1148
+  - 
+    comment: うぉいぇいー♪
+    date: 2009/06/28 22:29:45
+    is_odd: 1
+    "no": 1149
+  - 
+    comment: うぉいぇい～♪
+    date: 2009/06/28 22:29:47
+    is_odd: 0
+    "no": 1150
+  - 
+    comment: うぉいぇい～
+    date: 2009/06/28 22:29:49
+    is_odd: 1
+    "no": 1151
+  - 
+    comment: もうめんどくさいからランダムでｗ
+    date: 2009/06/28 22:29:56
+    is_admin: 1
+    is_odd: 0
+    "no": 1152
+  - 
+    comment: ／(^ｏ^)＼うぉおいぇい～♪
+    date: 2009/06/28 22:29:58
+    is_odd: 1
+    "no": 1153
+  - 
+    comment: うぉいぇい～♪
+    date: 2009/06/28 22:29:59
+    is_odd: 0
+    "no": 1154
+  - 
+    comment: うぉいぇいー♪
+    date: 2009/06/28 22:30:00
+    is_odd: 1
+    "no": 1155
+  - 
+    comment: おｋ
+    date: 2009/06/28 22:30:00
+    is_odd: 0
+    "no": 1156
+  - 
+    comment: おｋ
+    date: 2009/06/28 22:30:01
+    is_odd: 1
+    "no": 1157
+  - 
+    comment: おｋ
+    date: 2009/06/28 22:30:03
+    is_odd: 0
+    "no": 1158
+  - 
+    comment: ランダムｗ　おｋ
+    date: 2009/06/28 22:30:16
+    is_odd: 1
+    "no": 1159
+  - 
+    comment: さすが勇者様だ
+    date: 2009/06/28 22:30:22
+    is_odd: 0
+    "no": 1160
+  - 
+    comment: "み\n\n\n \n\n\n　　　　　　　　　　　　　　　　　　　　　　く"
+    date: 2009/06/28 22:30:28
+    is_odd: 1
+    "no": 1161
+  - 
+    comment: 面倒くさいから全部お願いします
+    date: 2009/06/28 22:30:33
+    is_odd: 0
+    "no": 1162
+  - 
+    comment: 全部曲あいしてるうううう
+    date: 2009/06/28 22:30:37
+    is_odd: 1
+    "no": 1163
+  - 
+    comment: 職人乙
+    date: 2009/06/28 22:30:43
+    is_odd: 0
+    "no": 1164
+  - 
+    comment: うぉいぇ～い
+    date: 2009/06/28 22:30:53
+    is_odd: 1
+    "no": 1165
+  - 
+    comment: うぉいぇい～
+    date: 2009/06/28 22:30:56
+    is_odd: 0
+    "no": 1166
+  - 
+    comment: 無茶を言うなｗ＞1162
+    date: 2009/06/28 22:30:59
+    is_odd: 1
+    "no": 1167
+  - 
+    comment: "I\n    Love\n                                 You"
+    date: 2009/06/28 22:31:14
+    is_odd: 0
+    "no": 1168
+  - 
+    comment: うぉいぇい
+    date: 2009/06/28 22:31:16
+    is_odd: 1
+    "no": 1169
+  - 
+    comment: リク締めないと大変なことに＞主
+    date: 2009/06/28 22:31:26
+    is_odd: 0
+    "no": 1170
+  - 
+    comment: 一票だけじゃ意味無いからって投票しなかったけど　次からは諦めずに投票しよう
+    date: 2009/06/28 22:31:49
+    is_odd: 1
+    "no": 1171
+  - 
+    comment: 主様リク〆しないと危ないぞ！
+    date: 2009/06/28 22:31:51
+    is_odd: 0
+    "no": 1172
+  - 
+    comment: うぉいぇい♪ また連投規制にひっかかった♪
+    date: 2009/06/28 22:32:10
+    is_odd: 1
+    "no": 1173
+  - 
+    comment: ／^ｏ^＼ うぉいぇい～♪
+    date: 2009/06/28 22:32:19
+    is_odd: 0
+    "no": 1174
+  - 
+    comment: ですね～
+    date: 2009/06/28 22:32:23
+    is_odd: 1
+    "no": 1175
+  - 
+    comment: うぉいぇい♪
+    date: 2009/06/28 22:32:29
+    is_odd: 0
+    "no": 1176
+  - 
+    comment: " \n\n\n \n\n\n \n\n                                             ♥"
+    date: 2009/06/28 22:32:29
+    is_odd: 1
+    "no": 1177
+  - 
+    comment: ミクかわえええええええええええ
+    date: 2009/06/28 22:32:35
+    is_odd: 0
+    "no": 1178
+  - 
+    comment: 可愛い歌だ
+    date: 2009/06/28 22:32:41
+    is_odd: 1
+    "no": 1179
+  - 
+    comment: みゅむさんまいしてる～～
+    date: 2009/06/28 22:32:48
+    is_odd: 0
+    "no": 1180
+  - 
+    comment: 【初音ミク】inai【アレンジ】びにゅP×Kous  P名:Kous
+    date: 2009/06/28 22:33:20
+    is_admin: 1
+    is_odd: 1
+    "no": 1181
+  - 
+    comment: ''
+    date: 2009/06/28 22:33:24
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 1183
+  - 
+    comment: うおおおおおおｐ
+    date: 2009/06/28 22:33:26
+    is_odd: 1
+    "no": 1184
+  - 
+    comment: おおお
+    date: 2009/06/28 22:33:27
+    is_odd: 0
+    "no": 1185
+  - 
+    comment: うはーこれ好きだ！
+    date: 2009/06/28 22:33:30
+    is_odd: 1
+    "no": 1186
+  - 
+    comment: きたーーーー
+    date: 2009/06/28 22:33:30
+    is_odd: 0
+    "no": 1187
+  - 
+    comment: なんと！？これきたか！
+    date: 2009/06/28 22:33:37
+    is_odd: 1
+    "no": 1188
+  - 
+    comment: 本当に全部ミクだ、おそろしや
+    date: 2009/06/28 22:33:37
+    is_odd: 0
+    "no": 1189
+  - 
+    comment: ( ﾟ∀ﾟ)ｏ彡ﾟびにゅＰ！びにゅＰ！
+    date: 2009/06/28 22:33:38
+    is_odd: 1
+    "no": 1190
+  - 
+    comment: いよっしゃあああああ！
+    date: 2009/06/28 22:33:39
+    is_odd: 0
+    "no": 1191
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！kousさん！
+    date: 2009/06/28 22:33:41
+    is_odd: 1
+    "no": 1192
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 22:33:42
+    is_odd: 0
+    "no": 1193
+  - 
+    comment: kousさんも投票したかったのう
+    date: 2009/06/28 22:33:47
+    is_odd: 1
+    "no": 1194
+  - 
+    comment: ( ﾟ∀ﾟ)ｏ彡ﾟびにゅＰ！びにゅＰ！
+    date: 2009/06/28 22:33:57
+    is_odd: 0
+    "no": 1195
+  - 
+    comment: kousさんあいしてるうううう
+    date: 2009/06/28 22:33:57
+    is_odd: 1
+    "no": 1196
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟkousさん！びにゅP！
+    date: 2009/06/28 22:33:58
+    is_odd: 0
+    "no": 1197
+  - 
+    comment: あ、びにゅPアレンジか
+    date: 2009/06/28 22:33:59
+    is_odd: 1
+    "no": 1198
+  - 
+    comment: 先生、10票じゃ足りません
+    date: 2009/06/28 22:34:11
+    is_odd: 0
+    "no": 1199
+  - 
+    comment: kousさんはもっともっと評価されるべき
+    date: 2009/06/28 22:34:18
+    is_odd: 1
+    "no": 1200
+  - 
+    comment: びにゅＰ愛されてるなｗ
+    date: 2009/06/28 22:34:26
+    is_odd: 0
+    "no": 1201
+  - 
+    comment: ちょ、そんなに流しちゃっていいんですかっw（汗@び
+    date: 2009/06/28 22:34:36
+    is_odd: 1
+    "no": 1202
+  - 
+    comment: ( ﾟ∀ﾟ)ｏ彡ﾟびにゅＰ！びにゅＰ！
+    date: 2009/06/28 22:34:40
+    is_odd: 0
+    "no": 1203
+  - 
+    comment: いいんです
+    date: 2009/06/28 22:34:43
+    is_odd: 1
+    "no": 1204
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 22:34:48
+    is_odd: 0
+    "no": 1205
+  - 
+    comment: 僕これミク曲で一番好きな曲です
+    date: 2009/06/28 22:35:00
+    is_admin: 1
+    is_odd: 1
+    "no": 1206
+  - 
+    comment: 全然構いません。いいんですいいんです。
+    date: 2009/06/28 22:35:00
+    is_odd: 0
+    "no": 1207
+  - 
+    comment: ( ﾟ∀ﾟ)ｏ彡ﾟびにゅＰ！びにゅＰ！！！！
+    date: 2009/06/28 22:35:03
+    is_odd: 1
+    "no": 1208
+  - 
+    comment: 主絶賛
+    date: 2009/06/28 22:35:10
+    is_odd: 0
+    "no": 1209
+  - 
+    comment: " \n\n\n吸\n　　い\n　　　　込\n　　　　　　　　ま\n　　　　　　　　　　れ\n　　　　　　　　　　　る"
+    date: 2009/06/28 22:35:19
+    is_odd: 1
+    "no": 1210
+  - 
+    comment: いいわぁ・・・感動しまくり！
+    date: 2009/06/28 22:35:45
+    is_odd: 0
+    "no": 1211
+  - 
+    comment: 好きなPが好きなPの曲を・・・とか幸せすぎてしんでしまうま
+    date: 2009/06/28 22:36:07
+    is_odd: 1
+    "no": 1212
+  - 
+    comment: sm5710481
+    date: 2009/06/28 22:36:12
+    is_odd: 0
+    "no": 1213
+  - 
+    comment: りゅーりゅーさんはアイドルだからね！
+    date: 2009/06/28 22:36:20
+    is_odd: 1
+    "no": 1214
+  - 
+    comment: アイドルならサインください！２枚！
+    date: 2009/06/28 22:36:35
+    is_odd: 0
+    "no": 1215
+  - 
+    comment: こら！　　　まずは俺だ
+    date: 2009/06/28 22:36:47
+    is_odd: 1
+    "no": 1216
+  - 
+    comment: "　 　_, ._\n（　ﾟ Дﾟ） 　　ｲﾀﾀﾞｷﾏｽ\n( つ旦O\nと＿)_)"
+    date: 2009/06/28 22:36:59
+    is_odd: 0
+    "no": 1217
+  - 
+    comment: アルバムダウンロード失敗でorz
+    date: 2009/06/28 22:36:59
+    is_odd: 1
+    "no": 1218
+  - 
+    comment: 物理CD出して、サイン付きで欲しい！！！
+    date: 2009/06/28 22:37:01
+    is_odd: 0
+    "no": 1219
+  - 
+    comment: オレオレｗ
+    date: 2009/06/28 22:37:08
+    is_odd: 1
+    "no": 1220
+  - 
+    comment: 1218 ITunesに問い合わせで対応してくれる
+    date: 2009/06/28 22:37:19
+    is_odd: 0
+    "no": 1221
+  - 
+    comment: 物理CDを家宝にしたい
+    date: 2009/06/28 22:37:24
+    is_odd: 1
+    "no": 1222
+  - 
+    comment: おお、そうなのか　さんくす＞１２２１
+    date: 2009/06/28 22:37:46
+    is_odd: 0
+    "no": 1223
+  - 
+    comment: ＣＤ欲しいです
+    date: 2009/06/28 22:37:57
+    is_odd: 1
+    "no": 1224
+  - 
+    comment: 僕も
+    date: 2009/06/28 22:38:07
+    is_odd: 0
+    "no": 1225
+  - 
+    comment: 私も
+    date: 2009/06/28 22:38:19
+    is_odd: 1
+    "no": 1226
+  - 
+    comment: 何年でも待ちますから～ぜひ
+    date: 2009/06/28 22:38:20
+    is_odd: 0
+    "no": 1227
+  - 
+    comment: "∧＿∧\n( ´･ω･) みなさんも\n( つ旦Oお茶です・・・・。\n＿)＿)\n旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦旦"
+    date: 2009/06/28 22:38:26
+    is_odd: 1
+    "no": 1228
+  - 
+    comment: うう、ありがとう！@benew
+    date: 2009/06/28 22:38:31
+    is_odd: 0
+    "no": 1229
+  - 
+    comment: ドモつ旦
+    date: 2009/06/28 22:38:35
+    is_odd: 1
+    "no": 1230
+  - 
+    comment: 【初音Instrument】 オリジナル曲 Interlude Vol.01 【作業用BGM】  P名:畳P
+    date: 2009/06/28 22:38:36
+    is_admin: 1
+    is_odd: 0
+    "no": 1231
+  - 
+    comment: いただきます つ旦
+    date: 2009/06/28 22:38:39
+    is_admin: 1
+    is_odd: 1
+    "no": 1233
+  - 
+    comment: ''
+    date: 2009/06/28 22:38:39
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 1234
+  - 
+    comment: お茶どうも　つ旦
+    date: 2009/06/28 22:38:40
+    is_odd: 1
+    "no": 1235
+  - 
+    comment: ~~旦_(-ω- ) ドモドモ
+    date: 2009/06/28 22:38:46
+    is_odd: 0
+    "no": 1236
+  - 
+    comment: お茶ｺﾞﾁ
+    date: 2009/06/28 22:38:49
+    is_odd: 1
+    "no": 1237
+  - 
+    comment: 畳Pっぽいなと思ったら畳Pだった
+    date: 2009/06/28 22:39:06
+    is_odd: 0
+    "no": 1238
+  - 
+    comment: 神降臨
+    date: 2009/06/28 22:39:06
+    is_odd: 1
+    "no": 1239
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟたたみん！たたみん！
+    date: 2009/06/28 22:39:10
+    is_odd: 0
+    "no": 1240
+  - 
+    comment: リアルでお茶飲んでて吹いた
+    date: 2009/06/28 22:39:22
+    is_odd: 1
+    "no": 1241
+  - 
+    comment: ランダムなのに自分が投票した曲が連続で・・・
+    date: 2009/06/28 22:39:22
+    is_admin: 1
+    is_odd: 0
+    "no": 1242
+  - 
+    comment: ピアノええのう
+    date: 2009/06/28 22:39:25
+    is_odd: 1
+    "no": 1243
+  - 
+    comment: ちょｗ
+    date: 2009/06/28 22:39:31
+    is_odd: 0
+    "no": 1244
+  - 
+    comment: ~~旦_(-ω・) ドモ～
+    date: 2009/06/28 22:39:32
+    is_odd: 1
+    "no": 1245
+  - 
+    comment: 主ｗ
+    date: 2009/06/28 22:39:36
+    is_odd: 0
+    "no": 1246
+  - 
+    comment: www
+    date: 2009/06/28 22:39:38
+    is_odd: 1
+    "no": 1247
+  - 
+    comment: もーまんたい
+    date: 2009/06/28 22:39:38
+    is_odd: 0
+    "no": 1248
+  - 
+    comment: ランキング終わってからもかなり楽しい選曲
+    date: 2009/06/28 22:39:39
+    is_odd: 1
+    "no": 1249
+  - 
+    comment: 自演乙w
+    date: 2009/06/28 22:39:43
+    is_odd: 0
+    "no": 1250
+  - 
+    comment: 自演乙ｗｗｗｗｗｗｗｗｗ
+    date: 2009/06/28 22:39:50
+    is_odd: 1
+    "no": 1251
+  - 
+    comment: 決して自演じゃないですよｗ
+    date: 2009/06/28 22:39:53
+    is_admin: 1
+    is_odd: 0
+    "no": 1252
+  - 
+    comment: 自演乙……
+    date: 2009/06/28 22:39:55
+    is_odd: 1
+    "no": 1253
+  - 
+    comment: 本当にランダムかな？w
+    date: 2009/06/28 22:39:55
+    is_odd: 0
+    "no": 1254
+  - 
+    comment: 自演とは・・・勇者さまらしからぬ
+    date: 2009/06/28 22:40:02
+    is_odd: 1
+    "no": 1255
+  - 
+    comment: ツールさえも意のままに
+    date: 2009/06/28 22:40:06
+    is_odd: 0
+    "no": 1256
+  - 
+    comment: これは許せる自演
+    date: 2009/06/28 22:40:10
+    is_odd: 1
+    "no": 1257
+  - 
+    comment: 手動ランダムですか・・・ｗ
+    date: 2009/06/28 22:40:11
+    is_odd: 0
+    "no": 1258
+  - 
+    comment: 手動ランダムっw
+    date: 2009/06/28 22:40:20
+    is_odd: 1
+    "no": 1259
+  - 
+    comment: 普通です（某主
+    date: 2009/06/28 22:40:27
+    is_odd: 0
+    "no": 1260
+  - 
+    comment: " \n\n\n \n\n\n♥"
+    date: 2009/06/28 22:40:30
+    is_odd: 1
+    "no": 1261
+  - 
+    comment: ちょｗ
+    date: 2009/06/28 22:40:33
+    is_odd: 0
+    "no": 1262
+  - 
+    comment: 選曲が素晴らしすぎるｗ
+    date: 2009/06/28 22:40:34
+    is_odd: 1
+    "no": 1263
+  - 
+    comment: 某主自重ｗ
+    date: 2009/06/28 22:40:49
+    is_odd: 0
+    "no": 1264
+  - 
+    comment: "乙\n\n　ありがとう！\n\n\n　しあわせだよ"
+    date: 2009/06/28 22:41:23
+    is_odd: 1
+    "no": 1265
+  - 
+    comment: いいなぁ
+    date: 2009/06/28 22:41:34
+    is_odd: 0
+    "no": 1266
+  - 
+    comment: ここちいいねぇー
+    date: 2009/06/28 22:41:37
+    is_odd: 1
+    "no": 1267
+  - 
+    comment: ほっと一息
+    date: 2009/06/28 22:41:43
+    is_odd: 0
+    "no": 1268
+  - 
+    comment: ピアノがすてきすぎる
+    date: 2009/06/28 22:41:52
+    is_odd: 1
+    "no": 1269
+  - 
+    comment: 【初音ミク】ハートビート【オリジナル】  P名:いろなP
+    date: 2009/06/28 22:42:09
+    is_admin: 1
+    is_odd: 0
+    "no": 1270
+  - 
+    comment: ''
+    date: 2009/06/28 22:42:13
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 1272
+  - 
+    comment: 素敵な曲きたあ～
+    date: 2009/06/28 22:42:36
+    is_odd: 0
+    "no": 1273
+  - 
+    comment: おお
+    date: 2009/06/28 22:42:51
+    is_odd: 1
+    "no": 1274
+  - 
+    comment: 控えめなポピポピいいねー
+    date: 2009/06/28 22:43:09
+    is_odd: 0
+    "no": 1275
+  - 
+    comment: 知ってる曲が来る気配がねえ＼(^o^)／　素敵な選曲だけど
+    date: 2009/06/28 22:43:13
+    is_odd: 1
+    "no": 1276
+  - 
+    comment: マイリス増えるのは良い事だw
+    date: 2009/06/28 22:43:26
+    is_odd: 0
+    "no": 1277
+  - 
+    comment: イントロがそっと入ってくるのが好き
+    date: 2009/06/28 22:43:50
+    is_odd: 1
+    "no": 1278
+  - 
+    comment: それは新しい曲に出会えて幸せなことだ＞1276
+    date: 2009/06/28 22:43:50
+    is_odd: 0
+    "no": 1279
+  - 
+    comment: ここでたっぷり聴いていって！
+    date: 2009/06/28 22:43:50
+    is_odd: 1
+    "no": 1280
+  - 
+    comment: "　♥♥　♥♥\n♥　　♥　　♥\n♥　　　　　♥\n　♥　　　♥\n　　♥　♥\n　　　♥"
+    date: 2009/06/28 22:44:18
+    is_odd: 0
+    "no": 1281
+  - 
+    comment: そして今後もこの放送げふんげふん
+    date: 2009/06/28 22:44:21
+    is_odd: 1
+    "no": 1282
+  - 
+    comment: 職人ナイス
+    date: 2009/06/28 22:44:29
+    is_odd: 0
+    "no": 1283
+  - 
+    comment: 主コメの彡:8 はミクノ生で8回掛かったという意味です
+    date: 2009/06/28 22:44:37
+    is_odd: 1
+    "no": 1284
+  - 
+    comment: これいいよね～
+    date: 2009/06/28 22:44:51
+    is_odd: 0
+    "no": 1285
+  - 
+    comment: 職人やるぅ！
+    date: 2009/06/28 22:44:52
+    is_odd: 1
+    "no": 1286
+  - 
+    comment: いいなあ
+    date: 2009/06/28 22:44:58
+    is_odd: 0
+    "no": 1287
+  - 
+    comment: 大体毎日放送してるからぜひゴホッゴホッ
+    date: 2009/06/28 22:44:59
+    is_odd: 1
+    "no": 1288
+  - 
+    comment: あ、ミじゃなくなったんだ？
+    date: 2009/06/28 22:45:02
+    is_odd: 0
+    "no": 1289
+  - 
+    comment: いや、ミクノポップ聴きたい時に放送やってたら速攻飛んできてるよ！　いつも！（1276
+    date: 2009/06/28 22:45:26
+    is_odd: 1
+    "no": 1290
+  - 
+    comment: そして生主も募集中ゲフンゲフン
+    date: 2009/06/28 22:45:28
+    is_odd: 0
+    "no": 1291
+  - 
+    comment: " \n\n\n \n\n　♥♥　♥♥\n♥　　♥　　♥\n♥　　　　　♥\n　♥　　　♥\n　　♥　♥\n　　　♥"
+    date: 2009/06/28 22:45:34
+    is_odd: 1
+    "no": 1292
+  - 
+    comment: 彡（ひげ）に進化しました
+    date: 2009/06/28 22:45:38
+    is_admin: 1
+    is_odd: 0
+    "no": 1293
+  - 
+    comment: それは進化なのかｗ
+    date: 2009/06/28 22:45:50
+    is_odd: 1
+    "no": 1294
+  - 
+    comment: I
+    date: 2009/06/28 22:45:54
+    is_odd: 0
+    "no": 1295
+  - 
+    comment: 主になればもれなく「生廃２段」がもらえます☆
+    date: 2009/06/28 22:46:42
+    is_odd: 1
+    "no": 1296
+  - 
+    comment: "　♥♥　♥♥\n♥　　♥　　♥\n♥　み　く　♥\n　♥　　　♥\n　　♥　♥\n　　　♥"
+    date: 2009/06/28 22:47:21
+    is_odd: 0
+    "no": 1297
+  - 
+    comment: おおっ！
+    date: 2009/06/28 22:47:27
+    is_odd: 1
+    "no": 1298
+  - 
+    comment: It's like a music【初音ミク】【オリジナル曲】  P名:オサレP MikSolodyne-ts
+    date: 2009/06/28 22:47:38
+    is_admin: 1
+    is_odd: 0
+    "no": 1299
+  - 
+    comment: ''
+    date: 2009/06/28 22:47:41
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 1301
+  - 
+    comment: おおおお！
+    date: 2009/06/28 22:47:46
+    is_odd: 0
+    "no": 1302
+  - 
+    comment: tsさん！
+    date: 2009/06/28 22:47:49
+    is_odd: 1
+    "no": 1303
+  - 
+    comment: ｔｓさんあいしてるううううううう
+    date: 2009/06/28 22:47:50
+    is_odd: 0
+    "no": 1304
+  - 
+    comment: おぉ！
+    date: 2009/06/28 22:47:50
+    is_odd: 1
+    "no": 1305
+  - 
+    comment: きたああああああああああ！
+    date: 2009/06/28 22:47:57
+    is_odd: 0
+    "no": 1306
+  - 
+    comment: うおおおおおおおｋｔｋｒ　だが俺のリクこねえｗ
+    date: 2009/06/28 22:48:00
+    is_odd: 1
+    "no": 1307
+  - 
+    comment: ts最高に大好き!!!!!!!
+    date: 2009/06/28 22:48:07
+    is_odd: 0
+    "no": 1308
+  - 
+    comment: いいよいいよー　さすが手動ランダム
+    date: 2009/06/28 22:48:09
+    is_odd: 1
+    "no": 1309
+  - 
+    comment: 手動じゃないってヴぁｗ
+    date: 2009/06/28 22:48:30
+    is_admin: 1
+    is_odd: 0
+    "no": 1310
+  - 
+    comment: ｗｗｗｗ
+    date: 2009/06/28 22:48:35
+    is_odd: 1
+    "no": 1311
+  - 
+    comment: ｗｗｗｗｗｗｗｗｗ
+    date: 2009/06/28 22:48:40
+    is_odd: 0
+    "no": 1312
+  - 
+    comment: 前回の上位曲だね
+    date: 2009/06/28 22:48:43
+    is_odd: 1
+    "no": 1313
+  - 
+    comment: ちなみに投票曲はミクがほとんどですがこの放送は他のVOCALOIDもOKです
+    date: 2009/06/28 22:49:05
+    is_admin: 1
+    is_odd: 0
+    "no": 1314
+  - 
+    comment: 手動なのは仕方ないね　ランダム再生ぽちっとな
+    date: 2009/06/28 22:49:06
+    is_odd: 1
+    "no": 1315
+  - 
+    comment: UTAUもだよねー
+    date: 2009/06/28 22:49:23
+    is_odd: 0
+    "no": 1316
+  - 
+    comment: です
+    date: 2009/06/28 22:49:27
+    is_admin: 1
+    is_odd: 1
+    "no": 1317
+  - 
+    comment: 僧侶もね！
+    date: 2009/06/28 22:49:33
+    is_odd: 0
+    "no": 1318
+  - 
+    comment: テト！
+    date: 2009/06/28 22:49:35
+    is_odd: 1
+    "no": 1319
+  - 
+    comment: 僧侶も！？
+    date: 2009/06/28 22:49:45
+    is_odd: 0
+    "no": 1320
+  - 
+    comment: そうりょはｗ
+    date: 2009/06/28 22:49:46
+    is_admin: 1
+    is_odd: 1
+    "no": 1321
+  - 
+    comment: 僧侶は一応アウト
+    date: 2009/06/28 22:49:51
+    is_odd: 0
+    "no": 1322
+  - 
+    comment: 僧侶は主次第だいｗ
+    date: 2009/06/28 22:49:54
+    is_odd: 1
+    "no": 1323
+  - 
+    comment: 誰ぞゆっくりでトランスとか作らないかな
+    date: 2009/06/28 22:50:00
+    is_odd: 0
+    "no": 1324
+  - 
+    comment: 僧侶メインはあうとー
+    date: 2009/06/28 22:50:01
+    is_odd: 1
+    "no": 1325
+  - 
+    comment: 僧侶でテクノか　いいねｗ
+    date: 2009/06/28 22:50:06
+    is_odd: 0
+    "no": 1326
+  - 
+    comment: コーラスならおk
+    date: 2009/06/28 22:50:11
+    is_odd: 1
+    "no": 1327
+  - 
+    comment: あるよ＞132
+    date: 2009/06/28 22:50:12
+    is_odd: 0
+    "no": 1328
+  - 
+    comment: " \n\n\n　／^⌒^ヽ\n〆》ノノ＼《ヽ\n|　|　。　。 |　|\n|　|＼□／|  |\n|.ノ　　　　 |.ノ\nありがとう！"
+    date: 2009/06/28 22:50:15
+    is_odd: 1
+    "no": 1329
+  - 
+    comment: 主に会えた事に感謝
+    date: 2009/06/28 22:50:28
+    is_odd: 0
+    "no": 1330
+  - 
+    comment: 僧侶がテクノとか・・・どんなばちあたりｗ
+    date: 2009/06/28 22:50:28
+    is_odd: 1
+    "no": 1331
+  - 
+    comment: あ、ごめん、1324、ね
+    date: 2009/06/28 22:50:40
+    is_odd: 0
+    "no": 1332
+  - 
+    comment: 坊さんロックとかある時代だぜ
+    date: 2009/06/28 22:50:46
+    is_odd: 1
+    "no": 1333
+  - 
+    comment: すんPとか色々僧侶オリジナルテクノありますよ
+    date: 2009/06/28 22:50:56
+    is_odd: 0
+    "no": 1334
+  - 
+    comment: 坊さんロックってｗｗｗｗｗｗ
+    date: 2009/06/28 22:50:57
+    is_odd: 1
+    "no": 1335
+  - 
+    comment: 坊さんがバンド組んでってテレビ出てたよｗ
+    date: 2009/06/28 22:51:18
+    is_odd: 0
+    "no": 1336
+  - 
+    comment: NHKとか好きそうだなｗ坊さんロック
+    date: 2009/06/28 22:51:38
+    is_odd: 1
+    "no": 1337
+  - 
+    comment: まじで！？なんて時代だよｗｗ
+    date: 2009/06/28 22:51:43
+    is_odd: 0
+    "no": 1338
+  - 
+    comment: " \n\n\n \n\n\n \n\n♥"
+    date: 2009/06/28 22:51:52
+    is_odd: 1
+    "no": 1339
+  - 
+    comment: ここのピアノが素敵
+    date: 2009/06/28 22:51:53
+    is_odd: 0
+    "no": 1340
+  - 
+    comment: ニコ厨にもリア住がいる時代だからなｗ
+    date: 2009/06/28 22:52:03
+    is_odd: 1
+    "no": 1341
+  - 
+    comment: 生職人GJ
+    date: 2009/06/28 22:52:10
+    is_odd: 0
+    "no": 1342
+  - 
+    comment: 某生主のことですか？w
+    date: 2009/06/28 22:52:18
+    is_odd: 1
+    "no": 1343
+  - 
+    comment: 【初音ミク】プラスチック・ガール【オリジナル曲】  P名:なんとかP
+    date: 2009/06/28 22:52:22
+    is_admin: 1
+    is_odd: 0
+    "no": 1344
+  - 
+    comment: ''
+    date: 2009/06/28 22:52:25
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 1346
+  - 
+    comment: おおおおおおー
+    date: 2009/06/28 22:52:26
+    is_odd: 0
+    "no": 1347
+  - 
+    comment: いいねえ
+    date: 2009/06/28 22:52:27
+    is_odd: 1
+    "no": 1348
+  - 
+    comment: きましたあああ
+    date: 2009/06/28 22:52:29
+    is_odd: 0
+    "no": 1349
+  - 
+    comment: なんかいったか（悶
+    date: 2009/06/28 22:52:31
+    is_odd: 1
+    "no": 1350
+  - 
+    comment: おおおおお！
+    date: 2009/06/28 22:52:32
+    is_odd: 0
+    "no": 1351
+  - 
+    comment: なんと！？
+    date: 2009/06/28 22:52:32
+    is_odd: 1
+    "no": 1352
+  - 
+    comment: なんとかPきたーーーー
+    date: 2009/06/28 22:52:35
+    is_odd: 0
+    "no": 1353
+  - 
+    comment: うむうむ
+    date: 2009/06/28 22:52:36
+    is_odd: 1
+    "no": 1354
+  - 
+    comment: きたああああ大好きだああああ
+    date: 2009/06/28 22:52:46
+    is_odd: 0
+    "no": 1355
+  - 
+    comment: リア住主がいる放送はここですか？
+    date: 2009/06/28 22:52:55
+    is_odd: 1
+    "no": 1356
+  - 
+    comment: kiichiさんだいすきだ！
+    date: 2009/06/28 22:53:00
+    is_odd: 0
+    "no": 1357
+  - 
+    comment: ここですねw
+    date: 2009/06/28 22:53:00
+    is_odd: 1
+    "no": 1358
+  - 
+    comment: 悶神ｋｔkr
+    date: 2009/06/28 22:53:02
+    is_odd: 0
+    "no": 1359
+  - 
+    comment: さすがに眠くなってきた……ｗ
+    date: 2009/06/28 22:53:11
+    is_odd: 1
+    "no": 1360
+  - 
+    comment: 寝落ち…？w
+    date: 2009/06/28 22:53:26
+    is_odd: 0
+    "no": 1361
+  - 
+    comment: ♪　♪　♪
+    date: 2009/06/28 22:53:34
+    is_odd: 1
+    "no": 1362
+  - 
+    comment: 後は主がnoc芸を披露してくれたら最高です
+    date: 2009/06/28 22:53:39
+    is_odd: 0
+    "no": 1363
+  - 
+    comment: 芸いうなｗ
+    date: 2009/06/28 22:53:47
+    is_odd: 1
+    "no": 1364
+  - 
+    comment: 1360が寝落ちするそうですｗ
+    date: 2009/06/28 22:53:47
+    is_odd: 0
+    "no": 1365
+  - 
+    comment: www
+    date: 2009/06/28 22:53:47
+    is_odd: 1
+    "no": 1366
+  - 
+    comment: なんとかPってP名を受け入れない人多数
+    date: 2009/06/28 22:53:48
+    is_odd: 0
+    "no": 1367
+  - 
+    comment: ♪　♪　♪
+    date: 2009/06/28 22:53:52
+    is_odd: 1
+    "no": 1368
+  - 
+    comment: あと1曲で終わるからそこまで耐えるんだｗ
+    date: 2009/06/28 22:54:00
+    is_admin: 1
+    is_odd: 0
+    "no": 1369
+  - 
+    comment: たまらん
+    date: 2009/06/28 22:54:00
+    is_odd: 1
+    "no": 1370
+  - 
+    comment: ♪　　♪　　♪　　♪　　♪
+    date: 2009/06/28 22:54:00
+    is_odd: 0
+    "no": 1371
+  - 
+    comment: なんとかPだいすきだおw
+    date: 2009/06/28 22:54:04
+    is_odd: 1
+    "no": 1372
+  - 
+    comment: ♪　♪　♪　♪　♪
+    date: 2009/06/28 22:54:06
+    is_odd: 0
+    "no": 1373
+  - 
+    comment: さすがにここでnocはできないでしょｗ
+    date: 2009/06/28 22:54:10
+    is_odd: 1
+    "no": 1374
+  - 
+    comment: 後一曲でおわりかぁ
+    date: 2009/06/28 22:54:18
+    is_odd: 0
+    "no": 1375
+  - 
+    comment: ♪
+    date: 2009/06/28 22:54:18
+    is_odd: 1
+    "no": 1376
+  - 
+    comment: ♪　♪　♪　♪　♪
+    date: 2009/06/28 22:54:28
+    is_odd: 0
+    "no": 1377
+  - 
+    comment: コーラスいいなー
+    date: 2009/06/28 22:54:44
+    is_odd: 1
+    "no": 1378
+  - 
+    comment: ２００人超えオメ！
+    date: 2009/06/28 22:54:45
+    is_odd: 0
+    "no": 1379
+  - 
+    comment: nocたらあすたーさん神すぐるw
+    date: 2009/06/28 22:54:46
+    is_odd: 1
+    "no": 1380
+  - 
+    comment: 次開催を期待しようぜ
+    date: 2009/06/28 22:55:00
+    is_odd: 0
+    "no": 1381
+  - 
+    comment: ミクノ用語　ｎｏｃ＝寝落ち
+    date: 2009/06/28 22:55:16
+    is_odd: 1
+    "no": 1382
+  - 
+    comment: 第3回『ミクノポップ大賞』は9月末頃を予定しています。
+    date: 2009/06/28 22:55:18
+    is_odd: 0
+    "no": 1383
+  - 
+    comment: 興奮して＜●＞＜●＞状態ですよｗ
+    date: 2009/06/28 22:55:24
+    is_admin: 1
+    is_odd: 1
+    "no": 1384
+  - 
+    comment: 下コメ乙
+    date: 2009/06/28 22:55:29
+    is_odd: 0
+    "no": 1385
+  - 
+    comment: " \n\n\n♪\n\n   ♪\n      ♪\n        ♪\n       ♪♪"
+    date: 2009/06/28 22:55:30
+    is_odd: 1
+    "no": 1386
+  - 
+    comment: noc理解w
+    date: 2009/06/28 22:55:33
+    is_odd: 0
+    "no": 1387
+  - 
+    comment: ９月末ってすぐだね
+    date: 2009/06/28 22:55:37
+    is_odd: 1
+    "no": 1388
+  - 
+    comment: ♪　　♪　　♪
+    date: 2009/06/28 22:55:38
+    is_odd: 0
+    "no": 1389
+  - 
+    comment: 　♪　♪　♪
+    date: 2009/06/28 22:55:43
+    is_odd: 1
+    "no": 1390
+  - 
+    comment: 職人ｗｗｗ
+    date: 2009/06/28 22:55:45
+    is_odd: 0
+    "no": 1391
+  - 
+    comment: ♪　　♪　　♪　　♪　　♪
+    date: 2009/06/28 22:55:45
+    is_odd: 1
+    "no": 1392
+  - 
+    comment: 本当に9月でいいの？
+    date: 2009/06/28 22:55:45
+    is_odd: 0
+    "no": 1393
+  - 
+    comment: ♪　♪　♪
+    date: 2009/06/28 22:55:49
+    is_odd: 1
+    "no": 1394
+  - 
+    comment: ♪　♪　♪　♪　♪
+    date: 2009/06/28 22:55:50
+    is_odd: 0
+    "no": 1395
+  - 
+    comment: また投票が増えますように！
+    date: 2009/06/28 22:55:53
+    is_odd: 1
+    "no": 1396
+  - 
+    comment: ♪　♪　♪　♪
+    date: 2009/06/28 22:55:57
+    is_odd: 0
+    "no": 1397
+  - 
+    comment: 夏休みにミクノ生でいっぱいお勉強を！w
+    date: 2009/06/28 22:55:58
+    is_odd: 1
+    "no": 1398
+  - 
+    comment: ここでKiraKiraとか来たら寝落ちしそうだ……（1360
+    date: 2009/06/28 22:56:05
+    is_odd: 0
+    "no": 1399
+  - 
+    comment: ｗｗｗ
+    date: 2009/06/28 22:56:10
+    is_odd: 1
+    "no": 1400
+  - 
+    comment: ♪　♪　♪　♪　♪　♪　♪　♪
+    date: 2009/06/28 22:56:11
+    is_odd: 0
+    "no": 1401
+  - 
+    comment: wwwww
+    date: 2009/06/28 22:56:15
+    is_odd: 1
+    "no": 1402
+  - 
+    comment: 夏はテクノ祭りじゃー！
+    date: 2009/06/28 22:56:17
+    is_odd: 0
+    "no": 1403
+  - 
+    comment: 夏休みの宿題は、ミクノ絵日記です、毎日書こう
+    date: 2009/06/28 22:56:26
+    is_odd: 1
+    "no": 1404
+  - 
+    comment: 夏の終わりにありますねぇ
+    date: 2009/06/28 22:56:31
+    is_odd: 0
+    "no": 1405
+  - 
+    comment: " \n\n\n \n\n                                                    ♥"
+    date: 2009/06/28 22:56:32
+    is_odd: 1
+    "no": 1406
+  - 
+    comment: ミクノ祭りで、わっしょいわっしょい
+    date: 2009/06/28 22:56:45
+    is_odd: 0
+    "no": 1407
+  - 
+    comment: さて・・・ラストは何かなぁ
+    date: 2009/06/28 22:56:48
+    is_admin: 1
+    is_odd: 1
+    "no": 1408
+  - 
+    comment: 夏休み、枠取れると良いねぇw
+    date: 2009/06/28 22:56:50
+    is_odd: 0
+    "no": 1409
+  - 
+    comment: なにカナー
+    date: 2009/06/28 22:56:56
+    is_odd: 1
+    "no": 1410
+  - 
+    comment: 【初音ミク  オリジナル】 ストラトスフィア (Long ver.)  【初音Mig】  P名:うたたP
+    date: 2009/06/28 22:56:56
+    is_admin: 1
+    is_odd: 0
+    "no": 1411
+  - 
+    comment: ''
+    date: 2009/06/28 22:56:59
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 1413
+  - 
+    comment: おおおおおおおおおおおおー
+    date: 2009/06/28 22:57:01
+    is_odd: 0
+    "no": 1414
+  - 
+    comment: 魚おおおおおおおおおおおおおおおおおお
+    date: 2009/06/28 22:57:03
+    is_odd: 1
+    "no": 1415
+  - 
+    comment: あああああああ
+    date: 2009/06/28 22:57:05
+    is_odd: 0
+    "no": 1416
+  - 
+    comment: わぉ！！
+    date: 2009/06/28 22:57:06
+    is_odd: 1
+    "no": 1417
+  - 
+    comment: おおおお！
+    date: 2009/06/28 22:57:07
+    is_odd: 0
+    "no": 1418
+  - 
+    comment: 枠に入らないいい言いいい言い言い言いいい意
+    date: 2009/06/28 22:57:11
+    is_odd: 1
+    "no": 1419
+  - 
+    comment: 延長決定じゃまいか
+    date: 2009/06/28 22:57:12
+    is_odd: 0
+    "no": 1420
+  - 
+    comment: ランダムすげぇｗ
+    date: 2009/06/28 22:57:14
+    is_admin: 1
+    is_odd: 1
+    "no": 1421
+  - 
+    comment: 脚出るw
+    date: 2009/06/28 22:57:16
+    is_odd: 0
+    "no": 1422
+  - 
+    comment: これは目が覚めるｗ
+    date: 2009/06/28 22:57:16
+    is_odd: 1
+    "no": 1423
+  - 
+    comment: 粋だぁね！
+    date: 2009/06/28 22:57:24
+    is_odd: 0
+    "no": 1424
+  - 
+    comment: おおお！ラストなげぇっw
+    date: 2009/06/28 22:57:24
+    is_odd: 1
+    "no": 1425
+  - 
+    comment: これははいらないｗ
+    date: 2009/06/28 22:57:30
+    is_odd: 0
+    "no": 1426
+  - 
+    comment: 主の手動セレクトだから仕方ないね
+    date: 2009/06/28 22:57:32
+    is_odd: 1
+    "no": 1427
+  - 
+    comment: "&lt;&lt;神曲が来たな…！！&gt;&gt;"
+    date: 2009/06/28 22:57:33
+    is_odd: 0
+    "no": 1428
+  - 
+    comment: おお、これはいいラストｗ
+    date: 2009/06/28 22:57:37
+    is_odd: 1
+    "no": 1429
+  - 
+    comment: ミクトランスはここから注目されたな
+    date: 2009/06/28 22:57:37
+    is_odd: 0
+    "no": 1430
+  - 
+    comment: "だ\n　い\n　　す\n　　　　き"
+    date: 2009/06/28 22:57:45
+    is_odd: 1
+    "no": 1431
+  - 
+    comment: 普段の放送じゃリクしにくいからなあｗ
+    date: 2009/06/28 22:57:57
+    is_odd: 0
+    "no": 1432
+  - 
+    comment: 〈延長☆延長〉
+    date: 2009/06/28 22:57:58
+    is_odd: 1
+    "no": 1433
+  - 
+    comment: くーもーをーつーきーぬーけー
+    date: 2009/06/28 22:57:58
+    is_odd: 0
+    "no": 1434
+  - 
+    comment: すーとらっとすーふぃーあー
+    date: 2009/06/28 22:58:04
+    is_odd: 1
+    "no": 1435
+  - 
+    comment: なんていうランダム・・・・
+    date: 2009/06/28 22:58:08
+    is_odd: 0
+    "no": 1436
+  - 
+    comment: ミクノポップでトランス遠慮したらあかんよ
+    date: 2009/06/28 22:58:16
+    is_odd: 1
+    "no": 1437
+  - 
+    comment: 1432　自重しなくていいｗ
+    date: 2009/06/28 22:58:19
+    is_odd: 0
+    "no": 1438
+  - 
+    comment: ここでトランス自重してどーすんのｗｗｗ
+    date: 2009/06/28 22:58:37
+    is_odd: 1
+    "no": 1439
+  - 
+    comment: 通常放送でもロング曲まってるお！
+    date: 2009/06/28 22:58:37
+    is_odd: 0
+    "no": 1440
+  - 
+    comment: 10分15分、ドンと来いですね
+    date: 2009/06/28 22:58:55
+    is_odd: 1
+    "no": 1441
+  - 
+    comment: じゃ、そのうち一枠三曲でｗ
+    date: 2009/06/28 22:59:09
+    is_odd: 0
+    "no": 1442
+  - 
+    comment: 良質なトランス曲リクをお待ちしております
+    date: 2009/06/28 22:59:09
+    is_odd: 1
+    "no": 1443
+  - 
+    comment: ではここらでお別れ
+    date: 2009/06/28 22:59:17
+    is_admin: 1
+    is_odd: 0
+    "no": 1444
+  - 
+    comment: 長いのからアングラまでなんでもござれ！
+    date: 2009/06/28 22:59:18
+    is_odd: 1
+    "no": 1445
+  - 
+    comment: 主が楽だからドンと恋
+    date: 2009/06/28 22:59:22
+    is_odd: 0
+    "no": 1446
+  - 
+    comment: お疲れ様でした！
+    date: 2009/06/28 22:59:25
+    is_odd: 1
+    "no": 1447
+  - 
+    comment: みなさんおつかれさまでした～
+    date: 2009/06/28 22:59:25
+    is_admin: 1
+    is_odd: 0
+    "no": 1448
+  - 
+    comment: ありがとうううううううううううううううううううううううううう
+    date: 2009/06/28 22:59:25
+    is_odd: 1
+    "no": 1449
+  - 
+    comment: とてつもなく乙でした！！！！
+    date: 2009/06/28 22:59:26
+    is_odd: 0
+    "no": 1450
+  - 
+    comment: お疲れ様でした！！
+    date: 2009/06/28 22:59:27
+    is_odd: 1
+    "no": 1451
+  - 
+    comment: お疲れ様でしたーーーーー！！
+    date: 2009/06/28 22:59:28
+    is_odd: 0
+    "no": 1452
+  - 
+    comment: 乙！
+    date: 2009/06/28 22:59:28
+    is_odd: 1
+    "no": 1453
+  - 
+    comment: おつです！
+    date: 2009/06/28 22:59:29
+    is_odd: 0
+    "no": 1454
+  - 
+    comment: ノシ
+    date: 2009/06/28 22:59:29
+    is_admin: 1
+    is_odd: 1
+    "no": 1455
+  - 
+    comment: お疲れ様でした。アスターさんありがとう！
+    date: 2009/06/28 22:59:30
+    is_odd: 0
+    "no": 1456
+  - 
+    comment: おつかれさまー
+    date: 2009/06/28 22:59:31
+    is_odd: 1
+    "no": 1457
+  - 
+    comment: でも長い曲のリクは早めにネ！
+    date: 2009/06/28 22:59:32
+    is_odd: 0
+    "no": 1458
+  - 
+    comment: お疲れ様でした！
+    date: 2009/06/28 22:59:32
+    is_odd: 1
+    "no": 1459
+  - 
+    comment: おつかれさまあああ
+    date: 2009/06/28 22:59:33
+    is_odd: 0
+    "no": 1460
+  - 
+    comment: "∧＿∧　　／￣￣￣￣￣\n（　´∀｀）＜乙です。皆愛してる！\n（　　　　） 　＼＿＿＿＿＿\n｜ ｜　|"
+    date: 2009/06/28 22:59:37
+    is_odd: 1
+    "no": 1461
+  - 
+    comment: ﾉｼ
+    date: 2009/06/28 22:59:37
+    is_odd: 0
+    "no": 1462
+  - 
+    comment: ノシノシノイ
+    date: 2009/06/28 22:59:38
+    is_odd: 1
+    "no": 1463
+  - 
+    comment: お疲れ様でした！
+    date: 2009/06/28 22:59:39
+    is_odd: 0
+    "no": 1464
+  - 
+    comment: ﾉｼ
+    date: 2009/06/28 22:59:40
+    is_odd: 1
+    "no": 1465
+  - 
+    comment: ﾉｼ
+    date: 2009/06/28 22:59:40
+    is_odd: 0
+    "no": 1466
+  - 
+    comment: 集計準備含め非常に乙
+    date: 2009/06/28 22:59:41
+    is_odd: 1
+    "no": 1467
+  - 
+    comment: 乙！
+    date: 2009/06/28 22:59:45
+    is_odd: 0
+    "no": 1468
+  - 
+    comment: 実に楽しかったぜ！！
+    date: 2009/06/28 22:59:46
+    is_odd: 1
+    "no": 1469
+  - 
+    comment: ﾉｼ
+    date: 2009/06/28 22:59:47
+    is_odd: 0
+    "no": 1470
+  - 
+    comment: ノシ
+    date: 2009/06/28 22:59:50
+    is_odd: 1
+    "no": 1471
+  - 
+    comment: 乙
+    date: 2009/06/28 22:59:51
+    is_odd: 0
+    "no": 1472
+  - 
+    comment: おつかれでございました１
+    date: 2009/06/28 22:59:52
+    is_odd: 1
+    "no": 1473
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟあすたー！あすたー！
+    date: 2009/06/28 22:59:59
+    is_odd: 0
+    "no": 1474
+  - 
+    comment: ミク愛してるぜ！
+    date: 2009/06/28 23:00:00
+    is_odd: 1
+    "no": 1475
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟあすたー！あすたー！
+    date: 2009/06/28 23:00:09
+    is_odd: 0
+    "no": 1476
+  - 
+    comment: おつかれー
+    date: 2009/06/28 23:00:10
+    is_odd: 1
+    "no": 1477
+  - 
+    comment: みんな愛してる
+    date: 2009/06/28 23:00:17
+    is_odd: 0
+    "no": 1478
+  - 
+    comment: あすたーは神
+    date: 2009/06/28 23:00:21
+    is_odd: 1
+    "no": 1479
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟあすたー！あすたー！
+    date: 2009/06/28 23:00:22
+    is_odd: 0
+    "no": 1480
+  - 
+    comment: ミクノ最高
+    date: 2009/06/28 23:00:32
+    is_odd: 1
+    "no": 1481
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟあすたー！あすたー！
+    date: 2009/06/28 23:00:40
+    is_odd: 0
+    "no": 1482
+  - 
+    comment: この絵の飛翔感が好き
+    date: 2009/06/28 23:00:58
+    is_odd: 1
+    "no": 1483
+  - 
+    comment: "∧＿∧　　／￣￣￣￣￣\n（　´∀｀）＜主さん、ありがとう！\n（　　　　） 　＼＿＿＿＿＿\n｜ ｜　|"
+    date: 2009/06/28 23:01:04
+    is_odd: 0
+    "no": 1484
+  - 
+    comment: ｗｗ
+    date: 2009/06/28 23:01:11
+    is_odd: 1
+    "no": 1485
+frame: 4
+part: 2
+start: 1246190418
+time: 120
+title: ミクノポップをきかないか？ 第2回『ミクノポップ大賞』勝手に授賞式
+
