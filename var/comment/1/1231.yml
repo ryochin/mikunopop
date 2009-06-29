@@ -1,0 +1,308 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: おつんぐら～
+    date: 2009/06/27 05:38:13
+    is_odd: 1
+    "no": 2
+  - 
+    comment: おはようございます。
+    date: 2009/06/27 05:38:39
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: 本枠からキラピコ解禁の通常営業となります。
+    date: 2009/06/27 05:39:10
+    is_admin: 1
+    is_odd: 1
+    "no": 4
+  - 
+    comment: リクエストは随時受付中です。
+    date: 2009/06/27 05:39:26
+    is_admin: 1
+    is_odd: 0
+    "no": 5
+  - 
+    comment: "■【初音ミク】オリジナルＢＧＭ『Favor '08 -FrenchMix-』【せるふりみっくす】 ■ポン酢P "
+    date: 2009/06/27 05:39:52
+    is_admin: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: ■2008.07.17 時/6:27 彡/8 ◆再/3,050 コ/81 マ/75 (2.46%)
+    date: 2009/06/27 05:39:55
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: nm6535420
+    date: 2009/06/27 05:43:32
+    is_odd: 1
+    "no": 9
+  - 
+    comment: リクありがとうございます。
+    date: 2009/06/27 05:44:09
+    is_admin: 1
+    is_odd: 0
+    "no": 10
+  - 
+    comment: ポン酢P素敵です！
+    date: 2009/06/27 05:44:51
+    is_admin: 1
+    is_odd: 1
+    "no": 11
+  - 
+    comment: ポン酢ｳﾏｰ
+    date: 2009/06/27 05:45:55
+    is_odd: 0
+    "no": 12
+  - 
+    comment: "■【鏡音リン】　Bloom in Pastel　【オリジナル】 ■田中和夫 "
+    date: 2009/06/27 05:46:21
+    is_admin: 1
+    is_odd: 1
+    "no": 13
+  - 
+    comment: ■2009.03.24 時/4:45 彡/7 ◆再/4,789 コ/584 マ/358 (7.48%)
+    date: 2009/06/27 05:46:24
+    is_admin: 1
+    is_odd: 0
+    "no": 15
+  - 
+    comment: nm5145778
+    date: 2009/06/27 05:46:40
+    is_odd: 1
+    "no": 16
+  - 
+    comment: リクありがとうございます。
+    date: 2009/06/27 05:46:49
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: びびった
+    date: 2009/06/27 05:51:19
+    is_odd: 1
+    "no": 19
+  - 
+    comment: "■【初音ミクオリジナル曲】恋のアルゴリズム ■クヌースP "
+    date: 2009/06/27 05:51:26
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: ■2008.11.04 時/6:03 彡/9 ◆再/1,502 コ/34 マ/68 (4.53%)
+    date: 2009/06/27 05:51:29
+    is_admin: 1
+    is_odd: 1
+    "no": 22
+  - 
+    comment: 第2回ミクノポップ大賞　投票期限 本日 23:59まで。
+    date: 2009/06/27 05:51:52
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: 投票がまだの方はお早めに。
+    date: 2009/06/27 05:52:10
+    is_admin: 1
+    is_odd: 1
+    "no": 24
+  - 
+    comment: 明日楽しみだな～。予約枠だし。
+    date: 2009/06/27 05:52:18
+    is_odd: 0
+    "no": 25
+  - 
+    comment: 楽しみですね！
+    date: 2009/06/27 05:52:31
+    is_admin: 1
+    is_odd: 1
+    "no": 26
+  - 
+    comment: これ今まで9回リクあったうちの半分ぐらい俺かもしれない
+    date: 2009/06/27 05:53:17
+    is_odd: 0
+    "no": 27
+  - 
+    comment: 投票所行っても曲目をカウントしないように気をつけていますｗ
+    date: 2009/06/27 05:53:23
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: ｗｗ
+    date: 2009/06/27 05:53:26
+    is_odd: 0
+    "no": 29
+  - 
+    comment: あとの1/4位は僕かもしれないｗ
+    date: 2009/06/27 05:53:41
+    is_admin: 1
+    is_odd: 1
+    "no": 30
+  - 
+    comment: なんだと！ｗ
+    date: 2009/06/27 05:53:46
+    is_odd: 0
+    "no": 31
+  - 
+    comment: さいはねさんのサイトにてチャットルームを試験運用中です。
+    date: 2009/06/27 05:54:17
+    is_admin: 1
+    is_odd: 1
+    "no": 32
+  - 
+    comment: 興味のある方、（次枠を狙っているあなた）は↑よりお越しください。
+    date: 2009/06/27 05:54:50
+    is_admin: 1
+    is_odd: 0
+    "no": 33
+  - 
+    comment: ｗ
+    date: 2009/06/27 05:55:06
+    is_admin: 1
+    is_odd: 1
+    "no": 34
+  - 
+    comment: 主今さりげなーく次主募集してた？
+    date: 2009/06/27 05:55:43
+    is_odd: 0
+    "no": 35
+  - 
+    comment: しましたｗ
+    date: 2009/06/27 05:55:55
+    is_admin: 1
+    is_odd: 1
+    "no": 36
+  - 
+    comment: やっぱりクヌースP素敵だ！
+    date: 2009/06/27 05:57:14
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: "■【初音ミク】My World【オリジナル修正版】 ■びにゅP "
+    date: 2009/06/27 05:57:31
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: ■2008.11.03 時/2:50 彡/3 ◆再/937 コ/52 マ/43 (4.59%)
+    date: 2009/06/27 05:57:34
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: そういえばびにゅP特集みれなくて・・・ご本人いらしたとか？
+    date: 2009/06/27 05:57:58
+    is_odd: 1
+    "no": 41
+  - 
+    comment: はい、びにゅP特集のコメントログもさいはねさんのサイトにて公開中です。
+    date: 2009/06/27 05:58:36
+    is_admin: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: ぱーぱー♪ぱーぱー♪
+    date: 2009/06/27 05:58:43
+    is_odd: 1
+    "no": 43
+  - 
+    comment: あ、そうなんですか。あり～　ぱーぱー♪
+    date: 2009/06/27 05:58:54
+    is_odd: 0
+    "no": 44
+  - 
+    comment: ぱーぱー♪ぱーぱー♪
+    date: 2009/06/27 05:58:56
+    is_admin: 1
+    is_odd: 1
+    "no": 45
+  - 
+    comment: ぱーぱーぱーぱー
+    date: 2009/06/27 06:00:11
+    is_odd: 0
+    "no": 46
+  - 
+    comment: イェイイェイ
+    date: 2009/06/27 06:00:20
+    is_admin: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: "■地球はまわる【初音ミクオリジナル】 ■ドンドコP "
+    date: 2009/06/27 06:00:23
+    is_admin: 1
+    is_odd: 0
+    "no": 48
+  - 
+    comment: ■2009.02.26 時/3:24 彡/9 ◆再/1,286 コ/39 マ/68 (5.29%)
+    date: 2009/06/27 06:00:26
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: "■Needle Nectar feat. 初音ミク ■ハイネケンP "
+    date: 2009/06/27 06:03:49
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: ■2008.04.19 時/4:19 彡/8 ◆再/8,706 コ/229 マ/284 (3.26%)
+    date: 2009/06/27 06:03:52
+    is_admin: 1
+    is_odd: 1
+    "no": 53
+  - 
+    comment: この曲で僕の放送は休憩となります。
+    date: 2009/06/27 06:04:31
+    is_admin: 1
+    is_odd: 0
+    "no": 54
+  - 
+    comment: おつです
+    date: 2009/06/27 06:04:42
+    is_odd: 1
+    "no": 55
+  - 
+    comment: まぁそう言わず。
+    date: 2009/06/27 06:04:46
+    is_odd: 0
+    "no": 56
+  - 
+    comment: 次枠は他主さんに期待ということでｗ
+    date: 2009/06/27 06:04:59
+    is_admin: 1
+    is_odd: 1
+    "no": 57
+  - 
+    comment: ではノシ
+    date: 2009/06/27 06:07:22
+    is_admin: 1
+    is_odd: 0
+    "no": 58
+  - 
+    comment: ﾉｼ
+    date: 2009/06/27 06:07:23
+    is_odd: 1
+    "no": 59
+  - 
+    comment: おっつんでしった～
+    date: 2009/06/27 06:07:24
+    is_odd: 0
+    "no": 60
+  - 
+    comment: ノシ
+    date: 2009/06/27 06:07:31
+    is_odd: 1
+    "no": 61
+frame: 1
+part: 1231
+start: 1246048693
+time: 29
+title: ミクノポップをきかないか？part1231
+

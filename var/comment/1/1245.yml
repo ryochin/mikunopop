@@ -1,0 +1,285 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: 乙ですー
+    date: 2009/06/28 00:20:44
+    is_odd: 1
+    "no": 2
+  - 
+    comment: こんばんは。
+    date: 2009/06/28 00:21:10
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: 鼻そうめんさんの新曲でましたね
+    date: 2009/06/28 00:21:10
+    is_odd: 1
+    "no": 4
+  - 
+    comment: なんと
+    date: 2009/06/28 00:21:26
+    is_odd: 0
+    "no": 5
+  - 
+    comment: 第2回　ミクノポップ大賞投票終了しました。
+    date: 2009/06/28 00:21:28
+    is_admin: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: 投票ありがとうございました。
+    date: 2009/06/28 00:21:55
+    is_admin: 1
+    is_odd: 0
+    "no": 7
+  - 
+    comment: "■【初音ミク】　悲壮花　（ミク音使用）　【オリジナル曲】 ■rashearthP "
+    date: 2009/06/28 00:22:03
+    is_admin: 1
+    is_odd: 1
+    "no": 8
+  - 
+    comment: ■2009.02.03 時/3:38 彡/1 ◆再/207 コ/7 マ/9 (4.35%)
+    date: 2009/06/28 00:22:05
+    is_admin: 1
+    is_odd: 0
+    "no": 10
+  - 
+    comment: 4　どこ？
+    date: 2009/06/28 00:22:33
+    is_odd: 1
+    "no": 11
+  - 
+    comment: リクは随時受付中です。
+    date: 2009/06/28 00:23:00
+    is_admin: 1
+    is_odd: 0
+    "no": 12
+  - 
+    comment: おお
+    date: 2009/06/28 00:24:46
+    is_odd: 1
+    "no": 13
+  - 
+    comment: sm3716838
+    date: 2009/06/28 00:25:13
+    is_odd: 0
+    "no": 14
+  - 
+    comment: "■【初音ミク】　『 イノセント スマイル 』　【オリジナル曲】 ■うさっ(・ｘ・）P みじぴんP "
+    date: 2009/06/28 00:25:43
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: ■2008.06.21 時/5:35 彡/5 ◆再/3,896 コ/107 マ/92 (2.36%)
+    date: 2009/06/28 00:25:46
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: リクありがとうございます。
+    date: 2009/06/28 00:25:53
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: 次はこの2週間よく見たサムネのこの曲で。
+    date: 2009/06/28 00:30:50
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: ■【初音ミク】Green Apple -Radio edit-【オリジナル曲】 ■P名?
+    date: 2009/06/28 00:31:17
+    is_admin: 1
+    is_odd: 1
+    "no": 20
+  - 
+    comment: ■2009.06.16 時/2:47 彡/3 ◆再/2,267 コ/58 マ/217 (9.57%)
+    date: 2009/06/28 00:31:20
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: ほめでRinさんの曲流れてるのちらっと聞けた
+    date: 2009/06/28 00:31:49
+    is_odd: 1
+    "no": 23
+  - 
+    comment: 第2回『ミクノポップ大賞』勝手に授賞式
+    date: 2009/06/28 00:31:57
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: 今北＆ギリ投票してきた
+    date: 2009/06/28 00:31:57
+    is_odd: 1
+    "no": 25
+  - 
+    comment: 日時　：　6/28(日) 21:00～
+    date: 2009/06/28 00:32:14
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: 予定地→http://live.nicovideo.jp/watch/lv1651040
+    date: 2009/06/28 00:32:30
+    is_admin: 1
+    is_odd: 1
+    "no": 27
+  - 
+    comment: 楽しみ~
+    date: 2009/06/28 00:32:46
+    is_odd: 0
+    "no": 28
+  - 
+    comment: 今から結果が気になってｗｋｔｋですね！
+    date: 2009/06/28 00:33:08
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: ■【初音ミク】 Viuzae Va Lena 【オリジナル曲】 ■P名?
+    date: 2009/06/28 00:34:06
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: ■2009.05.24 時/6:37 彡/3 ◆再/1,016 コ/13 マ/55 (5.41%)
+    date: 2009/06/28 00:34:09
+    is_admin: 1
+    is_odd: 1
+    "no": 32
+  - 
+    comment: みごとにバラける気もしなくもなくもないね
+    date: 2009/06/28 00:37:19
+    is_odd: 0
+    "no": 33
+  - 
+    comment: 一票二票の曲を回るのもまたオツなものです
+    date: 2009/06/28 00:37:44
+    is_odd: 1
+    "no": 34
+  - 
+    comment: ばらけ具合も楽しみですｗ
+    date: 2009/06/28 00:37:49
+    is_admin: 1
+    is_odd: 0
+    "no": 35
+  - 
+    comment: saihaneさんのまとめサイトすごい役に立ちました＞投票
+    date: 2009/06/28 00:38:38
+    is_odd: 1
+    "no": 36
+  - 
+    comment: さいはねさん、ありがと～～～～と皆で叫びましょうｗ
+    date: 2009/06/28 00:39:18
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: 遠い空のどこかにいるさいはねさんありがとう！
+    date: 2009/06/28 00:39:42
+    is_odd: 1
+    "no": 38
+  - 
+    comment: ここにいますってｗ（さ
+    date: 2009/06/28 00:39:56
+    is_odd: 0
+    "no": 39
+  - 
+    comment: ｗｗｗ
+    date: 2009/06/28 00:40:00
+    is_admin: 1
+    is_odd: 1
+    "no": 40
+  - 
+    comment: "■【初音ミクオリジナル曲】　日の沈み　　テクノ ■rashearthP "
+    date: 2009/06/28 00:40:45
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: ■2008.05.06 時/2:38 彡/0 ◆再/1,539 コ/34 マ/60 (3.90%)
+    date: 2009/06/28 00:40:47
+    is_admin: 1
+    is_odd: 1
+    "no": 43
+  - 
+    comment: このコメントは表示されません
+    date: 2009/06/28 00:42:58
+    is_hidden: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: "■【初音ミクオリジナル曲】　レクイエム　（２曲入り） ■rashearthP "
+    date: 2009/06/28 00:43:21
+    is_admin: 1
+    is_odd: 1
+    "no": 45
+  - 
+    comment: ■2008.06.12 時/3:26 彡/4 ◆再/1,147 コ/40 マ/54 (4.71%)
+    date: 2009/06/28 00:43:24
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: あと、IRCのチャンネルも登録しときました、乙です＞さいはねさん
+    date: 2009/06/28 00:43:25
+    is_odd: 1
+    "no": 48
+  - 
+    comment: あんさんも遊びにきなっせ！
+    date: 2009/06/28 00:46:00
+    is_odd: 0
+    "no": 49
+  - 
+    comment: "■【初音ミクオリジナル曲】 　春です　修正版 ■rashearthP "
+    date: 2009/06/28 00:46:49
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: ■2008.05.21 時/1:38 彡/0 ◆再/703 コ/18 マ/26 (3.70%)
+    date: 2009/06/28 00:46:52
+    is_admin: 1
+    is_odd: 0
+    "no": 52
+  - 
+    comment: "■【初音ミクオリジナル曲】 Red Piano ■rashearthP "
+    date: 2009/06/28 00:48:29
+    is_admin: 1
+    is_odd: 1
+    "no": 53
+  - 
+    comment: ■2009.03.24 時/2:50 彡/3 ◆再/673 コ/25 マ/30 (4.46%)
+    date: 2009/06/28 00:48:32
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: 乙ー
+    date: 2009/06/28 00:49:03
+    is_odd: 1
+    "no": 56
+  - 
+    comment: 後半はこっそりrashearthP特集でした。では、ノシ
+    date: 2009/06/28 00:49:14
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: 乙っした～ﾉｼ
+    date: 2009/06/28 00:49:14
+    is_odd: 1
+    "no": 58
+frame: 1
+part: 1245
+start: 1246116044
+time: 28
+title: ミクノポップをきかないか？part1245
+

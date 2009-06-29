@@ -1,0 +1,364 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: 枠おつ～
+    date: 2009/06/24 18:54:51
+    is_odd: 1
+    "no": 2
+  - 
+    comment: こんばんは。
+    date: 2009/06/24 18:54:59
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: リクは随時受付です。
+    date: 2009/06/24 18:55:08
+    is_admin: 1
+    is_odd: 1
+    "no": 4
+  - 
+    comment: "■オリジナルBGM『Favor』を初音ミクに手伝ってもらった（FullVer） ■ポン酢P "
+    date: 2009/06/24 18:56:10
+    is_admin: 1
+    is_odd: 0
+    "no": 5
+  - 
+    comment: ■2007.10.22 時/4:20 ミ/4 ◆再/17,767 コ/454 マ/596 (3.35%)
+    date: 2009/06/24 18:56:13
+    is_admin: 1
+    is_odd: 1
+    "no": 7
+  - 
+    comment: "■初音ミク・オリジナル曲 『ごほん指』（長尺ver） ■リーマンP "
+    date: 2009/06/24 19:00:41
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: ■2007.12.25 時/5:05 ミ/3 ◆再/3,089 コ/213 マ/69 (2.23%)
+    date: 2009/06/24 19:00:41
+    is_admin: 1
+    is_odd: 1
+    "no": 9
+  - 
+    comment: "┌○┐\n│枠｜ﾊ,,ﾊ\n│取｜ﾟωﾟ )　ご苦労様です\n│乙 |　／/\n└○┘ (⌒)\n　　　し⌒"
+    date: 2009/06/24 19:00:43
+    is_odd: 0
+    "no": 11
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟリーマンP!リーマンP!
+    date: 2009/06/24 19:03:23
+    is_odd: 1
+    "no": 12
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟリーマンP!リーマンP!
+    date: 2009/06/24 19:03:46
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: 今北ぁぁぁこばん・・・おや？
+    date: 2009/06/24 19:04:22
+    is_odd: 1
+    "no": 14
+  - 
+    comment: いらっしゃい！
+    date: 2009/06/24 19:04:32
+    is_admin: 1
+    is_odd: 0
+    "no": 15
+  - 
+    comment: チャ！
+    date: 2009/06/24 19:04:36
+    is_odd: 1
+    "no": 16
+  - 
+    comment: (^0^)/ちゃ！
+    date: 2009/06/24 19:04:41
+    is_odd: 0
+    "no": 17
+  - 
+    comment: へいらっしゃいっ！
+    date: 2009/06/24 19:04:53
+    is_odd: 1
+    "no": 18
+  - 
+    comment: お初になります。ヨロですぅぅぅ
+    date: 2009/06/24 19:04:54
+    is_odd: 0
+    "no": 19
+  - 
+    comment: こちらこそ、よろしくお願いします。
+    date: 2009/06/24 19:05:09
+    is_admin: 1
+    is_odd: 1
+    "no": 20
+  - 
+    comment: "∧＿∧\n( ´･ω･) みなさん、\n( つ旦Oお茶です・・・・。\nと＿)＿)\n 旦旦旦旦旦旦旦旦旦"
+    date: 2009/06/24 19:05:24
+    is_odd: 0
+    "no": 21
+  - 
+    comment: ~~旦_(-ω- ) ドモドモ
+    date: 2009/06/24 19:05:32
+    is_odd: 1
+    "no": 22
+  - 
+    comment: "■僕はロボット（PV）（初音ミクオリジナル曲） ■MikSolodyne-ts オサレP "
+    date: 2009/06/24 19:05:47
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: ■2009.05.24 時/4:33 ミ/11 ◆再/29,598 コ/829 マ/2,811 (9.50%)
+    date: 2009/06/24 19:05:50
+    is_admin: 1
+    is_odd: 1
+    "no": 25
+  - 
+    comment: つ　旦ﾄﾞﾓｰ
+    date: 2009/06/24 19:06:08
+    is_odd: 0
+    "no": 26
+  - 
+    comment: 旦　番茶ですな・・
+    date: 2009/06/24 19:06:22
+    is_odd: 1
+    "no": 27
+  - 
+    comment: っ旦　イタダキマス
+    date: 2009/06/24 19:06:35
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: 主さんは今日何枠目なんですか？
+    date: 2009/06/24 19:06:56
+    is_odd: 1
+    "no": 29
+  - 
+    comment: 2枠目です。（昨夜を入れると正確には3枠目）
+    date: 2009/06/24 19:07:50
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: 昨夜・・・orz 見逃してしまった・・・
+    date: 2009/06/24 19:08:26
+    is_odd: 1
+    "no": 31
+  - 
+    comment: 2時頃でしたので
+    date: 2009/06/24 19:08:39
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: 流石にその時間は寝てるわw
+    date: 2009/06/24 19:09:05
+    is_odd: 1
+    "no": 33
+  - 
+    comment: ああ、さいはね師匠のお弟子さんですか。
+    date: 2009/06/24 19:10:21
+    is_odd: 0
+    "no": 34
+  - 
+    comment: "■初音ミクオリジナル曲「夕闇メロディ(full ver)」 ■夕闇P "
+    date: 2009/06/24 19:10:21
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: ■2007.11.12 時/4:06 ミ/13 ◆再/46,654 コ/1,820 マ/1,743 (3.74%)
+    date: 2009/06/24 19:10:24
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: はい。（で良いですか？師匠～
+    date: 2009/06/24 19:10:50
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: nm4462969　新主さんが好きそうなのリク
+    date: 2009/06/24 19:10:56
+    is_odd: 0
+    "no": 39
+  - 
+    comment: リクありがとうございます！
+    date: 2009/06/24 19:11:16
+    is_admin: 1
+    is_odd: 1
+    "no": 40
+  - 
+    comment: リク〆ます
+    date: 2009/06/24 19:13:10
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: "■初音ミクさんにテスト曲2「空中戦」 ■じたばたP "
+    date: 2009/06/24 19:14:28
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: ■2008.08.30 時/2:30 ミ/3 ◆再/570 コ/12 マ/19 (3.33%)
+    date: 2009/06/24 19:14:31
+    is_admin: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: 既に好きそうな曲が判るんですね・・・
+    date: 2009/06/24 19:15:12
+    is_admin: 1
+    is_odd: 1
+    "no": 45
+  - 
+    comment: ・・・ｳﾌﾌ
+    date: 2009/06/24 19:15:31
+    is_odd: 0
+    "no": 46
+  - 
+    comment: "■初音ミクオリジナル曲『music life of pop creation』 ■U-skeP "
+    date: 2009/06/24 19:16:59
+    is_admin: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: ■2009.01.30 時/4:21 ミ/14 ◆再/29,430 コ/823 マ/1,714 (5.82%)
+    date: 2009/06/24 19:17:02
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: 現在、さいはねさんのサイトでIRCを試験運用中です。
+    date: 2009/06/24 19:19:28
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: 興味のある方はさいはねさんのまとめサイトからお越しください。
+    date: 2009/06/24 19:19:49
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: kotacさん、今ならいますのでｗ（さ
+    date: 2009/06/24 19:21:12
+    is_odd: 1
+    "no": 52
+  - 
+    comment: まとめサイトのアド表記したらヤバいのかな？知らない人居ると思うよ
+    date: 2009/06/24 19:21:15
+    is_odd: 0
+    "no": 53
+  - 
+    comment: ■初音ミク◆ silence -Instrumental- ◆オリジナル ■P名?
+    date: 2009/06/24 19:21:22
+    is_admin: 1
+    is_odd: 1
+    "no": 54
+  - 
+    comment: ■2008.07.04 時/5:13 ミ/2 ◆再/616 コ/14 マ/18 (2.92%)
+    date: 2009/06/24 19:21:25
+    is_admin: 1
+    is_odd: 0
+    "no": 56
+  - 
+    comment: ''
+    date: 2009/06/24 19:21:58
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 57
+  - 
+    comment: w
+    date: 2009/06/24 19:22:25
+    is_odd: 0
+    "no": 58
+  - 
+    comment: この枠で僕は休憩とさせて頂きます。
+    date: 2009/06/24 19:22:44
+    is_odd: 1
+    "no": 59
+  - 
+    comment: ！
+    date: 2009/06/24 19:22:48
+    is_admin: 1
+    is_odd: 0
+    "no": 60
+  - 
+    comment: ww
+    date: 2009/06/24 19:22:52
+    is_odd: 1
+    "no": 61
+  - 
+    comment: またやっちゃいました。
+    date: 2009/06/24 19:22:53
+    is_admin: 1
+    is_odd: 0
+    "no": 62
+  - 
+    comment: やっちゃったｗ
+    date: 2009/06/24 19:22:55
+    is_odd: 1
+    "no": 63
+  - 
+    comment: 誰だｗ
+    date: 2009/06/24 19:22:56
+    is_odd: 0
+    "no": 64
+  - 
+    comment: この枠で休憩とさせて頂きますｗ
+    date: 2009/06/24 19:23:11
+    is_admin: 1
+    is_odd: 1
+    "no": 65
+  - 
+    comment: おつｗ
+    date: 2009/06/24 19:23:16
+    is_odd: 0
+    "no": 66
+  - 
+    comment: お付き合いいただきありがとうございました。
+    date: 2009/06/24 19:23:23
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: 乙でした　ﾉｼ
+    date: 2009/06/24 19:23:28
+    is_odd: 0
+    "no": 68
+  - 
+    comment: またよろしくお願いしますノシ
+    date: 2009/06/24 19:23:33
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: おつ～
+    date: 2009/06/24 19:23:34
+    is_odd: 0
+    "no": 70
+  - 
+    comment: おっつんﾉｼ
+    date: 2009/06/24 19:23:36
+    is_odd: 1
+    "no": 71
+  - 
+    comment: ノシ
+    date: 2009/06/24 19:23:37
+    is_odd: 0
+    "no": 72
+frame: 1
+part: 1205
+start: 1245837291
+time: 28
+title: ミクノポップをきかないか？part1205
+

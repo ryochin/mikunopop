@@ -1,0 +1,462 @@
+--- 
+aircaster: saihane
+content: 
+  - 
+    comment: 枠取り乙です！
+    date: 2009/06/28 20:27:38
+    is_odd: 1
+    "no": 1
+  - 
+    comment: でたぁぁぁ
+    date: 2009/06/28 20:27:40
+    is_odd: 0
+    "no": 2
+  - 
+    comment: おつ～
+    date: 2009/06/28 20:27:46
+    is_odd: 1
+    "no": 3
+  - 
+    comment: 乙ですぅぅぅ
+    date: 2009/06/28 20:27:48
+    is_odd: 0
+    "no": 4
+  - 
+    comment: おつー
+    date: 2009/06/28 20:27:55
+    is_odd: 1
+    "no": 6
+  - 
+    comment: 今日１度も枠取れてない
+    date: 2009/06/28 20:28:07
+    is_odd: 0
+    "no": 7
+  - 
+    comment: ＊　授賞式はあと３０分だよ！　＊
+    date: 2009/06/28 20:28:16
+    is_admin: 1
+    is_odd: 1
+    "no": 8
+  - 
+    comment: よし急いで風呂入ってくる！　間に合いますように！
+    date: 2009/06/28 20:28:41
+    is_odd: 0
+    "no": 9
+  - 
+    comment: "■初音ミクdeオリジナル曲「大キライ...」 ■AETA(イータ) "
+    date: 2009/06/28 20:28:58
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: ■2008.12.06 時/4:50 彡/10 ◆再/7,859 コ/313 マ/446 (5.68%)
+    date: 2009/06/28 20:29:01
+    is_admin: 1
+    is_odd: 0
+    "no": 12
+  - 
+    comment: ┌( ﾟДﾟ)ﾉ ｲｯﾃﾗｰー
+    date: 2009/06/28 20:29:26
+    is_odd: 1
+    "no": 13
+  - 
+    comment: ＊　主セレは、私の投票分から　＊
+    date: 2009/06/28 20:30:13
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: なんという直前放送ｗ　乙です
+    date: 2009/06/28 20:31:38
+    is_odd: 1
+    "no": 15
+  - 
+    comment: ゆだってきましたー
+    date: 2009/06/28 20:32:46
+    is_odd: 0
+    "no": 16
+  - 
+    comment: 早っ！！
+    date: 2009/06/28 20:32:55
+    is_odd: 1
+    "no": 17
+  - 
+    comment: はえぇぇぇ
+    date: 2009/06/28 20:33:05
+    is_odd: 0
+    "no": 18
+  - 
+    comment: カラスの行水ってレベルじゃねーぞｗ
+    date: 2009/06/28 20:33:10
+    is_admin: 1
+    is_odd: 1
+    "no": 19
+  - 
+    comment: いや、違う人ですｗ
+    date: 2009/06/28 20:33:12
+    is_odd: 0
+    "no": 20
+  - 
+    comment: ■【初音ミク】 オリジナル　『春色観覧車』 ■P名?
+    date: 2009/06/28 20:33:59
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: ■2009.03.20 時/4:02 彡/10 ◆再/7,504 コ/262 マ/518 (6.90%)
+    date: 2009/06/28 20:34:02
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: おー、これ主のツボでしたね。
+    date: 2009/06/28 20:35:39
+    is_odd: 1
+    "no": 24
+  - 
+    comment: ステキすぎる///
+    date: 2009/06/28 20:35:54
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: 弦おいしいです
+    date: 2009/06/28 20:37:00
+    is_odd: 1
+    "no": 26
+  - 
+    comment: イラストをみてちょっと引いてしまいますけど、曲は好きｗ
+    date: 2009/06/28 20:37:12
+    is_odd: 0
+    "no": 27
+  - 
+    comment: コーラスのきれいなこと・・
+    date: 2009/06/28 20:37:13
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: あーーーーあーーーあーーーあーー
+    date: 2009/06/28 20:37:48
+    is_odd: 0
+    "no": 29
+  - 
+    comment: "■【初音ミク】ハートフルドライブ【オリジナル】 ■P∴Rhythmatiq "
+    date: 2009/06/28 20:38:06
+    is_admin: 1
+    is_odd: 1
+    "no": 30
+  - 
+    comment: ■2009.02.20 時/3:43 彡/11 ◆再/29,039 コ/662 マ/1,772 (6.10%)
+    date: 2009/06/28 20:38:09
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: これぞ清く正しくかわいいミクノポップ！
+    date: 2009/06/28 20:39:18
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: そのとーり
+    date: 2009/06/28 20:39:33
+    is_odd: 0
+    "no": 34
+  - 
+    comment: 可愛い　←ここ大事
+    date: 2009/06/28 20:39:34
+    is_odd: 1
+    "no": 35
+  - 
+    comment: 可愛い曲ですね～
+    date: 2009/06/28 20:39:35
+    is_odd: 0
+    "no": 36
+  - 
+    comment: "■初音ミクオリジナル曲『sparkle song』 ■U-skeP "
+    date: 2009/06/28 20:41:56
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: ■2008.09.12 時/3:34 彡/13 ◆再/7,210 コ/125 マ/257 (3.56%)
+    date: 2009/06/28 20:41:59
+    is_admin: 1
+    is_odd: 0
+    "no": 39
+  - 
+    comment: 清い！清いぞおお
+    date: 2009/06/28 20:42:13
+    is_odd: 1
+    "no": 40
+  - 
+    comment: サ、サムネで選んでるわけじゃないんだからねっ！！
+    date: 2009/06/28 20:42:48
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: ｗ
+    date: 2009/06/28 20:42:52
+    is_odd: 1
+    "no": 42
+  - 
+    comment: ｗｗ
+    date: 2009/06/28 20:42:56
+    is_odd: 0
+    "no": 43
+  - 
+    comment: ふー。温まったぜ（9
+    date: 2009/06/28 20:45:18
+    is_odd: 1
+    "no": 44
+  - 
+    comment: お帰り！
+    date: 2009/06/28 20:45:45
+    is_odd: 0
+    "no": 46
+  - 
+    comment: いらっしゃい
+    date: 2009/06/28 20:45:46
+    is_odd: 1
+    "no": 47
+  - 
+    comment: 見納めだｗ
+    date: 2009/06/28 20:45:56
+    is_odd: 0
+    "no": 48
+  - 
+    comment: ＊　あと１５分で、はじまるよ！！　＊
+    date: 2009/06/28 20:45:58
+    is_admin: 1
+    is_odd: 1
+    "no": 49
+  - 
+    comment: ﾅﾝﾀﾞｯﾃｰ！
+    date: 2009/06/28 20:46:12
+    is_odd: 0
+    "no": 50
+  - 
+    comment: これいいなぁ
+    date: 2009/06/28 20:46:32
+    is_odd: 1
+    "no": 51
+  - 
+    comment: びにゅPの曲は落ち着くよね
+    date: 2009/06/28 20:46:42
+    is_odd: 0
+    "no": 52
+  - 
+    comment: "■【初音ミク】Stella Marine -little lovers' magic-【オリジナル】 ■びにゅP "
+    date: 2009/06/28 20:46:48
+    is_admin: 1
+    is_odd: 1
+    "no": 53
+  - 
+    comment: ■2009.05.13 時/5:38 彡/10 ◆再/18,542 コ/454 マ/1,665 (8.98%)
+    date: 2009/06/28 20:46:51
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: ｋｔｋｒ
+    date: 2009/06/28 20:46:57
+    is_odd: 1
+    "no": 56
+  - 
+    comment: ！！
+    date: 2009/06/28 20:46:57
+    is_odd: 0
+    "no": 57
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 20:47:01
+    is_odd: 1
+    "no": 58
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/06/28 20:47:02
+    is_odd: 0
+    "no": 59
+  - 
+    comment: nm6098557
+    date: 2009/06/28 20:47:21
+    is_odd: 1
+    "no": 60
+  - 
+    comment: こないだ相思相愛になりました///
+    date: 2009/06/28 20:47:23
+    is_admin: 1
+    is_odd: 0
+    "no": 61
+  - 
+    comment: いいなぁｗ
+    date: 2009/06/28 20:47:59
+    is_odd: 1
+    "no": 62
+  - 
+    comment: リクども～　〆ます
+    date: 2009/06/28 20:48:21
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: 告白はしたしフラれたわけじゃないけど、俺は永遠の片想いだぜ
+    date: 2009/06/28 20:48:30
+    is_odd: 1
+    "no": 64
+  - 
+    comment: （諸事情でリク曲差し替えさせてもらいます・・）
+    date: 2009/06/28 20:50:47
+    is_admin: 1
+    is_odd: 0
+    "no": 65
+  - 
+    comment: みんな、お茶とお菓子は用意したかな～？
+    date: 2009/06/28 20:51:08
+    is_admin: 1
+    is_odd: 1
+    "no": 66
+  - 
+    comment: んがんぐ・・
+    date: 2009/06/28 20:51:49
+    is_odd: 0
+    "no": 67
+  - 
+    comment: 手元に３L位あります！
+    date: 2009/06/28 20:51:49
+    is_odd: 1
+    "no": 68
+  - 
+    comment: ハーフタイムに冷蔵庫に走る
+    date: 2009/06/28 20:51:58
+    is_odd: 0
+    "no": 69
+  - 
+    comment: リク件了解です
+    date: 2009/06/28 20:52:12
+    is_odd: 1
+    "no": 70
+  - 
+    comment: ＊　主が６人チャットにいるよ、ぜひ↑まとめサイトからどうぞ！　＊
+    date: 2009/06/28 20:52:14
+    is_admin: 1
+    is_odd: 0
+    "no": 71
+  - 
+    comment: ずいぶん集まってますねｗ
+    date: 2009/06/28 20:52:29
+    is_odd: 1
+    "no": 72
+  - 
+    comment: ＊　あと８分で、はじまるよ！！　＊
+    date: 2009/06/28 20:52:58
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: ﾅ！ﾅﾝﾀﾞｯﾃｰ！
+    date: 2009/06/28 20:53:06
+    is_odd: 1
+    "no": 75
+  - 
+    comment: この絵もきれいだなぁ。
+    date: 2009/06/28 20:53:25
+    is_odd: 0
+    "no": 76
+  - 
+    comment: 主じゃない俺も居るからぁぁぁ誰か来てぇぇぇ(ToT)
+    date: 2009/06/28 20:53:33
+    is_odd: 1
+    "no": 77
+  - 
+    comment: 光の加減がいいな
+    date: 2009/06/28 20:53:37
+    is_odd: 0
+    "no": 78
+  - 
+    comment: "■【初音ミク】 バンバンブー☆ 【オリジナル】修正版 ■あたたたP ラヴリーP "
+    date: 2009/06/28 20:53:41
+    is_admin: 1
+    is_odd: 1
+    "no": 79
+  - 
+    comment: ■2009.02.06 時/5:03 彡/7 ◆再/132,512 コ/7,425 マ/7,410 (5.59%)
+    date: 2009/06/28 20:53:44
+    is_admin: 1
+    is_odd: 0
+    "no": 81
+  - 
+    comment: 盛り上がっていくぜえええええええええ！！！！
+    date: 2009/06/28 20:53:47
+    is_admin: 1
+    is_odd: 1
+    "no": 82
+  - 
+    comment: おおおー！
+    date: 2009/06/28 20:53:52
+    is_odd: 0
+    "no": 83
+  - 
+    comment: おっしゃああああああああああああああああああああ
+    date: 2009/06/28 20:53:55
+    is_odd: 1
+    "no": 84
+  - 
+    comment: かわゆす
+    date: 2009/06/28 20:55:05
+    is_odd: 0
+    "no": 85
+  - 
+    comment: この動画は激しく可愛いなぁ。
+    date: 2009/06/28 20:55:06
+    is_odd: 1
+    "no": 86
+  - 
+    comment: ＊　んじゃあとちょっとで授賞式、はっじまっるよ～！！　＊
+    date: 2009/06/28 20:56:04
+    is_admin: 1
+    is_odd: 0
+    "no": 87
+  - 
+    comment: 乙ー
+    date: 2009/06/28 20:56:11
+    is_odd: 1
+    "no": 88
+  - 
+    comment: ノシ
+    date: 2009/06/28 20:56:26
+    is_odd: 0
+    "no": 89
+  - 
+    comment: 乙！
+    date: 2009/06/28 20:56:30
+    is_odd: 1
+    "no": 90
+  - 
+    comment: SLT
+    date: 2009/06/28 20:56:50
+    is_odd: 0
+    "no": 91
+  - 
+    comment: もうすぐ始まるハァハァ
+    date: 2009/06/28 20:57:45
+    is_odd: 1
+    "no": 92
+  - 
+    comment: ｗｋｔｋがとまらない！
+    date: 2009/06/28 20:57:55
+    is_odd: 0
+    "no": 93
+  - 
+    comment: 楽しみすぎる
+    date: 2009/06/28 20:58:05
+    is_odd: 1
+    "no": 94
+frame: 1
+part: 1259
+start: 1246188458
+time: 30
+title: ミクノポップをきかないか？ Part.1259
+

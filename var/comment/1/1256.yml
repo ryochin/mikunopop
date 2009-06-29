@@ -1,0 +1,332 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: おつー
+    date: 2009/06/28 18:43:06
+    is_odd: 1
+    "no": 2
+  - 
+    comment: こんばんは。
+    date: 2009/06/28 18:43:12
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: リクは随時受付中です。
+    date: 2009/06/28 18:43:44
+    is_admin: 1
+    is_odd: 1
+    "no": 4
+  - 
+    comment: 乙です、今日は主さんたち精力的ですねー
+    date: 2009/06/28 18:43:48
+    is_odd: 0
+    "no": 5
+  - 
+    comment: "■【ミクオリジナル曲】 「VOSTOK」 【BOSSA】 ■あつぞうくん "
+    date: 2009/06/28 18:43:54
+    is_admin: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: ■2009.03.12 時/3:39 彡/17 ◆再/3,335 コ/137 マ/174 (5.22%)
+    date: 2009/06/28 18:43:57
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: 今宵は祭りですからな！
+    date: 2009/06/28 18:44:41
+    is_odd: 1
+    "no": 9
+  - 
+    comment: いい曲だなあ
+    date: 2009/06/28 18:44:49
+    is_odd: 0
+    "no": 10
+  - 
+    comment: 主セレは僕の投票曲から。
+    date: 2009/06/28 18:45:03
+    is_admin: 1
+    is_odd: 1
+    "no": 11
+  - 
+    comment: 今北ぁぁぁこばんわぁぁぁ
+    date: 2009/06/28 18:46:43
+    is_odd: 0
+    "no": 12
+  - 
+    comment: 真下さんいらっしゃい！
+    date: 2009/06/28 18:46:51
+    is_admin: 1
+    is_odd: 1
+    "no": 13
+  - 
+    comment: (^0^)/ちゃ！　床屋で角刈りにしてもろたよぉぉぉ
+    date: 2009/06/28 18:47:06
+    is_odd: 0
+    "no": 14
+  - 
+    comment: "■オリジナルBGM『Favor』を初音ミクに手伝ってもらった（FullVer） ■ポン酢P "
+    date: 2009/06/28 18:47:31
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: ■2007.10.22 時/4:20 彡/5 ◆再/17,793 コ/456 マ/596 (3.35%)
+    date: 2009/06/28 18:47:34
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: 真上？さんいらっしゃい・・？
+    date: 2009/06/28 18:48:07
+    is_odd: 1
+    "no": 18
+  - 
+    comment: (-ε-)b&quot; チッチッチッ　イ＝ラッシャーイ・マシータ＝ラ＝シャーマ＝チャ＝イー・カリャク  (真下羅舎魔茶以下略）
+    date: 2009/06/28 18:48:43
+    is_odd: 0
+    "no": 19
+  - 
+    comment: 長いｗｗ
+    date: 2009/06/28 18:48:57
+    is_admin: 1
+    is_odd: 1
+    "no": 20
+  - 
+    comment: 真下さんで良いみたいですねｗ
+    date: 2009/06/28 18:49:21
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: " \n\n\n \n♥                        "
+    date: 2009/06/28 18:49:55
+    is_odd: 1
+    "no": 22
+  - 
+    comment: ですですw 今宵もヨロですぅぅぅ
+    date: 2009/06/28 18:50:05
+    is_odd: 0
+    "no": 23
+  - 
+    comment: こちらこそ。今夜は祭りです！
+    date: 2009/06/28 18:50:30
+    is_admin: 1
+    is_odd: 1
+    "no": 24
+  - 
+    comment: "■僕はロボット（PV）（初音ミクオリジナル曲） ■MikSolodyne-ts オサレP "
+    date: 2009/06/28 18:51:51
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: ■2009.05.24 時/4:33 彡/12 ◆再/30,110 コ/843 マ/2,794 (9.28%)
+    date: 2009/06/28 18:51:54
+    is_admin: 1
+    is_odd: 1
+    "no": 27
+  - 
+    comment: " \n\n\n \n\n\n \n\n      01"
+    date: 2009/06/28 18:51:57
+    is_odd: 0
+    "no": 28
+  - 
+    comment: この曲では意表を突かれました。
+    date: 2009/06/28 18:53:24
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: ブラスがカッコイイ！
+    date: 2009/06/28 18:53:40
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: " \n\n\n \n\n\n \n\n素　敵　！"
+    date: 2009/06/28 18:53:58
+    is_odd: 1
+    "no": 31
+  - 
+    comment: センスパネェ
+    date: 2009/06/28 18:54:03
+    is_odd: 0
+    "no": 32
+  - 
+    comment: ラッパの入れ方に俺は驚いたよ
+    date: 2009/06/28 18:54:07
+    is_odd: 1
+    "no": 33
+  - 
+    comment: エレキギターと合わせるってのが驚きだよ
+    date: 2009/06/28 18:54:41
+    is_odd: 0
+    "no": 34
+  - 
+    comment: "■Chaining Intention【初音ミクオリジナル】 ■Treow(逆衝動P) "
+    date: 2009/06/28 18:56:25
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: ■2008.11.08 時/4:34 彡/23 ◆再/108,943 コ/3,316 マ/5,922 (5.44%)
+    date: 2009/06/28 18:56:28
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: ".                \n\n\n "
+    date: 2009/06/28 18:57:32
+    is_odd: 1
+    "no": 38
+  - 
+    comment: "■ボカロ系生放送【第２回ミクノポップ大賞授賞式】のお知らせ ■きぬこもちＰ "
+    date: 2009/06/28 19:01:02
+    is_admin: 1
+    is_odd: 0
+    "no": 39
+  - 
+    comment: ■2009.06.28 時/1:03 彡/1 ◆再/57 コ/1 マ/2 (3.51%)
+    date: 2009/06/28 19:01:05
+    is_admin: 1
+    is_odd: 1
+    "no": 41
+  - 
+    comment: 授賞式は本日21:00からです。
+    date: 2009/06/28 19:01:33
+    is_admin: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: 投票された方もそうでない方もぜひお越しを！
+    date: 2009/06/28 19:01:58
+    is_admin: 1
+    is_odd: 1
+    "no": 43
+  - 
+    comment: "■【巡音ルカ】 フルチカゾン 【オリジナル曲】 ■なんとかP "
+    date: 2009/06/28 19:02:07
+    is_admin: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: ■2009.05.03 時/3:29 彡/15 ◆再/56,530 コ/1,774 マ/2,332 (4.13%)
+    date: 2009/06/28 19:02:10
+    is_admin: 1
+    is_odd: 1
+    "no": 46
+  - 
+    comment: "■【重音テト×巡音ルカ】true【オリジナル】 ■いるーP "
+    date: 2009/06/28 19:05:38
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: ■2009.05.07 時/4:13 彡/16 ◆再/1,617 コ/53 マ/97 (6.00%)
+    date: 2009/06/28 19:05:41
+    is_admin: 1
+    is_odd: 1
+    "no": 49
+  - 
+    comment: リク良い？
+    date: 2009/06/28 19:07:01
+    is_odd: 0
+    "no": 50
+  - 
+    comment: おｋです。みじかめでね！
+    date: 2009/06/28 19:07:15
+    is_admin: 1
+    is_odd: 1
+    "no": 51
+  - 
+    comment: sm2268739
+    date: 2009/06/28 19:07:19
+    is_odd: 0
+    "no": 52
+  - 
+    comment: リク〆ます
+    date: 2009/06/28 19:07:34
+    is_admin: 1
+    is_odd: 1
+    "no": 53
+  - 
+    comment: 確か短めだった筈だけど・・・どかな？無理ならスルーしてね
+    date: 2009/06/28 19:08:07
+    is_odd: 0
+    "no": 54
+  - 
+    comment: おｋです。次掛けます。
+    date: 2009/06/28 19:08:23
+    is_admin: 1
+    is_odd: 1
+    "no": 55
+  - 
+    comment: ありがとうです
+    date: 2009/06/28 19:08:37
+    is_odd: 0
+    "no": 56
+  - 
+    comment: 今来ました……遅かったかｗ
+    date: 2009/06/28 19:09:06
+    is_odd: 1
+    "no": 57
+  - 
+    comment: いらっしゃい。
+    date: 2009/06/28 19:09:16
+    is_admin: 1
+    is_odd: 0
+    "no": 58
+  - 
+    comment: いらっしゃー
+    date: 2009/06/28 19:09:23
+    is_odd: 1
+    "no": 59
+  - 
+    comment: 僕の枠は次の曲でおわりですが、他主さんに期待しましょｗ
+    date: 2009/06/28 19:09:40
+    is_admin: 1
+    is_odd: 0
+    "no": 60
+  - 
+    comment: ■【ロリMEIKO】 Nostalogic (radio edit) 【オリジナル曲】 ■P名?
+    date: 2009/06/28 19:09:51
+    is_admin: 1
+    is_odd: 1
+    "no": 61
+  - 
+    comment: ■2008.02.09 時/2:03 彡/1 ◆再/373,217 コ/12,495 マ/12,259 (3.28%)
+    date: 2009/06/28 19:09:54
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: 枠取りタイムは２０時半までだね
+    date: 2009/06/28 19:10:21
+    is_odd: 1
+    "no": 64
+  - 
+    comment: ではまた、ノシ
+    date: 2009/06/28 19:10:43
+    is_admin: 1
+    is_odd: 0
+    "no": 65
+  - 
+    comment: 乙っした～
+    date: 2009/06/28 19:10:49
+    is_odd: 1
+    "no": 66
+  - 
+    comment: 乙っした　ﾉｼ
+    date: 2009/06/28 19:10:51
+    is_odd: 0
+    "no": 67
+frame: 1
+part: 1256
+start: 1246182186
+time: 27
+title: ミクノポップをきかないか？part1256
+

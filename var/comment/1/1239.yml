@@ -1,0 +1,212 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: 枠取りおつーん
+    date: 2009/06/27 16:11:29
+    is_odd: 1
+    "no": 2
+  - 
+    comment: 枠乙～
+    date: 2009/06/27 16:11:42
+    is_odd: 0
+    "no": 3
+  - 
+    comment: いらっしゃい！
+    date: 2009/06/27 16:11:50
+    is_admin: 1
+    is_odd: 1
+    "no": 4
+  - 
+    comment: まずは前枠のリクエストから
+    date: 2009/06/27 16:12:35
+    is_admin: 1
+    is_odd: 0
+    "no": 5
+  - 
+    comment: ''
+    date: 2009/06/27 16:12:46
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: ■2009.02.10 時/5:31 彡/0 ◆再/1,408 コ/118 マ/89 (6.32%)
+    date: 2009/06/27 16:12:49
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: 下にゆっくりが見えるんだが・・・ｗ
+    date: 2009/06/27 16:13:25
+    is_odd: 1
+    "no": 9
+  - 
+    comment: リクは随時受付中です
+    date: 2009/06/27 16:13:40
+    is_admin: 1
+    is_odd: 0
+    "no": 10
+  - 
+    comment: "■It's like a music【初音ミク】【オリジナル曲】 ■オサレP MikSolodyne-ts "
+    date: 2009/06/27 16:18:18
+    is_admin: 1
+    is_odd: 1
+    "no": 11
+  - 
+    comment: ■2008.11.07 時/4:33 彡/15 ◆再/9,535 コ/291 マ/484 (5.08%)
+    date: 2009/06/27 16:18:21
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: 来るの遅れた・・・
+    date: 2009/06/27 16:19:26
+    is_odd: 1
+    "no": 14
+  - 
+    comment: いらっしゃい！
+    date: 2009/06/27 16:19:34
+    is_admin: 1
+    is_odd: 0
+    "no": 15
+  - 
+    comment: リクを見逃してもうた
+    date: 2009/06/27 16:20:26
+    is_odd: 1
+    "no": 16
+  - 
+    comment: 残念、今後は1曲目に主セレ入れるようにしますね。
+    date: 2009/06/27 16:21:18
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: "■【初音ミク】叶わぬ思いはやがて宇宙へ【リミックス】 ■チーターガールP "
+    date: 2009/06/27 16:22:52
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: ■2008.06.04 時/5:11 彡/5 ◆再/8,341 コ/215 マ/200 (2.40%)
+    date: 2009/06/27 16:22:55
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: チーターガールP素敵過ぎます。
+    date: 2009/06/27 16:27:31
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: nm6491915
+    date: 2009/06/27 16:27:53
+    is_odd: 0
+    "no": 22
+  - 
+    comment: リクありがとうございます
+    date: 2009/06/27 16:28:05
+    is_admin: 1
+    is_odd: 1
+    "no": 23
+  - 
+    comment: ■【初音ミク】 オリジナル　『春色観覧車』 ■P名?
+    date: 2009/06/27 16:28:08
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: ■2009.03.20 時/4:02 彡/9 ◆再/7,486 コ/262 マ/517 (6.91%)
+    date: 2009/06/27 16:28:11
+    is_admin: 1
+    is_odd: 1
+    "no": 26
+  - 
+    comment: "■【初音ミク】 inter-action（伝えあう私たちのために） 【オリジナル曲】 ■リーマンP "
+    date: 2009/06/27 16:32:11
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: ■2008.08.12 時/1:04 彡/20 ◆再/2,624 コ/72 マ/67 (2.55%)
+    date: 2009/06/27 16:32:14
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: "■【巡音ルカ】 フルチカゾン 【オリジナル曲】 ■なんとかP "
+    date: 2009/06/27 16:33:15
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: ■2009.05.03 時/3:29 彡/14 ◆再/56,341 コ/1,773 マ/2,337 (4.15%)
+    date: 2009/06/27 16:33:18
+    is_admin: 1
+    is_odd: 1
+    "no": 32
+  - 
+    comment: リク〆ます
+    date: 2009/06/27 16:33:34
+    is_admin: 1
+    is_odd: 0
+    "no": 33
+  - 
+    comment: "■experimental-002【初音ミク】（オリジナル） ■ゆうゆP "
+    date: 2009/06/27 16:36:46
+    is_admin: 1
+    is_odd: 1
+    "no": 34
+  - 
+    comment: ■2008.01.21 時/4:09 彡/12 ◆再/33,804 コ/868 マ/943 (2.79%)
+    date: 2009/06/27 16:36:49
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: この曲でこの枠はお別れです。
+    date: 2009/06/27 16:37:43
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: 僕はこれで休憩させていただきます。
+    date: 2009/06/27 16:38:07
+    is_admin: 1
+    is_odd: 0
+    "no": 38
+  - 
+    comment: 次枠は他主さんに期待ですｗ
+    date: 2009/06/27 16:38:27
+    is_admin: 1
+    is_odd: 1
+    "no": 39
+  - 
+    comment: 乙でした！ﾉｼ
+    date: 2009/06/27 16:39:01
+    is_odd: 0
+    "no": 40
+  - 
+    comment: お付き合いいただきありがとうございました。
+    date: 2009/06/27 16:39:35
+    is_admin: 1
+    is_odd: 1
+    "no": 41
+  - 
+    comment: では、また。　ノシ
+    date: 2009/06/27 16:39:55
+    is_admin: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: ﾉｼ
+    date: 2009/06/27 16:40:03
+    is_odd: 1
+    "no": 43
+frame: 1
+part: 1239
+start: 1246086689
+time: 28
+title: ミクノポップをきかないか？part1239
+
