@@ -43,20 +43,25 @@ while ( my $dir = $yaml_dir->next) {
 	}
 }
 
+my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
+
 my @html;
-for my $no( 1 .. max keys %{ $list } ){
+my $cnt = 0;
+for my $no( reverse 1 .. max keys %{ $list } ){
 	next if not defined $list->{ $no };
 	
 	my $db = YAML::Syck::LoadFile( $list->{$no} );
 
 	printf STDERR "%d ", $no;
 	
+	last if ++$cnt > 20;
+	
 	my $path = sprintf "./%d/%d.html", int( $no / 1000 ), $no;
 		
-	push @html, {
+	unshift @html, {
 		no => $no,
 		path => $path,
-		start => DateTime->from_epoch( epoch => $db->{start}, time_zone => 'local' ),
+		start => DateTime->from_epoch( epoch => $db->{start}, time_zone => $tz ),
 		aircaster => $db->{aircaster},
 		frame => $db->{frame},
 		meta_info => $meta->{ $no },
@@ -69,6 +74,16 @@ my $stash = {};
 for my $no( reverse @html ){
 	push @{ $stash->{live} }, $no;
 }
+
+# 月のリスト
+
+my $start = DateTime->new( time_zone => $tz, year => 2009, month => 5, day => 1 );
+my $this_month = DateTime->now( time_zone => $tz )->truncate( to => 'month' );
+
+for( ; $start <= $this_month; $start->add( days => 45 )->truncate( to => 'month' ) ){
+	unshift @{ $stash->{month} }, $start->clone;
+}
+
 
 # output
 my $template = &create_template;
