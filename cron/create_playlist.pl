@@ -63,6 +63,7 @@ my @ignore = qw(
 	sm7341325
 	sm7343558
 	sm7346152
+	sm7473981
 );
 
 my $content;
