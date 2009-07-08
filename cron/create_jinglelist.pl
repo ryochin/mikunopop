@@ -70,7 +70,7 @@ my @jingle = (
 	{
 		video_id => 'sm7033805',
 		vid => '7033805',
-		title => '【ジングル】ミクノポップをきかないか？【Freestyle ver】',
+		title => '【ジングル】ミクノポップをきかないか？【Freestyle ver.A】',
 		author => 'aoid さん',
 		length => '1:56',
 		desc => '',
@@ -81,6 +81,14 @@ my @jingle = (
 		title => '【ジングル】円の中の世界【EN】',
 		author => 'きぬこもちさん',
 		length => '2:48',
+		desc => '',
+	},
+	{
+		video_id => 'sm7539326',
+		vid => '7539326',
+		title => '【ジングル】ミクノポップをきかないか？ジングル【Freestyle ver.K】',
+		author => 'k-sk さん',
+		length => '1:56',
 		desc => '',
 	},
 );
