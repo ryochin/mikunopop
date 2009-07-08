@@ -24,6 +24,7 @@ use warnings "all";
 my @pkg = (
 	### webinterface
 	'count' => 'Mikunopop::Count',
+	'info' => 'Mikunopop::Info',
 );
 
 while( my ($path, $pkg) = splice @pkg, 0, 2 ){

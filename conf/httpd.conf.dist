@@ -118,7 +118,7 @@ Include conf/extract_forwarded.conf
 ### mod_perl
 
 #LoadModule perl_module modules/mod_perl.so
-#LoadModule apreq_module modules/mod_apreq2.so
+LoadModule apreq_module modules/mod_apreq2.so
 Include conf/perl.conf
 
 ### perl-status
