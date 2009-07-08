@@ -19,16 +19,21 @@ my $status_file = '/web/mikunopop/htdocs/var/live_status.js';
 
 my $live = 0;
 my ($uri, $title);
-if( my $feed = XML::Feed->parse(URI->new( $feed_uri ) ) ){
-	for my $entry( $feed->entries ){
-		$title = $entry->title;
-		next if $title !~ /ミクノポップをきかないか/o;
-		
-		$uri = $entry->link;
-		
-		printf STDERR "=> ON AIR: %s by feed.\n", $title;
-		$live++;
-		last;
+if( my $content = get( $feed_uri  ) ){
+	# たまに壊れた xml を送りつけられるので、手動でなんとかする
+	$content =~ s{^(.+?)<\?xml version="1.0" encoding="utf-8"\?>.+?$}{$1}so;
+	
+	if( my $feed = XML::Feed->parse( \ $content ) ){
+		for my $entry( $feed->entries ){
+			$title = $entry->title;
+			next if $title !~ /ミクノポップを(き|聞|聴)かないか/o;
+			
+			$uri = $entry->link;
+			
+			printf STDERR "=> ON AIR: %s by feed.\n", $title;
+			$live++;
+			last;
+		}
 	}
 }
 else{
