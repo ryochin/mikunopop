@@ -69,12 +69,12 @@ $(document).ready(function() {
 			<td align="left">[% title | html %]</td>
 		</tr>
 		<tr>
-			<td align="center">投稿日</td>
-			<td align="left">[% first_retrieve.strftime("%Y年%m月%d日 %H時%M分") | html %]</td>
-		</tr>
-		<tr>
 			<td align="center">時間</td>
 			<td align="left">[% length | html %]</td>
+		</tr>
+		<tr>
+			<td align="center">投稿日</td>
+			<td align="left">[% first_retrieve.strftime("%Y年%m月%d日 %H時%M分") | html %]</td>
 		</tr>
 		<tr>
 			<td align="center">再生数</td>
@@ -89,14 +89,6 @@ $(document).ready(function() {
 			<td align="left">[% mylist_counter | html | comma %]</td>
 		</tr>
 		<tr>
-			<td align="center">タグ</td>
-			<td align="left">
-				[% FOR t = tag %]
-					<a href="http://www.nicovideo.jp/tag/[% t | url | html %]" target="_blank">[% t | html %]</a>
-				[% END %]
-			</td>
-		</tr>
-		<tr>
 			<td align="center">Ｐ名</td>
 			<td align="left">
 				[% FOR p = pnames %]
@@ -107,6 +99,14 @@ $(document).ready(function() {
 		<tr>
 			<td align="center">ミクノ度</td>
 			<td align="left">[% count | html | comma %]</td>
+		</tr>
+		<tr>
+			<td align="center">タグ</td>
+			<td align="left">
+				[% FOR t = tag %]
+					<a href="http://www.nicovideo.jp/tag/[% t | url | html %]" target="_blank">[% t | html %]</a>
+				[% END %]
+			</td>
 		</tr>
 		<tr>
 			<td align="center">説明</td>
@@ -160,6 +160,11 @@ $(document).ready(function() {
 		<tr>
 			<td align="center">&nbsp;</td>
 			<td align="left" class="display">[% PROCESS info2color_nocount %]</td>
+		</tr>
+
+		<tr>
+			<td align="center">ログ用</td>
+			<td align="left"><input type="text" size="48" value="[% id | html %]　[%+ title | html %]" /></td>
 		</tr>
 	</table>
 
