@@ -32,10 +32,22 @@ sub handler : method {    ## no critic
 	my ($class, $r) = @_;
 	$r = Apache2::Request->new($r);
 
-	my $id = $r->param('id');
-	$id =~ s{^.+/((sm|nm)\d+)$}{$1};    # URL だったら削る
-
-	if( $id eq '' ){
+	my $id;
+	if( $r->param('id') =~ m{^.+/((sm|nm)\d+)$}o ){
+		# http://www.nicovideo.jp/watch/sm6626954
+		$id = $1;
+	}
+	elsif( $r->param('id') =~ m{^(sm|nm)\d+$}o ){
+		# sm6626954
+		$id = $r->param('id');
+	}
+	elsif( $r->param('id') =~ m{^\d+$}o ){
+		# 6626954
+		# -> sm を補完する
+		$id = sprintf "sm%d", $r->param('id');
+	}
+	else{
+		# path_info から得る
 		$id = $r->path_info;
 		$id =~ s{^/+}{}o;
 	}
@@ -46,8 +58,6 @@ sub handler : method {    ## no critic
 	my $info_url = sprintf "http://ext.nicovideo.jp/api/getthumbinfo/%s", $id;
 
 	if( $id and my $content = get( $info_url ) ){
-		$stash->{has_info} = 1;
-		
 		my $handler = {};
 		$handler->{'/nicovideo_thumb_response/thumb'} = sub {
 			my ($tree, $elem) = @_;
@@ -75,34 +85,41 @@ sub handler : method {    ## no critic
 		# parse
 		my $twig = XML::Twig->new( TwigHandlers => $handler );
 		eval { $twig->parse( $content ) };
-
-		# pname
-		if( my @pname = &get_pnames( @{ $stash->{tag} } ) ){
-			$stash->{pnames} = [ @pname ];
-			$stash->{pname} = join ' ', @pname;
-		}
-		else{
-			$stash->{pname} = "Ｐ名/?";
-		}
 		
-		# first_retrieve
-		my $f = DateTime::Format::W3CDTF->new;
-		$stash->{first_retrieve} = $f->parse_datetime( $stash->{first_retrieve} );
-		
-		# マイリス率
-		$stash->{mylist_percent} = sprintf "%.2f", $stash->{mylist_counter} / $stash->{view_counter} * 100;
-		
-		# ミクノ度をゲット
-		my $mikuno_url = sprintf "http://mikunopop.info/count/%s", $id;
-		if( my $content = get( $mikuno_url ) ){
-			if( my $json = JSON::Syck::Load( $content ) ){
-				if( defined $json->{count} and $json->{count} ne '' ){
-					$stash->{count} = $json->{count};
-				}
-				else{
-					$stash->{count} = '?';
+		if( defined $stash->{title} and $stash->{title} ne '' ){
+			$stash->{has_info} = 1;
+			
+			# pname
+			if( my @pname = &get_pnames( @{ $stash->{tag} } ) ){
+				$stash->{pnames} = [ @pname ];
+				$stash->{pname} = join ' ', @pname;
+			}
+			else{
+				$stash->{pname} = "Ｐ名/?";
+			}
+			
+			# first_retrieve
+			my $f = DateTime::Format::W3CDTF->new;
+			$stash->{first_retrieve} = eval { $f->parse_datetime( $stash->{first_retrieve} ) };
+			
+			# マイリス率
+			$stash->{mylist_percent} = sprintf "%.2f", $stash->{mylist_counter} / $stash->{view_counter} * 100;
+			
+			# ミクノ度をゲット
+			my $mikuno_url = sprintf "http://mikunopop.info/count/%s", $id;
+			if( my $content = get( $mikuno_url ) ){
+				if( my $json = JSON::Syck::Load( $content ) ){
+					if( defined $json->{count} and $json->{count} ne '' ){
+						$stash->{count} = $json->{count};
+					}
+					else{
+						$stash->{count} = '?';
+					}
 				}
 			}
+		}
+		else{
+			$stash->{not_found} = 1;
 		}
 	}
 
@@ -118,10 +135,14 @@ sub handler : method {    ## no critic
 
 sub get_pnames {
 	my @p = grep { $_ ne '' } @{ &pnames };
+	my @pn = qw(MikuPOP RinPOP アニメOP ゲームOP エロゲOP 偽OP);    # NG
+	
 	my @name;
 	for my $tag(@_){
 		if( $tag =~ /(P|Ｐ)$/io ){
-			push @name, $tag;
+			if( not first { $tag eq $_ } @pn ){
+				push @name, $tag;
+			}
 		}
 		elsif( first { $tag eq $_ } @p ){
 			push @name, $tag;

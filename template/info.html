@@ -48,10 +48,20 @@ $(document).ready(function() {
 
 	<form action="" method="post">
 		<p>
-			動画のアドレスまたは番号：<input type="text" name="id" id="vid" size="40" value="[% id | html %]" />
+			<span title="数字だけ入れると、sm とみなします">動画のアドレスまたは番号</span>：<input type="text" name="id" id="vid" size="60" value="[% id | html %]" />
 			<input type="submit" value="見る" />
 		</p>
 	</form>
+
+[% IF not_found %]
+
+	<h2>エラー</h2>
+
+	<p>
+		指定された動画番号（[% id | html %]）は、見つかりませんでした。
+	</p>
+
+[% END %]
 
 [% IF has_info %]
 
@@ -164,7 +174,7 @@ $(document).ready(function() {
 
 		<tr>
 			<td align="center">ログ用</td>
-			<td align="left"><input type="text" size="48" value="[% id | html %]　[%+ title | html %]" /></td>
+			<td align="left"><input type="text" size="60" value="[% id | html %]　[%+ title | html %]" /></td>
 		</tr>
 	</table>
 
