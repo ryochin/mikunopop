@@ -95,7 +95,7 @@ sub handler : method {    ## no critic
 				$stash->{pname} = join ' ', @pname;
 			}
 			else{
-				$stash->{pname} = "Ｐ名/?";
+				$stash->{pname} = "Ｐ名？";
 			}
 			
 			# first_retrieve
@@ -140,7 +140,7 @@ sub get_pnames {
 	my @name;
 	for my $tag(@_){
 		if( $tag =~ /(P|Ｐ)$/io ){
-			if( not first { $tag eq $_ } @pn ){
+			if( not first { $tag =~ /^$_$/i } @pn ){
 				push @name, $tag;
 			}
 		}
@@ -397,6 +397,23 @@ return ["",
 	"よ",
 	"MRtB",
 	"邪界ニドヘグ",
+	"えるのわ",
+	"白井しゅそ",
+	"musashi-k",
+	"774Muzik",
+	"とーい",
+	"GuitarGirlsAddiction",
+	"ypl",
+	"Masaki",
+	"yuxuki",
+	"れお",
+	"Dengaku",
+	"une",
+	"Rin（ぎん）",
+	"クリーム市長",
+	"Runo",
+	"en",
+	"ノーベル",
 ];
 
 }
