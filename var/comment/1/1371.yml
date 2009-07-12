@@ -189,10 +189,9 @@ content:
     is_odd: 0
     "no": 40
   - 
-    comment: ''
+    comment: 動画サーバが死んでるっぽい
     date: 2009/07/10 20:10:12
     is_admin: 1
-    is_empty: 1
     is_odd: 1
     "no": 42
   - 
