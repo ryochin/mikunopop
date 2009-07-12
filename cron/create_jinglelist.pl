@@ -49,7 +49,7 @@ my @jingle = (
 		title => '【ジングル】ミクノポップクエスト【sunlight loops】',
 		author => 'きぬこもちさん',
 		length => '2:22',
-		desc => '勇者アスタアの冒険編。',
+		desc => '勇者あすたあの冒険編。',
 	},
 	{
 		video_id => 'sm6981084',
