@@ -37,7 +37,7 @@ while ( my $dir = $yaml_dir->next) {
 	next if $dir !~ m{/\d+$}o;
 	
 	while ( my $f = $dir->next) {
-		next if $f !~ m{/\d+\.yml$}o;
+		next if $f !~ m{/\d+[\d\.]+\.yml$}o;
 		( my $no = $f->basename ) =~ s/\.yml$//o;
 		$list->{ $no } = $f;
 	}
@@ -47,21 +47,24 @@ my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
 
 my @html;
 my $cnt = 0;
-for my $no( reverse 1 .. max keys %{ $list } ){
+for( my $no = max keys %{ $list }; $no >= 1; $no -= 0.5 ){
 	next if not defined $list->{ $no };
 	
 	my $db = YAML::Syck::LoadFile( $list->{$no} );
 
-	printf STDERR "%d ", $no;
+	printf STDERR "%s ", $no;
 	
 	last if ++$cnt > 20;
 	
-	my $path = sprintf "./%d/%d.html", int( $no / 1000 ), $no;
-		
+	my $path = sprintf "./%d/%s.html", int( $no / 1000 ), $no;
+	
+	my $start = eval { DateTime->from_epoch( epoch => $db->{start}, time_zone => $tz ) }
+		or die;
+	
 	unshift @html, {
 		no => $no,
 		path => $path,
-		start => DateTime->from_epoch( epoch => $db->{start}, time_zone => $tz ),
+		start => $start,
 		aircaster => $db->{aircaster},
 		frame => $db->{frame},
 		meta_info => $meta->{ $no },

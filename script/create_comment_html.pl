@@ -42,7 +42,7 @@ while ( my $dir = $yaml_dir->next) {
 	next if $dir !~ m{/\d+$}o;
 	
 	while ( my $f = $dir->next) {
-		next if $f !~ m{/\d+\.yml$}o;
+		next if $f !~ m{/\d+[\d\.]+\.yml$}o;
 		( my $no = $f->basename ) =~ s/\.yml$//o;
 		$list->{ $no } = $f;
 	}
@@ -52,11 +52,14 @@ my $page = Data::Page->new;
 $page->total_entries( max keys %{ $list } );
 $page->entries_per_page( 1 );
 
+my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
+
 my $template = &create_template;
-for my $no( 1 .. $page->last_page ){
+for( my $no = 1; $no <= $page->last_page; $no += 0.5 ){
 	next if $no < $least_num;
 	next if not defined $list->{ $no };
-	my $html_file = sprintf "%d.html", $no;
+
+	my $html_file = sprintf "%s.html", $no;
 	my $dir = int( $no / 1000 );
 	my $html = file( $base_dir, 'htdocs', 'comment', $dir, $html_file );
 	$html->parent->mkpath if not -e $html->parent;
@@ -65,18 +68,18 @@ for my $no( 1 .. $page->last_page ){
 	my $stash = YAML::Syck::LoadFile( $list->{$no} );
 	
 	# 前の放送を探す
-	for( reverse 1 .. $no - 1 ){
-		next if not defined $list->{$_};
-		$stash->{prev_page} = $_;
-		$stash->{prev_page_url} = sprintf "../%d/%d.html", int( $_ / 1000 ), $_;
+	for( my $n = $no - 0.5; $n >= 1; $n -= 0.5 ){
+		next if not defined $list->{$n};
+		$stash->{prev_page} = $n;
+		$stash->{prev_page_url} = sprintf "../%d/%s.html", int( $n / 1000 ), $n;
 		last;
 	}
 	
 	# 次の放送を探す
-	for( $no + 1 .. $page->last_page ){
-		next if not defined $list->{$_};
-		$stash->{next_page} = $_;
-		$stash->{next_page_url} = sprintf "../%d/%d.html", int( $_ / 1000 ), $_;
+	for( my $n = $no + 0.5; $n <= $page->last_page; $n += 0.5 ){
+		next if not defined $list->{$n};
+		$stash->{next_page} = $n;
+		$stash->{next_page_url} = sprintf "../%d/%s.html", int( $n / 1000 ), $n;
 		last;
 	}
 	
@@ -103,7 +106,7 @@ for my $no( 1 .. $page->last_page ){
 	}
 	
 	# start
-	$stash->{start} = DateTime->from_epoch( epoch => $stash->{start}, time_zone => 'local' );
+	$stash->{start} = DateTime->from_epoch( epoch => $stash->{start}, time_zone => $tz );
 	
 	# meta
 	if( defined $meta->{ $no } and $meta->{ $no } ne '' ){
