@@ -1,0 +1,474 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: おつん！
+    date: 2009/07/10 22:54:54
+    is_odd: 1
+    "no": 2
+  - 
+    comment: こんばんわ。
+    date: 2009/07/10 22:55:10
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: おつー
+    date: 2009/07/10 22:55:19
+    is_odd: 1
+    "no": 4
+  - 
+    comment: この放送いつでもやってますねー
+    date: 2009/07/10 22:55:37
+    is_odd: 0
+    "no": 5
+  - 
+    comment: 理想は24時間いつでも！と師匠は言っています。
+    date: 2009/07/10 22:56:33
+    is_admin: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: "■【初音ミク】KEEP OUT【オリジナル曲】 ■ミュムP コメ少ないP "
+    date: 2009/07/10 22:57:08
+    is_admin: 1
+    is_odd: 0
+    "no": 7
+  - 
+    comment: ■2009.05.22 時/4:24 彡/7 ◆再/4,472 コ/134 マ/335 (7.49%)
+    date: 2009/07/10 22:57:14
+    is_admin: 1
+    is_odd: 1
+    "no": 9
+  - 
+    comment: ミュムPきたー
+    date: 2009/07/10 22:57:34
+    is_odd: 0
+    "no": 10
+  - 
+    comment: ミュムPあいしてるぅぅぅぅ
+    date: 2009/07/10 22:57:56
+    is_odd: 1
+    "no": 11
+  - 
+    comment: いまはリク受付中かい？
+    date: 2009/07/10 22:58:00
+    is_odd: 0
+    "no": 12
+  - 
+    comment: ちょっとうれしくなっちゃいましてｗ
+    date: 2009/07/10 22:58:01
+    is_admin: 1
+    is_odd: 1
+    "no": 13
+  - 
+    comment: リクズイージｗ
+    date: 2009/07/10 22:58:11
+    is_odd: 0
+    "no": 14
+  - 
+    comment: リクは随時受付中です！
+    date: 2009/07/10 22:58:12
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: Room206カバーのフルまだー！？
+    date: 2009/07/10 22:58:19
+    is_odd: 0
+    "no": 16
+  - 
+    comment: nm6964380
+    date: 2009/07/10 22:58:21
+    is_odd: 1
+    "no": 17
+  - 
+    comment: 主に勝ったｗ
+    date: 2009/07/10 22:58:23
+    is_odd: 0
+    "no": 18
+  - 
+    comment: ああ、あのカバーよかったなぁ～
+    date: 2009/07/10 22:58:40
+    is_odd: 1
+    "no": 19
+  - 
+    comment: ま、負けた！？
+    date: 2009/07/10 22:58:50
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: 負けるとは何事だ！　特訓が必要ですねｗ
+    date: 2009/07/10 23:00:34
+    is_odd: 1
+    "no": 21
+  - 
+    comment: ご協力感謝します　（ーー＃）　＞14
+    date: 2009/07/10 23:00:38
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: リクズイージとリクカモーンは単語登録ｗ
+    date: 2009/07/10 23:01:41
+    is_odd: 1
+    "no": 24
+  - 
+    comment: ■【初音ミク】日曜日フレーバー【オリジナル曲】 ■P名?
+    date: 2009/07/10 23:01:43
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: ■2009.05.06 時/4:08 彡/7 ◆再/4,092 コ/103 マ/361 (8.82%)
+    date: 2009/07/10 23:01:46
+    is_admin: 1
+    is_odd: 1
+    "no": 26
+  - 
+    comment: どうりで早いわけだｗ
+    date: 2009/07/10 23:02:11
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: ''
+    date: 2009/07/10 23:05:53
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: ''
+    date: 2009/07/10 23:05:54
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 29
+  - 
+    comment: ■2008.12.19 時/4:02 彡/1 ◆再/1,703 コ/48 マ/81 (4.76%)
+    date: 2009/07/10 23:05:59
+    is_admin: 1
+    is_odd: 1
+    "no": 30
+  - 
+    comment: sm2268739
+    date: 2009/07/10 23:06:37
+    is_odd: 0
+    "no": 31
+  - 
+    comment: リクありがとー
+    date: 2009/07/10 23:06:57
+    is_admin: 1
+    is_odd: 1
+    "no": 32
+  - 
+    comment: あ、今来てログ見たのですが、Room206カバーはまだ手つけてません(´-ω-｀;)ゞ　みゅむ
+    date: 2009/07/10 23:08:08
+    is_odd: 0
+    "no": 33
+  - 
+    comment: いらー
+    date: 2009/07/10 23:08:21
+    is_odd: 1
+    "no": 34
+  - 
+    comment: ミュムPいらっしゃい
+    date: 2009/07/10 23:08:22
+    is_admin: 1
+    is_odd: 0
+    "no": 35
+  - 
+    comment: 降臨された！？
+    date: 2009/07/10 23:08:37
+    is_odd: 1
+    "no": 36
+  - 
+    comment: 楽しみにしてるからね！
+    date: 2009/07/10 23:08:50
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: うぉいぇい！
+    date: 2009/07/10 23:08:51
+    is_odd: 1
+    "no": 38
+  - 
+    comment: ミュムP　あいしてるぅ
+    date: 2009/07/10 23:08:53
+    is_odd: 0
+    "no": 39
+  - 
+    comment: ■【ロリMEIKO】 Nostalogic (radio edit) 【オリジナル曲】 ■P名?
+    date: 2009/07/10 23:09:57
+    is_admin: 1
+    is_odd: 1
+    "no": 40
+  - 
+    comment: 新曲だしたのしってますよｗ、さっさと次の作業へｗ
+    date: 2009/07/10 23:09:58
+    is_odd: 0
+    "no": 42
+  - 
+    comment: ■2008.02.09 時/2:03 彡/3 ◆再/377,000 コ/12,524 マ/12,304 (3.26%)
+    date: 2009/07/10 23:10:03
+    is_admin: 1
+    is_odd: 1
+    "no": 43
+  - 
+    comment: ｗ
+    date: 2009/07/10 23:10:06
+    is_admin: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: 42＞おまｗなんてことをｗ
+    date: 2009/07/10 23:10:20
+    is_odd: 1
+    "no": 45
+  - 
+    comment: プレッシャーで吐きそう(；´艸｀)がんばりま～ふ　みゅむ
+    date: 2009/07/10 23:10:25
+    is_odd: 0
+    "no": 46
+  - 
+    comment: ！！！！
+    date: 2009/07/10 23:10:35
+    is_admin: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: 無理しないでね！
+    date: 2009/07/10 23:10:52
+    is_admin: 1
+    is_odd: 0
+    "no": 48
+  - 
+    comment: ■【初音ミク】ステラプレイス【オリジナル曲】 ■P名?
+    date: 2009/07/10 23:12:04
+    is_admin: 1
+    is_odd: 1
+    "no": 49
+  - 
+    comment: ■2009.05.10 時/3:52 彡/4 ◆再/23,464 コ/1,116 マ/1,622 (6.91%)
+    date: 2009/07/10 23:12:10
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: 踏ん張りどころなので無理してでも届けます＞＜　でわ、引き篭もります。　　みゅむ
+    date: 2009/07/10 23:12:20
+    is_odd: 1
+    "no": 52
+  - 
+    comment: ミュムPも今日くらいはまったりしたらどうですか～？
+    date: 2009/07/10 23:12:43
+    is_odd: 0
+    "no": 53
+  - 
+    comment: ''
+    date: 2009/07/10 23:12:59
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 54
+  - 
+    comment: 2,3日はごろごろしますよｃ⌒っ*´з｀）　みゅむ
+    date: 2009/07/10 23:14:34
+    is_odd: 0
+    "no": 55
+  - 
+    comment: じゃあ私もごろごろお供しますｗ
+    date: 2009/07/10 23:14:57
+    is_odd: 1
+    "no": 56
+  - 
+    comment: ｺﾞﾛｺﾞﾛｺﾞﾛｺﾞﾛY⌒Y⌒(ﾟ∀ﾟ)⌒Y⌒(｡A｡)⌒Y⌒(ﾟ∀ﾟ)⌒Y⌒Yｺﾞﾛｺﾞﾛｺﾞﾛｺﾞﾛ
+    date: 2009/07/10 23:15:05
+    is_odd: 0
+    "no": 57
+  - 
+    comment: ｺﾞﾛｺﾞﾛｺﾞﾛｺﾞﾛY⌒Y⌒(ﾟ∀ﾟ)⌒Y⌒(｡A｡)⌒Y⌒(ﾟ∀ﾟ)⌒Y⌒Yｺﾞﾛｺﾞﾛｺﾞﾛｺﾞﾛ
+    date: 2009/07/10 23:15:15
+    is_admin: 1
+    is_odd: 1
+    "no": 58
+  - 
+    comment: おまｗｗ転がりすぎｗｗ
+    date: 2009/07/10 23:15:16
+    is_odd: 0
+    "no": 59
+  - 
+    comment: http://www.nicovideo.jp/watch/sm7592010　みゅむｐ新曲
+    date: 2009/07/10 23:15:27
+    is_odd: 1
+    "no": 60
+  - 
+    comment: 60さん、その動画は新着なので流せないんです、ごめんなさい
+    date: 2009/07/10 23:15:27
+    is_odd: 0
+    "no": 61
+  - 
+    comment: 有名Pにゴロゴロは許されないなり～
+    date: 2009/07/10 23:15:42
+    is_odd: 1
+    "no": 62
+  - 
+    comment: "■【巡音ルカ】急げO-Train【オリジナル】 ■ドンドコP "
+    date: 2009/07/10 23:16:05
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: ■2009.04.05 時/3:43 彡/3 ◆再/615 コ/24 マ/41 (6.67%)
+    date: 2009/07/10 23:16:11
+    is_admin: 1
+    is_odd: 1
+    "no": 65
+  - 
+    comment: じゃあミュムP代わりにごろごろしとくから安心して～ｗ
+    date: 2009/07/10 23:16:20
+    is_odd: 0
+    "no": 66
+  - 
+    comment: 情報ありがとー。＞６０さん
+    date: 2009/07/10 23:16:51
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: 新曲はミクノじゃないのでどちらにしろ申し訳ないですｃ⌒っ*´з｀)　ごろり　みゅむ
+    date: 2009/07/10 23:16:58
+    is_odd: 0
+    "no": 68
+  - 
+    comment: 放送とは別で楽しませていただきますｗ
+    date: 2009/07/10 23:17:44
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: それは残念ですが楽しませていただきます～ｃ⌒っ*´з｀)　ごろり
+    date: 2009/07/10 23:18:48
+    is_odd: 0
+    "no": 70
+  - 
+    comment: でわでわ、本当に引き篭もりますね♪　ｃ⌒っ ﾟДﾟ)　みゅむ
+    date: 2009/07/10 23:19:32
+    is_odd: 1
+    "no": 71
+  - 
+    comment: 頑張って～
+    date: 2009/07/10 23:19:44
+    is_odd: 0
+    "no": 72
+  - 
+    comment: ノシ
+    date: 2009/07/10 23:19:58
+    is_admin: 1
+    is_odd: 1
+    "no": 73
+  - 
+    comment: "■【初音ミク】baker氏のcarolをフルカバーしてみた【旧版ベース】 ■iroha(sasaki) ウイイレＰ "
+    date: 2009/07/10 23:20:11
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: ■2008.08.06 時/4:25 彡/2 ◆再/19,939 コ/1,605 マ/557 (2.79%)
+    date: 2009/07/10 23:20:17
+    is_admin: 1
+    is_odd: 1
+    "no": 76
+  - 
+    comment: 皆ごろごろしながらミクノを聴いてるのは分かったｗ
+    date: 2009/07/10 23:20:47
+    is_odd: 0
+    "no": 77
+  - 
+    comment: 今回の僕の放送はこの曲で最後です。
+    date: 2009/07/10 23:21:55
+    is_admin: 1
+    is_odd: 1
+    "no": 78
+  - 
+    comment: このcarolが一番好き♪
+    date: 2009/07/10 23:22:20
+    is_odd: 0
+    "no": 79
+  - 
+    comment: 次は他主さんに期待ということで。
+    date: 2009/07/10 23:22:23
+    is_admin: 1
+    is_odd: 1
+    "no": 80
+  - 
+    comment: おつ～
+    date: 2009/07/10 23:22:33
+    is_odd: 0
+    "no": 81
+  - 
+    comment: 乙でした～
+    date: 2009/07/10 23:22:33
+    is_odd: 1
+    "no": 82
+  - 
+    comment: ではまた、ノシ
+    date: 2009/07/10 23:22:52
+    is_admin: 1
+    is_odd: 0
+    "no": 83
+  - 
+    comment: おっっっっっつんでした～
+    date: 2009/07/10 23:22:56
+    is_odd: 1
+    "no": 84
+  - 
+    comment: ﾉｼ
+    date: 2009/07/10 23:22:59
+    is_odd: 0
+    "no": 85
+  - 
+    comment: ノシ
+    date: 2009/07/10 23:22:59
+    is_odd: 1
+    "no": 86
+  - 
+    comment: おっつー
+    date: 2009/07/10 23:23:04
+    is_odd: 0
+    "no": 87
+  - 
+    comment: 夜中にまたやるかも・・・？
+    date: 2009/07/10 23:23:07
+    is_admin: 1
+    is_odd: 1
+    "no": 88
+  - 
+    comment: 夜中って4時位ですか？ｗ
+    date: 2009/07/10 23:23:21
+    is_odd: 0
+    "no": 89
+  - 
+    comment: おつんおつん！
+    date: 2009/07/10 23:23:32
+    is_odd: 1
+    "no": 90
+  - 
+    comment: 乙でした
+    date: 2009/07/10 23:23:45
+    is_odd: 0
+    "no": 91
+  - 
+    comment: ﾉｼ
+    date: 2009/07/10 23:24:47
+    is_odd: 1
+    "no": 92
+frame: 1
+part: 1376
+start: 1247234094
+time: 29
+title: ミクノポップをきかないか？part1376
+

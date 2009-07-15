@@ -1,0 +1,373 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: こんばんわ～
+    date: 2009/06/30 00:27:07
+    is_odd: 1
+    "no": 2
+  - 
+    comment: こんばんは。
+    date: 2009/06/30 00:27:14
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: こんばんはーおつです
+    date: 2009/06/30 00:27:16
+    is_odd: 1
+    "no": 4
+  - 
+    comment: いらっしゃい
+    date: 2009/06/30 00:27:26
+    is_admin: 1
+    is_odd: 0
+    "no": 5
+  - 
+    comment: リクは随時受付中（彡0しか掛けないよｗ）
+    date: 2009/06/30 00:28:07
+    is_admin: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: 尻尾ゼロｗｗ
+    date: 2009/06/30 00:28:39
+    is_odd: 0
+    "no": 7
+  - 
+    comment: sm7256890
+    date: 2009/06/30 00:29:12
+    is_odd: 1
+    "no": 8
+  - 
+    comment: ''
+    date: 2009/06/30 00:29:16
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: ■2008.12.26 時/4:40 彡/0 ◆再/539 コ/18 マ/24 (4.45%)
+    date: 2009/06/30 00:29:19
+    is_admin: 1
+    is_odd: 1
+    "no": 11
+  - 
+    comment: わりとあるもんだな
+    date: 2009/06/30 00:29:42
+    is_odd: 0
+    "no": 12
+  - 
+    comment: nm6506432
+    date: 2009/06/30 00:29:55
+    is_odd: 1
+    "no": 13
+  - 
+    comment: リクありがとうございます。
+    date: 2009/06/30 00:30:11
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: 実はリクまったく来ないんじゃないかと思っていましたｗ
+    date: 2009/06/30 00:31:40
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: ■【初音ミク】恋の射程距離３９メートル★【オリジナル曲】 ■P名?
+    date: 2009/06/30 00:33:59
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: ■2009.06.05 時/3:01 彡/0 ◆再/642 コ/29 マ/41 (6.39%)
+    date: 2009/06/30 00:34:02
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: わっ、かわいいの来ましたね。
+    date: 2009/06/30 00:34:30
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: はい俺の嫁です
+    date: 2009/06/30 00:34:49
+    is_odd: 1
+    "no": 20
+  - 
+    comment: sm7415141
+    date: 2009/06/30 00:35:03
+    is_odd: 0
+    "no": 21
+  - 
+    comment: そ、阻止します。
+    date: 2009/06/30 00:35:06
+    is_admin: 1
+    is_odd: 1
+    "no": 22
+  - 
+    comment: リク阻止されたorz
+    date: 2009/06/30 00:35:19
+    is_odd: 0
+    "no": 23
+  - 
+    comment: ｗｗｗ
+    date: 2009/06/30 00:35:28
+    is_admin: 1
+    is_odd: 1
+    "no": 24
+  - 
+    comment: ごめんなさいｗリク受け付けました
+    date: 2009/06/30 00:35:37
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: sm7410300
+    date: 2009/06/30 00:36:42
+    is_odd: 1
+    "no": 26
+  - 
+    comment: "■初音ミクにオリジナル曲『　エンドロサイドミクス　（何年待ってもエンディングロールは未だ来ず）　』３ ■載しますP "
+    date: 2009/06/30 00:37:00
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: ■2009.03.22 時/3:39 彡/0 ◆再/213 コ/6 マ/4 (1.88%)
+    date: 2009/06/30 00:37:03
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: あ、しまった。この時間帯だと解禁曲＝彡０ですねｗ
+    date: 2009/06/30 00:37:46
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: 解禁曲くらいしか狙う所がないｗｗ
+    date: 2009/06/30 00:39:55
+    is_odd: 1
+    "no": 31
+  - 
+    comment: "■【初音ミク】nak-ami code51【オリジナル】 ■nak-amiP "
+    date: 2009/06/30 00:40:41
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: ■2009.06.22 時/2:59 彡/0 ◆再/1,059 コ/51 マ/99 (9.35%)
+    date: 2009/06/30 00:40:44
+    is_admin: 1
+    is_odd: 1
+    "no": 34
+  - 
+    comment: マニアックな枠だなぁｗ
+    date: 2009/06/30 00:41:12
+    is_odd: 0
+    "no": 35
+  - 
+    comment: おっと、2曲目の方は今度枠を取った時に流させていただきます。
+    date: 2009/06/30 00:41:35
+    is_admin: 1
+    is_odd: 1
+    "no": 36
+  - 
+    comment: sm7406927　たぶん尻尾付き
+    date: 2009/06/30 00:42:42
+    is_odd: 0
+    "no": 37
+  - 
+    comment: マイリス頂きますｗ
+    date: 2009/06/30 00:42:44
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: なにぃｗ
+    date: 2009/06/30 00:42:51
+    is_odd: 0
+    "no": 39
+  - 
+    comment: 主もあんぐら～星人だったのかｗ
+    date: 2009/06/30 00:43:27
+    is_odd: 1
+    "no": 40
+  - 
+    comment: 37も0ですねｗでもまたこんどねｗ
+    date: 2009/06/30 00:43:30
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: ■【巡音ルカ】  LOST IN SEASON  【オリジナル】 ■P名?
+    date: 2009/06/30 00:43:43
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: ■2009.05.12 時/4:45 彡/0 ◆再/562 コ/25 マ/28 (4.98%)
+    date: 2009/06/30 00:43:46
+    is_admin: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: kotacさんに弟子ができたようです
+    date: 2009/06/30 00:44:03
+    is_odd: 1
+    "no": 45
+  - 
+    comment: ！
+    date: 2009/06/30 00:44:20
+    is_admin: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: boroさんはあんぐらー　っとﾒﾓﾒﾓ
+    date: 2009/06/30 00:44:31
+    is_odd: 1
+    "no": 47
+  - 
+    comment: 弟子だなんて、滅相も無い。ただのファンですｗ
+    date: 2009/06/30 00:44:49
+    is_admin: 1
+    is_odd: 0
+    "no": 48
+  - 
+    comment: この人昨日に新曲来てるんだね　s　m7479871
+    date: 2009/06/30 00:45:18
+    is_odd: 1
+    "no": 49
+  - 
+    comment: 情報ありがとうございます！後で見に行きます！
+    date: 2009/06/30 00:45:53
+    is_admin: 1
+    is_odd: 0
+    "no": 50
+  - 
+    comment: ■[初音ミク]フリーオンガク ■P名?
+    date: 2009/06/30 00:48:29
+    is_admin: 1
+    is_odd: 1
+    "no": 51
+  - 
+    comment: ■2008.09.12 時/2:50 彡/0 ◆再/183 コ/6 マ/2 (1.09%)
+    date: 2009/06/30 00:48:32
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: この音いいなぁ
+    date: 2009/06/30 00:49:12
+    is_odd: 1
+    "no": 54
+  - 
+    comment: ほほぅ
+    date: 2009/06/30 00:49:16
+    is_odd: 0
+    "no": 55
+  - 
+    comment: ほほぅ
+    date: 2009/06/30 00:49:28
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: 主のアンテナどこに張ってるんだ？　いいねぇ
+    date: 2009/06/30 00:50:06
+    is_odd: 0
+    "no": 57
+  - 
+    comment: 余裕でマイリス入りでした＾＾
+    date: 2009/06/30 00:50:20
+    is_odd: 1
+    "no": 58
+  - 
+    comment: ありがとうございます　＾＾ｖ
+    date: 2009/06/30 00:50:20
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: "■時田トリビュート「君とボク、ワタシと世界」（初音ミク・鏡音リン） ■HironoLin "
+    date: 2009/06/30 00:51:19
+    is_admin: 1
+    is_odd: 1
+    "no": 60
+  - 
+    comment: ■2009.04.19 時/2:10 彡/0 ◆再/2,113 コ/40 マ/54 (2.56%)
+    date: 2009/06/30 00:51:22
+    is_admin: 1
+    is_odd: 0
+    "no": 62
+  - 
+    comment: 昨日ミクノポップ大賞授賞式を待ちながらずーっと検索していたり・・・・
+    date: 2009/06/30 00:51:43
+    is_admin: 1
+    is_odd: 1
+    "no": 63
+  - 
+    comment: ■【初音ミク】オリジナル「二進法のマリア」 ■P名?
+    date: 2009/06/30 00:53:33
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: ■2009.04.27 時/3:12 彡/0 ◆再/626 コ/16 マ/9 (1.44%)
+    date: 2009/06/30 00:53:36
+    is_admin: 1
+    is_odd: 1
+    "no": 66
+  - 
+    comment: この曲で今夜はお別れです。
+    date: 2009/06/30 00:54:06
+    is_admin: 1
+    is_odd: 0
+    "no": 67
+  - 
+    comment: 関連タグがない・・・だとっ
+    date: 2009/06/30 00:54:10
+    is_odd: 1
+    "no": 68
+  - 
+    comment: お付き合い頂きありがとうございました。
+    date: 2009/06/30 00:54:22
+    is_admin: 1
+    is_odd: 0
+    "no": 69
+  - 
+    comment: ﾉｼ～
+    date: 2009/06/30 00:54:34
+    is_odd: 1
+    "no": 70
+  - 
+    comment: この発掘スタイル　時間かかるｗ
+    date: 2009/06/30 00:54:45
+    is_odd: 0
+    "no": 71
+  - 
+    comment: ではまた。ノシ
+    date: 2009/06/30 00:54:51
+    is_admin: 1
+    is_odd: 1
+    "no": 72
+  - 
+    comment: ﾉｼﾉｼ
+    date: 2009/06/30 00:54:55
+    is_odd: 0
+    "no": 73
+  - 
+    comment: 主が増えるとミクノの世界も広がるねぇ
+    date: 2009/06/30 00:56:03
+    is_odd: 1
+    "no": 74
+frame: 1
+part: 1267
+start: 1246289227
+time: 28
+title: ミクノポップをきかないか？part1267
+

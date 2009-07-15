@@ -1,0 +1,516 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: よっしゃ、0番！今北！
+    date: 2009/07/08 00:13:01
+    is_odd: 1
+    "no": 2
+  - 
+    comment: いらっしゃい！
+    date: 2009/07/08 00:13:11
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: 久々にジングルが聞ける―♪ｗ
+    date: 2009/07/08 00:13:23
+    is_odd: 1
+    "no": 4
+  - 
+    comment: ｗｗ
+    date: 2009/07/08 00:13:29
+    is_admin: 1
+    is_odd: 0
+    "no": 5
+  - 
+    comment: ジングル見てもらいたい時は2曲目とかに回した方がいいかな？
+    date: 2009/07/08 00:14:01
+    is_admin: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: そですね
+    date: 2009/07/08 00:14:18
+    is_odd: 0
+    "no": 7
+  - 
+    comment: にゃーん
+    date: 2009/07/08 00:14:27
+    is_odd: 1
+    "no": 8
+  - 
+    comment: "■【カバー】エクストリームがみてる【初音ミク】 ■あかやかP ビンラディンP "
+    date: 2009/07/08 00:14:30
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: 再生失敗っていうねｗｗｗ
+    date: 2009/07/08 00:14:35
+    is_odd: 1
+    "no": 11
+  - 
+    comment: ■2009.01.19 時/2:39 彡/0 ◆再/634 コ/46 マ/19 (3.00%)
+    date: 2009/07/08 00:14:36
+    is_admin: 1
+    is_odd: 0
+    "no": 12
+  - 
+    comment: ぱぉ～ん
+    date: 2009/07/08 00:14:41
+    is_admin: 1
+    is_odd: 1
+    "no": 13
+  - 
+    comment: ↑きれいｗ
+    date: 2009/07/08 00:14:47
+    is_odd: 0
+    "no": 14
+  - 
+    comment: ＜●＞＜●＞
+    date: 2009/07/08 00:15:02
+    is_odd: 1
+    "no": 15
+  - 
+    comment: ニコリクMEのおかげですｗ＞コメ色
+    date: 2009/07/08 00:15:13
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: そんなこともできるんですねｗ
+    date: 2009/07/08 00:15:32
+    is_odd: 1
+    "no": 17
+  - 
+    comment: こんつぁ！おじゃましますー！
+    date: 2009/07/08 00:15:46
+    is_odd: 0
+    "no": 18
+  - 
+    comment: いらっしゃ～い
+    date: 2009/07/08 00:15:52
+    is_admin: 1
+    is_odd: 1
+    "no": 19
+  - 
+    comment: いら廃～
+    date: 2009/07/08 00:15:57
+    is_odd: 0
+    "no": 20
+  - 
+    comment: ツンデレ～に聞こえるんだが
+    date: 2009/07/08 00:16:04
+    is_odd: 1
+    "no": 21
+  - 
+    comment: ｗ
+    date: 2009/07/08 00:16:11
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: 主はツンデレされたいですｗ
+    date: 2009/07/08 00:16:36
+    is_admin: 1
+    is_odd: 1
+    "no": 23
+  - 
+    comment: 特にデレ。
+    date: 2009/07/08 00:16:53
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: ｗｗｗ
+    date: 2009/07/08 00:16:57
+    is_odd: 1
+    "no": 25
+  - 
+    comment: そんなこと言ったってしてあげないんだからね！！///
+    date: 2009/07/08 00:16:59
+    is_odd: 0
+    "no": 26
+  - 
+    comment: ニコリクＭＥ？
+    date: 2009/07/08 00:17:04
+    is_odd: 1
+    "no": 27
+  - 
+    comment: "■【巡音ルカ(＋リン＆レン)】 ジガインフレイション 【オリジナル】 ■マイゴッドP "
+    date: 2009/07/08 00:17:14
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: ■2009.05.12 時/3:27 彡/1 ◆再/603 コ/13 マ/22 (3.65%)
+    date: 2009/07/08 00:17:20
+    is_admin: 1
+    is_odd: 1
+    "no": 30
+  - 
+    comment: 彡ってなんぞｗ
+    date: 2009/07/08 00:17:30
+    is_odd: 0
+    "no": 31
+  - 
+    comment: 通称ひげ。ミクノ生での再生回数です。
+    date: 2009/07/08 00:17:49
+    is_odd: 1
+    "no": 32
+  - 
+    comment: あ、思わず下コメｗ
+    date: 2009/07/08 00:18:00
+    is_admin: 1
+    is_odd: 0
+    "no": 33
+  - 
+    comment: なるほどーｗ
+    date: 2009/07/08 00:18:02
+    is_odd: 1
+    "no": 34
+  - 
+    comment: ニコリクME（ミクノポップエディション）は、ミクノ生主のさいはねさんが
+    date: 2009/07/08 00:19:25
+    is_admin: 1
+    is_odd: 0
+    "no": 35
+  - 
+    comment: ふむふむ
+    date: 2009/07/08 00:19:38
+    is_odd: 1
+    "no": 36
+  - 
+    comment: 今北　今月の初音みっくす見た？
+    date: 2009/07/08 00:19:44
+    is_odd: 0
+    "no": 37
+  - 
+    comment: 初心者生主のために用意してくれたミクノ生用に機能を厳選した生主ツールのことです。
+    date: 2009/07/08 00:20:07
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: さいはねさんの技術力に乾杯！
+    date: 2009/07/08 00:20:29
+    is_odd: 0
+    "no": 39
+  - 
+    comment: 初音みっくす？
+    date: 2009/07/08 00:20:36
+    is_admin: 1
+    is_odd: 1
+    "no": 40
+  - 
+    comment: ■【初音ミク】sleepy dance【オリジナル】 ■P名?
+    date: 2009/07/08 00:20:48
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: ■2009.06.28 時/9:04 彡/1 ◆再/2,136 コ/121 マ/139 (6.51%)
+    date: 2009/07/08 00:20:54
+    is_admin: 1
+    is_odd: 1
+    "no": 43
+  - 
+    comment: ラッシュ　連載中だったっけ　非公式漫画
+    date: 2009/07/08 00:20:56
+    is_odd: 0
+    "no": 44
+  - 
+    comment: おぉ、主はボカロ初心者なのであまり詳しくないのです。
+    date: 2009/07/08 00:21:34
+    is_admin: 1
+    is_odd: 1
+    "no": 45
+  - 
+    comment: あとでちょっと調べてみるねｗ
+    date: 2009/07/08 00:21:44
+    is_admin: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: 今月号？　８月号は見たよ
+    date: 2009/07/08 00:22:35
+    is_odd: 1
+    "no": 47
+  - 
+    comment: 楽譜の話
+    date: 2009/07/08 00:22:48
+    is_odd: 0
+    "no": 48
+  - 
+    comment: 合羽ミクかわゆす
+    date: 2009/07/08 00:23:17
+    is_odd: 1
+    "no": 49
+  - 
+    comment: 虹の下には宝物
+    date: 2009/07/08 00:24:56
+    is_odd: 0
+    "no": 50
+  - 
+    comment: 漫画のネタかな？
+    date: 2009/07/08 00:26:24
+    is_admin: 1
+    is_odd: 1
+    "no": 51
+  - 
+    comment: とりあえず市場に漫画追加したよ
+    date: 2009/07/08 00:28:00
+    is_odd: 0
+    "no": 52
+  - 
+    comment: おぉ、情報さんくす。
+    date: 2009/07/08 00:28:26
+    is_admin: 1
+    is_odd: 1
+    "no": 53
+  - 
+    comment: 誕生日は8月らしい（漫画情報）
+    date: 2009/07/08 00:29:05
+    is_odd: 0
+    "no": 54
+  - 
+    comment: 誕生日＝発売日ですからｗ
+    date: 2009/07/08 00:29:22
+    is_odd: 1
+    "no": 55
+  - 
+    comment: もうすぐ2年ってことかー
+    date: 2009/07/08 00:29:49
+    is_admin: 1
+    is_odd: 0
+    "no": 56
+  - 
+    comment: 18歳かー
+    date: 2009/07/08 00:29:56
+    is_odd: 1
+    "no": 57
+  - 
+    comment: ■【巡音ルカオリジナル曲】　anything other　【調整版歌詞付】 ■P名?
+    date: 2009/07/08 00:30:00
+    is_admin: 1
+    is_odd: 0
+    "no": 58
+  - 
+    comment: ■2009.06.25 時/4:42 彡/2 ◆再/672 コ/30 マ/42 (6.25%)
+    date: 2009/07/08 00:30:06
+    is_admin: 1
+    is_odd: 1
+    "no": 60
+  - 
+    comment: 2歳じゃないの？ｗｗ
+    date: 2009/07/08 00:30:09
+    is_odd: 0
+    "no": 61
+  - 
+    comment: ！？
+    date: 2009/07/08 00:30:22
+    is_admin: 1
+    is_odd: 1
+    "no": 62
+  - 
+    comment: ミクは永遠の１７さ・・・ではなくて１６歳です！
+    date: 2009/07/08 00:30:47
+    is_odd: 0
+    "no": 63
+  - 
+    comment: 設定年齢から歳とるのか！？
+    date: 2009/07/08 00:30:47
+    is_admin: 1
+    is_odd: 1
+    "no": 64
+  - 
+    comment: 気持ちは18歳でっ！←
+    date: 2009/07/08 00:31:13
+    is_odd: 0
+    "no": 65
+  - 
+    comment: ちょっと大人のミクっていうのも・・・・良いかもｗ
+    date: 2009/07/08 00:31:34
+    is_admin: 1
+    is_odd: 1
+    "no": 66
+  - 
+    comment: 1939年3月9日にしてほしかった
+    date: 2009/07/08 00:31:40
+    is_odd: 0
+    "no": 67
+  - 
+    comment: 主とは良い酒が飲めそうだ
+    date: 2009/07/08 00:31:44
+    is_odd: 1
+    "no": 68
+  - 
+    comment: さすがに70歳はちょっとｗ
+    date: 2009/07/08 00:31:58
+    is_admin: 1
+    is_odd: 0
+    "no": 69
+  - 
+    comment: ホントに1939年でいいのか？ｗ
+    date: 2009/07/08 00:32:03
+    is_odd: 1
+    "no": 70
+  - 
+    comment: そういやこの写真って大黒ふ頭から横浜とった写真だよね
+    date: 2009/07/08 00:32:35
+    is_odd: 0
+    "no": 71
+  - 
+    comment: ほぅ、これだけで判るとは。地元なのかな？
+    date: 2009/07/08 00:33:08
+    is_admin: 1
+    is_odd: 1
+    "no": 72
+  - 
+    comment: 地元じゃないけど・・・コナンの映画のEDで高確率で出てくるので
+    date: 2009/07/08 00:33:37
+    is_odd: 0
+    "no": 73
+  - 
+    comment: そっかｗ
+    date: 2009/07/08 00:33:48
+    is_admin: 1
+    is_odd: 1
+    "no": 74
+  - 
+    comment: それとアニメとか映画のロケ地探すの好きなんでｗｗ
+    date: 2009/07/08 00:34:46
+    is_odd: 0
+    "no": 75
+  - 
+    comment: "■【初音ミク】雨音色【オリジナル曲】 ■なんとかP "
+    date: 2009/07/08 00:34:47
+    is_admin: 1
+    is_odd: 1
+    "no": 76
+  - 
+    comment: ■2008.01.24 時/4:59 彡/7 ◆再/18,547 コ/404 マ/499 (2.69%)
+    date: 2009/07/08 00:34:53
+    is_admin: 1
+    is_odd: 0
+    "no": 78
+  - 
+    comment: なんとかP大好きだああああああ！
+    date: 2009/07/08 00:35:06
+    is_odd: 1
+    "no": 79
+  - 
+    comment: 聖地巡礼ってやつかな？
+    date: 2009/07/08 00:35:09
+    is_admin: 1
+    is_odd: 0
+    "no": 80
+  - 
+    comment: 僕もなんとかP大好きです　＞＜
+    date: 2009/07/08 00:35:22
+    is_admin: 1
+    is_odd: 1
+    "no": 81
+  - 
+    comment: 鼻そうめんP
+    date: 2009/07/08 00:35:36
+    is_odd: 0
+    "no": 82
+  - 
+    comment: ！？
+    date: 2009/07/08 00:36:29
+    is_admin: 1
+    is_odd: 1
+    "no": 83
+  - 
+    comment: ごめんね、今日は鼻そうめんP用意していないよ。
+    date: 2009/07/08 00:37:00
+    is_admin: 1
+    is_odd: 0
+    "no": 84
+  - 
+    comment: でも鼻そうめんPのラノベの新刊が8月発売だから楽しみにしています
+    date: 2009/07/08 00:37:28
+    is_odd: 1
+    "no": 85
+  - 
+    comment: ラノベも書いているんだ！？本当に多才だなぁ。
+    date: 2009/07/08 00:38:03
+    is_admin: 1
+    is_odd: 0
+    "no": 86
+  - 
+    comment: ラノベじゃなくてイラストね
+    date: 2009/07/08 00:38:24
+    is_odd: 1
+    "no": 87
+  - 
+    comment: あぁ、そっかｗ
+    date: 2009/07/08 00:39:03
+    is_admin: 1
+    is_odd: 0
+    "no": 88
+  - 
+    comment: 市場参照　鼻そうめんP＝かんざきひろ＝Hiroyuki ODA
+    date: 2009/07/08 00:39:32
+    is_odd: 1
+    "no": 89
+  - 
+    comment: サムネもいつも本人だもんねｗ
+    date: 2009/07/08 00:39:35
+    is_admin: 1
+    is_odd: 0
+    "no": 90
+  - 
+    comment: "■Needle Nectar feat. 初音ミク ■ハイネケンP "
+    date: 2009/07/08 00:39:52
+    is_admin: 1
+    is_odd: 1
+    "no": 91
+  - 
+    comment: ■2008.04.19 時/4:19 彡/9 ◆再/8,951 コ/232 マ/298 (3.33%)
+    date: 2009/07/08 00:39:58
+    is_admin: 1
+    is_odd: 0
+    "no": 93
+  - 
+    comment: 市場ありがとー
+    date: 2009/07/08 00:40:02
+    is_admin: 1
+    is_odd: 1
+    "no": 94
+  - 
+    comment: さて、今日はこの曲で最後です。
+    date: 2009/07/08 00:40:13
+    is_admin: 1
+    is_odd: 0
+    "no": 95
+  - 
+    comment: 1枠だけでしたがお付き合い頂きありがとうございました。
+    date: 2009/07/08 00:40:36
+    is_admin: 1
+    is_odd: 1
+    "no": 96
+  - 
+    comment: 乙でした
+    date: 2009/07/08 00:40:53
+    is_odd: 0
+    "no": 97
+  - 
+    comment: おつん！おつん！
+    date: 2009/07/08 00:41:00
+    is_odd: 1
+    "no": 98
+  - 
+    comment: では、、またよろしく～～～　　ノシ
+    date: 2009/07/08 00:41:26
+    is_admin: 1
+    is_odd: 0
+    "no": 99
+frame: 1
+part: 1348
+start: 1246979581
+time: 28
+title: ミクノポップをきかないか？part1348
+

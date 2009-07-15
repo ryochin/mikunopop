@@ -1,0 +1,358 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: １
+    date: 2009/07/02 22:16:32
+    is_odd: 1
+    "no": 2
+  - 
+    comment: こんばんわ～
+    date: 2009/07/02 22:16:50
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: 乙ですぅぅぅ
+    date: 2009/07/02 22:16:57
+    is_odd: 1
+    "no": 4
+  - 
+    comment: いらっしゃ～い
+    date: 2009/07/02 22:17:08
+    is_admin: 1
+    is_odd: 0
+    "no": 5
+  - 
+    comment: おつでうぅぅぅぅぅううぅうぅぅうぅぅぅうぅぅうううぅうっ
+    date: 2009/07/02 22:17:31
+    is_odd: 1
+    "no": 6
+  - 
+    comment: ばわ
+    date: 2009/07/02 22:17:33
+    is_odd: 0
+    "no": 7
+  - 
+    comment: リクは随時受付中です
+    date: 2009/07/02 22:17:36
+    is_admin: 1
+    is_odd: 1
+    "no": 8
+  - 
+    comment: やっとアラート応答か・・・
+    date: 2009/07/02 22:17:41
+    is_odd: 0
+    "no": 9
+  - 
+    comment: やっぱここ落ち着くわ
+    date: 2009/07/02 22:17:52
+    is_odd: 1
+    "no": 10
+  - 
+    comment: アラート反応鈍い？
+    date: 2009/07/02 22:17:52
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: アラートが遅いのか？
+    date: 2009/07/02 22:18:00
+    is_odd: 1
+    "no": 12
+  - 
+    comment: ■【初音ミク】8bit heaven【オリジナル曲】 ■P名?
+    date: 2009/07/02 22:18:24
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: ■2009.02.13 時/3:52 彡/11 ◆再/7,672 コ/211 マ/353 (4.60%)
+    date: 2009/07/02 22:18:27
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: おつん！
+    date: 2009/07/02 22:18:49
+    is_odd: 0
+    "no": 16
+  - 
+    comment: 前枠だったか前々枠だったかは遅かったんよ
+    date: 2009/07/02 22:19:02
+    is_odd: 1
+    "no": 17
+  - 
+    comment: 。ｏ Ｏ（wkstしそうだったなんて言えない・・・）
+    date: 2009/07/02 22:19:13
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: 言っちゃってるしｗ
+    date: 2009/07/02 22:20:08
+    is_odd: 1
+    "no": 19
+  - 
+    comment: 800枠になっても連打してたら・・・・あぶなかった＾＾；
+    date: 2009/07/02 22:21:21
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: "■【巡音ルカ】 Moonlight 【オリジナル】 ■MineK "
+    date: 2009/07/02 22:22:17
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: ■2009.02.28 時/5:00 彡/3 ◆再/3,919 コ/100 マ/252 (6.43%)
+    date: 2009/07/02 22:22:20
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: sm5158597
+    date: 2009/07/02 22:22:42
+    is_odd: 1
+    "no": 24
+  - 
+    comment: リクありがと～
+    date: 2009/07/02 22:22:55
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: いいねぇ♪夜にはオサレなミクノ曲が合う
+    date: 2009/07/02 22:26:01
+    is_odd: 1
+    "no": 26
+  - 
+    comment: うん、オサレ曲良いね～。
+    date: 2009/07/02 22:26:32
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: でも、深夜は・・・・ｗ
+    date: 2009/07/02 22:26:47
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: ■【VOCALOID】dreamin' flyer【MEIKO】 ■P名?
+    date: 2009/07/02 22:27:19
+    is_admin: 1
+    is_odd: 0
+    "no": 29
+  - 
+    comment: ■2008.11.05 時/3:41 彡/1 ◆再/7,278 コ/273 マ/401 (5.51%)
+    date: 2009/07/02 22:27:22
+    is_admin: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: 深夜ミクノはアウアウなのが多いのかｗ
+    date: 2009/07/02 22:27:33
+    is_odd: 0
+    "no": 32
+  - 
+    comment: アウアウってなんぞｗ
+    date: 2009/07/02 22:27:55
+    is_odd: 1
+    "no": 33
+  - 
+    comment: あんぐら～の巣窟？かな？（ﾃｷﾄｰ
+    date: 2009/07/02 22:28:03
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: いや・・・てっきりアウトな曲ばっかり流れるかと・・・
+    date: 2009/07/02 22:28:34
+    is_odd: 1
+    "no": 35
+  - 
+    comment: アウト？
+    date: 2009/07/02 22:28:45
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: お子様が聞いたらダメな曲・・・
+    date: 2009/07/02 22:30:15
+    is_odd: 1
+    "no": 37
+  - 
+    comment: あ、ミクノは何時でも安心してお子様に試聴いただける放送をしております。ハイ
+    date: 2009/07/02 22:30:52
+    is_admin: 1
+    is_odd: 0
+    "no": 38
+  - 
+    comment: "■【修】オリジナル曲『First･･･』をミクに手伝ってもらった（FullVer） ■ポン酢P "
+    date: 2009/07/02 22:31:13
+    is_admin: 1
+    is_odd: 1
+    "no": 39
+  - 
+    comment: ■2007.12.08 時/5:19 彡/0 ◆再/6,386 コ/166 マ/122 (1.91%)
+    date: 2009/07/02 22:31:16
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: ご家族全員でミクノポップをきかないか？ですね！
+    date: 2009/07/02 22:31:30
+    is_odd: 1
+    "no": 42
+  - 
+    comment: お昼時にkotacさんよくやってるからその時が一番あんぐらかなｗ
+    date: 2009/07/02 22:31:33
+    is_odd: 0
+    "no": 43
+  - 
+    comment: やっと入れた
+    date: 2009/07/02 22:31:45
+    is_odd: 1
+    "no": 44
+  - 
+    comment: いらっしゃ～い
+    date: 2009/07/02 22:31:57
+    is_admin: 1
+    is_odd: 0
+    "no": 45
+  - 
+    comment: アウアウはボカマスへいけっと
+    date: 2009/07/02 22:32:01
+    is_odd: 1
+    "no": 46
+  - 
+    comment: いらしゃー
+    date: 2009/07/02 22:32:05
+    is_odd: 0
+    "no": 47
+  - 
+    comment: いらっしゃい～
+    date: 2009/07/02 22:32:31
+    is_odd: 1
+    "no": 48
+  - 
+    comment: 全国のお子様の感性を鍛えているんですねｗ＞43
+    date: 2009/07/02 22:32:43
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: 闇の英才教育か・・ｗ
+    date: 2009/07/02 22:34:53
+    is_odd: 1
+    "no": 50
+  - 
+    comment: 昼からあんぐら～とは・・・
+    date: 2009/07/02 22:35:51
+    is_odd: 0
+    "no": 51
+  - 
+    comment: 英才教育・・・されたかったなぁｗ
+    date: 2009/07/02 22:36:03
+    is_admin: 1
+    is_odd: 1
+    "no": 52
+  - 
+    comment: "■【初音ミク】青い空に雲がぽっかり【オリジナル】 ■Masuda_K うみぬこP "
+    date: 2009/07/02 22:36:34
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: ■2009.03.20 時/6:06 彡/6 ◆再/1,126 コ/31 マ/61 (5.42%)
+    date: 2009/07/02 22:36:37
+    is_admin: 1
+    is_odd: 1
+    "no": 55
+  - 
+    comment: うみぬこＰいいなぁ。
+    date: 2009/07/02 22:39:24
+    is_admin: 1
+    is_odd: 0
+    "no": 56
+  - 
+    comment: うむ。うみぬこPの良さがわかって初めて音楽好きと言える。
+    date: 2009/07/02 22:40:43
+    is_odd: 1
+    "no": 57
+  - 
+    comment: 爽やかな感じがまたいいね♪
+    date: 2009/07/02 22:40:46
+    is_odd: 0
+    "no": 58
+  - 
+    comment: うむ。
+    date: 2009/07/02 22:41:10
+    is_admin: 1
+    is_odd: 1
+    "no": 59
+  - 
+    comment: なんかメンテ以後切れるようになってません？
+    date: 2009/07/02 22:42:51
+    is_odd: 0
+    "no": 60
+  - 
+    comment: "■【初音ミク】Piano(World's End)【オリジナル】☆修正版 ■びにゅP "
+    date: 2009/07/02 22:43:00
+    is_admin: 1
+    is_odd: 1
+    "no": 61
+  - 
+    comment: ■2009.01.22 時/4:08 彡/3 ◆再/1,044 コ/30 マ/53 (5.08%)
+    date: 2009/07/02 22:43:03
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: この曲でこの枠はお別れです。
+    date: 2009/07/02 22:43:17
+    is_admin: 1
+    is_odd: 1
+    "no": 64
+  - 
+    comment: 次枠も取るのでお時間のある方はまたお付き合い下さい！
+    date: 2009/07/02 22:43:34
+    is_admin: 1
+    is_odd: 0
+    "no": 65
+  - 
+    comment: コメント出来ないときあるみたいだね
+    date: 2009/07/02 22:44:35
+    is_admin: 1
+    is_odd: 1
+    "no": 66
+  - 
+    comment: では、また。　ノシ
+    date: 2009/07/02 22:44:45
+    is_admin: 1
+    is_odd: 0
+    "no": 67
+  - 
+    comment: ノシ
+    date: 2009/07/02 22:44:51
+    is_odd: 1
+    "no": 68
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/07/02 22:44:56
+    is_admin: 1
+    is_odd: 0
+    "no": 69
+  - 
+    comment: ﾉｼ
+    date: 2009/07/02 22:46:31
+    is_odd: 1
+    "no": 70
+frame: 1
+part: 1298
+start: 1246540592
+time: 29
+title: ミクノポップをきかないか？part1298
+

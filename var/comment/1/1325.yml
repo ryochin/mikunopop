@@ -1,0 +1,407 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: わんわん
+    date: 2009/07/05 18:22:04
+    is_odd: 1
+    "no": 2
+  - 
+    comment: いらっしゃーい
+    date: 2009/07/05 18:22:12
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: ぱぉーん
+    date: 2009/07/05 18:22:28
+    is_odd: 1
+    "no": 4
+  - 
+    comment: では、２枠目開始です。
+    date: 2009/07/05 18:22:44
+    is_admin: 1
+    is_odd: 0
+    "no": 5
+  - 
+    comment: "■オリジナルBGM『Favor』を初音ミクに手伝ってもらった（FullVer） ■ポン酢P "
+    date: 2009/07/05 18:22:56
+    is_admin: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: ■2007.10.22 時/4:20 彡/6 ◆再/17,842 コ/456 マ/596 (3.34%)
+    date: 2009/07/05 18:23:02
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: おつん
+    date: 2009/07/05 18:23:22
+    is_odd: 1
+    "no": 9
+  - 
+    comment: リクは随時受付中です。
+    date: 2009/07/05 18:23:36
+    is_admin: 1
+    is_odd: 0
+    "no": 10
+  - 
+    comment: こんつぁ！！
+    date: 2009/07/05 18:24:29
+    is_odd: 1
+    "no": 11
+  - 
+    comment: こんにちは～
+    date: 2009/07/05 18:24:38
+    is_admin: 1
+    is_odd: 0
+    "no": 12
+  - 
+    comment: sm5710481
+    date: 2009/07/05 18:25:18
+    is_odd: 1
+    "no": 13
+  - 
+    comment: なんと、またストックとかぶりました！
+    date: 2009/07/05 18:25:47
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: 急いで探さねば　＾＾；
+    date: 2009/07/05 18:26:14
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: nm7221150
+    date: 2009/07/05 18:26:35
+    is_odd: 0
+    "no": 16
+  - 
+    comment: いらっしゃい～
+    date: 2009/07/05 18:26:58
+    is_odd: 1
+    "no": 17
+  - 
+    comment: リクありがとー
+    date: 2009/07/05 18:26:59
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: "■Light Snow(修正版)【初音ミクオリジナル】 ■Treow(逆衝動P) "
+    date: 2009/07/05 18:27:21
+    is_admin: 1
+    is_odd: 1
+    "no": 19
+  - 
+    comment: ■2008.12.31 時/6:22 彡/22 ◆再/11,319 コ/310 マ/615 (5.43%)
+    date: 2009/07/05 18:27:27
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: 初リクです sm5819696
+    date: 2009/07/05 18:27:35
+    is_odd: 1
+    "no": 22
+  - 
+    comment: リクあり～
+    date: 2009/07/05 18:27:52
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: sm7470622
+    date: 2009/07/05 18:29:55
+    is_odd: 1
+    "no": 24
+  - 
+    comment: リクありがとー
+    date: 2009/07/05 18:30:27
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: nm5510112
+    date: 2009/07/05 18:31:17
+    is_odd: 1
+    "no": 26
+  - 
+    comment: リク〆ます
+    date: 2009/07/05 18:31:30
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: なんと！？早いな・・・
+    date: 2009/07/05 18:31:46
+    is_odd: 1
+    "no": 28
+  - 
+    comment: ごめんなさい、26さん流せないかも知れません＞＜
+    date: 2009/07/05 18:31:55
+    is_admin: 1
+    is_odd: 0
+    "no": 29
+  - 
+    comment: "■巡音ルカオリジナル曲・Crystalline ■SeikoP "
+    date: 2009/07/05 18:33:45
+    is_admin: 1
+    is_odd: 1
+    "no": 30
+  - 
+    comment: ■2009.06.01 時/4:40 彡/3 ◆再/49,361 コ/1,167 マ/5,016 (10.16%)
+    date: 2009/07/05 18:33:51
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: 22さんは前の曲と同じ人です？
+    date: 2009/07/05 18:34:11
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: 前の曲と同じ人とは？
+    date: 2009/07/05 18:35:11
+    is_odd: 0
+    "no": 34
+  - 
+    comment: マイリスうまうま
+    date: 2009/07/05 18:35:19
+    is_odd: 1
+    "no": 35
+  - 
+    comment: 同じ人のリクです？
+    date: 2009/07/05 18:35:22
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: 順番を変えて最後にまわさせて頂きますね。
+    date: 2009/07/05 18:36:14
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: 22 同じではないと思いますが
+    date: 2009/07/05 18:37:27
+    is_odd: 0
+    "no": 38
+  - 
+    comment: あ、ごめんなさい、24さんです＞＜
+    date: 2009/07/05 18:38:03
+    is_odd: 1
+    "no": 39
+  - 
+    comment: orz
+    date: 2009/07/05 18:38:13
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: ２４さんです＞＜すみません
+    date: 2009/07/05 18:38:22
+    is_admin: 1
+    is_odd: 1
+    "no": 41
+  - 
+    comment: "■初音ミクオリジナル曲 「Song for New Days」 ■ジミーサムＰ "
+    date: 2009/07/05 18:38:27
+    is_admin: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: ■2009.01.12 時/5:41 彡/3 ◆再/70,330 コ/4,320 マ/2,991 (4.25%)
+    date: 2009/07/05 18:38:33
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: 24って私かｗ　__o-^L
+    date: 2009/07/05 18:39:36
+    is_odd: 0
+    "no": 45
+  - 
+    comment: ２６だけどかけなくていいよ。２４で
+    date: 2009/07/05 18:40:30
+    is_odd: 1
+    "no": 46
+  - 
+    comment: どうした（２４）
+    date: 2009/07/05 18:40:34
+    is_odd: 0
+    "no": 47
+  - 
+    comment: 前の曲ってどれ（２４）
+    date: 2009/07/05 18:41:03
+    is_odd: 1
+    "no": 48
+  - 
+    comment: １３です。
+    date: 2009/07/05 18:41:21
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: 私じゃなかった・・・恥ずかしいｗ
+    date: 2009/07/05 18:41:25
+    is_odd: 1
+    "no": 50
+  - 
+    comment: １３＝２４ですね
+    date: 2009/07/05 18:41:44
+    is_odd: 0
+    "no": 51
+  - 
+    comment: ２６流してやってつかーさい
+    date: 2009/07/05 18:41:59
+    is_odd: 1
+    "no": 52
+  - 
+    comment: ジミーの音はええのぅ
+    date: 2009/07/05 18:42:14
+    is_odd: 0
+    "no": 53
+  - 
+    comment: 24さんすみません＞＜
+    date: 2009/07/05 18:42:14
+    is_admin: 1
+    is_odd: 1
+    "no": 54
+  - 
+    comment: 24さんが人気あるなぁｗ
+    date: 2009/07/05 18:42:43
+    is_odd: 0
+    "no": 55
+  - 
+    comment: ２４さんの人気にshit!
+    date: 2009/07/05 18:43:00
+    is_odd: 1
+    "no": 56
+  - 
+    comment: ジミーのアルバム楽しみだ
+    date: 2009/07/05 18:43:17
+    is_odd: 0
+    "no": 57
+  - 
+    comment: 今月末だっけか、もうちょいやすくしてくれんかの～
+    date: 2009/07/05 18:43:48
+    is_odd: 1
+    "no": 58
+  - 
+    comment: 24がミクノ度0で楽しみなんですが、長い曲なのでこの枠に納まりません。
+    date: 2009/07/05 18:43:50
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: "■【初音ミクオリジナル】necrocarnival ■ちゃぁ "
+    date: 2009/07/05 18:44:13
+    is_admin: 1
+    is_odd: 1
+    "no": 60
+  - 
+    comment: え？アルバム高いの？
+    date: 2009/07/05 18:44:13
+    is_odd: 0
+    "no": 62
+  - 
+    comment: ■2008.12.11 時/5:20 彡/14 ◆再/54,574 コ/3,073 マ/2,596 (4.76%)
+    date: 2009/07/05 18:44:19
+    is_admin: 1
+    is_odd: 1
+    "no": 63
+  - 
+    comment: いや単にビンボーなだけ。iTunes Storeと比べちゃうからかね
+    date: 2009/07/05 18:44:44
+    is_odd: 0
+    "no": 64
+  - 
+    comment: 市場はそれかｗ
+    date: 2009/07/05 18:45:34
+    is_odd: 1
+    "no": 65
+  - 
+    comment: 24さんのリクは今度枠取る時に持ち越させていただきます。
+    date: 2009/07/05 18:45:49
+    is_admin: 1
+    is_odd: 0
+    "no": 66
+  - 
+    comment: 市場！？僕大阪生まれじゃありません＞＜
+    date: 2009/07/05 18:46:46
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: その下
+    date: 2009/07/05 18:46:56
+    is_odd: 0
+    "no": 68
+  - 
+    comment: ちょっとボケてみましたｗ　情報ありがとー
+    date: 2009/07/05 18:47:16
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: 女ってのは認めたんだと受け取りますねｗ＞６７
+    date: 2009/07/05 18:47:44
+    is_odd: 0
+    "no": 70
+  - 
+    comment: いえ、男ですｗ
+    date: 2009/07/05 18:47:55
+    is_admin: 1
+    is_odd: 1
+    "no": 71
+  - 
+    comment: ＯＴＯＫＯだとっ！？
+    date: 2009/07/05 18:48:32
+    is_odd: 0
+    "no": 72
+  - 
+    comment: 残念ながらOTOKOですよｗ
+    date: 2009/07/05 18:49:08
+    is_admin: 1
+    is_odd: 1
+    "no": 73
+  - 
+    comment: 嘘だっ！！
+    date: 2009/07/05 18:49:28
+    is_odd: 0
+    "no": 74
+  - 
+    comment: "■【初音ミクオリジナル曲】The Art of Computer ■クヌースP "
+    date: 2009/07/05 18:49:40
+    is_admin: 1
+    is_odd: 1
+    "no": 75
+  - 
+    comment: ■2009.03.10 時/2:25 彡/24 ◆再/1,109 コ/29 マ/55 (4.96%)
+    date: 2009/07/05 18:49:46
+    is_admin: 1
+    is_odd: 0
+    "no": 77
+  - 
+    comment: 嘘！？　どうやったら信じて貰えるんでしょう・・・・？
+    date: 2009/07/05 18:50:19
+    is_admin: 1
+    is_odd: 1
+    "no": 78
+  - 
+    comment: ではまた、ノシ
+    date: 2009/07/05 18:50:30
+    is_admin: 1
+    is_odd: 0
+    "no": 79
+frame: 1
+part: 1325
+start: 1246785724
+time: 28
+title: ミクノポップをきかないか？part1325
+

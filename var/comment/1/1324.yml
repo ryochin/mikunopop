@@ -1,0 +1,397 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: にゃーん
+    date: 2009/07/05 17:52:18
+    is_odd: 1
+    "no": 2
+  - 
+    comment: いらっしゃーい
+    date: 2009/07/05 17:52:27
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: わぉーん
+    date: 2009/07/05 17:52:28
+    is_odd: 1
+    "no": 4
+  - 
+    comment: ｗ
+    date: 2009/07/05 17:52:31
+    is_admin: 1
+    is_odd: 0
+    "no": 5
+  - 
+    comment: ''
+    date: 2009/07/05 17:52:45
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: ■2009.02.14 時/4:28 彡/3 ◆再/2,265 コ/70 マ/102 (4.50%)
+    date: 2009/07/05 17:52:51
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: 夕方ミクノ開始です。
+    date: 2009/07/05 17:53:08
+    is_admin: 1
+    is_odd: 1
+    "no": 9
+  - 
+    comment: からふる
+    date: 2009/07/05 17:53:08
+    is_odd: 0
+    "no": 10
+  - 
+    comment: sm1441681
+    date: 2009/07/05 17:53:14
+    is_odd: 1
+    "no": 11
+  - 
+    comment: リクは随時受付中です
+    date: 2009/07/05 17:53:15
+    is_admin: 1
+    is_odd: 0
+    "no": 12
+  - 
+    comment: sm7329499
+    date: 2009/07/05 17:53:37
+    is_odd: 1
+    "no": 13
+  - 
+    comment: リクありがとう
+    date: 2009/07/05 17:53:55
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: sm2203486
+    date: 2009/07/05 17:54:33
+    is_odd: 1
+    "no": 15
+  - 
+    comment: リクあり～
+    date: 2009/07/05 17:55:08
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: sm6120827
+    date: 2009/07/05 17:55:48
+    is_odd: 1
+    "no": 17
+  - 
+    comment: sm1517348
+    date: 2009/07/05 17:56:21
+    is_odd: 0
+    "no": 18
+  - 
+    comment: あらら、僕の枠でこんなにリク来たの初めてですよｗ
+    date: 2009/07/05 17:56:35
+    is_admin: 1
+    is_odd: 1
+    "no": 19
+  - 
+    comment: 人気主の定めだね
+    date: 2009/07/05 17:57:08
+    is_odd: 0
+    "no": 20
+  - 
+    comment: "■初音ミク：夢みるシャンソン人形 ■udongergeP "
+    date: 2009/07/05 17:57:16
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: ■2007.11.03 時/2:57 彡/1 ◆再/12,646 コ/284 マ/198 (1.57%)
+    date: 2009/07/05 17:57:22
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: お、カバー解禁か　リクしたい曲の幅広がるね
+    date: 2009/07/05 17:57:57
+    is_odd: 1
+    "no": 24
+  - 
+    comment: 時間帯かな？　人気・・・・とは思えないです＞＜
+    date: 2009/07/05 17:58:03
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: あ！？　一般曲のカバーだめだった・・・orz
+    date: 2009/07/05 17:58:23
+    is_admin: 1
+    is_odd: 1
+    "no": 26
+  - 
+    comment: 今回は特別って事で御容赦下さい　＾＾；
+    date: 2009/07/05 17:59:23
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: "■【初音ミク】 空のコンパス 【オリジナル曲】 ■あ゛あ゛あ゛P "
+    date: 2009/07/05 18:00:19
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: ■2009.06.13 時/4:18 彡/1 ◆再/888 コ/24 マ/56 (6.31%)
+    date: 2009/07/05 18:00:25
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: カバー曲もう一曲リクがあるはず
+    date: 2009/07/05 18:01:03
+    is_odd: 1
+    "no": 31
+  - 
+    comment: 15さんのですね。
+    date: 2009/07/05 18:01:37
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: 今回のリクは除外させていただきます。また別の曲をお願いします！
+    date: 2009/07/05 18:02:09
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: 31さんありがとう＾＾
+    date: 2009/07/05 18:03:09
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: "■【初音ミク】 りっすん☆れっすん [オリジナル・Short] ■harunacuteP "
+    date: 2009/07/05 18:04:40
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: ■2009.02.12 時/2:27 彡/3 ◆再/3,032 コ/81 マ/181 (5.97%)
+    date: 2009/07/05 18:04:46
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: 手動？
+    date: 2009/07/05 18:07:36
+    is_odd: 1
+    "no": 39
+  - 
+    comment: あ、すみません。
+    date: 2009/07/05 18:07:48
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: sm3175914
+    date: 2009/07/05 18:08:11
+    is_odd: 1
+    "no": 41
+  - 
+    comment: 主セレストックとかぶったんだけど、直に見つけられませんでした＞＜
+    date: 2009/07/05 18:08:13
+    is_admin: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: 初音ミクオリジナル曲「夕闇メロディ(full ver)」
+    date: 2009/07/05 18:08:26
+    is_odd: 1
+    "no": 43
+  - 
+    comment: ■2007.11.12 時/4:06 彡/14 ◆再/47,144 コ/1,825 マ/1,742 (3.70%)
+    date: 2009/07/05 18:09:20
+    is_admin: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: ■2007.11.12 時/4:06 彡/14 ◆再/47,144 コ/1,825 マ/1,742 (3.70%)
+    date: 2009/07/05 18:09:27
+    is_admin: 1
+    is_odd: 1
+    "no": 45
+  - 
+    comment: リク〆ます
+    date: 2009/07/05 18:10:37
+    is_admin: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: "■【初音ミク】Neuromance【オリジナル】 ■じゅるＰ "
+    date: 2009/07/05 18:11:26
+    is_admin: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: ■2008.05.03 時/4:33 彡/14 ◆再/11,993 コ/340 マ/444 (3.70%)
+    date: 2009/07/05 18:11:32
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: 今北～__o-^L
+    date: 2009/07/05 18:12:30
+    is_odd: 1
+    "no": 50
+  - 
+    comment: ＞＜
+    date: 2009/07/05 18:12:37
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: いらっしゃーいｗ
+    date: 2009/07/05 18:13:05
+    is_admin: 1
+    is_odd: 1
+    "no": 52
+  - 
+    comment: いらっしゃいました♪
+    date: 2009/07/05 18:13:36
+    is_odd: 0
+    "no": 53
+  - 
+    comment: 何枠予定ｚ？
+    date: 2009/07/05 18:14:51
+    is_odd: 1
+    "no": 54
+  - 
+    comment: もう一枠行きます！
+    date: 2009/07/05 18:15:03
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: 主さんの考えたＡＡ一部地域で好評でした！ありがとう！__o-^L
+    date: 2009/07/05 18:15:08
+    is_odd: 1
+    "no": 56
+  - 
+    comment: がんばれ
+    date: 2009/07/05 18:15:14
+    is_odd: 0
+    "no": 57
+  - 
+    comment: 勘弁してください＞＜
+    date: 2009/07/05 18:15:17
+    is_admin: 1
+    is_odd: 1
+    "no": 58
+  - 
+    comment: どうもこの時間帯に出てくるにはまだ修行が必要なようです＾＾；
+    date: 2009/07/05 18:15:54
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: "■【雪ミク】Fake Plastic Snow【初音ミクオリジナル】 ■びにゅP "
+    date: 2009/07/05 18:16:05
+    is_admin: 1
+    is_odd: 1
+    "no": 60
+  - 
+    comment: ■2008.09.21 時/4:53 彡/5 ◆再/4,550 コ/163 マ/165 (3.63%)
+    date: 2009/07/05 18:16:11
+    is_admin: 1
+    is_odd: 0
+    "no": 62
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/07/05 18:16:27
+    is_odd: 1
+    "no": 63
+  - 
+    comment: この枠最後の曲です。
+    date: 2009/07/05 18:16:28
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: ！！
+    date: 2009/07/05 18:16:32
+    is_admin: 1
+    is_odd: 1
+    "no": 65
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/07/05 18:16:35
+    is_admin: 1
+    is_odd: 0
+    "no": 66
+  - 
+    comment: それかｗ
+    date: 2009/07/05 18:16:40
+    is_odd: 1
+    "no": 67
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！びにゅＰ！
+    date: 2009/07/05 18:17:05
+    is_odd: 0
+    "no": 68
+  - 
+    comment: びにゅP！　びにゅP
+    date: 2009/07/05 18:17:06
+    is_odd: 1
+    "no": 69
+  - 
+    comment: 休止が残念すぎる
+    date: 2009/07/05 18:17:38
+    is_odd: 0
+    "no": 70
+  - 
+    comment: 休止？
+    date: 2009/07/05 18:17:45
+    is_odd: 1
+    "no": 71
+  - 
+    comment: 現在びにゅPは作曲活動休止中です。
+    date: 2009/07/05 18:18:01
+    is_admin: 1
+    is_odd: 0
+    "no": 72
+  - 
+    comment: 活動は止まっても音楽は残る・・・今はそれでいいと思う
+    date: 2009/07/05 18:18:24
+    is_odd: 1
+    "no": 73
+  - 
+    comment: また、新しい曲が聴けるまでこれまでに作られた曲を大事に楽しみましょう。
+    date: 2009/07/05 18:18:57
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/07/05 18:19:21
+    is_admin: 1
+    is_odd: 1
+    "no": 75
+  - 
+    comment: では次枠、ノシ
+    date: 2009/07/05 18:20:07
+    is_admin: 1
+    is_odd: 0
+    "no": 76
+  - 
+    comment: ノシ
+    date: 2009/07/05 18:20:09
+    is_odd: 1
+    "no": 77
+frame: 1
+part: 1324
+start: 1246783938
+time: 27
+title: ミクノポップをきかないか？part1324
+

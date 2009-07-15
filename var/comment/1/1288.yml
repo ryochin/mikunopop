@@ -1,0 +1,285 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: こんばんは！
+    date: 2009/07/01 23:27:40
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: こばわ～
+    date: 2009/07/01 23:27:49
+    is_odd: 0
+    "no": 4
+  - 
+    comment: リクは随時受付中です。
+    date: 2009/07/01 23:27:52
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: こんー
+    date: 2009/07/01 23:27:53
+    is_odd: 0
+    "no": 6
+  - 
+    comment: ■【初音ミク】　ホシフルヨル (オリジナル曲) ■P名?
+    date: 2009/07/01 23:28:43
+    is_admin: 1
+    is_odd: 1
+    "no": 7
+  - 
+    comment: ■2009.06.22 時/4:41 彡/0 ◆再/329 コ/43 マ/20 (6.08%)
+    date: 2009/07/01 23:28:46
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: ひげゼロ曲無いから聴いてます
+    date: 2009/07/01 23:29:52
+    is_odd: 1
+    "no": 10
+  - 
+    comment: nm7391605
+    date: 2009/07/01 23:30:22
+    is_odd: 0
+    "no": 11
+  - 
+    comment: 今夜はヒゲぼーぼーでもおｋですよ～
+    date: 2009/07/01 23:30:27
+    is_admin: 1
+    is_odd: 1
+    "no": 12
+  - 
+    comment: リクありがとうございます！
+    date: 2009/07/01 23:30:43
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: ''
+    date: 2009/07/01 23:33:30
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 14
+  - 
+    comment: ■2009.06.20 時/5:09 彡/0 ◆再/7,698 コ/177 マ/573 (7.44%)
+    date: 2009/07/01 23:33:34
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: ＰＶになってる・・・初めてじゃないかな
+    date: 2009/07/01 23:36:28
+    is_odd: 1
+    "no": 17
+  - 
+    comment: ''
+    date: 2009/07/01 23:37:27
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: ■【初音ミク】近未来ラジオ -pure2step remix-【オリジナル曲】 ■P名?
+    date: 2009/07/01 23:38:43
+    is_admin: 1
+    is_odd: 1
+    "no": 19
+  - 
+    comment: ■2009.05.10 時/4:52 彡/10 ◆再/1,025 コ/22 マ/67 (6.54%)
+    date: 2009/07/01 23:38:46
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: 定番オサレ曲きたー！！
+    date: 2009/07/01 23:39:32
+    is_odd: 1
+    "no": 22
+  - 
+    comment: おされ～
+    date: 2009/07/01 23:39:55
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: おされぐら～
+    date: 2009/07/01 23:40:03
+    is_odd: 1
+    "no": 24
+  - 
+    comment: "■【巡音ルカ】急げO-Train【オリジナル】 ■ドンドコP "
+    date: 2009/07/01 23:43:40
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: ■2009.04.05 時/3:43 彡/1 ◆再/594 コ/23 マ/39 (6.57%)
+    date: 2009/07/01 23:43:45
+    is_admin: 1
+    is_odd: 1
+    "no": 27
+  - 
+    comment: 流れてます？
+    date: 2009/07/01 23:44:14
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: 読め込め中・・・・
+    date: 2009/07/01 23:44:33
+    is_odd: 1
+    "no": 29
+  - 
+    comment: 流れてるよ
+    date: 2009/07/01 23:44:34
+    is_odd: 0
+    "no": 30
+  - 
+    comment: あ、来ました
+    date: 2009/07/01 23:44:48
+    is_admin: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: こっちもきたわん♪
+    date: 2009/07/01 23:45:08
+    is_odd: 0
+    "no": 32
+  - 
+    comment: 次曲のタイミングは勘で行きます
+    date: 2009/07/01 23:45:46
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: 最後切れたらゴメンなさいｗ
+    date: 2009/07/01 23:46:00
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: 終わったって教えるからｗ
+    date: 2009/07/01 23:46:07
+    is_odd: 1
+    "no": 35
+  - 
+    comment: では、おねがいしますｗ
+    date: 2009/07/01 23:46:22
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: おおっ！後半すげえｗ
+    date: 2009/07/01 23:46:29
+    is_odd: 1
+    "no": 37
+  - 
+    comment: かっこいいですよね、これ。
+    date: 2009/07/01 23:47:09
+    is_admin: 1
+    is_odd: 0
+    "no": 38
+  - 
+    comment: おわた
+    date: 2009/07/01 23:48:11
+    is_odd: 1
+    "no": 39
+  - 
+    comment: "■初音ミク『sparkle song』ネクラmix  U-skeP×kous ■kous "
+    date: 2009/07/01 23:48:15
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: ■2009.01.03 時/2:58 彡/2 ◆再/909 コ/14 マ/29 (3.19%)
+    date: 2009/07/01 23:48:18
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: さんきゅです＞39
+    date: 2009/07/01 23:48:30
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: orz
+    date: 2009/07/01 23:49:02
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: またかｗ
+    date: 2009/07/01 23:49:49
+    is_odd: 0
+    "no": 45
+  - 
+    comment: 主どしたん？
+    date: 2009/07/01 23:49:54
+    is_odd: 1
+    "no": 46
+  - 
+    comment: 43を後悔・・・・orz
+    date: 2009/07/01 23:50:18
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: さんきゅーみっく？
+    date: 2009/07/01 23:51:05
+    is_odd: 1
+    "no": 48
+  - 
+    comment: ■初音ミクでアンビエント ■P名?
+    date: 2009/07/01 23:51:26
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: ■2008.01.20 時/2:56 彡/1 ◆再/963 コ/36 マ/15 (1.56%)
+    date: 2009/07/01 23:51:29
+    is_admin: 1
+    is_odd: 1
+    "no": 51
+  - 
+    comment: ？よくわからんがどんまい！
+    date: 2009/07/01 23:51:29
+    is_odd: 0
+    "no": 52
+  - 
+    comment: owata
+    date: 2009/07/01 23:51:41
+    is_odd: 1
+    "no": 53
+  - 
+    comment: 終わったのを教えてくれた39さんに・・・・ってｗ
+    date: 2009/07/01 23:51:53
+    is_admin: 1
+    is_odd: 0
+    "no": 54
+  - 
+    comment: これは間違いなくあんぐら～る！
+    date: 2009/07/01 23:54:38
+    is_odd: 1
+    "no": 55
+  - 
+    comment: ではまた。　ノシ
+    date: 2009/07/01 23:54:58
+    is_admin: 1
+    is_odd: 0
+    "no": 56
+  - 
+    comment: 乙ぅ～
+    date: 2009/07/01 23:55:06
+    is_odd: 1
+    "no": 57
+frame: 1
+part: 1288
+start: 1246458460
+time: 27
+title: ミクノポップをきかないか？part1288
+

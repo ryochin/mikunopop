@@ -1,0 +1,322 @@
+--- 
+aircaster: boro
+content: 
+  - 
+    comment: こんばんわ
+    date: 2009/07/15 00:02:12
+    is_odd: 1
+    "no": 2
+  - 
+    comment: こんばんは！
+    date: 2009/07/15 00:02:18
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: "■【初音ミク】Rｅ.時の終わり【オリジナル】 ■kous "
+    date: 2009/07/15 00:02:25
+    is_admin: 1
+    is_odd: 1
+    "no": 4
+  - 
+    comment: ■2008.11.29 時/5:08 彡/4 ◆再/8,547 コ/188 マ/425 (4.97%)
+    date: 2009/07/15 00:02:31
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: かんぺいさんの放送で重いのかな？
+    date: 2009/07/15 00:02:32
+    is_odd: 1
+    "no": 7
+  - 
+    comment: 再生出来ません？
+    date: 2009/07/15 00:02:44
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: あ、大丈夫みたいです多分
+    date: 2009/07/15 00:03:44
+    is_odd: 1
+    "no": 9
+  - 
+    comment: よかった。＾＾
+    date: 2009/07/15 00:04:03
+    is_admin: 1
+    is_odd: 0
+    "no": 10
+  - 
+    comment: 公式生やってると重いってのがなぁ…
+    date: 2009/07/15 00:05:57
+    is_odd: 1
+    "no": 11
+  - 
+    comment: こんつぁ！ぱやPコミュ入りおめっ！！
+    date: 2009/07/15 00:06:24
+    is_odd: 0
+    "no": 12
+  - 
+    comment: ！
+    date: 2009/07/15 00:06:34
+    is_admin: 1
+    is_odd: 1
+    "no": 13
+  - 
+    comment: ！？
+    date: 2009/07/15 00:06:53
+    is_odd: 0
+    "no": 14
+  - 
+    comment: 最近コミュメンバー確認していなかった・・・・
+    date: 2009/07/15 00:07:05
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: 記念すべき650人目ですよー
+    date: 2009/07/15 00:07:16
+    is_odd: 0
+    "no": 16
+  - 
+    comment: こんばんわ
+    date: 2009/07/15 00:07:35
+    is_odd: 1
+    "no": 17
+  - 
+    comment: いらっしゃい！
+    date: 2009/07/15 00:07:44
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: いらさいｗ
+    date: 2009/07/15 00:07:50
+    is_odd: 1
+    "no": 19
+  - 
+    comment: "■experimental-001【初音ミク】（オリジナル） ■ゆうゆＰ "
+    date: 2009/07/15 00:07:50
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: ■2008.01.18 時/3:16 彡/9 ◆再/37,742 コ/710 マ/793 (2.10%)
+    date: 2009/07/15 00:07:56
+    is_admin: 1
+    is_odd: 1
+    "no": 22
+  - 
+    comment: この曲で始まるアルバム、ジェイコブズラダーだっけ？あのアルバム好きですー
+    date: 2009/07/15 00:08:45
+    is_odd: 0
+    "no": 23
+  - 
+    comment: なんかいろいろ混じってないかそれｗ
+    date: 2009/07/15 00:09:13
+    is_odd: 1
+    "no": 24
+  - 
+    comment: 混じってたかｗｗ
+    date: 2009/07/15 00:09:24
+    is_odd: 0
+    "no": 25
+  - 
+    comment: アルバムかぁ、CDっていうのもいいなぁ。
+    date: 2009/07/15 00:09:27
+    is_admin: 1
+    is_odd: 1
+    "no": 26
+  - 
+    comment: 主ＣＤだすの？
+    date: 2009/07/15 00:11:01
+    is_odd: 0
+    "no": 27
+  - 
+    comment: え！？
+    date: 2009/07/15 00:11:13
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: Pですらありませんｗ
+    date: 2009/07/15 00:11:23
+    is_admin: 1
+    is_odd: 0
+    "no": 29
+  - 
+    comment: ■【初音ミク】 考えすぎ 【オリジナル】 ■P名?
+    date: 2009/07/15 00:11:30
+    is_admin: 1
+    is_odd: 1
+    "no": 30
+  - 
+    comment: そういう話じゃなかったか・・・すまんです
+    date: 2009/07/15 00:11:30
+    is_odd: 0
+    "no": 31
+  - 
+    comment: ■2009.01.27 時/3:40 彡/5 ◆再/4,477 コ/189 マ/264 (5.90%)
+    date: 2009/07/15 00:11:36
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: 聴き専として、曲順も考えられたCDを聴くのもいいなぁ、と。
+    date: 2009/07/15 00:12:38
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: アルバムとして聞くとまた違った楽しみ方があるよね
+    date: 2009/07/15 00:13:02
+    is_odd: 1
+    "no": 35
+  - 
+    comment: 単純に未発表曲を聞くのもいい
+    date: 2009/07/15 00:13:09
+    is_odd: 0
+    "no": 36
+  - 
+    comment: 未発表曲！
+    date: 2009/07/15 00:13:42
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: CDって素敵だなぁｗ
+    date: 2009/07/15 00:13:57
+    is_admin: 1
+    is_odd: 0
+    "no": 38
+  - 
+    comment: sm3667777
+    date: 2009/07/15 00:14:43
+    is_odd: 1
+    "no": 39
+  - 
+    comment: "■(spilled 4 minutes from)Liquid Metal feat. 初音ミク ■ハイネケンP "
+    date: 2009/07/15 00:15:07
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: ■2008.01.29 時/4:04 彡/16 ◆再/31,024 コ/671 マ/1,341 (4.32%)
+    date: 2009/07/15 00:15:13
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: リクありがとー
+    date: 2009/07/15 00:15:33
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: "■【初音ミク】 消えるメモリー ■よよP "
+    date: 2009/07/15 00:19:11
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: ■2008.06.15 時/3:52 彡/13 ◆再/49,531 コ/1,101 マ/1,626 (3.28%)
+    date: 2009/07/15 00:19:17
+    is_admin: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: よよＰいいのぅ♪
+    date: 2009/07/15 00:22:04
+    is_odd: 1
+    "no": 47
+  - 
+    comment: "■【初音ミク】Midnight Drive Vol.1【オリジナル】 ■PYS/ぱやP "
+    date: 2009/07/15 00:23:29
+    is_admin: 1
+    is_odd: 0
+    "no": 48
+  - 
+    comment: ■2008.06.07 時/4:29 彡/0 ◆再/965 コ/31 マ/14 (1.45%)
+    date: 2009/07/15 00:23:35
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: ぱやＰ・・・オサレですね！
+    date: 2009/07/15 00:25:26
+    is_odd: 0
+    "no": 51
+  - 
+    comment: ですねー。
+    date: 2009/07/15 00:26:16
+    is_admin: 1
+    is_odd: 1
+    "no": 52
+  - 
+    comment: 実は勉強不足でぱやPの曲知らなかったので
+    date: 2009/07/15 00:26:48
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: あわててぱやPのマイリス漁って来ましたｗ
+    date: 2009/07/15 00:27:09
+    is_admin: 1
+    is_odd: 1
+    "no": 54
+  - 
+    comment: ｗｗ
+    date: 2009/07/15 00:27:14
+    is_odd: 0
+    "no": 55
+  - 
+    comment: "■ジャガボンゴ (tradd remix) ■ハイネケンP "
+    date: 2009/07/15 00:28:02
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: ■2008.11.14 時/2:35 彡/3 ◆再/2,938 コ/93 マ/78 (2.65%)
+    date: 2009/07/15 00:28:08
+    is_admin: 1
+    is_odd: 0
+    "no": 58
+  - 
+    comment: 今日はこの曲でおしまい！
+    date: 2009/07/15 00:28:46
+    is_admin: 1
+    is_odd: 1
+    "no": 59
+  - 
+    comment: 主は、ぱやPのマイリス巡りの旅に出ます！
+    date: 2009/07/15 00:29:13
+    is_admin: 1
+    is_odd: 0
+    "no": 60
+  - 
+    comment: 乙
+    date: 2009/07/15 00:29:14
+    is_odd: 1
+    "no": 61
+  - 
+    comment: は～い
+    date: 2009/07/15 00:29:22
+    is_odd: 0
+    "no": 62
+  - 
+    comment: ノシ
+    date: 2009/07/15 00:29:26
+    is_admin: 1
+    is_odd: 1
+    "no": 63
+  - 
+    comment: ノシ
+    date: 2009/07/15 00:29:29
+    is_odd: 0
+    "no": 64
+frame: 1
+part: 1411
+start: 1247583732
+time: 27
+title: ミクノポップをきかないか？part1411
+
