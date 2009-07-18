@@ -101,8 +101,12 @@ $(document).ready(function() {
 		<tr>
 			<td align="center">Ｐ名</td>
 			<td align="left">
-				[% FOR p = pnames %]
-					<a href="http://www.nicovideo.jp/tag/[% p | url | html %]" target="_blank">[% p | html %]</a>
+				[% IF pnames.size > 0 %]
+					[% FOR p = pnames %]
+						<a href="http://www.nicovideo.jp/tag/[% p | url | html %]" target="_blank">[% p | html %]</a>
+					[% END %]
+				[% ELSE %]
+					？
 				[% END %]
 			</td>
 		</tr>
