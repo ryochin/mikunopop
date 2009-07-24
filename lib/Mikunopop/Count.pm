@@ -34,7 +34,7 @@ sub handler : method {    ## no critic
 	my $id = $r->path_info;
 	$id =~ s{^/+}{}o;
 	my $count = defined $video->{ $id }
-		? $video->{ $id }
+		? $video->{ $id }    # don't use int(), treat as string
 		: 0;
 
 	# out
