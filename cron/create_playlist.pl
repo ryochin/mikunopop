@@ -14,6 +14,7 @@ use Getopt::Std;
 use Text::CSV_XS;
 use Compress::Zlib;
 use YAML::Syck ();
+use JSON::Syck ();
 
 use bytes ();
 
@@ -39,6 +40,7 @@ my $output_file_short = file( $htdocs_dir, "play", 'index.html' )->stringify;
 my $output_file_full = file( $htdocs_dir, "play", 'full.html' )->stringify;
 my $output_file_all = file( $htdocs_dir, "play", 'all.html' )->stringify;
 my $output_file_csv = file( $htdocs_dir, "play", 'all.csv.gz' )->stringify;
+my $output_file_json = file( $htdocs_dir, "play", 'count.json' )->stringify;
 
 my $template_file = file( $base_dir, "template", "play.html" )->stringify;
 my $uri_list = [
@@ -229,6 +231,18 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 
 	my $fh = file( $output_file_csv )->openw or die $!;
 	$fh->print( Compress::Zlib::memGzip( join "\r\n", @csv ) );
+	$fh->close;
+}
+
+# all json
+{
+	my $list;
+	for my $v( @video_all ){
+		$list->{ $v->{video_id} } = $v->{view};
+	}
+
+	my $fh = file( $output_file_json )->openw or die $!;
+	$fh->print( JSON::Syck::Dump( $list ) );
 	$fh->close;
 }
 
