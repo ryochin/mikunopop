@@ -12,7 +12,7 @@ use List::Util qw(first);
 use List::MoreUtils qw(uniq);
 use DateTime;
 use DateTime::Format::W3CDTF;
-use JSON::Syck;
+use JSON::Syck ();
 use LWP::Simple qw(get);
 use XML::Twig;
 
@@ -28,9 +28,21 @@ $VERSION = '0.01';
 my $base = '/web/mikunopop';
 my $template_file = file( $base, "template", "info.html" )->stringify;
 
+my $json_file = file( $base, 'htdocs/play/count.json' );
+my $expire = 6 * 60 ** 2;    # 6hrs
+my $last = 0;    # epoch
+my $count;    # count container
+
 sub handler : method {    ## no critic
 	my ($class, $r) = @_;
 	$r = Apache2::Request->new($r);
+
+	# insert to memory
+	if( time - $last > $expire ){
+		$r->log_error("=> count file reloaded.");
+		$count = JSON::Syck::Load( $json_file->slurp );
+		$last = time;
+	}
 
 	my $id;
 	if( $r->param('id') =~ m{^.+/((sm|nm)\d+)$}o ){
@@ -105,17 +117,12 @@ sub handler : method {    ## no critic
 			# マイリス率
 			$stash->{mylist_percent} = sprintf "%.2f", $stash->{mylist_counter} / $stash->{view_counter} * 100;
 			
-			# ミクノ度をゲット
-			my $mikuno_url = sprintf "http://mikunopop.info/count/%s", $id;
-			if( my $content = get( $mikuno_url ) ){
-				if( my $json = JSON::Syck::Load( $content ) ){
-					if( defined $json->{count} and $json->{count} ne '' ){
-						$stash->{count} = $json->{count};
-					}
-					else{
-						$stash->{count} = '?';
-					}
-				}
+			# ミクノ度
+			if( defined $count->{$id} and $count->{$id} > 0 ){
+				$stash->{count} = $count->{$id};
+			}
+			else{
+				$stash->{count} = '0';
 			}
 		}
 		else{
