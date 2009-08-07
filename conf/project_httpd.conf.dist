@@ -23,7 +23,7 @@ use warnings "all";
 
 my @pkg = (
 	### webinterface
-	'count' => 'Mikunopop::Count',
+#	'count' => 'Mikunopop::Count',
 	'info' => 'Mikunopop::Info',
 );
 
