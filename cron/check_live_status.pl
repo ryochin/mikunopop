@@ -47,7 +47,7 @@ if( not $live ){
 	if( my $html = LWP::Simple::get( $community_uri ) ){
 		$html = Encode::decode_utf8( $html );
 		
-		if( $html =~ m{<div class="live-title"><a href="([^"]+?)" class="community">([^<>]+?)</a>}o ){    # "{
+		if( $html =~ m{<h2 class\="now_live_title*"><a href="([^"]+?)" class="community">([^<>]+?)</a>}o ){    # "{
 			($uri, $title) = ($1, $2);
 			
 			printf STDERR "=> ON AIR: %s by html.\n", $title;
@@ -79,5 +79,5 @@ sub write_status {
 
 __END__
 
-<div class="live-title"><a href="http://live.nicovideo.jp/watch/lv1385742" class="community">初音ミク 歌ってみた限定Part.1717</a></div>
+<h2 class="now_live_titl"><a href="http://live.nicovideo.jp/watch/lv2722574" class="community">ミクノポップをきかないか？Part1613</a></h2><div id="box">
 
