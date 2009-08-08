@@ -91,6 +91,14 @@ my @jingle = (
 		length => '1:56',
 		desc => '',
 	},
+	{
+		video_id => 'sm7870758',
+		vid => '7870758',
+		title => '【NoNoWire用ジングル】ミクノポップをきかないか？【Freestyle ver.N】',
+		author => 'きぬこもちさん',
+		length => '1:56',
+		desc => '黄猫隊長率いる「ルカ様に踏まれ隊」隊歌。',
+	},
 );
 
 my $n = 0;
