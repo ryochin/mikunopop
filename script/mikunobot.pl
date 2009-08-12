@@ -1,4 +1,5 @@
 #!/usr/bin/perl --
+# nice -20 ./script/mikunobot.pl > /dev/null 2>&1 &
 
 use strict;
 use warnings;
@@ -8,7 +9,7 @@ use Mikunopop::Bot::Basic;
 my $bot = Mikunopop::Bot::Basic->new(
 	server => "irc.mikunopop.info",
 	port   => "6667",
-	channels => ["#test"],
+	channels => ["#mikunopop"],
 	
 	nick      => "mikuno_chan",
 	alt_nicks => ["bot", "mikuno_bot"],

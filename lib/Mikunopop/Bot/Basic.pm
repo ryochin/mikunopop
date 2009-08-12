@@ -3,6 +3,7 @@ package Mikunopop::Bot::Basic;
 use strict;
 use warnings;
 use parent qw(Bot::BasicBot);
+use List::Util qw(first shuffle);
 use Path::Class qw(dir file);
 use IO::File;
 use Fcntl qw(:DEFAULT :flock);
@@ -17,12 +18,44 @@ my $base = '/web/mikunopop';
 my $log_dir = dir( $base, qw(var irclog) );
 my $status_file = file( $base, qw(htdocs var), "live_status.js" );
 
+my @admin = (
+	qr{^saihane(_.+)*}io,
+	qr{^higumon(_.+)*}io,
+	qr{^kotac(_.+)*}io,
+	qr{^boro(_.+)*}io,
+	qr{^k-sk(_.+)*}io,
+	qr{^aoid(_.+)*}io,
+	qr{^as(_.+)*}io,
+	qr{^io(_.+)*}io,
+	qr{^w2k(_.+)*}io,
+	qr{^noren(_.+)*}io,
+	qr{^mashita(_.+)*}io,
+	qr{^A_?ster(_.+)*}io,
+	qr{^kinuko(mochi)*(_.+)*}io,
+);
+
+my @me_regex = (
+	qr{mikuno_chan}io,
+	qr{(ミクノ|みくの)(ちゃ|チャ)}io,
+);
+
+my @reply = (
+	q{誰か私を呼んだ？　いま忙しいからあとでね！＞%s},
+	q{なによ、気安く話しかけないでよね！＞%s},
+	q{おかえりなさいませ、%s様♪},
+	q{き、来てくれてありがと・・なんて言うわけないでしょっ///＞%s},
+	q{わたしの名前はミクノちゃん、でほんとにいいのかしら。},
+	q{♪　㍍⊃、溶・け・て・しっまっい〜そぉ〜　♪},
+	q{さ、つぎ主やるのはだれなの？},
+	q{あらあらそんなこと言って、わたしに踏まれたいのかしら？＞%s},
+);
+
 sub init {
 	my $self = shift;
 
 	$self->logit( info => "# channel %s started on %s @ %s", $self->channels, scalar localtime, $self->server );
 
-	$self->{_live_status} = 0;
+	$self->{_live_uri} = 0;
 
 	return $self;
 }
@@ -70,9 +103,23 @@ sub said {
 				);
 				
 				my $pad = ' ' x ( 16 - length( $self->nick ) - 1 );
-				$self->logit( info => "%s: %s %s: %s", $args->{channel}, $self->nick, $pad, $msg, );
+				$self->logit( info => "%s: %s %s: %s", $args->{channel}, $self->nick, $pad, $msg );
 			}
 		}
+	}
+	elsif( first { $args->{body} =~ $_ } @me_regex ){
+		# 呼ばれた時
+		my ($msg) = shuffle @reply;
+		$msg = sprintf $msg, $args->{who};
+		
+		sleep 2;
+		$self->say(
+			channel => $self->channels,
+			body => $msg,
+		);
+		
+		my $pad = ' ' x ( 16 - length( $args->{who} ) - 1 );
+		$self->logit( info => "%s: %s %s: %s", @{$args}{qw(channel who)}, $pad, $msg );
 	}
 	else{
 		# normal
@@ -88,6 +135,12 @@ sub chanjoin {
 	my $args = shift;
 
 	$self->logit( info => "%s: %s joined.", @{$args}{qw(channel who)} );
+
+	# なると配り
+	if( first { $args->{who} =~ $_ } @admin ){
+		$self->logit( info => "%s: +o", $args->{who} );
+		$self->mode( $self->channels, '+o', $args->{who} );
+	}
 
 	return;
 }
@@ -125,6 +178,8 @@ sub nick_change {
 	return;
 }
 
+my $last_uri = "";
+
 sub tick {
 	my $self = shift;
 
@@ -134,9 +189,9 @@ sub tick {
 	my $json = JSON::Syck::Load( file( $status_file )->slurp );
 	my $status = $json->{status};
 	
-	if( $self->{_live_status} != $status ){
-	
-		if( $status == 1 ){
+	if( $self->{_live_uri} ne $json->{uri} ){
+		
+		if( $status == 1 and $json->{uri} ne $last_uri ){
 			# 放送がはじまった
 			
 			my $msg = sprintf "[生放送] %s (%sさん)", $json->{uri}, $self->get_aircaster( $json->{uri} );
@@ -148,6 +203,8 @@ sub tick {
 				channel => $self->channels,
 				body => $msg,
 			);
+			
+			$last_uri = $json->{uri};
 			$sec = 60;
 		}
 		else{
@@ -155,7 +212,7 @@ sub tick {
 			$sec = 20;
 		}
 		
-		$self->{_live_status} = $status;
+		$self->{_live_uri} = $json->{uri};
 	}
 
 	return $sec;
@@ -167,6 +224,7 @@ sub get_aircaster {
 
 	my $aircaster = "";
 	if( my $content = LWP::Simple::get( $uri ) ){
+		$content = eval { Encode::decode_utf8( $content ) } || $content;
 		if( $content =~ m{放送者：</b><span class="nicopedia">([^<>]+?)</span>}msio ){
 			$aircaster = $1;
 		}
@@ -218,8 +276,11 @@ sub logit {
 		if $template eq '';
 	my $msg = sprintf "[%s] $template", scalar localtime, @args;
 	$msg =~ s/[\s\n]+$//o;
-	$msg = Encode::encode_utf8( $msg );
-
+	
+	if( utf8::is_utf8( $msg ) ){
+		$msg = eval { Encode::encode_utf8( $msg ) } || $msg;
+	}
+use Devel::SimpleTrace;
 	if( my $fh = $self->prepare_fh ){
 		print {$fh} $msg, "\n";
 		printf STDERR "%s\n", $msg;
