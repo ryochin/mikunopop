@@ -37,7 +37,7 @@ for my $file( @file ){
 my $db = {};
 
 # title
-if( $content =~ m{<h3 class="title"><strong>([^<>]+?)</strong>}io ){
+if( $content =~ m{<h3 class="title".+?><strong>([^<>]+?)</strong>}io ){
 	$db->{title} = CGI::unescapeHTML( $1 );
 	if( $db->{title} =~ m{(\d+)}io ){
 		$db->{part} = $1;
@@ -46,6 +46,9 @@ if( $content =~ m{<h3 class="title"><strong>([^<>]+?)</strong>}io ){
 
 # admin
 if( $content =~ m{<h2><strong><a href="http://www.nicovideo.jp/my" id="myname">([^<>]+?)</a>}io ){
+	$db->{aircaster} = CGI::unescapeHTML( $1 );
+}
+elsif( $content =~ m{<a href="http://www.nicovideo.jp/my" id="myname">([^<>]+?)</a>\s*さん}io ){
 	$db->{aircaster} = CGI::unescapeHTML( $1 );
 }
 
