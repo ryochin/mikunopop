@@ -45,7 +45,7 @@ else{
 if( not $live ){
 	sleep 2;
 	if( my $html = LWP::Simple::get( $community_uri ) ){
-		$html = Encode::decode_utf8( $html );
+		$html = eval { Encode::decode_utf8( $html ) } || $html;
 		
 		if( $html =~ m{<h2 class\="now_live_title*"><a href="([^"]+?)" class="community">([^<>]+?)</a>}o ){    # "{
 			($uri, $title) = ($1, $2);
