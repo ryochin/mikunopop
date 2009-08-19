@@ -114,6 +114,15 @@ sub handler : method {    ## no critic
 			my $f = DateTime::Format::W3CDTF->new;
 			$stash->{first_retrieve} = eval { $f->parse_datetime( $stash->{first_retrieve} ) };
 			
+			my $tz = DateTime::TimeZone->new( name => 'local' );
+			my $now = DateTime->now( time_zone => $tz );
+			
+			eval {
+				if( $now->epoch - $stash->{first_retrieve}->epoch < 7 * 24 * 60 ** 2 ){
+					$stash->{is_too_new} = 1;
+				}
+			};
+			
 			# マイリス率
 			$stash->{mylist_percent} = sprintf "%.2f", $stash->{mylist_counter} / $stash->{view_counter} * 100;
 			
