@@ -2,7 +2,7 @@ package Mikunopop::Bot::Basic;
 
 use strict;
 use warnings;
-use parent qw(Bot::BasicBot);
+use parent qw(Bot::BasicBot Mikunopop::Bot::Talk);
 use List::Util qw(first shuffle);
 use Path::Class qw(dir file);
 use IO::File;
@@ -39,16 +39,13 @@ my @me_regex = (
 	qr{(ミクノ|みくの)(ちゃ|チャ)}io,
 );
 
-my @reply = (
-	q{誰か私を呼んだ？　いま忙しいからあとでね！＞%s},
-	q{なによ、気安く話しかけないでよね！＞%s},
-	q{おかえりなさいませ、%s様♪},
-	q{き、来てくれてありがと・・なんて言うわけないでしょっ///＞%s},
-	q{わたしの名前はミクノちゃん、でほんとにいいのかしら。},
-	q{♪　㍍⊃、溶・け・て・しっまっい〜そぉ〜　♪},
-	q{さ、つぎ主やるのはだれなの？},
-	q{あらあらそんなこと言って、わたしに踏まれたいのかしら？＞%s},
-);
+my $aircaster_table = {
+	qr{saihane.*} => q{羽},
+	qr{higumon.*} => q{悶},
+	qr{A\*ster} => q{あすたー},
+	qr{io} => q{いお},
+	qr{マシータ.+} => q{真下},
+};
 
 sub init {
 	my $self = shift;
@@ -64,8 +61,13 @@ sub said {
 	my $self = shift;
 	my $args = shift;
 	
+	# normal
+	my $pad = ' ' x ( 16 - length( $args->{who} ) - 1 );
+	$self->logit( info => "%s: %s %s: %s", @{$args}{qw(channel who)}, $pad, $args->{body} );
+
 	# info
 	if( $args->{body} =~ /((sm|nm)\d{7,9})/o ){
+		# log
 		my $id = $1;
 		my $info_url = sprintf "http://ext.nicovideo.jp/api/getthumbinfo/%s", $id;
 		
@@ -109,22 +111,16 @@ sub said {
 	}
 	elsif( first { $args->{body} =~ $_ } @me_regex ){
 		# 呼ばれた時
-		my ($msg) = shuffle @reply;
-		$msg = sprintf $msg, $args->{who};
-		
-		sleep 2;
-		$self->say(
-			channel => $self->channels,
-			body => $msg,
-		);
-		
-		my $pad = ' ' x ( 16 - length( $args->{who} ) - 1 );
-		$self->logit( info => "%s: %s %s: %s", @{$args}{qw(channel who)}, $pad, $msg );
-	}
-	else{
-		# normal
-		my $pad = ' ' x ( 16 - length( $args->{who} ) - 1 );
-		$self->logit( info => "%s: %s %s: %s", @{$args}{qw(channel who)}, $pad, $args->{body} );
+		if( my $msg = $self->_talk( $args ) ){
+			sleep 1;
+			$self->say(
+				channel => $self->channels,
+				body => $msg,
+			);
+			
+			my $pad = ' ' x ( 16 - length( $self->nick ) - 1 );
+			$self->logit( info => "%s: %s %s: %s", @{$args}{qw(channel)}, $self->nick, $pad, $msg );
+		}
 	}
 	
 	return;
@@ -188,13 +184,24 @@ sub tick {
 	# ３０秒に１回、ミクノの放送状況を告知
 	my $json = JSON::Syck::Load( file( $status_file )->slurp );
 	my $status = $json->{status};
+	$json->{uri} ||= '';
 	
 	if( $self->{_live_uri} ne $json->{uri} ){
 		
 		if( $status == 1 and $json->{uri} ne $last_uri ){
 			# 放送がはじまった
 			
-			my $msg = sprintf "[生放送] %s (%sさん)", $json->{uri}, $self->get_aircaster( $json->{uri} );
+			my $msg;
+			if( my $aircaster = $self->get_aircaster( $json->{uri} ) ){
+				my @msg = (
+					q{あら、%sさんが生放送を始めたわ。%s},
+					q{どうやら%sさんの生放送が始まったようね。%s},
+				);
+				$msg = sprintf $msg[int(rand scalar @msg)], $aircaster, $json->{uri};
+			}
+			else{
+				$msg = sprintf "あら、生放送が始まったようね。%s", $json->{uri};
+			}
 			
 			my $pad = ' ' x ( 16 - length( $self->nick ) - 1 );
 			$self->logit( info => "%s: %s %s: %s", $self->channels, $self->nick, $pad, $msg, );
@@ -212,7 +219,7 @@ sub tick {
 			$sec = 20;
 		}
 		
-		$self->{_live_uri} = $json->{uri};
+		$self->{_live_uri} = $json->{uri} || '';
 	}
 
 	return $sec;
@@ -222,14 +229,23 @@ sub get_aircaster {
 	my $self = shift;
 	my $uri = shift or return;
 
+	# 放送者:<strong class="nicopedia">kotac</strong>さん
+
 	my $aircaster = "";
 	if( my $content = LWP::Simple::get( $uri ) ){
 		$content = eval { Encode::decode_utf8( $content ) } || $content;
-		if( $content =~ m{放送者：</b><span class="nicopedia">([^<>]+?)</span>}msio ){
+		if( $content =~ m{放送者:<strong class="nicopedia">([^<>]+?)</strong>}msio ){
 			$aircaster = $1;
 		}
 	}
 	$aircaster ||= '?';
+
+
+	while( my ($from_regex, $to) = each %{ $aircaster_table } ){
+		if( $aircaster =~ $from_regex ){
+			$aircaster = $to;
+		}
+	}
 
 	return $aircaster;
 }
