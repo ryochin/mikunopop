@@ -124,7 +124,7 @@ sub handler : method {    ## no critic
 			};
 			
 			# マイリス率
-			$stash->{mylist_percent} = sprintf "%.2f", $stash->{mylist_counter} / $stash->{view_counter} * 100;
+			$stash->{mylist_percent} = sprintf "%.1f", $stash->{mylist_counter} / $stash->{view_counter} * 100;
 			
 			# ミクノ度
 			if( defined $count->{$id} and $count->{$id} > 0 ){
@@ -441,6 +441,24 @@ return ["",
 	"36g",
 	"salome",
 	"ぱたや",
+	"P*Light",
+	"放任主義",
+	"21世紀核戦争",
+	"Stremanic",
+	"HIDAKA",
+	"KAZU-k",
+	"effe",
+	"TEMB",
+	"鼎沙耶",
+	"vanzz",
+	"グラウル",
+	"yuukiss",
+	"L*aura",
+	"tatmos",
+	"glim",
+	"ねこぼーろ",
+	"geppei-taro",
+	"グラウル",
 ];
 
 }
