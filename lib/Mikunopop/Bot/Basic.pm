@@ -10,6 +10,7 @@ use Fcntl qw(:DEFAULT :flock);
 use LWP::Simple;
 use XML::Twig;
 use JSON::Syck;
+use DateTime;
 
 use utf8;
 use Encode;
@@ -46,6 +47,8 @@ my $aircaster_table = {
 	qr{io} => q{いお},
 	qr{マシータ.+} => q{真下},
 };
+
+my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
 
 sub init {
 	my $self = shift;
@@ -112,18 +115,27 @@ sub said {
 	elsif( first { $args->{body} =~ $_ } @me_regex ){
 		# 呼ばれた時
 		if( my $msg = $self->_talk( $args ) ){
-			sleep 1;
-			$self->say(
-				channel => $self->channels,
-				body => $msg,
-			);
-			
-			my $pad = ' ' x ( 16 - length( $self->nick ) - 1 );
-			$self->logit( info => "%s: %s %s: %s", @{$args}{qw(channel)}, $self->nick, $pad, $msg );
+			$self->_say( $args, $msg );
 		}
 	}
 	
 	return;
+}
+
+sub _say {
+	my $self = shift;
+	my ($args, $msg) = @_;
+
+	sleep 1;
+	$self->say(
+		channel => $self->channels,
+		body => $msg,
+	);
+	
+	my $pad = ' ' x ( 16 - length( $self->nick ) - 1 );
+	$self->logit( info => "%s: %s %s: %s", @{$args}{qw(channel)}, $self->nick, $pad, $msg );
+
+	return $self;
 }
 
 sub chanjoin {
@@ -136,6 +148,49 @@ sub chanjoin {
 	if( first { $args->{who} =~ $_ } @admin ){
 		$self->logit( info => "%s: +o", $args->{who} );
 		$self->mode( $self->channels, '+o', $args->{who} );
+	}
+
+	# あいさつ
+	if( $args->{who} ne $self->nick ){
+		my @reply_hello = (
+			q{あら、%sさんいらっしゃい。},
+		);
+		
+		# 時刻によって挨拶を変える
+		my $now = DateTime->now( time_zone => $tz );
+		my $hour = $now->hour;
+		if( $hour >= 5 and $hour <10 ){
+			push @reply_hello, (
+				q{あら、%sさんおはよ。},
+				q{お、おはよう・・///＞%s},
+			);
+		}
+		elsif( $hour >= 10 and $hour <18 ){
+			push @reply_hello, (
+				q{あら、%sさんこんにちわ。},
+				q{こんにちわですぅぅぅ！＞%sさん},
+				q{い、いらっしゃい・・///＞%s},
+				q{こんにちわ%sさん、ご機嫌いかが？},
+			);
+		}
+		else{
+			push @reply_hello, (
+				q{こんばんわ、%sさん♪},
+				q{あら、%sさんこんばんわ。},
+				q{こんばんわですぅぅぅ！＞%sさん},
+				q{%s兄さん、いらっしゃいですわ。},
+				q{きょうは遅かったのね。＞%s},
+			);
+		}
+		
+		
+		
+		my ($msg) = shuffle @reply_hello;
+		my $who = $self->convert_aircaster( $args->{who} );
+		
+		$msg = sprintf $msg, $who;
+		
+		$self->_say( $args, $msg );
 	}
 
 	return;
@@ -240,10 +295,21 @@ sub get_aircaster {
 	}
 	$aircaster ||= '?';
 
+	return $self->convert_aircaster( $aircaster );
+}
 
-	while( my ($from_regex, $to) = each %{ $aircaster_table } ){
-		if( $aircaster =~ $from_regex ){
-			$aircaster = $to;
+sub convert_aircaster {
+	my $self = shift;
+	my $aircaster = shift or return;
+
+	if( $aircaster =~ /^mib_/o ){
+		$aircaster = q{名無しさん};
+	}
+	else{
+		while( my ($from_regex, $to) = each %{ $aircaster_table } ){
+			if( $aircaster =~ $from_regex ){
+				$aircaster = $to;
+			}
 		}
 	}
 

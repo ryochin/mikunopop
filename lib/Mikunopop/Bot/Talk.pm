@@ -3,9 +3,12 @@ package Mikunopop::Bot::Talk;
 use strict;
 use warnings;
 use List::Util qw(first shuffle);
+use DateTime;
 
 use utf8;
 use Encode;
+
+my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
 
 my @reply_random = (
 	q{誰か私を呼んだ？　いま忙しいからあとでね！＞%s},
@@ -27,11 +30,15 @@ my @reply_random = (
 	q{ん？},
 	q{そういえば、「ニコ生でいちばんオサレ」だなんて、ちょっと言い過ぎよね。},
 	q{メルトはもう飽きたわ。そもそもミクノ分が無いじゃない。},
+	q{そろそろ私が主デビューしようかしら。},
+	q{え、なに？　よく聞こえなかったわ。＞%s},
 );
 
 sub _talk {
 	my $self = shift;
 	my $args = shift or return;
+
+	my $who = $self->convert_aircaster( $args->{who} );
 
 	if( $args->{body} =~ /(ねた|ネタ|話題|情報)(が|を)*(ちょうだ|お?くれ|(欲|ほ)し|よこ(し|せ)|(な|無)い)/o ){
 		# ネタ
@@ -45,7 +52,7 @@ sub _talk {
 		);
 		
 		my ($msg) = shuffle @reply;
-		return sprintf $msg, $args->{who}, $args->{who}, $args->{who};
+		return sprintf $msg, $who, $who, $who;
 	}
 	elsif( $args->{body} =~ /(ただいま|今北|今来た)/o ){
 		# ただいま
@@ -58,7 +65,54 @@ sub _talk {
 		);
 		
 		my ($msg) = shuffle @reply;
-		return sprintf $msg, $args->{who}, $args->{who}, $args->{who};
+		return sprintf $msg, $who, $who, $who;
+	}
+	elsif( $args->{body} =~ /(おはよ(う|ー|〜)|オハヨ(ウ|ー|〜)|お早う)/o ){
+		# おはよう
+		my @reply = (
+			q{お、おはよう・・///＞%s},
+			q{おはよう%sさん、よく眠れたかしら？},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
+	elsif( $args->{body} =~ /(こんにち(わ|は)|コンニチ(ワ|ハ)|ちわ(ー|〜))/o ){
+		# こんにちわ
+		my @reply = (
+			q{い、いらっしゃい・・///＞%s},
+			q{こんにちわ%sさん、ご機嫌いかが？},
+			q{き、来てくれてありがと・・なんて言うわけないでしょっ///＞%s},
+			q{遅刻ね、駆けつけ２枠よ＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
+	elsif( $args->{body} =~ /((こんばん|今晩)(わ|は)|コンバン(ワ|ハ)|お晩で|ばわ(ー|〜|です))/o ){
+		# こんばんわ
+		my @reply = (
+			q{い、いらっしゃい・・///＞%s},
+			q{こんばんわ、%sさん♪},
+			q{き、来てくれてありがと・・なんて言うわけないでしょっ///＞%s},
+			q{遅刻ね、駆けつけ２枠よ＞%s},
+			q{も、もっと早く来なさいよ・・///＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
+	elsif( $args->{body} =~ /(おやす(み|〜)|お休み|オヤスミ)/o ){
+		# おやすみ
+		my @reply = (
+			q{え、もう寝ちゃうの・・？///＞%s},
+			q{おやすみ〜＞%s},
+			q{寝てもいいなんて許可してないわ！＞%s},
+			q{あと１枠だけやってから寝なさい！＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
 	}
 	elsif( $args->{body} =~ /(偉|えら)い/o ){
 		# えらい
@@ -68,7 +122,7 @@ sub _talk {
 		);
 		
 		my ($msg) = shuffle @reply;
-		return sprintf $msg, $args->{who}, $args->{who}, $args->{who};
+		return sprintf $msg, $who, $who, $who;
 	}
 	elsif( $args->{body} =~ /(おねむ|眠い|ねむい)/o ){
 		# 眠い
@@ -78,7 +132,7 @@ sub _talk {
 		);
 		
 		my ($msg) = shuffle @reply;
-		return sprintf $msg, $args->{who}, $args->{who}, $args->{who};
+		return sprintf $msg, $who, $who, $who;
 	}
 	elsif( $args->{body} =~ /(ぱんちゅ|ぱんつ)/o ){
 		# ぱんつ
@@ -88,7 +142,7 @@ sub _talk {
 		);
 		
 		my ($msg) = shuffle @reply;
-		return sprintf $msg, $args->{who}, $args->{who}, $args->{who};
+		return sprintf $msg, $who, $who, $who;
 	}
 	elsif( $args->{body} =~ /(好|す)き(なの.*)*(\?|？)/o ){
 		# 好き
@@ -100,7 +154,7 @@ sub _talk {
 		);
 		
 		my ($msg) = shuffle @reply;
-		return sprintf $msg, $args->{who}, $args->{who}, $args->{who};
+		return sprintf $msg, $who, $who, $who;
 	}
 	elsif( $args->{body} =~ /(慰|なぐさ)めて/o ){
 		# 慰めて
@@ -110,7 +164,7 @@ sub _talk {
 		);
 		
 		my ($msg) = shuffle @reply;
-		return sprintf $msg, $args->{who}, $args->{who}, $args->{who};
+		return sprintf $msg, $who, $who, $who;
 	}
 	elsif( $args->{body} =~ /遅い/o ){
 		# 遅い
@@ -120,7 +174,7 @@ sub _talk {
 		);
 		
 		my ($msg) = shuffle @reply;
-		return sprintf $msg, $args->{who}, $args->{who}, $args->{who};
+		return sprintf $msg, $who, $who, $who;
 	}
 	else{
 		# ランダム
@@ -148,6 +202,8 @@ sub _talk_neta {
 		my $entry;
 		for my $e( shuffle $feed->entries ){
 			next if $e->title =~ /常設/o;
+			next if $e->title =~ /日/o;    # 本日などを除く
+			
 			$entry = $e;
 			last;
 		}
@@ -159,7 +215,15 @@ sub _talk_neta {
 		}
 	}
 
-	return q{取得できなかったよ・・（泣};
+	return q{取得できなかったわ・・（泣};
+}
+
+sub _talk_hello {
+	my $self = shift;
+	my $args = shift or return;
+
+	my ($msg) = shuffle @reply_random;
+	return sprintf $msg, $args->{who}, $args->{who}, $args->{who};
 }
 
 1;
