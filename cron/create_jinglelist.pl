@@ -92,9 +92,9 @@ my @jingle = (
 		desc => '',
 	},
 	{
-		video_id => 'sm7870758',
-		vid => '7870758',
-		title => '【NoNoWire用ジングル】ミクノポップをきかないか？【Freestyle ver.N】',
+		video_id => 'sm8031848',    # 再うｐ
+		vid => '8031848',
+		title => '【ジングル】ミクノポップをきかないか？【Freestyle ver.N】',
 		author => 'きぬこもちさん',
 		length => '1:56',
 		desc => '黄猫隊長率いる「ルカ様に踏まれ隊」隊歌。',
@@ -106,6 +106,14 @@ my @jingle = (
 		author => 'k-sk さん',
 		length => '2:17',
 		desc => 'とってもムーディー。',
+	},
+	{
+		video_id => 'sm8032058',
+		vid => '8032058',
+		title => '【ジングル】xxxxEMPTYxxxx',
+		author => 'きぬこもちさん',
+		length => '2:05',
+		desc => '無防備なルカ様・・',
 	},
 );
 
