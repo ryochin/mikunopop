@@ -26,19 +26,12 @@ Getopt::Std::getopts 't' => my $opt = {};
 
 my $stash = {};
 
-my $min_short = 5;
-my $min_full = 3;
-my $min_all = 1;
-
 my $base_dir = '/web/mikunopop/';
 my $htdocs_dir = file( $base_dir, "htdocs" );
 my $var_dir = file( $base_dir, "var" );
 
 my $db_file = file( $var_dir, 'count.yml' )->stringify;
 
-my $output_file_short = file( $htdocs_dir, "play", 'index.html' )->stringify;
-my $output_file_full = file( $htdocs_dir, "play", 'full.html' )->stringify;
-my $output_file_all = file( $htdocs_dir, "play", 'all.html' )->stringify;
 my $output_file_csv = file( $htdocs_dir, "play", 'all.csv.gz' )->stringify;
 my $output_file_json = file( $htdocs_dir, "play", 'count.json' )->stringify;
 
@@ -61,6 +54,8 @@ my @jingle = qw(
 	sm7539326
 	sm7870758
 	sm7891336
+	sm8009643
+	sm8032058
 );
 # 告知動画など
 my @ignore = qw(
@@ -72,11 +67,17 @@ my @ignore = qw(
 	sm7473981
 );
 
+# 明らかにおかしいもの
+push @ignore, qw(
+	sm7382119
+	sm1200617
+);
+
 my $content;
 for my $uri( @{ $uri_list } ){
 	if( my $c = get( $uri ) ){
 		printf STDERR "uri: %s: ok.\n", $uri;
-		$content .= Encode::decode( 'euc-jp', $c );
+		$content .= eval { Encode::decode( 'euc-jp', $c ) } || $c;
 	}
 	else{
 		printf STDERR "uri: %s: failed.\n", $uri;
@@ -99,6 +100,7 @@ for my $line( split /\n/o, $content ){
 		
 		$data =~ s/^\s+//o;
 		
+		# マイナスするものをチェック
 		my $ok = $data =~ s/^[\-]+\s*//o
 			? 0
 			: 1;
@@ -112,6 +114,7 @@ for my $line( split /\n/o, $content ){
 		}
 		
 		if( not $ok ){
+#			printf STDERR"%s\n", eval{ Encode::encode_utf8($data) } || $data;
 			$ignore->{ $n }++;
 		}
 		
@@ -148,8 +151,6 @@ for my $line( split /\n/o, $content ){
 
 printf STDERR "ignore: %d videos\n", scalar keys %{ $ignore };
 
-my @video_short;
-my @video_full;
 my @video_all;
 for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{id} <=> $video->{$b}->{id} } keys %{ $video } ){
 	# 再生数が０なら飛ばそう
@@ -168,58 +169,27 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 		view => $video->{$v}->{num},    # 再生数
 	};
 	
-	# short
-	push @video_short, $d
-		if $video->{$v}->{num} >= $min_short;
-	
-	# full
-	push @video_full, $d
-		if $video->{$v}->{num} >= $min_full;
-	
 	# all
 	push @video_all, $d;
 }
 
-## short
-{
-	$stash->{video} = [ @video_short ];
+# 再生回数ごとのファイル生成
+for my $num( qw(20 15 10 5 3 1) ){
+	my @video = grep { $_->{view} >= $num } @video_all;
+	$stash->{video} = [ @video ];
 	$stash->{total_video_num} = scalar @{ $stash->{video} };
-	$stash->{is_full} = 0;
-	$stash->{play_count} = $min_short;
+	$stash->{play_count} = $num;
+	
+	$stash->{is_all} = 1
+		if $num == 1;
+	
+	my $output_file = file( $htdocs_dir, "play", sprintf "over_%d.html", $num )->stringify;
 	
 	my $template = &create_template;
-	$template->process( $template_file, $stash, $output_file_short, binmode => ':utf8' )
+	$template->process( $template_file, $stash, $output_file, binmode => ':utf8' )
 		or die $template->error;
 	
-	printf STDERR "%d: %d videos\n", $min_short, scalar @video_short;
-}
-
-## full
-{
-	$stash->{video} = [ @video_full ];
-	$stash->{total_video_num} = scalar @{ $stash->{video} };
-	$stash->{is_full} = 1;
-	$stash->{play_count} = $min_full;
-
-	my $template = &create_template;
-	$template->process( $template_file, $stash, $output_file_full, binmode => ':utf8' )
-		or die $template->error;
-	
-	printf STDERR "%d: %d videos\n", $min_full, scalar @video_full;
-}
-
-## all
-{
-	$stash->{video} = [ @video_all ];
-	$stash->{total_video_num} = scalar @{ $stash->{video} };
-	$stash->{is_all} = 1;
-	$stash->{play_count} = $min_all;
-
-	my $template = &create_template;
-	$template->process( $template_file, $stash, $output_file_all, binmode => ':utf8' )
-		or die $template->error;
-	
-	printf STDERR "%d: %d videos\n", $min_all, scalar @video_all;
+	printf STDERR "%d: %d videos\n", $num, scalar @video;
 }
 
 # all tsv

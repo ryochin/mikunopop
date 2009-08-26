@@ -66,7 +66,7 @@ $(document).ready( function () {
 
 <div id="container">
 
-	<h1>「ミクノポップをきかないか？」再生回数</h1>
+	<h1>「ミクノポップをきかないか？」再生回数　[% play_count | html %]回以上</h1>
 	
 	<p>
 		[% date.strftime("%Y年%m月%d日 %H時") %] 現在の記録です。[% total_video_num | html %] 件の動画をリストしています。<br />
@@ -76,16 +76,12 @@ $(document).ready( function () {
 	<p>
 		<span id="show-desc">[クリックで詳しい説明を表示]</span><br />
 		[<a href="/">トップページに戻る</a>]<br />
-		[% IF is_all %]
-			[<a href="./">再生回数ランキング（５回以上）</a>]<br />
-			[<a href="./full.html">再生回数ランキング（３回以上）</a>]
-		[% ELSIF is_full %]
-			[<a href="./">再生回数ランキング（５回以上）</a>]<br />
-			[<a href="./all.html">再生回数ランキング（すべて・閲覧注意）</a>]
-		[% ELSE %]
-			[<a href="./full.html">再生回数ランキング（３回以上）</a>]<br />
-			[<a href="./all.html">再生回数ランキング（すべて・閲覧注意）</a>]
-		[% END %]
+		[<a href="./over_20.html">再生回数ランキング（20 回以上）</a>]<br />
+		[<a href="./over_15.html">再生回数ランキング（15 回以上）</a>]<br />
+		[<a href="./over_10.html">再生回数ランキング（10 回以上）</a>]<br />
+		[<a href="./over_5.html">再生回数ランキング（5 回以上）</a>]<br />
+		[<a href="./over_3.html">再生回数ランキング（3 回以上）</a>]<br />
+		[<a href="./over_1.html">再生回数ランキング（すべて・閲覧注意）</a>]
 	</p>
 [% END %]
 
@@ -108,8 +104,6 @@ $(document).ready( function () {
 		プレイリストから自動生成する関係上、実際には再生されていない曲が含まれることもあります。<br />
 		再生回数に関しても、<strong>あくまでも参考値</strong>と考えて下さい。<br />
 	</p>
-	
-	<br />
 
 	<h2>動画一覧</h2>
 
