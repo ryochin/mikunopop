@@ -37,7 +37,7 @@ for my $file( @file ){
 my $db = {};
 
 # title
-if( $content =~ m{<h3 class="title".+?><strong>([^<>]+?)</strong>}io ){
+if( $content =~ m{<h3 class="title".*?><strong>([^<>]+?)</strong>}io ){
 	$db->{title} = CGI::unescapeHTML( $1 );
 	if( $db->{title} =~ m{(\d+)}io ){
 		$db->{part} = $1;
