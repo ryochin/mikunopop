@@ -17,6 +17,16 @@
 <title>動画情報を取得する</title>
 [% END %]
 <style type="text/css">
+table.thumb {
+	margin: 8px 2em;
+	border: o;
+}
+table.thumb span.subtitle {
+	color: #ccccff;
+}
+table.thumb span.sp {
+	color: #999
+}
 table.info {
 	margin: 12px 2em;
 	width: 80%;
@@ -65,66 +75,29 @@ $(document).ready(function() {
 
 [% IF has_info %]
 
-	<h2>[% title | html %]</h2>
+	<h2>情報</h2>
 
-	<p>
-		<a href="http://www.nicovideo.jp/watch/[% id | html %]" target="_blank">
-			<img src="[% thumbnail_url | url | html %]" alt="サムネイル" />
-		</a>
-	</p>
-	
-	<table summary="info" class="info">
+	<table summary="info" class="thumb">
 		<tr>
-			<td align="center">タイトル</td>
-			<td align="left">[% title | html %]</td>
-		</tr>
-		<tr>
-			<td align="center">時間</td>
-			<td align="left">[% length | html %]</td>
-		</tr>
-		<tr>
-			<td align="center">投稿日</td>
-			<td align="left">[% first_retrieve.strftime("%Y年%m月%d日 %H時%M分") | html %]</td>
-		</tr>
-		<tr>
-			<td align="center">再生数</td>
-			<td align="left">[% view_counter | html | comma %]</td>
-		</tr>
-		<tr>
-			<td align="center">コメント数</td>
-			<td align="left">[% comment_num | html | comma %]</td>
-		</tr>
-		<tr>
-			<td align="center" nowrap="nowrap">マイリスト数</td>
-			<td align="left">[% mylist_counter | html | comma %]</td>
-		</tr>
-		<tr>
-			<td align="center">Ｐ名</td>
+			<td>
+				<a href="http://www.nicovideo.jp/watch/[% id | html %]" target="_blank" title="新しいウィンドウで動画ページを開く">
+					<img src="[% thumbnail_url | url | html %]" alt="サムネイル" />
+				</a>
+			</td>
 			<td align="left">
-				[% IF pnames.size > 0 %]
-					[% FOR p = pnames %]
-						<a href="http://www.nicovideo.jp/tag/[% p | url | html %]" target="_blank">[% p | html %]</a>
-					[% END %]
-				[% ELSE %]
+				<span class="subtitle">曲</span><span class="sp">/</span>[% title | html %]<br />
+				<span class="subtitle">Ｐ</span><span class="sp">/</span>[%- IF pnames.size > 0 -%]
+					[%- FOR p = pnames -%]<a href="http://www.nicovideo.jp/tag/[% p | url | html %]" target="_blank">[% p | html %]</a> [%+ END -%]
+				[%- ELSE -%]
 					？
-				[% END %]
+				[%- END %]
+				<br />
+				<span class="subtitle">投</span><span class="sp">/</span>[% first_retrieve.strftime("%Y年%m月%d日") %] <span class="dim">[% first_retrieve.strftime("%H時%M分") %]</span><br />
+				<span class="subtitle">再</span><span class="sp">/</span>[% view_counter | html | comma %]　<span class="subtitle">コ</span><span class="sp">/</span>[% comment_num | html | comma %]　<span class="subtitle">マ</span><span class="sp">/</span>[% mylist_counter | html | comma %] <span class="dim">([% mylist_percent | html %]%)</span><br />
+				<span class="subtitle">彡</span><span class="sp">/</span>[% count | html | comma %]　<span class="subtitle">時</span><span class="sp">/</span>[% length | html %]<br />
+				<span class="subtitle">ジ</span><span class="sp">/</span>[%- FOR t = tag_vocaloid -%][% t | html %] [%+ END -%]
+				<br />
 			</td>
-		</tr>
-		<tr>
-			<td align="center">ミクノ度</td>
-			<td align="left">[% count | html | comma %]</td>
-		</tr>
-		<tr>
-			<td align="center">タグ</td>
-			<td align="left">
-				[% FOR t = tag %]
-					<a href="http://www.nicovideo.jp/tag/[% t | url | html %]" target="_blank">[% t | html %]</a>
-				[% END %]
-			</td>
-		</tr>
-		<tr>
-			<td align="center">説明</td>
-			<td align="left">[% description | html | auto_link target='_blank' %]</td>
 		</tr>
 	</table>
 
@@ -143,11 +116,11 @@ $(document).ready(function() {
 [%- END %]
 
 [% BLOCK info2color -%]
-<font color="#000000">■</font><font color="#b9f6b9">[% first_retrieve.strftime("%Y.%m.%d") | html %]</font> <font color="#aaaaaa">時/</font><font color="#b9f6b9">[% length | html %]</font> <font color="#ecccac">彡</font><font color="#aaaaaa">/</font><font color="#f3aaaa">[% count | html | comma %]</font> <font color="#000000">◆</font><font color="#aaaaaa">再/</font><font color="#b9f6b9">[% view_counter | html | comma %]</font> <font color="#aaaaaa">コ/</font><font color="#b9f6b9">[% comment_num | html | comma %]</font> <font color="#aaaaaa">マ/</font><font color="#b9f6b9">[% mylist_counter | html | comma %] ([% mylist_percent | html %]%)</font>
+<font color="#000000">■</font><font color="#acacec">[% first_retrieve.strftime("%Y.%m.%d") | html %]</font> <font color="#aaaaaa">時/</font><font color="#b9f6b9">[% length | html %]</font> <font color="#ecccac">彡</font><font color="#aaaaaa">/</font><font color="#f3aaaa">[% count | html | comma %]</font> <font color="#000000">◆</font><font color="#aaaaaa">再/</font><font color="#b9f6b9">[% view_counter | html | comma %]</font> <font color="#aaaaaa">コ/</font><font color="#b9f6b9">[% comment_num | html | comma %]</font> <font color="#aaaaaa">マ/</font><font color="#b9f6b9">[% mylist_counter | html | comma %] ([% mylist_percent | html %]%)</font>
 [%- END %]
 
 [% BLOCK info2color_nocount -%]
-<font color="#000000">■</font><font color="#b9f6b9">[% first_retrieve.strftime("%Y.%m.%d") | html %]</font> <font color="#aaaaaa">時/</font><font color="#b9f6b9">[% length | html %]</font>  <font color="#000000">◆</font><font color="#aaaaaa">再/</font><font color="#b9f6b9">[% view_counter | html | comma %]</font> <font color="#aaaaaa">コ/</font><font color="#b9f6b9">[% comment_num | html | comma %]</font> <font color="#aaaaaa">マ/</font><font color="#b9f6b9">[% mylist_counter | html | comma %] ([% mylist_percent | html %]%)</font>
+<font color="#000000">■</font><font color="#acacec">[% first_retrieve.strftime("%Y.%m.%d") | html %]</font> <font color="#aaaaaa">時/</font><font color="#b9f6b9">[% length | html %]</font>  <font color="#000000">◆</font><font color="#aaaaaa">再/</font><font color="#b9f6b9">[% view_counter | html | comma %]</font> <font color="#aaaaaa">コ/</font><font color="#b9f6b9">[% comment_num | html | comma %]</font> <font color="#aaaaaa">マ/</font><font color="#b9f6b9">[% mylist_counter | html | comma %] ([% mylist_percent | html %]%)</font>
 [%- END %]
 
 	<table summary="info">
@@ -187,6 +160,27 @@ $(document).ready(function() {
 		<tr>
 			<td align="center">ログ用</td>
 			<td align="left"><input type="text" size="60" value="[% id | html %]　[%+ title | html %]" /></td>
+		</tr>
+	</table>
+
+	<h2>追加情報</h2>
+
+	<table summary="info" class="info">
+		<tr>
+			<td align="center" width="120">タグ</td>
+			<td align="left">
+				[% FOR t = tag %]
+					<a href="http://www.nicovideo.jp/tag/[% t | url | html %]" target="_blank">[% t | html %]</a>
+				[% END %]
+			</td>
+		</tr>
+		<tr>
+			<td align="center">説明</td>
+			<td align="left">[% description | html | auto_link target='_blank' %]</td>
+		</tr>
+		<tr>
+			<td align="center">最新コメ</td>
+			<td align="left">[% last_res_body | html %]</td>
 		</tr>
 	</table>
 
