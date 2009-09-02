@@ -45,8 +45,14 @@ my $aircaster_table = {
 	qr{higumon.*} => q{悶},
 	qr{A\*ster} => q{あすたー},
 	qr{io} => q{いお},
+	qr{mashita.+} => q{真下},
 	qr{マシータ.+} => q{真下},
+	qr{kinuko.+} => q{きぬこ},
 };
+
+my @ignore_hello = (
+	qr{^saihane(_.+)*}io,
+);
 
 my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
 
@@ -150,6 +156,10 @@ sub chanjoin {
 		$self->mode( $self->channels, '+o', $args->{who} );
 	}
 
+	# あいさつしない
+	return
+		if first { $args->{who} =~ $_ } @ignore_hello;
+
 	# あいさつ
 	if( $args->{who} ne $self->nick ){
 		my @reply_hello = (
@@ -182,8 +192,6 @@ sub chanjoin {
 				q{きょうは遅かったのね。＞%s},
 			);
 		}
-		
-		
 		
 		my ($msg) = shuffle @reply_hello;
 		my $who = $self->convert_aircaster( $args->{who} );
