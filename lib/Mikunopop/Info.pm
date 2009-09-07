@@ -71,6 +71,7 @@ sub handler : method {    ## no critic
 
 	if( $id and my $content = get( $info_url ) ){
 		my $handler = {};
+		my @tag;
 		$handler->{'/nicovideo_thumb_response/thumb'} = sub {
 			my ($tree, $elem) = @_;
 			
@@ -85,36 +86,35 @@ sub handler : method {    ## no critic
 				}
 				
 				# all tag
-				my @tag;
 				if( $item->name eq 'tags' and $item->att('domain') eq 'jp' ){
 					for my $t( $item->children ){
 						next if $t->trimmed_text eq q{音楽};
 						push @tag, $t->trimmed_text;
 					}
 				}
-				
-				# vocaloid tag
-				my @tag_vocaloid;
-				my @tags = @{ &tags };
-				for my $tag( @tag ){
-					# first が使えない
-					my $flag = 0;
-					for my $t( @tags ){
-						if( $tag =~ /$t/i ){
-							push @tag_vocaloid, $tag;
-						}
-					}
-				}
-				
-				# set
-				$stash->{tag} = [ @tag ];
-				$stash->{tag_vocaloid} = [ @tag_vocaloid ];
 			}
 		};
 		
 		# parse
 		my $twig = XML::Twig->new( TwigHandlers => $handler );
 		eval { $twig->parse( $content ) };
+		
+		# vocaloid tag
+		my @tag_vocaloid;
+		my @tags = @{ &tags };
+		for my $tag( @tag ){
+			# first が使えない
+			my $flag = 0;
+			for my $t( @tags ){
+				if( $tag =~ /$t/i ){
+					push @tag_vocaloid, $tag;
+				}
+			}
+		}
+		
+		# set
+		$stash->{tag} = [ @tag ];
+		$stash->{tag_vocaloid} = [ @tag_vocaloid ];
 		
 		if( defined $stash->{title} and $stash->{title} ne '' ){
 			$stash->{has_info} = 1;
