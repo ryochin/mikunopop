@@ -41,13 +41,14 @@ my @me_regex = (
 );
 
 my $aircaster_table = {
-	qr{saihane.*} => q{羽},
-	qr{higumon.*} => q{悶},
-	qr{A\*ster} => q{あすたー},
-	qr{io} => q{いお},
-	qr{mashita.+} => q{真下},
+	qr{saihane.*}io => q{羽},
+	qr{higumon.*}io => q{悶},
+	qr{A\*?ster}io => q{あすたー},
+	qr{io}io => q{いお},
+	qr{mashita.+}io => q{真下},
 	qr{マシータ.+} => q{真下},
-	qr{kinuko.+} => q{きぬこ},
+	qr{kinuko.+}io => q{きぬこ},
+	qr{noren.+}io => q{暖簾},
 };
 
 my @ignore_hello = (
@@ -162,6 +163,21 @@ sub chanjoin {
 
 	# あいさつ
 	if( $args->{who} ne $self->nick ){
+		
+		# 名前が test だったら警告を出す
+		if( $args->{who} =~ /^test/io ){
+			{
+				my $msg = sprintf q{* 大変申し訳ありません、混乱するので名前を変更して頂けますか？＞%sさん}, $args->{who};
+				$self->_say( $args, $msg );
+			}
+			sleep 1;
+			{
+				my $msg = q{* たとえば、/nick taro と打つと、ニックネームを変えることができます。ご協力お願いします。m(_ _)m};
+				$self->_say( $args, $msg );
+			}
+			return;
+		}
+		
 		my @reply_hello = (
 			q{あら、%sさんいらっしゃい。},
 		);
@@ -190,6 +206,9 @@ sub chanjoin {
 				q{こんばんわですぅぅぅ！＞%sさん},
 				q{%s兄さん、いらっしゃいですわ。},
 				q{きょうは遅かったのね。＞%s},
+				q{あらこんばんわ%sさん。},
+				q{あらこんばんわ%sさん、ご機嫌はいかがかしら。},
+				q{こんばんわ%sさん、よい晩ね。},
 			);
 		}
 		
