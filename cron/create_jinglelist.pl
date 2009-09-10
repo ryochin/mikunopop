@@ -115,6 +115,14 @@ my @jingle = (
 		length => '2:05',
 		desc => '無防備なルカ様・・',
 	},
+	{
+		video_id => 'sm8183423',
+		vid => '8183423',
+		title => '【ジングル】ミクノポップをきかないか？【Vacuons Dolls ver.A】',
+		author => 'aoid さん',
+		length => '2:48',
+		desc => 'あわあわ。とっても美しい・・。',
+	},
 );
 
 my $n = 0;
