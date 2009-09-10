@@ -45,14 +45,15 @@ my $aircaster_table = {
 	qr{higumon.*}io => q{悶},
 	qr{A\*?ster}io => q{あすたー},
 	qr{io}io => q{いお},
-	qr{mashita.+}io => q{真下},
-	qr{マシータ.+} => q{真下},
-	qr{kinuko.+}io => q{きぬこ},
-	qr{noren.+}io => q{暖簾},
+	qr{mashita.*}io => q{真下},
+	qr{マシータ.*} => q{真下},
+	qr{kinuko.*}io => q{きぬこ},
+	qr{noren.*}io => q{暖簾},
 };
 
 my @ignore_hello = (
 	qr{^saihane(_.+)*}io,
+	qr{^higumon(_.+)*}io,
 );
 
 my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
