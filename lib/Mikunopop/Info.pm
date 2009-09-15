@@ -45,15 +45,15 @@ sub handler : method {    ## no critic
 	}
 
 	my $id;
-	if( $r->param('id') =~ m{^.+/((sm|nm)\d+)$}o ){
+	if( $r->param('id') =~ m{^.+/((sm|nm)\d+)\s*$}o ){
 		# http://www.nicovideo.jp/watch/sm6626954
 		$id = $1;
 	}
-	elsif( $r->param('id') =~ m{^(sm|nm)\d+$}o ){
+	elsif( $r->param('id') =~ m{^(sm|nm)\d+\s*$}o ){
 		# sm6626954
 		$id = $r->param('id');
 	}
-	elsif( $r->param('id') =~ m{^\d+$}o ){
+	elsif( $r->param('id') =~ m{^\d+\s*$}o ){
 		# 6626954
 		# -> sm を補完する
 		$id = sprintf "sm%d", $r->param('id');
@@ -63,6 +63,8 @@ sub handler : method {    ## no critic
 		$id = $r->path_info;
 		$id =~ s{^/+}{}o;
 	}
+
+	$id =~ s/\s+//go;
 
 	my $stash = {};
 	$stash->{id} = $id;
@@ -104,9 +106,8 @@ sub handler : method {    ## no critic
 		my @tags = @{ &tags };
 		for my $tag( @tag ){
 			# first が使えない
-			my $flag = 0;
 			for my $t( @tags ){
-				if( $tag =~ /$t/i ){
+				if( $tag =~ /^$t$/i ){
 					push @tag_vocaloid, $tag;
 				}
 			}
@@ -114,7 +115,7 @@ sub handler : method {    ## no critic
 		
 		# set
 		$stash->{tag} = [ @tag ];
-		$stash->{tag_vocaloid} = [ @tag_vocaloid ];
+		$stash->{tag_vocaloid} = [ uniq @tag_vocaloid ];
 		
 		if( defined $stash->{title} and $stash->{title} ne '' ){
 			$stash->{has_info} = 1;
@@ -214,6 +215,8 @@ return ["",
 	"テクノ",
 	"Instrumental",
 	"ChipTune",
+	"グループサウンズ",
+	"ミニマル",
 
 #	// 大百科より
 #	// http://dic.nicovideo.jp/a/vocaloid%E9%96%A2%E9%80%A3%E3%81%AE%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7
@@ -228,7 +231,7 @@ return ["",
 	"全部ミク",
 	"全部リン",
 	"全部レン",
-	"Chiptune×VOCALOIDリンク",
+#	"Chiptune×VOCALOIDリンク",
 	"電脳愛国婦人",
 	"BAR初音",
 	"BAR弱音",
@@ -288,7 +291,7 @@ return ["",
 	"ききいるミクうた",
 	"ミクのクリスマス曲",
 	"ミクという音源を使ってみた",
-	"初音ミク迷曲リンク",
+#	"初音ミク迷曲リンク",
 	"大人のミク曲",
 	"素朴なミクうた",
 	"ごきげんミクさん",
@@ -303,8 +306,8 @@ return ["",
 
 #	// リン
 	"隠れたリン名曲",
-	"鏡音リン迷曲リンク",
-	"鏡音リン名曲リンク",
+#	"鏡音リン迷曲リンク",
+#	"鏡音リン名曲リンク",
 	"みんなのリンうた",
 	"切ないリンうた",
 	"元気が出るリンうた",
@@ -318,7 +321,7 @@ return ["",
 	"元気の出るリンうた",
 
 #	// ルカ
-	"巡音ルカ名曲リンク",
+#	"巡音ルカ名曲リンク",
 	"ききいるルカうた",
 	"クールなルカうた",
 	"切ないルカうた",
@@ -620,6 +623,39 @@ return ["",
 	"サイコパズル",
 	"nyan_nyan",
 	"hiropon_5th",
+	"stereoberry",
+	"Seventh_Heaven",
+	"sh_m",
+	"ut21",
+	"ziki_7",
+	"でっち",
+	"立秋",
+	"とんかつ",
+	"だいすけ",
+	"ボッチ",
+	"arata",
+	"えこ。",
+	"o.ken",
+	"Aether_Eru",
+	"卯月めい",
+	"黒サムネ",
+	"PtPd",
+	"ピロシキ＋",
+	"今日犬",
+	"ma10a",
+	"Kyanite",
+	"LC:AZE",
+	"baker",
+	"kiichi",
+	"North-",
+	"とち-music_box",
+	"temporu",
+	"すこっぷ",
+	"Dong",
+	"DONTNORA",
+	"田村ヒロ",
+	"Hal",
+	"堤逢叶",
 ];
 }
 
