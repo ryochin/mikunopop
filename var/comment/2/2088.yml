@@ -1,0 +1,683 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんばんわー！
+    date: 2009/09/22 23:38:55
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おつ
+    date: 2009/09/22 23:39:00
+    is_odd: 0
+    "no": 2
+  - 
+    comment: おつー
+    date: 2009/09/22 23:39:26
+    is_odd: 1
+    "no": 3
+  - 
+    comment: リクかまーん！
+    date: 2009/09/22 23:39:27
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: "■GUMIシングル曲「COSMiCA」from ゆうきまさみ×kz『Crosslight』 ■ kz "
+    date: 2009/09/22 23:39:30
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: ｗ
+    date: 2009/09/22 23:39:31
+    is_odd: 0
+    "no": 7
+  - 
+    comment: ■2009.08.27 時/5:28 彡/2 ◆再/10,465 コ/289 マ/628 (6.0%)
+    date: 2009/09/22 23:39:36
+    is_admin: 1
+    is_odd: 1
+    "no": 8
+  - 
+    comment: ！？
+    date: 2009/09/22 23:39:43
+    is_odd: 0
+    "no": 9
+  - 
+    comment: 絵がおかしい；；；
+    date: 2009/09/22 23:39:48
+    is_odd: 1
+    "no": 10
+  - 
+    comment: ？？
+    date: 2009/09/22 23:39:58
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: どうおかしんだろう
+    date: 2009/09/22 23:41:03
+    is_odd: 1
+    "no": 12
+  - 
+    comment: 今流れてます・・？
+    date: 2009/09/22 23:41:11
+    is_odd: 0
+    "no": 13
+  - 
+    comment: とまったままですなぁ
+    date: 2009/09/22 23:41:18
+    is_odd: 1
+    "no": 14
+  - 
+    comment: リロードでも厳しそうですか？？
+    date: 2009/09/22 23:41:31
+    is_admin: 1
+    is_odd: 0
+    "no": 15
+  - 
+    comment: うちは流れてる
+    date: 2009/09/22 23:41:35
+    is_odd: 1
+    "no": 16
+  - 
+    comment: sm3626067
+    date: 2009/09/22 23:41:42
+    is_odd: 0
+    "no": 17
+  - 
+    comment: 読み込み中状態・・＞＜
+    date: 2009/09/22 23:41:42
+    is_odd: 1
+    "no": 18
+  - 
+    comment: ブラウザ再起動も結構アリかも！
+    date: 2009/09/22 23:41:52
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: リロードかキャッシュクリアで
+    date: 2009/09/22 23:42:07
+    is_odd: 1
+    "no": 20
+  - 
+    comment: 元動画がエコノミーだとおかしいみたいですよ
+    date: 2009/09/22 23:42:08
+    is_odd: 0
+    "no": 21
+  - 
+    comment: そうなんですかー・・
+    date: 2009/09/22 23:42:17
+    is_odd: 1
+    "no": 22
+  - 
+    comment: sm7770284
+    date: 2009/09/22 23:42:24
+    is_odd: 0
+    "no": 23
+  - 
+    comment: 了解ですありがとうー
+    date: 2009/09/22 23:42:34
+    is_odd: 1
+    "no": 24
+  - 
+    comment: こんばんはー、洗車から帰ってきたと聞いて
+    date: 2009/09/22 23:44:13
+    is_odd: 0
+    "no": 25
+  - 
+    comment: 24さんごめんね！もうすぐ次曲だからそれまで待ってていただけると嬉しいっす！
+    date: 2009/09/22 23:44:24
+    is_admin: 1
+    is_odd: 1
+    "no": 26
+  - 
+    comment: とりあえず比較用的に。＞nm7530430
+    date: 2009/09/22 23:44:27
+    is_odd: 0
+    "no": 27
+  - 
+    comment: "■【GUMI】　blue bird　【s.y.n.】 ■ とくP "
+    date: 2009/09/22 23:44:47
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: ■2009.06.28 時/3:57 彡/1 ◆再/269,709 コ/6,172 マ/16,184 (6.0%)
+    date: 2009/09/22 23:44:53
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: リクあざっす！
+    date: 2009/09/22 23:44:58
+    is_admin: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: きたきた
+    date: 2009/09/22 23:45:00
+    is_odd: 0
+    "no": 32
+  - 
+    comment: とっくとくー
+    date: 2009/09/22 23:45:07
+    is_odd: 1
+    "no": 33
+  - 
+    comment: 2分余っております。
+    date: 2009/09/22 23:45:16
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: うあ、このめぐぽかわええ
+    date: 2009/09/22 23:45:36
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: sm7771057
+    date: 2009/09/22 23:45:45
+    is_odd: 0
+    "no": 36
+  - 
+    comment: りくしめ！
+    date: 2009/09/22 23:45:51
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: ほい nm7654705
+    date: 2009/09/22 23:45:52
+    is_odd: 0
+    "no": 38
+  - 
+    comment: あ ごめんw
+    date: 2009/09/22 23:45:59
+    is_odd: 1
+    "no": 39
+  - 
+    comment: グミええのう
+    date: 2009/09/22 23:46:06
+    is_odd: 0
+    "no": 40
+  - 
+    comment: スルーしてねw
+    date: 2009/09/22 23:46:09
+    is_odd: 1
+    "no": 41
+  - 
+    comment: 38さんごめんね！
+    date: 2009/09/22 23:46:11
+    is_admin: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: 彡1が意外
+    date: 2009/09/22 23:46:11
+    is_odd: 1
+    "no": 43
+  - 
+    comment: ミクノとの親和性高いのう
+    date: 2009/09/22 23:46:19
+    is_odd: 0
+    "no": 44
+  - 
+    comment: このコメントは表示されません
+    date: 2009/09/22 23:46:22
+    is_hidden: 1
+    is_odd: 1
+    "no": 45
+  - 
+    comment: 了解w
+    date: 2009/09/22 23:46:30
+    is_odd: 0
+    "no": 46
+  - 
+    comment: 36さんのリク、後半切れるかもですが、このまま続行で。
+    date: 2009/09/22 23:47:27
+    is_admin: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: ロスタイムで運営が頑張ってくれるはず。
+    date: 2009/09/22 23:47:58
+    is_admin: 1
+    is_odd: 0
+    "no": 48
+  - 
+    comment: 結構長いときがありますもんねｗ
+    date: 2009/09/22 23:48:15
+    is_odd: 1
+    "no": 49
+  - 
+    comment: それがミクノ！
+    date: 2009/09/22 23:48:38
+    is_admin: 1
+    is_odd: 0
+    "no": 50
+  - 
+    comment: "■【GUMI×大将】押してダメなら押し倒せ～冬ver～【せるふかばー】 ■ チキンカツP "
+    date: 2009/09/22 23:48:44
+    is_admin: 1
+    is_odd: 1
+    "no": 51
+  - 
+    comment: ■2009.06.28 時/3:54 彡/0 ◆再/4,132 コ/287 マ/132 (3.2%)
+    date: 2009/09/22 23:48:50
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: これのルカ様verもオススメです。
+    date: 2009/09/22 23:49:00
+    is_admin: 1
+    is_odd: 1
+    "no": 54
+  - 
+    comment: なんぞｗ
+    date: 2009/09/22 23:49:08
+    is_odd: 0
+    "no": 55
+  - 
+    comment: あるあるｗｗ
+    date: 2009/09/22 23:49:28
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: さけべ！
+    date: 2009/09/22 23:49:40
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: ｗｗｗ
+    date: 2009/09/22 23:50:18
+    is_odd: 1
+    "no": 58
+  - 
+    comment: セコマの弁当は学生の味方です。
+    date: 2009/09/22 23:50:51
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: しかしローカルネタがｗｗｗ
+    date: 2009/09/22 23:51:10
+    is_admin: 1
+    is_odd: 1
+    "no": 60
+  - 
+    comment: ■【初音ミク】ミクヘコサマヤ共和国の歌 2nd【オリジナル曲】 ■ P名?
+    date: 2009/09/22 23:52:38
+    is_admin: 1
+    is_odd: 0
+    "no": 61
+  - 
+    comment: ■2008.10.22 時/3:47 彡/2 ◆再/734 コ/43 マ/39 (5.3%)
+    date: 2009/09/22 23:52:44
+    is_admin: 1
+    is_odd: 1
+    "no": 63
+  - 
+    comment: おっ、好きな曲来たーー！！
+    date: 2009/09/22 23:53:09
+    is_odd: 0
+    "no": 64
+  - 
+    comment: へこさまへこさま
+    date: 2009/09/22 23:53:52
+    is_odd: 1
+    "no": 65
+  - 
+    comment: さて、次枠もやらせていただく運びとなりました。
+    date: 2009/09/22 23:55:25
+    is_admin: 1
+    is_odd: 0
+    "no": 66
+  - 
+    comment: おぉ～ｗ
+    date: 2009/09/22 23:55:38
+    is_odd: 1
+    "no": 67
+  - 
+    comment: おー
+    date: 2009/09/22 23:55:52
+    is_odd: 0
+    "no": 68
+  - 
+    comment: "■【初音ミク】 ワタシのウタ 【オリジナル】 ■ 律儀P "
+    date: 2009/09/22 23:56:25
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: ■2008.06.11 時/4:01 彡/23 ◆再/5,042 コ/129 マ/152 (3.0%)
+    date: 2009/09/22 23:56:31
+    is_admin: 1
+    is_odd: 0
+    "no": 71
+  - 
+    comment: 律儀Pいいよいいよー
+    date: 2009/09/22 23:56:58
+    is_odd: 1
+    "no": 72
+  - 
+    comment: いいねいいねー
+    date: 2009/09/22 23:57:05
+    is_odd: 0
+    "no": 73
+  - 
+    comment: 歌詞が暖かいねー
+    date: 2009/09/22 23:57:11
+    is_odd: 1
+    "no": 74
+  - 
+    comment: 律儀Pとコラボしたいなー。
+    date: 2009/09/22 23:57:15
+    is_admin: 1
+    is_odd: 0
+    "no": 75
+  - 
+    comment: nm8234164
+    date: 2009/09/22 23:57:24
+    is_odd: 1
+    "no": 76
+  - 
+    comment: いつか夢です＞＜
+    date: 2009/09/22 23:57:30
+    is_admin: 1
+    is_odd: 0
+    "no": 77
+  - 
+    comment: リクあざっす！
+    date: 2009/09/22 23:57:37
+    is_admin: 1
+    is_odd: 1
+    "no": 78
+  - 
+    comment: 言ってみると意外とあっさりかもしれないですよ～
+    date: 2009/09/22 23:57:47
+    is_odd: 0
+    "no": 79
+  - 
+    comment: このコメントは表示されません
+    date: 2009/09/22 23:58:08
+    is_hidden: 1
+    is_odd: 1
+    "no": 80
+  - 
+    comment: ''
+    date: 2009/09/22 23:58:22
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 81
+  - 
+    comment: やるからには本気で！！
+    date: 2009/09/22 23:58:30
+    is_admin: 1
+    is_odd: 1
+    "no": 82
+  - 
+    comment: そう伝えておきます
+    date: 2009/09/22 23:58:51
+    is_odd: 0
+    "no": 83
+  - 
+    comment: Σ
+    date: 2009/09/22 23:58:58
+    is_admin: 1
+    is_odd: 1
+    "no": 84
+  - 
+    comment: Σ
+    date: 2009/09/22 23:59:03
+    is_odd: 0
+    "no": 85
+  - 
+    comment: Σ
+    date: 2009/09/22 23:59:08
+    is_odd: 1
+    "no": 86
+  - 
+    comment: 混乱してるのは主だけじゃないよな！な！
+    date: 2009/09/22 23:59:23
+    is_admin: 1
+    is_odd: 0
+    "no": 87
+  - 
+    comment: ｗｗｗ
+    date: 2009/09/22 23:59:30
+    is_odd: 1
+    "no": 88
+  - 
+    comment: 伝えるのやめとくわw
+    date: 2009/09/22 23:59:39
+    is_odd: 0
+    "no": 89
+  - 
+    comment: ''
+    date: 2009/09/22 23:59:46
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 90
+  - 
+    comment: なんでｗ
+    date: 2009/09/22 23:59:47
+    is_odd: 0
+    "no": 91
+  - 
+    comment: この曲のPVつくっちゃえばいいYO
+    date: 2009/09/23 00:00:15
+    is_odd: 1
+    "no": 92
+  - 
+    comment: おぉ
+    date: 2009/09/23 00:00:21
+    is_odd: 0
+    "no": 93
+  - 
+    comment: それだ！
+    date: 2009/09/23 00:00:22
+    is_admin: 1
+    is_odd: 1
+    "no": 94
+  - 
+    comment: ■【初音ミク グミリン】君の生きがい１KOOL【オリジナル】 ■ P名?
+    date: 2009/09/23 00:00:27
+    is_admin: 1
+    is_odd: 0
+    "no": 95
+  - 
+    comment: ■2009.07.28 時/2:22 彡/1 ◆再/610 コ/15 マ/16 (2.6%)
+    date: 2009/09/23 00:00:33
+    is_admin: 1
+    is_odd: 1
+    "no": 96
+  - 
+    comment: 流れてますー？
+    date: 2009/09/23 00:01:06
+    is_admin: 1
+    is_odd: 0
+    "no": 97
+  - 
+    comment: ＞＜
+    date: 2009/09/23 00:01:19
+    is_odd: 1
+    "no": 98
+  - 
+    comment: のぅ
+    date: 2009/09/23 00:01:21
+    is_odd: 0
+    "no": 99
+  - 
+    comment: ﾏﾀﾞー
+    date: 2009/09/23 00:01:22
+    is_odd: 1
+    "no": 100
+  - 
+    comment: ここで放送事故カモーン
+    date: 2009/09/23 00:01:22
+    is_odd: 0
+    "no": 101
+  - 
+    comment: ＞＞＜
+    date: 2009/09/23 00:01:24
+    is_odd: 1
+    "no": 102
+  - 
+    comment: 真っ白・・
+    date: 2009/09/23 00:01:26
+    is_odd: 0
+    "no": 103
+  - 
+    comment: ■【ミクノポップをきかないか？】放送事故で３２ｂｉｔ　ｌｏｖｅｒｓ ◆No.- presented by  きぬこもち
+    date: 2009/09/23 00:01:32
+    is_admin: 1
+    is_odd: 1
+    "no": 105
+  - 
+    comment: GJ！ｗ
+    date: 2009/09/23 00:01:35
+    is_odd: 0
+    "no": 106
+  - 
+    comment: おkおk
+    date: 2009/09/23 00:01:35
+    is_odd: 1
+    "no": 107
+  - 
+    comment: ｗｗｗ
+    date: 2009/09/23 00:01:41
+    is_odd: 0
+    "no": 108
+  - 
+    comment: wwwwww
+    date: 2009/09/23 00:01:44
+    is_odd: 1
+    "no": 109
+  - 
+    comment: 放送事故も手馴れたもんだねｗｗｗ
+    date: 2009/09/23 00:01:47
+    is_odd: 0
+    "no": 110
+  - 
+    comment: 普通に次の曲行ってもいいのにｗ
+    date: 2009/09/23 00:01:48
+    is_odd: 1
+    "no": 111
+  - 
+    comment: コ　レ　凄　く　良　い
+    date: 2009/09/23 00:02:23
+    is_admin: 1
+    is_odd: 0
+    "no": 112
+  - 
+    comment: "■【メグッポイド】スタッカート♪【オリジナル曲】 ■ M@SATOSHI_P あルカP "
+    date: 2009/09/23 00:02:30
+    is_admin: 1
+    is_odd: 1
+    "no": 113
+  - 
+    comment: ■2009.07.04 時/4:14 彡/1 ◆再/7,936 コ/306 マ/525 (6.6%)
+    date: 2009/09/23 00:02:36
+    is_admin: 1
+    is_odd: 0
+    "no": 115
+  - 
+    comment: どきっとした。。。
+    date: 2009/09/23 00:02:54
+    is_odd: 1
+    "no": 116
+  - 
+    comment: 次枠でもリク少し取りますね～
+    date: 2009/09/23 00:05:22
+    is_admin: 1
+    is_odd: 0
+    "no": 117
+  - 
+    comment: オサレポップ期待
+    date: 2009/09/23 00:05:32
+    is_admin: 1
+    is_odd: 1
+    "no": 118
+  - 
+    comment: "■【初音ミク】テイクオフ【オリジナル曲】 ■ ブリブリP "
+    date: 2009/09/23 00:06:40
+    is_admin: 1
+    is_odd: 0
+    "no": 119
+  - 
+    comment: ■2009.09.15 時/4:28 彡/2 ◆再/5,452 コ/269 マ/485 (8.9%)
+    date: 2009/09/23 00:06:47
+    is_admin: 1
+    is_odd: 1
+    "no": 121
+  - 
+    comment: では、この曲でこの枠はおしまい。
+    date: 2009/09/23 00:06:54
+    is_admin: 1
+    is_odd: 0
+    "no": 122
+  - 
+    comment: 次枠へ移動となりますー。
+    date: 2009/09/23 00:07:03
+    is_admin: 1
+    is_odd: 1
+    "no": 123
+  - 
+    comment: お、かっこいい音
+    date: 2009/09/23 00:07:23
+    is_odd: 0
+    "no": 124
+  - 
+    comment: コレ良いですよね！
+    date: 2009/09/23 00:07:35
+    is_admin: 1
+    is_odd: 1
+    "no": 125
+  - 
+    comment: さっきの曲、コマンドが飛んでなかったみたいね
+    date: 2009/09/23 00:07:46
+    is_odd: 0
+    "no": 126
+  - 
+    comment: あらら。
+    date: 2009/09/23 00:07:55
+    is_admin: 1
+    is_odd: 1
+    "no": 127
+  - 
+    comment: とりあえず次枠へー！
+    date: 2009/09/23 00:08:19
+    is_admin: 1
+    is_odd: 0
+    "no": 128
+  - 
+    comment: ノシ
+    date: 2009/09/23 00:08:23
+    is_odd: 1
+    "no": 129
+  - 
+    comment: はいー
+    date: 2009/09/23 00:08:28
+    is_odd: 0
+    "no": 130
+  - 
+    comment: ﾉｼ
+    date: 2009/09/23 00:08:35
+    is_odd: 1
+    "no": 131
+frame: 1
+part: 2088
+start: 1253630335
+time: 29
+title: ミクノポップをきかないか？Part2088
+

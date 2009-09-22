@@ -1,0 +1,803 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: 乙～
+    date: 2009/09/22 10:17:50
+    is_odd: 1
+    "no": 1
+  - 
+    comment: 2枠目！
+    date: 2009/09/22 10:18:03
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】 ◆No.4 presented by  k-sk
+    date: 2009/09/22 10:18:26
+    is_admin: 1
+    is_odd: 1
+    "no": 4
+  - 
+    comment: わーいｗ
+    date: 2009/09/22 10:18:26
+    is_odd: 0
+    "no": 5
+  - 
+    comment: おつー
+    date: 2009/09/22 10:18:36
+    is_odd: 1
+    "no": 6
+  - 
+    comment: いらっさー！
+    date: 2009/09/22 10:18:45
+    is_admin: 1
+    is_odd: 0
+    "no": 7
+  - 
+    comment: リクかもーん！
+    date: 2009/09/22 10:19:02
+    is_admin: 1
+    is_odd: 1
+    "no": 8
+  - 
+    comment: nm8000729
+    date: 2009/09/22 10:19:05
+    is_odd: 0
+    "no": 9
+  - 
+    comment: 昔作ったジングル見ると泣きたくなるよねorz
+    date: 2009/09/22 10:19:31
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: nm7594026
+    date: 2009/09/22 10:19:36
+    is_odd: 0
+    "no": 11
+  - 
+    comment: 乙ぅ　これ part 2076 なのでよろ〜
+    date: 2009/09/22 10:19:56
+    is_odd: 1
+    "no": 12
+  - 
+    comment: Σ
+    date: 2009/09/22 10:20:03
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: すきですよーｗ
+    date: 2009/09/22 10:20:04
+    is_odd: 1
+    "no": 14
+  - 
+    comment: ''
+    date: 2009/09/22 10:20:11
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 15
+  - 
+    comment: ''
+    date: 2009/09/22 10:20:11
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 16
+  - 
+    comment: どもです！
+    date: 2009/09/22 10:20:17
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: ■2009.08.21 時/3:58 彡/4 ◆再/2,570 コ/75 マ/225 (8.8%)
+    date: 2009/09/22 10:20:17
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: 早速Part番号間違えるとは。。。
+    date: 2009/09/22 10:21:02
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: でも昨日デビューなのにすごいな…
+    date: 2009/09/22 10:21:39
+    is_odd: 1
+    "no": 20
+  - 
+    comment: まずは数こなしですね！勉強させてもらいまっす！
+    date: 2009/09/22 10:22:23
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: 自分はまだテストコミュで練習中です…
+    date: 2009/09/22 10:22:57
+    is_odd: 1
+    "no": 22
+  - 
+    comment: テストコミュの練習と本番とだと、やっぱ全然違いますよｗ
+    date: 2009/09/22 10:23:27
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: 痛感しましたｗ
+    date: 2009/09/22 10:23:37
+    is_admin: 1
+    is_odd: 1
+    "no": 24
+  - 
+    comment: リク対応が怖いっすｗ
+    date: 2009/09/22 10:23:47
+    is_odd: 0
+    "no": 25
+  - 
+    comment: やっぱり本番のほうがせくしーですか？ｗ
+    date: 2009/09/22 10:23:53
+    is_odd: 1
+    "no": 26
+  - 
+    comment: どーんとやってみるのもアリですｗ
+    date: 2009/09/22 10:23:57
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: "■【初音ミク】wake up story【オリジナル曲】 ■ すえぞぉ "
+    date: 2009/09/22 10:24:09
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: ■2009.07.10 時/4:08 彡/5 ◆再/668 コ/26 マ/45 (6.7%)
+    date: 2009/09/22 10:24:15
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: 昨日はチャットルームの皆さんに助けてもらいながらの放送でしたｗ
+    date: 2009/09/22 10:24:32
+    is_admin: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: 今日は一人スタイルでの練習！
+    date: 2009/09/22 10:24:47
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: かっけー
+    date: 2009/09/22 10:25:00
+    is_odd: 1
+    "no": 33
+  - 
+    comment: いいね～
+    date: 2009/09/22 10:25:07
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: ｗｗｗ
+    date: 2009/09/22 10:25:14
+    is_odd: 1
+    "no": 35
+  - 
+    comment: まさに朝にふさわしい
+    date: 2009/09/22 10:25:34
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: リク持ってる人もういませんか～？
+    date: 2009/09/22 10:25:54
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: しめちゃうよー
+    date: 2009/09/22 10:26:06
+    is_admin: 1
+    is_odd: 0
+    "no": 38
+  - 
+    comment: もじもじ・・・
+    date: 2009/09/22 10:26:12
+    is_odd: 1
+    "no": 39
+  - 
+    comment: もじもじちゃん？どしたん？まだ持ってるかい？
+    date: 2009/09/22 10:26:24
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: もじもじ・・・リク持ってないお！
+    date: 2009/09/22 10:26:40
+    is_odd: 1
+    "no": 41
+  - 
+    comment: ｗｗｗ主セレ探してきます・・・ｗ
+    date: 2009/09/22 10:27:02
+    is_admin: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: リクは締めで～ｗ
+    date: 2009/09/22 10:27:14
+    is_admin: 1
+    is_odd: 1
+    "no": 43
+  - 
+    comment: 持ってたｎ・・・締ったかｗｗ
+    date: 2009/09/22 10:28:00
+    is_odd: 0
+    "no": 44
+  - 
+    comment: ■初音ミクがオリジナル曲を歌ってくれました「ファインダー」 ■ P名?
+    date: 2009/09/22 10:28:17
+    is_admin: 1
+    is_odd: 1
+    "no": 45
+  - 
+    comment: ■2008.01.05 時/5:10 彡/16 ◆再/484,987 コ/34,023 マ/15,595 (3.2%)
+    date: 2009/09/22 10:28:23
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: 44さんかもん！
+    date: 2009/09/22 10:28:25
+    is_admin: 1
+    is_odd: 1
+    "no": 48
+  - 
+    comment: nm7221150　遅だしすみません
+    date: 2009/09/22 10:28:46
+    is_odd: 0
+    "no": 49
+  - 
+    comment: キラピコの名曲ｋｔｋｒ
+    date: 2009/09/22 10:28:50
+    is_odd: 1
+    "no": 50
+  - 
+    comment: ども！
+    date: 2009/09/22 10:28:55
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: KZ氏、今日明日連チャンでDJイベントでるね
+    date: 2009/09/22 10:29:27
+    is_odd: 1
+    "no": 52
+  - 
+    comment: ほおおお
+    date: 2009/09/22 10:29:36
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: 今日がオールナイトで、あしたが１８時２３時かな
+    date: 2009/09/22 10:30:09
+    is_odd: 1
+    "no": 54
+  - 
+    comment: いいなぁああああ
+    date: 2009/09/22 10:30:20
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: これだからTOKYOは！
+    date: 2009/09/22 10:30:29
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: 曲ができたらあしたのボカロナイトは行きたい…
+    date: 2009/09/22 10:30:40
+    is_odd: 0
+    "no": 57
+  - 
+    comment: 制作頑張って！！
+    date: 2009/09/22 10:30:50
+    is_admin: 1
+    is_odd: 1
+    "no": 58
+  - 
+    comment: 主も制作頑張って～
+    date: 2009/09/22 10:31:27
+    is_odd: 0
+    "no": 59
+  - 
+    comment: 次は昼に、昼ミクノやるからそれまでに作業すすめておいてね！
+    date: 2009/09/22 10:31:31
+    is_admin: 1
+    is_odd: 1
+    "no": 60
+  - 
+    comment: 制作頑張る～
+    date: 2009/09/22 10:31:37
+    is_admin: 1
+    is_odd: 0
+    "no": 61
+  - 
+    comment: またパクリ（×）参考（○）に来ましたｗ
+    date: 2009/09/22 10:31:40
+    is_odd: 1
+    "no": 62
+  - 
+    comment: ｗｗｗ
+    date: 2009/09/22 10:31:47
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: パクってないよ！ちょっと雰囲気似てるかもってだけだよ！
+    date: 2009/09/22 10:32:13
+    is_odd: 1
+    "no": 64
+  - 
+    comment: ベンチマーク(韓国)にきました　もあるよ！ｗ
+    date: 2009/09/22 10:32:20
+    is_odd: 0
+    "no": 65
+  - 
+    comment: ちなみにボクはMotionographerってサイトに紹介される作品をパｋ(ｒｙ　参考にしてます～ｗ
+    date: 2009/09/22 10:32:39
+    is_admin: 1
+    is_odd: 1
+    "no": 66
+  - 
+    comment: (´・ω・`)・・・・
+    date: 2009/09/22 10:33:07
+    is_odd: 0
+    "no": 67
+  - 
+    comment: 今北
+    date: 2009/09/22 10:33:23
+    is_odd: 1
+    "no": 68
+  - 
+    comment: 学んで守って破って離れる　流れは何処の世界も変わらないね～
+    date: 2009/09/22 10:33:23
+    is_odd: 0
+    "no": 69
+  - 
+    comment: "■巡音ルカオリジナル曲・Crystalline ■ SeikoP "
+    date: 2009/09/22 10:33:28
+    is_admin: 1
+    is_odd: 1
+    "no": 70
+  - 
+    comment: 動画師って頭の中の妄想を動画にする人かとオモッテタｗ
+    date: 2009/09/22 10:33:33
+    is_odd: 0
+    "no": 72
+  - 
+    comment: ■2009.06.01 時/4:40 彡/13 ◆再/57,528 コ/1,230 マ/4,787 (8.3%)
+    date: 2009/09/22 10:33:34
+    is_admin: 1
+    is_odd: 1
+    "no": 73
+  - 
+    comment: いらっさー！
+    date: 2009/09/22 10:33:35
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: インプット増やさないとアウトプット出来ない体質なものでｗ
+    date: 2009/09/22 10:33:55
+    is_admin: 1
+    is_odd: 1
+    "no": 75
+  - 
+    comment: いらっしゃい～
+    date: 2009/09/22 10:33:59
+    is_odd: 0
+    "no": 76
+  - 
+    comment: ちなみに今の言葉の使い方は外人さんには笑われるらしいっす
+    date: 2009/09/22 10:34:31
+    is_admin: 1
+    is_odd: 1
+    "no": 77
+  - 
+    comment: やっぱルカは日本語と英語で声が違うね
+    date: 2009/09/22 10:34:53
+    is_odd: 0
+    "no": 78
+  - 
+    comment: ちがいますねー
+    date: 2009/09/22 10:35:14
+    is_odd: 1
+    "no": 79
+  - 
+    comment: 2面性のある女性って素敵。
+    date: 2009/09/22 10:35:20
+    is_admin: 1
+    is_odd: 0
+    "no": 80
+  - 
+    comment: 相手するの大変だぜｗ
+    date: 2009/09/22 10:35:32
+    is_odd: 1
+    "no": 81
+  - 
+    comment: ひどいｗｗ
+    date: 2009/09/22 10:35:48
+    is_admin: 1
+    is_odd: 0
+    "no": 82
+  - 
+    comment: 主はＡＢ型の女性が好みっと　ﾒﾓﾒﾓ
+    date: 2009/09/22 10:35:53
+    is_odd: 1
+    "no": 83
+  - 
+    comment: AB型の人ってホントに二面性なんでしょかね？
+    date: 2009/09/22 10:36:14
+    is_admin: 1
+    is_odd: 0
+    "no": 84
+  - 
+    comment: 主は女性関連の発言がやたら多いな・・　ﾒﾓﾒﾓ
+    date: 2009/09/22 10:36:21
+    is_odd: 1
+    "no": 85
+  - 
+    comment: ふたご座のAB型で４重人格とかｗ
+    date: 2009/09/22 10:36:28
+    is_odd: 0
+    "no": 86
+  - 
+    comment: んなこたぁないｗ
+    date: 2009/09/22 10:36:30
+    is_admin: 1
+    is_odd: 1
+    "no": 87
+  - 
+    comment: ＡＢはそうでもないかも
+    date: 2009/09/22 10:36:37
+    is_odd: 0
+    "no": 88
+  - 
+    comment: それは主が女好（ry
+    date: 2009/09/22 10:36:41
+    is_odd: 1
+    "no": 89
+  - 
+    comment: うむ、頭が混乱してきた。
+    date: 2009/09/22 10:36:47
+    is_admin: 1
+    is_odd: 0
+    "no": 90
+  - 
+    comment: 昨日今日でもう数回そういう話題が出てるよな
+    date: 2009/09/22 10:36:53
+    is_odd: 1
+    "no": 91
+  - 
+    comment: さいはねさんの解説効果は偉大だねｗ
+    date: 2009/09/22 10:37:17
+    is_odd: 0
+    "no": 92
+  - 
+    comment: ''
+    date: 2009/09/22 10:37:20
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 93
+  - 
+    comment: 昨日はナンパ師匠って噂が出てたようなｗ
+    date: 2009/09/22 10:37:28
+    is_odd: 0
+    "no": 94
+  - 
+    comment: モテ男の本性がｗ
+    date: 2009/09/22 10:37:38
+    is_odd: 1
+    "no": 95
+  - 
+    comment: はねさんの解説文はユーモアの結晶なので、寛大な心でお楽しみくださいｗ
+    date: 2009/09/22 10:37:53
+    is_admin: 1
+    is_odd: 0
+    "no": 96
+  - 
+    comment: "■【初音ミク】bpm -full ver.-【PV】 ■ チーターガールP 神経衰弱P "
+    date: 2009/09/22 10:38:07
+    is_admin: 1
+    is_odd: 1
+    "no": 97
+  - 
+    comment: ■2008.11.23 時/4:07 彡/14 ◆再/139,479 コ/3,336 マ/7,741 (5.5%)
+    date: 2009/09/22 10:38:13
+    is_admin: 1
+    is_odd: 0
+    "no": 99
+  - 
+    comment: でだ、まだ曲を探せてないという。
+    date: 2009/09/22 10:38:35
+    is_admin: 1
+    is_odd: 1
+    "no": 100
+  - 
+    comment: 主がオンナスキー発言を否定してない・・・あながち間違えではなかったのか・・・
+    date: 2009/09/22 10:39:20
+    is_odd: 0
+    "no": 101
+  - 
+    comment: 否定したらオトコスキーになるような気がしたのでｗ
+    date: 2009/09/22 10:39:45
+    is_admin: 1
+    is_odd: 1
+    "no": 102
+  - 
+    comment: かわしかたがまたうまいｗ
+    date: 2009/09/22 10:40:04
+    is_odd: 0
+    "no": 103
+  - 
+    comment: 純粋無垢な青年、k-skです。
+    date: 2009/09/22 10:40:22
+    is_admin: 1
+    is_odd: 1
+    "no": 104
+  - 
+    comment: ごめんなさい
+    date: 2009/09/22 10:40:28
+    is_admin: 1
+    is_odd: 0
+    "no": 105
+  - 
+    comment: ダウト！
+    date: 2009/09/22 10:40:29
+    is_odd: 1
+    "no": 106
+  - 
+    comment: ひどいｗｗｗ
+    date: 2009/09/22 10:40:33
+    is_admin: 1
+    is_odd: 0
+    "no": 107
+  - 
+    comment: なんか今までのコメントの中で一番反応が早かった気がするｗ
+    date: 2009/09/22 10:41:00
+    is_admin: 1
+    is_odd: 1
+    "no": 108
+  - 
+    comment: ダウト早いよダウトｗ
+    date: 2009/09/22 10:41:01
+    is_odd: 0
+    "no": 109
+  - 
+    comment: あ、皆さんに一つ相談があったのさ。
+    date: 2009/09/22 10:42:01
+    is_admin: 1
+    is_odd: 1
+    "no": 110
+  - 
+    comment: "■【初音ミクオリジナル】A.M3:00 ■ ちゃぁ "
+    date: 2009/09/22 10:42:16
+    is_admin: 1
+    is_odd: 0
+    "no": 111
+  - 
+    comment: ■2008.12.11 時/4:12 彡/7 ◆再/4,232 コ/110 マ/103 (2.4%)
+    date: 2009/09/22 10:42:22
+    is_admin: 1
+    is_odd: 1
+    "no": 113
+  - 
+    comment: どしたん？
+    date: 2009/09/22 10:42:31
+    is_odd: 0
+    "no": 114
+  - 
+    comment: 今付き合ってる人の事？
+    date: 2009/09/22 10:42:45
+    is_odd: 1
+    "no": 115
+  - 
+    comment: 主コメ)s m6375577←コレセフ？アウト？
+    date: 2009/09/22 10:42:51
+    is_odd: 0
+    "no": 116
+  - 
+    comment: 恋の悩み？
+    date: 2009/09/22 10:42:52
+    is_odd: 1
+    "no": 117
+  - 
+    comment: 不倫かｗ
+    date: 2009/09/22 10:43:02
+    is_odd: 0
+    "no": 118
+  - 
+    comment: 不倫の相談はなぁ・・ちょっとご勘弁やで
+    date: 2009/09/22 10:43:16
+    is_odd: 1
+    "no": 119
+  - 
+    comment: 皆昨日に比べて冷たくないか？ｗｗ
+    date: 2009/09/22 10:43:19
+    is_admin: 1
+    is_odd: 0
+    "no": 120
+  - 
+    comment: ｗｗｗｗ
+    date: 2009/09/22 10:43:24
+    is_odd: 1
+    "no": 121
+  - 
+    comment: 不倫はするなら覚悟を持ってすべきです！・・・曲は主判断でいいんじゃないの？
+    date: 2009/09/22 10:44:55
+    is_odd: 0
+    "no": 122
+  - 
+    comment: 最初の答は求めてないっすｗ
+    date: 2009/09/22 10:45:16
+    is_admin: 1
+    is_odd: 1
+    "no": 123
+  - 
+    comment: そっかー、じゃぁ昼までに判断しときますね。
+    date: 2009/09/22 10:45:32
+    is_admin: 1
+    is_odd: 0
+    "no": 124
+  - 
+    comment: なんてヘビーな相談ｗ
+    date: 2009/09/22 10:45:44
+    is_odd: 1
+    "no": 125
+  - 
+    comment: 自分だったらミクライブで流すね
+    date: 2009/09/22 10:45:55
+    is_odd: 0
+    "no": 126
+  - 
+    comment: 相談してないしてないｗ
+    date: 2009/09/22 10:45:56
+    is_admin: 1
+    is_odd: 1
+    "no": 127
+  - 
+    comment: あ、やっぱそうです？
+    date: 2009/09/22 10:46:04
+    is_admin: 1
+    is_odd: 0
+    "no": 128
+  - 
+    comment: 昼までに不倫するとか考えないでｗｗｗ
+    date: 2009/09/22 10:46:05
+    is_odd: 1
+    "no": 129
+  - 
+    comment: 昼までってちょっとしかないｗ
+    date: 2009/09/22 10:46:17
+    is_odd: 0
+    "no": 130
+  - 
+    comment: "■【初音ミク】オリジナル曲　UNREAL ■ すけP "
+    date: 2009/09/22 10:46:26
+    is_admin: 1
+    is_odd: 1
+    "no": 131
+  - 
+    comment: もう昼やで
+    date: 2009/09/22 10:46:32
+    is_odd: 0
+    "no": 133
+  - 
+    comment: ■2009.04.15 時/3:36 彡/0 ◆再/33,982 コ/519 マ/2,014 (5.9%)
+    date: 2009/09/22 10:46:32
+    is_admin: 1
+    is_odd: 1
+    "no": 134
+  - 
+    comment: どんだけ都会で汚されてきたんだｗｗ
+    date: 2009/09/22 10:46:41
+    is_odd: 0
+    "no": 135
+  - 
+    comment: 職場結婚すると出世できるよｗ
+    date: 2009/09/22 10:46:44
+    is_odd: 1
+    "no": 136
+  - 
+    comment: 主は不倫を覚悟持ってすべきに同意っと　ﾒﾓﾒﾓ
+    date: 2009/09/22 10:46:46
+    is_odd: 0
+    "no": 137
+  - 
+    comment: では時間が来たのでこの曲でラスト
+    date: 2009/09/22 10:46:47
+    is_admin: 1
+    is_odd: 1
+    "no": 138
+  - 
+    comment: まてまてｗｗ
+    date: 2009/09/22 10:46:51
+    is_admin: 1
+    is_odd: 0
+    "no": 139
+  - 
+    comment: なるほど・・めもめも・・
+    date: 2009/09/22 10:47:03
+    is_odd: 1
+    "no": 140
+  - 
+    comment: 次は１～２時頃、昼ミクノであいましょーノシ
+    date: 2009/09/22 10:47:10
+    is_admin: 1
+    is_odd: 0
+    "no": 141
+  - 
+    comment: ノシ
+    date: 2009/09/22 10:47:17
+    is_odd: 1
+    "no": 142
+  - 
+    comment: ノシ
+    date: 2009/09/22 10:47:19
+    is_odd: 0
+    "no": 143
+  - 
+    comment: ｲﾉｼｼ
+    date: 2009/09/22 10:47:22
+    is_odd: 1
+    "no": 144
+  - 
+    comment: ノシ
+    date: 2009/09/22 10:47:23
+    is_odd: 0
+    "no": 145
+  - 
+    comment: ノシ
+    date: 2009/09/22 10:47:27
+    is_odd: 1
+    "no": 146
+  - 
+    comment: ノリ
+    date: 2009/09/22 10:47:27
+    is_odd: 0
+    "no": 147
+  - 
+    comment: ノソ
+    date: 2009/09/22 10:47:31
+    is_odd: 1
+    "no": 148
+  - 
+    comment: ノノ
+    date: 2009/09/22 10:47:41
+    is_odd: 0
+    "no": 149
+  - 
+    comment: ノツ
+    date: 2009/09/22 10:47:42
+    is_odd: 1
+    "no": 150
+  - 
+    comment: //
+    date: 2009/09/22 10:47:51
+    is_odd: 0
+    "no": 151
+frame: 1
+part: 2074
+start: 1253582270
+time: 30
+title: ミクノポップをきかないか？Part2074
+
