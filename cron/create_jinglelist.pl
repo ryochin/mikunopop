@@ -123,6 +123,14 @@ my @jingle = (
 		length => '2:48',
 		desc => 'あわあわ。とっても美しい・・。',
 	},
+	{
+		video_id => 'sm8311828',
+		vid => '8311828',
+		title => '【ジングル】Jagabongo - tradd remix【underground-flavored】',
+		author => 'saihane さん',
+		length => '2:36',
+		desc => '主にアングラ放送用。おされぐら〜。',
+	},
 );
 
 my $n = 0;

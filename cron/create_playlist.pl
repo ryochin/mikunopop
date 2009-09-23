@@ -62,6 +62,7 @@ my @jingle = qw(
 	sm8138979
 	sm8183423
 	sm8230401
+	sm8311828
 );
 # 告知動画など
 my @ignore = qw(
