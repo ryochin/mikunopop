@@ -1,0 +1,503 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんにちは！
+    date: 2009/09/24 17:38:58
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: いやぁ、暇だね俺も。
+    date: 2009/09/24 17:39:03
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: ■【初音ミク】近未来ラジオ【ジングル用】 ◆No.2 presented by  ぎん
+    date: 2009/09/24 17:39:37
+    is_admin: 1
+    is_odd: 1
+    "no": 4
+  - 
+    comment: リクは今回は無しで。1枠だけやるよん
+    date: 2009/09/24 17:40:03
+    is_admin: 1
+    is_odd: 0
+    "no": 5
+  - 
+    comment: "■【初音ミク】w/orld【オリジナル】 ■ ずどどんP "
+    date: 2009/09/24 17:41:23
+    is_admin: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: ■2008.11.03 時/3:49 彡/10 ◆再/12,234 コ/459 マ/438 (3.6%)
+    date: 2009/09/24 17:41:29
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: "■【初音ミク】A MIDSUMMER DREAMER【オリジナル】 ■ ミッサマP P*Light "
+    date: 2009/09/24 17:45:16
+    is_admin: 1
+    is_odd: 1
+    "no": 9
+  - 
+    comment: ■2009.07.15 時/3:32 彡/10 ◆再/9,699 コ/341 マ/641 (6.6%)
+    date: 2009/09/24 17:45:22
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: "■【鏡音リン】サイハテ Rin Act.2 with DS-10 REMIX【DS-10】 ■ ぶっちぎりP DS-10 "
+    date: 2009/09/24 17:48:48
+    is_admin: 1
+    is_odd: 1
+    "no": 12
+  - 
+    comment: ■2008.09.29 時/2:41 彡/10 ◆再/80,563 コ/3,477 マ/2,441 (3.0%)
+    date: 2009/09/24 17:48:55
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: あ、今回の主セレは「ヒゲ10」でお送りしております。
+    date: 2009/09/24 17:50:57
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: 乙です！
+    date: 2009/09/24 17:51:10
+    is_odd: 0
+    "no": 16
+  - 
+    comment: いらっさ！
+    date: 2009/09/24 17:51:15
+    is_admin: 1
+    is_odd: 1
+    "no": 17
+  - 
+    comment: "■初音ミク・オリジナル曲【スターライト】 -最終版- ■ ポコP "
+    date: 2009/09/24 17:51:29
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: 全赤阻止子残念なり
+    date: 2009/09/24 17:51:34
+    is_odd: 1
+    "no": 20
+  - 
+    comment: ■2008.01.29 時/3:56 彡/10 ◆再/8,836 コ/383 マ/310 (3.5%)
+    date: 2009/09/24 17:51:35
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: ｗｗｗ
+    date: 2009/09/24 17:51:41
+    is_admin: 1
+    is_odd: 1
+    "no": 22
+  - 
+    comment: 俺はむしろコメントしてくれた方が嬉しいなｗ
+    date: 2009/09/24 17:52:04
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: やっぱリク取らないとコメしてくれないかねぇ。。
+    date: 2009/09/24 17:52:42
+    is_admin: 1
+    is_odd: 1
+    "no": 24
+  - 
+    comment: みんな聴くことに集中してるんだよ。多分
+    date: 2009/09/24 17:54:00
+    is_odd: 0
+    "no": 25
+  - 
+    comment: 作業用にしてる人も多そうですよね。
+    date: 2009/09/24 17:54:17
+    is_admin: 1
+    is_odd: 1
+    "no": 26
+  - 
+    comment: 皆がんばれ！
+    date: 2009/09/24 17:54:25
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: 俺は映像作りの現実逃避中です。
+    date: 2009/09/24 17:54:53
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: ''
+    date: 2009/09/24 17:55:19
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 29
+  - 
+    comment: 主もがんがれ
+    date: 2009/09/24 17:55:19
+    is_odd: 1
+    "no": 30
+  - 
+    comment: あざっす！！
+    date: 2009/09/24 17:55:23
+    is_admin: 1
+    is_odd: 0
+    "no": 31
+  - 
+    comment: "■【俺ミク】oqIz ■ ziki_7 "
+    date: 2009/09/24 17:55:28
+    is_admin: 1
+    is_odd: 1
+    "no": 32
+  - 
+    comment: ■2008.01.15 時/5:53 彡/10 ◆再/5,434 コ/135 マ/173 (3.2%)
+    date: 2009/09/24 17:55:34
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: /vote start 全赤放送 おめでとう！ こいつはビックリだ 断固阻止！ あんぐら～
+    date: 2009/09/24 17:55:46
+    is_odd: 1
+    "no": 35
+  - 
+    comment: ↑これを主コメするのだ
+    date: 2009/09/24 17:55:56
+    is_odd: 0
+    "no": 36
+  - 
+    comment: /vote showresult
+    date: 2009/09/24 17:56:23
+    is_odd: 1
+    "no": 38
+  - 
+    comment: 適当なところで
+    date: 2009/09/24 17:56:31
+    is_odd: 0
+    "no": 39
+  - 
+    comment: /vote stop
+    date: 2009/09/24 17:56:43
+    is_odd: 1
+    "no": 40
+  - 
+    comment: ｗｗ順番間違えたｗｗ
+    date: 2009/09/24 17:57:12
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: あれれ？ｗ結果出た？
+    date: 2009/09/24 17:57:13
+    is_odd: 1
+    "no": 44
+  - 
+    comment: ごめんｗｗ
+    date: 2009/09/24 17:57:19
+    is_admin: 1
+    is_odd: 0
+    "no": 45
+  - 
+    comment: あら
+    date: 2009/09/24 17:57:28
+    is_odd: 1
+    "no": 46
+  - 
+    comment: でもこういう事できるのかー！
+    date: 2009/09/24 17:57:34
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: 今度やってみる！！
+    date: 2009/09/24 17:57:38
+    is_admin: 1
+    is_odd: 1
+    "no": 48
+  - 
+    comment: これで強制的にリスナー参加だｗ
+    date: 2009/09/24 17:57:59
+    is_odd: 0
+    "no": 49
+  - 
+    comment: フフフｗ
+    date: 2009/09/24 17:58:06
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: 主は大変なツールを手に入れたようだｗ
+    date: 2009/09/24 17:58:23
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: これで投票0とかだったらふて寝しますｂ
+    date: 2009/09/24 17:58:42
+    is_admin: 1
+    is_odd: 1
+    "no": 52
+  - 
+    comment: 有りうるな
+    date: 2009/09/24 17:59:00
+    is_odd: 0
+    "no": 53
+  - 
+    comment: そんな。。。
+    date: 2009/09/24 17:59:07
+    is_admin: 1
+    is_odd: 1
+    "no": 54
+  - 
+    comment: その時はnocしてもばれないぞｗ
+    date: 2009/09/24 17:59:20
+    is_odd: 0
+    "no": 55
+  - 
+    comment: ｗｗｗ
+    date: 2009/09/24 17:59:24
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: 多分、流れてないよー。って苦情が来ると思うｗ
+    date: 2009/09/24 17:59:42
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: 主、今日の夕飯はなんだい？
+    date: 2009/09/24 18:00:58
+    is_odd: 1
+    "no": 58
+  - 
+    comment: 今日は豚ロースがあるから揚げようかなと。
+    date: 2009/09/24 18:01:25
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: "■【初音ミクオリジナル曲】ロングトレイル【ＰＶ風】 ■ 円高P "
+    date: 2009/09/24 18:01:28
+    is_admin: 1
+    is_odd: 1
+    "no": 60
+  - 
+    comment: ■2009.02.05 時/2:34 彡/10 ◆再/48,908 コ/1,714 マ/2,446 (5.0%)
+    date: 2009/09/24 18:01:34
+    is_admin: 1
+    is_odd: 0
+    "no": 62
+  - 
+    comment: あと、昨日のじゃがいもでジャーマンポテトでも作るかなぁ。
+    date: 2009/09/24 18:01:44
+    is_admin: 1
+    is_odd: 1
+    "no": 63
+  - 
+    comment: ここで、元肉屋バイトの俺がTipsをば
+    date: 2009/09/24 18:02:34
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: ｗｋｔｋ
+    date: 2009/09/24 18:02:42
+    is_odd: 1
+    "no": 65
+  - 
+    comment: とんかつは豚ロースよりも豚肩ロースの方が旨い。
+    date: 2009/09/24 18:02:55
+    is_admin: 1
+    is_odd: 0
+    "no": 66
+  - 
+    comment: へぇｗ
+    date: 2009/09/24 18:03:09
+    is_odd: 1
+    "no": 67
+  - 
+    comment: メモメモ
+    date: 2009/09/24 18:03:14
+    is_odd: 0
+    "no": 68
+  - 
+    comment: 初見。参考になりますｗ
+    date: 2009/09/24 18:03:18
+    is_odd: 1
+    "no": 69
+  - 
+    comment: いらっしゃいｗ
+    date: 2009/09/24 18:03:27
+    is_odd: 0
+    "no": 70
+  - 
+    comment: ミクノなのに肉で参考にｗｗ
+    date: 2009/09/24 18:03:28
+    is_admin: 1
+    is_odd: 1
+    "no": 71
+  - 
+    comment: いやー、ここはいい肉屋だｗｗ
+    date: 2009/09/24 18:03:52
+    is_odd: 0
+    "no": 72
+  - 
+    comment: 肩ロースは間に油はいってるから柔らかいのよー。
+    date: 2009/09/24 18:03:55
+    is_admin: 1
+    is_odd: 1
+    "no": 73
+  - 
+    comment: "■【初音ミク】ルナー・リフレクション【オリジナル】 ■ Phantasma "
+    date: 2009/09/24 18:04:03
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: ■2009.01.24 時/4:17 彡/10 ◆再/27,494 コ/542 マ/1,845 (6.7%)
+    date: 2009/09/24 18:04:09
+    is_admin: 1
+    is_odd: 1
+    "no": 76
+  - 
+    comment: そして、動かす部分だから味も良いｂ
+    date: 2009/09/24 18:04:17
+    is_admin: 1
+    is_odd: 0
+    "no": 77
+  - 
+    comment: 試してみてね！
+    date: 2009/09/24 18:04:29
+    is_admin: 1
+    is_odd: 1
+    "no": 78
+  - 
+    comment: はちゅね肉屋
+    date: 2009/09/24 18:04:49
+    is_odd: 0
+    "no": 79
+  - 
+    comment: ｗｗ
+    date: 2009/09/24 18:04:55
+    is_admin: 1
+    is_odd: 1
+    "no": 80
+  - 
+    comment: 焼肉はちゅね
+    date: 2009/09/24 18:05:21
+    is_odd: 0
+    "no": 81
+  - 
+    comment: 夜枠ではもう一つ肉Tipsを用意しておこう。
+    date: 2009/09/24 18:05:25
+    is_admin: 1
+    is_odd: 1
+    "no": 82
+  - 
+    comment: ニクノもきける生
+    date: 2009/09/24 18:05:32
+    is_odd: 0
+    "no": 83
+  - 
+    comment: ニクノｗｗｗｗｗ
+    date: 2009/09/24 18:05:37
+    is_admin: 1
+    is_odd: 1
+    "no": 84
+  - 
+    comment: もらったｗ
+    date: 2009/09/24 18:05:45
+    is_admin: 1
+    is_odd: 0
+    "no": 85
+  - 
+    comment: ニクノポップをたべないか？
+    date: 2009/09/24 18:05:55
+    is_odd: 1
+    "no": 86
+  - 
+    comment: ｗｗｗｗ
+    date: 2009/09/24 18:05:59
+    is_admin: 1
+    is_odd: 0
+    "no": 87
+  - 
+    comment: 将来はニクノオフだな！
+    date: 2009/09/24 18:06:07
+    is_admin: 1
+    is_odd: 1
+    "no": 88
+  - 
+    comment: 86　ｗｗ
+    date: 2009/09/24 18:06:11
+    is_odd: 0
+    "no": 89
+  - 
+    comment: さてｗこの曲でこの枠はおしまいですｗ
+    date: 2009/09/24 18:06:36
+    is_admin: 1
+    is_odd: 1
+    "no": 90
+  - 
+    comment: 皆さんお付き合いありがとうございました！
+    date: 2009/09/24 18:06:45
+    is_admin: 1
+    is_odd: 0
+    "no": 91
+  - 
+    comment: 乙ですぅ
+    date: 2009/09/24 18:06:52
+    is_odd: 1
+    "no": 92
+  - 
+    comment: ノ
+    date: 2009/09/24 18:06:54
+    is_odd: 0
+    "no": 93
+  - 
+    comment: 1枠だけでごめんね！
+    date: 2009/09/24 18:06:55
+    is_admin: 1
+    is_odd: 1
+    "no": 94
+  - 
+    comment: ↓この星の髪飾りカワイイね
+    date: 2009/09/24 18:07:51
+    is_admin: 1
+    is_odd: 0
+    "no": 95
+  - 
+    comment: ☆～
+    date: 2009/09/24 18:08:05
+    is_odd: 1
+    "no": 96
+  - 
+    comment: ありがと！
+    date: 2009/09/24 18:08:11
+    is_admin: 1
+    is_odd: 0
+    "no": 97
+  - 
+    comment: なんという連携プレイ
+    date: 2009/09/24 18:08:26
+    is_admin: 1
+    is_odd: 1
+    "no": 98
+frame: 1
+part: 2103
+start: 1253781538
+time: 29
+title: ミクノポップをきかないか？Part2103
+
