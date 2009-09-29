@@ -25,6 +25,7 @@ my @pkg = (
 	### webinterface
 #	'count' => 'Mikunopop::Count',
 	'info' => 'Mikunopop::Info',
+	'countsearch' => 'Mikunopop::CountSearch',
 );
 
 while( my ($path, $pkg) = splice @pkg, 0, 2 ){
