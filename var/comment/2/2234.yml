@@ -1,0 +1,433 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんにちは！
+    date: 2009/10/05 14:20:58
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: 昼ミクノです。
+    date: 2009/10/05 14:21:03
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 主セレ→アップテンポ系
+    date: 2009/10/05 14:21:16
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: リクずいじです～
+    date: 2009/10/05 14:21:23
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: おつー
+    date: 2009/10/05 14:21:29
+    is_odd: 1
+    "no": 5
+  - 
+    comment: ■【初音ミク】Freestyle【ジングル用】 ◆No.1 presented by ぎん
+    date: 2009/10/05 14:21:41
+    is_admin: 1
+    is_odd: 0
+    "no": 7
+  - 
+    comment: sm4510411
+    date: 2009/10/05 14:23:17
+    is_odd: 1
+    "no": 8
+  - 
+    comment: 最初は主セレから～
+    date: 2009/10/05 14:23:31
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: "■(初音ミク)Emotion(オリジナル曲) ■ MikSolodyne-ts "
+    date: 2009/10/05 14:23:34
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: "■2008.09.13 時/3:57 彡/18 ◆再/4,434 コ/189 マ/214 (4.8%) "
+    date: 2009/10/05 14:23:42
+    is_admin: 1
+    is_odd: 0
+    "no": 12
+  - 
+    comment: 最近トラックボールを導入しようかと思いまして。
+    date: 2009/10/05 14:25:54
+    is_admin: 1
+    is_odd: 1
+    "no": 13
+  - 
+    comment: 今日お店に下見に行こうかなと。
+    date: 2009/10/05 14:26:10
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: なので、一枠で終わるよん。あしからず。
+    date: 2009/10/05 14:26:25
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: "■【初音ミク】will be...【オリジナル曲】 ■ ヽ(ヽ･∀∀･)にこP "
+    date: 2009/10/05 14:27:30
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: "■2008.09.03 時/5:39 彡/18 ◆再/30,448 コ/803 マ/1,255 (4.1%) "
+    date: 2009/10/05 14:27:38
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: nm8394909
+    date: 2009/10/05 14:27:51
+    is_odd: 0
+    "no": 19
+  - 
+    comment: ＞19さん、その曲はあと3日経たないと流せないのです m(_ _)m
+    date: 2009/10/05 14:27:52
+    is_admin: 1
+    is_odd: 1
+    "no": 20
+  - 
+    comment: 19さんごめんね！
+    date: 2009/10/05 14:28:09
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: 計算間違えた
+    date: 2009/10/05 14:28:19
+    is_odd: 1
+    "no": 22
+  - 
+    comment: どま！ｗ
+    date: 2009/10/05 14:28:26
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: そういえば今日、なつみSTEPの夢を見ました。
+    date: 2009/10/05 14:29:49
+    is_admin: 1
+    is_odd: 1
+    "no": 24
+  - 
+    comment: ブーム再来のヨカーン？
+    date: 2009/10/05 14:30:25
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: あのフラッシュは出来がいいからね
+    date: 2009/10/05 14:30:55
+    is_odd: 1
+    "no": 26
+  - 
+    comment: あの頃のボクに綺麗にトラウマを刷り込んでくれた素晴らしい作品です。
+    date: 2009/10/05 14:31:36
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: ''
+    date: 2009/10/05 14:33:12
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: "■2009.02.27 時/4:53 彡/5 ◆再/47,636 コ/1,376 マ/2,658 (5.6%) "
+    date: 2009/10/05 14:33:20
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: まだリクエストおｋ？
+    date: 2009/10/05 14:33:57
+    is_odd: 1
+    "no": 31
+  - 
+    comment: かもーん！
+    date: 2009/10/05 14:34:04
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: nm7832283
+    date: 2009/10/05 14:34:07
+    is_odd: 1
+    "no": 33
+  - 
+    comment: ども！
+    date: 2009/10/05 14:34:10
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: ''
+    date: 2009/10/05 14:38:24
+    is_admin: 1
+    is_empty: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: "■2009.08.04 時/4:32 彡/10 ◆再/57,187 コ/1,865 マ/4,595 (8.0%) "
+    date: 2009/10/05 14:38:32
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: リク〆とくね～
+    date: 2009/10/05 14:39:31
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: B★RSのDVDついでに探してこようかなぁ。
+    date: 2009/10/05 14:40:10
+    is_admin: 1
+    is_odd: 0
+    "no": 39
+  - 
+    comment: 結局MEGUは失敗作だったの？
+    date: 2009/10/05 14:40:13
+    is_odd: 1
+    "no": 40
+  - 
+    comment: MEGU？？
+    date: 2009/10/05 14:40:22
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: なんだっけあれあの緑色のハエみたいな
+    date: 2009/10/05 14:40:52
+    is_odd: 1
+    "no": 42
+  - 
+    comment: ボカロのメグポのことかな？
+    date: 2009/10/05 14:41:01
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: そうそう
+    date: 2009/10/05 14:41:06
+    is_odd: 1
+    "no": 44
+  - 
+    comment: 失敗作だったのかなぁ？使い手次第だと思うけども。
+    date: 2009/10/05 14:41:23
+    is_admin: 1
+    is_odd: 0
+    "no": 45
+  - 
+    comment: 探せば良曲あるよー
+    date: 2009/10/05 14:41:26
+    is_odd: 1
+    "no": 46
+  - 
+    comment: 良曲もありますよー
+    date: 2009/10/05 14:41:30
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: 緑色のハエってｗｗひどす；；
+    date: 2009/10/05 14:41:39
+    is_odd: 1
+    "no": 48
+  - 
+    comment: 曲数が少ないのはなぜ？
+    date: 2009/10/05 14:41:49
+    is_odd: 0
+    "no": 49
+  - 
+    comment: 販売本数かなぁ？
+    date: 2009/10/05 14:41:59
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: インターネット社のボカロはまだキャズムを超えてない印象です。個人的見解だけども。
+    date: 2009/10/05 14:42:35
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: "■UltraHardAttacks of OddMusiK【初音ミク】 (オリジナル) ■ ゆうゆP "
+    date: 2009/10/05 14:42:51
+    is_admin: 1
+    is_odd: 1
+    "no": 52
+  - 
+    comment: "■2008.10.20 時/4:11 彡/5 ◆再/78,958 コ/5,518 マ/2,830 (3.6%) "
+    date: 2009/10/05 14:42:59
+    is_admin: 1
+    is_odd: 0
+    "no": 54
+  - 
+    comment: キャ…キャズム？
+    date: 2009/10/05 14:43:08
+    is_odd: 1
+    "no": 55
+  - 
+    comment: ゆうゆPきたー
+    date: 2009/10/05 14:43:09
+    is_odd: 0
+    "no": 56
+  - 
+    comment: キャズムのわかりやすい説明→http://www.atmarkit.co.jp/aig/04biz/chasm.html
+    date: 2009/10/05 14:43:42
+    is_admin: 1
+    is_odd: 1
+    "no": 57
+  - 
+    comment: がくぽってインターネット社だっけ
+    date: 2009/10/05 14:43:47
+    is_odd: 0
+    "no": 58
+  - 
+    comment: ですです
+    date: 2009/10/05 14:44:01
+    is_admin: 1
+    is_odd: 1
+    "no": 59
+  - 
+    comment: このコメントは表示されません
+    date: 2009/10/05 14:44:03
+    is_hidden: 1
+    is_odd: 0
+    "no": 60
+  - 
+    comment: がくぽは超えたかなぁ？
+    date: 2009/10/05 14:44:17
+    is_admin: 1
+    is_odd: 1
+    "no": 61
+  - 
+    comment: がくぽは発音結構いいよねえ
+    date: 2009/10/05 14:44:22
+    is_odd: 0
+    "no": 62
+  - 
+    comment: まぁどっちにしろ時間の問題かと。
+    date: 2009/10/05 14:44:26
+    is_admin: 1
+    is_odd: 1
+    "no": 63
+  - 
+    comment: ここすき＾＾＾
+    date: 2009/10/05 14:44:49
+    is_odd: 0
+    "no": 64
+  - 
+    comment: いいねぇ
+    date: 2009/10/05 14:44:58
+    is_admin: 1
+    is_odd: 1
+    "no": 65
+  - 
+    comment: ジェフリー・ムーア氏の本は面白いし読みやすいのでオススメ。
+    date: 2009/10/05 14:45:32
+    is_admin: 1
+    is_odd: 0
+    "no": 66
+  - 
+    comment: 海外から無線でつないでるせいか音が止まる…
+    date: 2009/10/05 14:45:37
+    is_odd: 1
+    "no": 67
+  - 
+    comment: おおー、海外からわざわざ。ありがとうございます！
+    date: 2009/10/05 14:45:54
+    is_admin: 1
+    is_odd: 0
+    "no": 68
+  - 
+    comment: MIKU　SAIKOUDESU　（日本人ですがｗ
+    date: 2009/10/05 14:46:20
+    is_odd: 1
+    "no": 69
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/05 14:46:26
+    is_admin: 1
+    is_odd: 0
+    "no": 70
+  - 
+    comment: じゃぁ〆はクリックハウスで。
+    date: 2009/10/05 14:46:50
+    is_admin: 1
+    is_odd: 1
+    "no": 71
+  - 
+    comment: "■experimental-001【初音ミク】（オリジナル） ■ ゆうゆＰ "
+    date: 2009/10/05 14:47:04
+    is_admin: 1
+    is_odd: 0
+    "no": 72
+  - 
+    comment: "■2008.01.18 時/3:16 彡/12 ◆再/39,180 コ/719 マ/826 (2.1%) "
+    date: 2009/10/05 14:47:12
+    is_admin: 1
+    is_odd: 1
+    "no": 74
+  - 
+    comment: MIKUは既に世界でのスタンダード（嘘
+    date: 2009/10/05 14:47:14
+    is_odd: 0
+    "no": 75
+  - 
+    comment: スタンダートはまだ早いけども知名度はちゃくちゃくとあがってるっぽいですねｗ
+    date: 2009/10/05 14:48:02
+    is_admin: 1
+    is_odd: 1
+    "no": 76
+  - 
+    comment: いまはアーリーマジョリティの段階？
+    date: 2009/10/05 14:49:23
+    is_odd: 0
+    "no": 77
+  - 
+    comment: アーリーアダプターかな。
+    date: 2009/10/05 14:49:52
+    is_admin: 1
+    is_odd: 1
+    "no": 78
+  - 
+    comment: そこからアーリーマジョリティーにまで行くのが大変なのですよ。
+    date: 2009/10/05 14:50:23
+    is_admin: 1
+    is_odd: 0
+    "no": 79
+  - 
+    comment: ってことで乙しった！
+    date: 2009/10/05 14:50:34
+    is_admin: 1
+    is_odd: 1
+    "no": 80
+  - 
+    comment: まったね～ﾉｼ
+    date: 2009/10/05 14:50:40
+    is_admin: 1
+    is_odd: 0
+    "no": 81
+frame: 1
+part: 2234
+start: 1254720058
+time: 29
+title: ミクノポップをきかないか？Part2234
+
