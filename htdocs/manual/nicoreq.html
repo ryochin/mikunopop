@@ -51,8 +51,76 @@
 	</p>
 -->
 
+	<h2>ME について</h2>
+
+	<p>
+		この改造版ニコリクは、非公式のものです。ミクノポップの放送に推奨されているわけではありません。<br />
+		また、ミクノ度の表示も個人的な趣味であり、放送とは直接関係ありませんし、必要なわけでもありません。<br />
+	</p>
+
+	<p>
+		元々 ME はミクノ度を表示するためだけの個人的な実験でした。今も役割は大して変わっていません。<br />
+		ミクノ度の ME 以外での使用は非推奨ですので、くれぐれも自己責任ということでお願いします。
+	</p>
+
+	<p>
+		たまに「動きません」という報告を生放送内で頂きますが、バグレポートを頂かないと対処のしようが<br />
+		ありませんので、不具合報告・要望・サポート等必要でしたら直接私までご連絡ください。<br />
+		<span class="dim">放送中に匿名で仰ってもヤキモキする以上のお手伝いはできませんし、私の精神衛生上よろしくありません。</span>
+	</p>
+
+	<p>
+		ME にこの機能を取り込んで欲しいというお話を頂くことがありますが、「最小限の機能をストレスなく<br />
+		使えるように」というコンセプトに合致しないものは基本的に見送らせて頂いています。それでも<br />
+		機能を拡張したい方がいらっしゃれば、完動するパッチをお送り頂くか、あるいは独自に ME 改造版を<br />
+		配布なさるのがよいと考えています。
+	</p>
+
 	<h2>ダウンロード</h2>
 
+	<p>
+		[2009.10.09] v1.24 &nbsp; <a href="./archives/NicoReqMikunopopEdition_124.exe">NicoReqMikunopopEdition_124.exe</a><br />
+		[2009.10.09] v1.24 &nbsp; <a href="./archives/NicoReqMikunopopEdition_124.zip">NicoReqMikunopopEdition_124.zip</a><br />
+		<br />
+		　・リスナーからリクエストがあった曲は、リクエストタブのそれぞれの曲名の上に星型アイコンが表示されるようになりました。<br />
+		　　　ただし、すでにストックにある曲がリクエストされた場合にはアイコンは表示されません。<br />
+		　　　　（この仕様は将来変更される可能性があります）<br />
+		　　　また、現在のところ、ニコリクを閉じると情報は失われます。<br />
+		　　　アイコンを右クリックするとアイコンを消去できます。<br />
+		　・上記に関連して、すでにストックにある曲がリクエストされた場合にその旨のメッセージを表示するようにしました。<br />
+		　　この動作は settings.js でオフにできます。<br />
+		　・「マイリストから検索」ウィンドウの表示を微修正しました。<br />
+		　・「マイリストから検索」でブラックリストにマッチした際に曲を正しく抽出できない問題を修正しました。<br />
+		　・その他細かい情報（P名リスト、タグリスト等）を更新しました。
+	</p>
+
+	<p>
+		[2009.10.06] v1.23 &nbsp; <a href="./archives/NicoReqMikunopopEdition_123.exe">NicoReqMikunopopEdition_123.exe</a><br />
+		[2009.10.06] v1.23 &nbsp; <a href="./archives/NicoReqMikunopopEdition_123.zip">NicoReqMikunopopEdition_123.zip</a><br />
+		<br />
+		　・イベント動画情報をジングル一覧に追加しました。<br />
+		　・jingles.json のデータの持ち方を一部変更しました。<br />
+		　　settings.js の settings["JingleComment"] から「No.」が除かれているので注意してください。<br />
+		　・ジングル情報の管理者コメントは /perm をつけて投稿するようにしました。
+	</p>
+
+	<p>
+		[2009.10.04] v1.22 &nbsp; <a href="./archives/NicoReqMikunopopEdition_122.exe">NicoReqMikunopopEdition_122.exe</a><br />
+		[2009.10.04] v1.22 &nbsp; <a href="./archives/NicoReqMikunopopEdition_122.zip">NicoReqMikunopopEdition_122.zip</a><br />
+		<br />
+		　・接続時に、クリップボードにＵＲＬ等があれば自動で埋めるようになりました。<br />
+		　　ＵＲＬコピー・Ｃキー・そのままエンターキーの３ステップで接続できます。<br />
+		　・動画サムネイルをクリックすると既定のブラウザで動画ページを開くようになりました。<br />
+		　・「再生履歴の出力」ウィンドウの表示を強化しました。<br />
+		　　　自動でパート番号を取得し表示するようになりました。<br />
+		　　　パート間に改行をはさむことにより読みやすくなりました。<br />
+		　　　内容をコピーするボタンをつけました。<br />
+		　　以上によりテキストの編集作業が必要なくなり、Ｅキー・クリック・ペーストだけで<br />
+		　　プレイリスト用テキストが準備できるようになりました。<br />
+		　・Ｄキーを「切断」に割り当てました。確認ダイアログが表示されます。<br />
+		　・その他細かい情報（P名リスト、タグリスト等）を更新しました。<br />
+		　・その他細かい点を調整しました。
+	</p>
 
 	<p>
 		[2009.09.26] v1.21 &nbsp; <a href="./archives/NicoReqMikunopopEdition_121.exe">NicoReqMikunopopEdition_121.exe</a><br />
@@ -88,6 +156,8 @@
 		　・その他細かい点を調整しました。
 	</p>
 
+<!--
+
 	<p>
 		[2009.09.17] v1.19 &nbsp; <a href="./archives/NicoReqMikunopopEdition_119.exe">NicoReqMikunopopEdition_119.exe</a><br />
 		[2009.09.17] v1.19 &nbsp; <a href="./archives/NicoReqMikunopopEdition_119.zip">NicoReqMikunopopEdition_119.zip</a><br />
@@ -100,8 +170,6 @@
 		　・P名リストを大幅に更新しました。(thx!> kotac)<br />
 		　・その他細かい点を調整しました。
 	</p>
-
-<!--
 
 	<p>
 		[2009.09.15] v1.18 &nbsp; <a href="./archives/NicoReqMikunopopEdition_118.exe">NicoReqMikunopopEdition_118.exe</a><br />
