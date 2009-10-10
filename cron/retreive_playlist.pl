@@ -9,6 +9,8 @@ use List::Util qw(first);
 use CGI;
 use LWP::Simple qw(get);
 use YAML::Syck ();
+use Text::CSV_XS;
+use Compress::Zlib;
 
 use utf8;
 use Encode;
@@ -17,8 +19,11 @@ my $stash = {};
 
 my $base_dir = '/web/mikunopop/';
 my $var_dir = file( $base_dir, "var" );
+my $htdocs_dir = file( $base_dir, "htdocs" );
 
 my $db_file = file( $var_dir, 'playlist.db' )->stringify;
+my $csv_file = file( $htdocs_dir, "play", 'all.csv.gz' )->stringify;
+my $json_file = file( $htdocs_dir, "play", 'count.json' )->stringify;
 
 my $uri_list = [
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-400',
@@ -56,6 +61,8 @@ my @ignore = qw(
 	sm7343558
 	sm7346152
 	sm7473981
+	sm8145136
+	sm8432973
 );
 
 # 明らかにおかしいもの
@@ -166,10 +173,45 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	push @video_all, $d;
 }
 
+# count.json
+{
+	my $list;
+	for my $v( @video_all ){
+		$list->{ $v->{id} } = $v->{view};
+	}
+	
+	require JSON::Syck;
+	require DateTime::Format::Mail;
+	
+	# 最終更新日付を入れておく
+	my $json = sprintf "// %s\n", DateTime::Format::Mail->format_datetime( DateTime->now( time_zone => 'Asia/Tokyo' ) );
+	$json .= JSON::Syck::Dump( $list );
+	
+	my $fh = file( $json_file )->openw or die $!;
+	$fh->print( $json );
+	$fh->close;
+}
+
 # count.db
-my $fh = file( $db_file )->openw or die $!;
-$fh->print( YAML::Syck::Dump( [ @video_all ] ) );
-$fh->close;
+{
+	my $fh = file( $db_file )->openw or die $!;
+	$fh->print( YAML::Syck::Dump( [ @video_all ] ) );
+	$fh->close;
+}
+
+# all tsv
+{
+	my $csv = Text::CSV_XS->new( { binary => 1 } );
+	my @csv;
+	for my $v( @video_all ){
+		$csv->combine( map { Encode::encode('sjis', $_) } @{$v}{qw(view vid title)} );
+		push @csv, $csv->string;
+	}
+
+	my $fh = file( $csv_file )->openw or die $!;
+	$fh->print( Compress::Zlib::memGzip( join "\r\n", @csv ) );
+	$fh->close;
+}
 
 exit 0;
 
