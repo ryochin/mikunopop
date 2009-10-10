@@ -8,6 +8,7 @@ use vars qw($VERSION);
 use Data::Dumper;
 use Path::Class qw(file);
 use List::Util qw(first max);
+use List::MoreUtils qw(all);
 use YAML::Syck ();
 local $YAML::Syck::ImplicitUnicode = 1;    # utf8 flag on
 use CGI;
@@ -53,6 +54,9 @@ sub handler : method {    ## no critic
 		$last = time;
 	}
 
+	my $cgi = CGI->new;
+	$cgi->charset('utf-8');
+
 	my $stash = {};
 
 	# from, to
@@ -63,11 +67,44 @@ sub handler : method {    ## no critic
 		($from, $to) = ($to, $from);
 	}
 
+	# query
+	my $query = ( defined $cgi->param('query') and $cgi->param('query') ne '' )
+		? $cgi->param('query')
+		: "";
+
+	$query = Encode::decode_utf8( $query );
+
+	my @query;
+	if( $query ne '' ){
+		$query =~ s/^\s+//o;
+		$query =~ s/\s+$//o;
+		
+		@query = split /[\s　]+/o, $query;
+		@query = splice @query, 0, 3 if scalar @query > 3;
+		
+		$query = join ' ', @query;
+	}
+
 	# main
 	my @video;
+	MAIN:
 	for my $video( @{ $count } ){
 		next if $video->{view} < $from;
 		next if $video->{view} > $to;
+		
+		if( scalar @query ){
+			# 含む
+			next MAIN if not all { $video->{title} =~ /$_/i } grep { ! /^-/ } @query;
+			
+			# 含まない
+			for my $pattern( @query ){
+				if( $pattern =~ /^-/o ){
+					(my $pat = $pattern) =~ s/^-//o;
+					next MAIN if $video->{title} =~ /$pat/;
+				}
+			}
+		}
+		
 		push @video, $video;
 	}
 
@@ -78,8 +115,6 @@ sub handler : method {    ## no critic
 
 	$stash->{video} = [ @video ];
 	$stash->{max} = $max;
-	
-	my $cgi = CGI->new;
 
 	# range
 	my @range = reverse 1 .. $max;
@@ -106,6 +141,19 @@ sub handler : method {    ## no critic
 		-override => 1,
 		-class => 'user-input',
 	);
+
+	$stash->{query} = $query;
+
+	# query
+	# -> なぜか value が化ける
+#	$stash->{form}->{query} = $cgi->textfield(
+#		-name => 'query',
+#		-id => 'query',
+#		-default => $query,
+#		-override => 0,
+#		-size => 8,
+#		-class => 'user-input',
+#	);
 
 	# out
 	my $template = &create_template;

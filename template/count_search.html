@@ -82,9 +82,10 @@ $(document).ready( function () {
 [% PROCESS links %]
 	<p id="desc" style="display: none">
 		<a href="http://ch.nicovideo.jp/community/co13879" target="_blank">ミクノポップ</a>過去放送ログから、再生回数が多い順（同数なら古い順）に並べています。<br />
-		元のデータは、現在は６時間ごとに取得しています。<br />
+		元のデータは、現在は８時間ごとに取得しています。<br />
 		プレイリストから自動生成する関係上、実際には再生されていない曲が含まれることもあります。<br />
 		再生回数に関しても、<strong>あくまでも参考値</strong>と考えて下さい。<br />
+		<a href="/play/all.csv.gz">すべてのデータのタブ区切りテキスト</a>（TSV 形式）もあります。解凍してエクセル等で加工できます。
 	</p>
 
 	<h2>条件</h2>
@@ -92,7 +93,8 @@ $(document).ready( function () {
 	<div>
 		<form action="/countsearch" method="post">
 			<p>
-				再生回数が [% form.from %] から [% form.to %] の曲を <input type="submit" value="　見る　" />
+				再生回数が [% form.from %] から [% form.to %] の曲のうち
+					<input type="text" name="query" value="[% query | html %]" size="12" class="user-input" id="query" /> を含む曲を <input type="submit" value="　見る　" />
 			</p>
 		</form>
 	</div>
@@ -109,8 +111,10 @@ $(document).ready( function () {
 
 	<h2>動画一覧</h2>
 
+[% IF num > 0 %]
+
 	<p>
-		[% num | html %] 件の曲が見つかりました。
+		[% num | html %] 曲見つかりました。
 	</p>
 
 	<table summary="list">
@@ -165,13 +169,21 @@ $(document).ready( function () {
 		<tr>
 			<td valign="top">
 				<span class="vid">
-					[% v.vid | html %]
+					[% v.id | html %]
 				</span>
 			</td>
 		</tr>
 [% END %]
 	</table>
-	
+
+[% ELSE %]
+
+	<p>
+		指定された条件では見つかりませんでした。
+	</p>
+
+[% END %]
+
 	<h2>戻る</h2>
 
 [% PROCESS links %]
