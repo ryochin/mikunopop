@@ -33,6 +33,12 @@ my @admin = (
 	qr{^mashita(_.+)*}io,
 	qr{^A_?ster(_.+)*}io,
 	qr{^kinuko(mochi)*(_.+)*}io,
+	qr{^miyum(_.+)*}io,
+	qr{^garana(_.+)*}io,
+	qr{^sol(_.+)*}io,
+	qr{^skyblue(_.+)*}io,
+	qr{^yuu*ki[\-_]*mirai(_.+)*}io,
+	qr{^Q[\-_]*iron(_.+)*}io,
 );
 
 my @me_regex = (
@@ -49,11 +55,18 @@ my $aircaster_table = {
 	qr{マシータ.*} => q{真下},
 	qr{kinuko.*}io => q{きぬこ},
 	qr{noren.*}io => q{暖簾},
+	qr{Q[\-_]?iron.*}io => q{９鉄},
+	qr{miyumm.*}io => q{みゅむ},
+	qr{SOL.*}io => q{S.O.L},
+	qr{yuu*ki[\-_]*.*}io => q{未来勇気},
+	qr{skyblue.*}io => q{蒼空},
+	qr{Q[\-_]*iron(.*}io => q{９鉄},
 };
 
 my @ignore_hello = (
 	qr{^saihane(_.+)*}io,
 	qr{^higumon(_.+)*}io,
+	qr{^mib_.+}io,
 );
 
 my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );

@@ -13,14 +13,16 @@ my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
 my @reply_random = (
 	q{誰か私を呼んだ？　いま忙しいからあとでね！＞%s},
 	q{なによ、気安く話しかけないでよね！＞%s},
-	q{わたしの名前はミクノちゃん、でほんとにいいのかしら。},
+#	q{わたしの名前はミクノちゃん、でほんとにいいのかしら。},
 	q{♪　㍍⊃、溶・け・て・しっまっい〜そぉ〜　♪},
 	q{さ、つぎ主やるのはだれなの？},
 	q{そろそろ放送が聴きたいわね、次は%sが主やるのよ。},
 	q{あらあらそんなこと言って、わたしに踏まれたいのかしら？＞%s},
-	q{まったく、またジャガボンゴなの？},
+	q{あらあらウフフ。＞%s},
+#	q{まったく、またジャガボンゴなの？},
 	q{( ﾟ∀ﾟ)o彡ﾟ%s！%s！},
 	q{・・・・。},
+	q{・・・・？},
 	q{今すぐアイスを買ってきなさい！　姫はダッツをご所望よ！＞%s},
 #	q{そうだわ、NoNoWireを爆破してらっしゃい！＞%s},
 	q{なんとなくnocしたい、そんな夜もあるわよね。わかるわ・・・。},
@@ -29,11 +31,15 @@ my @reply_random = (
 	q{「踏まれ隊」だなんて、ミクノは変態ばっかりね！},
 	q{ん？},
 	q{そういえば、「ニコ生でいちばんオサレ」だなんて、ちょっと言い過ぎよね。},
-	q{メルトはもう飽きたわ。そもそもミクノ分が無いじゃない。},
+#	q{メルトはもう飽きたわ。そもそもミクノ分が無いじゃない。},
 	q{そろそろ私が主デビューしようかしら。},
 	q{え、なに？　よく聞こえなかったわ。＞%s},
-	q{ミク廃連合もなにかテーマ曲が欲しいわね。},
+#	q{ミク廃連合もなにかテーマ曲が欲しいわね。},
 	q{ん〜、それもそうね。},
+	q{ん〜、よくわからないわ。},
+	q{あら、そ。},
+	q{ふわ〜ぁ・・},
+	q{zzZ...},
 );
 
 sub _talk {
@@ -131,6 +137,17 @@ sub _talk {
 		my ($msg) = shuffle @reply;
 		return sprintf $msg, $who, $who, $who;
 	}
+	elsif( $args->{body} =~ /(凄|すご)い/o ){
+		# すごい
+		my @reply = (
+			q{ま、まあこれくらい当然だわ！},
+			q{そう、もっともっとほめなさい！＞%s},
+			q{すごい？　まぁね、わたしのマスターがすごいから/// ＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
 	elsif( $args->{body} =~ /(おねむ|眠い|ねむい)/o ){
 		# 眠い
 		my @reply = (
@@ -141,7 +158,7 @@ sub _talk {
 		my ($msg) = shuffle @reply;
 		return sprintf $msg, $who, $who, $who;
 	}
-	elsif( $args->{body} =~ /(ぱんちゅ|ぱんつ)/o ){
+	elsif( $args->{body} =~ /(ぱんちゅ|ぱんつ|パンツ)/o ){
 		# ぱんつ
 		my @reply = (
 			q{みんなの前でそんな恥ずかしいこと言わないで/// ＞%s},
@@ -163,6 +180,16 @@ sub _talk {
 		my ($msg) = shuffle @reply;
 		return sprintf $msg, $who, $who, $who;
 	}
+	elsif( $args->{body} =~ /(いい|イイ|良い)(こ|子)/o ){
+		# 良い子
+		my @reply = (
+			q{えへへ・・///},
+			q{そ、そう？　ありがと。＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
 	elsif( $args->{body} =~ /(慰|なぐさ)めて/o ){
 		# 慰めて
 		my @reply = (
@@ -178,6 +205,79 @@ sub _talk {
 		my @reply = (
 			q{ご、ゴメンナサイ・・＞%s},
 			q{ふんっ、少しくらい遅くても地球はちゃんと回るわ！＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
+	elsif( $args->{body} =~ /言って((まし)*た|ます|真下)/o ){
+		# 言ってました
+		my @reply = (
+			q{・・・。},
+			q{言 っ て ま せ ん},
+			q{そうだったかしら・・？　記憶があいまいだわ。＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
+	elsif( $args->{body} =~ /はぐらかされ/o ){
+		# はぐらかされた
+		my @reply = (
+			q{そんなことないわ、私はいつだって真摯よ。},
+			q{そうだったかしら・・？　記憶があいまいだわ。＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
+	elsif( $args->{body} =~ /出番(だ|よ|が)/o ){
+		# 出番よ
+		my @reply = (
+			q{あら、枠取ってくるからちょっと待っててちょうだい。},
+			q{私はいま忙しいの。代わりにやっといて。＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
+	elsif( $args->{body} =~ /だよね？/o ){
+		# だよね？
+		my @reply = (
+			q{そうかしら。},
+			q{知らないわ。＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
+	elsif( $args->{body} =~ /(いじ|弄)(ろう|って|りたい)/o ){
+		# いじろう
+		my @reply = (
+			q{ヤメテ ＞＜},
+			q{あなたなんかに、この私をどうこうしようなんて１０年早いわ。＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
+	elsif( $args->{body} =~ /聞いて/o ){
+		# 聞いて
+		my @reply = (
+			q{相談ごとなら人生経験豊富な boro さんか悶さんになさい。＞%s},
+			q{イヤよ。＞%s},
+		);
+		
+		my ($msg) = shuffle @reply;
+		return sprintf $msg, $who, $who, $who;
+	}
+	elsif( $args->{body} =~ /(かわいい|カワイイ|かわええ)/o ){
+		# かわいい
+		my @reply = (
+			q{えっ・・ ///＞%s},
+			q{も、もう１回言ってもらってもいい・・？ ///＞%s},
+			q{私は生まれたときから美少女よ、当たり前じゃない。},
+			q{それは私と付き合いたいって意思表示かしら。＞%s},
 		);
 		
 		my ($msg) = shuffle @reply;

@@ -7,8 +7,8 @@ use lib qw(lib /web/mikunopop/lib);
 use Mikunopop::Bot::Basic;
 
 my $bot = Mikunopop::Bot::Basic->new(
-	server => "irc.mikunopop.info",
-	port   => "6667",
+	server => "irc.tokyo.wide.ad.jp",
+	port   => "6669",
 	channels => ["#mikunopop"],
 	
 	nick      => "mikuno_chan",
