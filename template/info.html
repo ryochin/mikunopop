@@ -17,6 +17,12 @@
 <title>動画情報を取得する</title>
 [% END %]
 <style type="text/css">
+span.count {
+	color: #f9bbbb;
+}
+input.copy {
+	background: #ddd;
+}
 table.thumb {
 	margin: 8px 2em;
 	border: o;
@@ -94,7 +100,7 @@ $(document).ready(function() {
 				<br />
 				<span class="subtitle">投</span><span class="sp">/</span>[% first_retrieve.strftime("%Y年%m月%d日") %] <span class="dim">[% first_retrieve.strftime("%H時%M分") %]</span><br />
 				<span class="subtitle">再</span><span class="sp">/</span>[% view_counter | html | comma %]　<span class="subtitle">コ</span><span class="sp">/</span>[% comment_num | html | comma %]　<span class="subtitle">マ</span><span class="sp">/</span>[% mylist_counter | html | comma %] <span class="dim">([% mylist_percent | html %]%)</span><br />
-				<span class="subtitle">彡</span><span class="sp">/</span>[% count | html | comma %]　<span class="subtitle">時</span><span class="sp">/</span>[% length | html %]<br />
+				<span class="subtitle">彡</span><span class="sp">/</span><span class="count">[% count | html | comma %]</span>　<span class="subtitle">時</span><span class="sp">/</span>[% length | html %]<br />
 				<span class="subtitle">ジ</span><span class="sp">/</span>[%- FOR t = tag_vocaloid -%][% t | html %] [%+ END -%]
 				<br />
 			</td>
@@ -126,11 +132,11 @@ $(document).ready(function() {
 	<table summary="info">
 		<tr>
 			<td align="center" width="120">プレイ</td>
-			<td align="left"><input type="text" size="32" value="/play [% id | html %]" /></td>
+			<td align="left"><input type="text" size="32" value="/play [% id | html %]" class="copy" /></td>
 		</tr>
 		<tr>
 			<td align="center">情報１</td>
-			<td align="left"><input type="text" size="80" value="[% PROCESS info1color | html %]" /></td>
+			<td align="left"><input type="text" size="80" value="[% PROCESS info1color | html %]" class="copy" /></td>
 		</tr>
 		<tr>
 			<td align="center">&nbsp;</td>
@@ -139,7 +145,7 @@ $(document).ready(function() {
 
 		<tr>
 			<td align="center">情報２</td>
-			<td align="left"><input type="text" size="80" value="[% PROCESS info2color | html %]" /></td>
+			<td align="left"><input type="text" size="80" value="[% PROCESS info2color | html %]" class="copy" /></td>
 		</tr>
 
 		<tr>
@@ -149,7 +155,7 @@ $(document).ready(function() {
 
 		<tr>
 			<td align="center">情報２（ヒゲ抜き）</td>
-			<td align="left"><input type="text" size="80" value="[% PROCESS info2color_nocount | html %]" /></td>
+			<td align="left"><input type="text" size="80" value="[% PROCESS info2color_nocount | html %]" class="copy" /></td>
 		</tr>
 
 		<tr>
@@ -159,7 +165,7 @@ $(document).ready(function() {
 
 		<tr>
 			<td align="center">ログ用</td>
-			<td align="left"><input type="text" size="60" value="[% id | html %]　[%+ title | html %]" /></td>
+			<td align="left"><input type="text" size="60" value="[% id | html %]　[%+ title | html %]" class="copy" /></td>
 		</tr>
 	</table>
 
