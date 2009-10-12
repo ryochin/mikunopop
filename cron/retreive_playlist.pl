@@ -2,6 +2,7 @@
 
 use strict;
 use warnings;
+use lib qw(lib /web/mikunopop/lib);
 use Path::Class qw(file dir);
 use IO::Handle;
 use File::Basename;
@@ -11,6 +12,8 @@ use LWP::Simple qw(get);
 use YAML::Syck ();
 use Text::CSV_XS;
 use Compress::Zlib;
+
+use Mikunopop::VideoInfo;
 
 use utf8;
 use Encode;
@@ -157,6 +160,9 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	
 	# 告知動画なども飛ばそう
 	next if scalar( first { $v eq $_ } @ignore );
+	
+	# すでに削除されているものを飛ばす
+	next if first { $v eq $_ } @{ $Mikunopop::VideoInfo::Deleted };
 	
 	# その他おかしいものは飛ばす
 	next if not defined $video->{$v}->{num};
