@@ -16,6 +16,7 @@ use XML::Twig;
 
 use Mikunopop::Pnames;
 use Mikunopop::Tags;
+use Mikunopop::VideoInfo;
 use Mikunopop::Schema;
 
 use utf8;
@@ -24,21 +25,34 @@ use Encode;
 my $base_dir = '/web/mikunopop/';
 my $var_dir = file( $base_dir, "var" );
 my $db_file = file( $var_dir, 'playlist.db' )->stringify;
-my $sqlite_file = file( $var_dir, 'playlist.sqlite' )->stringify;
 
 my $hour = 2 * 24;
 
-my $schema = Mikunopop::Schema->connect("dbi:SQLite:$sqlite_file", "", "" ) or die DBI->errstr;
+my $code = 'utf8';
+my $dbiconfig = {
+	AutoCommit => 0,    # transaction
+#	RaiseError => 1,
+	on_connect_do => [
+		"SET CHARACTER SET $code",
+		"SET NAMES $code",
+		"SET SESSION senna_2ind=OFF",
+	],
+};
+my $schema = Mikunopop::Schema->connect("dbi:mysql:database=mikunopop", "mikunopop", "mikunopop", $dbiconfig ) or die DBI->errstr;
 
 my $now = DateTime->now( time_zone => 'Asia/Tokyo' );
 
 my $cnt = 0;
 for my $video( @{ YAML::Syck::LoadFile( $db_file ) } ){
+	last if ++$cnt > 1000;
+	
+	next if first { $video->{id} eq $_ } @{ $Mikunopop::VideoInfo::Deleted };
+	
 	if( my ($v) = $schema->resultset('Video')->search( { vid => $video->{id} } ) ){
 		# 更新時刻をチェック
 		my $update_date = DateTime::Format::MySQL->parse_datetime( $v->update_date );
 		if( $now->epoch - $update_date->epoch < $hour * 60 ** 2 ){
-			printf STDERR "=> too new, skip: %s\n", $video->{id};
+#			printf STDERR "=> too new, skip: %s\n", $video->{id};
 			next;
 		}
 		else{
@@ -50,13 +64,16 @@ for my $video( @{ YAML::Syck::LoadFile( $db_file ) } ){
 				$v->update_date( DateTime::Format::MySQL->format_datetime( $now ) );
 				$v->update;
 			}
+			else{
+				printf STDERR "=> deleted?: %s\n", $video->{id};
+			}
 		}
 	}
 	else{
 		# なければ埋める
-		printf STDERR "=> new entry: %s\n", $video->{id};
-		
 		if( my $result = &get_video_info( $video->{id} ) ){
+			printf STDERR "=> new entry: %s\n", $video->{id};
+			
 			$schema->resultset('Video')->create( {
 				vid => $video->{id},
 				title => $result->{title},
@@ -76,10 +93,21 @@ for my $video( @{ YAML::Syck::LoadFile( $db_file ) } ){
 				update_date => DateTime::Format::MySQL->format_datetime( $now ),
 			} );
 		}
+		else{
+			printf STDERR "=> deleted?: %s\n", $video->{id};
+		}
 	}
+	
+	# commit
+	$schema->storage->txn_commit;
 	
 	sleep 3;
 }
+
+# cleanup
+$schema->storage->txn_rollback;
+
+exit 0;
 
 sub get_video_info {
 	my $id = shift or return;
