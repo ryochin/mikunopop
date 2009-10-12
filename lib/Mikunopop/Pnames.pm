@@ -8,7 +8,7 @@ use List::MoreUtils qw(uniq);
 use utf8;
 
 # from pnames.js
-our $Pnames = ["",
+our $Pnames = [
 	"OSTER_project",
 	"ika",
 	"kz",

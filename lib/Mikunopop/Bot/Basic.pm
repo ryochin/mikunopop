@@ -48,6 +48,7 @@ my @me_regex = (
 
 my $aircaster_table = {
 	qr{saihane.*}io => q{羽},
+	qr{さいはね.*}io => q{羽},
 	qr{higumon.*}io => q{悶},
 	qr{A\*?ster}io => q{あすたー},
 	qr{io}io => q{いお},
@@ -60,7 +61,9 @@ my $aircaster_table = {
 	qr{SOL.*}io => q{S.O.L},
 	qr{yuu*ki[\-_]*.*}io => q{未来勇気},
 	qr{skyblue.*}io => q{蒼空},
-	qr{Q[\-_]*iron(.*}io => q{９鉄},
+	qr{Q[\-_]*iron.*}io => q{９鉄},
+	qr{aoid.*}io => q{aoid},
+	qr{k-sk.*}io => q{k-sk},
 };
 
 my @ignore_hello = (

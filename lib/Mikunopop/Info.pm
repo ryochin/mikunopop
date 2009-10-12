@@ -50,19 +50,21 @@ sub handler : method {    ## no critic
 	}
 
 	my $id;
-	if( $r->param('id') =~ m{^.+((sm|nm)\d+)\s*$}o ){
-		# http://www.nicovideo.jp/watch/sm6626954
-		# リクです〜sm6626954
-		$id = $1;
-	}
-	elsif( $r->param('id') =~ m{^(sm|nm)\d+\s*$}o ){
-		# sm6626954
-		$id = $r->param('id');
-	}
-	elsif( $r->param('id') =~ m{^\d+\s*$}o ){
-		# 6626954
-		# -> sm を補完する
-		$id = sprintf "sm%d", $r->param('id');
+	if( defined $r->param('id') ){
+		if( $r->param('id') =~ m{^.+((sm|nm)\d+)\s*$}o ){
+			# http://www.nicovideo.jp/watch/sm6626954
+			# リクです〜sm6626954
+			$id = $1;
+		}
+		elsif( $r->param('id') =~ m{^(sm|nm)\d+\s*$}o ){
+			# sm6626954
+			$id = $r->param('id');
+		}
+		elsif( $r->param('id') =~ m{^\d+\s*$}o ){
+			# 6626954
+			# -> sm を補完する
+			$id = sprintf "sm%d", $r->param('id');
+		}
 	}
 	else{
 		# path_info から得る
