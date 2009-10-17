@@ -41,6 +41,22 @@ span.video_id {
 span.title {
 	font-size: 107%;
 }
+span.length {
+	color: #ccccff;
+	font-size: 85%;
+	margin-left: 4em;
+}
+span.pnames {
+	color: #ffcccc;
+}
+span.tags {
+	color: #ccffcc;
+	font-size: 85%;
+}
+hr {
+	size: 1px;
+	color: #666;
+}
 </style>
 <script type="text/javascript">
 <!--// <![CDATA[
@@ -91,10 +107,10 @@ $(document).ready( function () {
 	<h2>条件</h2>
 
 	<div>
-		<form action="/countsearch" method="post">
+		<form action="[% current_url %]" method="post">
 			<p>
 				再生回数が [% form.from %] から [% form.to %] の曲のうち
-					<input type="text" name="query" value="[% query | html %]" size="12" class="user-input" id="query" /> を含む曲を <input type="submit" value="　見る　" />
+					<input type="text" name="query" value="[% query | html %]" size="12" class="user-input" id="query" /> や [% form.tag %] を含む曲を <input type="submit" value="　見る　" />
 			</p>
 		</form>
 	</div>
@@ -126,14 +142,14 @@ $(document).ready( function () {
 		</tr>
 [% FOR v = video %]
 		<tr>
-			<td rowspan="2" align="center">
+			<td rowspan="3" align="center">
 				[% v.view | html %] 回
 				[% IF v.is_jingle %]
 					<br />
 					（ジングル）
 				[% END %]
 			</td>
-			<td rowspan="2" valign="top">
+			<td rowspan="3" valign="top">
 				<a href="http://www.nicovideo.jp/watch/[% v.id | html %]" target="_blank" class="image"
 						title="&lt;img src=&quot;http://niconail.info/[% v.id | html %]&quot; /&gt;">
 [% IF too_many %]
@@ -145,7 +161,7 @@ $(document).ready( function () {
 [% END %]
 				</a>
 			</td>
-			<td rowspan="2">
+			<td rowspan="3">
 				&nbsp;
 			</td>
 			<td valign="top">
@@ -171,8 +187,42 @@ $(document).ready( function () {
 				<span class="vid">
 					[% v.id | html %]
 				</span>
+				
+				<span class="length">
+					[% v.length | html %]
+				</span>
 			</td>
 		</tr>
+		<tr>
+			<td valign="top">
+
+				<span class="pnames">
+[% IF v.pnames.size > 0 %]
+					[% FOR p = v.pnames %]
+						[%+ p | html %]
+					[% END %]
+[% ELSE %]
+					Ｐ名？
+[% END %]
+				</span>
+
+[% IF v.tags.size > 0 %]
+				<span class="tags">
+					&nbsp; &nbsp; 
+					[% FOR t = v.tags %]
+						[%+ t | html %] &nbsp; 
+					[% END %]
+				</span>
+[% END %]
+
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<hr noshade="noshade" />
+			</td>
+		</tr>
+
 [% END %]
 	</table>
 
