@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+<channel>
+<title>「ミクノポップをきかないか？」まとめ</title>
+<link>http://mikunopop.info/</link>
+<description>まとめサイトの更新情報です。</description>
+<language>ja</language>
+<image>
+<title>「ミクノポップをきかないか？」まとめ</title>
+<url>http://icon.nicovideo.jp/community/co13879.jpg</url>
+<link>http://mikunopop.info/</link>
+<width>64</width>
+<height>64</height>
+<description>「ミクノポップをきかないか？」まとめ</description>
+</image>
+
+<item>
+	<title>[2009.10.22]</title>
+	<description>ニコリク・ミクノポップエディション 1.26 をリリースしました。</description>
+	<guid isPermaLink="true">http://mikunopop.info/</guid>
+	<pubDate>Thu, 22 Oct 2009 12:46:01 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+</channel>
+</rss>
