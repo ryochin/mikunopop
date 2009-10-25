@@ -18,6 +18,7 @@ use Encode;
 my $base = '/web/mikunopop';
 my $log_dir = dir( $base, qw(var irclog) );
 my $status_file = file( $base, qw(htdocs var), "live_status.js" );
+my $chat_status_file = file( $base, qw(htdocs var), "chat_status.js" );
 
 my @admin = (
 	qr{^saihane(_.+)*}io,
@@ -320,6 +321,14 @@ sub tick {
 		
 		$self->{_live_uri} = $json->{uri} || '';
 	}
+
+	# チャット中の人数をファイルに吐く
+
+
+
+
+
+#	$chat_status_file
 
 	return $sec;
 }

@@ -55,9 +55,6 @@ my @jingle = qw(
 	sm8183423
 	sm8230401
 	sm8311828
-);
-# 告知動画など
-my @ignore = qw(
 	sm7335402
 	sm7337914
 	sm7341325
@@ -66,10 +63,13 @@ my @ignore = qw(
 	sm7473981
 	sm8145136
 	sm8432973
+	sm8569861
+	sm8588518
+	sm8611151
 );
 
 # 明らかにおかしいもの
-push @ignore, qw(
+my @ignore = qw(
 	sm7382119
 	sm1200617
 );
@@ -156,10 +156,16 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	next if $video->{$v}->{num} < 1;
 	
 	# ジングルは飛ばそう
-	next if scalar( first { $v eq $_ } @jingle );
+#	next if scalar( first { $v eq $_ } @jingle );
+	if( scalar( first { $v eq $_ } @jingle ) ){
+		$video->{$v}->{num} = 0;
+	}
 	
 	# 告知動画なども飛ばそう
-	next if scalar( first { $v eq $_ } @ignore );
+#	next if scalar( first { $v eq $_ } @ignore );
+	if( scalar( first { $v eq $_ } @ignore ) ){
+		$video->{$v}->{num} = 0;
+	}
 	
 	# すでに削除されているものを飛ばす
 	next if first { $v eq $_ } @{ $Mikunopop::VideoInfo::Deleted };

@@ -24,6 +24,7 @@ use warnings "all";
 my @pkg = (
 	### webinterface
 #	'count' => 'Mikunopop::Count',
+	'ping' => 'Mikunopop::Ping',
 	'info' => 'Mikunopop::Info',
 	'countsearch' => 'Mikunopop::CountSearch',
 );

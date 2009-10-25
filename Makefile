@@ -30,4 +30,11 @@ git-add-comment-html:
 	git add htdocs/comment/*/**
 	git add htdocs/comment/index.html
 
+upload:
+	rsync -avz -e ssh lib/Mikunopop/ diana:/web/mikunopop/lib/Mikunopop/
+	rsync -avz -e ssh template/ diana:/web/mikunopop/template/
+
+login:
+	nice -10 mysql -umikunopop -pmikunopop mikunopop
+
 # EOF

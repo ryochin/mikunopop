@@ -1,5 +1,5 @@
 #!/usr/bin/perl --
-# nice -20 ./script/mikunobot.pl > /dev/null 2>&1 &
+# ionice -c2 -n7 nice -20 ./script/mikunobot.pl > /dev/null 2>&1 &
 
 use strict;
 use warnings;
