@@ -51,17 +51,21 @@ if( $content =~ m{<h2><strong><a href="http://www.nicovideo.jp/my" id="myname">(
 elsif( $content =~ m{<a href="http://www.nicovideo.jp/my" id="myname">([^<>]+?)</a>\s*さん}io ){
 	$db->{aircaster} = CGI::unescapeHTML( $1 );
 }
+elsif( $content =~ m{<A id=myname href="http://www.nicovideo.jp/my">([^<>]+?)</A> }io ){
+	$db->{aircaster} = CGI::unescapeHTML( $1 );
+}
 
 my @content;
 my $cnt = 0;
 for my $chunk( split m{</tr>}io, $content ){
-	$chunk =~ s{<tr class="(odd|even)".*?>.+?<td nowrap[^<>]*>([\d\/\s\:]+?)</td>.+?<td.+?( style="color:\#([\w\d]+)")*>([^<>]*?)</td>.+?<td>(\d+)</td>}{
+	$chunk =~ s/\r//go;
+	$chunk =~ s{<tr[^<>]*class="?(odd|even)"?.*?>.+?<td nowrap[^<>]*>([\d\/\s\:]+?)</td>.+?<td.+?(style="color:\s?\#([\w\d]+)")*( width="100%")*>([^<>]*?)</td>.+?<td>(\d+)</td>}{
 		my $d = {
 			date => $2,
-			no => $6,
+			no => $7,
 			is_odd => scalar( ++$cnt % 2 ),
 		};
-		my $content = $d->{comment} = $5;    # すでにエスケープされているんだから、そのまま入れてそのまま表示する方針で。
+		my $content = $d->{comment} = $6;    # すでにエスケープされているんだから、そのまま入れてそのまま表示する方針で。
 		if( $content eq '' ){
 			# bug?
 			$d->{is_empty} = 1;
@@ -71,10 +75,19 @@ for my $chunk( split m{</tr>}io, $content ){
 			if( $color eq 'aaa' ){
 				$d->{is_hidden} = 1;
 			}
+			elsif( $color eq 'ff4d00' ){
+				$d->{is_admin} = 1;
+			}
 			else{
 				$d->{is_admin} = 1;
 			}
 		}
+		
+		# 改行を削る
+		if( defined $d->{is_admin} and $d->{is_admin} ){
+			$d->{comment} =~ s{\n\s+}{}gso;
+		}
+		
 		push @content, $d;
 	}egios;
 }
