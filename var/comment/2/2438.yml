@@ -1,0 +1,5451 @@
+--- 
+aircaster: A*ster
+content: 
+  - 
+    comment: こんばんわ～
+    date: 2009/10/30 21:00:16
+    is_odd: 1
+    "no": 2
+  - 
+    comment: こんばんはー
+    date: 2009/10/30 21:00:17
+    is_admin: 1
+    is_odd: 0
+    "no": 3
+  - 
+    comment: こんばんはー
+    date: 2009/10/30 21:00:21
+    is_odd: 1
+    "no": 4
+  - 
+    comment: 第3回『ミクノポップ大賞』コンセプトアルバム発表会へようこそ！
+    date: 2009/10/30 21:00:25
+    is_admin: 1
+    is_odd: 0
+    "no": 5
+  - 
+    comment: こんばんわー
+    date: 2009/10/30 21:00:25
+    is_odd: 1
+    "no": 6
+  - 
+    comment: こんばんわ〜
+    date: 2009/10/30 21:00:27
+    is_odd: 0
+    "no": 7
+  - 
+    comment: ばわー
+    date: 2009/10/30 21:00:31
+    is_odd: 1
+    "no": 8
+  - 
+    comment: こんばんわー
+    date: 2009/10/30 21:00:31
+    is_odd: 0
+    "no": 9
+  - 
+    comment: イエッフーーーィ！！
+    date: 2009/10/30 21:00:33
+    is_odd: 1
+    "no": 10
+  - 
+    comment: 乙ですぅぅぅ
+    date: 2009/10/30 21:00:33
+    is_odd: 0
+    "no": 11
+  - 
+    comment: こんばんはー
+    date: 2009/10/30 21:00:35
+    is_odd: 1
+    "no": 12
+  - 
+    comment: 2番ゲット！
+    date: 2009/10/30 21:00:36
+    is_odd: 0
+    "no": 13
+  - 
+    comment: こんばんわー
+    date: 2009/10/30 21:00:41
+    is_odd: 1
+    "no": 14
+  - 
+    comment: おつん！
+    date: 2009/10/30 21:00:46
+    is_odd: 0
+    "no": 15
+  - 
+    comment: それではオープニングジングルから
+    date: 2009/10/30 21:00:56
+    is_admin: 1
+    is_odd: 1
+    "no": 16
+  - 
+    comment: 　第3回ミクノポップ大賞-オープニング　　by k-sk
+    date: 2009/10/30 21:01:06
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: 楽しみにしてました！！
+    date: 2009/10/30 21:01:07
+    is_odd: 1
+    "no": 19
+  - 
+    comment: 楽しみだねー、こんばんは
+    date: 2009/10/30 21:01:11
+    is_odd: 0
+    "no": 20
+  - 
+    comment: 　新着 2009年10月30日 05:15:25 投稿    彡:0　　再生:12 コメント:0 マイリスト:2 時間:0:48
+    date: 2009/10/30 21:01:11
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: わふ～
+    date: 2009/10/30 21:01:14
+    is_odd: 0
+    "no": 22
+  - 
+    comment: 　Vocaloid生放送　ミクノポップをきかないか？　イケメン動画　k-sk　　移動の件、∠(￣∧￣)了解！　
+    date: 2009/10/30 21:01:16
+    is_admin: 1
+    is_odd: 1
+    "no": 23
+  - 
+    comment: ハツねみく（）失笑
+    date: 2009/10/30 21:01:18
+    is_odd: 0
+    "no": 24
+  - 
+    comment: おお
+    date: 2009/10/30 21:01:19
+    is_odd: 1
+    "no": 25
+  - 
+    comment: いえーーい！！！！
+    date: 2009/10/30 21:01:20
+    is_odd: 0
+    "no": 26
+  - 
+    comment: イケメンｋｔｋｒ
+    date: 2009/10/30 21:01:25
+    is_odd: 1
+    "no": 27
+  - 
+    comment: おおおおお
+    date: 2009/10/30 21:01:26
+    is_odd: 0
+    "no": 28
+  - 
+    comment: きたあああ
+    date: 2009/10/30 21:01:29
+    is_odd: 1
+    "no": 29
+  - 
+    comment: おぉ、イケメン動画だ
+    date: 2009/10/30 21:01:35
+    is_odd: 0
+    "no": 30
+  - 
+    comment: なんというｲｹﾒﾝ動画！！！
+    date: 2009/10/30 21:01:38
+    is_odd: 1
+    "no": 31
+  - 
+    comment: かっこいいねぇ
+    date: 2009/10/30 21:01:38
+    is_odd: 0
+    "no": 32
+  - 
+    comment: ヾ(*´∀｀*)ﾉｷｬｯｷｬ
+    date: 2009/10/30 21:01:41
+    is_odd: 1
+    "no": 33
+  - 
+    comment: テライケメン
+    date: 2009/10/30 21:01:45
+    is_odd: 0
+    "no": 34
+  - 
+    comment: まってました！乙ですーー
+    date: 2009/10/30 21:01:49
+    is_odd: 1
+    "no": 35
+  - 
+    comment: ヘッドホン準備おk！
+    date: 2009/10/30 21:01:56
+    is_odd: 0
+    "no": 36
+  - 
+    comment: それでは第1回、第2回の大賞受賞曲を振り返っていきたいと思います！
+    date: 2009/10/30 21:01:59
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: きたよー
+    date: 2009/10/30 21:02:05
+    is_odd: 0
+    "no": 38
+  - 
+    comment: おお
+    date: 2009/10/30 21:02:09
+    is_odd: 1
+    "no": 39
+  - 
+    comment: 第1回大賞受賞曲
+    date: 2009/10/30 21:02:18
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: 　【初音ミク】bpm【オリジナル】　　by チーターガールP
+    date: 2009/10/30 21:02:22
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: 　2008年06月26日 23:53:37 投稿    彡:15　　再生:73,259 コメント:1,349 マイリスト:2,095 時間:4:08
+    date: 2009/10/30 21:02:24
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: ｋｔｋｒ！
+    date: 2009/10/30 21:02:26
+    is_odd: 1
+    "no": 44
+  - 
+    comment: きたああああああ
+    date: 2009/10/30 21:02:26
+    is_odd: 0
+    "no": 45
+  - 
+    comment: 　音楽　初音ミク　ミクオリジナル曲　ジョニィＰ　チーターガールP　VOCALOID　鏡音リン　　鏡音レン　mikupop　bpm　
+    date: 2009/10/30 21:02:29
+    is_admin: 1
+    is_odd: 1
+    "no": 46
+  - 
+    comment: おおー
+    date: 2009/10/30 21:02:30
+    is_odd: 0
+    "no": 47
+  - 
+    comment: うおおおおおおおおおおおおおおお
+    date: 2009/10/30 21:02:31
+    is_odd: 1
+    "no": 48
+  - 
+    comment: おおおおおおおおおお
+    date: 2009/10/30 21:02:33
+    is_odd: 0
+    "no": 49
+  - 
+    comment: テンションあがるぅぅぅ
+    date: 2009/10/30 21:02:40
+    is_odd: 1
+    "no": 50
+  - 
+    comment: 体が動くｗ
+    date: 2009/10/30 21:03:02
+    is_odd: 0
+    "no": 51
+  - 
+    comment: ですね～～
+    date: 2009/10/30 21:03:08
+    is_odd: 1
+    "no": 52
+  - 
+    comment: ｂｐｍ！
+    date: 2009/10/30 21:03:09
+    is_odd: 0
+    "no": 53
+  - 
+    comment: やっぱこれだよこれ！
+    date: 2009/10/30 21:03:10
+    is_odd: 1
+    "no": 54
+  - 
+    comment: ノリノリだぜ！
+    date: 2009/10/30 21:03:12
+    is_odd: 0
+    "no": 55
+  - 
+    comment: テンションあがるぅぅぅ
+    date: 2009/10/30 21:03:27
+    is_odd: 1
+    "no": 56
+  - 
+    comment: 久しぶりにワイン買って来ちゃったから飲みながら聴こうっとｗ
+    date: 2009/10/30 21:04:25
+    is_odd: 0
+    "no": 57
+  - 
+    comment: キング☆オブ☆ミクノポップ！
+    date: 2009/10/30 21:04:27
+    is_odd: 1
+    "no": 58
+  - 
+    comment: みんな乾杯だーーーーーーーーーー！
+    date: 2009/10/30 21:04:55
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: いえーい！
+    date: 2009/10/30 21:05:00
+    is_odd: 1
+    "no": 60
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟ A*ster！ A*ster！
+    date: 2009/10/30 21:05:02
+    is_odd: 0
+    "no": 61
+  - 
+    comment: 乾杯だーーーーー！
+    date: 2009/10/30 21:05:04
+    is_odd: 1
+    "no": 62
+  - 
+    comment: つ旦
+    date: 2009/10/30 21:05:06
+    is_odd: 0
+    "no": 63
+  - 
+    comment: アイスしかないけどかんぱーい☆
+    date: 2009/10/30 21:05:08
+    is_odd: 1
+    "no": 64
+  - 
+    comment: かんぱーい！
+    date: 2009/10/30 21:05:10
+    is_odd: 0
+    "no": 65
+  - 
+    comment: かんぱーい
+    date: 2009/10/30 21:05:12
+    is_odd: 1
+    "no": 66
+  - 
+    comment: かんぱーい
+    date: 2009/10/30 21:05:14
+    is_odd: 0
+    "no": 67
+  - 
+    comment: お茶しかないけどかんぱーいっ！
+    date: 2009/10/30 21:05:15
+    is_odd: 1
+    "no": 68
+  - 
+    comment: かんぺーいw
+    date: 2009/10/30 21:05:19
+    is_odd: 0
+    "no": 69
+  - 
+    comment: YY＾☆
+    date: 2009/10/30 21:05:22
+    is_odd: 1
+    "no": 70
+  - 
+    comment: かんぱーい
+    date: 2009/10/30 21:05:25
+    is_odd: 0
+    "no": 71
+  - 
+    comment: こらｗ
+    date: 2009/10/30 21:05:25
+    is_odd: 1
+    "no": 72
+  - 
+    comment: いい音楽聞きながらなと　うまいなああー
+    date: 2009/10/30 21:06:19
+    is_odd: 0
+    "no": 73
+  - 
+    comment: 続いて第2回大賞受賞曲
+    date: 2009/10/30 21:06:26
+    is_admin: 1
+    is_odd: 1
+    "no": 74
+  - 
+    comment: 　【初音ミク】 My Brand New Love 【オリジナル曲】　　by ああんP
+    date: 2009/10/30 21:06:34
+    is_admin: 1
+    is_odd: 0
+    "no": 76
+  - 
+    comment: うおおおおおおおおおおおおおおお
+    date: 2009/10/30 21:06:36
+    is_odd: 1
+    "no": 77
+  - 
+    comment: ああんきたー
+    date: 2009/10/30 21:06:37
+    is_odd: 0
+    "no": 78
+  - 
+    comment: 　2008年02月13日 22:20:27 投稿    彡:41　　再生:72,121 コメント:3,505 マイリスト:2,935 時間:4:25
+    date: 2009/10/30 21:06:39
+    is_admin: 1
+    is_odd: 1
+    "no": 79
+  - 
+    comment: ああんキター
+    date: 2009/10/30 21:06:39
+    is_odd: 0
+    "no": 80
+  - 
+    comment: きたfaaaaaaaaa
+    date: 2009/10/30 21:06:40
+    is_odd: 1
+    "no": 81
+  - 
+    comment: 　ああんああん　音楽　初音ミク　ミクオリジナル曲　ああんP　第2回ミクノポップ大賞　　初音ミク名曲リンク　My_Brand_New_Love　www.blazentrance.com/　武雷禅　
+    date: 2009/10/30 21:06:44
+    is_admin: 1
+    is_odd: 0
+    "no": 82
+  - 
+    comment: ｋｔｋｒ
+    date: 2009/10/30 21:06:45
+    is_odd: 1
+    "no": 83
+  - 
+    comment: 弾幕いっくぜええええええ
+    date: 2009/10/30 21:06:55
+    is_odd: 0
+    "no": 84
+  - 
+    comment: ああん　ああん
+    date: 2009/10/30 21:06:58
+    is_odd: 1
+    "no": 85
+  - 
+    comment: ああん
+    date: 2009/10/30 21:07:02
+    is_odd: 0
+    "no": 86
+  - 
+    comment: ああん♥ああん♥
+    date: 2009/10/30 21:07:02
+    is_odd: 1
+    "no": 87
+  - 
+    comment: あ・あん♪あ・あん♪
+    date: 2009/10/30 21:07:04
+    is_odd: 0
+    "no": 88
+  - 
+    comment: ああん♥ああん
+    date: 2009/10/30 21:07:05
+    is_odd: 1
+    "no": 89
+  - 
+    comment: 「とりあえず生中（二杯目）」本日のゲストはペナルティのお二人です！とりあえず生中(二杯目)へはコチラからどうぞ！
+    date: 2009/10/30 21:07:07
+    is_admin: 1
+    is_odd: 0
+    "no": 90
+  - 
+    comment: 阻止！
+    date: 2009/10/30 21:07:13
+    is_admin: 1
+    is_odd: 1
+    "no": 91
+  - 
+    comment: タグにミクノ大賞があったｗ
+    date: 2009/10/30 21:07:19
+    is_odd: 0
+    "no": 92
+  - 
+    comment: ああん♪ああん♪
+    date: 2009/10/30 21:07:19
+    is_odd: 1
+    "no": 93
+  - 
+    comment: ああん♥ああん♥
+    date: 2009/10/30 21:07:21
+    is_odd: 0
+    "no": 94
+  - 
+    comment: ああん　ああん
+    date: 2009/10/30 21:07:22
+    is_odd: 1
+    "no": 95
+  - 
+    comment: 阻止！ｗ
+    date: 2009/10/30 21:07:22
+    is_odd: 0
+    "no": 96
+  - 
+    comment: あ・あん♪あ・あん♪
+    date: 2009/10/30 21:07:23
+    is_odd: 1
+    "no": 97
+  - 
+    comment: (・´ω｀・)ﾄﾞｩｰﾝ(・´ω｀・)ﾄﾞｩｰﾝ
+    date: 2009/10/30 21:07:34
+    is_odd: 0
+    "no": 98
+  - 
+    comment: (・´ω｀・)　ﾄﾞｩ──────ﾝ
+    date: 2009/10/30 21:07:36
+    is_odd: 1
+    "no": 99
+  - 
+    comment: ぽぴぴ☆ぽぴぴ
+    date: 2009/10/30 21:07:42
+    is_odd: 0
+    "no": 100
+  - 
+    comment: ナイスブロック！(◕‿◕✿ฺ)
+    date: 2009/10/30 21:07:45
+    is_odd: 1
+    "no": 101
+  - 
+    comment: ああん♥ああん♥あーん
+    date: 2009/10/30 21:07:46
+    is_odd: 0
+    "no": 102
+  - 
+    comment: popipi★popipi
+    date: 2009/10/30 21:07:49
+    is_odd: 1
+    "no": 103
+  - 
+    comment: ぽぴぴぽぴぴ
+    date: 2009/10/30 21:07:49
+    is_odd: 0
+    "no": 104
+  - 
+    comment: popipi☆popipi
+    date: 2009/10/30 21:07:51
+    is_odd: 1
+    "no": 105
+  - 
+    comment: popipi★popipi
+    date: 2009/10/30 21:08:03
+    is_odd: 0
+    "no": 106
+  - 
+    comment: (・´ω｀・)ﾄﾞｩｰﾝ
+    date: 2009/10/30 21:08:03
+    is_odd: 1
+    "no": 107
+  - 
+    comment: 皆弾幕完璧だねｗ
+    date: 2009/10/30 21:08:04
+    is_odd: 0
+    "no": 108
+  - 
+    comment: popipipopipi
+    date: 2009/10/30 21:08:05
+    is_odd: 1
+    "no": 109
+  - 
+    comment: 前回同様職人登場希望
+    date: 2009/10/30 21:08:12
+    is_odd: 0
+    "no": 110
+  - 
+    comment: popipi☆popipi
+    date: 2009/10/30 21:08:17
+    is_odd: 1
+    "no": 111
+  - 
+    comment: 今回
+    date: 2009/10/30 21:08:21
+    is_admin: 1
+    is_odd: 0
+    "no": 112
+  - 
+    comment: 投票アルバム数25枚 投票総数160票 全138曲
+    date: 2009/10/30 21:08:25
+    is_admin: 1
+    is_odd: 1
+    "no": 113
+  - 
+    comment: に
+    date: 2009/10/30 21:08:29
+    is_admin: 1
+    is_odd: 0
+    "no": 114
+  - 
+    comment: おお～
+    date: 2009/10/30 21:08:30
+    is_odd: 1
+    "no": 115
+  - 
+    comment: おお
+    date: 2009/10/30 21:08:36
+    is_odd: 0
+    "no": 116
+  - 
+    comment: ご投票いただきました
+    date: 2009/10/30 21:08:37
+    is_admin: 1
+    is_odd: 1
+    "no": 117
+  - 
+    comment: 乙乙！！
+    date: 2009/10/30 21:08:43
+    is_odd: 0
+    "no": 118
+  - 
+    comment: 重複少なっｗ
+    date: 2009/10/30 21:08:44
+    is_odd: 1
+    "no": 119
+  - 
+    comment: ありがとうございました～
+    date: 2009/10/30 21:08:45
+    is_admin: 1
+    is_odd: 0
+    "no": 120
+  - 
+    comment: ありがと～
+    date: 2009/10/30 21:08:51
+    is_odd: 1
+    "no": 121
+  - 
+    comment: １
+    date: 2009/10/30 21:08:59
+    is_odd: 0
+    "no": 122
+  - 
+    comment: 投票乙～
+    date: 2009/10/30 21:09:00
+    is_odd: 1
+    "no": 123
+  - 
+    comment: うええええいいいい
+    date: 2009/10/30 21:09:00
+    is_odd: 0
+    "no": 124
+  - 
+    comment: ２
+    date: 2009/10/30 21:09:02
+    is_odd: 1
+    "no": 125
+  - 
+    comment: 色んな愛の形があるんだなあ……＞重複少ない
+    date: 2009/10/30 21:09:02
+    is_odd: 0
+    "no": 126
+  - 
+    comment: 集計乙です～～
+    date: 2009/10/30 21:09:04
+    is_odd: 1
+    "no": 127
+  - 
+    comment: ３
+    date: 2009/10/30 21:09:05
+    is_odd: 0
+    "no": 128
+  - 
+    comment: popipi!!
+    date: 2009/10/30 21:09:06
+    is_odd: 1
+    "no": 129
+  - 
+    comment: 祭りじゃあ〜
+    date: 2009/10/30 21:09:15
+    is_odd: 0
+    "no": 130
+  - 
+    comment: 皆あいしてるぅぅぅぅう？
+    date: 2009/10/30 21:09:15
+    is_odd: 1
+    "no": 131
+  - 
+    comment: ちゅっ
+    date: 2009/10/30 21:09:20
+    is_odd: 0
+    "no": 132
+  - 
+    comment: 今回のコンセプトアルバムは2票以上集まった曲から選ばせていただきました
+    date: 2009/10/30 21:09:21
+    is_admin: 1
+    is_odd: 1
+    "no": 133
+  - 
+    comment: ああん♪ああん♪
+    date: 2009/10/30 21:09:22
+    is_odd: 0
+    "no": 134
+  - 
+    comment: ちぅぅぅぅ☆
+    date: 2009/10/30 21:09:26
+    is_odd: 1
+    "no": 135
+  - 
+    comment: ちぅ♥
+    date: 2009/10/30 21:09:27
+    is_odd: 0
+    "no": 136
+  - 
+    comment: あー
+    date: 2009/10/30 21:09:28
+    is_odd: 1
+    "no": 137
+  - 
+    comment: これも入ってるでしょ
+    date: 2009/10/30 21:09:33
+    is_odd: 0
+    "no": 138
+  - 
+    comment: おお、いいねぇ〜
+    date: 2009/10/30 21:09:40
+    is_odd: 1
+    "no": 139
+  - 
+    comment: 楽しみ＾＾
+    date: 2009/10/30 21:09:46
+    is_odd: 0
+    "no": 140
+  - 
+    comment: 計75分だったかな？
+    date: 2009/10/30 21:10:01
+    is_admin: 1
+    is_odd: 1
+    "no": 141
+  - 
+    comment: 体動いっちゃってキーボード打てないｗ
+    date: 2009/10/30 21:10:12
+    is_odd: 0
+    "no": 142
+  - 
+    comment: ｗｋｔｋ
+    date: 2009/10/30 21:10:16
+    is_odd: 1
+    "no": 143
+  - 
+    comment: わお
+    date: 2009/10/30 21:10:18
+    is_odd: 0
+    "no": 144
+  - 
+    comment: ちょうどフルアルバム1枚分ぐらいです
+    date: 2009/10/30 21:10:30
+    is_admin: 1
+    is_odd: 1
+    "no": 145
+  - 
+    comment: 楽しみすぎて２８２８してしまうｗ
+    date: 2009/10/30 21:10:34
+    is_odd: 0
+    "no": 146
+  - 
+    comment: おお、そうだな
+    date: 2009/10/30 21:10:38
+    is_odd: 1
+    "no": 147
+  - 
+    comment: おお～ｗｋｔｋ
+    date: 2009/10/30 21:10:40
+    is_odd: 0
+    "no": 148
+  - 
+    comment: 市場にワインを入れた奴は誰じゃ！えらいっ！
+    date: 2009/10/30 21:10:59
+    is_odd: 1
+    "no": 149
+  - 
+    comment: それでは発表に移ります！
+    date: 2009/10/30 21:11:07
+    is_admin: 1
+    is_odd: 0
+    "no": 150
+  - 
+    comment: はーい
+    date: 2009/10/30 21:11:11
+    is_odd: 1
+    "no": 151
+  - 
+    comment: さすが
+    date: 2009/10/30 21:11:12
+    is_odd: 0
+    "no": 152
+  - 
+    comment: はーい
+    date: 2009/10/30 21:11:13
+    is_odd: 1
+    "no": 153
+  - 
+    comment: さて！
+    date: 2009/10/30 21:11:16
+    is_odd: 0
+    "no": 154
+  - 
+    comment: "#01"
+    date: 2009/10/30 21:11:17
+    is_admin: 1
+    is_odd: 1
+    "no": 155
+  - 
+    comment: 　【ジングル】音楽が降りてくる【lysosome】　　by きぬこもちＰ
+    date: 2009/10/30 21:11:21
+    is_admin: 1
+    is_odd: 0
+    "no": 157
+  - 
+    comment: わくわくｗ
+    date: 2009/10/30 21:11:25
+    is_odd: 1
+    "no": 158
+  - 
+    comment: 　2009年05月10日 17:55:54 投稿    彡:0　　再生:2,520 コメント:17 マイリスト:24 時間:2:08
+    date: 2009/10/30 21:11:26
+    is_admin: 1
+    is_odd: 0
+    "no": 159
+  - 
+    comment: おおお！
+    date: 2009/10/30 21:11:27
+    is_odd: 1
+    "no": 160
+  - 
+    comment: おおおおお
+    date: 2009/10/30 21:11:27
+    is_odd: 0
+    "no": 161
+  - 
+    comment: おおお
+    date: 2009/10/30 21:11:30
+    is_odd: 1
+    "no": 162
+  - 
+    comment: 　音楽　ジングル　ミクノポップをきかないか？　きぬこもちＰ　MikuMikuDance　びにゅP　　Vocaloid　ボカロ系生放送　
+    date: 2009/10/30 21:11:31
+    is_admin: 1
+    is_odd: 0
+    "no": 163
+  - 
+    comment: おおおおおお
+    date: 2009/10/30 21:11:38
+    is_odd: 1
+    "no": 164
+  - 
+    comment: ooo
+    date: 2009/10/30 21:11:41
+    is_odd: 0
+    "no": 165
+  - 
+    comment: おおおおおお
+    date: 2009/10/30 21:11:43
+    is_odd: 1
+    "no": 166
+  - 
+    comment: ジングルきたああ
+    date: 2009/10/30 21:11:49
+    is_odd: 0
+    "no": 167
+  - 
+    comment: なぜジングルがｗ
+    date: 2009/10/30 21:11:56
+    is_odd: 1
+    "no": 168
+  - 
+    comment: なんとジングルがランクインです！
+    date: 2009/10/30 21:11:57
+    is_admin: 1
+    is_odd: 0
+    "no": 169
+  - 
+    comment: すばらしい！
+    date: 2009/10/30 21:12:03
+    is_odd: 1
+    "no": 170
+  - 
+    comment: 愛だな
+    date: 2009/10/30 21:12:07
+    is_odd: 0
+    "no": 171
+  - 
+    comment: ジングルが楽曲になった瞬間である。
+    date: 2009/10/30 21:12:08
+    is_odd: 1
+    "no": 172
+  - 
+    comment: ミクノコミュらぶーーーーー
+    date: 2009/10/30 21:12:10
+    is_odd: 0
+    "no": 173
+  - 
+    comment: いいね〜
+    date: 2009/10/30 21:12:13
+    is_odd: 1
+    "no": 174
+  - 
+    comment: まぁこれは当然
+    date: 2009/10/30 21:12:16
+    is_odd: 0
+    "no": 175
+  - 
+    comment: 安心と信頼のジングル
+    date: 2009/10/30 21:12:19
+    is_odd: 1
+    "no": 176
+  - 
+    comment: 名ジングル
+    date: 2009/10/30 21:12:33
+    is_odd: 0
+    "no": 177
+  - 
+    comment: さすが、きぬメン動画。
+    date: 2009/10/30 21:12:37
+    is_odd: 1
+    "no": 178
+  - 
+    comment: このコメントは表示されません
+    date: 2009/10/30 21:12:37
+    is_hidden: 1
+    is_odd: 0
+    "no": 179
+  - 
+    comment: 安心と信頼のびにゅP ブランド
+    date: 2009/10/30 21:12:41
+    is_odd: 1
+    "no": 180
+  - 
+    comment: きぬメンｗｗｗ
+    date: 2009/10/30 21:12:45
+    is_odd: 0
+    "no": 181
+  - 
+    comment: そしてびにゅP！
+    date: 2009/10/30 21:12:46
+    is_odd: 1
+    "no": 182
+  - 
+    comment: アルバムの一曲目にふさわしいですねー
+    date: 2009/10/30 21:12:48
+    is_odd: 0
+    "no": 183
+  - 
+    comment: 愛、すなぁ・・うんうん
+    date: 2009/10/30 21:13:26
+    is_odd: 1
+    "no": 184
+  - 
+    comment: "#02"
+    date: 2009/10/30 21:13:33
+    is_admin: 1
+    is_odd: 0
+    "no": 185
+  - 
+    comment: 　【初音ミク】近未来ラジオ -Full ver'-【オリジナル曲】　　by Rin（ぎん）
+    date: 2009/10/30 21:13:38
+    is_admin: 1
+    is_odd: 1
+    "no": 187
+  - 
+    comment: おおおー
+    date: 2009/10/30 21:13:41
+    is_odd: 0
+    "no": 188
+  - 
+    comment: おおおおお
+    date: 2009/10/30 21:13:42
+    is_odd: 1
+    "no": 189
+  - 
+    comment: 　2009年04月27日 19:20:07 投稿    彡:16　　再生:7,045 コメント:180 マイリスト:430 時間:5:01
+    date: 2009/10/30 21:13:43
+    is_admin: 1
+    is_odd: 0
+    "no": 190
+  - 
+    comment: おおおお
+    date: 2009/10/30 21:13:43
+    is_odd: 1
+    "no": 191
+  - 
+    comment: っしゃあああ
+    date: 2009/10/30 21:13:45
+    is_odd: 0
+    "no": 192
+  - 
+    comment: 　音楽　ニコニ・コモンズ　Vocaloid　初音ミク　ミクオリジナル曲　Rin（ぎん）　　爽やかなミクうた　2:50～が見せ場　近未来ラジオ　もっと評価されるべき　
+    date: 2009/10/30 21:13:48
+    is_admin: 1
+    is_odd: 1
+    "no": 193
+  - 
+    comment: "!!"
+    date: 2009/10/30 21:13:48
+    is_odd: 0
+    "no": 194
+  - 
+    comment: さすがw
+    date: 2009/10/30 21:13:48
+    is_odd: 1
+    "no": 195
+  - 
+    comment: ほほ〜〜〜〜〜
+    date: 2009/10/30 21:13:48
+    is_odd: 0
+    "no": 196
+  - 
+    comment: おお
+    date: 2009/10/30 21:13:49
+    is_odd: 1
+    "no": 197
+  - 
+    comment: おぉ
+    date: 2009/10/30 21:13:50
+    is_odd: 0
+    "no": 198
+  - 
+    comment: ぎんさん愛してる！
+    date: 2009/10/30 21:14:25
+    is_odd: 1
+    "no": 199
+  - 
+    comment: これ好き
+    date: 2009/10/30 21:14:27
+    is_odd: 0
+    "no": 200
+  - 
+    comment: 主が作成したのか
+    date: 2009/10/30 21:14:35
+    is_odd: 1
+    "no": 201
+  - 
+    comment: 生放送にピッタリの歌詞なんだな～
+    date: 2009/10/30 21:14:35
+    is_odd: 0
+    "no": 202
+  - 
+    comment: これもぎんさんがジングル用に作ってくださった曲
+    date: 2009/10/30 21:14:36
+    is_admin: 1
+    is_odd: 1
+    "no": 203
+  - 
+    comment: おお～
+    date: 2009/10/30 21:14:47
+    is_odd: 0
+    "no": 204
+  - 
+    comment: この歌詞すきすぎる……
+    date: 2009/10/30 21:14:51
+    is_odd: 1
+    "no": 205
+  - 
+    comment: ほえ～
+    date: 2009/10/30 21:14:59
+    is_odd: 0
+    "no": 206
+  - 
+    comment: この曲のきっかけの放送にいたが 感動したな〜w
+    date: 2009/10/30 21:15:21
+    is_odd: 1
+    "no": 207
+  - 
+    comment: これを聞いて萌えるのである
+    date: 2009/10/30 21:15:27
+    is_odd: 0
+    "no": 208
+  - 
+    comment: 寝落ちは厳禁です！ｗ
+    date: 2009/10/30 21:16:08
+    is_odd: 1
+    "no": 209
+  - 
+    comment: 寝落ちも愛だよ！愛！
+    date: 2009/10/30 21:16:21
+    is_odd: 0
+    "no": 210
+  - 
+    comment: このse最初聴いたとき痺れた
+    date: 2009/10/30 21:16:32
+    is_odd: 1
+    "no": 211
+  - 
+    comment: noc主がまぎれ込んでいますね
+    date: 2009/10/30 21:16:43
+    is_odd: 0
+    "no": 212
+  - 
+    comment: nocは芸術。
+    date: 2009/10/30 21:16:59
+    is_odd: 1
+    "no": 213
+  - 
+    comment: 寝落ちをnocという技術まで高めた主に感動！
+    date: 2009/10/30 21:17:35
+    is_odd: 0
+    "no": 214
+  - 
+    comment: 誰とは言わんがｗｗ
+    date: 2009/10/30 21:17:45
+    is_odd: 1
+    "no": 215
+  - 
+    comment: 誰のことだｗｗｗ
+    date: 2009/10/30 21:17:46
+    is_odd: 0
+    "no": 216
+  - 
+    comment: 新参なのでエピ聞けて嬉しいですｗｗ
+    date: 2009/10/30 21:17:54
+    is_odd: 1
+    "no": 217
+  - 
+    comment: ｈさんですねｗｗｗ
+    date: 2009/10/30 21:17:57
+    is_odd: 0
+    "no": 218
+  - 
+    comment: ｈさんっていっちゃらめぇｗ
+    date: 2009/10/30 21:18:14
+    is_odd: 1
+    "no": 219
+  - 
+    comment: m○nさんですね
+    date: 2009/10/30 21:18:26
+    is_odd: 0
+    "no": 220
+  - 
+    comment: 何かいったか？
+    date: 2009/10/30 21:18:34
+    is_odd: 1
+    "no": 221
+  - 
+    comment: 門心さんですね
+    date: 2009/10/30 21:18:38
+    is_odd: 0
+    "no": 222
+  - 
+    comment: "#3"
+    date: 2009/10/30 21:18:46
+    is_admin: 1
+    is_odd: 1
+    "no": 223
+  - 
+    comment: 　【初音ミク】ROUNDABOUT【オリジナル曲】　　by ミュムP
+    date: 2009/10/30 21:18:50
+    is_admin: 1
+    is_odd: 0
+    "no": 225
+  - 
+    comment: じゅるPのあれか……＞寝落ち
+    date: 2009/10/30 21:18:52
+    is_odd: 1
+    "no": 226
+  - 
+    comment: 　2009年04月29日 03:28:39 投稿    彡:44　　再生:24,004 コメント:637 マイリスト:1,210 時間:5:10
+    date: 2009/10/30 21:18:55
+    is_admin: 1
+    is_odd: 0
+    "no": 227
+  - 
+    comment: おおお
+    date: 2009/10/30 21:18:59
+    is_odd: 1
+    "no": 228
+  - 
+    comment: ヽ(｡ゝω・｡)ﾉうぇ～い♪
+    date: 2009/10/30 21:19:00
+    is_odd: 0
+    "no": 229
+  - 
+    comment: 　VOCALOID　ミクオリジナル曲　初音ミク　ROUNDABOUT　ミクノ　うぉいぇい　ミュムP　　MIKuHOUSE　初音ミク名曲リンク　
+    date: 2009/10/30 21:19:00
+    is_admin: 1
+    is_odd: 1
+    "no": 230
+  - 
+    comment: おおー
+    date: 2009/10/30 21:19:02
+    is_odd: 0
+    "no": 231
+  - 
+    comment: みゅむぅぅぅぅぅぅぅ！！
+    date: 2009/10/30 21:19:04
+    is_odd: 1
+    "no": 232
+  - 
+    comment: うぉいぇい
+    date: 2009/10/30 21:19:04
+    is_odd: 0
+    "no": 233
+  - 
+    comment: ヽ（｡ゝω・｡）ﾉうぇ～い♪
+    date: 2009/10/30 21:19:04
+    is_odd: 1
+    "no": 234
+  - 
+    comment: うぉいぇい
+    date: 2009/10/30 21:19:07
+    is_odd: 0
+    "no": 235
+  - 
+    comment: ヽ(｡ゝω・｡)ﾉうぇ～い♪ヽ(｡ゝω・｡)ﾉうぇ～い♪
+    date: 2009/10/30 21:19:10
+    is_odd: 1
+    "no": 236
+  - 
+    comment: うぉいぇい！
+    date: 2009/10/30 21:19:11
+    is_odd: 0
+    "no": 237
+  - 
+    comment: うぇい〜w
+    date: 2009/10/30 21:19:11
+    is_odd: 1
+    "no": 238
+  - 
+    comment: みゅむうううぅぅ♪
+    date: 2009/10/30 21:19:13
+    is_odd: 0
+    "no": 239
+  - 
+    comment: うぉいぇい♪
+    date: 2009/10/30 21:19:14
+    is_odd: 1
+    "no": 240
+  - 
+    comment: (・ω・ノノ&quot;　　みゅむP！みゅむP！
+    date: 2009/10/30 21:19:17
+    is_odd: 0
+    "no": 241
+  - 
+    comment: (・ω・ノノ&quot;　　みゅむP！みゅむP！
+    date: 2009/10/30 21:19:20
+    is_odd: 1
+    "no": 242
+  - 
+    comment: みゅむぅぅぅぅぅぅ
+    date: 2009/10/30 21:19:25
+    is_odd: 0
+    "no": 243
+  - 
+    comment: うぉいぇい
+    date: 2009/10/30 21:19:25
+    is_odd: 1
+    "no": 244
+  - 
+    comment: ヽ（｡ゝω・｡）ﾉうぇ～い♪
+    date: 2009/10/30 21:19:28
+    is_odd: 0
+    "no": 245
+  - 
+    comment: ヽ(´・ω・｀)ﾉうぇーい。
+    date: 2009/10/30 21:19:30
+    is_odd: 1
+    "no": 246
+  - 
+    comment: ヽ(｡ゝω・｡)ﾉうぇ～い♪
+    date: 2009/10/30 21:19:39
+    is_odd: 0
+    "no": 247
+  - 
+    comment: ミクノから愛し愛されるPさん
+    date: 2009/10/30 21:19:49
+    is_admin: 1
+    is_odd: 1
+    "no": 248
+  - 
+    comment: ヽ(´・ω・｀)ﾉうぇ～い。
+    date: 2009/10/30 21:19:53
+    is_odd: 0
+    "no": 249
+  - 
+    comment: ヽ（｡ゝω・｡）ﾉうぇ～いぶぅ♪
+    date: 2009/10/30 21:20:01
+    is_odd: 1
+    "no": 250
+  - 
+    comment: 票を下さった方ありがとうございます！！！！　（みゅむ
+    date: 2009/10/30 21:20:14
+    is_odd: 0
+    "no": 251
+  - 
+    comment: ヽ(( ｀ิ,_ゝ´ิ)ﾉうぇ～い。
+    date: 2009/10/30 21:20:24
+    is_odd: 1
+    "no": 252
+  - 
+    comment: いらっしゃいませぇ
+    date: 2009/10/30 21:20:25
+    is_odd: 0
+    "no": 253
+  - 
+    comment: 本人イタｗｗ
+    date: 2009/10/30 21:20:29
+    is_odd: 1
+    "no": 254
+  - 
+    comment: 投票のとき、全部ミュムPにしようとしましたが、何か？
+    date: 2009/10/30 21:20:30
+    is_odd: 0
+    "no": 255
+  - 
+    comment: ミュムPこんばんわー
+    date: 2009/10/30 21:20:32
+    is_odd: 1
+    "no": 256
+  - 
+    comment: みゅむＰ　こんばんは！
+    date: 2009/10/30 21:20:33
+    is_odd: 0
+    "no": 257
+  - 
+    comment: 本人きたあああ
+    date: 2009/10/30 21:20:35
+    is_odd: 1
+    "no": 258
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟミュムＰ!ミュムＰ!
+    date: 2009/10/30 21:20:38
+    is_odd: 0
+    "no": 259
+  - 
+    comment: こんばんわ
+    date: 2009/10/30 21:20:43
+    is_odd: 1
+    "no": 260
+  - 
+    comment: ヽ(( ｀ิ,_ゝ´ิ)ﾉ←この顔やめれｗｗｗ
+    date: 2009/10/30 21:20:43
+    is_odd: 0
+    "no": 261
+  - 
+    comment: 本人さま おつw
+    date: 2009/10/30 21:20:46
+    is_odd: 1
+    "no": 262
+  - 
+    comment: うぉいぇい～♪
+    date: 2009/10/30 21:20:47
+    is_odd: 0
+    "no": 263
+  - 
+    comment: みゅむさんおめ～ うぉいぇい♪
+    date: 2009/10/30 21:20:50
+    is_admin: 1
+    is_odd: 1
+    "no": 264
+  - 
+    comment: いいね〜 体が動くww
+    date: 2009/10/30 21:21:01
+    is_odd: 0
+    "no": 265
+  - 
+    comment: こんばんわぁヽ（｡ゝω・｡）ﾉうぇ～い　（みゅむ
+    date: 2009/10/30 21:21:07
+    is_odd: 1
+    "no": 266
+  - 
+    comment: この曲でミュムPを知ったよー
+    date: 2009/10/30 21:21:14
+    is_odd: 0
+    "no": 267
+  - 
+    comment: みゅむぅぅうぅうぅぅうぅぅ
+    date: 2009/10/30 21:21:18
+    is_odd: 1
+    "no": 268
+  - 
+    comment: 歌詞がいいんだよ・・
+    date: 2009/10/30 21:21:27
+    is_odd: 0
+    "no": 269
+  - 
+    comment: ぅぅうぅぅぅぅうぉいぇい！
+    date: 2009/10/30 21:21:27
+    is_odd: 1
+    "no": 270
+  - 
+    comment: 俺も俺も＞267
+    date: 2009/10/30 21:21:31
+    is_odd: 0
+    "no": 271
+  - 
+    comment: これの前まではヽ(｡ゝω・｡)ﾉうぇ～い♪Pなら知っていたけどｗ
+    date: 2009/10/30 21:22:05
+    is_odd: 1
+    "no": 272
+  - 
+    comment: 正直、ミュムPはどれにしようか迷う
+    date: 2009/10/30 21:22:35
+    is_odd: 0
+    "no": 273
+  - 
+    comment: どこで手に入るんだ
+    date: 2009/10/30 21:22:42
+    is_odd: 1
+    "no": 274
+  - 
+    comment: じゃあ、右のミュムPくださいｗ
+    date: 2009/10/30 21:22:54
+    is_odd: 0
+    "no": 275
+  - 
+    comment: 阻止＞２７５
+    date: 2009/10/30 21:23:44
+    is_odd: 1
+    "no": 276
+  - 
+    comment: ちょっとコメント多くて返せなくてすません；；；　皆様ありがとうです！！　（みゅむ
+    date: 2009/10/30 21:23:44
+    is_odd: 0
+    "no": 277
+  - 
+    comment: 今ノりすぎててキーボード壊れたんだぜｗ
+    date: 2009/10/30 21:23:48
+    is_odd: 1
+    "no": 278
+  - 
+    comment: 落ち着けｗｗ
+    date: 2009/10/30 21:23:55
+    is_odd: 0
+    "no": 279
+  - 
+    comment: ミュムPあいしてるぅぅぅうｘ
+    date: 2009/10/30 21:24:00
+    is_odd: 1
+    "no": 280
+  - 
+    comment: ありがとう～～
+    date: 2009/10/30 21:24:03
+    is_odd: 0
+    "no": 281
+  - 
+    comment: "#04"
+    date: 2009/10/30 21:24:04
+    is_admin: 1
+    is_odd: 1
+    "no": 282
+  - 
+    comment: 　【ミクオリジナル曲】 「VOSTOK」 【BOSSA】　　by あつぞうくん
+    date: 2009/10/30 21:24:07
+    is_admin: 1
+    is_odd: 0
+    "no": 284
+  - 
+    comment: うおおおお
+    date: 2009/10/30 21:24:11
+    is_odd: 1
+    "no": 285
+  - 
+    comment: 　2009年03月12日 07:15:04 投稿    彡:27　　再生:4,333 コメント:160 マイリスト:223 時間:3:39
+    date: 2009/10/30 21:24:12
+    is_admin: 1
+    is_odd: 0
+    "no": 286
+  - 
+    comment: 　あつぞうくん　ミクオリジナル曲　宇宙ヤバイ　星のうた　VOCANOVA　良作浮上リンク　　隠れたミク名曲　過剰埋没動画　さらに評価されるべき　
+    date: 2009/10/30 21:24:17
+    is_admin: 1
+    is_odd: 1
+    "no": 287
+  - 
+    comment: あつぞうくん！
+    date: 2009/10/30 21:24:20
+    is_odd: 0
+    "no": 288
+  - 
+    comment: あつぞうくんさん！
+    date: 2009/10/30 21:24:20
+    is_odd: 1
+    "no": 289
+  - 
+    comment: あつぞうくん！
+    date: 2009/10/30 21:24:26
+    is_odd: 0
+    "no": 290
+  - 
+    comment: あつぞうくん！あつぞうくん！( ﾟ∀ﾟ)o彡ﾟ
+    date: 2009/10/30 21:24:28
+    is_odd: 1
+    "no": 291
+  - 
+    comment: すきだあああああ
+    date: 2009/10/30 21:24:29
+    is_odd: 0
+    "no": 292
+  - 
+    comment: あつぞうくんだ！
+    date: 2009/10/30 21:24:34
+    is_odd: 1
+    "no": 293
+  - 
+    comment: あつそうくん！！
+    date: 2009/10/30 21:24:34
+    is_odd: 0
+    "no": 294
+  - 
+    comment: あつぞう
+    date: 2009/10/30 21:24:35
+    is_odd: 1
+    "no": 295
+  - 
+    comment: あつぞうくんさん
+    date: 2009/10/30 21:24:39
+    is_odd: 0
+    "no": 296
+  - 
+    comment: 無職はいかんぞ
+    date: 2009/10/30 21:24:43
+    is_odd: 1
+    "no": 297
+  - 
+    comment: ずっと無職でいてくれ！
+    date: 2009/10/30 21:24:52
+    is_odd: 0
+    "no": 298
+  - 
+    comment: この絵で微妙に吹いてしまうｗ曲は良いのにｗ
+    date: 2009/10/30 21:24:55
+    is_odd: 1
+    "no": 299
+  - 
+    comment: いやいやいやいやｗｗｗ
+    date: 2009/10/30 21:24:58
+    is_odd: 0
+    "no": 300
+  - 
+    comment: ゆーりー
+    date: 2009/10/30 21:25:03
+    is_odd: 1
+    "no": 301
+  - 
+    comment: 無職イクナイ
+    date: 2009/10/30 21:25:08
+    is_odd: 0
+    "no": 302
+  - 
+    comment: 作曲家になれあつぞう
+    date: 2009/10/30 21:25:09
+    is_odd: 1
+    "no": 303
+  - 
+    comment: 曲を作るマシーンになるのだ！ｗ
+    date: 2009/10/30 21:25:12
+    is_odd: 0
+    "no": 304
+  - 
+    comment: Astuzokun!!
+    date: 2009/10/30 21:25:52
+    is_odd: 1
+    "no": 305
+  - 
+    comment: ホントいい曲だわぁ
+    date: 2009/10/30 21:25:58
+    is_odd: 0
+    "no": 306
+  - 
+    comment: ユーリ・ガガーリン　ロケットが地球に帰還するとき、
+    date: 2009/10/30 21:26:14
+    is_odd: 1
+    "no": 307
+  - 
+    comment: SWW８．０があれば曲は作れるぞ！
+    date: 2009/10/30 21:26:19
+    is_odd: 0
+    "no": 308
+  - 
+    comment: このコメントは表示されません
+    date: 2009/10/30 21:26:19
+    is_hidden: 1
+    is_odd: 1
+    "no": 309
+  - 
+    comment: ちなみに、ソビエト時代は秘密にされていた
+    date: 2009/10/30 21:26:40
+    is_odd: 0
+    "no": 310
+  - 
+    comment: ちなみに票数が同じ場合主がテケトーに曲順いじってます
+    date: 2009/10/30 21:26:41
+    is_admin: 1
+    is_odd: 1
+    "no": 311
+  - 
+    comment: あつぞうくんの曲はあつぞうくんにしか作れんとばい！
+    date: 2009/10/30 21:26:50
+    is_odd: 0
+    "no": 312
+  - 
+    comment: おｋおｋ
+    date: 2009/10/30 21:26:56
+    is_odd: 1
+    "no": 313
+  - 
+    comment: テケトーおｋｗ
+    date: 2009/10/30 21:26:56
+    is_odd: 0
+    "no": 314
+  - 
+    comment: おｋ
+    date: 2009/10/30 21:27:00
+    is_odd: 1
+    "no": 315
+  - 
+    comment: 間違えた　SSWだった＜３０８
+    date: 2009/10/30 21:27:02
+    is_odd: 0
+    "no": 316
+  - 
+    comment: おk
+    date: 2009/10/30 21:27:06
+    is_odd: 1
+    "no": 317
+  - 
+    comment: "#05"
+    date: 2009/10/30 21:27:45
+    is_admin: 1
+    is_odd: 0
+    "no": 318
+  - 
+    comment: ん？
+    date: 2009/10/30 21:28:08
+    is_odd: 1
+    "no": 319
+  - 
+    comment: ！？
+    date: 2009/10/30 21:28:13
+    is_odd: 0
+    "no": 320
+  - 
+    comment: あれ？
+    date: 2009/10/30 21:28:14
+    is_odd: 1
+    "no": 321
+  - 
+    comment: 　【初音ミク】baker氏のcarolをフルカバーしてみた【旧版ベース】　　by iroha(sasaki) baker
+    date: 2009/10/30 21:28:15
+    is_admin: 1
+    is_odd: 0
+    "no": 323
+  - 
+    comment: ちっ
+    date: 2009/10/30 21:28:18
+    is_odd: 1
+    "no": 324
+  - 
+    comment: おおおおおおおおおおおおお
+    date: 2009/10/30 21:28:20
+    is_odd: 0
+    "no": 325
+  - 
+    comment: 　2008年08月06日 00:20:00 投稿    彡:8　　再生:22,472 コメント:1,895 マイリスト:581 時間:4:25
+    date: 2009/10/30 21:28:20
+    is_admin: 1
+    is_odd: 1
+    "no": 326
+  - 
+    comment: ちょｗｗｗｗｗｗｗｗｗｗｗ
+    date: 2009/10/30 21:28:23
+    is_odd: 0
+    "no": 327
+  - 
+    comment: 放送事故かとオモタ
+    date: 2009/10/30 21:28:23
+    is_odd: 1
+    "no": 328
+  - 
+    comment: おおぅ
+    date: 2009/10/30 21:28:24
+    is_odd: 0
+    "no": 329
+  - 
+    comment: 　音楽　初音ミク　baker　ウイイレＰ　はるよ　VOCALOIDアレンジ曲　iroha(sasaki)　　carol　ヤンデロイド　信頼のコメント率　
+    date: 2009/10/30 21:28:25
+    is_admin: 1
+    is_odd: 1
+    "no": 330
+  - 
+    comment: きたああああああああああ
+    date: 2009/10/30 21:28:26
+    is_odd: 0
+    "no": 331
+  - 
+    comment: おおおおおお
+    date: 2009/10/30 21:28:29
+    is_odd: 1
+    "no": 332
+  - 
+    comment: 体がうごくううう
+    date: 2009/10/30 21:28:32
+    is_odd: 0
+    "no": 333
+  - 
+    comment: これも名曲！
+    date: 2009/10/30 21:28:34
+    is_odd: 1
+    "no": 334
+  - 
+    comment: いや、これ大好きだけどｗｗｗｗ吹いたｗｗｗ
+    date: 2009/10/30 21:28:35
+    is_odd: 0
+    "no": 335
+  - 
+    comment: うわあああああああああああ大好き
+    date: 2009/10/30 21:28:35
+    is_odd: 1
+    "no": 336
+  - 
+    comment: いいベース音だ
+    date: 2009/10/30 21:28:36
+    is_odd: 0
+    "no": 337
+  - 
+    comment: 炉心より好きだ
+    date: 2009/10/30 21:28:39
+    is_odd: 1
+    "no": 338
+  - 
+    comment: たまりません！
+    date: 2009/10/30 21:28:39
+    is_odd: 0
+    "no": 339
+  - 
+    comment: WWW
+    date: 2009/10/30 21:28:39
+    is_odd: 1
+    "no": 340
+  - 
+    comment: 初視聴だ
+    date: 2009/10/30 21:28:40
+    is_odd: 0
+    "no": 341
+  - 
+    comment: まさかのcarol、歪んだ愛だなｗ
+    date: 2009/10/30 21:28:40
+    is_odd: 1
+    "no": 342
+  - 
+    comment: ヤンデレは愛ですよ(*‘ω‘ *)
+    date: 2009/10/30 21:28:41
+    is_odd: 0
+    "no": 343
+  - 
+    comment: 　【初音ミク】baker氏のcarolをフルカバーしてみた【旧版ベース】　　by iroha(sasaki) ウイイレＰ baker
+    date: 2009/10/30 21:28:44
+    is_admin: 1
+    is_odd: 1
+    "no": 344
+  - 
+    comment: ヤンデレ！ヤンデレ！
+    date: 2009/10/30 21:28:53
+    is_odd: 0
+    "no": 345
+  - 
+    comment: これもひとつの愛のかたちかｗｗｗ
+    date: 2009/10/30 21:28:55
+    is_odd: 1
+    "no": 346
+  - 
+    comment: ごめんちょいミス＞＜
+    date: 2009/10/30 21:29:04
+    is_admin: 1
+    is_odd: 0
+    "no": 347
+  - 
+    comment: おｋ！
+    date: 2009/10/30 21:29:10
+    is_odd: 1
+    "no": 348
+  - 
+    comment: ？
+    date: 2009/10/30 21:29:13
+    is_odd: 0
+    "no": 349
+  - 
+    comment: せふせふ
+    date: 2009/10/30 21:29:18
+    is_odd: 1
+    "no": 350
+  - 
+    comment: どしたん？ｎｏｃしたの？
+    date: 2009/10/30 21:29:21
+    is_odd: 0
+    "no": 351
+  - 
+    comment: びっくり
+    date: 2009/10/30 21:29:22
+    is_odd: 1
+    "no": 352
+  - 
+    comment: おｋおｋ
+    date: 2009/10/30 21:29:24
+    is_odd: 0
+    "no": 353
+  - 
+    comment: きにしない（・３・）～♪
+    date: 2009/10/30 21:29:34
+    is_odd: 1
+    "no": 354
+  - 
+    comment: 曲を売ってくれ
+    date: 2009/10/30 21:29:36
+    is_odd: 0
+    "no": 355
+  - 
+    comment: nocかおｋおｋ
+    date: 2009/10/30 21:29:44
+    is_odd: 1
+    "no": 356
+  - 
+    comment: このアルバムの中で一番強い愛かもねｗ
+    date: 2009/10/30 21:30:41
+    is_admin: 1
+    is_odd: 0
+    "no": 357
+  - 
+    comment: ある意味強いｗ
+    date: 2009/10/30 21:30:59
+    is_odd: 1
+    "no": 358
+  - 
+    comment: これっくらい愛されてみたいなｗ
+    date: 2009/10/30 21:31:01
+    is_odd: 0
+    "no": 359
+  - 
+    comment: ネタバレｗｗｗ
+    date: 2009/10/30 21:31:17
+    is_odd: 1
+    "no": 360
+  - 
+    comment: 主のいう通り
+    date: 2009/10/30 21:31:17
+    is_odd: 0
+    "no": 361
+  - 
+    comment: ちなみになぜか右手に血がついてます(*‘ω‘ *)
+    date: 2009/10/30 21:31:20
+    is_odd: 1
+    "no": 362
+  - 
+    comment: おｋ！！
+    date: 2009/10/30 21:31:35
+    is_odd: 0
+    "no": 363
+  - 
+    comment: 持ってるのネギなのにね？ｗ
+    date: 2009/10/30 21:31:41
+    is_odd: 1
+    "no": 364
+  - 
+    comment: おk！
+    date: 2009/10/30 21:31:43
+    is_odd: 0
+    "no": 365
+  - 
+    comment: いいですとも！
+    date: 2009/10/30 21:31:43
+    is_odd: 1
+    "no": 366
+  - 
+    comment: 愛されてえええええええ
+    date: 2009/10/30 21:31:45
+    is_odd: 0
+    "no": 367
+  - 
+    comment: 右手の血ｗ今気づいた……
+    date: 2009/10/30 21:31:53
+    is_odd: 1
+    "no": 368
+  - 
+    comment: この愛は困るかもｗ
+    date: 2009/10/30 21:32:01
+    is_odd: 0
+    "no": 369
+  - 
+    comment: ほんとだw　血ついてる
+    date: 2009/10/30 21:32:11
+    is_odd: 1
+    "no": 370
+  - 
+    comment: 怖い
+    date: 2009/10/30 21:32:12
+    is_odd: 0
+    "no": 371
+  - 
+    comment: ここのオケがたまらん
+    date: 2009/10/30 21:32:16
+    is_odd: 1
+    "no": 372
+  - 
+    comment: あれはたぶんトマトケチャップさ！
+    date: 2009/10/30 21:32:32
+    is_odd: 0
+    "no": 373
+  - 
+    comment: 血、言われてきづいたｗｗ
+    date: 2009/10/30 21:32:37
+    is_odd: 1
+    "no": 374
+  - 
+    comment: それはない
+    date: 2009/10/30 21:32:38
+    is_odd: 0
+    "no": 375
+  - 
+    comment: "#06"
+    date: 2009/10/30 21:32:45
+    is_admin: 1
+    is_odd: 1
+    "no": 376
+  - 
+    comment: トマトケチャップなら仕方ないねｗ
+    date: 2009/10/30 21:32:46
+    is_odd: 0
+    "no": 377
+  - 
+    comment: 　【初音ミク】Disposable　Music【勝手に手描きPV】　　by びにゅP
+    date: 2009/10/30 21:32:49
+    is_admin: 1
+    is_odd: 1
+    "no": 379
+  - 
+    comment: ネギのトマト煮込みを作ろうとしているんだ、きっと
+    date: 2009/10/30 21:32:50
+    is_odd: 0
+    "no": 380
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:32:53
+    is_odd: 1
+    "no": 381
+  - 
+    comment: 　2009年08月27日 00:51:00 投稿    彡:12　　再生:737 コメント:24 マイリスト:39 時間:4:39
+    date: 2009/10/30 21:32:54
+    is_admin: 1
+    is_odd: 0
+    "no": 382
+  - 
+    comment: （ ﾟ∀ﾟ）o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:32:55
+    is_odd: 1
+    "no": 383
+  - 
+    comment: うは！
+    date: 2009/10/30 21:32:56
+    is_odd: 0
+    "no": 384
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:32:58
+    is_odd: 1
+    "no": 385
+  - 
+    comment: 　音楽　ニコニコムービーメーカー　初音ミク　びにゅP　VOCALOID　VOCALOID-PV　　カツイチ　みんなのミクうた　
+    date: 2009/10/30 21:32:59
+    is_admin: 1
+    is_odd: 0
+    "no": 386
+  - 
+    comment: （ ﾟ∀ﾟ）o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:33:02
+    is_odd: 1
+    "no": 387
+  - 
+    comment: かわいいミク
+    date: 2009/10/30 21:33:04
+    is_odd: 0
+    "no": 388
+  - 
+    comment: おお、これか〜
+    date: 2009/10/30 21:33:08
+    is_odd: 1
+    "no": 389
+  - 
+    comment: おおPVのほうね〜
+    date: 2009/10/30 21:33:10
+    is_odd: 0
+    "no": 390
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP!びにゅP!
+    date: 2009/10/30 21:33:14
+    is_odd: 1
+    "no": 391
+  - 
+    comment: かわえｗｗ
+    date: 2009/10/30 21:33:17
+    is_odd: 0
+    "no": 392
+  - 
+    comment: 人文字かわええー
+    date: 2009/10/30 21:33:22
+    is_odd: 1
+    "no": 393
+  - 
+    comment: PVが2票集めました～！
+    date: 2009/10/30 21:33:28
+    is_admin: 1
+    is_odd: 0
+    "no": 394
+  - 
+    comment: やべええこのPV初見！かわえええええ
+    date: 2009/10/30 21:33:31
+    is_odd: 1
+    "no": 395
+  - 
+    comment: おめー！
+    date: 2009/10/30 21:33:35
+    is_odd: 0
+    "no": 396
+  - 
+    comment: へええ
+    date: 2009/10/30 21:33:35
+    is_odd: 1
+    "no": 397
+  - 
+    comment: Thank You desu!!(Be:newP
+    date: 2009/10/30 21:33:39
+    is_odd: 0
+    "no": 398
+  - 
+    comment: なにこのかわいいＰＶ　(〃▽〃)
+    date: 2009/10/30 21:33:46
+    is_odd: 1
+    "no": 399
+  - 
+    comment: おお！びにゅPいらっしゃい
+    date: 2009/10/30 21:33:50
+    is_odd: 0
+    "no": 400
+  - 
+    comment: びにゅPこんばんわー
+    date: 2009/10/30 21:33:52
+    is_odd: 1
+    "no": 401
+  - 
+    comment: これはもっと見てほしいPVです！
+    date: 2009/10/30 21:33:54
+    is_odd: 0
+    "no": 402
+  - 
+    comment: びみゅPこんばんは！
+    date: 2009/10/30 21:33:56
+    is_odd: 1
+    "no": 403
+  - 
+    comment: Be:newP OMEDETOU!!!
+    date: 2009/10/30 21:33:58
+    is_admin: 1
+    is_odd: 0
+    "no": 404
+  - 
+    comment: ほすい～
+    date: 2009/10/30 21:33:58
+    is_odd: 1
+    "no": 405
+  - 
+    comment: 微乳P本人か？こんばはー
+    date: 2009/10/30 21:33:59
+    is_odd: 0
+    "no": 406
+  - 
+    comment: 漢字表記は禁止ですｗ
+    date: 2009/10/30 21:34:14
+    is_odd: 1
+    "no": 407
+  - 
+    comment: いらはい〜 これからもいい曲をよろ〜(*‘ω‘ *)
+    date: 2009/10/30 21:34:19
+    is_odd: 0
+    "no": 408
+  - 
+    comment: こらああああああああああああああ
+    date: 2009/10/30 21:34:21
+    is_odd: 1
+    "no": 409
+  - 
+    comment: English Only Now!!(Be:new
+    date: 2009/10/30 21:34:25
+    is_odd: 0
+    "no": 410
+  - 
+    comment: びにゅPおめええええ
+    date: 2009/10/30 21:34:27
+    is_odd: 1
+    "no": 411
+  - 
+    comment: 欧米かｗ（古
+    date: 2009/10/30 21:34:39
+    is_odd: 0
+    "no": 412
+  - 
+    comment: かわいいな〜
+    date: 2009/10/30 21:34:39
+    is_odd: 1
+    "no": 413
+  - 
+    comment: 懐かしいなｗ＞欧米
+    date: 2009/10/30 21:34:46
+    is_odd: 0
+    "no": 414
+  - 
+    comment: びにゅｐ何故か日本語が打てないらしい（noc
+    date: 2009/10/30 21:34:47
+    is_odd: 1
+    "no": 415
+  - 
+    comment: なぜ英語ｗ
+    date: 2009/10/30 21:34:51
+    is_odd: 0
+    "no": 416
+  - 
+    comment: たくさんの曲からこれとは、いいね！
+    date: 2009/10/30 21:34:59
+    is_odd: 1
+    "no": 417
+  - 
+    comment: Mがかわえええ
+    date: 2009/10/30 21:35:15
+    is_odd: 0
+    "no": 418
+  - 
+    comment: ローマ字でおk
+    date: 2009/10/30 21:35:24
+    is_odd: 1
+    "no": 419
+  - 
+    comment: OK!
+    date: 2009/10/30 21:35:36
+    is_odd: 0
+    "no": 420
+  - 
+    comment: びにゅPぃぃいいいいいいいいいいいい　（みゅむ
+    date: 2009/10/30 21:35:37
+    is_odd: 1
+    "no": 421
+  - 
+    comment: ミュムPがこわれた
+    date: 2009/10/30 21:35:54
+    is_odd: 0
+    "no": 422
+  - 
+    comment: びにゅPぃぃぃいいいいいいいいいいいい（あんぐら～
+    date: 2009/10/30 21:35:58
+    is_odd: 1
+    "no": 423
+  - 
+    comment: ♪〜♪〜♪〜♪〜♪〜
+    date: 2009/10/30 21:36:02
+    is_odd: 0
+    "no": 424
+  - 
+    comment: Azassu!!Myium!!
+    date: 2009/10/30 21:36:11
+    is_odd: 1
+    "no": 425
+  - 
+    comment: まて！落ち着くんだ・・・びにゅううううううううP!!!!!!
+    date: 2009/10/30 21:36:23
+    is_odd: 0
+    "no": 426
+  - 
+    comment: 山崎か
+    date: 2009/10/30 21:36:26
+    is_odd: 1
+    "no": 427
+  - 
+    comment: まいしてるぅぅっぅぅっぅぅぅぅ
+    date: 2009/10/30 21:36:38
+    is_odd: 0
+    "no": 428
+  - 
+    comment: コミュニティ「ミクノポップをきかないか」(co13879)に捧げます。とまで書いてくださった曲！
+    date: 2009/10/30 21:36:44
+    is_admin: 1
+    is_odd: 1
+    "no": 429
+  - 
+    comment: おぉ
+    date: 2009/10/30 21:36:52
+    is_odd: 0
+    "no": 430
+  - 
+    comment: えらい
+    date: 2009/10/30 21:36:54
+    is_odd: 1
+    "no": 431
+  - 
+    comment: おおおお～～
+    date: 2009/10/30 21:36:59
+    is_odd: 0
+    "no": 432
+  - 
+    comment: ありがたや～
+    date: 2009/10/30 21:37:01
+    is_odd: 1
+    "no": 433
+  - 
+    comment: 本当にありがとうございます！
+    date: 2009/10/30 21:37:05
+    is_admin: 1
+    is_odd: 0
+    "no": 434
+  - 
+    comment: ありがたや～
+    date: 2009/10/30 21:37:07
+    is_odd: 1
+    "no": 435
+  - 
+    comment: ありがたや～
+    date: 2009/10/30 21:37:10
+    is_odd: 0
+    "no": 436
+  - 
+    comment: すばらしや〜
+    date: 2009/10/30 21:37:11
+    is_odd: 1
+    "no": 437
+  - 
+    comment: ええはなしや・・・
+    date: 2009/10/30 21:37:11
+    is_odd: 0
+    "no": 438
+  - 
+    comment: あざっす！
+    date: 2009/10/30 21:37:12
+    is_odd: 1
+    "no": 439
+  - 
+    comment: ありがたいですね
+    date: 2009/10/30 21:37:14
+    is_odd: 0
+    "no": 440
+  - 
+    comment: kochirakoso!!
+    date: 2009/10/30 21:37:14
+    is_odd: 1
+    "no": 441
+  - 
+    comment: ありがたや……！
+    date: 2009/10/30 21:37:15
+    is_odd: 0
+    "no": 442
+  - 
+    comment: GJ〜
+    date: 2009/10/30 21:37:16
+    is_odd: 1
+    "no": 443
+  - 
+    comment: mp3おとしてきた
+    date: 2009/10/30 21:37:17
+    is_odd: 0
+    "no": 444
+  - 
+    comment: ネ申
+    date: 2009/10/30 21:37:25
+    is_odd: 1
+    "no": 445
+  - 
+    comment: びにゅPありがとおおおおおお
+    date: 2009/10/30 21:37:26
+    is_odd: 0
+    "no": 446
+  - 
+    comment: "#07"
+    date: 2009/10/30 21:37:31
+    is_admin: 1
+    is_odd: 1
+    "no": 447
+  - 
+    comment: 　【初音ミクオリジナル】あいのうた【修正版】　　by びにゅP
+    date: 2009/10/30 21:37:38
+    is_admin: 1
+    is_odd: 0
+    "no": 449
+  - 
+    comment: ！
+    date: 2009/10/30 21:37:43
+    is_odd: 1
+    "no": 450
+  - 
+    comment: 　2009年04月27日 15:40:41 投稿    彡:10　　再生:1,669 コメント:30 マイリスト:46 時間:4:52
+    date: 2009/10/30 21:37:43
+    is_admin: 1
+    is_odd: 0
+    "no": 451
+  - 
+    comment: （ ﾟ∀ﾟ）o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:37:45
+    is_odd: 1
+    "no": 452
+  - 
+    comment: (  ﾟ∀ﾟ)o彡゜びにゅP！びにゅP！
+    date: 2009/10/30 21:37:46
+    is_odd: 0
+    "no": 453
+  - 
+    comment: ( ﾟ∀ﾟ)o彡びにゅP!びにゅP!
+    date: 2009/10/30 21:37:46
+    is_odd: 1
+    "no": 454
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:37:47
+    is_odd: 0
+    "no": 455
+  - 
+    comment: 連続！！！
+    date: 2009/10/30 21:37:47
+    is_odd: 1
+    "no": 456
+  - 
+    comment: 　音楽　VOCALOID　初音ミク　びにゅP　ミクオリジナル曲　ミクちゃんといっしょ　　びにゅP誕生秘話　あいのうた　
+    date: 2009/10/30 21:37:48
+    is_admin: 1
+    is_odd: 0
+    "no": 457
+  - 
+    comment: おおお？ｗ
+    date: 2009/10/30 21:37:49
+    is_odd: 1
+    "no": 458
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:37:50
+    is_odd: 0
+    "no": 459
+  - 
+    comment: 連続とな！
+    date: 2009/10/30 21:37:51
+    is_odd: 1
+    "no": 460
+  - 
+    comment: mate!!matewwww
+    date: 2009/10/30 21:37:52
+    is_odd: 0
+    "no": 461
+  - 
+    comment: （ ﾟ∀ﾟ）o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:37:57
+    is_odd: 1
+    "no": 462
+  - 
+    comment: つええw
+    date: 2009/10/30 21:37:58
+    is_odd: 0
+    "no": 463
+  - 
+    comment: 連続！！
+    date: 2009/10/30 21:37:58
+    is_odd: 1
+    "no": 464
+  - 
+    comment: 連続ｗｗｗｗｗ
+    date: 2009/10/30 21:37:59
+    is_odd: 0
+    "no": 465
+  - 
+    comment: びにゅ
+    date: 2009/10/30 21:38:02
+    is_odd: 1
+    "no": 466
+  - 
+    comment: あいいいいいいいい！
+    date: 2009/10/30 21:38:03
+    is_odd: 0
+    "no": 467
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:38:05
+    is_admin: 1
+    is_odd: 1
+    "no": 468
+  - 
+    comment: すげえｗ
+    date: 2009/10/30 21:38:05
+    is_odd: 0
+    "no": 469
+  - 
+    comment: またかよ！全然OK ！！！！！
+    date: 2009/10/30 21:38:07
+    is_odd: 1
+    "no": 470
+  - 
+    comment: 愛されてるな〜
+    date: 2009/10/30 21:38:10
+    is_odd: 0
+    "no": 471
+  - 
+    comment: これも可愛くてすきだー
+    date: 2009/10/30 21:38:13
+    is_odd: 1
+    "no": 472
+  - 
+    comment: びにゅPぃぃぃぃいいいいいいいいいい（愛
+    date: 2009/10/30 21:38:13
+    is_odd: 0
+    "no": 473
+  - 
+    comment: びにゅP命名曲だな
+    date: 2009/10/30 21:38:15
+    is_odd: 1
+    "no": 474
+  - 
+    comment: （ ；∀；）o彡ﾟびにゅP！びにゅP！　（みゅむ
+    date: 2009/10/30 21:38:37
+    is_odd: 0
+    "no": 475
+  - 
+    comment: ( &gt;ω&lt;)o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:38:53
+    is_odd: 1
+    "no": 476
+  - 
+    comment: miyum!!miyum!!
+    date: 2009/10/30 21:38:55
+    is_odd: 0
+    "no": 477
+  - 
+    comment: (´◉◞౪◟◉)o彡ﾟびにゅP!びにゅP!
+    date: 2009/10/30 21:38:58
+    is_odd: 1
+    "no": 478
+  - 
+    comment: wwww
+    date: 2009/10/30 21:39:03
+    is_odd: 0
+    "no": 479
+  - 
+    comment: 顔ｗｗ
+    date: 2009/10/30 21:39:09
+    is_odd: 1
+    "no": 480
+  - 
+    comment: (´◉◞౪◟◉)o彡ﾟ←この顔もやめれｗｗｗ
+    date: 2009/10/30 21:39:17
+    is_odd: 0
+    "no": 481
+  - 
+    comment: なんて愛にあふれる場所なんだ・・涙が
+    date: 2009/10/30 21:39:19
+    is_odd: 1
+    "no": 482
+  - 
+    comment: ワロタ
+    date: 2009/10/30 21:39:26
+    is_odd: 0
+    "no": 483
+  - 
+    comment: ここには愛しかない
+    date: 2009/10/30 21:39:35
+    is_odd: 1
+    "no": 484
+  - 
+    comment: "　 _ 　∩\n(　ﾟ∀ﾟ)彡　びにゅP！びにゅP！\n　⊂彡"
+    date: 2009/10/30 21:39:42
+    is_odd: 0
+    "no": 485
+  - 
+    comment: それなんて天国
+    date: 2009/10/30 21:39:46
+    is_odd: 1
+    "no": 486
+  - 
+    comment: うはｗｗ
+    date: 2009/10/30 21:39:47
+    is_odd: 0
+    "no": 487
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/30 21:39:48
+    is_odd: 1
+    "no": 488
+  - 
+    comment: このコメントは表示されません
+    date: 2009/10/30 21:40:09
+    is_hidden: 1
+    is_odd: 0
+    "no": 489
+  - 
+    comment: それをきっと愛と呼ぶんだぜ！
+    date: 2009/10/30 21:40:12
+    is_odd: 1
+    "no": 490
+  - 
+    comment: Love Song Now!!!
+    date: 2009/10/30 21:40:14
+    is_odd: 0
+    "no": 491
+  - 
+    comment: 俺、この放送終わったらびにゅPに告白する！
+    date: 2009/10/30 21:40:15
+    is_odd: 1
+    "no": 492
+  - 
+    comment: うまい！
+    date: 2009/10/30 21:40:26
+    is_odd: 0
+    "no": 493
+  - 
+    comment: 今しろ！
+    date: 2009/10/30 21:40:28
+    is_admin: 1
+    is_odd: 1
+    "no": 494
+  - 
+    comment: アッーい
+    date: 2009/10/30 21:40:29
+    is_odd: 0
+    "no": 495
+  - 
+    comment: 今しようぜ
+    date: 2009/10/30 21:40:29
+    is_odd: 1
+    "no": 496
+  - 
+    comment: 本人いるじゃんw
+    date: 2009/10/30 21:40:31
+    is_odd: 0
+    "no": 497
+  - 
+    comment: imade OK!ww
+    date: 2009/10/30 21:40:32
+    is_odd: 1
+    "no": 498
+  - 
+    comment: 本人のおｋが出たぞｗ
+    date: 2009/10/30 21:40:56
+    is_odd: 0
+    "no": 499
+  - 
+    comment: えええええええええええ
+    date: 2009/10/30 21:41:02
+    is_odd: 1
+    "no": 500
+  - 
+    comment: せんきゅーほー　びにゅー
+    date: 2009/10/30 21:41:10
+    is_odd: 0
+    "no": 501
+  - 
+    comment: 便乗してもいいかな？ﾄﾞｷﾄﾞｷ
+    date: 2009/10/30 21:41:13
+    is_odd: 1
+    "no": 502
+  - 
+    comment: びにゅP愛してる！
+    date: 2009/10/30 21:41:13
+    is_odd: 0
+    "no": 503
+  - 
+    comment: 誰も阻止しないのかよｗｗｗ
+    date: 2009/10/30 21:41:20
+    is_odd: 1
+    "no": 504
+  - 
+    comment: あいしてるううううう
+    date: 2009/10/30 21:41:20
+    is_odd: 0
+    "no": 505
+  - 
+    comment: びにゅP愛してる！
+    date: 2009/10/30 21:41:21
+    is_odd: 1
+    "no": 506
+  - 
+    comment: ドキドキ
+    date: 2009/10/30 21:41:23
+    is_odd: 0
+    "no": 507
+  - 
+    comment: bokumodesu!!
+    date: 2009/10/30 21:41:24
+    is_odd: 1
+    "no": 508
+  - 
+    comment: びにゅP愛してる！
+    date: 2009/10/30 21:41:26
+    is_odd: 0
+    "no": 509
+  - 
+    comment: びにゅPあいしてるううううううううううううううううう
+    date: 2009/10/30 21:41:28
+    is_admin: 1
+    is_odd: 1
+    "no": 510
+  - 
+    comment: んん いい音〜
+    date: 2009/10/30 21:41:29
+    is_odd: 0
+    "no": 511
+  - 
+    comment: みんなの嫁すぎるｗ
+    date: 2009/10/30 21:41:34
+    is_odd: 1
+    "no": 512
+  - 
+    comment: いや俺だ！
+    date: 2009/10/30 21:41:42
+    is_odd: 0
+    "no": 513
+  - 
+    comment: 一体何人告白してんだよｗｗｗ
+    date: 2009/10/30 21:41:48
+    is_odd: 1
+    "no": 514
+  - 
+    comment: じゃあミュムPは俺がｗ
+    date: 2009/10/30 21:41:52
+    is_odd: 0
+    "no": 515
+  - 
+    comment: いやいや俺だ！
+    date: 2009/10/30 21:41:54
+    is_odd: 1
+    "no": 516
+  - 
+    comment: iyaiya
+    date: 2009/10/30 21:41:58
+    is_odd: 0
+    "no": 517
+  - 
+    comment: 奪い合うなｗ
+    date: 2009/10/30 21:42:07
+    is_odd: 1
+    "no": 518
+  - 
+    comment: 阻止！
+    date: 2009/10/30 21:42:08
+    is_odd: 0
+    "no": 519
+  - 
+    comment: ( ｀ิ,_ゝ´ิ)全員まとめて阻止
+    date: 2009/10/30 21:42:17
+    is_odd: 1
+    "no": 520
+  - 
+    comment: みんなたのしそうｗｗ
+    date: 2009/10/30 21:42:19
+    is_odd: 0
+    "no": 521
+  - 
+    comment: びにゅPはみんなの数だけいるからだいじょうぶ！
+    date: 2009/10/30 21:42:25
+    is_odd: 1
+    "no": 522
+  - 
+    comment: Thank You!!
+    date: 2009/10/30 21:42:29
+    is_odd: 0
+    "no": 523
+  - 
+    comment: "#08"
+    date: 2009/10/30 21:42:31
+    is_admin: 1
+    is_odd: 1
+    "no": 524
+  - 
+    comment: ありがとう！！！
+    date: 2009/10/30 21:42:35
+    is_odd: 0
+    "no": 525
+  - 
+    comment: ありがとー！
+    date: 2009/10/30 21:42:36
+    is_odd: 1
+    "no": 526
+  - 
+    comment: 　【初音ミク】ステラマリン【オリジナル】　　by びにゅP
+    date: 2009/10/30 21:42:37
+    is_admin: 1
+    is_odd: 0
+    "no": 528
+  - 
+    comment: またｗｗｗ
+    date: 2009/10/30 21:42:40
+    is_odd: 1
+    "no": 529
+  - 
+    comment: ちょｗｗ
+    date: 2009/10/30 21:42:40
+    is_odd: 0
+    "no": 530
+  - 
+    comment: ミュームなら市場で買えるぜ
+    date: 2009/10/30 21:42:40
+    is_odd: 1
+    "no": 531
+  - 
+    comment: oi!!!
+    date: 2009/10/30 21:42:41
+    is_odd: 0
+    "no": 532
+  - 
+    comment: 　2008年12月30日 02:00:26 投稿    彡:16　　再生:6,668 コメント:175 マイリスト:298 時間:5:16
+    date: 2009/10/30 21:42:42
+    is_admin: 1
+    is_odd: 1
+    "no": 533
+  - 
+    comment: ヽ(( ｀ิ,_ゝ´ิ)ﾉ←この顔やめれとあれほど・・・ｗｗｗ
+    date: 2009/10/30 21:42:42
+    is_odd: 0
+    "no": 534
+  - 
+    comment: ！？
+    date: 2009/10/30 21:42:43
+    is_odd: 1
+    "no": 535
+  - 
+    comment: なんと！！！！！！！！！
+    date: 2009/10/30 21:42:43
+    is_odd: 0
+    "no": 536
+  - 
+    comment: 無双ｗｗｗ
+    date: 2009/10/30 21:42:44
+    is_odd: 1
+    "no": 537
+  - 
+    comment: うをおおおおおお
+    date: 2009/10/30 21:42:44
+    is_odd: 0
+    "no": 538
+  - 
+    comment: おおおおおお
+    date: 2009/10/30 21:42:44
+    is_odd: 1
+    "no": 539
+  - 
+    comment: （ ﾟ∀ﾟ）o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:42:45
+    is_odd: 0
+    "no": 540
+  - 
+    comment: 　音楽　VOCALOID　初音ミク　びにゅP　toai　爽やかなミクうた　ミクオリジナル曲　　ステラマリン　そっと評価されるべき　VOCALOID絵本展　
+    date: 2009/10/30 21:42:50
+    is_admin: 1
+    is_odd: 1
+    "no": 541
+  - 
+    comment: おいw
+    date: 2009/10/30 21:42:51
+    is_odd: 0
+    "no": 542
+  - 
+    comment: (  ﾟ∀ﾟ)o彡゜びにゅP！びにゅP！
+    date: 2009/10/30 21:42:55
+    is_odd: 1
+    "no": 543
+  - 
+    comment: 愛されてます！！
+    date: 2009/10/30 21:42:56
+    is_odd: 0
+    "no": 544
+  - 
+    comment: これなんてりゅーりゅー無双ｗ
+    date: 2009/10/30 21:42:58
+    is_odd: 1
+    "no": 545
+  - 
+    comment: うおおおおおおおおお！！！
+    date: 2009/10/30 21:43:00
+    is_odd: 0
+    "no": 546
+  - 
+    comment: 恋の魔法はしゅーてぃんぐすたー♪
+    date: 2009/10/30 21:43:03
+    is_odd: 1
+    "no": 547
+  - 
+    comment: わ～～～い
+    date: 2009/10/30 21:43:04
+    is_odd: 0
+    "no": 548
+  - 
+    comment: どんだけｗｗｗもっとやれｗｗ
+    date: 2009/10/30 21:43:06
+    is_odd: 1
+    "no": 549
+  - 
+    comment: ゲーム化決定
+    date: 2009/10/30 21:43:10
+    is_odd: 0
+    "no": 550
+  - 
+    comment: というわけでジングル含めて4曲が選ばれましたｗ
+    date: 2009/10/30 21:43:13
+    is_admin: 1
+    is_odd: 1
+    "no": 551
+  - 
+    comment: なぬ
+    date: 2009/10/30 21:43:16
+    is_odd: 0
+    "no": 552
+  - 
+    comment: ああああ気持ちいい
+    date: 2009/10/30 21:43:16
+    is_odd: 1
+    "no": 553
+  - 
+    comment: これなんてりゅーりゅー無双ｗねぇねぇ
+    date: 2009/10/30 21:43:17
+    is_odd: 0
+    "no": 554
+  - 
+    comment: すげぇｗ
+    date: 2009/10/30 21:43:19
+    is_odd: 1
+    "no": 555
+  - 
+    comment: すっげｗｗ
+    date: 2009/10/30 21:43:25
+    is_odd: 0
+    "no": 556
+  - 
+    comment: 愛というテーマに相応しいです
+    date: 2009/10/30 21:43:38
+    is_odd: 1
+    "no": 557
+  - 
+    comment: まぁ 愛ならしかたない
+    date: 2009/10/30 21:43:40
+    is_odd: 0
+    "no": 558
+  - 
+    comment: little lovers&#039; magicの方も好きだ！！
+    date: 2009/10/30 21:43:45
+    is_odd: 1
+    "no": 559
+  - 
+    comment: ARIGATOGOZAIMAU!!!!wwwww
+    date: 2009/10/30 21:43:46
+    is_odd: 0
+    "no": 560
+  - 
+    comment: ローマ字ｗｗｗｗ
+    date: 2009/10/30 21:43:55
+    is_odd: 1
+    "no": 561
+  - 
+    comment: びにゅPはSundayが大好きだ
+    date: 2009/10/30 21:44:13
+    is_odd: 0
+    "no": 562
+  - 
+    comment: びにゅううううううううううううPぃいいいいいい　（みゅむ
+    date: 2009/10/30 21:44:21
+    is_odd: 1
+    "no": 563
+  - 
+    comment: 愛なら、やっぱこれっしょ！
+    date: 2009/10/30 21:44:26
+    is_odd: 0
+    "no": 564
+  - 
+    comment: BINYUPMAISHITERUUUUUUUUUU
+    date: 2009/10/30 21:44:27
+    is_odd: 1
+    "no": 565
+  - 
+    comment: ミュムPwww
+    date: 2009/10/30 21:44:30
+    is_odd: 0
+    "no": 566
+  - 
+    comment: 別の曲だけど俺もびにゅP入れて投票したぜ！
+    date: 2009/10/30 21:44:39
+    is_odd: 1
+    "no": 567
+  - 
+    comment: 俺も別の曲に投票した
+    date: 2009/10/30 21:44:56
+    is_odd: 0
+    "no": 568
+  - 
+    comment: 他の曲にも沢山投票がありましたよ
+    date: 2009/10/30 21:44:58
+    is_admin: 1
+    is_odd: 1
+    "no": 569
+  - 
+    comment: この曲歌詞がいいんだよねぇ
+    date: 2009/10/30 21:45:02
+    is_odd: 0
+    "no": 570
+  - 
+    comment: T T(binyu
+    date: 2009/10/30 21:45:18
+    is_odd: 1
+    "no": 571
+  - 
+    comment: メロディも気持ちいいいぃぃ
+    date: 2009/10/30 21:45:20
+    is_odd: 0
+    "no": 572
+  - 
+    comment: びにゅPオンリーのアルバムを作った方がいたり
+    date: 2009/10/30 21:45:40
+    is_admin: 1
+    is_odd: 1
+    "no": 573
+  - 
+    comment: いたねー
+    date: 2009/10/30 21:45:48
+    is_odd: 0
+    "no": 574
+  - 
+    comment: いたいたw
+    date: 2009/10/30 21:45:50
+    is_odd: 1
+    "no": 575
+  - 
+    comment: いたいたｗｗ
+    date: 2009/10/30 21:45:54
+    is_odd: 0
+    "no": 576
+  - 
+    comment: いたねｗｗ
+    date: 2009/10/30 21:45:56
+    is_odd: 1
+    "no": 577
+  - 
+    comment: へぇー
+    date: 2009/10/30 21:46:01
+    is_odd: 0
+    "no": 578
+  - 
+    comment: majisuk!!?
+    date: 2009/10/30 21:46:03
+    is_odd: 1
+    "no": 579
+  - 
+    comment: 独占ずるいｗ
+    date: 2009/10/30 21:46:04
+    is_odd: 0
+    "no": 580
+  - 
+    comment: ホント愛されてるねｗ
+    date: 2009/10/30 21:46:10
+    is_odd: 1
+    "no": 581
+  - 
+    comment: 独占イクナイ皆のびにゅP！
+    date: 2009/10/30 21:46:26
+    is_odd: 0
+    "no": 582
+  - 
+    comment: これが投票アルバム一覧です http://mikunopop.info/award/3rd_albums.html
+    date: 2009/10/30 21:46:27
+    is_admin: 1
+    is_odd: 1
+    "no": 583
+  - 
+    comment: さいはねさんまとめありがとー
+    date: 2009/10/30 21:46:51
+    is_admin: 1
+    is_odd: 0
+    "no": 584
+  - 
+    comment: いえいえ〜
+    date: 2009/10/30 21:46:58
+    is_odd: 1
+    "no": 585
+  - 
+    comment: ありがとううう
+    date: 2009/10/30 21:47:00
+    is_odd: 0
+    "no": 586
+  - 
+    comment: ありがとー
+    date: 2009/10/30 21:47:01
+    is_odd: 1
+    "no": 587
+  - 
+    comment: ありがとう〜
+    date: 2009/10/30 21:47:03
+    is_odd: 0
+    "no": 588
+  - 
+    comment: azassu!!
+    date: 2009/10/30 21:47:07
+    is_odd: 1
+    "no": 589
+  - 
+    comment: あざーっす
+    date: 2009/10/30 21:47:07
+    is_odd: 0
+    "no": 590
+  - 
+    comment: ありがと
+    date: 2009/10/30 21:47:10
+    is_odd: 1
+    "no": 591
+  - 
+    comment: ありがとう～
+    date: 2009/10/30 21:47:21
+    is_odd: 0
+    "no": 592
+  - 
+    comment: konndokoso Arigato gazaimashita!
+    date: 2009/10/30 21:47:41
+    is_odd: 1
+    "no": 593
+  - 
+    comment: ミクノポップは皆の愛でできてます～
+    date: 2009/10/30 21:47:41
+    is_odd: 0
+    "no": 594
+  - 
+    comment: （ ﾟ∀ﾟ）o彡ﾟびにゅP！びにゅP！
+    date: 2009/10/30 21:47:51
+    is_odd: 1
+    "no": 595
+  - 
+    comment: GJ
+    date: 2009/10/30 21:47:56
+    is_odd: 0
+    "no": 596
+  - 
+    comment: びにゅPふぉーえばー！
+    date: 2009/10/30 21:47:57
+    is_odd: 1
+    "no": 597
+  - 
+    comment: "#09"
+    date: 2009/10/30 21:48:00
+    is_admin: 1
+    is_odd: 0
+    "no": 598
+  - 
+    comment: ありがとうがざいましたーｗ
+    date: 2009/10/30 21:48:02
+    is_odd: 1
+    "no": 599
+  - 
+    comment: 　Dependence Intension 【ミク・ルカ  オリジナル】　　by Treow(逆衝動P)
+    date: 2009/10/30 21:48:04
+    is_admin: 1
+    is_odd: 0
+    "no": 601
+  - 
+    comment: 　2009年05月15日 01:25:16 投稿    彡:18　　再生:67,069 コメント:2,272 マイリスト:3,939 時間:5:04
+    date: 2009/10/30 21:48:09
+    is_admin: 1
+    is_odd: 1
+    "no": 602
+  - 
+    comment: きたあああああ！
+    date: 2009/10/30 21:48:09
+    is_odd: 0
+    "no": 603
+  - 
+    comment: うっほ！
+    date: 2009/10/30 21:48:11
+    is_odd: 1
+    "no": 604
+  - 
+    comment: treow!!!!!!!!!!!!!!!!
+    date: 2009/10/30 21:48:11
+    is_odd: 0
+    "no": 605
+  - 
+    comment: きたあ！
+    date: 2009/10/30 21:48:13
+    is_odd: 1
+    "no": 606
+  - 
+    comment: 　音楽　Treow(逆衝動P)　NaturaLe　natsu　Dependence_Intension　初音ミク　　感性の反乱β　ミク＆ルカリンク　JOYSOUND配信決定　もっと評価されるべき　
+    date: 2009/10/30 21:48:14
+    is_admin: 1
+    is_odd: 0
+    "no": 607
+  - 
+    comment: うは！
+    date: 2009/10/30 21:48:15
+    is_odd: 1
+    "no": 608
+  - 
+    comment: 逆衝動P！！
+    date: 2009/10/30 21:48:17
+    is_odd: 0
+    "no": 609
+  - 
+    comment: さっかしょうどうPーー！！
+    date: 2009/10/30 21:48:23
+    is_odd: 1
+    "no": 610
+  - 
+    comment: gyaaaaaaa
+    date: 2009/10/30 21:48:29
+    is_odd: 0
+    "no": 611
+  - 
+    comment: おぉぉぉ
+    date: 2009/10/30 21:48:35
+    is_odd: 1
+    "no": 612
+  - 
+    comment: treowおおおおおおおおおおおおおお
+    date: 2009/10/30 21:48:37
+    is_odd: 0
+    "no": 613
+  - 
+    comment: おおおおおおおおおおおおお
+    date: 2009/10/30 21:48:40
+    is_odd: 1
+    "no": 614
+  - 
+    comment: このコメントは表示されません
+    date: 2009/10/30 21:48:40
+    is_hidden: 1
+    is_odd: 0
+    "no": 615
+  - 
+    comment: いえええええええええええええいいいいいい
+    date: 2009/10/30 21:48:45
+    is_odd: 1
+    "no": 616
+  - 
+    comment: あなたをこの曲で知りました、大好き
+    date: 2009/10/30 21:48:48
+    is_odd: 0
+    "no": 617
+  - 
+    comment: とれおぉぉぉぉぉぉう
+    date: 2009/10/30 21:48:48
+    is_odd: 1
+    "no": 618
+  - 
+    comment: おおおおおおおおお
+    date: 2009/10/30 21:48:50
+    is_odd: 0
+    "no": 619
+  - 
+    comment: やべーテンション上がってきた
+    date: 2009/10/30 21:48:50
+    is_odd: 1
+    "no": 620
+  - 
+    comment: うおおおおおおお
+    date: 2009/10/30 21:48:51
+    is_odd: 0
+    "no": 621
+  - 
+    comment: みなぎってきたあ！
+    date: 2009/10/30 21:48:52
+    is_odd: 1
+    "no": 622
+  - 
+    comment: とっれおうぅぅぅ！
+    date: 2009/10/30 21:49:46
+    is_odd: 0
+    "no": 623
+  - 
+    comment: これすきー！
+    date: 2009/10/30 21:49:49
+    is_odd: 1
+    "no": 624
+  - 
+    comment: TreowさんはChaining Intentionが再生回数ランキング3位ですからね 愛されてます！
+    date: 2009/10/30 21:50:19
+    is_admin: 1
+    is_odd: 0
+    "no": 625
+  - 
+    comment: 独特だね〜
+    date: 2009/10/30 21:50:38
+    is_odd: 1
+    "no": 626
+  - 
+    comment: du---n
+    date: 2009/10/30 21:50:41
+    is_odd: 0
+    "no": 627
+  - 
+    comment: もちろんあいしてる
+    date: 2009/10/30 21:50:42
+    is_odd: 1
+    "no": 628
+  - 
+    comment: というか愛さざるを得ない・・
+    date: 2009/10/30 21:51:18
+    is_odd: 0
+    "no": 629
+  - 
+    comment: それに対をなすこの曲が選ばれました！
+    date: 2009/10/30 21:51:19
+    is_admin: 1
+    is_odd: 1
+    "no": 630
+  - 
+    comment: スーパーピアノタイム
+    date: 2009/10/30 21:51:22
+    is_odd: 0
+    "no": 631
+  - 
+    comment: ぴあのかっこいい
+    date: 2009/10/30 21:51:26
+    is_odd: 1
+    "no": 632
+  - 
+    comment: 音がすげえ
+    date: 2009/10/30 21:51:42
+    is_odd: 0
+    "no": 633
+  - 
+    comment: ナイスカット！
+    date: 2009/10/30 21:52:41
+    is_odd: 1
+    "no": 634
+  - 
+    comment: リズムがいい
+    date: 2009/10/30 21:52:45
+    is_odd: 0
+    "no": 635
+  - 
+    comment: だいたい半分過ぎましたね 後半戦です
+    date: 2009/10/30 21:53:11
+    is_admin: 1
+    is_odd: 1
+    "no": 636
+  - 
+    comment: "#10"
+    date: 2009/10/30 21:53:15
+    is_admin: 1
+    is_odd: 0
+    "no": 637
+  - 
+    comment: 　【初音ミク】僕はロボット (Endless Summer mix)【カバー】　　by MikSolodyne-ts
+    date: 2009/10/30 21:53:20
+    is_admin: 1
+    is_odd: 1
+    "no": 639
+  - 
+    comment: 　2009年09月18日 20:20:58 投稿    彡:11　　再生:4,004 コメント:174 マイリスト:377 時間:4:46
+    date: 2009/10/30 21:53:25
+    is_admin: 1
+    is_odd: 0
+    "no": 640
+  - 
+    comment: やったああああああ
+    date: 2009/10/30 21:53:26
+    is_odd: 1
+    "no": 641
+  - 
+    comment: 　音楽　VOCALOID　初音ミク　effe　VOCALOIDアレンジ曲　僕はロボット　ミクトロニカ　　MikSolodyne-ts　もっと評価されるべき　
+    date: 2009/10/30 21:53:30
+    is_admin: 1
+    is_odd: 0
+    "no": 642
+  - 
+    comment: おおおおーーー
+    date: 2009/10/30 21:53:30
+    is_odd: 1
+    "no": 643
+  - 
+    comment: まさかのこれかああああああああ
+    date: 2009/10/30 21:53:31
+    is_odd: 0
+    "no": 644
+  - 
+    comment: カバーのほうとな！
+    date: 2009/10/30 21:53:33
+    is_odd: 1
+    "no": 645
+  - 
+    comment: effeeeeeeeeeeeee!!!
+    date: 2009/10/30 21:53:33
+    is_odd: 0
+    "no": 646
+  - 
+    comment: きたああああああああ
+    date: 2009/10/30 21:53:33
+    is_odd: 1
+    "no": 647
+  - 
+    comment: effeさん愛してるううううううう
+    date: 2009/10/30 21:53:42
+    is_odd: 0
+    "no": 648
+  - 
+    comment: 大好きです(*‘ω‘ *)
+    date: 2009/10/30 21:53:50
+    is_odd: 1
+    "no": 649
+  - 
+    comment: effeさんのリミックスがランクイン！
+    date: 2009/10/30 21:53:55
+    is_admin: 1
+    is_odd: 0
+    "no": 650
+  - 
+    comment: これいいわぁ
+    date: 2009/10/30 21:53:59
+    is_odd: 1
+    "no": 651
+  - 
+    comment: tsさん＆effeさん大好き！
+    date: 2009/10/30 21:54:03
+    is_odd: 0
+    "no": 652
+  - 
+    comment: 最近このリミクス知ってよく聞いてるわ
+    date: 2009/10/30 21:54:22
+    is_odd: 1
+    "no": 653
+  - 
+    comment: 原曲もすきー
+    date: 2009/10/30 21:55:04
+    is_odd: 0
+    "no": 654
+  - 
+    comment: tsさん愛してる
+    date: 2009/10/30 21:55:17
+    is_odd: 1
+    "no": 655
+  - 
+    comment: うん原曲もいい 泣ける！
+    date: 2009/10/30 21:55:19
+    is_odd: 0
+    "no": 656
+  - 
+    comment: Such a beautiful &#039;&#039;Remix&#039;&#039;!!
+    date: 2009/10/30 21:55:26
+    is_odd: 1
+    "no": 657
+  - 
+    comment: you bet!
+    date: 2009/10/30 21:55:38
+    is_odd: 0
+    "no": 658
+  - 
+    comment: この癒される感じがたまらんっ！
+    date: 2009/10/30 21:55:54
+    is_odd: 1
+    "no": 659
+  - 
+    comment: ちぅぅぅっぅぅ
+    date: 2009/10/30 21:56:14
+    is_odd: 0
+    "no": 660
+  - 
+    comment: ちぅぅぅっぅぅ
+    date: 2009/10/30 21:56:44
+    is_odd: 1
+    "no": 661
+  - 
+    comment: 絵のインパクトもけっこうあるんだよね〜
+    date: 2009/10/30 21:56:50
+    is_odd: 0
+    "no": 662
+  - 
+    comment: ちぅぅぅっぅぅ
+    date: 2009/10/30 21:56:53
+    is_odd: 1
+    "no": 663
+  - 
+    comment: 音楽って素敵～
+    date: 2009/10/30 21:57:06
+    is_odd: 0
+    "no": 664
+  - 
+    comment: remixとかカバーとかって愛を感じるね
+    date: 2009/10/30 21:58:03
+    is_odd: 1
+    "no": 665
+  - 
+    comment: "#11"
+    date: 2009/10/30 21:58:08
+    is_admin: 1
+    is_odd: 0
+    "no": 666
+  - 
+    comment: 　【初音ミク　オリジナルPV】Room sized Logic　　by AETA(イータ) MikSolodyne-ts オサレP
+    date: 2009/10/30 21:58:26
+    is_admin: 1
+    is_odd: 1
+    "no": 668
+  - 
+    comment: 　2009年10月21日 23:37:41 投稿    彡:1　　再生:14,836 コメント:454 マイリスト:1,806 時間:4:20
+    date: 2009/10/30 21:58:31
+    is_admin: 1
+    is_odd: 0
+    "no": 669
+  - 
+    comment: tsさあああああああああああああああああん！
+    date: 2009/10/30 21:58:36
+    is_odd: 1
+    "no": 670
+  - 
+    comment: 　音楽　オサレP　初音ミク　VOCALOID-PV　MikSolodyne-ts　AETA(イータ)　　ミクオリジナル曲　ミクノポップ　Room_sized_Logic　
+    date: 2009/10/30 21:58:36
+    is_admin: 1
+    is_odd: 0
+    "no": 671
+  - 
+    comment: また連続～～～～
+    date: 2009/10/30 21:58:38
+    is_odd: 1
+    "no": 672
+  - 
+    comment: いいこといった！＞６６５
+    date: 2009/10/30 21:58:40
+    is_odd: 0
+    "no": 673
+  - 
+    comment: tsさああああああああああああん
+    date: 2009/10/30 21:58:42
+    is_odd: 1
+    "no": 674
+  - 
+    comment: おっ
+    date: 2009/10/30 21:58:42
+    is_odd: 0
+    "no": 675
+  - 
+    comment: おおおお
+    date: 2009/10/30 21:58:44
+    is_odd: 1
+    "no": 676
+  - 
+    comment: ｔｓさん愛してる！！！
+    date: 2009/10/30 21:58:50
+    is_odd: 0
+    "no": 677
+  - 
+    comment: AETAsa---n!!!
+    date: 2009/10/30 21:58:51
+    is_odd: 1
+    "no": 678
+  - 
+    comment: ♪    ♪    ♪    ♪    ♪    ♪    ♪    ♪    ♪    ♪    ♪
+    date: 2009/10/30 21:59:10
+    is_odd: 0
+    "no": 679
+  - 
+    comment: これも入ったのか！
+    date: 2009/10/30 21:59:13
+    is_odd: 1
+    "no": 680
+  - 
+    comment: tsさああああんAETAさああんんオサレPいいいい
+    date: 2009/10/30 21:59:14
+    is_odd: 0
+    "no": 681
+  - 
+    comment: オサレPの動画すごいね
+    date: 2009/10/30 21:59:29
+    is_odd: 1
+    "no": 682
+  - 
+    comment: オサレPもあいしてるぅぅ
+    date: 2009/10/30 21:59:30
+    is_odd: 0
+    "no": 683
+  - 
+    comment: コラボ愛！！！
+    date: 2009/10/30 21:59:33
+    is_admin: 1
+    is_odd: 1
+    "no": 684
+  - 
+    comment: 今来　もうおわり？
+    date: 2009/10/30 21:59:44
+    is_odd: 0
+    "no": 685
+  - 
+    comment: まだまだよ～♪
+    date: 2009/10/30 21:59:55
+    is_admin: 1
+    is_odd: 1
+    "no": 686
+  - 
+    comment: まだだ！まだおわらんよ！
+    date: 2009/10/30 22:00:58
+    is_odd: 0
+    "no": 687
+  - 
+    comment: kireida.........
+    date: 2009/10/30 22:01:22
+    is_odd: 1
+    "no": 688
+  - 
+    comment: あと18時間はいける！
+    date: 2009/10/30 22:01:24
+    is_odd: 0
+    "no": 689
+  - 
+    comment: それなんて彗星ｗ
+    date: 2009/10/30 22:01:25
+    is_odd: 1
+    "no": 690
+  - 
+    comment: かっけぇ曲だ〜
+    date: 2009/10/30 22:01:25
+    is_odd: 0
+    "no": 691
+  - 
+    comment: 残り6曲ですよん
+    date: 2009/10/30 22:01:53
+    is_admin: 1
+    is_odd: 1
+    "no": 692
+  - 
+    comment: ミクの声やっぱすげぇよ！
+    date: 2009/10/30 22:01:59
+    is_odd: 0
+    "no": 693
+  - 
+    comment: ナンダッテ・・・・
+    date: 2009/10/30 22:02:03
+    is_odd: 1
+    "no": 694
+  - 
+    comment: ずっと聞いてたいな、生放送
+    date: 2009/10/30 22:02:20
+    is_odd: 0
+    "no": 695
+  - 
+    comment: ギターーーATEAタイム！
+    date: 2009/10/30 22:02:23
+    is_odd: 1
+    "no": 696
+  - 
+    comment: 今北
+    date: 2009/10/30 22:02:33
+    is_odd: 0
+    "no": 697
+  - 
+    comment: ミクの声、テクノとの親和性はほんと鳥肌ものだね
+    date: 2009/10/30 22:02:34
+    is_odd: 1
+    "no": 698
+  - 
+    comment: あすたーさんあいしてるううううう
+    date: 2009/10/30 22:02:34
+    is_odd: 0
+    "no": 699
+  - 
+    comment: 最高！
+    date: 2009/10/30 22:02:43
+    is_odd: 1
+    "no": 700
+  - 
+    comment: あとでマイリス公開しとくから遅れた人はチェックするように！
+    date: 2009/10/30 22:02:44
+    is_admin: 1
+    is_odd: 0
+    "no": 701
+  - 
+    comment: へい！
+    date: 2009/10/30 22:02:53
+    is_odd: 1
+    "no": 702
+  - 
+    comment: "#12"
+    date: 2009/10/30 22:02:54
+    is_admin: 1
+    is_odd: 0
+    "no": 703
+  - 
+    comment: 　【初音ミク】Colorful World【オリジナル】　　by gomezP
+    date: 2009/10/30 22:02:57
+    is_admin: 1
+    is_odd: 1
+    "no": 705
+  - 
+    comment: マイリスしましたゞ
+    date: 2009/10/30 22:02:59
+    is_odd: 0
+    "no": 706
+  - 
+    comment: 　2009年05月10日 00:26:31 投稿    彡:13　　再生:87,178 コメント:2,845 マイリスト:4,909 時間:4:31
+    date: 2009/10/30 22:03:02
+    is_admin: 1
+    is_odd: 1
+    "no": 707
+  - 
+    comment: しゃあああああ
+    date: 2009/10/30 22:03:04
+    is_odd: 0
+    "no": 708
+  - 
+    comment: 　音楽　gomezP　Colorful_World　爽やかなミクうた　ミクオリジナル曲　　初音ミク名曲リンク　VOCALOID-PV　初音ミク　もっともっと評価されるべき　
+    date: 2009/10/30 22:03:07
+    is_admin: 1
+    is_odd: 1
+    "no": 709
+  - 
+    comment: おおおおおおおおおおおおおおお
+    date: 2009/10/30 22:03:07
+    is_odd: 0
+    "no": 710
+  - 
+    comment: いいねいいねー
+    date: 2009/10/30 22:03:16
+    is_odd: 1
+    "no": 711
+  - 
+    comment: おっしゃあｋｔｋｒ
+    date: 2009/10/30 22:03:18
+    is_odd: 0
+    "no": 712
+  - 
+    comment: またオサレなPVがきたな
+    date: 2009/10/30 22:03:22
+    is_odd: 1
+    "no": 713
+  - 
+    comment: いいねいいねー
+    date: 2009/10/30 22:03:28
+    is_odd: 0
+    "no": 714
+  - 
+    comment: なにこれ始めて聞いたけどいい感じ
+    date: 2009/10/30 22:03:30
+    is_odd: 1
+    "no": 715
+  - 
+    comment: この時点でマイリス
+    date: 2009/10/30 22:03:43
+    is_odd: 0
+    "no": 716
+  - 
+    comment: ｋｔｋｒ
+    date: 2009/10/30 22:03:54
+    is_odd: 1
+    "no": 717
+  - 
+    comment: はちゅねｗ
+    date: 2009/10/30 22:03:55
+    is_odd: 0
+    "no": 718
+  - 
+    comment: オサレです
+    date: 2009/10/30 22:04:00
+    is_odd: 1
+    "no": 719
+  - 
+    comment: 本家のマイメモリー職人もすごいｗｗｗ
+    date: 2009/10/30 22:04:50
+    is_odd: 0
+    "no": 720
+  - 
+    comment: ドキドキ
+    date: 2009/10/30 22:04:51
+    is_odd: 1
+    "no": 721
+  - 
+    comment: ああ・・なんて気持ちの良い空間
+    date: 2009/10/30 22:05:20
+    is_odd: 0
+    "no": 722
+  - 
+    comment: ほんとだね・・・
+    date: 2009/10/30 22:06:28
+    is_odd: 1
+    "no": 723
+  - 
+    comment: "#13"
+    date: 2009/10/30 22:07:38
+    is_admin: 1
+    is_odd: 0
+    "no": 724
+  - 
+    comment: 　【GUMI】わんわんお！【脱力系オリジナル】　　by Bumpyうるし
+    date: 2009/10/30 22:07:40
+    is_admin: 1
+    is_odd: 1
+    "no": 726
+  - 
+    comment: 　2009年08月04日 01:19:02 投稿    彡:11　　再生:17,348 コメント:1,771 マイリスト:1,109 時間:2:54
+    date: 2009/10/30 22:07:45
+    is_admin: 1
+    is_odd: 0
+    "no": 727
+  - 
+    comment: （∪＾ω＾）わんわんお！
+    date: 2009/10/30 22:07:46
+    is_odd: 1
+    "no": 728
+  - 
+    comment: (∪＾ω＾)わんわんお！
+    date: 2009/10/30 22:07:47
+    is_odd: 0
+    "no": 729
+  - 
+    comment: 　音楽　Bumpyうるし　ヤキイモＰ　GUMIオリジナル曲　Megpoid歌わせてみた祭　　ニコニ・コモンズ　VOCALOID-PV　（∪＾ω＾）わんわんお！　GUMI名曲リンク　　VOCALOID名PVリンク　
+    date: 2009/10/30 22:07:50
+    is_admin: 1
+    is_odd: 1
+    "no": 730
+  - 
+    comment: 　【GUMI】わんわんお！【脱力系オリジナル】　　by Bumpyうるし
+    date: 2009/10/30 22:07:51
+    is_odd: 0
+    "no": 731
+  - 
+    comment: (∪＾ω＾)わんわんお！
+    date: 2009/10/30 22:07:51
+    is_odd: 1
+    "no": 732
+  - 
+    comment: なんと！
+    date: 2009/10/30 22:07:52
+    is_odd: 0
+    "no": 733
+  - 
+    comment: （∪＾ω＾）わんわんお！
+    date: 2009/10/30 22:07:54
+    is_odd: 1
+    "no": 734
+  - 
+    comment: ニャーン
+    date: 2009/10/30 22:07:54
+    is_odd: 0
+    "no": 735
+  - 
+    comment: わんわんおきたーｗｗｗ
+    date: 2009/10/30 22:07:54
+    is_odd: 1
+    "no": 736
+  - 
+    comment: ∪＾ω＾）わんわんお！
+    date: 2009/10/30 22:07:56
+    is_odd: 0
+    "no": 737
+  - 
+    comment: わんわんお
+    date: 2009/10/30 22:07:56
+    is_odd: 1
+    "no": 738
+  - 
+    comment: （（∪＾ω＾）わんわんお！
+    date: 2009/10/30 22:07:58
+    is_odd: 0
+    "no": 739
+  - 
+    comment: (∪＾ω＾)わんわんお！
+    date: 2009/10/30 22:07:59
+    is_odd: 1
+    "no": 740
+  - 
+    comment: (∪＾ω＾)わんわんお！(∪＾ω＾)わんわんお！
+    date: 2009/10/30 22:08:03
+    is_odd: 0
+    "no": 741
+  - 
+    comment: （∪＾ω＾）わんわんお！
+    date: 2009/10/30 22:08:06
+    is_admin: 1
+    is_odd: 1
+    "no": 742
+  - 
+    comment: （∪＾ω＾）わんわんお！
+    date: 2009/10/30 22:08:07
+    is_odd: 0
+    "no": 743
+  - 
+    comment: (∪＾ω＾)お？
+    date: 2009/10/30 22:08:08
+    is_odd: 1
+    "no": 744
+  - 
+    comment: ∪＾ω＾)わんわんお！
+    date: 2009/10/30 22:08:11
+    is_odd: 0
+    "no": 745
+  - 
+    comment: グミの魅力を引き出した名曲ザンスね
+    date: 2009/10/30 22:08:13
+    is_odd: 1
+    "no": 746
+  - 
+    comment: わんわんおっおっ
+    date: 2009/10/30 22:08:17
+    is_odd: 0
+    "no": 747
+  - 
+    comment: (∪＾ω＾)わんわんお！
+    date: 2009/10/30 22:08:18
+    is_odd: 1
+    "no": 748
+  - 
+    comment: トゥットゥルットゥ～
+    date: 2009/10/30 22:08:21
+    is_odd: 0
+    "no": 749
+  - 
+    comment: ここでグミ登場ｗ
+    date: 2009/10/30 22:08:22
+    is_odd: 1
+    "no": 750
+  - 
+    comment: （∪＾ω＾）わんわんお！
+    date: 2009/10/30 22:08:25
+    is_odd: 0
+    "no": 751
+  - 
+    comment: （∪＾ω＾）わんわんお！ 
+    date: 2009/10/30 22:08:26
+    is_odd: 1
+    "no": 752
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:08:27
+    is_odd: 0
+    "no": 753
+  - 
+    comment: こらｗｗｗ
+    date: 2009/10/30 22:08:36
+    is_odd: 1
+    "no": 754
+  - 
+    comment: 犬文字ｗｗｗｗ
+    date: 2009/10/30 22:08:38
+    is_odd: 0
+    "no": 755
+  - 
+    comment: （∪＾ω＾）わんわんお！
+    date: 2009/10/30 22:08:40
+    is_odd: 1
+    "no": 756
+  - 
+    comment: やめれ＞７５３「
+    date: 2009/10/30 22:08:42
+    is_odd: 0
+    "no": 757
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)←だからーーーｗｗ
+    date: 2009/10/30 22:08:45
+    is_odd: 1
+    "no": 758
+  - 
+    comment: (∪＾ω＾)お？
+    date: 2009/10/30 22:08:51
+    is_odd: 0
+    "no": 759
+  - 
+    comment: （∪＾ω＾）わんわんお！ （∪＾ω＾）わんわんお！ 
+    date: 2009/10/30 22:08:59
+    is_odd: 1
+    "no": 760
+  - 
+    comment: ピッピプー
+    date: 2009/10/30 22:09:00
+    is_odd: 0
+    "no": 761
+  - 
+    comment: (∪＾ω＾)わんわんお！
+    date: 2009/10/30 22:09:08
+    is_odd: 1
+    "no": 762
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:09:16
+    is_odd: 0
+    "no": 763
+  - 
+    comment: ｗｗｗｗｗｗ
+    date: 2009/10/30 22:09:36
+    is_odd: 1
+    "no": 764
+  - 
+    comment: 問題な犬文字が混じってるｗｗ
+    date: 2009/10/30 22:09:37
+    is_odd: 0
+    "no": 765
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:09:42
+    is_odd: 1
+    "no": 766
+  - 
+    comment: (∪＾ω＾)わんわんお！
+    date: 2009/10/30 22:09:46
+    is_odd: 0
+    "no": 767
+  - 
+    comment: （∪＾ω＾）わんわんお ！
+    date: 2009/10/30 22:09:48
+    is_odd: 1
+    "no": 768
+  - 
+    comment: シブいなｗ
+    date: 2009/10/30 22:09:49
+    is_odd: 0
+    "no": 769
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´
+    date: 2009/10/30 22:09:49
+    is_odd: 1
+    "no": 770
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:09:50
+    is_odd: 0
+    "no": 771
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:09:56
+    is_odd: 1
+    "no": 772
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:09:56
+    is_odd: 0
+    "no": 773
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:10:06
+    is_odd: 1
+    "no": 774
+  - 
+    comment: もうダメだ・・・ｗ
+    date: 2009/10/30 22:10:06
+    is_odd: 0
+    "no": 775
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:10:09
+    is_odd: 1
+    "no": 776
+  - 
+    comment: どんどん侵食してるｗｗ
+    date: 2009/10/30 22:10:11
+    is_odd: 0
+    "no": 777
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:10:13
+    is_odd: 1
+    "no": 778
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:10:14
+    is_odd: 0
+    "no": 779
+  - 
+    comment: ( ∪　｀　ิ,_　　　ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:10:15
+    is_odd: 1
+    "no": 780
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:10:17
+    is_odd: 0
+    "no": 781
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:10:18
+    is_odd: 1
+    "no": 782
+  - 
+    comment: （∪＾ω＾）わんわんお!
+    date: 2009/10/30 22:10:20
+    is_odd: 0
+    "no": 783
+  - 
+    comment: ミクノは汚染されましたｗ
+    date: 2009/10/30 22:10:21
+    is_odd: 1
+    "no": 784
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:10:21
+    is_odd: 0
+    "no": 785
+  - 
+    comment: (∪´◉◞౪◟◉)わんわんお！
+    date: 2009/10/30 22:10:23
+    is_odd: 1
+    "no": 786
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´
+    date: 2009/10/30 22:10:28
+    is_admin: 1
+    is_odd: 0
+    "no": 787
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ）お？
+    date: 2009/10/30 22:10:28
+    is_odd: 1
+    "no": 788
+  - 
+    comment: イケメン大増殖ｗ
+    date: 2009/10/30 22:10:33
+    is_odd: 0
+    "no": 789
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)わんわんお！( ∪｀ิ,_ゝ´ิ)わんわんお！
+    date: 2009/10/30 22:10:34
+    is_odd: 1
+    "no": 790
+  - 
+    comment: (∪´◉◞౪◟◉)わんわんお！
+    date: 2009/10/30 22:10:38
+    is_odd: 0
+    "no": 791
+  - 
+    comment: ふう・・・
+    date: 2009/10/30 22:10:38
+    is_odd: 1
+    "no": 792
+  - 
+    comment: こらw
+    date: 2009/10/30 22:10:41
+    is_odd: 0
+    "no": 793
+  - 
+    comment: (∪´◉◞౪◟◉)←これはｗｗ
+    date: 2009/10/30 22:10:42
+    is_odd: 1
+    "no": 794
+  - 
+    comment: "#14"
+    date: 2009/10/30 22:10:45
+    is_admin: 1
+    is_odd: 0
+    "no": 795
+  - 
+    comment: ふぃｗｗ
+    date: 2009/10/30 22:10:48
+    is_odd: 1
+    "no": 796
+  - 
+    comment: 　【MEIKO】 Love Passion 【オリジナル】　　by MineK
+    date: 2009/10/30 22:10:49
+    is_admin: 1
+    is_odd: 0
+    "no": 798
+  - 
+    comment: つかれた・・・
+    date: 2009/10/30 22:10:49
+    is_odd: 1
+    "no": 799
+  - 
+    comment: ( ∪｀ิ,_ゝ´　　　　　　　　ิ)わんわんお！
+    date: 2009/10/30 22:10:51
+    is_odd: 0
+    "no": 800
+  - 
+    comment: 　2009年01月12日 21:29:44 投稿    彡:7　　再生:5,538 コメント:171 マイリスト:250 時間:4:38
+    date: 2009/10/30 22:10:54
+    is_admin: 1
+    is_odd: 1
+    "no": 801
+  - 
+    comment: おおおおーこれが来たか
+    date: 2009/10/30 22:10:55
+    is_odd: 0
+    "no": 802
+  - 
+    comment: ｋｔｋｒ
+    date: 2009/10/30 22:10:57
+    is_odd: 1
+    "no": 803
+  - 
+    comment: おお
+    date: 2009/10/30 22:10:57
+    is_odd: 0
+    "no": 804
+  - 
+    comment: うは！そうきたか！
+    date: 2009/10/30 22:10:57
+    is_odd: 1
+    "no": 805
+  - 
+    comment: 　音楽　vocaloid　MEIKO　MIKuHOUSE　MineK　MEIKOオリジナル曲　MEIKO名曲リンク　　Love_Passion　良作浮上リンク　信頼のマイリス率　
+    date: 2009/10/30 22:10:59
+    is_admin: 1
+    is_odd: 0
+    "no": 806
+  - 
+    comment: めいたーん！
+    date: 2009/10/30 22:10:59
+    is_odd: 1
+    "no": 807
+  - 
+    comment: きたああああああああああああああああ
+    date: 2009/10/30 22:11:00
+    is_odd: 0
+    "no": 808
+  - 
+    comment: まさかのめーちゃん！？
+    date: 2009/10/30 22:11:02
+    is_odd: 1
+    "no": 809
+  - 
+    comment: おおおお！
+    date: 2009/10/30 22:11:03
+    is_odd: 0
+    "no": 810
+  - 
+    comment: mjd!
+    date: 2009/10/30 22:11:03
+    is_odd: 1
+    "no": 811
+  - 
+    comment: かっけええええええ
+    date: 2009/10/30 22:11:11
+    is_odd: 0
+    "no": 812
+  - 
+    comment: めーちゃん美人
+    date: 2009/10/30 22:11:13
+    is_odd: 1
+    "no": 813
+  - 
+    comment: ここすげ
+    date: 2009/10/30 22:12:00
+    is_odd: 0
+    "no": 814
+  - 
+    comment: ナイス！
+    date: 2009/10/30 22:12:44
+    is_odd: 1
+    "no": 815
+  - 
+    comment: ちょこっと休憩しに来た…
+    date: 2009/10/30 22:12:50
+    is_odd: 0
+    "no": 816
+  - 
+    comment: 今回はミク以外のボカロが2票以上集めてランクインしてます
+    date: 2009/10/30 22:12:59
+    is_admin: 1
+    is_odd: 1
+    "no": 817
+  - 
+    comment: いらっしゃーい！
+    date: 2009/10/30 22:13:10
+    is_odd: 0
+    "no": 818
+  - 
+    comment: いらっしゃい！
+    date: 2009/10/30 22:13:16
+    is_odd: 1
+    "no": 819
+  - 
+    comment: いらっしゃい！
+    date: 2009/10/30 22:13:35
+    is_odd: 0
+    "no": 820
+  - 
+    comment: 今週、生主できなくてすみませんbyS.O.L
+    date: 2009/10/30 22:13:44
+    is_odd: 1
+    "no": 821
+  - 
+    comment: おかえりなさーい
+    date: 2009/10/30 22:14:00
+    is_odd: 0
+    "no": 822
+  - 
+    comment: SOL兄さん乙ですぅぅぅ
+    date: 2009/10/30 22:14:03
+    is_odd: 1
+    "no": 823
+  - 
+    comment: SOLさんこんばんはー
+    date: 2009/10/30 22:14:03
+    is_admin: 1
+    is_odd: 0
+    "no": 824
+  - 
+    comment: ima
+    date: 2009/10/30 22:14:09
+    is_odd: 1
+    "no": 825
+  - 
+    comment: じぇっとすとりーーむ
+    date: 2009/10/30 22:14:16
+    is_odd: 0
+    "no": 826
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/30 22:14:21
+    is_odd: 1
+    "no": 827
+  - 
+    comment: いつでもジェットストリームアタック待ってます～
+    date: 2009/10/30 22:14:22
+    is_odd: 0
+    "no": 828
+  - 
+    comment: 最近クロスオーバーイレブンｗ楽しみにしてますｗ
+    date: 2009/10/30 22:14:24
+    is_odd: 1
+    "no": 829
+  - 
+    comment: じぇっとくろすおーばーいれぶんすとりーむ
+    date: 2009/10/30 22:14:39
+    is_odd: 0
+    "no": 830
+  - 
+    comment: いま「コスモスＰ」のほうがテンパってまして…byS.O.L
+    date: 2009/10/30 22:14:59
+    is_odd: 1
+    "no": 831
+  - 
+    comment: じぇっとくろすおーばーいれぶんすとりーむさんだー
+    date: 2009/10/30 22:15:19
+    is_odd: 0
+    "no": 832
+  - 
+    comment: おｋうｐ楽しみにさせていただきます
+    date: 2009/10/30 22:15:23
+    is_odd: 1
+    "no": 833
+  - 
+    comment: 次2曲は3票集めた曲です
+    date: 2009/10/30 22:15:25
+    is_admin: 1
+    is_odd: 0
+    "no": 834
+  - 
+    comment: ながいｗｗｗ
+    date: 2009/10/30 22:15:25
+    is_odd: 1
+    "no": 835
+  - 
+    comment: アルバムマイリスが非公開なのは仕様？
+    date: 2009/10/30 22:15:31
+    is_odd: 0
+    "no": 836
+  - 
+    comment: "#15"
+    date: 2009/10/30 22:15:32
+    is_admin: 1
+    is_odd: 1
+    "no": 837
+  - 
+    comment: 　【神威がくぽ】愛が足りない【オリジナル曲】　　by よよP
+    date: 2009/10/30 22:15:36
+    is_admin: 1
+    is_odd: 0
+    "no": 839
+  - 
+    comment: w
+    date: 2009/10/30 22:15:40
+    is_odd: 1
+    "no": 840
+  - 
+    comment: 　2008年08月02日 20:07:33 投稿    彡:18　　再生:90,230 コメント:2,753 マイリスト:2,854 時間:4:45
+    date: 2009/10/30 22:15:41
+    is_admin: 1
+    is_odd: 0
+    "no": 841
+  - 
+    comment: ｋｔｋｒ
+    date: 2009/10/30 22:15:45
+    is_odd: 1
+    "no": 842
+  - 
+    comment: 　音楽　がくっぽいど　神威がくぽ　がくぽオリジナル曲　がくぽ名曲リンク　よよP　　Denkitribe　VOCALOID資生堂入り　テクノ　
+    date: 2009/10/30 22:15:46
+    is_admin: 1
+    is_odd: 0
+    "no": 843
+  - 
+    comment: きっと放送後に公開されるんだぜ
+    date: 2009/10/30 22:15:46
+    is_odd: 1
+    "no": 844
+  - 
+    comment: だっこおおおおおお
+    date: 2009/10/30 22:15:47
+    is_odd: 0
+    "no": 845
+  - 
+    comment: なんとがくぽ！
+    date: 2009/10/30 22:15:48
+    is_odd: 1
+    "no": 846
+  - 
+    comment: よよＰ！
+    date: 2009/10/30 22:15:49
+    is_odd: 0
+    "no": 847
+  - 
+    comment: ネタばれしないように
+    date: 2009/10/30 22:15:49
+    is_odd: 1
+    "no": 848
+  - 
+    comment: がっくんだ
+    date: 2009/10/30 22:15:50
+    is_odd: 0
+    "no": 849
+  - 
+    comment: おｋ
+    date: 2009/10/30 22:15:52
+    is_odd: 1
+    "no": 850
+  - 
+    comment: 大好きです
+    date: 2009/10/30 22:15:56
+    is_odd: 0
+    "no": 851
+  - 
+    comment: よよＰ！！
+    date: 2009/10/30 22:16:00
+    is_odd: 1
+    "no": 852
+  - 
+    comment: おおがくぽまで
+    date: 2009/10/30 22:16:02
+    is_odd: 0
+    "no": 853
+  - 
+    comment: イケメン！イケメン！
+    date: 2009/10/30 22:16:04
+    is_odd: 1
+    "no": 854
+  - 
+    comment: よよPだっこし隊！
+    date: 2009/10/30 22:16:06
+    is_odd: 0
+    "no": 855
+  - 
+    comment: イケメンすな〜
+    date: 2009/10/30 22:16:12
+    is_odd: 1
+    "no": 856
+  - 
+    comment: おんぷし隊
+    date: 2009/10/30 22:16:13
+    is_odd: 0
+    "no": 857
+  - 
+    comment: (　ﾟ∀ﾟ)o彡゜よよP！よよP！
+    date: 2009/10/30 22:16:31
+    is_odd: 1
+    "no": 858
+  - 
+    comment: (　ﾟ∀ﾟ)o彡゜よよP！よよP！
+    date: 2009/10/30 22:16:41
+    is_odd: 0
+    "no": 859
+  - 
+    comment: ( ｀ิ,_ゝ´ิ）o彡゜よよP！よよP！
+    date: 2009/10/30 22:17:23
+    is_odd: 1
+    "no": 860
+  - 
+    comment: キター
+    date: 2009/10/30 22:17:30
+    is_odd: 0
+    "no": 861
+  - 
+    comment: よよＰだっこしたい！
+    date: 2009/10/30 22:17:57
+    is_odd: 1
+    "no": 862
+  - 
+    comment: 愛・・・だな！
+    date: 2009/10/30 22:18:03
+    is_odd: 0
+    "no": 863
+  - 
+    comment: 愛だね！
+    date: 2009/10/30 22:18:11
+    is_odd: 1
+    "no": 864
+  - 
+    comment: "#16"
+    date: 2009/10/30 22:20:24
+    is_admin: 1
+    is_odd: 0
+    "no": 865
+  - 
+    comment: 　【初音ミク】 My Brand New Love 【オリジナル曲】　　by ああんP
+    date: 2009/10/30 22:20:30
+    is_admin: 1
+    is_odd: 1
+    "no": 867
+  - 
+    comment: 　2008年02月13日 22:20:27 投稿    彡:41　　再生:72,162 コメント:3,505 マイリスト:2,936 時間:4:25
+    date: 2009/10/30 22:20:35
+    is_admin: 1
+    is_odd: 0
+    "no": 868
+  - 
+    comment: ヽ(∀ﾟ )人(ﾟ∀ﾟ)人( ﾟ∀)人(∀ﾟ )人(ﾟ∀ﾟ)人( ﾟ∀)ﾉ
+    date: 2009/10/30 22:20:36
+    is_odd: 1
+    "no": 869
+  - 
+    comment: やっぱりきたああああああああ
+    date: 2009/10/30 22:20:37
+    is_odd: 0
+    "no": 870
+  - 
+    comment: ｋｔｋｒ
+    date: 2009/10/30 22:20:38
+    is_odd: 1
+    "no": 871
+  - 
+    comment: 　ああんああん　音楽　初音ミク　ミクオリジナル曲　ああんP　第2回ミクノポップ大賞　　初音ミク名曲リンク　My_Brand_New_Love　www.blazentrance.com/　武雷禅　
+    date: 2009/10/30 22:20:40
+    is_admin: 1
+    is_odd: 0
+    "no": 872
+  - 
+    comment: おっしゃあきたあああああああ
+    date: 2009/10/30 22:20:41
+    is_odd: 1
+    "no": 873
+  - 
+    comment: きたああああああああああ
+    date: 2009/10/30 22:20:42
+    is_odd: 0
+    "no": 874
+  - 
+    comment: やっぱり強いなｗ
+    date: 2009/10/30 22:20:46
+    is_odd: 1
+    "no": 875
+  - 
+    comment: もはや鉄板
+    date: 2009/10/30 22:20:46
+    is_odd: 0
+    "no": 876
+  - 
+    comment: ああんＰいいいいいいいいいい
+    date: 2009/10/30 22:20:47
+    is_odd: 1
+    "no": 877
+  - 
+    comment: Ann♥ Ann♥
+    date: 2009/10/30 22:20:59
+    is_odd: 0
+    "no": 878
+  - 
+    comment: ああん♥ああん♥
+    date: 2009/10/30 22:21:00
+    is_odd: 1
+    "no": 879
+  - 
+    comment: ああんああん
+    date: 2009/10/30 22:21:00
+    is_odd: 0
+    "no": 880
+  - 
+    comment: ああん　ああん　あ～ん
+    date: 2009/10/30 22:21:01
+    is_odd: 1
+    "no": 881
+  - 
+    comment: ああん
+    date: 2009/10/30 22:21:02
+    is_odd: 0
+    "no": 882
+  - 
+    comment: ああん♥ああん♥
+    date: 2009/10/30 22:21:02
+    is_odd: 1
+    "no": 883
+  - 
+    comment: コメ1000越えしました
+    date: 2009/10/30 22:21:03
+    is_odd: 0
+    "no": 884
+  - 
+    comment: ああん　ああん
+    date: 2009/10/30 22:21:04
+    is_odd: 1
+    "no": 885
+  - 
+    comment: www
+    date: 2009/10/30 22:21:07
+    is_odd: 0
+    "no": 886
+  - 
+    comment: ああん　ああん
+    date: 2009/10/30 22:21:17
+    is_odd: 1
+    "no": 887
+  - 
+    comment: ああん♥ああん♥
+    date: 2009/10/30 22:21:17
+    is_odd: 0
+    "no": 888
+  - 
+    comment: ああん♥ああん♥
+    date: 2009/10/30 22:21:18
+    is_odd: 1
+    "no": 889
+  - 
+    comment: ああん♪ああん♪あああああああああああ
+    date: 2009/10/30 22:21:18
+    is_odd: 0
+    "no": 890
+  - 
+    comment: ああん♥ああん♥ 
+    date: 2009/10/30 22:21:18
+    is_odd: 1
+    "no": 891
+  - 
+    comment: あはん あはん
+    date: 2009/10/30 22:21:20
+    is_odd: 0
+    "no": 892
+  - 
+    comment: コメがえろいぞｗ
+    date: 2009/10/30 22:21:21
+    is_odd: 1
+    "no": 893
+  - 
+    comment: ああん♥ああん♥　あー
+    date: 2009/10/30 22:21:22
+    is_odd: 0
+    "no": 894
+  - 
+    comment: ああん♥ああん♥
+    date: 2009/10/30 22:21:22
+    is_odd: 1
+    "no": 895
+  - 
+    comment: (・´ω｀・)ﾄﾞｩｰﾝ(・´ω｀・)ﾄﾞｩｰﾝ
+    date: 2009/10/30 22:21:31
+    is_odd: 0
+    "no": 896
+  - 
+    comment: 　　(・´ω｀・)ﾄﾞｩｰﾝ
+    date: 2009/10/30 22:21:32
+    is_odd: 1
+    "no": 897
+  - 
+    comment: popipi☆popipi
+    date: 2009/10/30 22:21:36
+    is_odd: 0
+    "no": 898
+  - 
+    comment: ああん♥ああん♥　あー
+    date: 2009/10/30 22:21:36
+    is_odd: 1
+    "no": 899
+  - 
+    comment: popipi☆popipi
+    date: 2009/10/30 22:21:38
+    is_odd: 0
+    "no": 900
+  - 
+    comment: popipi☆popipi
+    date: 2009/10/30 22:21:39
+    is_odd: 1
+    "no": 901
+  - 
+    comment: popipi☆popipi
+    date: 2009/10/30 22:21:40
+    is_odd: 0
+    "no": 902
+  - 
+    comment: popipipopii@pi
+    date: 2009/10/30 22:21:41
+    is_odd: 1
+    "no": 903
+  - 
+    comment: popipi☆popipi
+    date: 2009/10/30 22:21:42
+    is_odd: 0
+    "no": 904
+  - 
+    comment: POPIPIPOPIPI
+    date: 2009/10/30 22:21:47
+    is_odd: 1
+    "no": 905
+  - 
+    comment: popipi☆popipi
+    date: 2009/10/30 22:21:47
+    is_odd: 0
+    "no": 906
+  - 
+    comment: popipi★popipi
+    date: 2009/10/30 22:22:00
+    is_odd: 1
+    "no": 907
+  - 
+    comment: popipi★popipi
+    date: 2009/10/30 22:22:01
+    is_odd: 0
+    "no": 908
+  - 
+    comment: POPIPIPOPIPI
+    date: 2009/10/30 22:22:02
+    is_odd: 1
+    "no": 909
+  - 
+    comment: popipi★popipi
+    date: 2009/10/30 22:22:04
+    is_odd: 0
+    "no": 910
+  - 
+    comment: ピノキオPだったりしないよね？w＞903
+    date: 2009/10/30 22:22:16
+    is_odd: 1
+    "no": 911
+  - 
+    comment: popipi ☆ popipi
+    date: 2009/10/30 22:22:41
+    is_odd: 0
+    "no": 912
+  - 
+    comment: ぽぴぴ★ぽぴぴ
+    date: 2009/10/30 22:22:47
+    is_odd: 1
+    "no": 913
+  - 
+    comment: popipi★popipi
+    date: 2009/10/30 22:22:48
+    is_odd: 0
+    "no": 914
+  - 
+    comment: だめだ眠い……しかしこれが終わるまでは寝れないｗ
+    date: 2009/10/30 22:22:49
+    is_odd: 1
+    "no": 915
+  - 
+    comment: popipi ☆ popipi
+    date: 2009/10/30 22:22:50
+    is_odd: 0
+    "no": 916
+  - 
+    comment: popipipopipi
+    date: 2009/10/30 22:22:57
+    is_odd: 1
+    "no": 917
+  - 
+    comment: popipi☆popipi 
+    date: 2009/10/30 22:22:58
+    is_odd: 0
+    "no": 918
+  - 
+    comment: ああん♥ああん
+    date: 2009/10/30 22:23:17
+    is_odd: 1
+    "no": 919
+  - 
+    comment: ああん♪ああん♪7
+    date: 2009/10/30 22:23:19
+    is_odd: 0
+    "no": 920
+  - 
+    comment: ああん♥ああん♥
+    date: 2009/10/30 22:23:19
+    is_odd: 1
+    "no": 921
+  - 
+    comment: 915さん　音量がたりなんじゃ？
+    date: 2009/10/30 22:23:20
+    is_odd: 0
+    "no": 922
+  - 
+    comment: あーーーーーーーー♥
+    date: 2009/10/30 22:23:23
+    is_odd: 1
+    "no": 923
+  - 
+    comment: コメ禁くらったｗ
+    date: 2009/10/30 22:23:24
+    is_odd: 0
+    "no": 924
+  - 
+    comment: ｗｗｗｗｗ
+    date: 2009/10/30 22:23:31
+    is_odd: 1
+    "no": 925
+  - 
+    comment: あ、なるほど……音上げてみるか（915
+    date: 2009/10/30 22:23:35
+    is_odd: 0
+    "no": 926
+  - 
+    comment: どんなコメしたのｗｗ
+    date: 2009/10/30 22:23:36
+    is_odd: 1
+    "no": 927
+  - 
+    comment: ああん♥ああん♥　あー
+    date: 2009/10/30 22:23:42
+    is_odd: 0
+    "no": 928
+  - 
+    comment: ああんしすぎだw
+    date: 2009/10/30 22:23:48
+    is_odd: 1
+    "no": 929
+  - 
+    comment: ああ～ん
+    date: 2009/10/30 22:24:13
+    is_odd: 0
+    "no": 930
+  - 
+    comment: つよくつよくつよく
+    date: 2009/10/30 22:24:17
+    is_odd: 1
+    "no": 931
+  - 
+    comment: まい　ぶらん　にゅう　らあああああああああああああああヴ♥
+    date: 2009/10/30 22:24:27
+    is_odd: 0
+    "no": 932
+  - 
+    comment: やっぱ名曲
+    date: 2009/10/30 22:24:49
+    is_odd: 1
+    "no": 933
+  - 
+    comment: 次の曲がもっとも愛にあふれたミクノポップです！
+    date: 2009/10/30 22:24:56
+    is_admin: 1
+    is_odd: 0
+    "no": 934
+  - 
+    comment: "#17"
+    date: 2009/10/30 22:25:01
+    is_admin: 1
+    is_odd: 1
+    "no": 935
+  - 
+    comment: ｔｋｔｋ
+    date: 2009/10/30 22:25:02
+    is_odd: 0
+    "no": 936
+  - 
+    comment: 最後？！
+    date: 2009/10/30 22:25:05
+    is_odd: 1
+    "no": 937
+  - 
+    comment: 　【初音ミク】VOiCE【オリジナル】　　by ラヴリーP
+    date: 2009/10/30 22:25:10
+    is_admin: 1
+    is_odd: 0
+    "no": 939
+  - 
+    comment: 　2008年08月13日 02:13:11 投稿    彡:4　　再生:301,923 コメント:10,802 マイリスト:10,557 時間:4:27
+    date: 2009/10/30 22:25:15
+    is_admin: 1
+    is_odd: 1
+    "no": 940
+  - 
+    comment: きたああああああああああ
+    date: 2009/10/30 22:25:17
+    is_odd: 0
+    "no": 941
+  - 
+    comment: 納得ｗ
+    date: 2009/10/30 22:25:18
+    is_odd: 1
+    "no": 942
+  - 
+    comment: おおおお
+    date: 2009/10/30 22:25:20
+    is_odd: 0
+    "no": 943
+  - 
+    comment: 　音楽　初音ミク　ラヴリーP　VOiCE　SLT　ミクオリジナル曲　切ないミクうた　　初音ミク名曲リンク　JOYSOUND配信中　VOCALOID殿堂入り　
+    date: 2009/10/30 22:25:20
+    is_admin: 1
+    is_odd: 1
+    "no": 944
+  - 
+    comment: おお！
+    date: 2009/10/30 22:25:21
+    is_odd: 0
+    "no": 945
+  - 
+    comment: 着たああああああああああああああああ
+    date: 2009/10/30 22:25:21
+    is_odd: 1
+    "no": 946
+  - 
+    comment: ravurilililililililili
+    date: 2009/10/30 22:25:22
+    is_odd: 0
+    "no": 947
+  - 
+    comment: これは納得ｗ
+    date: 2009/10/30 22:25:23
+    is_odd: 1
+    "no": 948
+  - 
+    comment: きたああああああああああ
+    date: 2009/10/30 22:25:23
+    is_odd: 0
+    "no": 949
+  - 
+    comment: おおおおおおおおおお
+    date: 2009/10/30 22:25:24
+    is_odd: 1
+    "no": 950
+  - 
+    comment: SOT
+    date: 2009/10/30 22:25:28
+    is_odd: 0
+    "no": 951
+  - 
+    comment: ああ これは納得w
+    date: 2009/10/30 22:25:28
+    is_odd: 1
+    "no": 952
+  - 
+    comment: うむうむ
+    date: 2009/10/30 22:25:30
+    is_odd: 0
+    "no": 953
+  - 
+    comment: ﾀﾜｧ.*･゜ﾟ･*:.｡..｡.:*･゜（n‘∀‘)ηﾟ･*:.｡. .｡.:*･゜ﾟ･*!!!!!☆
+    date: 2009/10/30 22:25:31
+    is_odd: 1
+    "no": 954
+  - 
+    comment: これはなっとく
+    date: 2009/10/30 22:25:31
+    is_odd: 0
+    "no": 955
+  - 
+    comment: ラヴリーＰらぶーーーーーーーーーーー
+    date: 2009/10/30 22:25:39
+    is_odd: 1
+    "no": 956
+  - 
+    comment: さすがラブリーP！！！ 愛にあふれてます！
+    date: 2009/10/30 22:25:40
+    is_admin: 1
+    is_odd: 0
+    "no": 957
+  - 
+    comment: P名が愛にあふれてる
+    date: 2009/10/30 22:25:40
+    is_odd: 1
+    "no": 958
+  - 
+    comment: これは納得
+    date: 2009/10/30 22:25:42
+    is_odd: 0
+    "no": 959
+  - 
+    comment: 愛というならSOTじゃないのかーー
+    date: 2009/10/30 22:25:43
+    is_odd: 1
+    "no": 960
+  - 
+    comment: らぶりいいいいいいいいいいいいいいい
+    date: 2009/10/30 22:25:51
+    is_odd: 0
+    "no": 961
+  - 
+    comment: らぶりいいいいいいいいいいいいい
+    date: 2009/10/30 22:26:00
+    is_odd: 1
+    "no": 962
+  - 
+    comment: ラブリーラブリー
+    date: 2009/10/30 22:26:01
+    is_odd: 0
+    "no": 963
+  - 
+    comment: マイリス公開しましたドゾー
+    date: 2009/10/30 22:26:04
+    is_admin: 1
+    is_odd: 1
+    "no": 964
+  - 
+    comment: SOTの方が愛に溢れていると小一時間（ｒｙ
+    date: 2009/10/30 22:26:10
+    is_odd: 0
+    "no": 965
+  - 
+    comment: ｋｙｋｒ
+    date: 2009/10/30 22:26:11
+    is_odd: 1
+    "no": 966
+  - 
+    comment: どこどこ？
+    date: 2009/10/30 22:26:12
+    is_odd: 0
+    "no": 967
+  - 
+    comment: ↑
+    date: 2009/10/30 22:26:20
+    is_admin: 1
+    is_odd: 1
+    "no": 968
+  - 
+    comment: ↓
+    date: 2009/10/30 22:26:25
+    is_odd: 0
+    "no": 969
+  - 
+    comment: ←
+    date: 2009/10/30 22:26:30
+    is_odd: 1
+    "no": 970
+  - 
+    comment: →
+    date: 2009/10/30 22:26:33
+    is_odd: 0
+    "no": 971
+  - 
+    comment: ⇒
+    date: 2009/10/30 22:26:35
+    is_odd: 1
+    "no": 972
+  - 
+    comment: B
+    date: 2009/10/30 22:26:37
+    is_odd: 0
+    "no": 973
+  - 
+    comment: B
+    date: 2009/10/30 22:26:39
+    is_odd: 1
+    "no": 974
+  - 
+    comment: ↗
+    date: 2009/10/30 22:26:41
+    is_odd: 0
+    "no": 975
+  - 
+    comment: A
+    date: 2009/10/30 22:26:43
+    is_odd: 1
+    "no": 976
+  - 
+    comment: A
+    date: 2009/10/30 22:26:44
+    is_odd: 0
+    "no": 977
+  - 
+    comment: 何のコマンドｗｗ
+    date: 2009/10/30 22:26:47
+    is_odd: 1
+    "no": 978
+  - 
+    comment: 裏技ｗｗ
+    date: 2009/10/30 22:26:50
+    is_odd: 0
+    "no": 979
+  - 
+    comment: おまえらｗ
+    date: 2009/10/30 22:26:50
+    is_admin: 1
+    is_odd: 1
+    "no": 980
+  - 
+    comment: stert
+    date: 2009/10/30 22:26:52
+    is_odd: 0
+    "no": 981
+  - 
+    comment: コナミコマンドかよ
+    date: 2009/10/30 22:26:57
+    is_odd: 1
+    "no": 982
+  - 
+    comment: →( ∪｀ิ,_ゝ´ิ)
+    date: 2009/10/30 22:27:00
+    is_odd: 0
+    "no": 983
+  - 
+    comment: "[print screen]"
+    date: 2009/10/30 22:27:04
+    is_odd: 1
+    "no": 984
+  - 
+    comment: これなんて裏コマンド？
+    date: 2009/10/30 22:27:05
+    is_odd: 0
+    "no": 985
+  - 
+    comment: このsongきこうか
+    date: 2009/10/30 22:27:14
+    is_odd: 1
+    "no": 986
+  - 
+    comment: リスト踏んだrとばされて戻ってきましたよ、と
+    date: 2009/10/30 22:27:22
+    is_odd: 0
+    "no": 987
+  - 
+    comment: はーい
+    date: 2009/10/30 22:27:25
+    is_odd: 1
+    "no": 988
+  - 
+    comment: ( ∪｀ิ,_ゝ´ิ)←いいかげんにしろｗｗ
+    date: 2009/10/30 22:27:29
+    is_odd: 0
+    "no": 989
+  - 
+    comment: これが今回流した全曲です→http://www.nicovideo.jp/mylist/15568427
+    date: 2009/10/30 22:27:38
+    is_admin: 1
+    is_odd: 1
+    "no": 990
+  - 
+    comment: ↑↑↓↓←→←→BA
+    date: 2009/10/30 22:27:41
+    is_odd: 0
+    "no": 991
+  - 
+    comment: ↑↑↓↓←→←→BA
+    date: 2009/10/30 22:27:47
+    is_odd: 1
+    "no": 992
+  - 
+    comment: SLT
+    date: 2009/10/30 22:27:59
+    is_odd: 0
+    "no": 993
+  - 
+    comment: ラブリーコマンド
+    date: 2009/10/30 22:28:00
+    is_odd: 1
+    "no": 994
+  - 
+    comment: なにそれ？強制延長のコマンド？
+    date: 2009/10/30 22:28:11
+    is_odd: 0
+    "no": 995
+  - 
+    comment: SLT！SLT!
+    date: 2009/10/30 22:28:11
+    is_odd: 1
+    "no": 996
+  - 
+    comment: SLT！SLT！
+    date: 2009/10/30 22:28:12
+    is_odd: 0
+    "no": 997
+  - 
+    comment: ！！！！！
+    date: 2009/10/30 22:28:17
+    is_odd: 1
+    "no": 998
+  - 
+    comment: というわけでラブリーPおめでとうございましたー！
+    date: 2009/10/30 22:28:21
+    is_admin: 1
+    is_odd: 0
+    "no": 999
+  - 
+    comment: ラブリーコマンドなら仕方ないｗ
+    date: 2009/10/30 22:28:25
+    is_odd: 1
+    "no": 1000
+  - 
+    comment: なにが発動するんだろう
+    date: 2009/10/30 22:28:26
+    is_odd: 0
+    "no": 1001
+  - 
+    comment: おめでとう！！！！
+    date: 2009/10/30 22:28:29
+    is_odd: 1
+    "no": 1002
+  - 
+    comment: 愛してる
+    date: 2009/10/30 22:28:32
+    is_odd: 0
+    "no": 1003
+  - 
+    comment: ラヴリーＰらぶうううううううううううう
+    date: 2009/10/30 22:28:35
+    is_odd: 1
+    "no": 1004
+  - 
+    comment: おめでとう！！！！
+    date: 2009/10/30 22:28:35
+    is_odd: 0
+    "no": 1005
+  - 
+    comment: あいしてる！
+    date: 2009/10/30 22:28:37
+    is_odd: 1
+    "no": 1006
+  - 
+    comment: フル装備
+    date: 2009/10/30 22:28:37
+    is_odd: 0
+    "no": 1007
+  - 
+    comment: おめでとうございます
+    date: 2009/10/30 22:28:37
+    is_odd: 1
+    "no": 1008
+  - 
+    comment: omedetai
+    date: 2009/10/30 22:28:38
+    is_odd: 0
+    "no": 1009
+  - 
+    comment: 愛が発動するんだ、どこかで
+    date: 2009/10/30 22:28:40
+    is_odd: 1
+    "no": 1010
+  - 
+    comment: あいしてるぅぅぅぅぅぅ
+    date: 2009/10/30 22:28:42
+    is_odd: 0
+    "no": 1011
+  - 
+    comment: ラブリーPあいしてるううううううううううううううううううううううううううううう
+    date: 2009/10/30 22:28:51
+    is_admin: 1
+    is_odd: 1
+    "no": 1012
+  - 
+    comment: いないかもしれんが おめでとうございます〜
+    date: 2009/10/30 22:28:54
+    is_odd: 0
+    "no": 1013
+  - 
+    comment: 千コメ超えたー
+    date: 2009/10/30 22:29:01
+    is_odd: 1
+    "no": 1014
+  - 
+    comment: ラブリーPあいしてるううううううううううううううううううううううううううううう
+    date: 2009/10/30 22:29:03
+    is_odd: 0
+    "no": 1015
+  - 
+    comment: 愛してるうぅぅぅぅぅぅぅうぅぅぅぅぅうぅぅ
+    date: 2009/10/30 22:29:04
+    is_odd: 1
+    "no": 1016
+  - 
+    comment: きもりぃ
+    date: 2009/10/30 22:29:05
+    is_odd: 0
+    "no": 1017
+  - 
+    comment: しあわせになれー
+    date: 2009/10/30 22:29:06
+    is_odd: 1
+    "no": 1018
+  - 
+    comment: みんなしあわせにいいいいい
+    date: 2009/10/30 22:29:16
+    is_odd: 0
+    "no": 1019
+  - 
+    comment: もう時間？
+    date: 2009/10/30 22:29:29
+    is_odd: 1
+    "no": 1020
+  - 
+    comment: 延長？
+    date: 2009/10/30 22:29:36
+    is_odd: 0
+    "no": 1021
+  - 
+    comment: ではでは皆様ありがとうございました～ ノシノシ
+    date: 2009/10/30 22:29:38
+    is_admin: 1
+    is_odd: 1
+    "no": 1022
+  - 
+    comment: おつかれさま～～～
+    date: 2009/10/30 22:29:43
+    is_odd: 0
+    "no": 1023
+  - 
+    comment: 乙です！
+    date: 2009/10/30 22:29:43
+    is_odd: 1
+    "no": 1024
+  - 
+    comment: おつー
+    date: 2009/10/30 22:29:44
+    is_odd: 0
+    "no": 1025
+  - 
+    comment: 乙でした
+    date: 2009/10/30 22:29:44
+    is_odd: 1
+    "no": 1026
+  - 
+    comment: ありがとー
+    date: 2009/10/30 22:29:46
+    is_odd: 0
+    "no": 1027
+  - 
+    comment: 乙です
+    date: 2009/10/30 22:29:47
+    is_odd: 1
+    "no": 1028
+  - 
+    comment: あいがとー！
+    date: 2009/10/30 22:29:47
+    is_odd: 0
+    "no": 1029
+  - 
+    comment: 乙でした！！
+    date: 2009/10/30 22:29:48
+    is_odd: 1
+    "no": 1030
+  - 
+    comment: 乙でした～
+    date: 2009/10/30 22:29:48
+    is_odd: 0
+    "no": 1031
+  - 
+    comment: おつかれっしたああ
+    date: 2009/10/30 22:29:48
+    is_odd: 1
+    "no": 1032
+  - 
+    comment: 乙でしたぁぁぁ
+    date: 2009/10/30 22:29:49
+    is_odd: 0
+    "no": 1033
+  - 
+    comment: ﾉｼ
+    date: 2009/10/30 22:29:49
+    is_odd: 1
+    "no": 1034
+  - 
+    comment: あすたーさあああああん乙
+    date: 2009/10/30 22:29:50
+    is_odd: 0
+    "no": 1035
+  - 
+    comment: 乙でしたー
+    date: 2009/10/30 22:29:50
+    is_odd: 1
+    "no": 1036
+  - 
+    comment: おつでした。たのしかったです。
+    date: 2009/10/30 22:29:51
+    is_odd: 0
+    "no": 1037
+  - 
+    comment: おつでした～たのしかった
+    date: 2009/10/30 22:29:52
+    is_odd: 1
+    "no": 1038
+  - 
+    comment: 楽しかった！！！！
+    date: 2009/10/30 22:29:52
+    is_odd: 0
+    "no": 1039
+  - 
+    comment: お疲れ様でした～
+    date: 2009/10/30 22:29:53
+    is_admin: 1
+    is_odd: 1
+    "no": 1040
+  - 
+    comment: 乙でした
+    date: 2009/10/30 22:29:54
+    is_odd: 0
+    "no": 1041
+  - 
+    comment: 皆あいしてるぅぅぅ
+    date: 2009/10/30 22:29:55
+    is_odd: 1
+    "no": 1042
+  - 
+    comment: ！
+    date: 2009/10/30 22:29:56
+    is_odd: 0
+    "no": 1043
+  - 
+    comment: よかったよ～のし！
+    date: 2009/10/30 22:29:56
+    is_odd: 1
+    "no": 1044
+  - 
+    comment: ありがとー！
+    date: 2009/10/30 22:29:57
+    is_odd: 0
+    "no": 1045
+  - 
+    comment: おつ
+    date: 2009/10/30 22:29:58
+    is_odd: 1
+    "no": 1046
+  - 
+    comment: おつおつ
+    date: 2009/10/30 22:29:58
+    is_odd: 0
+    "no": 1047
+  - 
+    comment: またあおうぜ！
+    date: 2009/10/30 22:29:59
+    is_odd: 1
+    "no": 1048
+  - 
+    comment: あいしてるよー
+    date: 2009/10/30 22:30:02
+    is_odd: 0
+    "no": 1049
+  - 
+    comment: みんなののりがすきだー
+    date: 2009/10/30 22:30:03
+    is_odd: 1
+    "no": 1050
+  - 
+    comment: とみせかけて・・・
+    date: 2009/10/30 22:30:03
+    is_odd: 0
+    "no": 1051
+  - 
+    comment: たのしかったよ〜
+    date: 2009/10/30 22:30:03
+    is_odd: 1
+    "no": 1052
+  - 
+    comment: みせかけてｗ
+    date: 2009/10/30 22:30:10
+    is_odd: 0
+    "no": 1053
+  - 
+    comment: みせかけｗ
+    date: 2009/10/30 22:30:13
+    is_odd: 1
+    "no": 1054
+  - 
+    comment: まさか
+    date: 2009/10/30 22:30:16
+    is_odd: 0
+    "no": 1055
+  - 
+    comment: なんとｗ
+    date: 2009/10/30 22:30:16
+    is_odd: 1
+    "no": 1056
+  - 
+    comment: みせかけ・・・
+    date: 2009/10/30 22:30:19
+    is_odd: 0
+    "no": 1057
+  - 
+    comment: なんだと！？ｗ
+    date: 2009/10/30 22:30:20
+    is_odd: 1
+    "no": 1058
+  - 
+    comment: まさか って
+    date: 2009/10/30 22:30:21
+    is_odd: 0
+    "no": 1059
+  - 
+    comment: あれ？
+    date: 2009/10/30 22:30:22
+    is_odd: 1
+    "no": 1060
+  - 
+    comment: むむむ
+    date: 2009/10/30 22:30:26
+    is_odd: 0
+    "no": 1061
+  - 
+    comment: なにこれ？
+    date: 2009/10/30 22:30:27
+    is_odd: 1
+    "no": 1062
+  - 
+    comment: ん・・ｗ
+    date: 2009/10/30 22:30:28
+    is_odd: 0
+    "no": 1063
+  - 
+    comment: (*‘ω‘ *)
+    date: 2009/10/30 22:30:29
+    is_odd: 1
+    "no": 1064
+  - 
+    comment: ろすたいむ？
+    date: 2009/10/30 22:30:29
+    is_odd: 0
+    "no": 1065
+  - 
+    comment: この間は
+    date: 2009/10/30 22:30:33
+    is_odd: 1
+    "no": 1066
+  - 
+    comment: まさ・・・・か・・・・
+    date: 2009/10/30 22:30:34
+    is_odd: 0
+    "no": 1067
+  - 
+    comment: ロスタイム
+    date: 2009/10/30 22:30:37
+    is_odd: 1
+    "no": 1068
+  - 
+    comment: nocたいむ
+    date: 2009/10/30 22:30:38
+    is_odd: 0
+    "no": 1069
+  - 
+    comment: ざわざわ・・・
+    date: 2009/10/30 22:30:39
+    is_odd: 1
+    "no": 1070
+  - 
+    comment: みなさんもおつかれ〜
+    date: 2009/10/30 22:30:39
+    is_odd: 0
+    "no": 1071
+  - 
+    comment: 延長クルー？それともロスタイム？
+    date: 2009/10/30 22:30:41
+    is_odd: 1
+    "no": 1072
+  - 
+    comment: ざわざわ
+    date: 2009/10/30 22:30:43
+    is_odd: 0
+    "no": 1073
+  - 
+    comment: そうして釣られる人続出ｗ
+    date: 2009/10/30 22:30:44
+    is_odd: 1
+    "no": 1074
+  - 
+    comment: このあと、まさかの展開が！？
+    date: 2009/10/30 22:30:45
+    is_odd: 0
+    "no": 1075
+  - 
+    comment: ざわざわ
+    date: 2009/10/30 22:30:47
+    is_odd: 1
+    "no": 1076
+  - 
+    comment: ロスタイムかｗ
+    date: 2009/10/30 22:30:47
+    is_odd: 0
+    "no": 1077
+  - 
+    comment: ざわざわ・・
+    date: 2009/10/30 22:30:51
+    is_odd: 1
+    "no": 1078
+  - 
+    comment: ざわ・・・ざわ・・・
+    date: 2009/10/30 22:30:57
+    is_odd: 0
+    "no": 1079
+  - 
+    comment: しこ・・・
+    date: 2009/10/30 22:30:57
+    is_odd: 1
+    "no": 1080
+  - 
+    comment: ざわざｗっざわ
+    date: 2009/10/30 22:31:00
+    is_odd: 0
+    "no": 1081
+frame: 3
+part: 3
+start: 1256904016
+time: 90
+title: ミクノポップをきかないか？ 第3回『ミクノポップ大賞』 コンセプトアルバム”LOVE”発表会
+
