@@ -7,6 +7,9 @@ table.comment {
 	width: 90%;
 	margin: 1em 3em;
 }
+table.comment a {
+	color: #3333aa;
+}
 table.comment td {
 	cellpadding: 4px;
 	cellspacing: 4px;

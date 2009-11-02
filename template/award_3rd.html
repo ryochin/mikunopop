@@ -65,13 +65,13 @@ $(document).ready( function () {
 
 	<p>
 		みなさんのアルバムをちょっとだけ見やすく表示します。[% result.size | html %]名の投票を表示しています。<br />
-		<a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1254829253/" target="_blank">投票所</a>のデータを基に、数時間ごとに自動更新します。
+		<a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1254829253/" target="_blank">投票所</a>のデータを基に作成しました。
 	</p>
 
 	<table>
 [% FOR r = result %]
 		<tr>
-			<td colspan="4"><span class="name">■ No.[% r.no | html %] &nbsp; &nbsp; [% r.name | html %]さん</span></td>
+			<td colspan="4"><span class="name" id="[% r.no | html %]">■ No.[% r.no | html %] &nbsp; &nbsp; [% r.name | html %]さん</span></td>
 		</tr>
 [% IF r.comment.size > 0 %]
 		<tr>
@@ -84,12 +84,12 @@ $(document).ready( function () {
 		</tr>
 [% END %]
 [% FOR v = r.video %]
-	[% IF v.defined %]
+	[% IF v.title %]
 		<tr>
 			<td width="96" align="center">
 				<a href="http://www.nicovideo.jp/watch/[% v.id | html %]" target="_blank" class="image"
 						title="&lt;img src=&quot;http://niconail.info/[% v.id | html %]&quot; /&gt;">
-					<img alt="[% v.title | html %]" src="http://tn-skr4.smilevideo.jp/smile?i=[% v.vid | html %]" 
+					<img alt="[% v.id | html %]" src="http://tn-skr[% v.skr | html %].smilevideo.jp/smile?i=[% v.vid | html %]" 
 						class="video_w48 video-thumbnail" />
 				</a>
 			</td>
@@ -99,8 +99,14 @@ $(document).ready( function () {
 		</tr>
 	[% ELSE %]
 		<tr>
-			<td>&nbsp;</td>
-			<td><span class="title">（不明）</span></td>
+			<td width="96" align="center">
+				<a href="http://www.nicovideo.jp/watch/[% v.id | html %]" target="_blank" class="image"
+						title="&lt;img src=&quot;http://niconail.info/[% v.id | html %]&quot; /&gt;">
+					<img alt="[% v.id | html %]" src="/img/nico_dummy.png " 
+						class="video_w48 video-thumbnail" />
+				</a>
+			</td>
+			<td><span class="title">（削除済み？）</span></td>
 			<td><span class="pnames">?</span></td>
 			<td width="64" align="right"><span class="length">??:??</span></td>
 		</tr>
