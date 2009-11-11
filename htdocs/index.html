@@ -46,77 +46,11 @@ $(document).ready(function() {
 		<a href="http://piapro.jp/takunama" target="_blank" title="takunama さんに描いていただきました">
 			<img src="http://icon.nicovideo.jp/community/co13879.jpg" class="co-icon" alt="コミュアイコン" />
 		</a>
-		&nbsp; &nbsp; VOCALOIDを使ったテクノミュージックを垂れ流す放送です。
+		&nbsp; 
+		<span id="update">[状況] 情報を取得しています・・</span>
+		&nbsp; &nbsp; <input type="checkbox" id="alert" /><label for="alert"> 放送があったらポップアップを表示</label>
 	</p>
 	
-	<h2>生放送</h2>
-	
-	<div id="updated">
-		<p>
-			<span id="update">[状況] 情報を取得しています・・</span>
-			&nbsp; &nbsp; <input type="checkbox" id="alert" /><label for="alert"> 放送があったらポップアップを表示</label>
-		</p>
-	</div>
-	
-	<h2>第３回ミクノポップ大賞</h2>
-
-	<ul>
-		<li>詳細</li>
-		<ul>
-			<li>「愛」をテーマに30分のコンセプトアルバムを作ってください</li>
-		</ul>
-
-		<li>投票所</li>
-		<ul>
-			<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1254829253/" target="_blank">第3回『ミクノポップ大賞』投票所</a></li>
-			<ul>
-				<li>投票期間：2009/10/23(金) 00:00～2009/10/29(木) 23:59</li>
-			</ul>
-		</ul>
-
-		<li>結果</li>
-		<ul>
-			<li>投票アルバム数25枚 投票総数160票 全138曲</li>
-			<li><a href="/award/3rd_albums.html">投票アルバム一覧</a></li>
-			<li><a href="http://www.nicovideo.jp/mylist/15568427" target="_blank">ミクノポップをきかないか？コミュニティーコンセプトフルアルバム "LOVE"</a><span class="dim">（マイリスト）</span></li>
-		</ul>
-
-		<li>授賞式</li>
-		<ul>
-			<li><a href="http://live.nicovideo.jp/watch/lv5976720" target="_blank">ミクノポップをきかないか？ 第3回『ミクノポップ大賞』 コンセプトアルバム”LOVE”発表会</a><span class="dim">（会場跡地）</span></li>
-			<ul>
-				<li>授賞式：2009/10/30(金) 21:00～22:30  放送</li>
-			</ul>
-			<li><a href="/comment/2/2438.html">コメントログ</a></li>
-		</ul>
-		<li>告知動画</li>
-		<ul>
-			<li>
-				<a href="http://www.nicovideo.jp/watch/sm8432973" target="_blank">第3回ミクノポップ大賞-告知動画</a>
-				<span class="dim">（by k-sk さん）</span>
-			</li>
-			<li>
-				<a href="http://www.nicovideo.jp/watch/sm8569861" target="_blank">【第3回ミクノポップ大賞告知】音楽が舞い降りる場所【Parasite Satellite】</a>
-				<span class="dim">（by きぬこもちさん）</span>
-			</li>
-			<li>
-				<a href="http://www.nicovideo.jp/watch/sm8588518" target="_blank">第3回ミクノポップ大賞-投票受付開始</a>
-				<span class="dim">（by k-sk さん）</span>
-			</li>
-			<li>
-				<a href="http://www.nicovideo.jp/watch/sm8611151" target="_blank">【第3回ミクノポップ大賞告知】コトバ　キモチ【愛してるうぅぅぅ】</a>
-				<span class="dim">（by きぬこもちさん）</span>
-			</li>
-		</ul>
-		<li>放送動画</li>
-		<ul>
-			<li>
-				<a href="http://www.nicovideo.jp/watch/sm8654558" target="_blank">第3回ミクノポップ大賞-オープニング</a>
-				<span class="dim">（by k-sk さん）</span>
-			</li>
-		</ul>
-	</ul>
-
 	<h2>外部リンク集</h2>
 	
 	<ul>
@@ -134,7 +68,7 @@ $(document).ready(function() {
 			<li>ミクノポップ関連</li>
 			<ul>
 				<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/l5" target="_blank">総合スレ</a><span class="dim">（総合的な話題）</span></li>
-				<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1243754024/l5" target="_blank">プレイリスト</a><span class="dim">（放送ログ）</span></li>
+				<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1257848535/l5" target="_blank">プレイリスト</a><span class="dim">（放送ログ）</span></li>
 				<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1241620900/l5" target="_blank">ミクノポップって何？議論スレ</a><span class="dim">（議論）</span></li>
 			</ul>
 			<li>その他</li>
@@ -168,8 +102,8 @@ $(document).ready(function() {
 	<ul>
 		<li>ミクノポップ再生回数ランキング</li>
 		<ul>
+			<li><a href="/countsearch?from=30">３０回以上</a></li>
 			<li><a href="/countsearch?from=20">２０回以上</a></li>
-			<li><a href="/countsearch?from=15">１５回以上</a></li>
 			<li><a href="/countsearch?from=10">１０回以上</a></li>
 		</ul>
 		
@@ -189,10 +123,12 @@ $(document).ready(function() {
 			<li><a href="/artisan/">職人の一覧</a></li>
 		</ul>
 		
+<!--  情報が古くなったのでオフ
 		<li>放送履歴</li>
 		<ul>
 			<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1243754024/475" target="_blank">放送主ごとの放送回数</a><span class="dim">（by ９鉄さん）</span></li>
 		</ul>
+-->
 		
 		<li>コメント履歴</li>
 		<ul>
@@ -212,6 +148,9 @@ $(document).ready(function() {
 		<li>ミクノポップ大賞</li>
 		<ul>
 			<li><a href="/award/3rd.html">第３回</a> &nbsp; <span class="dim">2009.10</span></li>
+			<ul>
+				<li><a href="/award/3rd_albums.html">投票アルバム一覧</a></li>
+			</ul>
 			<li><a href="/award/2nd.html">第２回</a> &nbsp; <span class="dim">2009.06</span></li>
 			<li><a href="/award/1st.html">第１回</a> &nbsp; <span class="dim">2009.03</span></li>
 		</ul>
@@ -239,9 +178,7 @@ $(document).ready(function() {
 	<!--  index.xml も編集すること  -->
 
 	<ul>
-		<li>[2009.11.01] <a href="/manual/nicoreq.html">ニコリク・ミクノポップエディション</a> 1.29 をリリースしました。</li>
-		<li>[2009.10.30] <a href="/manual/nicoreq.html">ニコリク・ミクノポップエディション</a> 1.28 をリリースしました。</li>
-		<li>[2009.10.30] <a href="http://live.nicovideo.jp/watch/lv5976720" target="_blank">ミクノポップをきかないか？ 第3回『ミクノポップ大賞』 コンセプトアルバム”LOVE”発表会</a>が開催されました。</li>
+		<li>[2009.11.10] <a href="/manual/nicoreq.html">ニコリク・ミクノポップエディション</a> 1.30 をリリースしました。</li>
 		<li>→ <a href="/history.html">過去の履歴</a></li>
 	</ul>
 
