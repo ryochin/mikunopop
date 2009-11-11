@@ -40,6 +40,7 @@ my @admin = (
 	qr{^skyblue(_.+)*}io,
 	qr{^yuu*ki[\-_]*mirai(_.+)*}io,
 	qr{^Q[\-_]*iron(_.+)*}io,
+	qr{^aki_housenka(_.+)*}io,
 );
 
 my @me_regex = (
@@ -56,6 +57,7 @@ my $aircaster_table = {
 	qr{mashita.*}io => q{真下},
 	qr{マシータ.*} => q{真下},
 	qr{kinuko.*}io => q{きぬこ},
+	qr{aki_housenka.*}io => q{きぬこ},
 	qr{noren.*}io => q{暖簾},
 	qr{Q[\-_]?iron.*}io => q{９鉄},
 	qr{miyumm.*}io => q{みゅむ},
@@ -337,12 +339,11 @@ sub get_aircaster {
 	my $self = shift;
 	my $uri = shift or return;
 
-	# 放送者:<strong class="nicopedia">kotac</strong>さん
-
+	# <span id="pedia">( 放送者:<strong class="nicopedia"><a href="http://www.nicovideo.jp/user/11353010" target="_blank">boro</a></strong>さん)</span><br>	
 	my $aircaster = "";
 	if( my $content = LWP::Simple::get( $uri ) ){
 		$content = eval { Encode::decode_utf8( $content ) } || $content;
-		if( $content =~ m{放送者:<strong class="nicopedia">([^<>]+?)</strong>}msio ){
+		if( $content =~ m{user/\d+?" target="_blank">([^<>]+?)</a></strong>さん}msio ){
 			$aircaster = $1;
 		}
 	}

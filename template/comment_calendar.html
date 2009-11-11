@@ -106,7 +106,7 @@ table calendar td {
 			</tr>
 [% FOR l = t.live %]
 			<tr>
-				<td align="center"> &nbsp; <a href="[% l.path | url | html %]">Part. [% l.no | html %]</a></td>
+				<td align="center"> &nbsp; <a href="[% l.path | url | html %]">[% l.no | html %]</a></td>
 				[% IF l.meta_info %]
 					<td align="center">[% l.meta_info | html %]</td>
 				[% ELSE %]

@@ -31,6 +31,7 @@ my $json_file = file( $htdocs_dir, "play", 'count.json' )->stringify;
 my $uri_list = [
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-400',
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1243754024/2-',
+	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1257848535/2-',
 ];
 
 # ジングル
@@ -206,6 +207,18 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 
 # count.db
 {
+	# add extra
+	for my $id(@{ $Mikunopop::VideoInfo::Extra } ){
+		next if first { $_->{id} eq $id } @video_all;
+		
+		( my $vid = $id ) =~ s/^(sm|nm)+//o;
+		push @video_all, {
+			id => $id,
+			vid => $vid,
+			view => 0,
+		};
+	}
+	
 	my $fh = file( $db_file )->openw or die $!;
 	$fh->print( YAML::Syck::Dump( [ @video_all ] ) );
 	$fh->close;

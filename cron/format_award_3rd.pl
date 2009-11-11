@@ -68,8 +68,6 @@ for my $line( split /\n/o, $content ){
 	next MAIN
 		if $line =~ /mailto:sage/o;
 	
-	$no++;
-	
 	my $name;
 	if( $line =~ m{<font color="#008800"><b>([^<>]+?)</b></font>}o ){
 		$name = $1;
@@ -85,6 +83,8 @@ for my $line( split /\n/o, $content ){
 			chomp $data;
 			$data =~ s/^[\s　]+//o;
 			$data =~ s/[\s　]+$//o;
+			$data =~ s/(s|n) m/$1m/go;
+			
 			push @comment, $data
 				if length $data > 5;
 			next;
@@ -112,6 +112,7 @@ for my $line( split /\n/o, $content ){
 				title => Encode::decode_utf8( $v->title ),
 				pnames => $pname,
 				length => $v->length,
+				skr => int( rand(4) ) + 1,    # http://tn-skr4.smilevideo.jp/smile?i=7832261
 			};
 		}
 		else{
@@ -119,6 +120,10 @@ for my $line( split /\n/o, $content ){
 			push @v, undef;
 		}
 	}
+	
+	next if scalar @v < 4;
+	
+	$no++;
 	
 	# 合計時間を計算
 	my $total = 0;
@@ -145,7 +150,7 @@ for my $line( split /\n/o, $content ){
 	
 	# set
 	push @{ $stash->{result} }, {
-		no => $no,
+		info => &get_info( $no ),
 		name => $name,
 		total_str => $total_str,
 		comment => [ @comment ],
@@ -160,6 +165,39 @@ $template->process( $template_file, $stash, $html_file, binmode => ':utf8' )
 	or die $template->error;
 
 exit 0;
+
+sub get_info {
+	my $n = shift or return;
+
+	return {
+		# 掲示板の番号　内部シーケンス番号　主名など
+		1 => { no => 2, name => undef },
+		2 => { no => 3, name => q{真下} },
+		3 => { no => 4, name => undef },
+		4 => { no => 6, name => q{蒼空微風涼輝碧葉} },
+		5 => { no => 7, name => q{９鉄} },
+		6 => { no => 8, name => undef },
+		7 => { no => 9, name => undef },
+		8 => { no => 10, name => undef },
+		9 => { no => 11, name => undef },
+		10 => { no => 12, name => undef },
+		11 => { no => 13, name => q{さいはね} },
+		12 => { no => 14, name => undef },
+		13 => { no => 15, name => undef },
+		14 => { no => 16, name => undef },
+		15 => { no => 17, name => undef },
+		16 => { no => 18, name => undef },
+		17 => { no => 19, name => undef },
+		18 => { no => 20, name => undef },
+		19 => { no => 21, name => undef },
+		20 => { no => 22, name => undef },
+		21 => { no => 25, name => undef },
+		22 => { no => 26, name => undef },
+		23 => { no => 27, name => undef },
+		24 => { no => 29, name => undef },
+		25 => { no => 31, name => undef },
+	}->{ $n };
+}
 
 sub create_template {
 	require Template;

@@ -71,7 +71,11 @@ $(document).ready( function () {
 	<table>
 [% FOR r = result %]
 		<tr>
-			<td colspan="4"><span class="name" id="[% r.no | html %]">■ No.[% r.no | html %] &nbsp; &nbsp; [% r.name | html %]さん</span></td>
+[% IF r.info.name %]
+			<td colspan="4"><span class="name" id="[% r.info.no | html %]" title="[% r.info.name | html %]さん">■ No.[% r.info.no | html %] &nbsp; &nbsp; [% r.name | html %]さん</span></td>
+[% ELSE %]
+			<td colspan="4"><span class="name" id="[% r.info.no | html %]">■ No.[% r.info.no | html %] &nbsp; &nbsp; [% r.name | html %]さん</span></td>
+[% END %]
 		</tr>
 [% IF r.comment.size > 0 %]
 		<tr>
