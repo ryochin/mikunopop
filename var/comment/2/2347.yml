@@ -1,0 +1,656 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんばんは！
+    date: 2009/10/19 02:00:50
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おやすミクノです。
+    date: 2009/10/19 02:00:55
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: イケメン!　イケメン！
+    date: 2009/10/19 02:01:04
+    is_odd: 1
+    "no": 3
+  - 
+    comment: こばんわぁぁぁ
+    date: 2009/10/19 02:01:05
+    is_odd: 0
+    "no": 4
+  - 
+    comment: 主セレ→爽やかポップ
+    date: 2009/10/19 02:01:07
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: おやすみくー
+    date: 2009/10/19 02:01:07
+    is_odd: 0
+    "no": 6
+  - 
+    comment: リク随時でっす！
+    date: 2009/10/19 02:01:12
+    is_admin: 1
+    is_odd: 1
+    "no": 7
+  - 
+    comment: こんばんは
+    date: 2009/10/19 02:01:27
+    is_odd: 0
+    "no": 8
+  - 
+    comment: なんだか寝付けなかったので一枠だけｗ
+    date: 2009/10/19 02:01:30
+    is_admin: 1
+    is_odd: 1
+    "no": 9
+  - 
+    comment: ■【ジングル】ミクノポップをきかないか？【Freestyle ver.A】 ◆ No.6 presented by aoid
+    date: 2009/10/19 02:01:43
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: いけ！めん！おつですぅ
+    date: 2009/10/19 02:02:11
+    is_odd: 1
+    "no": 12
+  - 
+    comment: 皆さんいらっしゃいましー！
+    date: 2009/10/19 02:02:19
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: 丁度2時スタートだったっぽいです。
+    date: 2009/10/19 02:02:34
+    is_admin: 1
+    is_odd: 1
+    "no": 14
+  - 
+    comment: sm7647440
+    date: 2009/10/19 02:02:54
+    is_odd: 0
+    "no": 15
+  - 
+    comment: nm4940942
+    date: 2009/10/19 02:03:13
+    is_odd: 1
+    "no": 16
+  - 
+    comment: え、実は予約枠で6hコースとか？
+    date: 2009/10/19 02:03:16
+    is_odd: 0
+    "no": 17
+  - 
+    comment: 1曲主セレいかせていただきますね～
+    date: 2009/10/19 02:03:20
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: 17さん無い無いｗｗ
+    date: 2009/10/19 02:03:26
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: "■初音ミクオリジナル曲 「Room 206」 ■ ジミーサムＰ \n"
+    date: 2009/10/19 02:03:34
+    is_admin: 1
+    is_odd: 1
+    "no": 20
+  - 
+    comment: "■2008.10.02 時/5:18 彡/18 ◆再/101,420 コ/8,245 マ/3,027 (3.0%) "
+    date: 2009/10/19 02:03:42
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: ６ｈはないけど５時間半やるんですね　わかります
+    date: 2009/10/19 02:04:17
+    is_odd: 1
+    "no": 23
+  - 
+    comment: あんまし変わってないですｗ
+    date: 2009/10/19 02:04:30
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: 若いっていいなぁ・・・
+    date: 2009/10/19 02:04:56
+    is_odd: 1
+    "no": 25
+  - 
+    comment: 25さんやらないよ？ｗｗ
+    date: 2009/10/19 02:05:10
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: やること前提で話がすすんでいるｗ
+    date: 2009/10/19 02:05:18
+    is_odd: 1
+    "no": 27
+  - 
+    comment: こっからの展開大好きです。
+    date: 2009/10/19 02:06:54
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: sm7349398
+    date: 2009/10/19 02:07:48
+    is_odd: 1
+    "no": 29
+  - 
+    comment: おー、良いですね！
+    date: 2009/10/19 02:07:53
+    is_odd: 0
+    "no": 30
+  - 
+    comment: でしょでしょ！！
+    date: 2009/10/19 02:08:03
+    is_admin: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: ジミーサムP、新曲も出たようですので要チェックですｂ
+    date: 2009/10/19 02:08:37
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: "■【巡音ルカ】Freestyle -extend-【オリジナル曲】 ■ Rin（ぎん） "
+    date: 2009/10/19 02:08:53
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: "■2009.07.16 時/4:07 彡/31 ◆再/5,993 コ/165 マ/392 (6.5%) "
+    date: 2009/10/19 02:09:01
+    is_admin: 1
+    is_odd: 0
+    "no": 35
+  - 
+    comment: 今日は言っても大丈夫かな？・・・ジミーは俺の嫁！
+    date: 2009/10/19 02:09:08
+    is_odd: 1
+    "no": 36
+  - 
+    comment: 大西の方ですね
+    date: 2009/10/19 02:09:21
+    is_odd: 0
+    "no": 37
+  - 
+    comment: wwww
+    date: 2009/10/19 02:09:28
+    is_odd: 1
+    "no": 38
+  - 
+    comment: ｗｗｗｗｗｗｗ
+    date: 2009/10/19 02:09:29
+    is_admin: 1
+    is_odd: 0
+    "no": 39
+  - 
+    comment: それ言えるのはミュムPだけでしょｗ
+    date: 2009/10/19 02:09:36
+    is_odd: 1
+    "no": 40
+  - 
+    comment: ちがｗｗ
+    date: 2009/10/19 02:09:37
+    is_odd: 0
+    "no": 41
+  - 
+    comment: 新しいｗｗｗ
+    date: 2009/10/19 02:09:38
+    is_odd: 1
+    "no": 42
+  - 
+    comment: ツボたｔｗｗｗ
+    date: 2009/10/19 02:09:53
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: ミュムP居なさそうだったたから言ってみたｗ
+    date: 2009/10/19 02:10:06
+    is_odd: 1
+    "no": 44
+  - 
+    comment: GJですｗｗｗ
+    date: 2009/10/19 02:10:12
+    is_admin: 1
+    is_odd: 0
+    "no": 45
+  - 
+    comment: リクしめておきますね
+    date: 2009/10/19 02:12:16
+    is_admin: 1
+    is_odd: 1
+    "no": 46
+  - 
+    comment: はーい
+    date: 2009/10/19 02:12:58
+    is_odd: 0
+    "no": 47
+  - 
+    comment: "■【初音ミク】Chip Tears【オリジナル曲】 ■ U-ji "
+    date: 2009/10/19 02:13:00
+    is_admin: 1
+    is_odd: 1
+    "no": 48
+  - 
+    comment: "■2008.10.15 時/4:07 彡/20 ◆再/49,038 コ/2,271 マ/2,239 (4.6%) "
+    date: 2009/10/19 02:13:09
+    is_admin: 1
+    is_odd: 0
+    "no": 50
+  - 
+    comment: きたーー
+    date: 2009/10/19 02:13:11
+    is_odd: 1
+    "no": 51
+  - 
+    comment: あ、なんか久しぶり。何度見ても低画質やってみたくなる
+    date: 2009/10/19 02:14:09
+    is_odd: 0
+    "no": 52
+  - 
+    comment: うお、低画質すごっ！
+    date: 2009/10/19 02:14:37
+    is_admin: 1
+    is_odd: 1
+    "no": 53
+  - 
+    comment: 低画質で見るとパーツがどう動いてるのかがわかりやすいですね。
+    date: 2009/10/19 02:15:27
+    is_admin: 1
+    is_odd: 0
+    "no": 54
+  - 
+    comment: プレイヤー枠突き破ったりして楽しい
+    date: 2009/10/19 02:16:33
+    is_odd: 1
+    "no": 55
+  - 
+    comment: うんうんｗ
+    date: 2009/10/19 02:16:45
+    is_admin: 1
+    is_odd: 0
+    "no": 56
+  - 
+    comment: 環境によって挙動違ったりするのかな？
+    date: 2009/10/19 02:16:56
+    is_odd: 1
+    "no": 57
+  - 
+    comment: "■【巡音ルカ】Dirge -ASLEEP IN JESUS-【オリジナル】 ■ パンドリストP "
+    date: 2009/10/19 02:17:09
+    is_admin: 1
+    is_odd: 0
+    "no": 58
+  - 
+    comment: "■2009.06.15 時/4:26 彡/1 ◆再/12,385 コ/763 マ/662 (5.3%) "
+    date: 2009/10/19 02:17:17
+    is_admin: 1
+    is_odd: 1
+    "no": 60
+  - 
+    comment: 自分の場合、下にシフトしてましたね。半分くらい
+    date: 2009/10/19 02:17:28
+    is_admin: 1
+    is_odd: 0
+    "no": 61
+  - 
+    comment: あ、ちょっと違いそうだ。うちは位置は変わらず、上半分の画像が無かった
+    date: 2009/10/19 02:19:02
+    is_odd: 1
+    "no": 62
+  - 
+    comment: なるほどー。不思議ですね。。
+    date: 2009/10/19 02:19:24
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: もしかしたらブラウザかな？
+    date: 2009/10/19 02:19:43
+    is_admin: 1
+    is_odd: 1
+    "no": 64
+  - 
+    comment: IE
+    date: 2009/10/19 02:19:51
+    is_odd: 0
+    "no": 65
+  - 
+    comment: FF3
+    date: 2009/10/19 02:20:02
+    is_odd: 1
+    "no": 66
+  - 
+    comment: あ、同じですね。自分もプニルです。
+    date: 2009/10/19 02:20:07
+    is_admin: 1
+    is_odd: 0
+    "no": 67
+  - 
+    comment: 「も」じゃないｗ
+    date: 2009/10/19 02:20:13
+    is_admin: 1
+    is_odd: 1
+    "no": 68
+  - 
+    comment: Sleipnirっての使ってますー。
+    date: 2009/10/19 02:20:35
+    is_admin: 1
+    is_odd: 0
+    "no": 69
+  - 
+    comment: "■【初音ミク】ポップ・ノイズ【4つ打ちポップロック】 ■ ichiP "
+    date: 2009/10/19 02:21:34
+    is_admin: 1
+    is_odd: 1
+    "no": 70
+  - 
+    comment: "■2008.12.28 時/3:35 彡/18 ◆再/4,507 コ/90 マ/212 (4.7%) "
+    date: 2009/10/19 02:21:42
+    is_admin: 1
+    is_odd: 0
+    "no": 72
+  - 
+    comment: 投票しなきゃって気分になるねｗ
+    date: 2009/10/19 02:23:03
+    is_odd: 1
+    "no": 73
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/19 02:23:10
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: あ、一つ告知させてください
+    date: 2009/10/19 02:23:34
+    is_admin: 1
+    is_odd: 1
+    "no": 75
+  - 
+    comment: 今月30日に第3回ミクノポップ大賞が開催されます！
+    date: 2009/10/19 02:23:52
+    is_admin: 1
+    is_odd: 0
+    "no": 76
+  - 
+    comment: 今回のテーマは「愛」
+    date: 2009/10/19 02:24:00
+    is_admin: 1
+    is_odd: 1
+    "no": 77
+  - 
+    comment: 皆さんの愛、投票してくださいね☆
+    date: 2009/10/19 02:24:10
+    is_admin: 1
+    is_odd: 0
+    "no": 78
+  - 
+    comment: 詳細はコミュトップへ！
+    date: 2009/10/19 02:24:19
+    is_admin: 1
+    is_odd: 1
+    "no": 79
+  - 
+    comment: 投票期間は23日からとなっています。
+    date: 2009/10/19 02:24:29
+    is_admin: 1
+    is_odd: 0
+    "no": 80
+  - 
+    comment: 皆さんよろしくでっす！
+    date: 2009/10/19 02:24:34
+    is_admin: 1
+    is_odd: 1
+    "no": 81
+  - 
+    comment: ほいさ～
+    date: 2009/10/19 02:24:42
+    is_odd: 0
+    "no": 82
+  - 
+    comment: 告知以上！
+    date: 2009/10/19 02:24:45
+    is_admin: 1
+    is_odd: 1
+    "no": 83
+  - 
+    comment: あいよー
+    date: 2009/10/19 02:24:51
+    is_odd: 0
+    "no": 84
+  - 
+    comment: 動画いっちゃいます～！
+    date: 2009/10/19 02:25:10
+    is_admin: 1
+    is_odd: 1
+    "no": 85
+  - 
+    comment: ■第3回ミクノポップ大賞-告知動画 ◆ イベント告知 presented by k-sk
+    date: 2009/10/19 02:25:14
+    is_admin: 1
+    is_odd: 0
+    "no": 87
+  - 
+    comment: イケメン！イケメン！
+    date: 2009/10/19 02:25:32
+    is_odd: 1
+    "no": 88
+  - 
+    comment: 23日用のもこしらえとかないとですね。
+    date: 2009/10/19 02:25:47
+    is_admin: 1
+    is_odd: 0
+    "no": 89
+  - 
+    comment: "■初音ミクがオリジナル曲を歌ってくれました「ファインダー」 ■ kz "
+    date: 2009/10/19 02:25:55
+    is_admin: 1
+    is_odd: 1
+    "no": 90
+  - 
+    comment: おお
+    date: 2009/10/19 02:26:01
+    is_odd: 0
+    "no": 92
+  - 
+    comment: "■2008.01.05 時/5:10 彡/18 ◆再/491,722 コ/34,157 マ/15,752 (3.2%) "
+    date: 2009/10/19 02:26:03
+    is_admin: 1
+    is_odd: 1
+    "no": 93
+  - 
+    comment: さて、この曲でこの枠はおしまいです。
+    date: 2009/10/19 02:26:12
+    is_admin: 1
+    is_odd: 0
+    "no": 94
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/10/19 02:26:20
+    is_admin: 1
+    is_odd: 1
+    "no": 95
+  - 
+    comment: お～久々に・・・・ってこの枠は、って言ったｗ
+    date: 2009/10/19 02:26:28
+    is_odd: 0
+    "no": 96
+  - 
+    comment: この枠はおしまいですよんｗ
+    date: 2009/10/19 02:26:46
+    is_admin: 1
+    is_odd: 1
+    "no": 97
+  - 
+    comment: いつものセリフですｗ
+    date: 2009/10/19 02:26:50
+    is_admin: 1
+    is_odd: 0
+    "no": 98
+  - 
+    comment: 残念ながら次枠はありません～ｗ
+    date: 2009/10/19 02:27:09
+    is_admin: 1
+    is_odd: 1
+    "no": 99
+  - 
+    comment: ごめんね！
+    date: 2009/10/19 02:27:12
+    is_admin: 1
+    is_odd: 0
+    "no": 100
+  - 
+    comment: えぇぇぇ～
+    date: 2009/10/19 02:27:26
+    is_odd: 1
+    "no": 101
+  - 
+    comment: 今日もありがとうございます
+    date: 2009/10/19 02:27:36
+    is_odd: 0
+    "no": 102
+  - 
+    comment: ( ﾟдﾟ)
+    date: 2009/10/19 02:27:43
+    is_admin: 1
+    is_odd: 1
+    "no": 103
+  - 
+    comment: あれ、打たさってないｗ
+    date: 2009/10/19 02:27:56
+    is_admin: 1
+    is_odd: 0
+    "no": 104
+  - 
+    comment: 今日はジェットストリームｗ無かったなぁ
+    date: 2009/10/19 02:28:05
+    is_odd: 1
+    "no": 105
+  - 
+    comment: セリフが入ってたんだけどなぁｗ
+    date: 2009/10/19 02:28:10
+    is_admin: 1
+    is_odd: 0
+    "no": 106
+  - 
+    comment: また聴きに来てくださいね
+    date: 2009/10/19 02:28:35
+    is_admin: 1
+    is_odd: 1
+    "no": 107
+  - 
+    comment: 今北～　もう終わるんだね・・・
+    date: 2009/10/19 02:28:36
+    is_odd: 0
+    "no": 108
+  - 
+    comment: 今北さんｗごめんねｗ
+    date: 2009/10/19 02:28:48
+    is_admin: 1
+    is_odd: 1
+    "no": 109
+  - 
+    comment: おつ～おやすみ～
+    date: 2009/10/19 02:28:49
+    is_odd: 0
+    "no": 110
+  - 
+    comment: また聴きにくるお！　（108
+    date: 2009/10/19 02:29:20
+    is_odd: 1
+    "no": 111
+  - 
+    comment: 是非ゼヒ！
+    date: 2009/10/19 02:29:29
+    is_admin: 1
+    is_odd: 0
+    "no": 112
+  - 
+    comment: ぜひぜひ！
+    date: 2009/10/19 02:29:37
+    is_odd: 1
+    "no": 113
+  - 
+    comment: むにゃー！
+    date: 2009/10/19 02:29:42
+    is_odd: 0
+    "no": 114
+  - 
+    comment: むにゃー可愛いｗ
+    date: 2009/10/19 02:29:51
+    is_admin: 1
+    is_odd: 1
+    "no": 115
+  - 
+    comment: おつかれさまでした、おやすみ～ノシ
+    date: 2009/10/19 02:30:00
+    is_odd: 0
+    "no": 116
+  - 
+    comment: それでは皆さん良い夢を！！
+    date: 2009/10/19 02:30:03
+    is_admin: 1
+    is_odd: 1
+    "no": 117
+  - 
+    comment: そして充実の一週間を！
+    date: 2009/10/19 02:30:16
+    is_admin: 1
+    is_odd: 0
+    "no": 118
+  - 
+    comment: おつ～！！　おやすみ～
+    date: 2009/10/19 02:30:17
+    is_odd: 1
+    "no": 119
+  - 
+    comment: ﾉﾐ
+    date: 2009/10/19 02:30:23
+    is_odd: 0
+    "no": 120
+  - 
+    comment: おやすみなさい～！
+    date: 2009/10/19 02:30:24
+    is_admin: 1
+    is_odd: 1
+    "no": 121
+  - 
+    comment: のし！
+    date: 2009/10/19 02:30:26
+    is_admin: 1
+    is_odd: 0
+    "no": 122
+  - 
+    comment: ﾉｼ
+    date: 2009/10/19 02:30:28
+    is_odd: 1
+    "no": 123
+  - 
+    comment: のし
+    date: 2009/10/19 02:30:30
+    is_odd: 0
+    "no": 124
+frame: 1
+start: 1255885250
+time: 29
+

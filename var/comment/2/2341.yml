@@ -1,0 +1,602 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんにちは！
+    date: 2009/10/18 17:18:15
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: こんばんは
+    date: 2009/10/18 17:18:34
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 晩ごはん前の夜ミクノです。
+    date: 2009/10/18 17:18:35
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: イケメン！　イケメン！
+    date: 2009/10/18 17:18:44
+    is_odd: 0
+    "no": 4
+  - 
+    comment: 主セレ→ｷﾗﾋﾟｺﾎﾟｯﾌﾟ
+    date: 2009/10/18 17:18:53
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: リク随時でっす！ｗ
+    date: 2009/10/18 17:19:01
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: ■【初音ミク】近未来ラジオ【ジングル用】 ◆ No.2 presented by ぎん
+    date: 2009/10/18 17:19:12
+    is_admin: 1
+    is_odd: 1
+    "no": 8
+  - 
+    comment: お昼は塩ラーメン（インスタント）でした。
+    date: 2009/10/18 17:20:17
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: 海苔奮発して３枚も入れちゃった！
+    date: 2009/10/18 17:20:36
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: "■【初音ミク】BRIGHT RAiN【オリジナル】 ■ ラヴリーP "
+    date: 2009/10/18 17:20:56
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: "■2008.09.13 時/4:38 彡/11 ◆再/112,716 コ/4,143 マ/3,868 (3.4%) "
+    date: 2009/10/18 17:21:04
+    is_admin: 1
+    is_odd: 1
+    "no": 13
+  - 
+    comment: 卵かモヤシ入れろｗ
+    date: 2009/10/18 17:21:04
+    is_odd: 0
+    "no": 14
+  - 
+    comment: 卵も入れたよ！ｗ
+    date: 2009/10/18 17:21:11
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: GJ
+    date: 2009/10/18 17:21:15
+    is_odd: 0
+    "no": 16
+  - 
+    comment: ありがとｗ
+    date: 2009/10/18 17:21:18
+    is_admin: 1
+    is_odd: 1
+    "no": 17
+  - 
+    comment: もやしは一回水洗いすれば良いものなのかな？
+    date: 2009/10/18 17:21:51
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: 十分じゃないか？
+    date: 2009/10/18 17:22:23
+    is_odd: 1
+    "no": 19
+  - 
+    comment: そかそか、今度やってみようっと。
+    date: 2009/10/18 17:22:37
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: もやしとかは水洗いが必要なレベルのもの無いんじゃない
+    date: 2009/10/18 17:24:09
+    is_odd: 1
+    "no": 21
+  - 
+    comment: そのままでもアリなのかなぁ？
+    date: 2009/10/18 17:24:29
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: 工場出荷時に洗ってるだろうし
+    date: 2009/10/18 17:24:29
+    is_odd: 1
+    "no": 23
+  - 
+    comment: あー、なるほど。
+    date: 2009/10/18 17:24:40
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: まあ、一応洗っとけってレベルだな
+    date: 2009/10/18 17:24:41
+    is_odd: 1
+    "no": 25
+  - 
+    comment: どもです！勉強なります。
+    date: 2009/10/18 17:24:49
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: 自分は炒め物系なら水分付くの嫌だからダイレクトに使ってるね
+    date: 2009/10/18 17:25:05
+    is_odd: 1
+    "no": 27
+  - 
+    comment: はねるの恐いですもんね。
+    date: 2009/10/18 17:25:22
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: "■【初音ミク】The rewritten world【ミクオリジナル】 ■ ハヤカワＰ "
+    date: 2009/10/18 17:25:33
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: "■2009.10.10 時/3:52 彡/2 ◆再/3,120 コ/47 マ/252 (8.1%) "
+    date: 2009/10/18 17:25:42
+    is_admin: 1
+    is_odd: 0
+    "no": 31
+  - 
+    comment: 水分があるだけ、熱が失われて調理に時間がかかる
+    date: 2009/10/18 17:25:59
+    is_odd: 1
+    "no": 32
+  - 
+    comment: sm4538743
+    date: 2009/10/18 17:26:15
+    is_odd: 0
+    "no": 33
+  - 
+    comment: 主の洗い方=＞袋を少し開けて水入れてシェイク→端っこ少し切って水を流す。
+    date: 2009/10/18 17:26:30
+    is_odd: 1
+    "no": 34
+  - 
+    comment: おお、いいねそれｗ
+    date: 2009/10/18 17:26:46
+    is_odd: 0
+    "no": 35
+  - 
+    comment: でも袋にくっついてモヤシ取りづらくなるｗ
+    date: 2009/10/18 17:27:04
+    is_admin: 1
+    is_odd: 1
+    "no": 36
+  - 
+    comment: でも毎回忘れて毎回繰り返しｗ
+    date: 2009/10/18 17:27:18
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: 袋裏返せば取れやすいんじゃ？
+    date: 2009/10/18 17:27:43
+    is_odd: 1
+    "no": 38
+  - 
+    comment: Σ
+    date: 2009/10/18 17:27:49
+    is_admin: 1
+    is_odd: 0
+    "no": 39
+  - 
+    comment: そ　れ　だ
+    date: 2009/10/18 17:27:53
+    is_admin: 1
+    is_odd: 1
+    "no": 40
+  - 
+    comment: 今度もやし使う時試してみますｂ
+    date: 2009/10/18 17:28:08
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: それでもやし救出可能になったら最強ですね。
+    date: 2009/10/18 17:28:37
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: ハヤカワP最近ブームです。
+    date: 2009/10/18 17:29:26
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: "■【初音ミク(40㍍)】流星ハンター【オリジナル】 ■ 40㍍P "
+    date: 2009/10/18 17:29:30
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: "■2008.09.06 時/3:16 彡/6 ◆再/45,467 コ/1,273 マ/1,474 (3.2%) "
+    date: 2009/10/18 17:29:38
+    is_admin: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: 40mPも良いですよねぇ。。。
+    date: 2009/10/18 17:31:05
+    is_admin: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: 流せるのが流星ハンターだけっぽいのでヤキモキですｗ
+    date: 2009/10/18 17:31:33
+    is_admin: 1
+    is_odd: 0
+    "no": 48
+  - 
+    comment: ｗ
+    date: 2009/10/18 17:31:39
+    is_odd: 1
+    "no": 49
+  - 
+    comment: ガンダムに続いて40mミクも作ってくれないかなぁ。。
+    date: 2009/10/18 17:32:31
+    is_admin: 1
+    is_odd: 0
+    "no": 50
+  - 
+    comment: "■【初音ミク】近未来ラジオ -pure2step remix-【オリジナル曲】 ■ Rin（ぎん） "
+    date: 2009/10/18 17:32:47
+    is_admin: 1
+    is_odd: 1
+    "no": 51
+  - 
+    comment: "■2009.05.10 時/4:52 彡/18 ◆再/1,494 コ/24 マ/81 (5.4%) "
+    date: 2009/10/18 17:32:55
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: こんばんわ～！
+    date: 2009/10/18 17:33:34
+    is_odd: 1
+    "no": 54
+  - 
+    comment: いらっしゃい！
+    date: 2009/10/18 17:33:39
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: 下から覗く奴続出で危ない＞40mミク
+    date: 2009/10/18 17:34:10
+    is_odd: 1
+    "no": 56
+  - 
+    comment: 安全性に問題アリか・・・。
+    date: 2009/10/18 17:34:23
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: 名古屋駅のナナちゃん的なものか・・・
+    date: 2009/10/18 17:34:34
+    is_odd: 1
+    "no": 58
+  - 
+    comment: 前例があるみたいですねｗ
+    date: 2009/10/18 17:34:50
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: 覗く人がいるかは知らないけどねｗ
+    date: 2009/10/18 17:35:26
+    is_odd: 1
+    "no": 60
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/18 17:35:33
+    is_admin: 1
+    is_odd: 0
+    "no": 61
+  - 
+    comment: ググってみた。こんなのいたっけ・・・ｗ
+    date: 2009/10/18 17:35:45
+    is_odd: 1
+    "no": 62
+  - 
+    comment: こわっ！
+    date: 2009/10/18 17:36:32
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: ググってみた！恐いよ！
+    date: 2009/10/18 17:36:40
+    is_admin: 1
+    is_odd: 1
+    "no": 64
+  - 
+    comment: ちょ、全裸写真まであるじゃないか
+    date: 2009/10/18 17:37:13
+    is_odd: 0
+    "no": 65
+  - 
+    comment: なんだか、人体模型的なオーラを感じますｗ
+    date: 2009/10/18 17:37:16
+    is_admin: 1
+    is_odd: 1
+    "no": 66
+  - 
+    comment: これはいかん
+    date: 2009/10/18 17:37:17
+    is_odd: 0
+    "no": 67
+  - 
+    comment: "■【初音ミク】星屑サテライト【オリジナル】 ■ すこっぷ "
+    date: 2009/10/18 17:37:39
+    is_admin: 1
+    is_odd: 1
+    "no": 68
+  - 
+    comment: "■2009.10.09 時/4:57 彡/1 ◆再/41,764 コ/824 マ/3,635 (8.7%) "
+    date: 2009/10/18 17:37:47
+    is_admin: 1
+    is_odd: 0
+    "no": 70
+  - 
+    comment: 体重600kgに拭いた
+    date: 2009/10/18 17:38:04
+    is_odd: 1
+    "no": 71
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/18 17:38:35
+    is_admin: 1
+    is_odd: 0
+    "no": 72
+  - 
+    comment: レディーの体重を公表しちゃいけませんｗ
+    date: 2009/10/18 17:38:50
+    is_admin: 1
+    is_odd: 1
+    "no": 73
+  - 
+    comment: ｻｰｾﾝｗ
+    date: 2009/10/18 17:39:01
+    is_odd: 0
+    "no": 74
+  - 
+    comment: ｗｗ
+    date: 2009/10/18 17:39:30
+    is_odd: 1
+    "no": 75
+  - 
+    comment: あれで6m位ってんだから、40mミクはどんだけでかいんだｗ
+    date: 2009/10/18 17:39:53
+    is_odd: 0
+    "no": 76
+  - 
+    comment: 想像できないですねｗｗ
+    date: 2009/10/18 17:40:09
+    is_admin: 1
+    is_odd: 1
+    "no": 77
+  - 
+    comment: マンションとかだと25階くらいですかね？？
+    date: 2009/10/18 17:40:25
+    is_admin: 1
+    is_odd: 0
+    "no": 78
+  - 
+    comment: そのマンション天井低いぞｗ
+    date: 2009/10/18 17:41:03
+    is_odd: 1
+    "no": 79
+  - 
+    comment: 20階行かないくらいじゃないかな？
+    date: 2009/10/18 17:41:06
+    is_odd: 0
+    "no": 80
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/18 17:41:08
+    is_admin: 1
+    is_odd: 1
+    "no": 81
+  - 
+    comment: あーｗじゃぁ向かいのマンションくらいかなぁｗ
+    date: 2009/10/18 17:41:36
+    is_admin: 1
+    is_odd: 0
+    "no": 82
+  - 
+    comment: うむ、でかい。
+    date: 2009/10/18 17:41:44
+    is_admin: 1
+    is_odd: 1
+    "no": 83
+  - 
+    comment: 6mって３階か4階ぐらいじゃないか？
+    date: 2009/10/18 17:42:00
+    is_odd: 0
+    "no": 84
+  - 
+    comment: なるほど。
+    date: 2009/10/18 17:42:07
+    is_admin: 1
+    is_odd: 1
+    "no": 85
+  - 
+    comment: 主の住居は高層マンション住宅街の中　メモメモ
+    date: 2009/10/18 17:42:24
+    is_odd: 0
+    "no": 86
+  - 
+    comment: 高層でもないですがｗ
+    date: 2009/10/18 17:42:37
+    is_admin: 1
+    is_odd: 1
+    "no": 87
+  - 
+    comment: "■【初音ミク】 clear veil 【オリジナル】 ■ yusukeP "
+    date: 2009/10/18 17:42:39
+    is_admin: 1
+    is_odd: 0
+    "no": 88
+  - 
+    comment: "■2009.03.02 時/5:45 彡/16 ◆再/22,934 コ/485 マ/1,175 (5.1%) "
+    date: 2009/10/18 17:42:47
+    is_admin: 1
+    is_odd: 1
+    "no": 90
+  - 
+    comment: いいなぁ、蚊
+    date: 2009/10/18 17:42:53
+    is_odd: 0
+    "no": 91
+  - 
+    comment: …が入ってこないんですよね
+    date: 2009/10/18 17:43:05
+    is_odd: 1
+    "no": 92
+  - 
+    comment: 6mで25階もあると、１階は匍匐前進しかなくなるｗ
+    date: 2009/10/18 17:43:13
+    is_odd: 0
+    "no": 93
+  - 
+    comment: あ、蚊とは縁が無いかもです。
+    date: 2009/10/18 17:43:17
+    is_admin: 1
+    is_odd: 1
+    "no": 94
+  - 
+    comment: Gも居ないというのがステキ
+    date: 2009/10/18 17:43:25
+    is_odd: 0
+    "no": 95
+  - 
+    comment: G見たこと無いです＞＜
+    date: 2009/10/18 17:43:38
+    is_admin: 1
+    is_odd: 1
+    "no": 96
+  - 
+    comment: 目が合うと向かってくるんですよね？確か。
+    date: 2009/10/18 17:44:00
+    is_admin: 1
+    is_odd: 0
+    "no": 97
+  - 
+    comment: 7Fに住んでるけど、蚊もGもいないな
+    date: 2009/10/18 17:44:02
+    is_odd: 1
+    "no": 98
+  - 
+    comment: イケメンだと飛び掛ってきます
+    date: 2009/10/18 17:44:35
+    is_odd: 0
+    "no": 99
+  - 
+    comment: じゃぁ自分は安心だｗ
+    date: 2009/10/18 17:44:45
+    is_admin: 1
+    is_odd: 1
+    "no": 100
+  - 
+    comment: 口の中に飛び込んでくるってのも浦筋で読んだことあります。
+    date: 2009/10/18 17:44:54
+    is_admin: 1
+    is_odd: 0
+    "no": 101
+  - 
+    comment: それGay
+    date: 2009/10/18 17:44:55
+    is_odd: 1
+    "no": 102
+  - 
+    comment: あ、危ない。この曲でこの枠はおしまいです。
+    date: 2009/10/18 17:45:46
+    is_admin: 1
+    is_odd: 0
+    "no": 103
+  - 
+    comment: 飛び掛ってくるGほど怖いものは無い
+    date: 2009/10/18 17:45:52
+    is_odd: 1
+    "no": 104
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/10/18 17:45:53
+    is_admin: 1
+    is_odd: 0
+    "no": 105
+  - 
+    comment: 恐いなぁ。。。
+    date: 2009/10/18 17:46:03
+    is_admin: 1
+    is_odd: 1
+    "no": 106
+  - 
+    comment: 次枠もいかせていただきますね。
+    date: 2009/10/18 17:46:28
+    is_admin: 1
+    is_odd: 0
+    "no": 107
+  - 
+    comment: 久しぶりの2枠連続。
+    date: 2009/10/18 17:46:39
+    is_admin: 1
+    is_odd: 1
+    "no": 108
+  - 
+    comment: では準備してくるので早めに離脱！
+    date: 2009/10/18 17:47:14
+    is_admin: 1
+    is_odd: 0
+    "no": 109
+  - 
+    comment: のし！
+    date: 2009/10/18 17:47:18
+    is_admin: 1
+    is_odd: 1
+    "no": 110
+  - 
+    comment: 熨斗
+    date: 2009/10/18 17:47:23
+    is_odd: 0
+    "no": 111
+  - 
+    comment: 乙です～のし！
+    date: 2009/10/18 17:47:36
+    is_odd: 1
+    "no": 112
+  - 
+    comment: 海苔
+    date: 2009/10/18 17:47:45
+    is_odd: 0
+    "no": 113
+frame: 1
+start: 1255853895
+time: 29
+

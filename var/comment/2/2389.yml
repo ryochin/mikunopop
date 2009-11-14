@@ -1,0 +1,588 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: ばんわ！
+    date: 2009/10/24 23:44:08
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: 夜ミクノです
+    date: 2009/10/24 23:44:13
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 主セレ→ミクポップ
+    date: 2009/10/24 23:44:21
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: リク随時でっす！
+    date: 2009/10/24 23:44:28
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: sm7989068
+    date: 2009/10/24 23:44:54
+    is_odd: 1
+    "no": 5
+  - 
+    comment: ■【初音ミク】近未来ラジオ【ジングル用】◆ No.2 presented by ぎん
+    date: 2009/10/24 23:45:18
+    is_admin: 1
+    is_odd: 0
+    "no": 7
+  - 
+    comment: いきなり切断されて焦った；；；
+    date: 2009/10/24 23:45:32
+    is_admin: 1
+    is_odd: 1
+    "no": 8
+  - 
+    comment: "■【初音ミク】 Kid 【オリジナル】 ■ びにゅP "
+    date: 2009/10/24 23:47:07
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: "■2009.08.20 時/4:35 彡/9 ◆再/4,689 コ/122 マ/282 (6.0%) "
+    date: 2009/10/24 23:47:15
+    is_admin: 1
+    is_odd: 1
+    "no": 11
+  - 
+    comment: びにゅPええのう。。。
+    date: 2009/10/24 23:49:50
+    is_admin: 1
+    is_odd: 0
+    "no": 12
+  - 
+    comment: いいねぇ
+    date: 2009/10/24 23:50:10
+    is_odd: 1
+    "no": 13
+  - 
+    comment: お次はちょっと懐かしめのナンバー。。
+    date: 2009/10/24 23:51:42
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: "■【初音ミク】オリジナル「over16bit!」fullver.【livetune】 ■ かじゅきP "
+    date: 2009/10/24 23:51:46
+    is_odd: 1
+    "no": 15
+  - 
+    comment: "■2008.07.26 時/5:32 彡/3 ◆再/44,355 コ/1,996 マ/1,443 (3.3%) "
+    date: 2009/10/24 23:51:54
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: いつ聴いてもいい曲～
+    date: 2009/10/24 23:53:20
+    is_odd: 1
+    "no": 18
+  - 
+    comment: ね～、歌詞も良いし音も良い。未だにヘヴィロテ曲です。
+    date: 2009/10/24 23:53:54
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: もうすぐ2400回やねぇ。明日辺り？
+    date: 2009/10/24 23:56:10
+    is_admin: 1
+    is_odd: 1
+    "no": 20
+  - 
+    comment: Σ
+    date: 2009/10/24 23:57:07
+    is_odd: 0
+    "no": 21
+  - 
+    comment: "■初音ミク　オリジナル曲「continued」fullver. ■ ラマーズP "
+    date: 2009/10/24 23:57:20
+    is_admin: 1
+    is_odd: 1
+    "no": 22
+  - 
+    comment: "■2008.04.20 時/5:11 彡/2 ◆再/17,480 コ/386 マ/480 (2.7%) "
+    date: 2009/10/24 23:57:28
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: でもミクノ大賞が近いから通常枠かなｗきっとｗ
+    date: 2009/10/24 23:57:40
+    is_admin: 1
+    is_odd: 1
+    "no": 25
+  - 
+    comment: こんばんわです
+    date: 2009/10/25 00:01:52
+    is_odd: 0
+    "no": 26
+  - 
+    comment: いらっさい！
+    date: 2009/10/25 00:01:57
+    is_admin: 1
+    is_odd: 1
+    "no": 27
+  - 
+    comment: うにー　今来たー
+    date: 2009/10/25 00:02:09
+    is_odd: 0
+    "no": 28
+  - 
+    comment: こんばんはー
+    date: 2009/10/25 00:02:13
+    is_odd: 1
+    "no": 29
+  - 
+    comment: いーらはー☆
+    date: 2009/10/25 00:02:19
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: "■【初音ミク(40㍍)】流星ハンター【オリジナル】 ■ 40㍍P "
+    date: 2009/10/25 00:02:34
+    is_admin: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: "■2008.09.06 時/3:16 彡/7 ◆再/45,666 コ/1,274 マ/1,479 (3.2%) "
+    date: 2009/10/25 00:02:44
+    is_admin: 1
+    is_odd: 0
+    "no": 33
+  - 
+    comment: 40㍍ｷﾀｰ
+    date: 2009/10/25 00:02:58
+    is_odd: 1
+    "no": 34
+  - 
+    comment: 巨大少女とか可愛いですよね、かけられないのが悔しい！
+    date: 2009/10/25 00:03:27
+    is_admin: 1
+    is_odd: 0
+    "no": 35
+  - 
+    comment: リク随時と聴いて　sm1697854　なんかにこさうんどにつながらなくてこまｔｔｗ
+    date: 2009/10/25 00:03:29
+    is_odd: 1
+    "no": 36
+  - 
+    comment: 爽やかだねー
+    date: 2009/10/25 00:03:32
+    is_odd: 0
+    "no": 37
+  - 
+    comment: あいーｗリクどもんｗ
+    date: 2009/10/25 00:03:40
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: nm8520667 これどうでしょう？
+    date: 2009/10/25 00:04:17
+    is_odd: 0
+    "no": 39
+  - 
+    comment: 今北～　こんばんはですぅぅぅ
+    date: 2009/10/25 00:04:29
+    is_odd: 1
+    "no": 40
+  - 
+    comment: 39さんおｋ！
+    date: 2009/10/25 00:04:44
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: リクしめで～。
+    date: 2009/10/25 00:04:49
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: いらっさい！
+    date: 2009/10/25 00:04:53
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: わーいありがとうございますｗ
+    date: 2009/10/25 00:05:21
+    is_odd: 1
+    "no": 44
+  - 
+    comment: いあいあーｗありがたや～ですｂ
+    date: 2009/10/25 00:05:34
+    is_admin: 1
+    is_odd: 0
+    "no": 45
+  - 
+    comment: ここで告知！
+    date: 2009/10/25 00:05:39
+    is_admin: 1
+    is_odd: 1
+    "no": 46
+  - 
+    comment: 第3回ミクノポップ大賞！
+    date: 2009/10/25 00:05:46
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: ■第3回ミクノポップ大賞-投票受付開始 ■ P名?
+    date: 2009/10/25 00:05:50
+    is_admin: 1
+    is_odd: 1
+    "no": 48
+  - 
+    comment: 投票受付中です☆
+    date: 2009/10/25 00:05:57
+    is_admin: 1
+    is_odd: 0
+    "no": 50
+  - 
+    comment: "■2009.10.23 時/0:41 彡/5 ◆再/1 コ/0 マ/1 (100.0%) "
+    date: 2009/10/25 00:05:58
+    is_admin: 1
+    is_odd: 1
+    "no": 51
+  - 
+    comment: おおおお
+    date: 2009/10/25 00:06:06
+    is_odd: 0
+    "no": 52
+  - 
+    comment: 皆さん投票よろしくねぇ～(はぁと
+    date: 2009/10/25 00:06:06
+    is_admin: 1
+    is_odd: 1
+    "no": 53
+  - 
+    comment: 主はこの後修羅場ってきます。
+    date: 2009/10/25 00:06:24
+    is_admin: 1
+    is_odd: 0
+    "no": 54
+  - 
+    comment: "■【LONG ver.】初音ミクにオリジナルソング「SING＆SMILE」を歌わせてみた。 ■ Re:nG "
+    date: 2009/10/25 00:06:34
+    is_admin: 1
+    is_odd: 1
+    "no": 55
+  - 
+    comment: "■2007.12.05 時/3:44 彡/2 ◆再/348,315 コ/23,097 マ/13,541 (3.9%) "
+    date: 2009/10/25 00:06:42
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: 修羅場…（ｺﾞｸﾘ
+    date: 2009/10/25 00:07:02
+    is_odd: 1
+    "no": 58
+  - 
+    comment: おお懐かしいのがきましたなｗ
+    date: 2009/10/25 00:07:03
+    is_odd: 0
+    "no": 59
+  - 
+    comment: 恋愛のもつれですね
+    date: 2009/10/25 00:07:09
+    is_odd: 1
+    "no": 60
+  - 
+    comment: なぜそうなるｗ
+    date: 2009/10/25 00:07:15
+    is_admin: 1
+    is_odd: 0
+    "no": 61
+  - 
+    comment: 動画作ってくるよん☆
+    date: 2009/10/25 00:07:24
+    is_admin: 1
+    is_odd: 1
+    "no": 62
+  - 
+    comment: (ｺﾞｸﾘ
+    date: 2009/10/25 00:07:33
+    is_odd: 0
+    "no": 63
+  - 
+    comment: ためしにミクノ度0でもりくえすとしてみようかなぁ・・・＠ミクノついてる曲しかリク下ことのない人ｗ
+    date: 2009/10/25 00:07:35
+    is_odd: 1
+    "no": 64
+  - 
+    comment: 痴情のもつれこわいね
+    date: 2009/10/25 00:07:39
+    is_odd: 0
+    "no": 65
+  - 
+    comment: こわいねーｗ
+    date: 2009/10/25 00:07:47
+    is_odd: 1
+    "no": 66
+  - 
+    comment: りあ充なにそれこわい
+    date: 2009/10/25 00:07:57
+    is_odd: 0
+    "no": 67
+  - 
+    comment: ｲｹﾒﾝ主・・・
+    date: 2009/10/25 00:08:00
+    is_odd: 1
+    "no": 68
+  - 
+    comment: ヒゲ0大歓迎！
+    date: 2009/10/25 00:08:01
+    is_admin: 1
+    is_odd: 0
+    "no": 69
+  - 
+    comment: チェック挟むけどグリーンだったらながすよ～
+    date: 2009/10/25 00:08:19
+    is_admin: 1
+    is_odd: 1
+    "no": 70
+  - 
+    comment: 主セレをマイリスト全体から断腸の重いで選別する作業ですねわかりますわかりま(ry
+    date: 2009/10/25 00:08:24
+    is_odd: 0
+    "no": 71
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/25 00:08:34
+    is_admin: 1
+    is_odd: 1
+    "no": 72
+  - 
+    comment: 主のスルースキルがあがってるーーー(´Д⊂ｸﾞｽﾝ
+    date: 2009/10/25 00:09:00
+    is_odd: 0
+    "no": 73
+  - 
+    comment: いあｗだってねｗリクに重要な事がコメントにあったらそっち優先するじゃないｗｗ
+    date: 2009/10/25 00:09:20
+    is_odd: 1
+    "no": 74
+  - 
+    comment: タイミングを恨んでくだしあｗ
+    date: 2009/10/25 00:09:37
+    is_admin: 1
+    is_odd: 0
+    "no": 75
+  - 
+    comment: このコメントは表示されません
+    date: 2009/10/25 00:09:39
+    is_hidden: 1
+    is_odd: 1
+    "no": 76
+  - 
+    comment: はーいｗ
+    date: 2009/10/25 00:09:49
+    is_odd: 0
+    "no": 77
+  - 
+    comment: さて、ツールでミクノ度0検索すればいいかなぁｗ＠某氏
+    date: 2009/10/25 00:09:56
+    is_odd: 1
+    "no": 78
+  - 
+    comment: "■『Starlite★Lydian』 【初音ミク】【オリジナル曲】 ■ Masaki "
+    date: 2009/10/25 00:10:18
+    is_admin: 1
+    is_odd: 0
+    "no": 79
+  - 
+    comment: "■2009.10.15 時/3:20 彡/1 ◆再/5,660 コ/171 マ/636 (11.2%) "
+    date: 2009/10/25 00:10:26
+    is_admin: 1
+    is_odd: 1
+    "no": 81
+  - 
+    comment: オサレなリク待ってますｂ
+    date: 2009/10/25 00:10:31
+    is_admin: 1
+    is_odd: 0
+    "no": 82
+  - 
+    comment: 主の別れ話修羅場に似合う曲を待ってますｂ
+    date: 2009/10/25 00:10:52
+    is_odd: 1
+    "no": 83
+  - 
+    comment: 修羅場ってくる、とは書いたもののもう一枠やりたいなｗなどとぼやいてみる・・・ｗ
+    date: 2009/10/25 00:10:56
+    is_odd: 0
+    "no": 84
+  - 
+    comment: ﾜｰｲヽ(ﾟ∀ﾟ)メ(ﾟ∀ﾟ)メ(ﾟ∀ﾟ)ノﾜｰｲ
+    date: 2009/10/25 00:11:03
+    is_odd: 1
+    "no": 85
+  - 
+    comment: マイリスト→ミクノ度0検索＝97ｗ
+    date: 2009/10/25 00:11:16
+    is_odd: 0
+    "no": 86
+  - 
+    comment: もう1枠ーーーーーすてきですぅぅぅ
+    date: 2009/10/25 00:11:29
+    is_odd: 1
+    "no": 87
+  - 
+    comment: おお！でも一人1曲でねｗ
+    date: 2009/10/25 00:11:33
+    is_admin: 1
+    is_odd: 0
+    "no": 88
+  - 
+    comment: っｱﾝｹｰﾄで視聴者の総意を問う
+    date: 2009/10/25 00:11:51
+    is_odd: 1
+    "no": 89
+  - 
+    comment: さて、この曲でこの枠はおしまいですｂ
+    date: 2009/10/25 00:11:56
+    is_admin: 1
+    is_odd: 0
+    "no": 90
+  - 
+    comment: おつでした～！
+    date: 2009/10/25 00:12:07
+    is_odd: 1
+    "no": 91
+  - 
+    comment: 皆さん次枠へもお忘れ物の無いように～
+    date: 2009/10/25 00:12:09
+    is_admin: 1
+    is_odd: 0
+    "no": 92
+  - 
+    comment: 靴履き間違えたらダメだよん☆
+    date: 2009/10/25 00:12:22
+    is_admin: 1
+    is_odd: 1
+    "no": 93
+  - 
+    comment: ﾊｯ
+    date: 2009/10/25 00:12:30
+    is_odd: 0
+    "no": 94
+  - 
+    comment: 危ないｗ
+    date: 2009/10/25 00:12:34
+    is_admin: 1
+    is_odd: 1
+    "no": 95
+  - 
+    comment: あ　主まちがえてるよ！
+    date: 2009/10/25 00:12:37
+    is_odd: 0
+    "no": 96
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/25 00:12:41
+    is_odd: 1
+    "no": 97
+  - 
+    comment: うおっとう！
+    date: 2009/10/25 00:12:41
+    is_admin: 1
+    is_odd: 0
+    "no": 98
+  - 
+    comment: ふう
+    date: 2009/10/25 00:12:55
+    is_odd: 1
+    "no": 99
+  - 
+    comment: ふぅ
+    date: 2009/10/25 00:12:58
+    is_admin: 1
+    is_odd: 0
+    "no": 100
+  - 
+    comment: かがんだらケータイ落ちたお
+    date: 2009/10/25 00:13:02
+    is_odd: 1
+    "no": 101
+  - 
+    comment: きゃーｗ
+    date: 2009/10/25 00:13:08
+    is_admin: 1
+    is_odd: 0
+    "no": 102
+  - 
+    comment: あい　拾ったお
+    date: 2009/10/25 00:13:13
+    is_odd: 1
+    "no": 103
+  - 
+    comment: さんきゅ☆
+    date: 2009/10/25 00:13:21
+    is_odd: 0
+    "no": 104
+  - 
+    comment: では準備も整った事で2軒目いくよー！
+    date: 2009/10/25 00:13:22
+    is_admin: 1
+    is_odd: 1
+    "no": 105
+  - 
+    comment: わーい　飲むぞー！
+    date: 2009/10/25 00:13:30
+    is_odd: 0
+    "no": 106
+  - 
+    comment: 飲み会だったのかこれｗ
+    date: 2009/10/25 00:13:33
+    is_odd: 1
+    "no": 107
+  - 
+    comment: にこさうんどつながらないよー
+    date: 2009/10/25 00:13:41
+    is_odd: 0
+    "no": 108
+  - 
+    comment: おつー
+    date: 2009/10/25 00:13:45
+    is_odd: 1
+    "no": 109
+  - 
+    comment: では店先でしゅうごう！
+    date: 2009/10/25 00:13:48
+    is_admin: 1
+    is_odd: 0
+    "no": 110
+  - 
+    comment: おつん！
+    date: 2009/10/25 00:13:50
+    is_odd: 1
+    "no": 111
+  - 
+    comment: のし！
+    date: 2009/10/25 00:13:50
+    is_admin: 1
+    is_odd: 0
+    "no": 112
+  - 
+    comment: のしー！
+    date: 2009/10/25 00:13:56
+    is_odd: 1
+    "no": 113
+frame: 1
+start: 1256395448
+time: 29
+

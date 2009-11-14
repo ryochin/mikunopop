@@ -1,0 +1,813 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんばんわ！
+    date: 2009/11/08 00:02:18
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おやすミクノです
+    date: 2009/11/08 00:02:21
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 主セレ→MIKUPOP
+    date: 2009/11/08 00:02:28
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: リク随時でっす！
+    date: 2009/11/08 00:02:33
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: ぬこといっしょにすっ飛んできました
+    date: 2009/11/08 00:02:42
+    is_odd: 1
+    "no": 5
+  - 
+    comment: ぬこもいらっさい！
+    date: 2009/11/08 00:02:49
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: わくおつぅぅぅ　こんばんは！
+    date: 2009/11/08 00:02:54
+    is_odd: 1
+    "no": 7
+  - 
+    comment: ばわばわ！
+    date: 2009/11/08 00:03:02
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】◆ No.4 presented by \nk-sk"
+    date: 2009/11/08 00:03:06
+    is_odd: 1
+    "no": 10
+  - 
+    comment: 乙ですぅぅぅ
+    date: 2009/11/08 00:03:27
+    is_odd: 0
+    "no": 11
+  - 
+    comment: ぬこの人も乙ですぅぅぅ
+    date: 2009/11/08 00:03:35
+    is_odd: 1
+    "no": 12
+  - 
+    comment: うはうはうはうはうは
+    date: 2009/11/08 00:03:40
+    is_odd: 0
+    "no": 13
+  - 
+    comment: 枠乙ｽﾞｻｻｻｰｯ
+    date: 2009/11/08 00:04:00
+    is_odd: 1
+    "no": 14
+  - 
+    comment: オラはもうねるだ、イケメン主の夢をみるんだ・・！
+    date: 2009/11/08 00:04:30
+    is_odd: 0
+    "no": 15
+  - 
+    comment: 夢みちゃってーｂ
+    date: 2009/11/08 00:04:39
+    is_admin: 1
+    is_odd: 1
+    "no": 16
+  - 
+    comment: 夢チカって全国区？？
+    date: 2009/11/08 00:04:48
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: k-skさんじゃないですかー楽しみでーす
+    date: 2009/11/08 00:04:53
+    is_odd: 1
+    "no": 18
+  - 
+    comment: "■【初音ミク】春日（はるひ）【オリジナル】 ■ はるひP "
+    date: 2009/11/08 00:04:55
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: "■2008.03.27 時/4:48 彡/3 ◆再/3,004 コ/119 マ/64 (2.1%) "
+    date: 2009/11/08 00:05:03
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: いらっさー！
+    date: 2009/11/08 00:05:06
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: sm2219537
+    date: 2009/11/08 00:05:07
+    is_odd: 1
+    "no": 23
+  - 
+    comment: 一枠だけやるよん
+    date: 2009/11/08 00:05:14
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: ならばおれは今日も全裸ネクタイで視聴する
+    date: 2009/11/08 00:05:43
+    is_odd: 1
+    "no": 25
+  - 
+    comment: まだ夜中じゃないから紳士発言は自重でよろしくｗ
+    date: 2009/11/08 00:06:01
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: うんごめん
+    date: 2009/11/08 00:06:11
+    is_odd: 1
+    "no": 27
+  - 
+    comment: 昨晩は主もすまんかったｗ
+    date: 2009/11/08 00:06:17
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: たのしかったよ昨晩ｗ
+    date: 2009/11/08 00:06:27
+    is_odd: 1
+    "no": 29
+  - 
+    comment: 第二の黒歴史かなぁｗｗ
+    date: 2009/11/08 00:06:41
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: 今日は第三の日ですね、わかります＞＜
+    date: 2009/11/08 00:07:03
+    is_odd: 1
+    "no": 31
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/08 00:07:10
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: 気をつけますｗ
+    date: 2009/11/08 00:07:16
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: 昨日のテンションがすごかったｗ
+    date: 2009/11/08 00:07:45
+    is_odd: 0
+    "no": 34
+  - 
+    comment: あははｗｗ
+    date: 2009/11/08 00:07:52
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: sm8335290
+    date: 2009/11/08 00:07:52
+    is_odd: 0
+    "no": 36
+  - 
+    comment: リクどもーｗ
+    date: 2009/11/08 00:08:05
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: そういえば、１２月発売のサイハテCD、視聴音源あがってました
+    date: 2009/11/08 00:08:20
+    is_admin: 1
+    is_odd: 0
+    "no": 38
+  - 
+    comment: はるひPは大変よろしいですなあ
+    date: 2009/11/08 00:09:14
+    is_odd: 1
+    "no": 39
+  - 
+    comment: ですね～ｂ
+    date: 2009/11/08 00:09:24
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: "■【鏡音リン】 ［I Love You］ 【オリジナル曲】 ■ なんとかP kiichi "
+    date: 2009/11/08 00:09:45
+    is_admin: 1
+    is_odd: 1
+    "no": 41
+  - 
+    comment: "■2008.02.03 時/4:47 彡/4 ◆再/16,988 コ/437 マ/352 (2.1%) "
+    date: 2009/11/08 00:09:53
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: なんとかP！なんとかP！
+    date: 2009/11/08 00:10:07
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: リクしたの自分なのにぬこに火つけてしまった　スピーカー倒れたぎゃあああああ
+    date: 2009/11/08 00:10:09
+    is_odd: 0
+    "no": 45
+  - 
+    comment: 音で反応するんだなぁ。高域が関係あるのかな。
+    date: 2009/11/08 00:10:51
+    is_admin: 1
+    is_odd: 1
+    "no": 46
+  - 
+    comment: ぬこ音楽好きなんだなぁｗ
+    date: 2009/11/08 00:11:11
+    is_odd: 0
+    "no": 47
+  - 
+    comment: スピーカーの上にのぼってどや顔してるこのやろうｗなんか気持ちいいみたいだよ
+    date: 2009/11/08 00:11:30
+    is_odd: 1
+    "no": 48
+  - 
+    comment: 微笑ましい限りｗ
+    date: 2009/11/08 00:12:18
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: この高い音の楽器はなんだろう？
+    date: 2009/11/08 00:12:28
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: 心地いい音だ
+    date: 2009/11/08 00:13:04
+    is_odd: 0
+    "no": 51
+  - 
+    comment: んー、なんだろ、かたいよね、こっこここっここって
+    date: 2009/11/08 00:13:19
+    is_odd: 1
+    "no": 52
+  - 
+    comment: なんだっけー、あのー、縁日とかで昔あったやつ。。。
+    date: 2009/11/08 00:13:22
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: 赤と青でﾌﾞﾝﾌﾞﾝするやつ。。
+    date: 2009/11/08 00:13:40
+    is_admin: 1
+    is_odd: 1
+    "no": 54
+  - 
+    comment: アメリカンクラッカー？
+    date: 2009/11/08 00:13:41
+    is_odd: 0
+    "no": 55
+  - 
+    comment: それだ！ｗｗ
+    date: 2009/11/08 00:13:47
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: それっぽいｗ
+    date: 2009/11/08 00:13:50
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: なるほどｗ
+    date: 2009/11/08 00:13:54
+    is_odd: 1
+    "no": 58
+  - 
+    comment: 通訳すげえｗ
+    date: 2009/11/08 00:13:55
+    is_odd: 0
+    "no": 59
+  - 
+    comment: いま売ってないよねあんまり
+    date: 2009/11/08 00:14:11
+    is_odd: 1
+    "no": 60
+  - 
+    comment: 今は無いのかなー？あれ結構得意でしたｂ
+    date: 2009/11/08 00:14:17
+    is_admin: 1
+    is_odd: 0
+    "no": 61
+  - 
+    comment: しかし止めるタイミングがつかめないという
+    date: 2009/11/08 00:14:32
+    is_admin: 1
+    is_odd: 1
+    "no": 62
+  - 
+    comment: "■【巡音ルカ】Reflexion【オリジナル】 ■ Yossy \n"
+    date: 2009/11/08 00:14:35
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: "■2009.09.25 時/7:54 彡/6 ◆再/2,704 コ/63 マ/188 (7.0%) "
+    date: 2009/11/08 00:14:43
+    is_admin: 1
+    is_odd: 1
+    "no": 65
+  - 
+    comment: わかるｗ
+    date: 2009/11/08 00:14:45
+    is_odd: 0
+    "no": 66
+  - 
+    comment: よかったｗ
+    date: 2009/11/08 00:15:07
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: DTMマガジン明日発売だったという。
+    date: 2009/11/08 00:16:08
+    is_admin: 1
+    is_odd: 0
+    "no": 68
+  - 
+    comment: うっかり本屋まで行ってしまいました。
+    date: 2009/11/08 00:16:22
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: お
+    date: 2009/11/08 00:17:12
+    is_odd: 0
+    "no": 70
+  - 
+    comment: 今月号はトランスの作り方特集なのですｂ
+    date: 2009/11/08 00:17:48
+    is_admin: 1
+    is_odd: 1
+    "no": 71
+  - 
+    comment: ﾑﾌﾌ
+    date: 2009/11/08 00:18:00
+    is_odd: 0
+    "no": 72
+  - 
+    comment: 私はamazonで買って今日発送ってなってました。&gt;主
+    date: 2009/11/08 00:18:18
+    is_odd: 1
+    "no": 73
+  - 
+    comment: おめ！
+    date: 2009/11/08 00:18:23
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: 今月号はあとCubase Essential 5のレビューもあるのです。
+    date: 2009/11/08 00:18:35
+    is_admin: 1
+    is_odd: 1
+    "no": 75
+  - 
+    comment: Cubase Essential 4使いの主なのでうｐグレを模索中です。
+    date: 2009/11/08 00:18:53
+    is_admin: 1
+    is_odd: 0
+    "no": 76
+  - 
+    comment: 1万ちょいで出来るみたいなのでｗｋｔｋ
+    date: 2009/11/08 00:19:13
+    is_admin: 1
+    is_odd: 1
+    "no": 77
+  - 
+    comment: トランスか・・・えーと、イビザトランスが好きかなー
+    date: 2009/11/08 00:19:37
+    is_odd: 0
+    "no": 78
+  - 
+    comment: ああ、正統トランス　中毒になるぅ
+    date: 2009/11/08 00:19:46
+    is_odd: 1
+    "no": 79
+  - 
+    comment: イびザトランス。
+    date: 2009/11/08 00:19:51
+    is_admin: 1
+    is_odd: 0
+    "no": 80
+  - 
+    comment: ﾒﾓﾒﾓ
+    date: 2009/11/08 00:19:56
+    is_admin: 1
+    is_odd: 1
+    "no": 81
+  - 
+    comment: 代表アーティスト：ChicaneでおK?&gt;78
+    date: 2009/11/08 00:20:32
+    is_odd: 0
+    "no": 82
+  - 
+    comment: たぶんあってる。・・・イビザ島から発生したんだっけ・・・うーん、疎くてもうしわけない
+    date: 2009/11/08 00:22:03
+    is_odd: 1
+    "no": 83
+  - 
+    comment: ｔｈｘです！
+    date: 2009/11/08 00:22:15
+    is_admin: 1
+    is_odd: 0
+    "no": 84
+  - 
+    comment: 勉強なるなぁ。。
+    date: 2009/11/08 00:22:21
+    is_admin: 1
+    is_odd: 1
+    "no": 85
+  - 
+    comment: "■【初音ミク】　空色ラジオ　【オリジナル曲】 ■ フタエノP yuxuki "
+    date: 2009/11/08 00:22:31
+    is_admin: 1
+    is_odd: 0
+    "no": 86
+  - 
+    comment: "■2009.04.21 時/3:46 彡/3 ◆再/11,386 コ/372 マ/737 (6.5%) "
+    date: 2009/11/08 00:22:39
+    is_admin: 1
+    is_odd: 1
+    "no": 88
+  - 
+    comment: これはまたポップでおされなｗｗｗ
+    date: 2009/11/08 00:23:30
+    is_odd: 0
+    "no": 89
+  - 
+    comment: でしょでしょｂ
+    date: 2009/11/08 00:23:40
+    is_admin: 1
+    is_odd: 1
+    "no": 90
+  - 
+    comment: そして可愛い
+    date: 2009/11/08 00:23:46
+    is_admin: 1
+    is_odd: 0
+    "no": 91
+  - 
+    comment: オレ好みド真ん中！
+    date: 2009/11/08 00:24:19
+    is_odd: 1
+    "no": 92
+  - 
+    comment: ﾅｶｰﾏｂ
+    date: 2009/11/08 00:24:28
+    is_admin: 1
+    is_odd: 0
+    "no": 93
+  - 
+    comment: (*´∀`)ｂ
+    date: 2009/11/08 00:24:38
+    is_odd: 1
+    "no": 94
+  - 
+    comment: 正統派キラピコに定評のある主です(*´∀`)ｂ
+    date: 2009/11/08 00:24:48
+    is_admin: 1
+    is_odd: 0
+    "no": 95
+  - 
+    comment: ふぅギリギリ？間に合ったかなｗｗｗ
+    date: 2009/11/08 00:25:15
+    is_odd: 1
+    "no": 96
+  - 
+    comment: あ、じゃぁもう一枠やります？
+    date: 2009/11/08 00:25:28
+    is_admin: 1
+    is_odd: 0
+    "no": 97
+  - 
+    comment: イラストも主さん本人ですか？
+    date: 2009/11/08 00:25:31
+    is_odd: 1
+    "no": 98
+  - 
+    comment: ちょｗｗｗ
+    date: 2009/11/08 00:25:35
+    is_odd: 0
+    "no": 99
+  - 
+    comment: どこかで見た流れｗｗｗ
+    date: 2009/11/08 00:25:45
+    is_odd: 1
+    "no": 100
+  - 
+    comment: 俺のためにそこまでしなてもｗｗｗ
+    date: 2009/11/08 00:25:48
+    is_odd: 0
+    "no": 101
+  - 
+    comment: 昨晩の流れにはもっていかないがｗじゃぁあと一枠！
+    date: 2009/11/08 00:26:02
+    is_admin: 1
+    is_odd: 1
+    "no": 102
+  - 
+    comment: また一人虜にしようとｗ
+    date: 2009/11/08 00:26:04
+    is_odd: 0
+    "no": 103
+  - 
+    comment: ぬこと一緒にｗｋｔｋ
+    date: 2009/11/08 00:26:09
+    is_odd: 1
+    "no": 104
+  - 
+    comment: You やっちゃいなYO！
+    date: 2009/11/08 00:26:10
+    is_odd: 0
+    "no": 105
+  - 
+    comment: PV制作は別の方みたいですね～☆
+    date: 2009/11/08 00:26:11
+    is_admin: 1
+    is_odd: 1
+    "no": 106
+  - 
+    comment: "■【初音ミク】Stella Marine -little lovers' magic-【オリジナル】 ■ びにゅP "
+    date: 2009/11/08 00:26:21
+    is_admin: 1
+    is_odd: 0
+    "no": 107
+  - 
+    comment: "■2009.05.13 時/5:38 彡/21 ◆再/22,599 コ/518 マ/1,592 (7.0%) "
+    date: 2009/11/08 00:26:29
+    is_admin: 1
+    is_odd: 1
+    "no": 109
+  - 
+    comment: さぁて、この曲でこの枠はおしまいです。
+    date: 2009/11/08 00:26:35
+    is_admin: 1
+    is_odd: 0
+    "no": 110
+  - 
+    comment: みなさんありがとうございました！
+    date: 2009/11/08 00:26:41
+    is_admin: 1
+    is_odd: 1
+    "no": 111
+  - 
+    comment: ありがとうございましたー
+    date: 2009/11/08 00:26:50
+    is_odd: 0
+    "no": 112
+  - 
+    comment: は～い
+    date: 2009/11/08 00:27:05
+    is_odd: 1
+    "no": 113
+  - 
+    comment: 次枠ではニクノもあるよｂ
+    date: 2009/11/08 00:27:06
+    is_admin: 1
+    is_odd: 0
+    "no": 114
+  - 
+    comment: ミニマル・・・だよね？ここちいい
+    date: 2009/11/08 00:27:08
+    is_odd: 1
+    "no": 115
+  - 
+    comment: ギリギリに来ましたがおつかれですーｗ
+    date: 2009/11/08 00:27:09
+    is_odd: 0
+    "no": 116
+  - 
+    comment: アラートかけておいて良かったｗ
+    date: 2009/11/08 00:27:26
+    is_odd: 1
+    "no": 117
+  - 
+    comment: ニクノ、だと・・・。
+    date: 2009/11/08 00:27:28
+    is_odd: 0
+    "no": 118
+  - 
+    comment: ニクノひさびさｗ
+    date: 2009/11/08 00:27:32
+    is_odd: 1
+    "no": 119
+  - 
+    comment: 次枠ｗｋｔｋ
+    date: 2009/11/08 00:27:37
+    is_odd: 0
+    "no": 120
+  - 
+    comment: 久々のニクノですねｗお楽しみにーｗ
+    date: 2009/11/08 00:27:45
+    is_admin: 1
+    is_odd: 1
+    "no": 121
+  - 
+    comment: ニクノを知らない私or
+    date: 2009/11/08 00:27:54
+    is_odd: 0
+    "no": 122
+  - 
+    comment: まさかマジでもう1枠か？ｗｗｗｗｗ
+    date: 2009/11/08 00:27:56
+    is_odd: 1
+    "no": 123
+  - 
+    comment: orz
+    date: 2009/11/08 00:27:57
+    is_odd: 0
+    "no": 124
+  - 
+    comment: わたしもorz
+    date: 2009/11/08 00:28:04
+    is_odd: 1
+    "no": 125
+  - 
+    comment: ニクノとは、
+    date: 2009/11/08 00:28:07
+    is_admin: 1
+    is_odd: 0
+    "no": 126
+  - 
+    comment: とは？
+    date: 2009/11/08 00:28:28
+    is_odd: 1
+    "no": 127
+  - 
+    comment: ｺﾞｸﾘ
+    date: 2009/11/08 00:28:34
+    is_odd: 0
+    "no": 128
+  - 
+    comment: 昔肉屋でバイトしていた主がお肉についてのTipsを駄弁る企画です。
+    date: 2009/11/08 00:28:35
+    is_odd: 1
+    "no": 129
+  - 
+    comment: ちょｗｗ
+    date: 2009/11/08 00:28:48
+    is_odd: 0
+    "no": 130
+  - 
+    comment: ぶｗｗｗｗｗｗ
+    date: 2009/11/08 00:28:49
+    is_odd: 1
+    "no": 131
+  - 
+    comment: お肉で生活にエッセンスを～ｗ
+    date: 2009/11/08 00:28:49
+    is_admin: 1
+    is_odd: 0
+    "no": 132
+  - 
+    comment: そうだったんだｗｗ
+    date: 2009/11/08 00:28:50
+    is_odd: 1
+    "no": 133
+  - 
+    comment: 「ニクノポップをたべないか？」です←正式名称
+    date: 2009/11/08 00:29:06
+    is_admin: 1
+    is_odd: 0
+    "no": 134
+  - 
+    comment: 最近お肉を食べてないなぁ
+    date: 2009/11/08 00:29:44
+    is_odd: 1
+    "no": 135
+  - 
+    comment: 今回のテーマは「自宅でもステーキ肉を美味しく焼く方法」です。
+    date: 2009/11/08 00:29:48
+    is_admin: 1
+    is_odd: 0
+    "no": 136
+  - 
+    comment: SOLさんのブログにステーキの画像があったので、やりますｗ
+    date: 2009/11/08 00:30:12
+    is_admin: 1
+    is_odd: 1
+    "no": 137
+  - 
+    comment: k-skさんって選曲いいし、コメントも面白いからつい見てしまうｗｗｗ
+    date: 2009/11/08 00:30:52
+    is_odd: 0
+    "no": 138
+  - 
+    comment: SOLさん、何をｗ
+    date: 2009/11/08 00:30:54
+    is_odd: 1
+    "no": 139
+  - 
+    comment: じゃあ蛇足。ぬこは肉だけ食べてても骨がもろくなって危険！
+    date: 2009/11/08 00:31:09
+    is_odd: 0
+    "no": 140
+  - 
+    comment: ﾃﾚﾃﾚ
+    date: 2009/11/08 00:31:12
+    is_admin: 1
+    is_odd: 1
+    "no": 141
+  - 
+    comment: SPAMのいい調理法知ってたら教えてほしいんだぜ
+    date: 2009/11/08 00:31:18
+    is_odd: 0
+    "no": 142
+  - 
+    comment: いまきたｗ
+    date: 2009/11/08 00:31:35
+    is_odd: 1
+    "no": 143
+  - 
+    comment: 調べとく～ｗ
+    date: 2009/11/08 00:31:40
+    is_admin: 1
+    is_odd: 0
+    "no": 144
+  - 
+    comment: であ次枠！
+    date: 2009/11/08 00:31:45
+    is_admin: 1
+    is_odd: 1
+    "no": 145
+  - 
+    comment: のし！
+    date: 2009/11/08 00:31:47
+    is_admin: 1
+    is_odd: 0
+    "no": 146
+  - 
+    comment: あ、興味あります。友人にSPAM寿司ごちそうになったことある
+    date: 2009/11/08 00:31:49
+    is_odd: 1
+    "no": 147
+  - 
+    comment: 乙です！
+    date: 2009/11/08 00:31:49
+    is_odd: 0
+    "no": 148
+  - 
+    comment: 今北さんあと30秒ｗｗ
+    date: 2009/11/08 00:31:51
+    is_odd: 1
+    "no": 149
+  - 
+    comment: ノシです
+    date: 2009/11/08 00:31:53
+    is_odd: 0
+    "no": 150
+  - 
+    comment: ノシ
+    date: 2009/11/08 00:31:59
+    is_odd: 1
+    "no": 151
+  - 
+    comment: ノシ
+    date: 2009/11/08 00:32:01
+    is_odd: 0
+    "no": 152
+  - 
+    comment: 今来て今ノノシ
+    date: 2009/11/08 00:32:07
+    is_odd: 1
+    "no": 153
+frame: 1
+start: 1257606138
+time: 29
+

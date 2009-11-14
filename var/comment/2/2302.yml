@@ -1,0 +1,278 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: ばんわ！
+    date: 2009/10/13 00:22:56
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おやすミクノです。
+    date: 2009/10/13 00:23:02
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: お帰りｗ
+    date: 2009/10/13 00:23:03
+    is_odd: 1
+    "no": 3
+  - 
+    comment: ただいまｗ
+    date: 2009/10/13 00:23:06
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: ばんわ～
+    date: 2009/10/13 00:23:18
+    is_odd: 1
+    "no": 5
+  - 
+    comment: ■【ジングル】ミクノポップをきかないか？【Vacuons Dolls ver.A】 ◆ No.12 presented by aoid
+    date: 2009/10/13 00:23:35
+    is_admin: 1
+    is_odd: 0
+    "no": 7
+  - 
+    comment: 今枠では前枠でのリクを消化、主セレと続きます。
+    date: 2009/10/13 00:23:48
+    is_admin: 1
+    is_odd: 1
+    "no": 8
+  - 
+    comment: なのでリクエストは受け付けていません、よろしくです。
+    date: 2009/10/13 00:24:11
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: リクの感じに合わせてノリノリかこいい感じに集めてみました。
+    date: 2009/10/13 00:24:35
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: 後半少ししか聴けなかったけども、前枠のSOLさんの放送良かったー。
+    date: 2009/10/13 00:25:44
+    is_odd: 0
+    "no": 11
+  - 
+    comment: SOLさんの放送お気にです。
+    date: 2009/10/13 00:26:21
+    is_admin: 1
+    is_odd: 1
+    "no": 12
+  - 
+    comment: "■【初音ミクオリジナル曲】アンバランスコミュニケーション【SWANTONE】 ■ 曲者P "
+    date: 2009/10/13 00:26:23
+    is_odd: 0
+    "no": 13
+  - 
+    comment: "■2009.09.14 時/4:34 彡/8 ◆再/68,747 コ/1,615 マ/5,734 (8.3%) "
+    date: 2009/10/13 00:26:31
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: やはり可愛い歌。
+    date: 2009/10/13 00:30:47
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: "■【初音ミク】 kumo kage tristesse 【オリジナル】 ■ ずどどんP "
+    date: 2009/10/13 00:30:58
+    is_admin: 1
+    is_odd: 1
+    "no": 17
+  - 
+    comment: "■2009.06.30 時/3:30 彡/10 ◆再/44,527 コ/1,106 マ/2,388 (5.4%) "
+    date: 2009/10/13 00:31:06
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: 目が覚めたでしょ（リク主
+    date: 2009/10/13 00:32:22
+    is_odd: 1
+    "no": 20
+  - 
+    comment: ナイスリクです！ありがとうございます！ｂ
+    date: 2009/10/13 00:32:40
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: 眠いって言ってたっけかなぁｗ
+    date: 2009/10/13 00:32:50
+    is_admin: 1
+    is_odd: 1
+    "no": 22
+  - 
+    comment: お風呂とお酒でもうねむねむなはずｗｗ
+    date: 2009/10/13 00:33:19
+    is_odd: 0
+    "no": 23
+  - 
+    comment: まだ大丈夫ですｗｗｗ
+    date: 2009/10/13 00:33:31
+    is_admin: 1
+    is_odd: 1
+    "no": 24
+  - 
+    comment: はい
+    date: 2009/10/13 00:33:40
+    is_odd: 0
+    "no": 25
+  - 
+    comment: お酒無くなっちゃったよ。。。
+    date: 2009/10/13 00:34:06
+    is_admin: 1
+    is_odd: 1
+    "no": 26
+  - 
+    comment: "■【巡音ルカ】Freestyle -extend-【オリジナル曲】 ■ Rin（ぎん） "
+    date: 2009/10/13 00:34:28
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: "■2009.07.16 時/4:07 彡/30 ◆再/5,897 コ/165 マ/384 (6.5%) "
+    date: 2009/10/13 00:34:36
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: ''
+    date: 2009/10/13 00:38:35
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: "■2009.02.27 時/4:53 彡/7 ◆再/47,988 コ/1,377 マ/2,655 (5.5%) "
+    date: 2009/10/13 00:38:43
+    is_admin: 1
+    is_odd: 1
+    "no": 32
+  - 
+    comment: さっきは大丈夫とか言ってたけど、急に眠たくなってきたという。。
+    date: 2009/10/13 00:41:13
+    is_admin: 1
+    is_odd: 0
+    "no": 33
+  - 
+    comment: ふらり立ち寄ったらSOUとか嬉しすぎるｗｗｗｗ
+    date: 2009/10/13 00:41:14
+    is_odd: 1
+    "no": 34
+  - 
+    comment: いらっしゃい～ｗ
+    date: 2009/10/13 00:41:22
+    is_admin: 1
+    is_odd: 0
+    "no": 35
+  - 
+    comment: 主はこの放送が終わったらCUBASE再インスコしてきます。
+    date: 2009/10/13 00:42:50
+    is_admin: 1
+    is_odd: 1
+    "no": 36
+  - 
+    comment: なんか調子がよろしくないです。
+    date: 2009/10/13 00:43:09
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: "■【巡音ルカ／トランス】　Light　Past　【オリジナル】 ■ taat "
+    date: 2009/10/13 00:43:28
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: "■2009.09.20 時/4:53 彡/3 ◆再/442 コ/13 マ/19 (4.3%) "
+    date: 2009/10/13 00:43:36
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: "■【初音ミク】 ポンコツ天使 【オリジナル】 ■ ピノキオP "
+    date: 2009/10/13 00:48:24
+    is_admin: 1
+    is_odd: 1
+    "no": 41
+  - 
+    comment: "■2009.09.26 時/4:16 彡/1 ◆再/25,970 コ/806 マ/2,898 (11.2%) "
+    date: 2009/10/13 00:48:32
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: さて、この曲でこの枠はおしまいです。
+    date: 2009/10/13 00:48:46
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/10/13 00:48:51
+    is_admin: 1
+    is_odd: 0
+    "no": 45
+  - 
+    comment: お疲れ様ですー！
+    date: 2009/10/13 00:49:29
+    is_odd: 1
+    "no": 46
+  - 
+    comment: またミクノポップをよろしくです！
+    date: 2009/10/13 00:49:41
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: このピコピコ具合もいいねぇ。
+    date: 2009/10/13 00:51:15
+    is_admin: 1
+    is_odd: 1
+    "no": 48
+  - 
+    comment: ボカロは新しい音楽が始まってる感じがするのですきです。
+    date: 2009/10/13 00:51:47
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: その時代に触れられる事をまた光栄に思います。
+    date: 2009/10/13 00:52:08
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: それではまったね～ﾉｼ
+    date: 2009/10/13 00:52:15
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: おつかれ ノシ~
+    date: 2009/10/13 00:52:19
+    is_odd: 1
+    "no": 52
+  - 
+    comment: ですね～
+    date: 2009/10/13 00:52:20
+    is_odd: 0
+    "no": 53
+  - 
+    comment: ノシ
+    date: 2009/10/13 00:52:25
+    is_odd: 1
+    "no": 54
+frame: 1
+start: 1255360976
+time: 29
+

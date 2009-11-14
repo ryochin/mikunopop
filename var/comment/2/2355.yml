@@ -1,0 +1,679 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんばんわ！
+    date: 2009/10/20 00:15:33
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おやすミクノです。
+    date: 2009/10/20 00:15:43
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 主セレ→ミクノ
+    date: 2009/10/20 00:15:53
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: 今枠ではリク受け付けていません、よろしくです。
+    date: 2009/10/20 00:16:08
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: イケメン！　イケメン！
+    date: 2009/10/20 00:16:10
+    is_odd: 1
+    "no": 5
+  - 
+    comment: いらしゃい！
+    date: 2009/10/20 00:16:18
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: 乙ですぅぅぅ
+    date: 2009/10/20 00:16:27
+    is_odd: 1
+    "no": 7
+  - 
+    comment: ''
+    date: 2009/10/20 00:16:32
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: "■2009.09.09 時/5:16 彡/4 ◆再/39,074 コ/1,793 マ/3,406 (8.7%) "
+    date: 2009/10/20 00:16:40
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: 今枠はジングルも無しで。
+    date: 2009/10/20 00:16:50
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: ちょっと曲順でも統一感を出してみようかな、などと思いまして。
+    date: 2009/10/20 00:17:39
+    is_admin: 1
+    is_odd: 1
+    "no": 12
+  - 
+    comment: このコメントは表示されません
+    date: 2009/10/20 00:18:40
+    is_hidden: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: 「電子ドラッグで気持ちよく寝ちゃってー！」枠です☆
+    date: 2009/10/20 00:18:59
+    is_admin: 1
+    is_odd: 1
+    "no": 14
+  - 
+    comment: nocするためには長年の鍛錬が必要
+    date: 2009/10/20 00:19:31
+    is_odd: 0
+    "no": 15
+  - 
+    comment: 電子ドラッグでnocは難易度高い気がするｗ
+    date: 2009/10/20 00:19:50
+    is_odd: 1
+    "no": 16
+  - 
+    comment: 主なら、主なら出来る！
+    date: 2009/10/20 00:20:12
+    is_odd: 0
+    "no": 17
+  - 
+    comment: nocはしませんよｗｗ
+    date: 2009/10/20 00:20:13
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: ノイズ系は結構眠くなりますよ～
+    date: 2009/10/20 00:20:18
+    is_odd: 0
+    "no": 19
+  - 
+    comment: 頭ホワホワになっちゃってー
+    date: 2009/10/20 00:20:22
+    is_admin: 1
+    is_odd: 1
+    "no": 20
+  - 
+    comment: お、そうなんですね。＞ノイズ系
+    date: 2009/10/20 00:20:36
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: つ　カエンダケ
+    date: 2009/10/20 00:20:38
+    is_odd: 1
+    "no": 22
+  - 
+    comment: トロニカはかえって音に集中しちゃってｗ
+    date: 2009/10/20 00:21:04
+    is_odd: 0
+    "no": 23
+  - 
+    comment: そう簡単にnocさせてたまるかー！
+    date: 2009/10/20 00:21:26
+    is_odd: 1
+    "no": 24
+  - 
+    comment: カエンダケ調べてきた、恐いキノコですね。。
+    date: 2009/10/20 00:21:36
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: 今北　こばんわぁぁぁ！　ｲｹﾒﾝ枠おつですぅぅぅ
+    date: 2009/10/20 00:21:38
+    is_odd: 1
+    "no": 26
+  - 
+    comment: エレクトロニカとかって朝方に気持ちいいよね
+    date: 2009/10/20 00:21:45
+    is_odd: 0
+    "no": 27
+  - 
+    comment: "■【初音ミク】 DANCE 【オリジナル】 ■ かこい ラヴリーP "
+    date: 2009/10/20 00:21:47
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: "■2008.10.15 時/4:44 彡/6 ◆再/57,997 コ/2,090 マ/1,700 (2.9%) "
+    date: 2009/10/20 00:21:55
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: いいいらっしゃああああ！
+    date: 2009/10/20 00:21:59
+    is_admin: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: 朝トロニカいいですねｗ
+    date: 2009/10/20 00:22:12
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: オサレ～
+    date: 2009/10/20 00:22:15
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: この枠ラスト枠ですか？
+    date: 2009/10/20 00:22:44
+    is_odd: 0
+    "no": 34
+  - 
+    comment: ですです。
+    date: 2009/10/20 00:22:49
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: なんと・・・満喫しなくては・・・
+    date: 2009/10/20 00:23:01
+    is_odd: 0
+    "no": 36
+  - 
+    comment: ごめんねｗ
+    date: 2009/10/20 00:23:05
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: いあいあ
+    date: 2009/10/20 00:23:14
+    is_odd: 0
+    "no": 38
+  - 
+    comment: 主がｲｹﾒﾝなだけですべておｋ！
+    date: 2009/10/20 00:23:44
+    is_odd: 1
+    "no": 39
+  - 
+    comment: なんぞｗ
+    date: 2009/10/20 00:23:50
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: もっと電子ドラッグ　もあもあドラッグ
+    date: 2009/10/20 00:23:51
+    is_odd: 1
+    "no": 41
+  - 
+    comment: いやー　曲がよくてテンションあがっちゃってー
+    date: 2009/10/20 00:24:18
+    is_odd: 0
+    "no": 42
+  - 
+    comment: もあもあ把握！でももう時間合わせもしちゃったからなぁｗ
+    date: 2009/10/20 00:24:26
+    is_admin: 1
+    is_odd: 1
+    "no": 43
+  - 
+    comment: ラヴリーP ラヴリーP 　ラブ！！！
+    date: 2009/10/20 00:25:28
+    is_odd: 0
+    "no": 44
+  - 
+    comment: 第3回ミクノ大賞もテーマが「愛」
+    date: 2009/10/20 00:25:47
+    is_admin: 1
+    is_odd: 1
+    "no": 45
+  - 
+    comment: 皆さん投票よろしくね！
+    date: 2009/10/20 00:25:55
+    is_admin: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: 返事は！？
+    date: 2009/10/20 00:25:58
+    is_admin: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: あーい（愛
+    date: 2009/10/20 00:25:59
+    is_odd: 0
+    "no": 48
+  - 
+    comment: ども！ｗ
+    date: 2009/10/20 00:26:02
+    is_admin: 1
+    is_odd: 1
+    "no": 49
+  - 
+    comment: あーい（愛ｗ
+    date: 2009/10/20 00:26:12
+    is_odd: 0
+    "no": 50
+  - 
+    comment: "■【初音ミクオリジナル】necrocarnival ■ ちゃぁ \n"
+    date: 2009/10/20 00:26:33
+    is_admin: 1
+    is_odd: 1
+    "no": 51
+  - 
+    comment: "■2008.12.11 時/5:20 彡/17 ◆再/60,698 コ/3,311 マ/2,699 (4.4%) "
+    date: 2009/10/20 00:26:41
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: ああー　曲の流れが気持ちいいぃぃ～
+    date: 2009/10/20 00:27:52
+    is_odd: 1
+    "no": 54
+  - 
+    comment: もあもあ～
+    date: 2009/10/20 00:29:06
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: 電子ドラッグとは上手いこと言ったもんだ
+    date: 2009/10/20 00:29:55
+    is_odd: 1
+    "no": 56
+  - 
+    comment: 考えた人は天才ですね！
+    date: 2009/10/20 00:30:21
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: いぇぇぇええいいい！
+    date: 2009/10/20 00:30:57
+    is_odd: 1
+    "no": 58
+  - 
+    comment: 電子ドラッグは少々刺激が強いので次枠でインターバルはいります～
+    date: 2009/10/20 00:31:09
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: 枠じゃないｗ曲ねｗ
+    date: 2009/10/20 00:31:17
+    is_admin: 1
+    is_odd: 1
+    "no": 60
+  - 
+    comment: 一瞬喜んじゃったじゃないかｗｗ
+    date: 2009/10/20 00:31:32
+    is_odd: 0
+    "no": 61
+  - 
+    comment: ごめんｗｗ
+    date: 2009/10/20 00:31:37
+    is_admin: 1
+    is_odd: 1
+    "no": 62
+  - 
+    comment: "■【初音ミク】タヂウ人格【オリジナル曲】 ■ 盛るP "
+    date: 2009/10/20 00:31:53
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: インターバルっていうから、もう2枠行くのかとｗ
+    date: 2009/10/20 00:31:55
+    is_odd: 1
+    "no": 65
+  - 
+    comment: きみを許す
+    date: 2009/10/20 00:32:01
+    is_odd: 0
+    "no": 66
+  - 
+    comment: "■2009.05.12 時/3:10 彡/3 ◆再/90,162 コ/2,676 マ/3,781 (4.2%) "
+    date: 2009/10/20 00:32:01
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: この曲大好きですｂ
+    date: 2009/10/20 00:32:27
+    is_admin: 1
+    is_odd: 0
+    "no": 68
+  - 
+    comment: あまりインターバルで無かったかもｗ
+    date: 2009/10/20 00:33:54
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: まあええがな！
+    date: 2009/10/20 00:34:31
+    is_odd: 0
+    "no": 70
+  - 
+    comment: ありがと！
+    date: 2009/10/20 00:34:37
+    is_admin: 1
+    is_odd: 1
+    "no": 71
+  - 
+    comment: "■【初音ミク】 machine muzik 【オリジナル】 ■ かなえP 鼎沙耶 "
+    date: 2009/10/20 00:35:03
+    is_admin: 1
+    is_odd: 0
+    "no": 72
+  - 
+    comment: "■2008.12.19 時/4:34 彡/2 ◆再/10,977 コ/337 マ/487 (4.4%) "
+    date: 2009/10/20 00:35:11
+    is_admin: 1
+    is_odd: 1
+    "no": 74
+  - 
+    comment: この曲の3DPVもかっこいいですよ。
+    date: 2009/10/20 00:35:59
+    is_admin: 1
+    is_odd: 0
+    "no": 75
+  - 
+    comment: それは見なくてはー
+    date: 2009/10/20 00:36:16
+    is_odd: 1
+    "no": 76
+  - 
+    comment: 口元わさわさしてるやつかな？
+    date: 2009/10/20 00:36:19
+    is_odd: 0
+    "no": 77
+  - 
+    comment: ですです！
+    date: 2009/10/20 00:36:31
+    is_admin: 1
+    is_odd: 1
+    "no": 78
+  - 
+    comment: ああ　あと10分なのか～　早いのお
+    date: 2009/10/20 00:36:57
+    is_odd: 0
+    "no": 79
+  - 
+    comment: 今来たあああああこんばんわああぁぁぁ
+    date: 2009/10/20 00:36:59
+    is_odd: 1
+    "no": 80
+  - 
+    comment: フィンランドの作風に良く似ている感じですね＞3DPV
+    date: 2009/10/20 00:37:07
+    is_admin: 1
+    is_odd: 0
+    "no": 81
+  - 
+    comment: いらっさー！
+    date: 2009/10/20 00:37:13
+    is_admin: 1
+    is_odd: 1
+    "no": 82
+  - 
+    comment: (^0^)/ちゃ？
+    date: 2009/10/20 00:37:18
+    is_odd: 0
+    "no": 83
+  - 
+    comment: 今北さん　いらっっしゃああああいいいぃぃ！
+    date: 2009/10/20 00:37:22
+    is_odd: 1
+    "no": 84
+  - 
+    comment: というかｎｏｃしてたあああｗ
+    date: 2009/10/20 00:37:42
+    is_odd: 0
+    "no": 85
+  - 
+    comment: どまですｗｗ
+    date: 2009/10/20 00:37:47
+    is_admin: 1
+    is_odd: 1
+    "no": 86
+  - 
+    comment: で、結局、パズル600面はクリアーしたの？
+    date: 2009/10/20 00:38:38
+    is_odd: 0
+    "no": 87
+  - 
+    comment: 250面までいきましたｗ
+    date: 2009/10/20 00:38:46
+    is_admin: 1
+    is_odd: 1
+    "no": 88
+  - 
+    comment: 続きやってたのかｗ
+    date: 2009/10/20 00:38:56
+    is_odd: 0
+    "no": 89
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/20 00:38:59
+    is_admin: 1
+    is_odd: 1
+    "no": 90
+  - 
+    comment: あと350か・・・今日中にはいけるなｗ
+    date: 2009/10/20 00:39:03
+    is_odd: 0
+    "no": 91
+  - 
+    comment: もっと熱くなれよ！
+    date: 2009/10/20 00:39:12
+    is_odd: 1
+    "no": 92
+  - 
+    comment: がんばります！
+    date: 2009/10/20 00:39:17
+    is_admin: 1
+    is_odd: 0
+    "no": 93
+  - 
+    comment: 良い頭の体操になるので、iPhone,iPod touch持ってる方はゼヒ
+    date: 2009/10/20 00:39:39
+    is_admin: 1
+    is_odd: 1
+    "no": 94
+  - 
+    comment: "■【初音ミク】Love Love Nightmare【オリジナル曲】 ■ kiichi なんとかP "
+    date: 2009/10/20 00:39:41
+    is_admin: 1
+    is_odd: 0
+    "no": 95
+  - 
+    comment: "■2008.09.04 時/4:44 彡/21 ◆再/85,103 コ/3,209 マ/3,238 (3.8%) "
+    date: 2009/10/20 00:39:49
+    is_admin: 1
+    is_odd: 1
+    "no": 97
+  - 
+    comment: 「Unblock Me Free」ってやつですね。
+    date: 2009/10/20 00:40:18
+    is_admin: 1
+    is_odd: 0
+    "no": 98
+  - 
+    comment: クリアーしたら思うんだぜ「俺なにやってたんだろ？」とかｗ
+    date: 2009/10/20 00:40:23
+    is_odd: 1
+    "no": 99
+  - 
+    comment: それは言わない約束ですｗ
+    date: 2009/10/20 00:40:31
+    is_admin: 1
+    is_odd: 0
+    "no": 100
+  - 
+    comment: でもそれが大事ｗ
+    date: 2009/10/20 00:40:40
+    is_odd: 1
+    "no": 101
+  - 
+    comment: ぱづる？
+    date: 2009/10/20 00:40:43
+    is_odd: 0
+    "no": 102
+  - 
+    comment: ゲームをやる時の常ですねｗ
+    date: 2009/10/20 00:40:46
+    is_odd: 1
+    "no": 103
+  - 
+    comment: パズル合わせるとハァハァウッフンな絵が出るやつですね。分かりますｗ
+    date: 2009/10/20 00:41:23
+    is_odd: 0
+    "no": 104
+  - 
+    comment: なるほど理解
+    date: 2009/10/20 00:41:34
+    is_odd: 1
+    "no": 105
+  - 
+    comment: そんなパズルが！
+    date: 2009/10/20 00:41:39
+    is_admin: 1
+    is_odd: 0
+    "no": 106
+  - 
+    comment: え！？だから燃えてたんじゃなかったの？
+    date: 2009/10/20 00:41:54
+    is_odd: 1
+    "no": 107
+  - 
+    comment: 売ってるのですかね？？ちょっとゲーム分野はわからないのですよ～。。。
+    date: 2009/10/20 00:42:18
+    is_odd: 0
+    "no": 108
+  - 
+    comment: 売ってないはずｗｗ
+    date: 2009/10/20 00:42:35
+    is_odd: 1
+    "no": 109
+  - 
+    comment: 64のスマブラで止まってます＞＜
+    date: 2009/10/20 00:42:37
+    is_admin: 1
+    is_odd: 0
+    "no": 110
+  - 
+    comment: あ、この曲でこの枠はおしまいです。
+    date: 2009/10/20 00:43:17
+    is_admin: 1
+    is_odd: 1
+    "no": 111
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/10/20 00:43:23
+    is_admin: 1
+    is_odd: 0
+    "no": 112
+  - 
+    comment: は～い
+    date: 2009/10/20 00:43:24
+    is_odd: 1
+    "no": 113
+  - 
+    comment: 乙でした
+    date: 2009/10/20 00:43:29
+    is_odd: 0
+    "no": 114
+  - 
+    comment: 皆さん良い夢を！！
+    date: 2009/10/20 00:43:32
+    is_admin: 1
+    is_odd: 1
+    "no": 115
+  - 
+    comment: まだ寝ないもん！
+    date: 2009/10/20 00:43:41
+    is_odd: 0
+    "no": 116
+  - 
+    comment: 火曜日も張り切っていきましょー！
+    date: 2009/10/20 00:43:44
+    is_admin: 1
+    is_odd: 1
+    "no": 117
+  - 
+    comment: お疲れ様でした～
+    date: 2009/10/20 00:43:45
+    is_odd: 0
+    "no": 118
+  - 
+    comment: まだ寝なイ･･･ｚｚｚ・・・ｚｚ・・ｚｚ・・・・・
+    date: 2009/10/20 00:44:25
+    is_odd: 1
+    "no": 119
+  - 
+    comment: ■【初音ミク】近未来ラジオ【ジングル用】 ◆ No.2 presented by ぎん
+    date: 2009/10/20 00:44:27
+    is_admin: 1
+    is_odd: 0
+    "no": 121
+  - 
+    comment: ラジオノイズっていいですよね。
+    date: 2009/10/20 00:44:47
+    is_admin: 1
+    is_odd: 1
+    "no": 122
+  - 
+    comment: ではおやすみなさい！
+    date: 2009/10/20 00:44:56
+    is_admin: 1
+    is_odd: 0
+    "no": 123
+  - 
+    comment: イケメン動画（愛）　またあした～☆
+    date: 2009/10/20 00:44:59
+    is_odd: 1
+    "no": 124
+  - 
+    comment: のし！
+    date: 2009/10/20 00:45:02
+    is_admin: 1
+    is_odd: 0
+    "no": 125
+  - 
+    comment: あーい（愛
+    date: 2009/10/20 00:45:05
+    is_odd: 1
+    "no": 126
+  - 
+    comment: まったね～！
+    date: 2009/10/20 00:45:06
+    is_admin: 1
+    is_odd: 0
+    "no": 127
+  - 
+    comment: ノシ
+    date: 2009/10/20 00:45:10
+    is_odd: 1
+    "no": 128
+frame: 1
+start: 1255965333
+time: 29
+

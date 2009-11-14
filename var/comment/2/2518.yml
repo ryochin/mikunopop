@@ -1,0 +1,872 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんばんわ！
+    date: 2009/11/07 00:07:28
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おやすミクノです
+    date: 2009/11/07 00:07:31
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 乙ですぅぅ
+    date: 2009/11/07 00:07:37
+    is_odd: 1
+    "no": 3
+  - 
+    comment: 主セレ→爽やかなミクうた
+    date: 2009/11/07 00:07:40
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: リク随時でっす！
+    date: 2009/11/07 00:07:44
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: はやーいｗ乙でっす！
+    date: 2009/11/07 00:07:58
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: アラートおりこうさん
+    date: 2009/11/07 00:08:14
+    is_odd: 1
+    "no": 7
+  - 
+    comment: ■【ジングル】円の中の世界【EN】◆ No.7 presented by きぬこもち
+    date: 2009/11/07 00:08:17
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: アラートさんさすがです
+    date: 2009/11/07 00:08:34
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: 枠乙です
+    date: 2009/11/07 00:08:42
+    is_odd: 0
+    "no": 11
+  - 
+    comment: 主　24時間配信かW
+    date: 2009/11/07 00:08:49
+    is_odd: 1
+    "no": 12
+  - 
+    comment: 24時間体制ではありますねｗ
+    date: 2009/11/07 00:09:02
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: 朝まで配信？
+    date: 2009/11/07 00:09:14
+    is_odd: 1
+    "no": 14
+  - 
+    comment: いや、2枠くらいかな？ｗ
+    date: 2009/11/07 00:09:26
+    is_admin: 1
+    is_odd: 0
+    "no": 15
+  - 
+    comment: 遠慮しなくってもいいんだよ？
+    date: 2009/11/07 00:10:35
+    is_odd: 1
+    "no": 16
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/07 00:10:40
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: "■【初音ミク】A MIDSUMMER DREAMER【オリジナル】 ■ ミッサマP P*Light "
+    date: 2009/11/07 00:11:06
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: "■2009.07.15 時/3:32 彡/11 ◆再/10,299 コ/353 マ/631 (6.1%) "
+    date: 2009/11/07 00:11:14
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: この曲が再生数伸びないのやきもきです。。
+    date: 2009/11/07 00:11:38
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: 一万超えてるんだぜ・・・
+    date: 2009/11/07 00:11:59
+    is_odd: 0
+    "no": 22
+  - 
+    comment: あ、そういわれればそうか。。
+    date: 2009/11/07 00:12:16
+    is_admin: 1
+    is_odd: 1
+    "no": 23
+  - 
+    comment: 今北！　おやすミクノ！
+    date: 2009/11/07 00:12:28
+    is_odd: 0
+    "no": 24
+  - 
+    comment: おやすミクノ！
+    date: 2009/11/07 00:12:33
+    is_admin: 1
+    is_odd: 1
+    "no": 25
+  - 
+    comment: ５００再生行かない　とかなら伸びないと言われても判る
+    date: 2009/11/07 00:12:34
+    is_odd: 0
+    "no": 26
+  - 
+    comment: すんませんでしたorz
+    date: 2009/11/07 00:12:42
+    is_admin: 1
+    is_odd: 1
+    "no": 27
+  - 
+    comment: 伸びない曲とかはどうやって発掘してきてるんだろう？
+    date: 2009/11/07 00:13:38
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: ソートかなぁ？
+    date: 2009/11/07 00:13:46
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: nm8600262
+    date: 2009/11/07 00:14:22
+    is_odd: 0
+    "no": 30
+  - 
+    comment: 直感ですｗ
+    date: 2009/11/07 00:14:22
+    is_odd: 1
+    "no": 31
+  - 
+    comment: 新着とかマイリス率とか
+    date: 2009/11/07 00:14:38
+    is_odd: 0
+    "no": 32
+  - 
+    comment: 直感！流石訓練されたミクノ民は違うｗ
+    date: 2009/11/07 00:14:39
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: 伸びない曲の発掘・・・kotacという放送主がいてだなぁ・・・ｗ
+    date: 2009/11/07 00:14:39
+    is_odd: 0
+    "no": 34
+  - 
+    comment: ■【巡音ルカ】How Deep Is The Sea【オリジナル】 ■ P名?
+    date: 2009/11/07 00:14:43
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: "■2009.10.24 時/4:00 彡/2 ◆再/1,827 コ/69 マ/265 (14.5%) "
+    date: 2009/11/07 00:14:51
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: タグ検索であとは適当って探し方しか知らない・・・
+    date: 2009/11/07 00:15:27
+    is_odd: 1
+    "no": 38
+  - 
+    comment: もっと上手いサルベージのしかたとか出たら面白いですね～
+    date: 2009/11/07 00:15:51
+    is_admin: 1
+    is_odd: 0
+    "no": 39
+  - 
+    comment: コメントが新しい順だとほどよく発掘できるかな～
+    date: 2009/11/07 00:15:53
+    is_odd: 1
+    "no": 40
+  - 
+    comment: ニコニコらしいというか。
+    date: 2009/11/07 00:15:56
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: あ、なるほど！
+    date: 2009/11/07 00:15:59
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: 古い曲出て来ないんじゃない？
+    date: 2009/11/07 00:16:18
+    is_odd: 0
+    "no": 43
+  - 
+    comment: こんばは、今日放送しすぎだなｗ
+    date: 2009/11/07 00:16:19
+    is_odd: 1
+    "no": 44
+  - 
+    comment: ↑いい意味でね
+    date: 2009/11/07 00:16:30
+    is_odd: 0
+    "no": 45
+  - 
+    comment: やっぱ自重した方がよかったですかね？ｗｗ
+    date: 2009/11/07 00:16:37
+    is_admin: 1
+    is_odd: 1
+    "no": 46
+  - 
+    comment: リア充爆発しろ　を絶叫しないと発掘無理か・・・・
+    date: 2009/11/07 00:16:46
+    is_odd: 0
+    "no": 47
+  - 
+    comment: 迷ったのですよーｗ
+    date: 2009/11/07 00:16:46
+    is_admin: 1
+    is_odd: 1
+    "no": 48
+  - 
+    comment: Dependence Intensionとか良さそう
+    date: 2009/11/07 00:16:56
+    is_odd: 0
+    "no": 49
+  - 
+    comment: 自重ｲｸﾅｲ！　今日の主ｶｺｲｲ！
+    date: 2009/11/07 00:17:59
+    is_odd: 1
+    "no": 50
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/07 00:18:18
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: でもPVはやくみたいｗ
+    date: 2009/11/07 00:18:18
+    is_odd: 1
+    "no": 52
+  - 
+    comment: ｗｗｗｗ
+    date: 2009/11/07 00:18:22
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: nm8661880
+    date: 2009/11/07 00:18:42
+    is_odd: 1
+    "no": 54
+  - 
+    comment: まだ絵コンテ中でっすｗ
+    date: 2009/11/07 00:18:43
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: 主なら主やりながらＰＶも作ってくれるｼﾝｼﾞﾃﾙ
+    date: 2009/11/07 00:18:43
+    is_odd: 1
+    "no": 56
+  - 
+    comment: "■【初音ミク】 O(0,0) -Origin- 【オリジナル曲】　 ■ takamatt "
+    date: 2009/11/07 00:18:49
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: うんｼﾝｼﾞﾃﾙ
+    date: 2009/11/07 00:18:54
+    is_odd: 1
+    "no": 59
+  - 
+    comment: "■2009.10.30 時/3:27 彡/0 ◆再/517 コ/27 マ/55 (10.6%) "
+    date: 2009/11/07 00:18:57
+    is_admin: 1
+    is_odd: 0
+    "no": 60
+  - 
+    comment: ｶﾞﾝﾊﾞﾙ
+    date: 2009/11/07 00:19:05
+    is_admin: 1
+    is_odd: 1
+    "no": 61
+  - 
+    comment: そいえばもうそっち雪振ったの？
+    date: 2009/11/07 00:19:22
+    is_odd: 0
+    "no": 62
+  - 
+    comment: イラストすてきんぐ
+    date: 2009/11/07 00:19:25
+    is_admin: 1
+    is_odd: 1
+    "no": 63
+  - 
+    comment: 初雪は降りましたね、
+    date: 2009/11/07 00:19:36
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: 初日まさかの吹雪でした
+    date: 2009/11/07 00:19:43
+    is_admin: 1
+    is_odd: 1
+    "no": 65
+  - 
+    comment: ひぇ～
+    date: 2009/11/07 00:19:53
+    is_odd: 0
+    "no": 66
+  - 
+    comment: もう初雪か　早いねぇ
+    date: 2009/11/07 00:19:59
+    is_odd: 1
+    "no": 67
+  - 
+    comment: いつもより早いですねぇ。。
+    date: 2009/11/07 00:20:08
+    is_admin: 1
+    is_odd: 0
+    "no": 68
+  - 
+    comment: もうそろ窓が開かなくなりますｂ
+    date: 2009/11/07 00:20:18
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: 雪虫みてみたい
+    date: 2009/11/07 00:20:20
+    is_odd: 0
+    "no": 70
+  - 
+    comment: 雪虫ですかｗｗ
+    date: 2009/11/07 00:20:32
+    is_admin: 1
+    is_odd: 1
+    "no": 71
+  - 
+    comment: 普段雪の無い地方だから雪ってちょっと憧れる。寒いんだろうけどｗ
+    date: 2009/11/07 00:20:38
+    is_odd: 0
+    "no": 72
+  - 
+    comment: いっその事、本州以南に永住していただきたいｗｗｗ
+    date: 2009/11/07 00:20:56
+    is_admin: 1
+    is_odd: 1
+    "no": 73
+  - 
+    comment: 雪かきさえなければいいんだがｗ
+    date: 2009/11/07 00:21:04
+    is_odd: 0
+    "no": 74
+  - 
+    comment: やっぱり大変なんだよねｗごめん
+    date: 2009/11/07 00:21:43
+    is_odd: 1
+    "no": 75
+  - 
+    comment: いあいあｗ
+    date: 2009/11/07 00:21:50
+    is_admin: 1
+    is_odd: 0
+    "no": 76
+  - 
+    comment: 南は　じりじり暑い太陽がヤダ。
+    date: 2009/11/07 00:21:52
+    is_odd: 1
+    "no": 77
+  - 
+    comment: 子どものお仕事みたいなものですからｗ
+    date: 2009/11/07 00:21:58
+    is_admin: 1
+    is_odd: 0
+    "no": 78
+  - 
+    comment: "■【雪ミク】Fake Plastic Snow【初音ミクオリジナル】 ■ びにゅP "
+    date: 2009/11/07 00:22:20
+    is_admin: 1
+    is_odd: 1
+    "no": 79
+  - 
+    comment: 雪ミクで
+    date: 2009/11/07 00:22:25
+    is_admin: 1
+    is_odd: 0
+    "no": 81
+  - 
+    comment: "■2008.09.21 時/4:53 彡/10 ◆再/5,204 コ/168 マ/179 (3.4%) "
+    date: 2009/11/07 00:22:28
+    is_admin: 1
+    is_odd: 1
+    "no": 82
+  - 
+    comment: びにゅＰ！　びにゅＰ！
+    date: 2009/11/07 00:22:34
+    is_odd: 0
+    "no": 83
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/11/07 00:22:38
+    is_odd: 1
+    "no": 84
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/11/07 00:22:45
+    is_odd: 0
+    "no": 85
+  - 
+    comment: 雪虫ってなーに？
+    date: 2009/11/07 00:22:54
+    is_odd: 1
+    "no": 86
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/11/07 00:22:54
+    is_odd: 0
+    "no": 87
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/11/07 00:22:57
+    is_odd: 1
+    "no": 88
+  - 
+    comment: 雪虫は雪が振る前に大量発生する虫ですね。
+    date: 2009/11/07 00:23:16
+    is_admin: 1
+    is_odd: 0
+    "no": 89
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/11/07 00:23:18
+    is_odd: 1
+    "no": 90
+  - 
+    comment: ''
+    date: 2009/11/07 00:23:27
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 91
+  - 
+    comment: 肺胞が詰まってね。
+    date: 2009/11/07 00:23:38
+    is_admin: 1
+    is_odd: 1
+    "no": 92
+  - 
+    comment: え　ほんとに虫なんだ　なんか雪の綺麗な現象かと予想してた
+    date: 2009/11/07 00:23:48
+    is_odd: 0
+    "no": 93
+  - 
+    comment: 虫ですよーｗ　虫嫌いな方にとっては地獄かとｗ
+    date: 2009/11/07 00:24:07
+    is_admin: 1
+    is_odd: 1
+    "no": 94
+  - 
+    comment: なにか怖いものを想像してしまった；；
+    date: 2009/11/07 00:24:16
+    is_odd: 0
+    "no": 95
+  - 
+    comment: 大きい公園で女性の叫び声が聞こえたら雪虫の季節が来たな、とｗ
+    date: 2009/11/07 00:24:31
+    is_admin: 1
+    is_odd: 1
+    "no": 96
+  - 
+    comment: ｗｗｗｗｗ
+    date: 2009/11/07 00:24:39
+    is_odd: 0
+    "no": 97
+  - 
+    comment: 雪３０ｃｍしか積もらないけど　雪虫居ない＠内地
+    date: 2009/11/07 00:24:43
+    is_odd: 1
+    "no": 98
+  - 
+    comment: ''
+    date: 2009/11/07 00:25:05
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 99
+  - 
+    comment: 30cm”しか”って・・・
+    date: 2009/11/07 00:25:11
+    is_odd: 1
+    "no": 100
+  - 
+    comment: 虫自体は大きさ1mmないんだけどね。
+    date: 2009/11/07 00:25:20
+    is_admin: 1
+    is_odd: 0
+    "no": 101
+  - 
+    comment: 自分も生まれ雪国だけど雪虫知らなかった
+    date: 2009/11/07 00:25:23
+    is_odd: 1
+    "no": 102
+  - 
+    comment: Gの変わりにそんな恐ろしいのがいるのか
+    date: 2009/11/07 00:25:43
+    is_odd: 0
+    "no": 103
+  - 
+    comment: ( ｀ิ,_ゝ´ิ)＜雪虫・・・恐ろしいですな･･･
+    date: 2009/11/07 00:25:44
+    is_odd: 1
+    "no": 104
+  - 
+    comment: でたエセメンｗｗ
+    date: 2009/11/07 00:25:53
+    is_admin: 1
+    is_odd: 0
+    "no": 105
+  - 
+    comment: ( ｀ิ,_ゝ´ิ)＜どこにエセメンでました？
+    date: 2009/11/07 00:26:19
+    is_odd: 1
+    "no": 106
+  - 
+    comment: 主、あいかわらずイケメンに冷たいな
+    date: 2009/11/07 00:26:23
+    is_odd: 0
+    "no": 107
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/07 00:26:26
+    is_admin: 1
+    is_odd: 1
+    "no": 108
+  - 
+    comment: ・・・・同属嫌悪か
+    date: 2009/11/07 00:26:36
+    is_odd: 0
+    "no": 109
+  - 
+    comment: ライバル誕生？
+    date: 2009/11/07 00:26:44
+    is_odd: 1
+    "no": 110
+  - 
+    comment: ｲﾅｺﾞの大量発生を想像してみた　こわす
+    date: 2009/11/07 00:26:46
+    is_odd: 0
+    "no": 111
+  - 
+    comment: 雪虫がいなくなると雪が降ってきます、それで「雪虫」なのです。
+    date: 2009/11/07 00:26:49
+    is_admin: 1
+    is_odd: 1
+    "no": 112
+  - 
+    comment: "■【ミクオリジナル曲】パフスリーブ・ガール【あつぞうくん】 ■ あつぞうくん "
+    date: 2009/11/07 00:27:17
+    is_admin: 1
+    is_odd: 0
+    "no": 113
+  - 
+    comment: "■2009.05.23 時/3:09 彡/12 ◆再/6,274 コ/170 マ/411 (6.6%) "
+    date: 2009/11/07 00:27:25
+    is_admin: 1
+    is_odd: 1
+    "no": 115
+  - 
+    comment: 綺麗な名前なのにね・・・
+    date: 2009/11/07 00:27:27
+    is_odd: 0
+    "no": 116
+  - 
+    comment: あつぞうくん！あつぞうくん！( ﾟ∀ﾟ)o彡ﾟ
+    date: 2009/11/07 00:27:28
+    is_odd: 1
+    "no": 117
+  - 
+    comment: あつぞうくん！あつぞうくん！( ﾟ∀ﾟ)o彡ﾟ
+    date: 2009/11/07 00:27:40
+    is_odd: 0
+    "no": 118
+  - 
+    comment: ですねｗ
+    date: 2009/11/07 00:27:41
+    is_admin: 1
+    is_odd: 1
+    "no": 119
+  - 
+    comment: ( ｀ิ,_ゝ´ิ)＜あつぞうくん！あつぞうくん！
+    date: 2009/11/07 00:27:52
+    is_odd: 0
+    "no": 120
+  - 
+    comment: やはりツボるｗｗ
+    date: 2009/11/07 00:28:00
+    is_admin: 1
+    is_odd: 1
+    "no": 121
+  - 
+    comment: あつぞうくん！あつぞうくん！( ﾟ∀ﾟ)o彡ﾟ
+    date: 2009/11/07 00:28:06
+    is_odd: 0
+    "no": 122
+  - 
+    comment: あつぞうくん！あつぞうくん！ヽ(●´ε｀●)ノ
+    date: 2009/11/07 00:28:28
+    is_odd: 1
+    "no": 123
+  - 
+    comment: あつぞうくん！あつぞうくん！( ｀ิ,_ゝ´ิ)o彡ﾟ
+    date: 2009/11/07 00:28:40
+    is_odd: 0
+    "no": 124
+  - 
+    comment: はらいてｗｗ
+    date: 2009/11/07 00:29:04
+    is_odd: 1
+    "no": 125
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/07 00:29:27
+    is_admin: 1
+    is_odd: 0
+    "no": 126
+  - 
+    comment: 茶目っ気たっぷりのイケメンですねｗ
+    date: 2009/11/07 00:29:59
+    is_odd: 1
+    "no": 127
+  - 
+    comment: "■【初音ミク】 スィート・クラッシュ・モンスター【オリジナル】 ■ コスモスP "
+    date: 2009/11/07 00:30:29
+    is_admin: 1
+    is_odd: 0
+    "no": 128
+  - 
+    comment: "■2009.04.12 時/4:24 彡/10 ◆再/1,488 コ/26 マ/32 (2.2%) "
+    date: 2009/11/07 00:30:37
+    is_admin: 1
+    is_odd: 1
+    "no": 130
+  - 
+    comment: ジェットストリームｗいつ再開するかな？
+    date: 2009/11/07 00:31:21
+    is_odd: 0
+    "no": 131
+  - 
+    comment: ついったでは忙しさが一段落したみたいですねｗ
+    date: 2009/11/07 00:31:52
+    is_admin: 1
+    is_odd: 1
+    "no": 132
+  - 
+    comment: 期待～☆
+    date: 2009/11/07 00:32:05
+    is_admin: 1
+    is_odd: 0
+    "no": 133
+  - 
+    comment: 楽しみ～☆
+    date: 2009/11/07 00:32:31
+    is_odd: 1
+    "no": 134
+  - 
+    comment: ( ｀ิ,_ゝ´ิ)＜貴方のハートにジェットストリーム☆
+    date: 2009/11/07 00:32:36
+    is_odd: 0
+    "no": 135
+  - 
+    comment: ｗｗｗｗｗｗｗｗｗｗ
+    date: 2009/11/07 00:32:41
+    is_admin: 1
+    is_odd: 1
+    "no": 136
+  - 
+    comment: ｗｗ
+    date: 2009/11/07 00:32:48
+    is_odd: 0
+    "no": 137
+  - 
+    comment: もうね、卑怯ｗｗ色々と卑怯ｗｗ
+    date: 2009/11/07 00:33:16
+    is_admin: 1
+    is_odd: 1
+    "no": 138
+  - 
+    comment: ( ｀ิ,_ゝ´ิ)＜でも私、代理なんですけどね
+    date: 2009/11/07 00:33:40
+    is_odd: 0
+    "no": 139
+  - 
+    comment: 新事実！！
+    date: 2009/11/07 00:34:10
+    is_odd: 1
+    "no": 140
+  - 
+    comment: 代理お疲れ様ですｗ本物と思えるくらいのクオリティでしたｗ
+    date: 2009/11/07 00:34:12
+    is_admin: 1
+    is_odd: 0
+    "no": 141
+  - 
+    comment: ( ｀ิ,_ゝ´ิ)＜じゃあ俺イケメン代理補佐始めようかな
+    date: 2009/11/07 00:34:27
+    is_odd: 1
+    "no": 142
+  - 
+    comment: ｗｗｗｗ
+    date: 2009/11/07 00:34:44
+    is_admin: 1
+    is_odd: 0
+    "no": 143
+  - 
+    comment: ( ｀ิ,_ゝ´ิ)＜イケメン同士気が合いますね
+    date: 2009/11/07 00:34:51
+    is_odd: 1
+    "no": 144
+  - 
+    comment: "■【初音ミク】Green Apple -Radio edit-【オリジナル曲】 ■ Rin（ぎん） "
+    date: 2009/11/07 00:34:55
+    is_admin: 1
+    is_odd: 0
+    "no": 145
+  - 
+    comment: "■2009.06.16 時/2:47 彡/16 ◆再/3,613 コ/80 マ/223 (6.2%) "
+    date: 2009/11/07 00:35:05
+    is_admin: 1
+    is_odd: 1
+    "no": 147
+  - 
+    comment: さて！この曲でこの枠はおしまいでっす！ｗ
+    date: 2009/11/07 00:35:08
+    is_admin: 1
+    is_odd: 0
+    "no": 148
+  - 
+    comment: 皆さんありがとうございましたーｗ
+    date: 2009/11/07 00:35:15
+    is_admin: 1
+    is_odd: 1
+    "no": 149
+  - 
+    comment: ｲｹﾒﾝたんおつ！
+    date: 2009/11/07 00:35:28
+    is_odd: 0
+    "no": 150
+  - 
+    comment: 次枠でもよろしくです～☆ｗｗ
+    date: 2009/11/07 00:35:39
+    is_admin: 1
+    is_odd: 1
+    "no": 151
+  - 
+    comment: てへ☆
+    date: 2009/11/07 00:35:48
+    is_odd: 0
+    "no": 152
+  - 
+    comment: うふ☆
+    date: 2009/11/07 00:35:55
+    is_admin: 1
+    is_odd: 1
+    "no": 153
+  - 
+    comment: おつ☆
+    date: 2009/11/07 00:35:57
+    is_odd: 0
+    "no": 154
+  - 
+    comment: ども☆
+    date: 2009/11/07 00:36:02
+    is_admin: 1
+    is_odd: 1
+    "no": 155
+  - 
+    comment: であ移動☆
+    date: 2009/11/07 00:36:12
+    is_admin: 1
+    is_odd: 0
+    "no": 156
+  - 
+    comment: ( ｀ิ,_ゝ´ิ)＜乙ですね
+    date: 2009/11/07 00:36:13
+    is_odd: 1
+    "no": 157
+  - 
+    comment: ｗｗｗｗ
+    date: 2009/11/07 00:36:22
+    is_admin: 1
+    is_odd: 0
+    "no": 158
+  - 
+    comment: おーし移動すっか！
+    date: 2009/11/07 00:36:26
+    is_odd: 1
+    "no": 159
+  - 
+    comment: 乙でした
+    date: 2009/11/07 00:36:32
+    is_odd: 0
+    "no": 160
+  - 
+    comment: 忘れ物のないようにね～！
+    date: 2009/11/07 00:36:42
+    is_admin: 1
+    is_odd: 1
+    "no": 161
+  - 
+    comment: のし！
+    date: 2009/11/07 00:36:44
+    is_admin: 1
+    is_odd: 0
+    "no": 162
+  - 
+    comment: ノシ
+    date: 2009/11/07 00:36:55
+    is_odd: 1
+    "no": 163
+  - 
+    comment: 乙ですノシ
+    date: 2009/11/07 00:37:00
+    is_odd: 0
+    "no": 164
+  - 
+    comment: ノシ
+    date: 2009/11/07 00:37:06
+    is_odd: 1
+    "no": 165
+frame: 1
+start: 1257520048
+time: 29
+

@@ -1,0 +1,938 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: 2枠め！
+    date: 2009/11/11 01:13:44
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おつー
+    date: 2009/11/11 01:13:56
+    is_odd: 0
+    "no": 2
+  - 
+    comment: リクは再び受付開始でっす！
+    date: 2009/11/11 01:13:57
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: "■【初音ミク】 アエアイ 【オリジナル】 ■ river "
+    date: 2009/11/11 01:14:29
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: "■2009.01.14 時/3:32 彡/6 ◆再/1,109 コ/23 マ/41 (3.7%) "
+    date: 2009/11/11 01:14:37
+    is_admin: 1
+    is_odd: 1
+    "no": 6
+  - 
+    comment: sm4441941
+    date: 2009/11/11 01:14:44
+    is_odd: 0
+    "no": 7
+  - 
+    comment: sm2318626
+    date: 2009/11/11 01:14:56
+    is_odd: 1
+    "no": 8
+  - 
+    comment: 枠乙です
+    date: 2009/11/11 01:15:01
+    is_odd: 0
+    "no": 9
+  - 
+    comment: sm3825844
+    date: 2009/11/11 01:15:13
+    is_odd: 1
+    "no": 10
+  - 
+    comment: おつ！主に敬礼！
+    date: 2009/11/11 01:15:16
+    is_odd: 0
+    "no": 11
+  - 
+    comment: 乙です
+    date: 2009/11/11 01:15:25
+    is_odd: 1
+    "no": 12
+  - 
+    comment: (・ω・｀)乙です
+    date: 2009/11/11 01:15:28
+    is_odd: 0
+    "no": 13
+  - 
+    comment: nm8475655
+    date: 2009/11/11 01:15:31
+    is_odd: 1
+    "no": 14
+  - 
+    comment: ﾋﾞｼｯ
+    date: 2009/11/11 01:15:33
+    is_admin: 1
+    is_odd: 0
+    "no": 15
+  - 
+    comment: イケメン主最高ですな！
+    date: 2009/11/11 01:15:36
+    is_odd: 1
+    "no": 16
+  - 
+    comment: (｀･ω･´)ゞ　ﾋﾞｼｯ
+    date: 2009/11/11 01:15:45
+    is_odd: 0
+    "no": 17
+  - 
+    comment: そうそう、その文字が打ちたかったｗ
+    date: 2009/11/11 01:16:02
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: しらんがな
+    date: 2009/11/11 01:16:56
+    is_odd: 0
+    "no": 19
+  - 
+    comment: sm7755949　雨だね
+    date: 2009/11/11 01:17:26
+    is_odd: 1
+    "no": 20
+  - 
+    comment: リクしめ～
+    date: 2009/11/11 01:17:46
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: おそかたorz
+    date: 2009/11/11 01:17:58
+    is_odd: 1
+    "no": 22
+  - 
+    comment: "■【鏡音リン】Parallel Lines【オリジナル２】 ■ ボッチ "
+    date: 2009/11/11 01:18:02
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: "■2008.08.28 時/3:58 彡/23 ◆再/24,979 コ/696 マ/1,204 (4.8%) "
+    date: 2009/11/11 01:18:10
+    is_admin: 1
+    is_odd: 1
+    "no": 25
+  - 
+    comment: なんだろ、今日ほんとリクの数多いねぇ～。
+    date: 2009/11/11 01:18:28
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: こっちではまだ雨降ってないかな？
+    date: 2009/11/11 01:19:37
+    is_admin: 1
+    is_odd: 1
+    "no": 27
+  - 
+    comment: 西日本が雨だったらしいね。東ももうふりはじめたー
+    date: 2009/11/11 01:20:03
+    is_odd: 0
+    "no": 28
+  - 
+    comment: ゴメン、ガチ降りでしたｗ
+    date: 2009/11/11 01:20:17
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: 多分雪になりそうー。。
+    date: 2009/11/11 01:20:36
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: さすが北海道　さむい？
+    date: 2009/11/11 01:20:46
+    is_odd: 1
+    "no": 31
+  - 
+    comment: 雨は夜更け過ぎに
+    date: 2009/11/11 01:21:05
+    is_odd: 0
+    "no": 32
+  - 
+    comment: そうか、北国はそういう時期なんだね
+    date: 2009/11/11 01:21:07
+    is_odd: 1
+    "no": 33
+  - 
+    comment: ダウン着ててもおかしくない位にはｗ
+    date: 2009/11/11 01:21:11
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: マフラー手袋は必須になってきましたねｗ
+    date: 2009/11/11 01:21:27
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: ヘッドライトも取り替えないと～。
+    date: 2009/11/11 01:21:56
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: 東京は今日妙に暖かかったよ。長そで一枚程度・・・
+    date: 2009/11/11 01:21:57
+    is_odd: 1
+    "no": 37
+  - 
+    comment: "■【初音ミク】 My Brand New Love 【オリジナル曲】 ■ ああんP "
+    date: 2009/11/11 01:22:03
+    is_admin: 1
+    is_odd: 0
+    "no": 38
+  - 
+    comment: "■2008.02.13 時/4:25 彡/42 ◆再/72,483 コ/3,508 マ/2,930 (4.0%) "
+    date: 2009/11/11 01:22:11
+    is_admin: 1
+    is_odd: 1
+    "no": 40
+  - 
+    comment: うん、今日はロンティーで十分だったねｗ
+    date: 2009/11/11 01:22:11
+    is_odd: 0
+    "no": 41
+  - 
+    comment: いいなぁぁぁ。。
+    date: 2009/11/11 01:22:15
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: ああん♥ああん♥
+    date: 2009/11/11 01:22:47
+    is_odd: 0
+    "no": 43
+  - 
+    comment: フヒヒ☆フヒヒ
+    date: 2009/11/11 01:23:24
+    is_odd: 1
+    "no": 44
+  - 
+    comment: popipi★popipi
+    date: 2009/11/11 01:23:32
+    is_odd: 0
+    "no": 45
+  - 
+    comment: (・´ω｀・)ﾄﾞｩｰﾝ(・´ω｀・)ﾄﾞｩｰﾝ
+    date: 2009/11/11 01:24:07
+    is_odd: 1
+    "no": 46
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/11 01:24:13
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: 村上ショージ思い出した
+    date: 2009/11/11 01:24:20
+    is_odd: 1
+    "no": 48
+  - 
+    comment: この顔文字考えた人は天才ｗ
+    date: 2009/11/11 01:24:28
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: popipi☆popipi☆
+    date: 2009/11/11 01:24:29
+    is_odd: 1
+    "no": 50
+  - 
+    comment: ああん♥ああん♥
+    date: 2009/11/11 01:24:59
+    is_odd: 0
+    "no": 51
+  - 
+    comment: ああん♥
+    date: 2009/11/11 01:25:02
+    is_odd: 1
+    "no": 52
+  - 
+    comment: 次回作が待たれます
+    date: 2009/11/11 01:25:34
+    is_odd: 0
+    "no": 53
+  - 
+    comment: 楽しみだねぇ～
+    date: 2009/11/11 01:25:42
+    is_admin: 1
+    is_odd: 1
+    "no": 54
+  - 
+    comment: "■透明サマー feat. 初音ミク ■ ハイネケンP "
+    date: 2009/11/11 01:26:28
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: "■2008.07.01 時/4:07 彡/11 ◆再/5,342 コ/117 マ/140 (2.6%) "
+    date: 2009/11/11 01:26:36
+    is_admin: 1
+    is_odd: 1
+    "no": 57
+  - 
+    comment: 眠たくなってきた。。。
+    date: 2009/11/11 01:29:29
+    is_admin: 1
+    is_odd: 0
+    "no": 58
+  - 
+    comment: noc?
+    date: 2009/11/11 01:29:37
+    is_odd: 1
+    "no": 59
+  - 
+    comment: I◞⊖◟◉｀)チラッ
+    date: 2009/11/11 01:29:40
+    is_odd: 0
+    "no": 60
+  - 
+    comment: がんばるｗ
+    date: 2009/11/11 01:29:43
+    is_admin: 1
+    is_odd: 1
+    "no": 61
+  - 
+    comment: えー　nocしないと開けない悟り有るのにｗ
+    date: 2009/11/11 01:30:08
+    is_odd: 0
+    "no": 62
+  - 
+    comment: nocする主もいるし
+    date: 2009/11/11 01:30:23
+    is_odd: 1
+    "no": 63
+  - 
+    comment: まだnoc免許持ってないのでｗｗ
+    date: 2009/11/11 01:30:26
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: "■初音ミクさんにテスト曲7「owari」 ■ じたばたP "
+    date: 2009/11/11 01:30:36
+    is_admin: 1
+    is_odd: 1
+    "no": 65
+  - 
+    comment: "■2009.10.10 時/1:25 彡/1 ◆再/281 コ/4 マ/13 (4.6%) "
+    date: 2009/11/11 01:30:44
+    is_admin: 1
+    is_odd: 0
+    "no": 67
+  - 
+    comment: NGと２窓中
+    date: 2009/11/11 01:31:10
+    is_odd: 1
+    "no": 68
+  - 
+    comment: このイラストいいなぁ
+    date: 2009/11/11 01:31:14
+    is_admin: 1
+    is_odd: 0
+    "no": 69
+  - 
+    comment: おつさまでーすｗｗ
+    date: 2009/11/11 01:31:35
+    is_admin: 1
+    is_odd: 1
+    "no": 70
+  - 
+    comment: "■【メグッポイド】 雨つぶDANCE 【オリジナル曲】 ■ キャプミラP "
+    date: 2009/11/11 01:32:03
+    is_admin: 1
+    is_odd: 0
+    "no": 71
+  - 
+    comment: "■2009.07.27 時/3:18 彡/7 ◆再/27,605 コ/656 マ/1,220 (4.4%) "
+    date: 2009/11/11 01:32:11
+    is_admin: 1
+    is_odd: 1
+    "no": 73
+  - 
+    comment: おおお、いいな～
+    date: 2009/11/11 01:32:56
+    is_odd: 0
+    "no": 74
+  - 
+    comment: 今日はアルバム選考会で大分MP削られたなぁｗ
+    date: 2009/11/11 01:33:07
+    is_admin: 1
+    is_odd: 1
+    "no": 75
+  - 
+    comment: 主とは違う緊張感なのかなｗ
+    date: 2009/11/11 01:33:29
+    is_odd: 0
+    "no": 76
+  - 
+    comment: 全然違って泣いたｗ
+    date: 2009/11/11 01:33:37
+    is_admin: 1
+    is_odd: 1
+    "no": 77
+  - 
+    comment: 今日主の選考アルバム流れたの？
+    date: 2009/11/11 01:34:04
+    is_odd: 0
+    "no": 78
+  - 
+    comment: 自分の時は最初震えがとまらなかったｗ
+    date: 2009/11/11 01:34:06
+    is_odd: 1
+    "no": 79
+  - 
+    comment: ですですｗ21でしたーｗ
+    date: 2009/11/11 01:34:17
+    is_admin: 1
+    is_odd: 0
+    "no": 80
+  - 
+    comment: わかるｗｗ震えるのｗｗ
+    date: 2009/11/11 01:34:24
+    is_admin: 1
+    is_odd: 1
+    "no": 81
+  - 
+    comment: 自分も緊張したおー＞＜
+    date: 2009/11/11 01:34:56
+    is_odd: 0
+    "no": 82
+  - 
+    comment: ああ、見てたわ。コメントがイケメンだったアルバムだね
+    date: 2009/11/11 01:35:00
+    is_odd: 1
+    "no": 83
+  - 
+    comment: お疲れ様でしたーｗ
+    date: 2009/11/11 01:35:06
+    is_admin: 1
+    is_odd: 0
+    "no": 84
+  - 
+    comment: 愛を語ってたねｂ
+    date: 2009/11/11 01:35:18
+    is_odd: 1
+    "no": 85
+  - 
+    comment: あの時名乗ってしまってよいのか凄く悩みましたｗ
+    date: 2009/11/11 01:35:21
+    is_admin: 1
+    is_odd: 0
+    "no": 86
+  - 
+    comment: ねｂ
+    date: 2009/11/11 01:35:23
+    is_odd: 1
+    "no": 87
+  - 
+    comment: 言わないでーｗｗ
+    date: 2009/11/11 01:35:24
+    is_admin: 1
+    is_odd: 0
+    "no": 88
+  - 
+    comment: "■【初音ミク】しんめとり～【オリジナル曲】 ■ SCP "
+    date: 2009/11/11 01:35:27
+    is_admin: 1
+    is_odd: 1
+    "no": 89
+  - 
+    comment: 終わった人おつ～ｗ
+    date: 2009/11/11 01:35:28
+    is_odd: 0
+    "no": 91
+  - 
+    comment: "■2009.03.10 時/2:51 彡/8 ◆再/1,359 コ/27 マ/58 (4.3%) "
+    date: 2009/11/11 01:35:35
+    is_admin: 1
+    is_odd: 1
+    "no": 92
+  - 
+    comment: 俺は昨日でしたｗ出遅れたり回線切れたりorz
+    date: 2009/11/11 01:35:42
+    is_odd: 0
+    "no": 93
+  - 
+    comment: 19さんですねｗお疲れ様でしたｗ
+    date: 2009/11/11 01:35:55
+    is_admin: 1
+    is_odd: 1
+    "no": 94
+  - 
+    comment: 大学生さんか！
+    date: 2009/11/11 01:35:56
+    is_odd: 0
+    "no": 95
+  - 
+    comment: そのまま生主になっても良いのよ？ｗ
+    date: 2009/11/11 01:36:03
+    is_admin: 1
+    is_odd: 1
+    "no": 96
+  - 
+    comment: 自分も昨日だったｗ
+    date: 2009/11/11 01:36:06
+    is_odd: 0
+    "no": 97
+  - 
+    comment: お疲れさまーｗ
+    date: 2009/11/11 01:36:14
+    is_admin: 1
+    is_odd: 1
+    "no": 98
+  - 
+    comment: 自分の過疎コミュでほそぼそやりますわｗ
+    date: 2009/11/11 01:36:16
+    is_odd: 0
+    "no": 99
+  - 
+    comment: 了解っすｗ
+    date: 2009/11/11 01:36:22
+    is_admin: 1
+    is_odd: 1
+    "no": 100
+  - 
+    comment: 主ってすごいなーって思ったーｗ
+    date: 2009/11/11 01:36:38
+    is_odd: 0
+    "no": 101
+  - 
+    comment: ここって照れてイイとこだよねっ！？
+    date: 2009/11/11 01:37:04
+    is_admin: 1
+    is_odd: 1
+    "no": 102
+  - 
+    comment: いあいあーｗ
+    date: 2009/11/11 01:37:13
+    is_admin: 1
+    is_odd: 0
+    "no": 103
+  - 
+    comment: 主の放送いつも楽しいよー
+    date: 2009/11/11 01:37:58
+    is_odd: 1
+    "no": 104
+  - 
+    comment: ｷｬｰｲｹﾒｰﾝ
+    date: 2009/11/11 01:38:02
+    is_odd: 0
+    "no": 105
+  - 
+    comment: いあいあいあーｗ
+    date: 2009/11/11 01:38:04
+    is_admin: 1
+    is_odd: 1
+    "no": 106
+  - 
+    comment: ありがとう！頑張ります！
+    date: 2009/11/11 01:38:11
+    is_admin: 1
+    is_odd: 0
+    "no": 107
+  - 
+    comment: うん、主の放送たのしい！
+    date: 2009/11/11 01:38:17
+    is_odd: 1
+    "no": 108
+  - 
+    comment: 主がラヴリィすぎる
+    date: 2009/11/11 01:38:17
+    is_odd: 0
+    "no": 109
+  - 
+    comment: "■【初音ミク】 sunrise 【オリジナル】 ■ あかやかP \n"
+    date: 2009/11/11 01:38:21
+    is_admin: 1
+    is_odd: 1
+    "no": 110
+  - 
+    comment: "■2009.07.13 時/4:48 彡/9 ◆再/12,420 コ/148 マ/374 (3.0%) "
+    date: 2009/11/11 01:38:29
+    is_admin: 1
+    is_odd: 0
+    "no": 112
+  - 
+    comment: おお　好きなのきたわーｗ
+    date: 2009/11/11 01:38:36
+    is_odd: 1
+    "no": 113
+  - 
+    comment: この時間結構楽しみにしてるお
+    date: 2009/11/11 01:38:39
+    is_odd: 0
+    "no": 114
+  - 
+    comment: 良かったですお
+    date: 2009/11/11 01:38:47
+    is_admin: 1
+    is_odd: 1
+    "no": 115
+  - 
+    comment: 同じく楽しみにしてる
+    date: 2009/11/11 01:38:50
+    is_odd: 0
+    "no": 116
+  - 
+    comment: かなり楽しみにしてます
+    date: 2009/11/11 01:38:59
+    is_odd: 1
+    "no": 117
+  - 
+    comment: 主が好きだからぬこの脅威に耐えつつ起きてるんじゃないかー
+    date: 2009/11/11 01:39:03
+    is_odd: 0
+    "no": 118
+  - 
+    comment: でも最近忙しくなってきてるので、ちょっと放送頻度減るかな？？
+    date: 2009/11/11 01:39:04
+    is_admin: 1
+    is_odd: 1
+    "no": 119
+  - 
+    comment: ひとつのコミュでも主によって個性が出ておもしろい
+    date: 2009/11/11 01:39:13
+    is_odd: 0
+    "no": 120
+  - 
+    comment: ここのコミュは特に個性がしっかりしているから、なおさら楽しいですね。
+    date: 2009/11/11 01:39:44
+    is_odd: 1
+    "no": 121
+  - 
+    comment: 頻度のことはｷﾆｽﾝﾅ！　やりたいときにやってくれれば
+    date: 2009/11/11 01:39:50
+    is_odd: 0
+    "no": 122
+  - 
+    comment: ありがとう！
+    date: 2009/11/11 01:39:54
+    is_admin: 1
+    is_odd: 1
+    "no": 123
+  - 
+    comment: なんつーか、個性的すぐると思われるｗ
+    date: 2009/11/11 01:40:08
+    is_odd: 0
+    "no": 124
+  - 
+    comment: ですね、濃さが違うｗ
+    date: 2009/11/11 01:40:12
+    is_odd: 1
+    "no": 125
+  - 
+    comment: さーせんｗｗｗｗ
+    date: 2009/11/11 01:40:14
+    is_admin: 1
+    is_odd: 0
+    "no": 126
+  - 
+    comment: 活気があってわきあいあいとしててイイネ
+    date: 2009/11/11 01:40:16
+    is_odd: 1
+    "no": 127
+  - 
+    comment: ちょっと薄めておこうｗ
+    date: 2009/11/11 01:40:20
+    is_admin: 1
+    is_odd: 0
+    "no": 128
+  - 
+    comment: このコメントは表示されません
+    date: 2009/11/11 01:40:24
+    is_hidden: 1
+    is_odd: 1
+    "no": 129
+  - 
+    comment: 薄めるのかｗ
+    date: 2009/11/11 01:40:26
+    is_odd: 0
+    "no": 130
+  - 
+    comment: いやｗ逆かｗ
+    date: 2009/11/11 01:40:32
+    is_admin: 1
+    is_odd: 1
+    "no": 131
+  - 
+    comment: 主も濃くしてる人だよｗｗ
+    date: 2009/11/11 01:40:37
+    is_odd: 0
+    "no": 132
+  - 
+    comment: Σ
+    date: 2009/11/11 01:40:41
+    is_admin: 1
+    is_odd: 1
+    "no": 133
+  - 
+    comment: やべ、この枠マイリスごちだわー
+    date: 2009/11/11 01:40:49
+    is_odd: 0
+    "no": 134
+  - 
+    comment: マイリスあざっす！
+    date: 2009/11/11 01:40:54
+    is_admin: 1
+    is_odd: 1
+    "no": 135
+  - 
+    comment: あ、危ない危ない。
+    date: 2009/11/11 01:41:15
+    is_admin: 1
+    is_odd: 0
+    "no": 136
+  - 
+    comment: この曲でおしまいとなります！
+    date: 2009/11/11 01:41:24
+    is_admin: 1
+    is_odd: 1
+    "no": 137
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/11/11 01:41:30
+    is_admin: 1
+    is_odd: 0
+    "no": 138
+  - 
+    comment: 明日は水曜！折り返し地点！
+    date: 2009/11/11 01:41:39
+    is_admin: 1
+    is_odd: 1
+    "no": 139
+  - 
+    comment: 元気に突っ走っていきましょう！
+    date: 2009/11/11 01:41:52
+    is_admin: 1
+    is_odd: 0
+    "no": 140
+  - 
+    comment: そうさ、明日のドイツ語と英語レポを乗り切れば！
+    date: 2009/11/11 01:41:59
+    is_odd: 1
+    "no": 141
+  - 
+    comment: ε≡≡ﾍ( ´∀`)ﾉ　→[樹海]
+    date: 2009/11/11 01:42:00
+    is_odd: 0
+    "no": 142
+  - 
+    comment: もうそんな時間かー　今日も放送ありがとう
+    date: 2009/11/11 01:42:03
+    is_odd: 1
+    "no": 143
+  - 
+    comment: まてｗｗｗｗ
+    date: 2009/11/11 01:42:06
+    is_admin: 1
+    is_odd: 0
+    "no": 144
+  - 
+    comment: 樹海自重ｗｗ
+    date: 2009/11/11 01:42:08
+    is_odd: 1
+    "no": 145
+  - 
+    comment: まてまてｗ＞143
+    date: 2009/11/11 01:42:11
+    is_odd: 0
+    "no": 146
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/11 01:42:14
+    is_odd: 1
+    "no": 147
+  - 
+    comment: ｗｗｗｗｗｗ
+    date: 2009/11/11 01:42:18
+    is_odd: 0
+    "no": 148
+  - 
+    comment: ｻｰｾﾝｗｗ
+    date: 2009/11/11 01:42:19
+    is_odd: 1
+    "no": 149
+  - 
+    comment: あ142だわｗ
+    date: 2009/11/11 01:42:19
+    is_odd: 0
+    "no": 150
+  - 
+    comment: 俺も明日頑張ろうっと。
+    date: 2009/11/11 01:42:28
+    is_admin: 1
+    is_odd: 1
+    "no": 151
+  - 
+    comment: 明日休みですサーセン
+    date: 2009/11/11 01:42:40
+    is_odd: 0
+    "no": 152
+  - 
+    comment: 明日は自コミュでも放送してみようと思います。
+    date: 2009/11/11 01:42:45
+    is_admin: 1
+    is_odd: 1
+    "no": 153
+  - 
+    comment: 乙でしたー
+    date: 2009/11/11 01:42:50
+    is_odd: 0
+    "no": 154
+  - 
+    comment: 詳しくはマイページよろ！
+    date: 2009/11/11 01:42:51
+    is_admin: 1
+    is_odd: 1
+    "no": 155
+  - 
+    comment: 自コミュだと・・・？
+    date: 2009/11/11 01:42:54
+    is_odd: 0
+    "no": 156
+  - 
+    comment: おつかれさまー
+    date: 2009/11/11 01:42:54
+    is_odd: 1
+    "no": 157
+  - 
+    comment: ノリ
+    date: 2009/11/11 01:42:56
+    is_odd: 0
+    "no": 158
+  - 
+    comment: であノシ！
+    date: 2009/11/11 01:42:57
+    is_admin: 1
+    is_odd: 1
+    "no": 159
+  - 
+    comment: おｋ　いく！
+    date: 2009/11/11 01:42:57
+    is_odd: 0
+    "no": 160
+  - 
+    comment: お疲れ様でした～
+    date: 2009/11/11 01:42:59
+    is_odd: 1
+    "no": 161
+  - 
+    comment: ﾉｼ
+    date: 2009/11/11 01:43:01
+    is_odd: 0
+    "no": 162
+  - 
+    comment: おつしたー！
+    date: 2009/11/11 01:43:01
+    is_admin: 1
+    is_odd: 1
+    "no": 163
+  - 
+    comment: おったのしみーノシ
+    date: 2009/11/11 01:43:02
+    is_odd: 0
+    "no": 164
+  - 
+    comment: 良い夢を！
+    date: 2009/11/11 01:43:06
+    is_admin: 1
+    is_odd: 1
+    "no": 165
+  - 
+    comment: お疲れ様でした
+    date: 2009/11/11 01:43:07
+    is_odd: 0
+    "no": 166
+  - 
+    comment: のし！
+    date: 2009/11/11 01:43:10
+    is_admin: 1
+    is_odd: 1
+    "no": 167
+  - 
+    comment: のしー
+    date: 2009/11/11 01:43:13
+    is_odd: 0
+    "no": 168
+  - 
+    comment: のり！
+    date: 2009/11/11 01:43:13
+    is_admin: 1
+    is_odd: 1
+    "no": 169
+  - 
+    comment: しお
+    date: 2009/11/11 01:43:19
+    is_odd: 0
+    "no": 170
+  - 
+    comment: 明日はしおｐおにぎり食べよう
+    date: 2009/11/11 01:43:23
+    is_admin: 1
+    is_odd: 1
+    "no": 171
+  - 
+    comment: おにぎり
+    date: 2009/11/11 01:43:26
+    is_odd: 0
+    "no": 172
+  - 
+    comment: (ﾟдﾟ)ｳﾏｰ
+    date: 2009/11/11 01:43:26
+    is_odd: 1
+    "no": 173
+  - 
+    comment: 締めはおにぎりかｗ
+    date: 2009/11/11 01:43:34
+    is_odd: 0
+    "no": 174
+  - 
+    comment: ノシ
+    date: 2009/11/11 01:43:43
+    is_odd: 1
+    "no": 175
+  - 
+    comment: しおｐ･･･ｐ･･･ハッ！プレーンかっ！
+    date: 2009/11/11 01:44:23
+    is_odd: 0
+    "no": 176
+  - 
+    comment: ん？
+    date: 2009/11/11 01:44:49
+    is_odd: 1
+    "no": 177
+  - 
+    comment: しおしお！
+    date: 2009/11/11 01:44:53
+    is_odd: 0
+    "no": 178
+  - 
+    comment: まだいけるのかｗ
+    date: 2009/11/11 01:44:58
+    is_odd: 1
+    "no": 179
+frame: 1
+start: 1257869624
+time: 31
+

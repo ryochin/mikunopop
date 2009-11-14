@@ -1,0 +1,564 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんばんわ！
+    date: 2009/11/12 00:59:11
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おやすミクノです。
+    date: 2009/11/12 00:59:15
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: イケメン主おつ！
+    date: 2009/11/12 00:59:28
+    is_odd: 1
+    "no": 3
+  - 
+    comment: 主セレ→昨日に引き続きミクビエント
+    date: 2009/11/12 00:59:29
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: リク随時でっす～！
+    date: 2009/11/12 00:59:35
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: いらっさ！
+    date: 2009/11/12 00:59:38
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by \n    k-sk"
+    date: 2009/11/12 00:59:56
+    is_odd: 1
+    "no": 8
+  - 
+    comment: "■【鏡音リン】 昨日、いえなかったこと 【オリジナル曲】 ■ ぺたぺたP "
+    date: 2009/11/12 01:02:10
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: "■2008.09.14 時/4:43 彡/7 ◆再/1,946 コ/40 マ/51 (2.6%) "
+    date: 2009/11/12 01:02:18
+    is_admin: 1
+    is_odd: 1
+    "no": 11
+  - 
+    comment: 今北ぁぁぁ　ｲｹﾒﾝ主おつ！
+    date: 2009/11/12 01:03:55
+    is_odd: 0
+    "no": 12
+  - 
+    comment: いらああああ
+    date: 2009/11/12 01:04:03
+    is_admin: 1
+    is_odd: 1
+    "no": 13
+  - 
+    comment: ゆったりしていってね！
+    date: 2009/11/12 01:04:19
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: sm7393406
+    date: 2009/11/12 01:04:49
+    is_odd: 1
+    "no": 15
+  - 
+    comment: ｔｈｘ！
+    date: 2009/11/12 01:04:55
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: 昨日は皆さんポッキー食べました？
+    date: 2009/11/12 01:05:50
+    is_admin: 1
+    is_odd: 1
+    "no": 17
+  - 
+    comment: sm8700898
+    date: 2009/11/12 01:06:01
+    is_odd: 0
+    "no": 18
+  - 
+    comment: 11月11日でポッキーの日だったみたいです。
+    date: 2009/11/12 01:06:02
+    is_admin: 1
+    is_odd: 1
+    "no": 19
+  - 
+    comment: レポートが終わったのできたよー、思わず書きすぎたｗ　だがまた別の授業でレポがorz
+    date: 2009/11/12 01:06:03
+    is_odd: 0
+    "no": 20
+  - 
+    comment: がんばーｗ
+    date: 2009/11/12 01:06:09
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: ポッキーの日かｗ
+    date: 2009/11/12 01:06:16
+    is_odd: 0
+    "no": 22
+  - 
+    comment: ポッキー
+    date: 2009/11/12 01:06:28
+    is_odd: 1
+    "no": 23
+  - 
+    comment: というわけでリクｗ　nm5387973　　ぽっきーは三日前に先食いｗ
+    date: 2009/11/12 01:06:33
+    is_odd: 0
+    "no": 24
+  - 
+    comment: プリッツも可
+    date: 2009/11/12 01:06:38
+    is_admin: 1
+    is_odd: 1
+    "no": 25
+  - 
+    comment: 先食いGJｗ
+    date: 2009/11/12 01:06:43
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: "■【巡音ルカ】Pure【エレクトロニカ】 ■ Rin（ぎん） "
+    date: 2009/11/12 01:06:59
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: "■2009.06.20 時/4:28 彡/16 ◆再/1,539 コ/31 マ/81 (5.3%) "
+    date: 2009/11/12 01:07:03
+    is_admin: 1
+    is_odd: 0
+    "no": 29
+  - 
+    comment: ぎんさんラヴ
+    date: 2009/11/12 01:07:18
+    is_odd: 1
+    "no": 30
+  - 
+    comment: らヴ！
+    date: 2009/11/12 01:07:42
+    is_admin: 1
+    is_odd: 0
+    "no": 31
+  - 
+    comment: らヴーー
+    date: 2009/11/12 01:07:47
+    is_odd: 1
+    "no": 32
+  - 
+    comment: プリッツのサラダ味ってあれ、塩味ですよね？
+    date: 2009/11/12 01:08:37
+    is_admin: 1
+    is_odd: 0
+    "no": 33
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/12 01:08:50
+    is_odd: 1
+    "no": 34
+  - 
+    comment: お煎餅でもサラダ味ってあるよね・・・
+    date: 2009/11/12 01:09:30
+    is_odd: 0
+    "no": 35
+  - 
+    comment: サラダ味だけは納得いかないです。うまい棒除く
+    date: 2009/11/12 01:09:43
+    is_admin: 1
+    is_odd: 1
+    "no": 36
+  - 
+    comment: お煎餅のサラダ味あったｗあれなんだっけｗｗ
+    date: 2009/11/12 01:10:03
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: 緑のパッケージのｗ
+    date: 2009/11/12 01:10:22
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: 薄くて白っぽい容器の中に2列くらいで入っていたんだよなぁーｗ
+    date: 2009/11/12 01:10:51
+    is_admin: 1
+    is_odd: 0
+    "no": 39
+  - 
+    comment: "■【GUMI】A・Re・Re【オリジナル】 ■ ヤキイモP "
+    date: 2009/11/12 01:11:26
+    is_admin: 1
+    is_odd: 1
+    "no": 40
+  - 
+    comment: "■2009.11.03 時/3:34 彡/1 ◆再/4,246 コ/309 マ/346 (8.1%) "
+    date: 2009/11/12 01:11:34
+    is_admin: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: トイレ行きたいのに家の鍵が見つからない時の焦りはヤバイ。
+    date: 2009/11/12 01:12:31
+    is_admin: 1
+    is_odd: 1
+    "no": 43
+  - 
+    comment: http://live.nicovideo.jp/gate/lv6556876　枠とったのでよろしく。
+    date: 2009/11/12 01:12:56
+    is_odd: 0
+    "no": 44
+  - 
+    comment: サラダ味の由来調べたーｗｗｗ
+    date: 2009/11/12 01:13:05
+    is_odd: 1
+    "no": 45
+  - 
+    comment: 悶さん乙でっす！
+    date: 2009/11/12 01:13:21
+    is_admin: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: おお！由来ｗｋｔｋ
+    date: 2009/11/12 01:13:29
+    is_admin: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: 亀田製菓の場合は「サラダ油」のサラダだってｗ
+    date: 2009/11/12 01:13:34
+    is_odd: 0
+    "no": 48
+  - 
+    comment: ほおおおおおおお
+    date: 2009/11/12 01:13:41
+    is_admin: 1
+    is_odd: 1
+    "no": 49
+  - 
+    comment: お煎餅作った後サラダ油吹き付けて
+    date: 2009/11/12 01:13:52
+    is_odd: 0
+    "no": 50
+  - 
+    comment: そこに塩をまぶしてるらしい
+    date: 2009/11/12 01:14:01
+    is_odd: 1
+    "no": 51
+  - 
+    comment: やはり塩か。
+    date: 2009/11/12 01:14:10
+    is_admin: 1
+    is_odd: 0
+    "no": 52
+  - 
+    comment: "■【初音ミク】Rｅ.時の終わり【オリジナル】 ■ kous "
+    date: 2009/11/12 01:15:01
+    is_admin: 1
+    is_odd: 1
+    "no": 53
+  - 
+    comment: "■2008.11.29 時/5:08 彡/7 ◆再/9,814 コ/201 マ/432 (4.4%) "
+    date: 2009/11/12 01:15:09
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: サラダ油のサラダってサラダにかけないですよね。
+    date: 2009/11/12 01:15:26
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: なのにサラダ。
+    date: 2009/11/12 01:15:40
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: ドレッシング作るときにかける
+    date: 2009/11/12 01:15:52
+    is_odd: 1
+    "no": 58
+  - 
+    comment: うおお、サラダがゲシュタルト崩壊・・・。
+    date: 2009/11/12 01:15:55
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: お、なるほどー！
+    date: 2009/11/12 01:16:00
+    is_admin: 1
+    is_odd: 1
+    "no": 60
+  - 
+    comment: 食用に生成された油をサラダ油って言うみたい
+    date: 2009/11/12 01:16:32
+    is_odd: 0
+    "no": 61
+  - 
+    comment: 生でも食べれるよって事みたい
+    date: 2009/11/12 01:16:43
+    is_odd: 1
+    "no": 62
+  - 
+    comment: サラダのように食べれる油。
+    date: 2009/11/12 01:16:58
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: 賢くなりました、ありがとう！
+    date: 2009/11/12 01:17:13
+    is_admin: 1
+    is_odd: 1
+    "no": 64
+  - 
+    comment: 44さん（悶さん）の枠は、
+    date: 2009/11/12 01:18:24
+    is_admin: 1
+    is_odd: 0
+    "no": 65
+  - 
+    comment: 今日12日なので、明日13日の夜ですね！
+    date: 2009/11/12 01:18:34
+    is_admin: 1
+    is_odd: 1
+    "no": 66
+  - 
+    comment: 皆さんよろしくです！干し
+    date: 2009/11/12 01:18:44
+    is_admin: 1
+    is_odd: 0
+    "no": 67
+  - 
+    comment: ☆
+    date: 2009/11/12 01:18:46
+    is_admin: 1
+    is_odd: 1
+    "no": 68
+  - 
+    comment: つまりは植物性ってことだったかな、サラダ油
+    date: 2009/11/12 01:18:48
+    is_odd: 0
+    "no": 69
+  - 
+    comment: 明日の夜なにかあるの？
+    date: 2009/11/12 01:19:07
+    is_odd: 1
+    "no": 70
+  - 
+    comment: 44コメのURLをチェキ！
+    date: 2009/11/12 01:19:18
+    is_admin: 1
+    is_odd: 0
+    "no": 71
+  - 
+    comment: 企画放送です
+    date: 2009/11/12 01:19:23
+    is_admin: 1
+    is_odd: 1
+    "no": 72
+  - 
+    comment: なんと！ｗｋｔｋ
+    date: 2009/11/12 01:19:33
+    is_odd: 0
+    "no": 73
+  - 
+    comment: ぜひぜひ～☆
+    date: 2009/11/12 01:19:43
+    is_admin: 1
+    is_odd: 1
+    "no": 74
+  - 
+    comment: 前回楽しかったー、いろんなPさんが話してて
+    date: 2009/11/12 01:19:56
+    is_odd: 0
+    "no": 75
+  - 
+    comment: "■【初音ミク】ケダルゲ【オリジナル】 ■ 単色P "
+    date: 2009/11/12 01:20:10
+    is_admin: 1
+    is_odd: 1
+    "no": 76
+  - 
+    comment: "■2009.07.04 時/6:10 彡/7 ◆再/1,269 コ/27 マ/62 (4.9%) "
+    date: 2009/11/12 01:20:18
+    is_admin: 1
+    is_odd: 0
+    "no": 78
+  - 
+    comment: 今回はどんなPさんが来るのかな、ｗｋｔｋ
+    date: 2009/11/12 01:20:39
+    is_admin: 1
+    is_odd: 1
+    "no": 79
+  - 
+    comment: おお、単色Pもリクしようかと思ってたところなんだ
+    date: 2009/11/12 01:20:45
+    is_odd: 0
+    "no": 80
+  - 
+    comment: そしてボーマスの札幌開催はいつかな、ｗｋｔｋ。
+    date: 2009/11/12 01:20:52
+    is_admin: 1
+    is_odd: 1
+    "no": 81
+  - 
+    comment: 単色Pは文字の配置センス半端ないですね。
+    date: 2009/11/12 01:21:53
+    is_admin: 1
+    is_odd: 0
+    "no": 82
+  - 
+    comment: この下の余白はなかなか真似できない。
+    date: 2009/11/12 01:22:09
+    is_admin: 1
+    is_odd: 1
+    "no": 83
+  - 
+    comment: 音使いスキだー、ｚｚｚｚ
+    date: 2009/11/12 01:22:25
+    is_odd: 0
+    "no": 84
+  - 
+    comment: ふむ、動画師はそこに着目するんだな
+    date: 2009/11/12 01:23:31
+    is_odd: 1
+    "no": 85
+  - 
+    comment: 多くの人はもう少し下に配置する人が多いかもです。
+    date: 2009/11/12 01:24:17
+    is_admin: 1
+    is_odd: 0
+    "no": 86
+  - 
+    comment: 1～2mm位、pixelだと4pxくらいかなぁ。。
+    date: 2009/11/12 01:24:38
+    is_admin: 1
+    is_odd: 1
+    "no": 87
+  - 
+    comment: 大分印象変わるので試してみてくださいｂ
+    date: 2009/11/12 01:25:01
+    is_admin: 1
+    is_odd: 0
+    "no": 88
+  - 
+    comment: 明朝体は美しいねぇ。
+    date: 2009/11/12 01:25:58
+    is_admin: 1
+    is_odd: 1
+    "no": 89
+  - 
+    comment: "■【初音ミク】 sui 【オリジナル曲】 ■ タブラP 黄花 "
+    date: 2009/11/12 01:26:21
+    is_admin: 1
+    is_odd: 0
+    "no": 90
+  - 
+    comment: "■2009.05.03 時/2:26 彡/11 ◆再/543 コ/9 マ/23 (4.2%) "
+    date: 2009/11/12 01:26:29
+    is_admin: 1
+    is_odd: 1
+    "no": 92
+  - 
+    comment: レポート書くときにしか使わないや＞明朝体　　ああいう使い方も
+    date: 2009/11/12 01:26:34
+    is_odd: 0
+    "no": 93
+  - 
+    comment: 明朝体とゴシック体。
+    date: 2009/11/12 01:26:56
+    is_admin: 1
+    is_odd: 1
+    "no": 94
+  - 
+    comment: 初めてフォントに興味を持ち始める時、
+    date: 2009/11/12 01:27:16
+    is_admin: 1
+    is_odd: 0
+    "no": 95
+  - 
+    comment: 多くの人はゴシック体ラヴァーになる事が多いらしいです。
+    date: 2009/11/12 01:27:32
+    is_admin: 1
+    is_odd: 1
+    "no": 96
+  - 
+    comment: んで文字間センスが磨かれるにしたがって
+    date: 2009/11/12 01:27:49
+    is_admin: 1
+    is_odd: 0
+    "no": 97
+  - 
+    comment: 明朝体の美しさにはっと気付かされるｗ
+    date: 2009/11/12 01:28:04
+    is_admin: 1
+    is_odd: 1
+    "no": 98
+  - 
+    comment: そして、明朝体ラヴァーになることもｗ
+    date: 2009/11/12 01:28:20
+    is_admin: 1
+    is_odd: 0
+    "no": 99
+  - 
+    comment: あ、次枠いきますねーｗ
+    date: 2009/11/12 01:28:26
+    is_admin: 1
+    is_odd: 1
+    "no": 100
+  - 
+    comment: おつした
+    date: 2009/11/12 01:28:29
+    is_admin: 1
+    is_odd: 0
+    "no": 101
+  - 
+    comment: ！
+    date: 2009/11/12 01:28:31
+    is_admin: 1
+    is_odd: 1
+    "no": 102
+  - 
+    comment: 乙です～
+    date: 2009/11/12 01:28:38
+    is_odd: 0
+    "no": 103
+  - 
+    comment: のし！
+    date: 2009/11/12 01:28:44
+    is_admin: 1
+    is_odd: 1
+    "no": 104
+  - 
+    comment: おつかれん
+    date: 2009/11/12 01:28:47
+    is_odd: 0
+    "no": 105
+frame: 1
+start: 1257955151
+time: 29
+

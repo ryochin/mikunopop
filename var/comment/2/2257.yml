@@ -1,0 +1,666 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんばんわ！
+    date: 2009/10/07 23:34:09
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: ばわー
+    date: 2009/10/07 23:34:18
+    is_odd: 0
+    "no": 2
+  - 
+    comment: イケメン主こんばんわ
+    date: 2009/10/07 23:34:20
+    is_odd: 1
+    "no": 3
+  - 
+    comment: ｂわー
+    date: 2009/10/07 23:34:24
+    is_odd: 0
+    "no": 4
+  - 
+    comment: 夜ミクノです
+    date: 2009/10/07 23:34:25
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: こｍばんわー
+    date: 2009/10/07 23:34:29
+    is_odd: 0
+    "no": 6
+  - 
+    comment: k-skさん放送だ～　こんばんはー
+    date: 2009/10/07 23:34:31
+    is_odd: 1
+    "no": 7
+  - 
+    comment: 主セレ→爽やかポップ
+    date: 2009/10/07 23:34:35
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: リクかもーん！
+    date: 2009/10/07 23:34:40
+    is_admin: 1
+    is_odd: 1
+    "no": 9
+  - 
+    comment: 今回はジングルなしで
+    date: 2009/10/07 23:34:49
+    is_admin: 1
+    is_odd: 0
+    "no": 10
+  - 
+    comment: "■初音ミク◆ fruits of love ◆オリジナル ■ vanzz "
+    date: 2009/10/07 23:34:51
+    is_admin: 1
+    is_odd: 1
+    "no": 11
+  - 
+    comment: "■2009.03.15 時/3:23 彡/8 ◆再/692 コ/8 マ/24 (3.5%) "
+    date: 2009/10/07 23:34:59
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: みんなこばわ！
+    date: 2009/10/07 23:35:08
+    is_admin: 1
+    is_odd: 1
+    "no": 14
+  - 
+    comment: 今日は1曲ヒゲ0を持ってきました。
+    date: 2009/10/07 23:35:42
+    is_admin: 1
+    is_odd: 0
+    "no": 15
+  - 
+    comment: ヒゲ0だけ爽やかポップでないかもｗでも流すよｗ
+    date: 2009/10/07 23:37:03
+    is_admin: 1
+    is_odd: 1
+    "no": 16
+  - 
+    comment: "■【初音ミク】教えてメロディー【オリジナル】 ■ 皮P "
+    date: 2009/10/07 23:38:14
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: "■2009.09.18 時/5:05 彡/2 ◆再/2,528 コ/65 マ/210 (8.3%) "
+    date: 2009/10/07 23:38:22
+    is_admin: 1
+    is_odd: 1
+    "no": 19
+  - 
+    comment: 今日中古楽器屋さんに足を運んだんですよ。
+    date: 2009/10/07 23:41:29
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: ELECTRIBE・R mk-II が13,000円というね。
+    date: 2009/10/07 23:41:55
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: しかも超美品。
+    date: 2009/10/07 23:42:15
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: で、買った？
+    date: 2009/10/07 23:42:20
+    is_odd: 1
+    "no": 23
+  - 
+    comment: 衝動買いしそうでしたが我慢しましたｗ
+    date: 2009/10/07 23:42:32
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: 自重阻止！
+    date: 2009/10/07 23:42:41
+    is_odd: 1
+    "no": 25
+  - 
+    comment: でも明日、勢いで買ってしまうかもｗ
+    date: 2009/10/07 23:42:48
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: 衝動買い支援
+    date: 2009/10/07 23:42:58
+    is_odd: 1
+    "no": 27
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/07 23:43:02
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: "■【初音ミク】 Metropolitan Express 【オリジナル】 ■ MineK "
+    date: 2009/10/07 23:43:19
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: "■2009.03.08 時/5:01 彡/11 ◆再/2,741 コ/50 マ/174 (6.3%) "
+    date: 2009/10/07 23:43:27
+    is_admin: 1
+    is_odd: 0
+    "no": 31
+  - 
+    comment: ELECTRIBE・A mk-II も一緒にあったのだけど、帰ってきてHP見たら売れちゃってました。
+    date: 2009/10/07 23:44:15
+    is_admin: 1
+    is_odd: 1
+    "no": 32
+  - 
+    comment: そしてグミさんが遠のいて行くのか・・・・
+    date: 2009/10/07 23:44:18
+    is_odd: 0
+    "no": 33
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/07 23:44:23
+    is_admin: 1
+    is_odd: 1
+    "no": 34
+  - 
+    comment: ちなみに今の優先順位は
+    date: 2009/10/07 23:44:41
+    is_admin: 1
+    is_odd: 0
+    "no": 35
+  - 
+    comment: グラボ＞グミ＝機材
+    date: 2009/10/07 23:44:52
+    is_admin: 1
+    is_odd: 1
+    "no": 36
+  - 
+    comment: ELECTRIBEha
+    date: 2009/10/07 23:45:07
+    is_odd: 0
+    "no": 37
+  - 
+    comment: 値段は、グミ＝機材＞グラボ
+    date: 2009/10/07 23:45:11
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: グミ、がんばれ！
+    date: 2009/10/07 23:45:20
+    is_odd: 0
+    "no": 39
+  - 
+    comment: トラックボールも導入したいのよねｗ
+    date: 2009/10/07 23:45:40
+    is_admin: 1
+    is_odd: 1
+    "no": 40
+  - 
+    comment: ELECTRIBEはESX以外５台持ってる！！byコスモスＰ
+    date: 2009/10/07 23:45:52
+    is_odd: 0
+    "no": 41
+  - 
+    comment: コスモスPすごー！！
+    date: 2009/10/07 23:46:00
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: ください！←
+    date: 2009/10/07 23:46:13
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: 思わず本音が。。。；；；；；
+    date: 2009/10/07 23:46:41
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: マイクロサンプラー効果でESXが値崩れするのまって６台コンプリートしようと思ってる
+    date: 2009/10/07 23:46:54
+    is_odd: 0
+    "no": 45
+  - 
+    comment: なるほどｗそういう待ちもあるんだｗ
+    date: 2009/10/07 23:47:12
+    is_admin: 1
+    is_odd: 1
+    "no": 46
+  - 
+    comment: マイクロサンプラーとESXは機能がかなりかぶってるからね
+    date: 2009/10/07 23:47:37
+    is_odd: 0
+    "no": 47
+  - 
+    comment: りくしてもいいですか？
+    date: 2009/10/07 23:47:38
+    is_odd: 1
+    "no": 48
+  - 
+    comment: リクかもん！
+    date: 2009/10/07 23:47:45
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: nm8379372
+    date: 2009/10/07 23:47:50
+    is_odd: 1
+    "no": 50
+  - 
+    comment: ども！
+    date: 2009/10/07 23:47:55
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: 今日やっと解禁かな？
+    date: 2009/10/07 23:48:05
+    is_odd: 1
+    "no": 52
+  - 
+    comment: ですね！
+    date: 2009/10/07 23:48:16
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: "■【初音ミク】インベーダー【アレンジ】 ■ ブリブリP "
+    date: 2009/10/07 23:48:21
+    is_admin: 1
+    is_odd: 1
+    "no": 54
+  - 
+    comment: "■2009.09.30 時/3:57 彡/0 ◆再/525 コ/120 マ/40 (7.6%) "
+    date: 2009/10/07 23:48:29
+    is_admin: 1
+    is_odd: 0
+    "no": 56
+  - 
+    comment: いや、もう解禁されてるねｗ
+    date: 2009/10/07 23:48:39
+    is_admin: 1
+    is_odd: 1
+    "no": 57
+  - 
+    comment: あ、そうでしたかwww
+    date: 2009/10/07 23:48:45
+    is_odd: 0
+    "no": 58
+  - 
+    comment: あｗ今日かもｗ最近日時感覚がｗ
+    date: 2009/10/07 23:49:06
+    is_admin: 1
+    is_odd: 1
+    "no": 59
+  - 
+    comment: ブリブリＰいいわあ……
+    date: 2009/10/07 23:49:33
+    is_odd: 0
+    "no": 60
+  - 
+    comment: いいねｂ
+    date: 2009/10/07 23:49:42
+    is_admin: 1
+    is_odd: 1
+    "no": 61
+  - 
+    comment: 何気にこの絵が凄く好みだったりします。
+    date: 2009/10/07 23:49:57
+    is_admin: 1
+    is_odd: 0
+    "no": 62
+  - 
+    comment: www
+    date: 2009/10/07 23:50:01
+    is_odd: 1
+    "no": 63
+  - 
+    comment: 戦場へ赴く前の勉強会かわいいｗ
+    date: 2009/10/07 23:50:14
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: 先生「このように動くんですよ」
+    date: 2009/10/07 23:50:32
+    is_odd: 1
+    "no": 65
+  - 
+    comment: 今北　こんばんはー！
+    date: 2009/10/07 23:51:44
+    is_odd: 0
+    "no": 66
+  - 
+    comment: いらっさい！
+    date: 2009/10/07 23:51:48
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: リクってもう〆てる？
+    date: 2009/10/07 23:52:04
+    is_odd: 0
+    "no": 68
+  - 
+    comment: まだおけよ！
+    date: 2009/10/07 23:52:10
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: nm8325511　　これっておｋかな？
+    date: 2009/10/07 23:52:20
+    is_odd: 0
+    "no": 70
+  - 
+    comment: "■鏡音リンでオリジナル 「Driving」 【ACT2】 ■ つるつるP "
+    date: 2009/10/07 23:52:26
+    is_admin: 1
+    is_odd: 1
+    "no": 71
+  - 
+    comment: "■2008.08.08 時/4:44 彡/0 ◆再/11,471 コ/239 マ/253 (2.2%) "
+    date: 2009/10/07 23:52:34
+    is_admin: 1
+    is_odd: 0
+    "no": 73
+  - 
+    comment: ↓コレヒゲ０！
+    date: 2009/10/07 23:52:41
+    is_admin: 1
+    is_odd: 1
+    "no": 74
+  - 
+    comment: ひげ０ktkr
+    date: 2009/10/07 23:53:00
+    is_odd: 0
+    "no": 75
+  - 
+    comment: sm7756009
+    date: 2009/10/07 23:53:17
+    is_odd: 1
+    "no": 76
+  - 
+    comment: リン株が急上昇です。
+    date: 2009/10/07 23:53:24
+    is_admin: 1
+    is_odd: 0
+    "no": 77
+  - 
+    comment: ＝＝＝以後のリクは次枠へ持ち越しとなります＝＝＝
+    date: 2009/10/07 23:53:55
+    is_admin: 1
+    is_odd: 1
+    "no": 78
+  - 
+    comment: ﾘﾝｶﾜｲｲﾖﾘﾝ
+    date: 2009/10/07 23:53:59
+    is_odd: 0
+    "no": 79
+  - 
+    comment: ↑半角カタカナで書くと嘘臭いなww
+    date: 2009/10/07 23:54:17
+    is_odd: 1
+    "no": 80
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/07 23:54:22
+    is_admin: 1
+    is_odd: 0
+    "no": 81
+  - 
+    comment: 70さん素晴らしいリクありがとう。痺れた。
+    date: 2009/10/07 23:55:03
+    is_admin: 1
+    is_odd: 1
+    "no": 82
+  - 
+    comment: よかったー　ぜひ流して欲しくて　（70
+    date: 2009/10/07 23:55:41
+    is_odd: 0
+    "no": 83
+  - 
+    comment: うんうん、コレは是非流したい。
+    date: 2009/10/07 23:55:50
+    is_admin: 1
+    is_odd: 1
+    "no": 84
+  - 
+    comment: これがヒゲ0とかありえん
+    date: 2009/10/07 23:55:59
+    is_admin: 1
+    is_odd: 0
+    "no": 85
+  - 
+    comment: だよねだよね　（70
+    date: 2009/10/07 23:56:23
+    is_odd: 1
+    "no": 86
+  - 
+    comment: GJですｂ
+    date: 2009/10/07 23:56:32
+    is_admin: 1
+    is_odd: 0
+    "no": 87
+  - 
+    comment: 今流れてるのも良いでしょ！俺GJ!
+    date: 2009/10/07 23:57:02
+    is_admin: 1
+    is_odd: 1
+    "no": 88
+  - 
+    comment: 一年以上前のかあ
+    date: 2009/10/07 23:57:07
+    is_odd: 0
+    "no": 89
+  - 
+    comment: "■【鏡音リン】 Ur-Style 【オリジナル曲】 ■ DATEKEN "
+    date: 2009/10/07 23:57:11
+    is_admin: 1
+    is_odd: 1
+    "no": 90
+  - 
+    comment: "■2009.09.24 時/3:52 彡/0 ◆再/8,793 コ/235 マ/1,057 (12.0%) "
+    date: 2009/10/07 23:57:19
+    is_admin: 1
+    is_odd: 0
+    "no": 92
+  - 
+    comment: おお、
+    date: 2009/10/07 23:57:30
+    is_odd: 1
+    "no": 93
+  - 
+    comment: これ１回流れてるはず
+    date: 2009/10/07 23:58:00
+    is_odd: 0
+    "no": 94
+  - 
+    comment: これは……！
+    date: 2009/10/07 23:58:04
+    is_odd: 1
+    "no": 95
+  - 
+    comment: ほぉ！
+    date: 2009/10/07 23:58:08
+    is_admin: 1
+    is_odd: 0
+    "no": 96
+  - 
+    comment: これ　歌ってみたにも秀逸なのがあるのでそれもお勧めです
+    date: 2009/10/07 23:59:09
+    is_odd: 1
+    "no": 97
+  - 
+    comment: あ、76さんのリク最後途切れそうだから次枠に持っていってもいいでしょうか？？
+    date: 2009/10/07 23:59:09
+    is_odd: 0
+    "no": 98
+  - 
+    comment: おけです、チェックしとく！
+    date: 2009/10/07 23:59:18
+    is_admin: 1
+    is_odd: 1
+    "no": 99
+  - 
+    comment: 情報ｔｈｘ！
+    date: 2009/10/07 23:59:26
+    is_admin: 1
+    is_odd: 0
+    "no": 100
+  - 
+    comment: ベースやべえええええ
+    date: 2009/10/07 23:59:34
+    is_odd: 1
+    "no": 101
+  - 
+    comment: 映像うめぇええ
+    date: 2009/10/07 23:59:54
+    is_admin: 1
+    is_odd: 0
+    "no": 102
+  - 
+    comment: よいですよ～　＜76
+    date: 2009/10/08 00:00:03
+    is_odd: 1
+    "no": 103
+  - 
+    comment: ガラージってやつなのかな？
+    date: 2009/10/08 00:00:05
+    is_odd: 0
+    "no": 104
+  - 
+    comment: どもです！
+    date: 2009/10/08 00:00:08
+    is_admin: 1
+    is_odd: 1
+    "no": 105
+  - 
+    comment: マイリス余裕でした
+    date: 2009/10/08 00:00:40
+    is_odd: 0
+    "no": 106
+  - 
+    comment: つ　sm8396174　この曲の歌ってみたのオススメ　かっこよいのでぜひ　（97
+    date: 2009/10/08 00:00:47
+    is_odd: 1
+    "no": 107
+  - 
+    comment: ＞107さん、その曲はあと1日5時間経たないと流せないのです m(_ _)m
+    date: 2009/10/08 00:00:48
+    is_admin: 1
+    is_odd: 0
+    "no": 108
+  - 
+    comment: ありがとう！！
+    date: 2009/10/08 00:00:56
+    is_admin: 1
+    is_odd: 1
+    "no": 109
+  - 
+    comment: "■【初音ミク】 Heart-Beat 【ジングル】 ■ 律儀P \n"
+    date: 2009/10/08 00:01:04
+    is_admin: 1
+    is_odd: 0
+    "no": 110
+  - 
+    comment: "■2009.08.06 時/2:19 彡/10 ◆再/1,171 コ/20 マ/27 (2.3%) "
+    date: 2009/10/08 00:01:12
+    is_admin: 1
+    is_odd: 1
+    "no": 112
+  - 
+    comment: あ　ゴメンツール反応しちゃったね　（97
+    date: 2009/10/08 00:01:38
+    is_odd: 0
+    "no": 113
+  - 
+    comment: 全然ですよ～。もし反応はじきたい時はスペースを挟むのオススメですｂ
+    date: 2009/10/08 00:02:08
+    is_odd: 1
+    "no": 114
+  - 
+    comment: そういえばオレ主やるとき毎回このジングルつかってるなｗ
+    date: 2009/10/08 00:02:23
+    is_odd: 0
+    "no": 115
+  - 
+    comment: ありがとうｗｗ
+    date: 2009/10/08 00:02:30
+    is_admin: 1
+    is_odd: 1
+    "no": 116
+  - 
+    comment: 曲も絵も素敵ですね～
+    date: 2009/10/08 00:02:42
+    is_odd: 0
+    "no": 117
+  - 
+    comment: ね～
+    date: 2009/10/08 00:02:52
+    is_admin: 1
+    is_odd: 1
+    "no": 118
+  - 
+    comment: では次枠へ移動となります！
+    date: 2009/10/08 00:03:00
+    is_admin: 1
+    is_odd: 0
+    "no": 119
+  - 
+    comment: 皆さん移動ですよ～。
+    date: 2009/10/08 00:03:07
+    is_admin: 1
+    is_odd: 1
+    "no": 120
+  - 
+    comment: 頑張って枠取ってくる！ノシ
+    date: 2009/10/08 00:03:18
+    is_admin: 1
+    is_odd: 0
+    "no": 121
+  - 
+    comment: はーい　おつですー
+    date: 2009/10/08 00:03:20
+    is_odd: 1
+    "no": 122
+  - 
+    comment: がんばってー
+    date: 2009/10/08 00:03:43
+    is_odd: 0
+    "no": 123
+  - 
+    comment: 告知放り込めばいいのにｗ
+    date: 2009/10/08 00:03:50
+    is_odd: 1
+    "no": 124
+  - 
+    comment: 確かにｗ
+    date: 2009/10/08 00:04:11
+    is_odd: 0
+    "no": 125
+frame: 1
+start: 1254926049
+time: 30
+

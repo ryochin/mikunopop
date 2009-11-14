@@ -1,0 +1,531 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: ばわ！
+    date: 2009/10/10 01:32:44
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おやすミクノです。
+    date: 2009/10/10 01:32:49
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: わん
+    date: 2009/10/10 01:32:57
+    is_odd: 1
+    "no": 3
+  - 
+    comment: 今回はリクなしでお願いします。上に書くの忘れてた
+    date: 2009/10/10 01:33:08
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: おつー
+    date: 2009/10/10 01:33:12
+    is_odd: 1
+    "no": 5
+  - 
+    comment: 主せれ→しっとりミクトロニカ
+    date: 2009/10/10 01:33:31
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】 ◆ No.10 presented by \n    k-sk"
+    date: 2009/10/10 01:33:37
+    is_odd: 1
+    "no": 8
+  - 
+    comment: 結構人いるのね。枠取りにくかった。
+    date: 2009/10/10 01:34:49
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: あ、しっとりと書いたけどそうでないのも少しあるのでｗ
+    date: 2009/10/10 01:35:50
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: "■【鏡音リン】モノクロゼロイチ【オリジナル】 ■ ねこぼーろ "
+    date: 2009/10/10 01:35:54
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: "■2009.07.05 時/4:09 彡/8 ◆再/1,279 コ/106 マ/101 (7.9%) "
+    date: 2009/10/10 01:36:02
+    is_admin: 1
+    is_odd: 1
+    "no": 13
+  - 
+    comment: sm7661168
+    date: 2009/10/10 01:39:02
+    is_odd: 0
+    "no": 14
+  - 
+    comment: リク禁止だったけど、聴いてビビッときたので突発採用
+    date: 2009/10/10 01:40:06
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: "■【初音ミク】アイテール - Aether【オリジナル】 ■ なんかどうP "
+    date: 2009/10/10 01:40:09
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: "■2009.07.17 時/3:10 彡/3 ◆再/612 コ/12 マ/24 (3.9%) "
+    date: 2009/10/10 01:40:17
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: あ、ごめん気付かなかった（14
+    date: 2009/10/10 01:40:35
+    is_odd: 0
+    "no": 19
+  - 
+    comment: 全然おｋ、むしろ良い曲教えてくれてありがとうです。
+    date: 2009/10/10 01:40:55
+    is_admin: 1
+    is_odd: 1
+    "no": 20
+  - 
+    comment: "■【初音ミク】Miktronica II【オリジナル曲】 ■ kiichi なんとかＰ "
+    date: 2009/10/10 01:43:19
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: "■2008.08.12 時/5:27 彡/22 ◆再/33,513 コ/889 マ/1,125 (3.4%) "
+    date: 2009/10/10 01:43:26
+    is_admin: 1
+    is_odd: 1
+    "no": 23
+  - 
+    comment: 今日グラボ新調しました。
+    date: 2009/10/10 01:44:11
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: HD3450→HD4670
+    date: 2009/10/10 01:44:29
+    is_admin: 1
+    is_odd: 1
+    "no": 25
+  - 
+    comment: AMDerだったのかー
+    date: 2009/10/10 01:44:56
+    is_odd: 0
+    "no": 26
+  - 
+    comment: それに伴って3Dの勉強もボチボチ始めてみようかななどと思ったり。
+    date: 2009/10/10 01:44:57
+    is_odd: 1
+    "no": 27
+  - 
+    comment: ですですｗ
+    date: 2009/10/10 01:45:02
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: HISのHD46701GBが6980円だったのｗ
+    date: 2009/10/10 01:45:25
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: いいすな
+    date: 2009/10/10 01:45:35
+    is_odd: 0
+    "no": 30
+  - 
+    comment: 憧れの２スロ外廃熱ｂ
+    date: 2009/10/10 01:45:50
+    is_admin: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: 組みつけの時、ＨＤＤのケーブル外れてたの気付かないで
+    date: 2009/10/10 01:46:29
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: OS起動しないΣ→orz
+    date: 2009/10/10 01:46:48
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: 凡ミスすぎるｗ
+    date: 2009/10/10 01:47:14
+    is_odd: 0
+    "no": 34
+  - 
+    comment: HDD買ってOS再インスコか、、、と頭下げたらコネクタ外れてるのに気付いたというｗ
+    date: 2009/10/10 01:47:19
+    is_odd: 1
+    "no": 35
+  - 
+    comment: 危なかったｗ
+    date: 2009/10/10 01:47:28
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: 気づいてよかったですねｗ
+    date: 2009/10/10 01:47:39
+    is_odd: 1
+    "no": 37
+  - 
+    comment: ホントですｗこれでHDD買ってたらボカロ購入の夢も絶たれるトコでしたｗ
+    date: 2009/10/10 01:48:04
+    is_odd: 0
+    "no": 38
+  - 
+    comment: "■【初音ミク】レイニーデイズ【オリジナル】 ■ 夕闇P "
+    date: 2009/10/10 01:48:46
+    is_admin: 1
+    is_odd: 1
+    "no": 39
+  - 
+    comment: "■2009.10.06 時/6:12 彡/0 ◆再/21,386 コ/862 マ/2,675 (12.5%) "
+    date: 2009/10/10 01:48:54
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: それはきっとここの人みんな悲しむ
+    date: 2009/10/10 01:48:59
+    is_odd: 1
+    "no": 42
+  - 
+    comment: そんなｗｗ気ままにやりますよｗ
+    date: 2009/10/10 01:49:16
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: きた
+    date: 2009/10/10 01:49:28
+    is_odd: 1
+    "no": 44
+  - 
+    comment: いらさい！
+    date: 2009/10/10 01:49:32
+    is_admin: 1
+    is_odd: 0
+    "no": 45
+  - 
+    comment: これすき
+    date: 2009/10/10 01:49:56
+    is_odd: 1
+    "no": 46
+  - 
+    comment: ねー、良い曲。
+    date: 2009/10/10 01:50:02
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: 文字もかわいい。
+    date: 2009/10/10 01:50:22
+    is_admin: 1
+    is_odd: 1
+    "no": 48
+  - 
+    comment: 万年筆も欲しいんだよなぁ。。。
+    date: 2009/10/10 01:50:40
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: 初めてだけど、ステキ
+    date: 2009/10/10 01:50:45
+    is_odd: 1
+    "no": 50
+  - 
+    comment: 曲との出会い素敵です。
+    date: 2009/10/10 01:51:08
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: 泣く
+    date: 2009/10/10 01:51:52
+    is_odd: 1
+    "no": 52
+  - 
+    comment: ''
+    date: 2009/10/10 01:52:20
+    is_admin: 1
+    is_empty: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: ノイズは雨音　心に降る雨
+    date: 2009/10/10 01:53:04
+    is_odd: 1
+    "no": 54
+  - 
+    comment: 心に降る雨の可聴化か。。
+    date: 2009/10/10 01:53:33
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: 雨で思い出した。台風で被害に会われた方のお見舞い申し上げます。
+    date: 2009/10/10 01:55:01
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: ■【メグッポイド】Last night good night ■ P名?
+    date: 2009/10/10 01:55:05
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: "■2009.09.13 時/6:21 彡/1 ◆再/567 コ/25 マ/18 (3.2%) "
+    date: 2009/10/10 01:55:13
+    is_admin: 1
+    is_odd: 1
+    "no": 59
+  - 
+    comment: こっちは夜中の間に通り過ぎたみたいでした。
+    date: 2009/10/10 01:55:37
+    is_admin: 1
+    is_odd: 0
+    "no": 60
+  - 
+    comment: おお、これめぐぽ版あったのか！
+    date: 2009/10/10 01:56:13
+    is_odd: 1
+    "no": 61
+  - 
+    comment: 今日見つけましたｂ
+    date: 2009/10/10 01:56:32
+    is_admin: 1
+    is_odd: 0
+    "no": 62
+  - 
+    comment: ステキ！
+    date: 2009/10/10 01:56:42
+    is_odd: 1
+    "no": 63
+  - 
+    comment: ね！！
+    date: 2009/10/10 01:56:53
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: この曲はがくぽも歌わせてたよね　元はミクでしょ
+    date: 2009/10/10 01:56:58
+    is_odd: 1
+    "no": 65
+  - 
+    comment: ほー！がくぽもあったのか。元はミクですよー。
+    date: 2009/10/10 01:57:50
+    is_admin: 1
+    is_odd: 0
+    "no": 66
+  - 
+    comment: さて、ワタクシ。明日明後日とよさこいの演舞してきます。
+    date: 2009/10/10 01:58:34
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: なので疲れて自分の放送は無いかと、ご了承ください。
+    date: 2009/10/10 01:58:56
+    is_admin: 1
+    is_odd: 0
+    "no": 68
+  - 
+    comment: 踊るDJ
+    date: 2009/10/10 01:59:10
+    is_odd: 1
+    "no": 69
+  - 
+    comment: まぁ、こんな事書く必要あるのかと聞かれたらなんも言えないがｗ
+    date: 2009/10/10 01:59:18
+    is_admin: 1
+    is_odd: 0
+    "no": 70
+  - 
+    comment: DJは２日目だけやるよん
+    date: 2009/10/10 01:59:31
+    is_admin: 1
+    is_odd: 1
+    "no": 71
+  - 
+    comment: この主さん、めぐぽカバー色々やってるんだなぁ
+    date: 2009/10/10 01:59:50
+    is_odd: 0
+    "no": 72
+  - 
+    comment: よさこいは旗手やってますー。
+    date: 2009/10/10 01:59:50
+    is_admin: 1
+    is_odd: 1
+    "no": 73
+  - 
+    comment: 要チェックですよ！
+    date: 2009/10/10 02:00:00
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: ＞めぐぽカバー
+    date: 2009/10/10 02:00:07
+    is_admin: 1
+    is_odd: 1
+    "no": 75
+  - 
+    comment: よさこいでDJとかあんのか
+    date: 2009/10/10 02:00:07
+    is_odd: 0
+    "no": 76
+  - 
+    comment: 別ですｗどっちもやりますｗ
+    date: 2009/10/10 02:00:18
+    is_admin: 1
+    is_odd: 1
+    "no": 77
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/10 02:00:25
+    is_odd: 0
+    "no": 78
+  - 
+    comment: ５ｍくらいの旗振るよー
+    date: 2009/10/10 02:00:37
+    is_admin: 1
+    is_odd: 1
+    "no": 79
+  - 
+    comment: １０ｋｇくらい。
+    date: 2009/10/10 02:00:44
+    is_admin: 1
+    is_odd: 0
+    "no": 80
+  - 
+    comment: どんだけー
+    date: 2009/10/10 02:00:53
+    is_odd: 1
+    "no": 81
+  - 
+    comment: 筋肉の繊維が切れる感触がするの。
+    date: 2009/10/10 02:00:57
+    is_admin: 1
+    is_odd: 0
+    "no": 82
+  - 
+    comment: ガンバル。
+    date: 2009/10/10 02:01:03
+    is_admin: 1
+    is_odd: 1
+    "no": 83
+  - 
+    comment: orz
+    date: 2009/10/10 02:01:06
+    is_admin: 1
+    is_odd: 0
+    "no": 84
+  - 
+    comment: 俺には無理ｗ
+    date: 2009/10/10 02:01:07
+    is_odd: 1
+    "no": 85
+  - 
+    comment: こわいおー
+    date: 2009/10/10 02:01:10
+    is_odd: 0
+    "no": 86
+  - 
+    comment: 腕もげるｗｗ
+    date: 2009/10/10 02:01:15
+    is_odd: 1
+    "no": 87
+  - 
+    comment: 筋肉マンDJ
+    date: 2009/10/10 02:01:29
+    is_odd: 0
+    "no": 88
+  - 
+    comment: ちょっと時間余るけどこの辺でオシマイｗ
+    date: 2009/10/10 02:01:31
+    is_admin: 1
+    is_odd: 1
+    "no": 89
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/10/10 02:01:38
+    is_admin: 1
+    is_odd: 0
+    "no": 90
+  - 
+    comment: 良い夢を～ﾉ
+    date: 2009/10/10 02:01:48
+    is_admin: 1
+    is_odd: 1
+    "no": 91
+  - 
+    comment: 今日もありがとさんでした
+    date: 2009/10/10 02:01:48
+    is_odd: 0
+    "no": 92
+  - 
+    comment: お疲れ様でした
+    date: 2009/10/10 02:01:50
+    is_odd: 1
+    "no": 93
+  - 
+    comment: おやすみなさい　ノシ~
+    date: 2009/10/10 02:01:53
+    is_odd: 0
+    "no": 94
+  - 
+    comment: 乙
+    date: 2009/10/10 02:01:55
+    is_odd: 1
+    "no": 95
+  - 
+    comment: いえいえ～。では！
+    date: 2009/10/10 02:01:56
+    is_admin: 1
+    is_odd: 0
+    "no": 96
+  - 
+    comment: のし！
+    date: 2009/10/10 02:01:58
+    is_admin: 1
+    is_odd: 1
+    "no": 97
+  - 
+    comment: ノミ
+    date: 2009/10/10 02:02:00
+    is_odd: 0
+    "no": 98
+  - 
+    comment: のみ！
+    date: 2009/10/10 02:02:06
+    is_admin: 1
+    is_odd: 1
+    "no": 99
+frame: 1
+start: 1255105964
+time: 29
+

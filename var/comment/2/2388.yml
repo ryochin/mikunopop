@@ -1,0 +1,702 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんばわ！
+    date: 2009/10/24 21:28:07
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: 夜ミクノです。
+    date: 2009/10/24 21:28:11
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 14秒でアリーナ席7番か
+    date: 2009/10/24 21:28:21
+    is_odd: 1
+    "no": 3
+  - 
+    comment: 枠乙です
+    date: 2009/10/24 21:28:28
+    is_odd: 0
+    "no": 4
+  - 
+    comment: 主セレ→最近聞きたい曲をいくつかピックアッポ
+    date: 2009/10/24 21:28:34
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: リク随時でっす！
+    date: 2009/10/24 21:28:39
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: 3さん番組あってる？ｗ
+    date: 2009/10/24 21:28:53
+    is_admin: 1
+    is_odd: 1
+    "no": 7
+  - 
+    comment: ビッグアッポー
+    date: 2009/10/24 21:29:00
+    is_odd: 0
+    "no": 9
+  - 
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Freestyle ver.K】◆ No.8 presented by k-sk
+    date: 2009/10/24 21:29:00
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: ボカロックも気になってたけど、自分の作業開始が遅れるので今から放送でっす！
+    date: 2009/10/24 21:29:40
+    is_odd: 0
+    "no": 11
+  - 
+    comment: "■【初音ミク】VOiCE【オリジナル】 ■ ラヴリーP "
+    date: 2009/10/24 21:30:52
+    is_admin: 1
+    is_odd: 1
+    "no": 12
+  - 
+    comment: "■2008.08.13 時/4:27 彡/3 ◆再/300,023 コ/10,778 マ/10,502 (3.5%) "
+    date: 2009/10/24 21:31:00
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: 第3回ミクノポップ大賞も投票が集まってきましたね。
+    date: 2009/10/24 21:31:27
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: ありがたや～
+    date: 2009/10/24 21:31:31
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: よろ sm8241945
+    date: 2009/10/24 21:32:28
+    is_odd: 1
+    "no": 17
+  - 
+    comment: ども！
+    date: 2009/10/24 21:32:36
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: こんばんわ～！
+    date: 2009/10/24 21:34:33
+    is_odd: 1
+    "no": 19
+  - 
+    comment: いらっさー！
+    date: 2009/10/24 21:34:37
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: sm5717696
+    date: 2009/10/24 21:34:49
+    is_odd: 1
+    "no": 21
+  - 
+    comment: リクども～！
+    date: 2009/10/24 21:35:06
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: "■【鏡音リン】ハイスクリプト！【オリジナルPV】 ■ じーざすP "
+    date: 2009/10/24 21:35:21
+    is_admin: 1
+    is_odd: 1
+    "no": 23
+  - 
+    comment: "■2009.09.16 時/4:09 彡/1 ◆再/2,518 コ/168 マ/153 (6.1%) "
+    date: 2009/10/24 21:35:29
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: sm6237157
+    date: 2009/10/24 21:37:01
+    is_odd: 1
+    "no": 26
+  - 
+    comment: リクしめで～。
+    date: 2009/10/24 21:37:15
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: 今日、コーラショック買ってきました。
+    date: 2009/10/24 21:38:34
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: ノーマルとゼロの２つ。
+    date: 2009/10/24 21:38:47
+    is_admin: 1
+    is_odd: 0
+    "no": 29
+  - 
+    comment: なんですか それ
+    date: 2009/10/24 21:38:52
+    is_odd: 1
+    "no": 30
+  - 
+    comment: 夜中飲むよ～。
+    date: 2009/10/24 21:38:54
+    is_admin: 1
+    is_odd: 0
+    "no": 31
+  - 
+    comment: なんかコーラとウォッカを合わせた飲み物らしい
+    date: 2009/10/24 21:39:04
+    is_admin: 1
+    is_odd: 1
+    "no": 32
+  - 
+    comment: へえー
+    date: 2009/10/24 21:39:18
+    is_odd: 0
+    "no": 33
+  - 
+    comment: "■【初音ミク】 Brand New World 【オリジナル】 ■ あかやかP "
+    date: 2009/10/24 21:39:31
+    is_admin: 1
+    is_odd: 1
+    "no": 34
+  - 
+    comment: "■2009.01.01 時/4:25 彡/5 ◆再/2,924 コ/66 マ/122 (4.2%) "
+    date: 2009/10/24 21:39:39
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: http://newfinder.jp/2009/05/10/10850.html
+    date: 2009/10/24 21:39:46
+    is_odd: 1
+    "no": 37
+  - 
+    comment: そんなハイな気分の主リクが楽しみですw
+    date: 2009/10/24 21:40:18
+    is_odd: 0
+    "no": 38
+  - 
+    comment: ７　0か1番狙っていたのですよｗ　＾＾ｄ
+    date: 2009/10/24 21:40:21
+    is_odd: 1
+    "no": 39
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/24 21:40:30
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: ３缶買うとオリジナルグラスプレゼントで、
+    date: 2009/10/24 21:40:49
+    is_admin: 1
+    is_odd: 1
+    "no": 41
+  - 
+    comment: グラスデザインの余りのシュールさに思わず買ってもーたｗ
+    date: 2009/10/24 21:41:06
+    is_admin: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: ６０年代後半のアメリカ思い出したｗ
+    date: 2009/10/24 21:41:17
+    is_admin: 1
+    is_odd: 1
+    "no": 43
+  - 
+    comment: 帰ってきてちょっと後悔してるのはヒミツ。
+    date: 2009/10/24 21:42:09
+    is_admin: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: それはほめてんの？ｗ
+    date: 2009/10/24 21:42:11
+    is_odd: 1
+    "no": 45
+  - 
+    comment: どーでしょ？ｗ
+    date: 2009/10/24 21:42:22
+    is_admin: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: でも嫌いじゃないですよーｗ
+    date: 2009/10/24 21:42:29
+    is_admin: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: そういえば最近スーパーにやたらとあるなぁ＞コーラショック
+    date: 2009/10/24 21:42:39
+    is_odd: 0
+    "no": 48
+  - 
+    comment: ググってきた グラスデザイン ・・ん〜w
+    date: 2009/10/24 21:42:43
+    is_odd: 1
+    "no": 49
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/24 21:42:48
+    is_admin: 1
+    is_odd: 0
+    "no": 50
+  - 
+    comment: 今北ぁ　こんばわぁぁぁ！！！
+    date: 2009/10/24 21:43:49
+    is_odd: 1
+    "no": 51
+  - 
+    comment: いらっさ！
+    date: 2009/10/24 21:43:54
+    is_admin: 1
+    is_odd: 0
+    "no": 52
+  - 
+    comment: "■【初音ミク】ふわぽわ【手描きＰＶ】 ■ 機材欲しいP "
+    date: 2009/10/24 21:43:56
+    is_admin: 1
+    is_odd: 1
+    "no": 53
+  - 
+    comment: "■2009.02.23 時/4:19 彡/5 ◆再/2,182 コ/53 マ/99 (4.5%) "
+    date: 2009/10/24 21:44:04
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: 機材欲しいPだ！！
+    date: 2009/10/24 21:44:08
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: いらっしゃぁぁぁいぃぃぃこばんわぁぁぁ良く来たねぇぇぇ
+    date: 2009/10/24 21:44:12
+    is_odd: 0
+    "no": 57
+  - 
+    comment: あっ！そっかPV系は残ってるのか！なるほど～。
+    date: 2009/10/24 21:44:38
+    is_admin: 1
+    is_odd: 1
+    "no": 58
+  - 
+    comment: うえぇぇぇいいいいい！！！　（51
+    date: 2009/10/24 21:44:44
+    is_odd: 0
+    "no": 59
+  - 
+    comment: ｗｗ
+    date: 2009/10/24 21:44:58
+    is_odd: 1
+    "no": 60
+  - 
+    comment: みんな飲んでるのかw
+    date: 2009/10/24 21:45:12
+    is_odd: 0
+    "no": 61
+  - 
+    comment: 主はまだ飲んでないよｗｗ
+    date: 2009/10/24 21:45:20
+    is_admin: 1
+    is_odd: 1
+    "no": 62
+  - 
+    comment: 僕もまだ。
+    date: 2009/10/24 21:45:31
+    is_odd: 0
+    "no": 63
+  - 
+    comment: みんな飲んでる放送って面白そうだねｗ
+    date: 2009/10/24 21:45:35
+    is_odd: 1
+    "no": 64
+  - 
+    comment: 主に　さっきちょっとおごってもらったよーー
+    date: 2009/10/24 21:45:39
+    is_odd: 0
+    "no": 65
+  - 
+    comment: 捏造しないｗｗ
+    date: 2009/10/24 21:45:49
+    is_admin: 1
+    is_odd: 1
+    "no": 66
+  - 
+    comment: この放送終わったら夕飯買ってこないと；；
+    date: 2009/10/24 21:45:51
+    is_odd: 0
+    "no": 67
+  - 
+    comment: いってら コーラショックおすすめ
+    date: 2009/10/24 21:46:10
+    is_odd: 1
+    "no": 68
+  - 
+    comment: スーパーはもうそろ第一段階の値引き始まる頃ですね～
+    date: 2009/10/24 21:46:16
+    is_admin: 1
+    is_odd: 0
+    "no": 69
+  - 
+    comment: さっき冷蔵庫でバターを発見したから晩飯はイモ焼くんだ・・
+    date: 2009/10/24 21:46:17
+    is_odd: 1
+    "no": 70
+  - 
+    comment: バターいもいいなぁ
+    date: 2009/10/24 21:46:26
+    is_admin: 1
+    is_odd: 0
+    "no": 71
+  - 
+    comment: じゃがいももさつまいももバターと合うよね
+    date: 2009/10/24 21:46:37
+    is_odd: 1
+    "no": 72
+  - 
+    comment: うまうまー
+    date: 2009/10/24 21:46:44
+    is_admin: 1
+    is_odd: 0
+    "no": 73
+  - 
+    comment: いいねえ〜
+    date: 2009/10/24 21:46:47
+    is_odd: 1
+    "no": 74
+  - 
+    comment: 焼酎とかいいねぇ。
+    date: 2009/10/24 21:46:57
+    is_admin: 1
+    is_odd: 0
+    "no": 75
+  - 
+    comment: 日本酒も捨てがたい。
+    date: 2009/10/24 21:47:11
+    is_admin: 1
+    is_odd: 1
+    "no": 76
+  - 
+    comment: もう北海道ってバターまみれだな
+    date: 2009/10/24 21:47:13
+    is_odd: 0
+    "no": 77
+  - 
+    comment: なんか嫌な表現だなぁｗｗ
+    date: 2009/10/24 21:47:23
+    is_admin: 1
+    is_odd: 1
+    "no": 78
+  - 
+    comment: 牛乳の有効利用ですよｗ
+    date: 2009/10/24 21:47:52
+    is_admin: 1
+    is_odd: 0
+    "no": 79
+  - 
+    comment: あー、soilの人なのか。納得した
+    date: 2009/10/24 21:47:53
+    is_odd: 1
+    "no": 80
+  - 
+    comment: あ、ステラマリンもこの人の動画なのか
+    date: 2009/10/24 21:48:45
+    is_odd: 0
+    "no": 81
+  - 
+    comment: あれ？とんでない？？
+    date: 2009/10/24 21:48:45
+    is_admin: 1
+    is_odd: 1
+    "no": 82
+  - 
+    comment: 来て無いね
+    date: 2009/10/24 21:48:53
+    is_odd: 0
+    "no": 83
+  - 
+    comment: 無反応
+    date: 2009/10/24 21:48:54
+    is_odd: 1
+    "no": 84
+  - 
+    comment: 手打ちで回避～
+    date: 2009/10/24 21:49:13
+    is_admin: 1
+    is_odd: 0
+    "no": 86
+  - 
+    comment: ぼくはロボット〜
+    date: 2009/10/24 21:49:22
+    is_odd: 1
+    "no": 87
+  - 
+    comment: 放送事故のを期待した…ｗ
+    date: 2009/10/24 21:49:45
+    is_odd: 0
+    "no": 88
+  - 
+    comment: あーｗごめんねぇｗ
+    date: 2009/10/24 21:50:04
+    is_admin: 1
+    is_odd: 1
+    "no": 89
+  - 
+    comment: ちょっと余裕なかったｗｗ
+    date: 2009/10/24 21:50:16
+    is_admin: 1
+    is_odd: 0
+    "no": 90
+  - 
+    comment: 焼き芋食べたくなって来た・・・この時期ならスーパーとかで焼き芋売ってるかな？
+    date: 2009/10/24 21:50:51
+    is_odd: 1
+    "no": 91
+  - 
+    comment: スーパーに焼き芋売ってるんだー
+    date: 2009/10/24 21:51:18
+    is_admin: 1
+    is_odd: 0
+    "no": 92
+  - 
+    comment: わかんないｗ（91
+    date: 2009/10/24 21:51:36
+    is_odd: 1
+    "no": 93
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/24 21:51:39
+    is_admin: 1
+    is_odd: 0
+    "no": 94
+  - 
+    comment: さて、この曲でこの枠はおしまいです。
+    date: 2009/10/24 21:54:04
+    is_admin: 1
+    is_odd: 1
+    "no": 96
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/10/24 21:54:12
+    is_admin: 1
+    is_odd: 0
+    "no": 97
+  - 
+    comment: 乙さま〜
+    date: 2009/10/24 21:54:18
+    is_odd: 1
+    "no": 98
+  - 
+    comment: おつかれさまー
+    date: 2009/10/24 21:54:27
+    is_odd: 0
+    "no": 99
+  - 
+    comment: またおやすミクノにでも～ｗ
+    date: 2009/10/24 21:54:36
+    is_admin: 1
+    is_odd: 1
+    "no": 100
+  - 
+    comment: 楽しい一時をありがとう～乙です！
+    date: 2009/10/24 21:54:40
+    is_odd: 0
+    "no": 101
+  - 
+    comment: おつさま～！
+    date: 2009/10/24 21:54:45
+    is_odd: 1
+    "no": 102
+  - 
+    comment: いあいあー！こちらこそ！
+    date: 2009/10/24 21:54:47
+    is_admin: 1
+    is_odd: 0
+    "no": 103
+  - 
+    comment: 投票もよろしくねぇ～☆
+    date: 2009/10/24 21:54:57
+    is_admin: 1
+    is_odd: 1
+    "no": 104
+  - 
+    comment: 主　作業がんがってね！
+    date: 2009/10/24 21:54:58
+    is_odd: 0
+    "no": 105
+  - 
+    comment: がんがる！
+    date: 2009/10/24 21:55:02
+    is_admin: 1
+    is_odd: 1
+    "no": 106
+  - 
+    comment: 愛ってなんだろうな(´・ω・`)
+    date: 2009/10/24 21:55:15
+    is_odd: 0
+    "no": 107
+  - 
+    comment: 投票・・・むずかしいお
+    date: 2009/10/24 21:55:16
+    is_odd: 1
+    "no": 108
+  - 
+    comment: 主も悩んでるお。。
+    date: 2009/10/24 21:55:25
+    is_admin: 1
+    is_odd: 0
+    "no": 109
+  - 
+    comment: (ﾟﾟ)(｡｡)(ﾟﾟ)(｡｡)
+    date: 2009/10/24 21:55:30
+    is_odd: 1
+    "no": 110
+  - 
+    comment: 愛・・・(´・ω・`)
+    date: 2009/10/24 21:55:36
+    is_odd: 0
+    "no": 111
+  - 
+    comment: 既に投票されてる方の選曲を見てみるのもアリかも。
+    date: 2009/10/24 21:55:57
+    is_admin: 1
+    is_odd: 1
+    "no": 112
+  - 
+    comment: いろいろ捉えられからおもしろいかもね
+    date: 2009/10/24 21:56:02
+    is_odd: 0
+    "no": 113
+  - 
+    comment: 色んな愛がそこにはありました。
+    date: 2009/10/24 21:56:04
+    is_admin: 1
+    is_odd: 1
+    "no": 114
+  - 
+    comment: なるほどー
+    date: 2009/10/24 21:56:06
+    is_odd: 0
+    "no": 115
+  - 
+    comment: なるほど　みてみようーっと
+    date: 2009/10/24 21:56:22
+    is_odd: 1
+    "no": 116
+  - 
+    comment: いいこといって
+    date: 2009/10/24 21:56:29
+    is_odd: 0
+    "no": 117
+  - 
+    comment: た
+    date: 2009/10/24 21:56:32
+    is_odd: 1
+    "no": 118
+  - 
+    comment: 皆さんの愛、お待ちしております(はぁと
+    date: 2009/10/24 21:56:37
+    is_admin: 1
+    is_odd: 0
+    "no": 119
+  - 
+    comment: あーい（愛
+    date: 2009/10/24 21:56:45
+    is_odd: 1
+    "no": 120
+  - 
+    comment: おつkr
+    date: 2009/10/24 21:56:52
+    is_odd: 0
+    "no": 121
+  - 
+    comment: うまいｗ
+    date: 2009/10/24 21:56:56
+    is_odd: 1
+    "no": 122
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/24 21:56:59
+    is_admin: 1
+    is_odd: 0
+    "no": 123
+  - 
+    comment: この曲は主絶対入れようと思ってますｂ
+    date: 2009/10/24 21:57:14
+    is_admin: 1
+    is_odd: 1
+    "no": 124
+  - 
+    comment: そしてこうやって洗脳をｗｗ
+    date: 2009/10/24 21:57:27
+    is_admin: 1
+    is_odd: 0
+    "no": 125
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/24 21:57:33
+    is_odd: 1
+    "no": 126
+  - 
+    comment: それじゃぁねぇ～ｗ
+    date: 2009/10/24 21:57:42
+    is_admin: 1
+    is_odd: 0
+    "no": 127
+  - 
+    comment: ノ
+    date: 2009/10/24 21:57:45
+    is_odd: 1
+    "no": 128
+  - 
+    comment: のし！
+    date: 2009/10/24 21:57:45
+    is_admin: 1
+    is_odd: 0
+    "no": 129
+  - 
+    comment: のし！
+    date: 2009/10/24 21:57:46
+    is_odd: 1
+    "no": 130
+  - 
+    comment: のし！
+    date: 2009/10/24 21:57:50
+    is_odd: 0
+    "no": 131
+  - 
+    comment: ノシ
+    date: 2009/10/24 21:57:53
+    is_odd: 1
+    "no": 132
+  - 
+    comment: のし
+    date: 2009/10/24 21:57:53
+    is_odd: 0
+    "no": 133
+frame: 1
+start: 1256387287
+time: 29
+

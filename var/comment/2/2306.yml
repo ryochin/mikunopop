@@ -1,0 +1,537 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: ばんわ！
+    date: 2009/10/13 20:41:34
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: 夜ミクノです。
+    date: 2009/10/13 20:41:38
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 主セレ→クールトランス
+    date: 2009/10/13 20:41:57
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: リク随時でっす。
+    date: 2009/10/13 20:42:02
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: ｷｬｰ　ｲｹﾒﾝﾇｼｻﾏﾖｰ
+    date: 2009/10/13 20:42:04
+    is_odd: 1
+    "no": 5
+  - 
+    comment: ｷｬｰ（略
+    date: 2009/10/13 20:42:11
+    is_odd: 0
+    "no": 6
+  - 
+    comment: いらっしゃいませ！
+    date: 2009/10/13 20:42:13
+    is_admin: 1
+    is_odd: 1
+    "no": 7
+  - 
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Freestyle ver.K】 ◆ No.8 presented by k-sk
+    date: 2009/10/13 20:42:22
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: ｷｬｰ！愛ﾉﾋﾄﾖｰ！
+    date: 2009/10/13 20:42:43
+    is_odd: 1
+    "no": 10
+  - 
+    comment: 愛の人？ｗ
+    date: 2009/10/13 20:43:21
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: 愛のジ☆ン☆グ☆ル
+    date: 2009/10/13 20:44:04
+    is_odd: 1
+    "no": 12
+  - 
+    comment: ｗｗｗ
+    date: 2009/10/13 20:44:11
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: "■初音ミクにオリジナルソング「binary star」を歌わせてみた。 ■ Re:nG "
+    date: 2009/10/13 20:44:14
+    is_admin: 1
+    is_odd: 1
+    "no": 14
+  - 
+    comment: "■2008.03.04 時/4:37 彡/1 ◆再/73,680 コ/1,303 マ/2,855 (3.9%) "
+    date: 2009/10/13 20:44:22
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: この曲大好きです。
+    date: 2009/10/13 20:44:28
+    is_admin: 1
+    is_odd: 1
+    "no": 17
+  - 
+    comment: 投稿された時からいままでずっと聴いてる曲の一つです。
+    date: 2009/10/13 20:44:59
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: "■①　初音ミク　オリジナル　『REFLECTION』 ■ ケケケのケP "
+    date: 2009/10/13 20:48:50
+    is_admin: 1
+    is_odd: 1
+    "no": 19
+  - 
+    comment: "■2008.09.14 時/4:04 彡/2 ◆再/2,545 コ/51 マ/69 (2.7%) "
+    date: 2009/10/13 20:48:58
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: 今来たこんばんわぁぁ！
+    date: 2009/10/13 20:49:29
+    is_odd: 1
+    "no": 22
+  - 
+    comment: いらっしゃいませー！
+    date: 2009/10/13 20:49:36
+    is_admin: 1
+    is_odd: 0
+    "no": 23
+  - 
+    comment: ミクは色んな表情見せるね。
+    date: 2009/10/13 20:51:03
+    is_admin: 1
+    is_odd: 1
+    "no": 24
+  - 
+    comment: いろんなミクがいるもんですね
+    date: 2009/10/13 20:51:34
+    is_odd: 0
+    "no": 25
+  - 
+    comment: 面白いなぁ。
+    date: 2009/10/13 20:52:01
+    is_admin: 1
+    is_odd: 1
+    "no": 26
+  - 
+    comment: Pの数だけミクはいます
+    date: 2009/10/13 20:52:07
+    is_odd: 0
+    "no": 27
+  - 
+    comment: その言葉いいね！
+    date: 2009/10/13 20:52:16
+    is_admin: 1
+    is_odd: 1
+    "no": 28
+  - 
+    comment: 実際はPの数以上いるんだろうけどｗ
+    date: 2009/10/13 20:52:32
+    is_odd: 0
+    "no": 29
+  - 
+    comment: 絵師さんしかり
+    date: 2009/10/13 20:52:46
+    is_admin: 1
+    is_odd: 1
+    "no": 30
+  - 
+    comment: "■【初音ミク】 Pusse cafe 【オリジナル曲】 ■ CleanTears "
+    date: 2009/10/13 20:52:56
+    is_admin: 1
+    is_odd: 0
+    "no": 31
+  - 
+    comment: "■2009.02.15 時/4:48 彡/11 ◆再/53,011 コ/1,365 マ/3,457 (6.5%) "
+    date: 2009/10/13 20:53:04
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: こんばんわー
+    date: 2009/10/13 20:53:24
+    is_odd: 0
+    "no": 34
+  - 
+    comment: ボカロ文化に対する思いの数だけいるってことかな。
+    date: 2009/10/13 20:53:29
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: いらっさい！
+    date: 2009/10/13 20:53:33
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: いきなりかっこいい曲ｗｗ
+    date: 2009/10/13 20:53:47
+    is_odd: 1
+    "no": 37
+  - 
+    comment: まもなく一家に一台ハツネミクの時代
+    date: 2009/10/13 20:54:08
+    is_odd: 0
+    "no": 38
+  - 
+    comment: ちょっとトランスから外れたけどｗクールつながりということでｗ
+    date: 2009/10/13 20:54:08
+    is_admin: 1
+    is_odd: 1
+    "no": 39
+  - 
+    comment: 個人的にミクは卓上サイズの方がしっくりきますね。
+    date: 2009/10/13 20:55:14
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: 伺か、みたいだけどもｗ
+    date: 2009/10/13 20:55:35
+    is_admin: 1
+    is_odd: 1
+    "no": 41
+  - 
+    comment: このコメントは表示されません
+    date: 2009/10/13 20:55:35
+    is_hidden: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: ミクの声は他ボカロにくらべてくせがないから曲が作りやすいのかな？
+    date: 2009/10/13 20:56:21
+    is_odd: 1
+    "no": 43
+  - 
+    comment: なんですかね？？やっぱ他のボカロは癖があるのかな？
+    date: 2009/10/13 20:56:43
+    is_admin: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: なんでも合う声してる気がする
+    date: 2009/10/13 20:57:07
+    is_odd: 1
+    "no": 45
+  - 
+    comment: あー、たしかに。わかります。
+    date: 2009/10/13 20:57:17
+    is_admin: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: ここで告知。
+    date: 2009/10/13 20:57:32
+    is_admin: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: はい
+    date: 2009/10/13 20:57:39
+    is_odd: 0
+    "no": 48
+  - 
+    comment: 第3回ミクノポップ大賞開催です。
+    date: 2009/10/13 20:57:42
+    is_admin: 1
+    is_odd: 1
+    "no": 49
+  - 
+    comment: ■第3回ミクノポップ大賞-告知動画 ◆ イベント告知 presented by k-sk
+    date: 2009/10/13 20:57:48
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: 馴れやイメージもあるかもね。ボカロ＝ミクみたいなさ
+    date: 2009/10/13 20:57:57
+    is_odd: 1
+    "no": 52
+  - 
+    comment: 投票は23日から！皆さんよろしく！
+    date: 2009/10/13 20:58:03
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: うんそれはあるよね
+    date: 2009/10/13 20:58:14
+    is_odd: 1
+    "no": 54
+  - 
+    comment: うんうん。
+    date: 2009/10/13 20:58:20
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: "■L'azur【初音ミクオリジナル】 ■ Treow(逆衝動P) "
+    date: 2009/10/13 20:58:29
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: "■2008.10.19 時/3:16 彡/11 ◆再/43,750 コ/1,226 マ/1,839 (4.2%) "
+    date: 2009/10/13 20:58:37
+    is_admin: 1
+    is_odd: 0
+    "no": 58
+  - 
+    comment: それだけ、最初の衝撃が大きかったのでしょう。
+    date: 2009/10/13 20:58:54
+    is_admin: 1
+    is_odd: 1
+    "no": 59
+  - 
+    comment: 何なんだこれは！？みたいな。
+    date: 2009/10/13 20:59:06
+    is_admin: 1
+    is_odd: 0
+    "no": 60
+  - 
+    comment: 一番機械的な声かな
+    date: 2009/10/13 20:59:34
+    is_odd: 1
+    "no": 61
+  - 
+    comment: 一番楽器的な声質なんだよ
+    date: 2009/10/13 20:59:49
+    is_odd: 0
+    "no": 62
+  - 
+    comment: うん
+    date: 2009/10/13 21:00:00
+    is_odd: 1
+    "no": 63
+  - 
+    comment: その分奏者の思いが宿ると。
+    date: 2009/10/13 21:00:06
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: そうかも
+    date: 2009/10/13 21:00:18
+    is_odd: 1
+    "no": 65
+  - 
+    comment: まさに楽器ですね。
+    date: 2009/10/13 21:00:23
+    is_admin: 1
+    is_odd: 0
+    "no": 66
+  - 
+    comment: うん　こういうとこすごいものね
+    date: 2009/10/13 21:00:39
+    is_odd: 1
+    "no": 67
+  - 
+    comment: 声と楽器の中間、これは最高だよチミィ
+    date: 2009/10/13 21:00:51
+    is_odd: 0
+    "no": 68
+  - 
+    comment: でもそこから生まれる音は演奏に対する思いが詰まってると。
+    date: 2009/10/13 21:00:53
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: ボカロクラシカではGUMIまったく不人気ですね
+    date: 2009/10/13 21:00:58
+    is_odd: 0
+    "no": 70
+  - 
+    comment: 均衡点ってヤツですかね？ｗ一番落ち着けるみたいな？ｗ
+    date: 2009/10/13 21:01:22
+    is_admin: 1
+    is_odd: 1
+    "no": 71
+  - 
+    comment: クラシカあまり聴かないなぁ。。。不人気なんですか。。
+    date: 2009/10/13 21:01:37
+    is_admin: 1
+    is_odd: 0
+    "no": 72
+  - 
+    comment: ミクの声はガラスの弦ってイメージだな
+    date: 2009/10/13 21:01:40
+    is_odd: 1
+    "no": 73
+  - 
+    comment: "■初音ミク / えれくとりっく・えんじぇぅ - えありあるふろうりみっくす ■ 粒子P "
+    date: 2009/10/13 21:01:47
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: そうだね
+    date: 2009/10/13 21:01:47
+    is_odd: 1
+    "no": 76
+  - 
+    comment: "■2008.09.03 時/9:37 彡/12 ◆再/15,656 コ/395 マ/728 (4.6%) "
+    date: 2009/10/13 21:01:55
+    is_admin: 1
+    is_odd: 0
+    "no": 77
+  - 
+    comment: 凄く綺麗なイメージが頭の中によぎったけど、描けないｗ
+    date: 2009/10/13 21:02:32
+    is_admin: 1
+    is_odd: 1
+    "no": 78
+  - 
+    comment: ｗｗｗｗ
+    date: 2009/10/13 21:02:40
+    is_odd: 0
+    "no": 79
+  - 
+    comment: 今回はちょっと懐かしめクールなミクうたセレクションでお送りしました。
+    date: 2009/10/13 21:03:44
+    is_odd: 1
+    "no": 80
+  - 
+    comment: この曲でこの枠はおしまいです。
+    date: 2009/10/13 21:04:21
+    is_admin: 1
+    is_odd: 0
+    "no": 81
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/10/13 21:04:31
+    is_admin: 1
+    is_odd: 1
+    "no": 82
+  - 
+    comment: 来場者数が３９
+    date: 2009/10/13 21:05:18
+    is_admin: 1
+    is_odd: 0
+    "no": 83
+  - 
+    comment: ほんとだｗ
+    date: 2009/10/13 21:09:17
+    is_odd: 1
+    "no": 84
+  - 
+    comment: コメント数も１３９でしたｗ
+    date: 2009/10/13 21:09:33
+    is_admin: 1
+    is_odd: 0
+    "no": 85
+  - 
+    comment: 【ただいま生放送中】とりあえず生中が二杯目になってリニューアル！本日は『火曜日ニュースの日』ゲストに『みんなの党』浅尾慶一郎衆議院議員を迎えてお届け！【ただいま生放送中】
+    date: 2009/10/13 21:10:09
+    is_odd: 1
+    "no": 86
+  - 
+    comment: おお、こんなの出るんだ。
+    date: 2009/10/13 21:10:26
+    is_admin: 1
+    is_odd: 0
+    "no": 87
+  - 
+    comment: でもそんなに小さかったら意味ないだろうと。
+    date: 2009/10/13 21:10:38
+    is_admin: 1
+    is_odd: 1
+    "no": 88
+  - 
+    comment: wwww
+    date: 2009/10/13 21:10:44
+    is_odd: 0
+    "no": 89
+  - 
+    comment: それではまったね～い
+    date: 2009/10/13 21:10:59
+    is_admin: 1
+    is_odd: 1
+    "no": 90
+  - 
+    comment: 乙でしたっ！
+    date: 2009/10/13 21:11:01
+    is_odd: 0
+    "no": 91
+  - 
+    comment: 乙した！
+    date: 2009/10/13 21:11:03
+    is_admin: 1
+    is_odd: 1
+    "no": 92
+  - 
+    comment: のし！
+    date: 2009/10/13 21:11:07
+    is_admin: 1
+    is_odd: 0
+    "no": 93
+  - 
+    comment: のし！
+    date: 2009/10/13 21:11:08
+    is_odd: 1
+    "no": 94
+  - 
+    comment: ぴったし終了
+    date: 2009/10/13 21:11:17
+    is_admin: 1
+    is_odd: 0
+    "no": 95
+  - 
+    comment: ナイスですｗ
+    date: 2009/10/13 21:11:26
+    is_odd: 1
+    "no": 96
+  - 
+    comment: いえーいｂ
+    date: 2009/10/13 21:11:30
+    is_admin: 1
+    is_odd: 0
+    "no": 97
+  - 
+    comment: ロスタイムがｗ
+    date: 2009/10/13 21:11:37
+    is_odd: 1
+    "no": 98
+  - 
+    comment: ホントだｗ
+    date: 2009/10/13 21:11:40
+    is_admin: 1
+    is_odd: 0
+    "no": 99
+  - 
+    comment: そこまでは考えてなかったｗ
+    date: 2009/10/13 21:11:45
+    is_admin: 1
+    is_odd: 1
+    "no": 100
+  - 
+    comment: じゃねい～ﾉ
+    date: 2009/10/13 21:11:56
+    is_admin: 1
+    is_odd: 0
+    "no": 101
+frame: 1
+start: 1255434094
+time: 30
+
