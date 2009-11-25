@@ -15,6 +15,27 @@
 </image>
 
 <item>
+	<title>[2009.11.18]</title>
+	<description>ニコリク・ミクノポップエディション 1.30.1 をリリースしました。</description>
+	<guid isPermaLink="true">http://mikunopop.info/</guid>
+	<pubDate>Wed, 18 Nov 2009 04:32:15 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
+	<title>[2009.11.17]</title>
+	<description>ミクノ度カウントの際に「２回流し」をどう扱うかについてのメモを、&lt;a href=&quot;/manual/count.html&quot;&gt;ミクノ度の数え方&lt;/a&gt;に追記しました。</description>
+	<guid isPermaLink="true">http://mikunopop.info/</guid>
+	<pubDate>Tue, 17 Nov 2009 03:45:22 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
+	<title>[2009.11.14]</title>
+	<description>暖簾さんが&lt;a href=&quot;http://www.nicovideo.jp/watch/sm8802343&quot; target=&quot;_blank&quot;&gt;ボーマス、ボーパラ直前！ミクノポップをきこう！　の放送アーカイブ&lt;/a&gt;を公開してくださいました。</description>
+	<guid isPermaLink="true">http://mikunopop.info/</guid>
+	<pubDate>Tue, 14 Nov 2009 01:51:24 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
 	<title>[2009.11.10]</title>
 	<description>ニコリク・ミクノポップエディション 1.30 をリリースしました。</description>
 	<guid isPermaLink="true">http://mikunopop.info/</guid>
