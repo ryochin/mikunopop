@@ -79,7 +79,7 @@ table.download-link td {
 
 	<p>
 		それ以外の組み合わせ（Windows Vista や Firefox, Google Chrome 等）だと、別途 <a href="http://d.hatena.ne.jp/halxxxx/20090413/1239646055" target="_blank">NicoCookieImporter</a> (NCI) という<br />
-		ソフトを常駐させておく必要があります。
+		ソフトを常駐させておく必要があります。共有できているのに繋がらない時は、一度クッキーを削除するといいようです。
 	</p>
 
 <!--
@@ -93,7 +93,79 @@ table.download-link td {
 	</p>
 -->
 
+	<h2>きまりごと</h2>
+
+	<p>
+		ME を使ってるひとは、後日でいいのでデビュー回のコメントログを私まで送って下さい（ME の使用料なのです！）。
+	</p>
+
+	<h2>お願い</h2>
+
+	<p>
+		P名リストを充実させてきちんとお名前を表示するために、P名が不明な曲に関しては時間があれば調べて、<br />
+		きりのいいところでまとめて私までお知らせいただくと、みんなが幸せになれます。P名リストという財産は<br />
+		１日にしてならず、主みんなで作り上げるものです。よろしくお願いします！
+	</p>
+
 	<h2>ダウンロード</h2>
+
+	<table class="download-link">
+		<tr>
+			<td width="140">[2009.12.08] v1.34</td>
+			<td><a href="./archives/NicoReqMikunopopEdition_134.exe">NicoReqMikunopopEdition_134.exe</a></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><a href="./archives/NicoReqMikunopopEdition_134.zip">NicoReqMikunopopEdition_134.zip</a></td>
+		</tr>
+	</table>
+
+	<p>
+		　・動画情報を、常時（曲が流れている間）表示する機能を追加しました。<br />
+		　　デフォルトではオフになっています。settings.js の２３０行目付近に<br />
+		　　例示していますので、コメントを外してみてください。<br />
+		　　　途中から放送に参加した場合は情報は表示されません。<br />
+		　　　主コメは上部の情報欄には表示されなくなります。<br />
+		　　　解除するには、主コメント欄に /clear と入力して発言します。<br />
+		　・マイリスト追加時における不具合を修正しました。(thx!> Mint=Rabbit)
+	</p>
+
+	<table class="download-link">
+		<tr>
+			<td width="140">[2009.12.04] v1.33</td>
+			<td><a href="./archives/NicoReqMikunopopEdition_133.exe">NicoReqMikunopopEdition_133.exe</a></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><a href="./archives/NicoReqMikunopopEdition_133.zip">NicoReqMikunopopEdition_133.zip</a></td>
+		</tr>
+	</table>
+
+	<p>
+		　・１人あたりのリクエスト数を制限できるようになりました。<br />
+		　　デフォルトでは、起動時にはこの機能はオフになっています。「オプション」<br />
+		　　タブ内にある設定で有効にできるほか（放送中にリアルタイムに変更可能）<br />
+		　　settings.js 内でデフォルト値をセットできます。<br />
+		　　　機能がオフの時でも裏でカウントはされています。<br />
+		　　　あるリスナーがリクエストした回数は枠ごとにリセットされます。<br />
+		　　　ツールを終了するとリクエスト回数情報は失われます。<br />
+		　・細かい情報（P名リスト）を更新しました。
+	</p>
+
+	<table class="download-link">
+		<tr>
+			<td width="140">[2009.12.04] v1.32</td>
+			<td>NicoReqMikunopopEdition_132.exe</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>NicoReqMikunopopEdition_132.zip</td>
+		</tr>
+	</table>
+
+	<p>
+		　・（不具合のため廃版、破棄願います）
+	</p>
 
 	<table class="download-link">
 		<tr>
@@ -122,10 +194,16 @@ table.download-link td {
 
 	<h2>Tips</h2>
 
-	<ul>
-		<li>接続するには、「ＵＲＬをブラウザからコピー・Ｃキー・そのままエンターキー」</li>
-		<li>プレイリスト用テキストを準備するには、「Ｅキー・コピーボタンをクリック・掲示板にペースト」</li>
-	</ul>
+	<p>
+		・接続するには、「ＵＲＬをブラウザからコピー・Ｃキー・そのままエンターキー」<br />
+		・主セレをストックに追加するには「Ｉキー・ペースト」<br />
+		・プレイリスト用テキストを準備するには、「Ｅキー・コピーボタンをクリック・掲示板にペースト」<br />
+	</p>
+
+	<p>
+		・他人の枠でも、接続はできる。まずそれで接続できるかテストするのがおすすめ。<br />
+		・再生履歴はニコリクを終了すると消えるけど、playlog.txt などのファイルにはちゃんと残っている。<br />
+	</p>
 
 	<h2>ソース</h2>
 
