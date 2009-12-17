@@ -1,0 +1,395 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんばんわ！
+    date: 2009/11/17 01:31:58
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おやすミクノです
+    date: 2009/11/17 01:32:01
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 主セレ→明るめ
+    date: 2009/11/17 01:32:07
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: リク随時です～！
+    date: 2009/11/17 01:32:18
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by \n    k-sk"
+    date: 2009/11/17 01:32:52
+    is_odd: 1
+    "no": 6
+  - 
+    comment: まさかのおやすミクノ
+    date: 2009/11/17 01:33:51
+    is_odd: 0
+    "no": 7
+  - 
+    comment: まさかってｗ
+    date: 2009/11/17 01:34:19
+    is_admin: 1
+    is_odd: 1
+    "no": 8
+  - 
+    comment: 寝るところだったのでｗ
+    date: 2009/11/17 01:34:36
+    is_odd: 0
+    "no": 9
+  - 
+    comment: それはピッタシなタイミングｗ
+    date: 2009/11/17 01:34:49
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: 是非この放送を子守唄に～ｗ
+    date: 2009/11/17 01:35:05
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: "■【初音ミクオリジナル曲】 ピュア - Full 【L*auraの愛の歌】 ■ L*aura "
+    date: 2009/11/17 01:35:08
+    is_admin: 1
+    is_odd: 1
+    "no": 12
+  - 
+    comment: "■2008.05.22 時/4:07 彡/10 ◆再/12,546 コ/258 マ/489 (3.9%) "
+    date: 2009/11/17 01:35:16
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: うぃ
+    date: 2009/11/17 01:35:20
+    is_odd: 1
+    "no": 15
+  - 
+    comment: 乙でーす
+    date: 2009/11/17 01:35:34
+    is_odd: 0
+    "no": 16
+  - 
+    comment: いらっさー！
+    date: 2009/11/17 01:35:38
+    is_admin: 1
+    is_odd: 1
+    "no": 17
+  - 
+    comment: 今日は、はねさんの罰で
+    date: 2009/11/17 01:37:08
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: この枠を含めて2枠放送しないと寝れないのです。
+    date: 2009/11/17 01:37:24
+    is_admin: 1
+    is_odd: 1
+    "no": 19
+  - 
+    comment: 今から5枠だっけ？
+    date: 2009/11/17 01:37:27
+    is_odd: 0
+    "no": 20
+  - 
+    comment: いやｗｗ
+    date: 2009/11/17 01:37:31
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: それは無理ですｗｗ
+    date: 2009/11/17 01:37:36
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: ごめん、ちがったか。
+    date: 2009/11/17 01:37:48
+    is_odd: 1
+    "no": 23
+  - 
+    comment: ただいまー
+    date: 2009/11/17 01:37:49
+    is_odd: 0
+    "no": 24
+  - 
+    comment: おかえりなさいー！
+    date: 2009/11/17 01:37:55
+    is_admin: 1
+    is_odd: 1
+    "no": 25
+  - 
+    comment: 今日も一日お疲れさまでした☆
+    date: 2009/11/17 01:38:06
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: ばんはー。自分も眠る前の放送探してやってきましたー。
+    date: 2009/11/17 01:38:15
+    is_odd: 1
+    "no": 27
+  - 
+    comment: ようこそ！
+    date: 2009/11/17 01:38:25
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: 主様、みんな、おつまれさま！
+    date: 2009/11/17 01:38:35
+    is_odd: 1
+    "no": 29
+  - 
+    comment: sm8395964
+    date: 2009/11/17 01:38:50
+    is_odd: 0
+    "no": 30
+  - 
+    comment: ■The Smell Of The Garden feat. 初音ミク【オリジナル】 ■ P名?
+    date: 2009/11/17 01:39:14
+    is_admin: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: リクｔｈｘ！
+    date: 2009/11/17 01:39:21
+    is_admin: 1
+    is_odd: 0
+    "no": 33
+  - 
+    comment: "■2009.10.02 時/3:58 彡/5 ◆再/2,624 コ/119 マ/235 (9.0%) "
+    date: 2009/11/17 01:39:22
+    is_admin: 1
+    is_odd: 1
+    "no": 34
+  - 
+    comment: うあ、出だし良いですね。
+    date: 2009/11/17 01:40:01
+    is_admin: 1
+    is_odd: 0
+    "no": 35
+  - 
+    comment: そうだ、アルバム投票だ
+    date: 2009/11/17 01:40:08
+    is_odd: 1
+    "no": 36
+  - 
+    comment: nm7258550
+    date: 2009/11/17 01:40:10
+    is_odd: 0
+    "no": 37
+  - 
+    comment: ゼヒゼヒ投票してくださいｂ
+    date: 2009/11/17 01:40:23
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: 投票なかなか決められないｗ
+    date: 2009/11/17 01:40:25
+    is_odd: 0
+    "no": 39
+  - 
+    comment: わかるｗｗ
+    date: 2009/11/17 01:40:30
+    is_admin: 1
+    is_odd: 1
+    "no": 40
+  - 
+    comment: リクども！
+    date: 2009/11/17 01:40:45
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: マイリスいただきました！リク主GJ！
+    date: 2009/11/17 01:42:09
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: どもども～～
+    date: 2009/11/17 01:42:42
+    is_odd: 0
+    "no": 43
+  - 
+    comment: "■ミクのパヤパヤする歌【パヤパヤ】 ■ ガブP "
+    date: 2009/11/17 01:43:13
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: "■2009.06.06 時/3:26 彡/8 ◆再/1,717 コ/101 マ/118 (6.9%) "
+    date: 2009/11/17 01:43:21
+    is_admin: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: いくよぉーーー♪
+    date: 2009/11/17 01:43:39
+    is_odd: 1
+    "no": 47
+  - 
+    comment: 可愛いのぅ、可愛いのぅ。。
+    date: 2009/11/17 01:44:29
+    is_admin: 1
+    is_odd: 0
+    "no": 48
+  - 
+    comment: パヤパヤしちゃう
+    date: 2009/11/17 01:44:49
+    is_odd: 1
+    "no": 49
+  - 
+    comment: 明日はお休みなのでのんびりまったり放送なのです
+    date: 2009/11/17 01:45:18
+    is_admin: 1
+    is_odd: 0
+    "no": 50
+  - 
+    comment: sm6194443
+    date: 2009/11/17 01:45:42
+    is_odd: 1
+    "no": 51
+  - 
+    comment: ほうｗこのタイミングでこの曲持ってきますかｗGJ過ぎますｗｗ
+    date: 2009/11/17 01:46:20
+    is_admin: 1
+    is_odd: 0
+    "no": 52
+  - 
+    comment: ｗｋｔｋ
+    date: 2009/11/17 01:46:30
+    is_odd: 1
+    "no": 53
+  - 
+    comment: "■【初音ミク】パステルライナー☆【オリジナル曲】 ■ 鮭P ShakeSphere "
+    date: 2009/11/17 01:46:41
+    is_admin: 1
+    is_odd: 0
+    "no": 54
+  - 
+    comment: "■2009.02.18 時/4:18 彡/4 ◆再/53,026 コ/1,918 マ/1,973 (3.7%) "
+    date: 2009/11/17 01:46:50
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: 鮭P大好きすぎます
+    date: 2009/11/17 01:47:52
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: いい音だな～
+    date: 2009/11/17 01:48:19
+    is_odd: 1
+    "no": 58
+  - 
+    comment: ですよね！
+    date: 2009/11/17 01:48:39
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: sm4159137
+    date: 2009/11/17 01:49:04
+    is_odd: 1
+    "no": 60
+  - 
+    comment: リクｔｈｘ！
+    date: 2009/11/17 01:49:18
+    is_admin: 1
+    is_odd: 0
+    "no": 61
+  - 
+    comment: "■eKlosioN 【初音ミクオリジナル曲】 ■ m@rk "
+    date: 2009/11/17 01:51:01
+    is_admin: 1
+    is_odd: 1
+    "no": 62
+  - 
+    comment: "■2008.08.02 時/5:13 彡/18 ◆再/8,906 コ/213 マ/376 (4.2%) "
+    date: 2009/11/17 01:51:09
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: かっこええ・・・気持ちいい
+    date: 2009/11/17 01:55:35
+    is_odd: 1
+    "no": 65
+  - 
+    comment: "■【初音ミク】 ヤサシサを閉ジテ 【オリジナル】 ■ river "
+    date: 2009/11/17 01:56:11
+    is_admin: 1
+    is_odd: 0
+    "no": 66
+  - 
+    comment: "■2009.03.20 時/4:51 彡/15 ◆再/1,066 コ/18 マ/43 (4.0%) "
+    date: 2009/11/17 01:56:19
+    is_admin: 1
+    is_odd: 1
+    "no": 68
+  - 
+    comment: さてさて、この曲で移動となります。
+    date: 2009/11/17 01:56:44
+    is_admin: 1
+    is_odd: 0
+    "no": 69
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/11/17 01:56:50
+    is_admin: 1
+    is_odd: 1
+    "no": 70
+  - 
+    comment: は～い！
+    date: 2009/11/17 01:56:57
+    is_odd: 0
+    "no": 71
+  - 
+    comment: あーいー♪
+    date: 2009/11/17 01:57:07
+    is_odd: 1
+    "no": 72
+  - 
+    comment: おつです～
+    date: 2009/11/17 01:57:16
+    is_odd: 0
+    "no": 73
+  - 
+    comment: であ移動！
+    date: 2009/11/17 02:00:39
+    is_admin: 1
+    is_odd: 1
+    "no": 74
+  - 
+    comment: のし！
+    date: 2009/11/17 02:00:40
+    is_admin: 1
+    is_odd: 0
+    "no": 75
+  - 
+    comment: ノシ
+    date: 2009/11/17 02:02:40
+    is_odd: 1
+    "no": 76
+frame: 1
+start: 1258389118
+time: 30
+

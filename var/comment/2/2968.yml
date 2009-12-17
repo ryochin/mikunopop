@@ -1,0 +1,921 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんばんわー！
+    date: 2009/12/14 00:43:13
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おやすミクノです。
+    date: 2009/12/14 00:43:18
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: おっす乙メン
+    date: 2009/12/14 00:43:36
+    is_odd: 1
+    "no": 3
+  - 
+    comment: ぬぁ、また上編集するの忘れてたΣ
+    date: 2009/12/14 00:43:38
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: こんばんわ
+    date: 2009/12/14 00:43:38
+    is_odd: 1
+    "no": 5
+  - 
+    comment: 今北こんばんは～
+    date: 2009/12/14 00:43:39
+    is_odd: 0
+    "no": 6
+  - 
+    comment: ■【miki】 アルフィルク　【オリジナル】 ■ P名?
+    date: 2009/12/14 00:43:55
+    is_admin: 1
+    is_odd: 1
+    "no": 7
+  - 
+    comment: "■2009.12.05 時/3:50 彡/2 ◆再/699 コ/13 マ/36 (5.2%) "
+    date: 2009/12/14 00:44:03
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: イケメン主さん乙
+    date: 2009/12/14 00:44:22
+    is_odd: 1
+    "no": 10
+  - 
+    comment: ◇突発miki特集◇
+    date: 2009/12/14 00:44:26
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: グミはまた今度ｗ
+    date: 2009/12/14 00:44:34
+    is_admin: 1
+    is_odd: 1
+    "no": 12
+  - 
+    comment: 主はGUMIとMIKUとMIKIの３股　　・・・ﾒﾓﾒﾓ
+    date: 2009/12/14 00:44:37
+    is_odd: 0
+    "no": 13
+  - 
+    comment: ミク特集はこれからもやる予定は無いよｗ
+    date: 2009/12/14 00:44:54
+    is_admin: 1
+    is_odd: 1
+    "no": 14
+  - 
+    comment: 初見
+    date: 2009/12/14 00:45:15
+    is_odd: 0
+    "no": 15
+  - 
+    comment: なので今回はリク受けつけしませぬ！ご了承をば！
+    date: 2009/12/14 00:45:23
+    is_admin: 1
+    is_odd: 1
+    "no": 16
+  - 
+    comment: 初見さんいらさし！
+    date: 2009/12/14 00:45:34
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: このコミュはキラピコブリなボカロ曲を
+    date: 2009/12/14 00:45:46
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: リクエスト形式で配信している放送です。
+    date: 2009/12/14 00:45:54
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: 今枠はリク受付していませんが；；ｗ
+    date: 2009/12/14 00:46:14
+    is_admin: 1
+    is_odd: 1
+    "no": 20
+  - 
+    comment: 気に入ったらコミュニティの方もよろしくです～☆
+    date: 2009/12/14 00:46:32
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: おつですうぅぅ
+    date: 2009/12/14 00:46:52
+    is_odd: 1
+    "no": 22
+  - 
+    comment: おっと来てみたら自分の曲だ…
+    date: 2009/12/14 00:47:00
+    is_odd: 0
+    "no": 23
+  - 
+    comment: ！！
+    date: 2009/12/14 00:47:06
+    is_odd: 1
+    "no": 24
+  - 
+    comment: Σ！！
+    date: 2009/12/14 00:47:08
+    is_admin: 1
+    is_odd: 0
+    "no": 25
+  - 
+    comment: 本人ｗ
+    date: 2009/12/14 00:47:34
+    is_odd: 1
+    "no": 26
+  - 
+    comment: ああｗでも終わっちゃったｗ
+    date: 2009/12/14 00:47:54
+    is_admin: 1
+    is_odd: 0
+    "no": 27
+  - 
+    comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】◆ No.4 presented by \nk-sk"
+    date: 2009/12/14 00:47:55
+    is_odd: 1
+    "no": 29
+  - 
+    comment: "■【miki】チェリーチェリー【オリジナル曲】 ■ せかいせいふくＰ "
+    date: 2009/12/14 00:49:42
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: "■2009.12.04 時/3:00 彡/0 ◆再/10,567 コ/253 マ/350 (3.3%) "
+    date: 2009/12/14 00:49:50
+    is_admin: 1
+    is_odd: 1
+    "no": 32
+  - 
+    comment: ３分ってラーメンタイマーだｗ
+    date: 2009/12/14 00:50:23
+    is_odd: 0
+    "no": 33
+  - 
+    comment: なにこの絵ｗｗｗ
+    date: 2009/12/14 00:50:30
+    is_odd: 1
+    "no": 34
+  - 
+    comment: タグにもありましたねｗ
+    date: 2009/12/14 00:50:33
+    is_admin: 1
+    is_odd: 0
+    "no": 35
+  - 
+    comment: なんかちょっと危ないかわいさだなｗ
+    date: 2009/12/14 00:51:00
+    is_odd: 1
+    "no": 36
+  - 
+    comment: そういえば今回も持ち物戦争はやってるのかな？
+    date: 2009/12/14 00:51:01
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: 危ない可愛さ言わないｗ
+    date: 2009/12/14 00:51:09
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: ロリ成分多めですねｗ
+    date: 2009/12/14 00:51:23
+    is_odd: 0
+    "no": 39
+  - 
+    comment: 拉致りたい・・的なね。
+    date: 2009/12/14 00:51:25
+    is_odd: 1
+    "no": 40
+  - 
+    comment: ｗｗｗ
+    date: 2009/12/14 00:51:29
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: プルーンとチェリーどっちになるんだろ
+    date: 2009/12/14 00:51:34
+    is_odd: 1
+    "no": 42
+  - 
+    comment: プルーンｗｗCMかｗｗ
+    date: 2009/12/14 00:51:45
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: うまいなぁｗｗ
+    date: 2009/12/14 00:51:52
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: 家は？　家はないの？
+    date: 2009/12/14 00:51:58
+    is_odd: 0
+    "no": 45
+  - 
+    comment: sm8952945
+    date: 2009/12/14 00:52:06
+    is_odd: 1
+    "no": 46
+  - 
+    comment: 46さんごめんね！今枠はリク無しでよろしくでっす！
+    date: 2009/12/14 00:52:30
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: "■【miki】Party Night【オリジナル曲】 ■ EasyPop "
+    date: 2009/12/14 00:52:44
+    is_admin: 1
+    is_odd: 1
+    "no": 48
+  - 
+    comment: "■2009.12.06 時/3:58 彡/3 ◆再/2,697 コ/68 マ/246 (9.1%) "
+    date: 2009/12/14 00:52:52
+    is_admin: 1
+    is_odd: 0
+    "no": 50
+  - 
+    comment: ｷﾀﾜｧ*･゜ﾟ･*:.｡..｡.:*･゜(n‘∀‘)ηﾟ･*:.｡. .｡.:*･゜ﾟ･* !!!!!
+    date: 2009/12/14 00:52:54
+    is_odd: 1
+    "no": 51
+  - 
+    comment: EasyPopさんきたー
+    date: 2009/12/14 00:52:58
+    is_odd: 0
+    "no": 52
+  - 
+    comment: ルカと比較すると面白い
+    date: 2009/12/14 00:53:26
+    is_odd: 1
+    "no": 53
+  - 
+    comment: 同じ事した人がここにもｗ
+    date: 2009/12/14 00:53:51
+    is_admin: 1
+    is_odd: 0
+    "no": 54
+  - 
+    comment: miki買おうかすごく迷っている…
+    date: 2009/12/14 00:55:00
+    is_odd: 1
+    "no": 55
+  - 
+    comment: 55さん、まずは名乗ろうかｗ
+    date: 2009/12/14 00:55:13
+    is_admin: 1
+    is_odd: 0
+    "no": 56
+  - 
+    comment: ＰＣをシャットダウンしようとしたら始まってたｗｗｗ
+    date: 2009/12/14 00:55:17
+    is_odd: 1
+    "no": 57
+  - 
+    comment: いらっさいーｗ
+    date: 2009/12/14 00:55:22
+    is_admin: 1
+    is_odd: 0
+    "no": 58
+  - 
+    comment: "&gt;55はSOLです"
+    date: 2009/12/14 00:55:32
+    is_odd: 1
+    "no": 59
+  - 
+    comment: 買いませう
+    date: 2009/12/14 00:55:39
+    is_admin: 1
+    is_odd: 0
+    "no": 60
+  - 
+    comment: ｗｗ
+    date: 2009/12/14 00:55:42
+    is_odd: 1
+    "no": 61
+  - 
+    comment: ｗｗｗ
+    date: 2009/12/14 00:55:51
+    is_admin: 1
+    is_odd: 0
+    "no": 62
+  - 
+    comment: でも、自分もシャットダウンしますm(_ _)mおやすミクノ。
+    date: 2009/12/14 00:55:55
+    is_odd: 1
+    "no": 63
+  - 
+    comment: いやもう５個入ってるからねｗbySOL
+    date: 2009/12/14 00:56:00
+    is_odd: 0
+    "no": 64
+  - 
+    comment: はーいｗ良い夢を！
+    date: 2009/12/14 00:56:03
+    is_admin: 1
+    is_odd: 1
+    "no": 65
+  - 
+    comment: お休みなさいー
+    date: 2009/12/14 00:56:04
+    is_odd: 0
+    "no": 66
+  - 
+    comment: ６個目ですね。わかります。
+    date: 2009/12/14 00:56:19
+    is_odd: 1
+    "no": 67
+  - 
+    comment: SOLさんはお金持ち・・と。メモメモ
+    date: 2009/12/14 00:56:29
+    is_odd: 0
+    "no": 68
+  - 
+    comment: メモメモ
+    date: 2009/12/14 00:56:38
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: mikiより小学生がｗｗ
+    date: 2009/12/14 00:56:40
+    is_odd: 0
+    "no": 70
+  - 
+    comment: "■【miki】Good morning,Muse【VOCALOIDオリジナル曲】 ■ Plutonius ハヤカワＰ "
+    date: 2009/12/14 00:56:55
+    is_admin: 1
+    is_odd: 1
+    "no": 71
+  - 
+    comment: また私に内緒で13分も＞＜
+    date: 2009/12/14 00:56:59
+    is_odd: 0
+    "no": 73
+  - 
+    comment: "■2009.12.04 時/3:50 彡/0 ◆再/10,676 コ/285 マ/629 (5.9%) "
+    date: 2009/12/14 00:57:03
+    is_admin: 1
+    is_odd: 1
+    "no": 74
+  - 
+    comment: 内緒てｗｗ
+    date: 2009/12/14 00:57:09
+    is_admin: 1
+    is_odd: 0
+    "no": 75
+  - 
+    comment: 今来たこんばんは
+    date: 2009/12/14 00:57:23
+    is_odd: 1
+    "no": 76
+  - 
+    comment: いらさい！
+    date: 2009/12/14 00:57:26
+    is_admin: 1
+    is_odd: 0
+    "no": 77
+  - 
+    comment: 順番待ち制が今停止しているので、
+    date: 2009/12/14 00:57:37
+    is_admin: 1
+    is_odd: 1
+    "no": 78
+  - 
+    comment: やっぱ重いね
+    date: 2009/12/14 00:57:45
+    is_odd: 0
+    "no": 79
+  - 
+    comment: すぐとれたというね。
+    date: 2009/12/14 00:57:47
+    is_admin: 1
+    is_odd: 1
+    "no": 80
+  - 
+    comment: 初見です！
+    date: 2009/12/14 00:57:53
+    is_odd: 0
+    "no": 81
+  - 
+    comment: おお！いらっさい！
+    date: 2009/12/14 00:57:58
+    is_admin: 1
+    is_odd: 1
+    "no": 82
+  - 
+    comment: この放送は、
+    date: 2009/12/14 00:58:03
+    is_admin: 1
+    is_odd: 0
+    "no": 83
+  - 
+    comment: これもいいなあ
+    date: 2009/12/14 00:58:04
+    is_odd: 1
+    "no": 84
+  - 
+    comment: キラピコブリなボカロオリジナル曲を
+    date: 2009/12/14 00:58:14
+    is_admin: 1
+    is_odd: 0
+    "no": 85
+  - 
+    comment: リクエスト形式で配信している生放送です！
+    date: 2009/12/14 00:58:25
+    is_admin: 1
+    is_odd: 1
+    "no": 86
+  - 
+    comment: 81が初音に見えたｗ
+    date: 2009/12/14 00:58:26
+    is_odd: 0
+    "no": 87
+  - 
+    comment: ｗｗｗ
+    date: 2009/12/14 00:58:36
+    is_admin: 1
+    is_odd: 1
+    "no": 88
+  - 
+    comment: 今枠ではリクエストは募集していませんが、
+    date: 2009/12/14 00:58:39
+    is_admin: 1
+    is_odd: 0
+    "no": 89
+  - 
+    comment: 初音さんだったら尚の事大歓迎だ
+    date: 2009/12/14 00:58:49
+    is_odd: 1
+    "no": 90
+  - 
+    comment: 気に入ったら是非コミュニティの方もよろしくですー☆
+    date: 2009/12/14 00:58:49
+    is_admin: 1
+    is_odd: 0
+    "no": 91
+  - 
+    comment: キラピコブリで伝わっているかどうかは聞かない。お兄さんとの約束だ！
+    date: 2009/12/14 00:59:27
+    is_odd: 1
+    "no": 92
+  - 
+    comment: mimiki
+    date: 2009/12/14 00:59:45
+    is_odd: 0
+    "no": 93
+  - 
+    comment: 92も伝わりにくいねｗ
+    date: 2009/12/14 00:59:49
+    is_odd: 1
+    "no": 94
+  - 
+    comment: ｗｗｗ
+    date: 2009/12/14 00:59:57
+    is_admin: 1
+    is_odd: 0
+    "no": 95
+  - 
+    comment: うーんmiki欲しいなあ…。スパーかー好きだしなあ…
+    date: 2009/12/14 01:00:28
+    is_odd: 1
+    "no": 96
+  - 
+    comment: 終わったら教えてくだしあ☆
+    date: 2009/12/14 01:00:57
+    is_admin: 1
+    is_odd: 0
+    "no": 97
+  - 
+    comment: おわりましたー
+    date: 2009/12/14 01:01:04
+    is_odd: 1
+    "no": 98
+  - 
+    comment: おわた
+    date: 2009/12/14 01:01:07
+    is_odd: 0
+    "no": 99
+  - 
+    comment: ■miki「ミキミキ★ロマンティックナイト」【オリジナル曲】 ■ P名?
+    date: 2009/12/14 01:01:10
+    is_admin: 1
+    is_odd: 1
+    "no": 100
+  - 
+    comment: "■2009.12.04 時/3:28 彡/1 ◆再/166,495 コ/4,772 マ/8,327 (5.0%) "
+    date: 2009/12/14 01:01:18
+    is_admin: 1
+    is_odd: 0
+    "no": 102
+  - 
+    comment: またおやすミクノにテンション上がる曲をｗｗｗ
+    date: 2009/12/14 01:01:36
+    is_odd: 1
+    "no": 103
+  - 
+    comment: 次枠行くからもうまんたいｗ
+    date: 2009/12/14 01:01:49
+    is_admin: 1
+    is_odd: 0
+    "no": 104
+  - 
+    comment: ｗｗｗ
+    date: 2009/12/14 01:01:57
+    is_odd: 1
+    "no": 105
+  - 
+    comment: ルカに続き、良い曲だー
+    date: 2009/12/14 01:01:57
+    is_odd: 0
+    "no": 106
+  - 
+    comment: 今晩はミキ祭り？
+    date: 2009/12/14 01:02:11
+    is_odd: 1
+    "no": 107
+  - 
+    comment: です☆
+    date: 2009/12/14 01:02:15
+    is_admin: 1
+    is_odd: 0
+    "no": 108
+  - 
+    comment: 突発miki特集枠です！
+    date: 2009/12/14 01:02:24
+    is_admin: 1
+    is_odd: 1
+    "no": 109
+  - 
+    comment: スーパーカーいいよね。やっぱりmikiは印象違うけどｗ
+    date: 2009/12/14 01:02:26
+    is_odd: 0
+    "no": 110
+  - 
+    comment: めぐぽ忘れないであげてｗｗ＞106
+    date: 2009/12/14 01:02:29
+    is_odd: 1
+    "no": 111
+  - 
+    comment: スーパーカー良い！
+    date: 2009/12/14 01:02:40
+    is_admin: 1
+    is_odd: 0
+    "no": 112
+  - 
+    comment: もうそんなにアップされてるんだ。すごいね♪
+    date: 2009/12/14 01:02:41
+    is_odd: 1
+    "no": 113
+  - 
+    comment: 一枠が限界かもｗミクノコミュではｗ
+    date: 2009/12/14 01:02:55
+    is_admin: 1
+    is_odd: 0
+    "no": 114
+  - 
+    comment: もっと曲増えて欲しいですね～、SOLさん。
+    date: 2009/12/14 01:03:13
+    is_admin: 1
+    is_odd: 1
+    "no": 115
+  - 
+    comment: しかし、はいて…ｒｙ
+    date: 2009/12/14 01:03:44
+    is_odd: 0
+    "no": 116
+  - 
+    comment: この前調べたらmikiオリジナルって36曲だったよbySOL
+    date: 2009/12/14 01:03:52
+    is_odd: 1
+    "no": 117
+  - 
+    comment: ちなみにこの曲も終わったら教えていただきたくｗ超絶重たいｗ
+    date: 2009/12/14 01:03:55
+    is_admin: 1
+    is_odd: 0
+    "no": 118
+  - 
+    comment: 了解
+    date: 2009/12/14 01:04:11
+    is_odd: 1
+    "no": 119
+  - 
+    comment: 116さん自重ｗ
+    date: 2009/12/14 01:04:15
+    is_admin: 1
+    is_odd: 0
+    "no": 120
+  - 
+    comment: でも良いｆｔｍｍだ。
+    date: 2009/12/14 01:04:34
+    is_admin: 1
+    is_odd: 1
+    "no": 121
+  - 
+    comment: おっと口ががが
+    date: 2009/12/14 01:04:41
+    is_admin: 1
+    is_odd: 0
+    "no": 122
+  - 
+    comment: 終わったよ
+    date: 2009/12/14 01:04:43
+    is_odd: 1
+    "no": 123
+  - 
+    comment: owata-
+    date: 2009/12/14 01:04:45
+    is_odd: 0
+    "no": 124
+  - 
+    comment: "■【miki】大空色のHi-To-Mi【オリジナル曲】 ■ あルカP "
+    date: 2009/12/14 01:04:46
+    is_admin: 1
+    is_odd: 1
+    "no": 125
+  - 
+    comment: おわたー
+    date: 2009/12/14 01:04:46
+    is_odd: 0
+    "no": 127
+  - 
+    comment: (´◉◞౪◟◉)＜･･･おわったよ
+    date: 2009/12/14 01:04:49
+    is_odd: 1
+    "no": 128
+  - 
+    comment: おわた
+    date: 2009/12/14 01:04:53
+    is_odd: 0
+    "no": 129
+  - 
+    comment: "■2009.12.04 時/5:20 彡/0 ◆再/4,868 コ/298 マ/501 (10.3%) "
+    date: 2009/12/14 01:04:54
+    is_admin: 1
+    is_odd: 1
+    "no": 130
+  - 
+    comment: 主の性癖ｵﾜﾀ
+    date: 2009/12/14 01:05:05
+    is_odd: 0
+    "no": 131
+  - 
+    comment: ごめんなさいｗｗ
+    date: 2009/12/14 01:05:11
+    is_admin: 1
+    is_odd: 1
+    "no": 132
+  - 
+    comment: ふともももみもみしたいですね。
+    date: 2009/12/14 01:05:16
+    is_odd: 0
+    "no": 133
+  - 
+    comment: コスチュームがいけない！キャラデザの人GJ！
+    date: 2009/12/14 01:05:39
+    is_admin: 1
+    is_odd: 1
+    "no": 134
+  - 
+    comment: 主に同意
+    date: 2009/12/14 01:05:54
+    is_odd: 0
+    "no": 135
+  - 
+    comment: ワンピとかセンス素晴らしい～
+    date: 2009/12/14 01:06:14
+    is_admin: 1
+    is_odd: 1
+    "no": 136
+  - 
+    comment: 中の人が想像できないところがよいねｗ
+    date: 2009/12/14 01:06:20
+    is_odd: 0
+    "no": 137
+  - 
+    comment: 次枠はミクトロニカorミクトランスで悩んでいます～。
+    date: 2009/12/14 01:07:29
+    is_admin: 1
+    is_odd: 1
+    "no": 138
+  - 
+    comment: トランスで♪
+    date: 2009/12/14 01:07:45
+    is_odd: 0
+    "no": 139
+  - 
+    comment: おｋ
+    date: 2009/12/14 01:07:49
+    is_admin: 1
+    is_odd: 1
+    "no": 140
+  - 
+    comment: 今日ね、16時間拘束だったの。休みなのに。
+    date: 2009/12/14 01:08:14
+    is_odd: 0
+    "no": 141
+  - 
+    comment: おおお。。お疲れ様です。。
+    date: 2009/12/14 01:08:29
+    is_admin: 1
+    is_odd: 1
+    "no": 142
+  - 
+    comment: お疲れ様です；；
+    date: 2009/12/14 01:08:29
+    is_odd: 0
+    "no": 143
+  - 
+    comment: お疲れ様です
+    date: 2009/12/14 01:09:15
+    is_odd: 1
+    "no": 144
+  - 
+    comment: みんなお休み楽しんだよね♡　明日からも頑張ろうね♪
+    date: 2009/12/14 01:09:52
+    is_odd: 0
+    "no": 145
+  - 
+    comment: "■【SF-A2miki】fragile snow【オリジナル】 ■ Aether_Eru P∴Rhythmatiq "
+    date: 2009/12/14 01:10:09
+    is_admin: 1
+    is_odd: 1
+    "no": 147
+  - 
+    comment: "■2009.12.06 時/4:47 彡/0 ◆再/4,302 コ/108 マ/464 (10.8%) "
+    date: 2009/12/14 01:10:14
+    is_admin: 1
+    is_odd: 0
+    "no": 148
+  - 
+    comment: おお、これ好き！
+    date: 2009/12/14 01:10:19
+    is_odd: 1
+    "no": 149
+  - 
+    comment: さてさて、この曲でこの枠はおしまいです☆
+    date: 2009/12/14 01:10:27
+    is_admin: 1
+    is_odd: 0
+    "no": 150
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/12/14 01:10:31
+    is_admin: 1
+    is_odd: 1
+    "no": 151
+  - 
+    comment: 次枠でもよろしくです～☆
+    date: 2009/12/14 01:10:40
+    is_admin: 1
+    is_odd: 0
+    "no": 152
+  - 
+    comment: 主のマウスが火を噴くぜ！
+    date: 2009/12/14 01:10:51
+    is_admin: 1
+    is_odd: 1
+    "no": 153
+  - 
+    comment: だいたいmikiの性格がわかった。サンクス
+    date: 2009/12/14 01:10:57
+    is_odd: 0
+    "no": 154
+  - 
+    comment: 左クリックはまかせろー！
+    date: 2009/12/14 01:11:01
+    is_admin: 1
+    is_odd: 1
+    "no": 155
+  - 
+    comment: いえいえ☆
+    date: 2009/12/14 01:11:05
+    is_admin: 1
+    is_odd: 0
+    "no": 156
+  - 
+    comment: 主は夜のほうがテンション高いなｗ
+    date: 2009/12/14 01:11:45
+    is_odd: 1
+    "no": 157
+  - 
+    comment: ボカロはクリとインタネで癖違うからね
+    date: 2009/12/14 01:11:50
+    is_odd: 0
+    "no": 158
+  - 
+    comment: ｗｗｗ
+    date: 2009/12/14 01:11:56
+    is_admin: 1
+    is_odd: 1
+    "no": 159
+  - 
+    comment: さすが夜王。
+    date: 2009/12/14 01:11:59
+    is_odd: 0
+    "no": 160
+  - 
+    comment: あとアーソフトも！
+    date: 2009/12/14 01:12:04
+    is_admin: 1
+    is_odd: 1
+    "no": 161
+  - 
+    comment: アーソフトで良いのかな？読みは
+    date: 2009/12/14 01:12:12
+    is_admin: 1
+    is_odd: 0
+    "no": 162
+  - 
+    comment: AHSはまた新しい癖があるのかな？
+    date: 2009/12/14 01:12:15
+    is_odd: 1
+    "no": 163
+  - 
+    comment: だから悩むんですよmiki導入を
+    date: 2009/12/14 01:12:24
+    is_odd: 0
+    "no": 164
+  - 
+    comment: ｆｍｆｍ
+    date: 2009/12/14 01:12:30
+    is_admin: 1
+    is_odd: 1
+    "no": 165
+  - 
+    comment: おっと、時間が！
+    date: 2009/12/14 01:12:34
+    is_admin: 1
+    is_odd: 0
+    "no": 166
+  - 
+    comment: エーエイチと読んでいた
+    date: 2009/12/14 01:12:37
+    is_odd: 1
+    "no": 167
+  - 
+    comment: おつでした
+    date: 2009/12/14 01:12:42
+    is_odd: 0
+    "no": 168
+  - 
+    comment: おつですー　次枠がんばってｗ
+    date: 2009/12/14 01:12:42
+    is_odd: 1
+    "no": 169
+  - 
+    comment: 倍音成分が強い気がする…mikiって
+    date: 2009/12/14 01:12:44
+    is_odd: 0
+    "no": 170
+  - 
+    comment: おつですー
+    date: 2009/12/14 01:12:47
+    is_odd: 1
+    "no": 171
+  - 
+    comment: 一足先に離脱！
+    date: 2009/12/14 01:12:47
+    is_admin: 1
+    is_odd: 0
+    "no": 172
+  - 
+    comment: おつです
+    date: 2009/12/14 01:12:48
+    is_odd: 1
+    "no": 173
+  - 
+    comment: のし！
+    date: 2009/12/14 01:12:49
+    is_admin: 1
+    is_odd: 0
+    "no": 174
+frame: 1
+start: 1260718993
+time: 29
+

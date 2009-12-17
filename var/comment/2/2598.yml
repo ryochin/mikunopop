@@ -1,0 +1,802 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんちわ！
+    date: 2009/11/14 17:29:27
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: 晩ご飯前の夕ミクノです
+    date: 2009/11/14 17:29:35
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 主セレ→MikuHouse
+    date: 2009/11/14 17:29:44
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: アーカイブ見終わったところにちょうどキター
+    date: 2009/11/14 17:29:53
+    is_odd: 0
+    "no": 4
+  - 
+    comment: リク随時でっす～
+    date: 2009/11/14 17:29:53
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: アーカイブチェックありがとー！
+    date: 2009/11/14 17:30:03
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Freestyle ver.K】◆ No.8 presented by k-sk
+    date: 2009/11/14 17:30:11
+    is_admin: 1
+    is_odd: 1
+    "no": 8
+  - 
+    comment: 暖簾さんの力作ですｂ→アーカイブ
+    date: 2009/11/14 17:31:21
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: ありがたや～
+    date: 2009/11/14 17:31:36
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: "■【初音ミク】 clear veil 【オリジナル】 ■ yusukeP "
+    date: 2009/11/14 17:32:02
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: 録画班にはあこがれるのです　＠某放送技術部員
+    date: 2009/11/14 17:32:10
+    is_odd: 1
+    "no": 13
+  - 
+    comment: "■2009.03.02 時/5:45 彡/17 ◆再/23,223 コ/488 マ/1,166 (5.0%) "
+    date: 2009/11/14 17:32:10
+    is_admin: 1
+    is_odd: 0
+    "no": 14
+  - 
+    comment: 録画技術に関してはホントわからないので、
+    date: 2009/11/14 17:32:30
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: 録画班の皆様はホント感謝＆尊敬
+    date: 2009/11/14 17:32:44
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: あんなに高画質で取り込めるのすごい
+    date: 2009/11/14 17:32:54
+    is_admin: 1
+    is_odd: 1
+    "no": 17
+  - 
+    comment: きのうは遅くまでおつかれさまでしｔ
+    date: 2009/11/14 17:33:29
+    is_odd: 0
+    "no": 18
+  - 
+    comment: なんか録画直後は可逆圧縮方式なんだとかとか
+    date: 2009/11/14 17:33:31
+    is_odd: 1
+    "no": 19
+  - 
+    comment: いえいえｗ
+    date: 2009/11/14 17:33:42
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: 可逆なんだ！
+    date: 2009/11/14 17:33:46
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: 今起きた？
+    date: 2009/11/14 17:33:57
+    is_odd: 0
+    "no": 22
+  - 
+    comment: じゃぁ特殊な拡張子で取り込んでから変換なのかな。
+    date: 2009/11/14 17:33:59
+    is_admin: 1
+    is_odd: 1
+    "no": 23
+  - 
+    comment: いやｗ前から起きて作業してましたよｗ
+    date: 2009/11/14 17:34:08
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: 起きたのは遅かったけどｗ
+    date: 2009/11/14 17:34:14
+    is_admin: 1
+    is_odd: 1
+    "no": 25
+  - 
+    comment: さすがの体力
+    date: 2009/11/14 17:34:31
+    is_odd: 0
+    "no": 26
+  - 
+    comment: 遊び人が早起きしちゃいかんしな！
+    date: 2009/11/14 17:34:37
+    is_odd: 1
+    "no": 27
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/14 17:34:45
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: 12時くらいかな
+    date: 2009/11/14 17:34:57
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: たしか
+    date: 2009/11/14 17:34:59
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: そういえば、ボカロが年内3つ出るって？
+    date: 2009/11/14 17:35:40
+    is_odd: 1
+    "no": 31
+  - 
+    comment: お、詳細で増したか
+    date: 2009/11/14 17:35:51
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: 一つはミキ？ですよね
+    date: 2009/11/14 17:36:04
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: ですよね声はまだ聞いてないですが
+    date: 2009/11/14 17:36:17
+    is_odd: 0
+    "no": 34
+  - 
+    comment: あとは幼女と先生ですね
+    date: 2009/11/14 17:36:51
+    is_odd: 1
+    "no": 35
+  - 
+    comment: 「歌愛ユキ」「miki」「氷山キヨテル」
+    date: 2009/11/14 17:37:06
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: 新手の釣りかと思ったよ
+    date: 2009/11/14 17:37:17
+    is_odd: 1
+    "no": 37
+  - 
+    comment: キヨテル。古風ｗ
+    date: 2009/11/14 17:37:18
+    is_odd: 0
+    "no": 38
+  - 
+    comment: みたい、初音ミクみくさんにありました
+    date: 2009/11/14 17:37:21
+    is_admin: 1
+    is_odd: 1
+    "no": 39
+  - 
+    comment: もう声きけたよーな
+    date: 2009/11/14 17:37:34
+    is_odd: 0
+    "no": 40
+  - 
+    comment: 小学生と先生か～。
+    date: 2009/11/14 17:37:38
+    is_admin: 1
+    is_odd: 1
+    "no": 41
+  - 
+    comment: どんな声なんだろ
+    date: 2009/11/14 17:37:42
+    is_admin: 1
+    is_odd: 0
+    "no": 42
+  - 
+    comment: きけますか
+    date: 2009/11/14 17:37:46
+    is_admin: 1
+    is_odd: 1
+    "no": 43
+  - 
+    comment: "■【初音ミク】 消えるメモリー ■ よよP "
+    date: 2009/11/14 17:37:49
+    is_admin: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: 後でチェックしてこようっと
+    date: 2009/11/14 17:37:55
+    is_admin: 1
+    is_odd: 1
+    "no": 46
+  - 
+    comment: "■2008.06.15 時/3:52 彡/21 ◆再/52,332 コ/1,129 マ/1,668 (3.2%) "
+    date: 2009/11/14 17:37:57
+    is_admin: 1
+    is_odd: 0
+    "no": 47
+  - 
+    comment: デモソングあがってました
+    date: 2009/11/14 17:38:06
+    is_odd: 1
+    "no": 48
+  - 
+    comment: ぱんｔが飛んでたよ
+    date: 2009/11/14 17:38:21
+    is_odd: 0
+    "no": 49
+  - 
+    comment: なんと
+    date: 2009/11/14 17:38:26
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: チ？ツ？ｗ
+    date: 2009/11/14 17:38:36
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: (　ﾟ∀ﾟ)o彡゜よよＰ！よよＰ！
+    date: 2009/11/14 17:38:41
+    is_odd: 1
+    "no": 52
+  - 
+    comment: ツ
+    date: 2009/11/14 17:38:50
+    is_odd: 0
+    "no": 53
+  - 
+    comment: ほーｗ
+    date: 2009/11/14 17:38:55
+    is_admin: 1
+    is_odd: 1
+    "no": 54
+  - 
+    comment: 想像できないｗ
+    date: 2009/11/14 17:38:59
+    is_admin: 1
+    is_odd: 0
+    "no": 55
+  - 
+    comment: (　ﾟ∀ﾟ)o彡゜よよP！よよP！
+    date: 2009/11/14 17:39:20
+    is_odd: 1
+    "no": 56
+  - 
+    comment: おじさんロイドをなんでださないorz
+    date: 2009/11/14 17:39:34
+    is_odd: 0
+    "no": 57
+  - 
+    comment: (　ﾟ∀ﾟ)o彡゜よよＰ！よよＰ！
+    date: 2009/11/14 17:39:37
+    is_odd: 1
+    "no": 58
+  - 
+    comment: 渋いの欲しいねぇ
+    date: 2009/11/14 17:39:41
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: そういうロイドがくると、ガチの人たちがもっと参入してくれるはず
+    date: 2009/11/14 17:40:13
+    is_odd: 1
+    "no": 60
+  - 
+    comment: うむ。
+    date: 2009/11/14 17:40:21
+    is_admin: 1
+    is_odd: 0
+    "no": 61
+  - 
+    comment: まぁ、まだソフトラインナップ的にこっち側に広がっていくのは普通の流れなのかな？
+    date: 2009/11/14 17:41:05
+    is_odd: 1
+    "no": 62
+  - 
+    comment: 渋い声もそのうち！
+    date: 2009/11/14 17:41:15
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: まぁ出てもあまり売れ無そうだから。しゃーないか
+    date: 2009/11/14 17:41:37
+    is_odd: 1
+    "no": 64
+  - 
+    comment: なんか昨日少年声あがってたみたい s m8793426
+    date: 2009/11/14 17:41:40
+    is_odd: 0
+    "no": 65
+  - 
+    comment: 低音って難しいんだろうか
+    date: 2009/11/14 17:41:43
+    is_odd: 1
+    "no": 66
+  - 
+    comment: "■【初音ミク】Blunder girl -Full ver' -【オリジナル曲】 ■ Rin（ぎん） "
+    date: 2009/11/14 17:41:46
+    is_admin: 1
+    is_odd: 0
+    "no": 67
+  - 
+    comment: "■2009.04.13 時/4:02 彡/19 ◆再/3,134 コ/84 マ/242 (7.7%) "
+    date: 2009/11/14 17:41:54
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: いいわあ～
+    date: 2009/11/14 17:42:14
+    is_odd: 0
+    "no": 70
+  - 
+    comment: 栗のブログか何かで見たけど、低音はノイズが乗りやすくて難しいらしいよ
+    date: 2009/11/14 17:42:55
+    is_odd: 1
+    "no": 71
+  - 
+    comment: デモ見てきた
+    date: 2009/11/14 17:43:18
+    is_admin: 1
+    is_odd: 0
+    "no": 72
+  - 
+    comment: すげぇええ
+    date: 2009/11/14 17:43:20
+    is_admin: 1
+    is_odd: 1
+    "no": 73
+  - 
+    comment: せんせい非公式デモソング s m8793266
+    date: 2009/11/14 17:43:25
+    is_odd: 0
+    "no": 74
+  - 
+    comment: あざっすあざっす！
+    date: 2009/11/14 17:43:33
+    is_admin: 1
+    is_odd: 1
+    "no": 75
+  - 
+    comment: miki　→　sm8793347
+    date: 2009/11/14 17:43:36
+    is_odd: 0
+    "no": 76
+  - 
+    comment: ＞76さん、その曲はあと5日経たないと流せないのです m(_ _)m
+    date: 2009/11/14 17:43:37
+    is_admin: 1
+    is_odd: 1
+    "no": 77
+  - 
+    comment: お、出らんだ
+    date: 2009/11/14 17:43:48
+    is_admin: 1
+    is_odd: 0
+    "no": 78
+  - 
+    comment: たんだｗ
+    date: 2009/11/14 17:43:51
+    is_admin: 1
+    is_odd: 1
+    "no": 79
+  - 
+    comment: 低音はVocaloid3でくりあできるのかなー
+    date: 2009/11/14 17:44:03
+    is_odd: 0
+    "no": 80
+  - 
+    comment: 期待ですねぇ～
+    date: 2009/11/14 17:44:12
+    is_admin: 1
+    is_odd: 1
+    "no": 81
+  - 
+    comment: 少年声すごいなー
+    date: 2009/11/14 17:44:14
+    is_odd: 0
+    "no": 82
+  - 
+    comment: 試行錯誤はしてるみたいだから、いつかは…渋いのも…！
+    date: 2009/11/14 17:44:24
+    is_odd: 1
+    "no": 83
+  - 
+    comment: 後は、少年少女のキャラが皆さんに大事に扱われる事を望むばかりです。
+    date: 2009/11/14 17:44:45
+    is_odd: 0
+    "no": 84
+  - 
+    comment: どうか、どうか。
+    date: 2009/11/14 17:44:55
+    is_admin: 1
+    is_odd: 1
+    "no": 85
+  - 
+    comment: そう、えろいこといわせんなよｗ
+    date: 2009/11/14 17:45:01
+    is_odd: 0
+    "no": 86
+  - 
+    comment: そうだよね・・・ｳﾋﾋ
+    date: 2009/11/14 17:45:03
+    is_odd: 1
+    "no": 87
+  - 
+    comment: 危ないなぁｗ
+    date: 2009/11/14 17:45:08
+    is_admin: 1
+    is_odd: 0
+    "no": 88
+  - 
+    comment: そういうので、偏見が広まったら、肩身が狭くなる
+    date: 2009/11/14 17:45:44
+    is_odd: 1
+    "no": 89
+  - 
+    comment: "■【初音ミク オリジナル】 Mint Tea (Mango Roots Mix) ■ wintermute "
+    date: 2009/11/14 17:45:51
+    is_admin: 1
+    is_odd: 0
+    "no": 90
+  - 
+    comment: "■2007.12.16 時/3:27 彡/16 ◆再/4,531 コ/157 マ/103 (2.3%) "
+    date: 2009/11/14 17:45:59
+    is_admin: 1
+    is_odd: 1
+    "no": 92
+  - 
+    comment: 遠回しにだけど、確実に自分の首を絞める事になると思います。
+    date: 2009/11/14 17:46:13
+    is_admin: 1
+    is_odd: 0
+    "no": 93
+  - 
+    comment: 罠なのかも
+    date: 2009/11/14 17:46:19
+    is_odd: 1
+    "no": 94
+  - 
+    comment: ｗｗｗｗ
+    date: 2009/11/14 17:46:23
+    is_admin: 1
+    is_odd: 0
+    "no": 95
+  - 
+    comment: 罠ｗ
+    date: 2009/11/14 17:46:27
+    is_odd: 1
+    "no": 96
+  - 
+    comment: まぁ、ボカロ界隈の皆さんなら大丈夫かなぁー。
+    date: 2009/11/14 17:46:56
+    is_admin: 1
+    is_odd: 0
+    "no": 97
+  - 
+    comment: 先生と生徒同時期だし。アウアウ曲いっぱい出そうではある
+    date: 2009/11/14 17:47:03
+    is_odd: 1
+    "no": 98
+  - 
+    comment: 心配はしてないです。
+    date: 2009/11/14 17:47:13
+    is_admin: 1
+    is_odd: 0
+    "no": 99
+  - 
+    comment: 紳士が多いね
+    date: 2009/11/14 17:47:20
+    is_odd: 1
+    "no": 100
+  - 
+    comment: こんばんわ〜(*‘ω
+    date: 2009/11/14 17:47:42
+    is_odd: 0
+    "no": 101
+  - 
+    comment: いらっさ！
+    date: 2009/11/14 17:47:46
+    is_admin: 1
+    is_odd: 1
+    "no": 102
+  - 
+    comment: 捕捉、ボカロ界隈ってのは作り手だけでなく聞き手もね。
+    date: 2009/11/14 17:48:56
+    is_admin: 1
+    is_odd: 0
+    "no": 103
+  - 
+    comment: ミクノ好きとしては、音源として面白い使い方をしてほしいなぁ
+    date: 2009/11/14 17:49:03
+    is_odd: 1
+    "no": 104
+  - 
+    comment: "■Chaining Intention [Re:form mix] 【初音ミクオリジナル】 ■ Treow(逆衝動P) "
+    date: 2009/11/14 17:49:19
+    is_admin: 1
+    is_odd: 0
+    "no": 105
+  - 
+    comment: "■2009.07.06 時/7:15 彡/18 ◆再/78,915 コ/2,323 マ/4,658 (5.9%) "
+    date: 2009/11/14 17:49:27
+    is_admin: 1
+    is_odd: 1
+    "no": 107
+  - 
+    comment: とれおおおおおお！
+    date: 2009/11/14 17:49:30
+    is_odd: 0
+    "no": 108
+  - 
+    comment: ミクノでセット組んでみようかなぁ。
+    date: 2009/11/14 17:50:15
+    is_admin: 1
+    is_odd: 1
+    "no": 109
+  - 
+    comment: この小声が素敵
+    date: 2009/11/14 17:50:48
+    is_admin: 1
+    is_odd: 0
+    "no": 110
+  - 
+    comment: おもしろい音だ
+    date: 2009/11/14 17:51:00
+    is_odd: 1
+    "no": 111
+  - 
+    comment: あらゆる音がたまらん！
+    date: 2009/11/14 17:51:16
+    is_odd: 0
+    "no": 112
+  - 
+    comment: ささやき　すごいですね
+    date: 2009/11/14 17:51:59
+    is_odd: 1
+    "no": 113
+  - 
+    comment: ブレスいいなぁ
+    date: 2009/11/14 17:52:07
+    is_odd: 0
+    "no": 114
+  - 
+    comment: ＼いぇーい！／
+    date: 2009/11/14 17:52:48
+    is_odd: 1
+    "no": 115
+  - 
+    comment: びびったｗ
+    date: 2009/11/14 17:53:00
+    is_odd: 0
+    "no": 116
+  - 
+    comment: ミクマルのセット期待&gt;109
+    date: 2009/11/14 17:53:20
+    is_odd: 1
+    "no": 117
+  - 
+    comment: ミクマルはどんなジャンルかしら？
+    date: 2009/11/14 17:53:35
+    is_admin: 1
+    is_odd: 0
+    "no": 118
+  - 
+    comment: ＭＩＫＵ＋ＭＩＮＩＭＡＬ ＝ミクノ中のミクノです。
+    date: 2009/11/14 17:54:05
+    is_odd: 1
+    "no": 119
+  - 
+    comment: ミニマルかーｗ
+    date: 2009/11/14 17:54:13
+    is_admin: 1
+    is_odd: 0
+    "no": 120
+  - 
+    comment: 検索したけども15件くらいしかないっぽ？
+    date: 2009/11/14 17:54:27
+    is_admin: 1
+    is_odd: 1
+    "no": 121
+  - 
+    comment: とってもあんぐら～ｗ
+    date: 2009/11/14 17:54:37
+    is_odd: 0
+    "no": 122
+  - 
+    comment: 少ないのぅｗ
+    date: 2009/11/14 17:54:50
+    is_admin: 1
+    is_odd: 1
+    "no": 123
+  - 
+    comment: 数多くなってきたら、ですかねｗ
+    date: 2009/11/14 17:54:57
+    is_admin: 1
+    is_odd: 0
+    "no": 124
+  - 
+    comment: タグがついてないだけだｗ 自分の耳で探すんだ！
+    date: 2009/11/14 17:55:02
+    is_odd: 1
+    "no": 125
+  - 
+    comment: うっすｗ
+    date: 2009/11/14 17:55:09
+    is_admin: 1
+    is_odd: 0
+    "no": 126
+  - 
+    comment: ＼いぇーい！／＼いぇーい！／
+    date: 2009/11/14 17:55:11
+    is_odd: 1
+    "no": 127
+  - 
+    comment: なんのためのタグかとｗ
+    date: 2009/11/14 17:55:17
+    is_admin: 1
+    is_odd: 0
+    "no": 128
+  - 
+    comment: いぇーい！職人ナイス！
+    date: 2009/11/14 17:55:31
+    is_admin: 1
+    is_odd: 1
+    "no": 129
+  - 
+    comment: 恐縮です
+    date: 2009/11/14 17:55:49
+    is_odd: 0
+    "no": 130
+  - 
+    comment: ウェットなキックですなぁ
+    date: 2009/11/14 17:56:08
+    is_admin: 1
+    is_odd: 1
+    "no": 131
+  - 
+    comment: "■【初音ミク】Green Apple -Radio edit-【オリジナル曲】 ■ Rin（ぎん） "
+    date: 2009/11/14 17:56:37
+    is_admin: 1
+    is_odd: 0
+    "no": 132
+  - 
+    comment: "■2009.06.16 時/2:47 彡/17 ◆再/3,644 コ/80 マ/224 (6.1%) "
+    date: 2009/11/14 17:56:45
+    is_admin: 1
+    is_odd: 1
+    "no": 134
+  - 
+    comment: いいわ～♪
+    date: 2009/11/14 17:57:10
+    is_odd: 0
+    "no": 135
+  - 
+    comment: 次枠いきます～
+    date: 2009/11/14 17:57:24
+    is_admin: 1
+    is_odd: 1
+    "no": 136
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/11/14 17:57:34
+    is_admin: 1
+    is_odd: 0
+    "no": 137
+  - 
+    comment: 主せれＧＪでした
+    date: 2009/11/14 17:57:46
+    is_odd: 1
+    "no": 138
+  - 
+    comment: いえいいえいｂ
+    date: 2009/11/14 17:57:51
+    is_admin: 1
+    is_odd: 0
+    "no": 139
+  - 
+    comment: ありがとー！
+    date: 2009/11/14 17:57:54
+    is_admin: 1
+    is_odd: 1
+    "no": 140
+  - 
+    comment: ここで離脱。ありがとうございました！
+    date: 2009/11/14 17:57:58
+    is_odd: 0
+    "no": 141
+  - 
+    comment: おつー
+    date: 2009/11/14 17:58:05
+    is_odd: 1
+    "no": 142
+  - 
+    comment: お疲れ様でした！ありがとう！
+    date: 2009/11/14 17:58:08
+    is_admin: 1
+    is_odd: 0
+    "no": 143
+  - 
+    comment: んでは次枠でもよろしくです～！
+    date: 2009/11/14 17:58:35
+    is_admin: 1
+    is_odd: 1
+    "no": 144
+  - 
+    comment: 移動！のし！
+    date: 2009/11/14 17:58:39
+    is_admin: 1
+    is_odd: 0
+    "no": 145
+  - 
+    comment: ノシ
+    date: 2009/11/14 17:58:41
+    is_admin: 1
+    is_odd: 1
+    "no": 146
+  - 
+    comment: ノシ
+    date: 2009/11/14 17:58:41
+    is_odd: 0
+    "no": 147
+  - 
+    comment: おつー
+    date: 2009/11/14 17:58:43
+    is_odd: 1
+    "no": 148
+  - 
+    comment: ノシ
+    date: 2009/11/14 17:58:52
+    is_odd: 0
+    "no": 149
+  - 
+    comment: ノミ☆
+    date: 2009/11/14 17:59:12
+    is_odd: 1
+    "no": 150
+frame: 1
+start: 1258187367
+time: 29
+

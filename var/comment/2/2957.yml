@@ -1,0 +1,532 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんばんわ！
+    date: 2009/12/13 02:23:49
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: おやすミクノです。
+    date: 2009/12/13 02:23:55
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 主セレは
+    date: 2009/12/13 02:23:58
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: いけめーん
+    date: 2009/12/13 02:24:01
+    is_odd: 0
+    "no": 4
+  - 
+    comment: か　わ　い　い　ミ　ク　う　た
+    date: 2009/12/13 02:24:06
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: リクは沢山は受け付けないよｗ
+    date: 2009/12/13 02:24:27
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: "■【初音ミクオリジナル曲】PICO＠LUV (☆彡とvとAIのウタ。)【手描きPV付き】 ■ ささくれP "
+    date: 2009/12/13 02:24:30
+    is_admin: 1
+    is_odd: 1
+    "no": 7
+  - 
+    comment: そしてミクノの夜はふけていく・・ 乙
+    date: 2009/12/13 02:24:34
+    is_odd: 0
+    "no": 9
+  - 
+    comment: "■2007.12.28 時/2:34 彡/6 ◆再/37,068 コ/1,031 マ/1,138 (3.1%) "
+    date: 2009/12/13 02:24:38
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: こんばんは～。眠くて２１時に寝て今起きたｗだからおはよう俺ミクノですっｗ
+    date: 2009/12/13 02:25:13
+    is_odd: 0
+    "no": 11
+  - 
+    comment: わくおーつ！
+    date: 2009/12/13 02:25:29
+    is_odd: 1
+    "no": 12
+  - 
+    comment: おはようございます～☆楽しんでいってくださいね♪
+    date: 2009/12/13 02:25:33
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: じゃぁ次の曲順番変えようかしら。
+    date: 2009/12/13 02:26:07
+    is_admin: 1
+    is_odd: 1
+    "no": 14
+  - 
+    comment: おつー　順番待ち制になったから次枠とるのとかとか大変になっちゃったね＞＜
+    date: 2009/12/13 02:26:08
+    is_odd: 0
+    "no": 15
+  - 
+    comment: 次枠いきます、ってなってから10～15分は間あきますねｗ
+    date: 2009/12/13 02:26:31
+    is_admin: 1
+    is_odd: 1
+    "no": 16
+  - 
+    comment: なかなか厳しいｗ
+    date: 2009/12/13 02:26:57
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: "■【初音ミク】Charge【オリジナル】 ■ びにゅP "
+    date: 2009/12/13 02:27:09
+    is_admin: 1
+    is_odd: 1
+    "no": 18
+  - 
+    comment: "■2009.02.11 時/5:43 彡/24 ◆再/11,771 コ/429 マ/672 (5.7%) "
+    date: 2009/12/13 02:27:18
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: えらいぞ、イケメーン！
+    date: 2009/12/13 02:27:23
+    is_odd: 1
+    "no": 21
+  - 
+    comment: いぇあ！！ｂ
+    date: 2009/12/13 02:27:48
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/12/13 02:27:51
+    is_odd: 1
+    "no": 23
+  - 
+    comment: かわいいのｷﾀｰ！
+    date: 2009/12/13 02:27:57
+    is_odd: 0
+    "no": 24
+  - 
+    comment: この曲でびにゅPを知ったのですよ。
+    date: 2009/12/13 02:29:49
+    is_admin: 1
+    is_odd: 1
+    "no": 25
+  - 
+    comment: あと、イラストの可愛さに目覚めたきっかけでもあります。
+    date: 2009/12/13 02:30:28
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: へぇーそーなんですか！同じくこの曲ではまりました、びにゅＰに（（≧ω≦））
+    date: 2009/12/13 02:31:07
+    is_odd: 1
+    "no": 27
+  - 
+    comment: ナカーマ！
+    date: 2009/12/13 02:31:16
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: オカーマ！
+    date: 2009/12/13 02:31:28
+    is_odd: 1
+    "no": 29
+  - 
+    comment: ！？
+    date: 2009/12/13 02:31:36
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: ｗｗ
+    date: 2009/12/13 02:31:36
+    is_odd: 1
+    "no": 31
+  - 
+    comment: 今来た。でも裏でustのVOCALOID DISCO2観てる
+    date: 2009/12/13 02:32:16
+    is_odd: 0
+    "no": 32
+  - 
+    comment: いらっさ！
+    date: 2009/12/13 02:32:23
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: 32ナカーマ
+    date: 2009/12/13 02:32:29
+    is_odd: 0
+    "no": 34
+  - 
+    comment: "■【初音ミク】so with you・・・【オリジナル】 ■ とめP "
+    date: 2009/12/13 02:32:53
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: "■2008.09.15 時/3:21 彡/6 ◆再/2,466 コ/89 マ/84 (3.4%) "
+    date: 2009/12/13 02:33:01
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: sm8659175
+    date: 2009/12/13 02:33:22
+    is_odd: 1
+    "no": 38
+  - 
+    comment: ハイハイハイ！！(ﾉ・∀・)ﾉどどーん)マイリス|| | | |
+    date: 2009/12/13 02:34:16
+    is_odd: 0
+    "no": 39
+  - 
+    comment: マイリスあざーっす！
+    date: 2009/12/13 02:34:48
+    is_admin: 1
+    is_odd: 1
+    "no": 40
+  - 
+    comment: そしてリクさーんくす！イントロでもうｗｋｔｋがとまらないｗ
+    date: 2009/12/13 02:35:29
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: "■【初音ミク】 ♯×∞ ～シャープ×ムゲンダイ～【オリジナル曲】 ■ マスヒロP "
+    date: 2009/12/13 02:36:13
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: "■2009.10.30 時/2:56 彡/2 ◆再/610 コ/28 マ/48 (7.9%) "
+    date: 2009/12/13 02:36:21
+    is_admin: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: イントロマイリス余裕です
+    date: 2009/12/13 02:36:29
+    is_admin: 1
+    is_odd: 1
+    "no": 45
+  - 
+    comment: 余裕ですな(o・∀・)oポチっと⊥マイリス
+    date: 2009/12/13 02:37:10
+    is_odd: 0
+    "no": 46
+  - 
+    comment: ナイスリク！！ｂ
+    date: 2009/12/13 02:37:50
+    is_admin: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: どもども＾＾
+    date: 2009/12/13 02:38:00
+    is_odd: 0
+    "no": 48
+  - 
+    comment: "■初音ミクオリジナル「EX-GIRL」 ■ くちばしP "
+    date: 2009/12/13 02:39:09
+    is_admin: 1
+    is_odd: 1
+    "no": 49
+  - 
+    comment: "■2007.12.30 時/3:29 彡/2 ◆再/167,278 コ/16,296 マ/5,841 (3.5%) "
+    date: 2009/12/13 02:39:17
+    is_admin: 1
+    is_odd: 0
+    "no": 51
+  - 
+    comment: おつめーん
+    date: 2009/12/13 02:39:55
+    is_odd: 1
+    "no": 52
+  - 
+    comment: めんめーん！いらっさ！
+    date: 2009/12/13 02:40:08
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: "■【初音ミク】サイクルサマーガール【オリジナル曲】 ■ グラウル "
+    date: 2009/12/13 02:42:36
+    is_admin: 1
+    is_odd: 1
+    "no": 54
+  - 
+    comment: "■2009.07.23 時/3:50 彡/6 ◆再/1,364 コ/41 マ/70 (5.1%) "
+    date: 2009/12/13 02:42:44
+    is_admin: 1
+    is_odd: 0
+    "no": 56
+  - 
+    comment: なんという鉄壁紙ヒコーキ
+    date: 2009/12/13 02:43:22
+    is_admin: 1
+    is_odd: 1
+    "no": 57
+  - 
+    comment: 夜もエロい・・と。メモメモ
+    date: 2009/12/13 02:43:44
+    is_odd: 0
+    "no": 58
+  - 
+    comment: まってｗｗｗ
+    date: 2009/12/13 02:43:49
+    is_admin: 1
+    is_odd: 1
+    "no": 59
+  - 
+    comment: 華麗に拾っていかないでｗｗｗ
+    date: 2009/12/13 02:44:04
+    is_admin: 1
+    is_odd: 0
+    "no": 60
+  - 
+    comment: スカートとお揃いのソックスかわいいですね～
+    date: 2009/12/13 02:45:09
+    is_odd: 1
+    "no": 61
+  - 
+    comment: おお、その発想いいなぁ。
+    date: 2009/12/13 02:45:30
+    is_admin: 1
+    is_odd: 0
+    "no": 62
+  - 
+    comment: かわいいですのう
+    date: 2009/12/13 02:45:34
+    is_admin: 1
+    is_odd: 1
+    "no": 63
+  - 
+    comment: "■【初音ミク】ねこみみスイッチ【オリジナル】 ■ daniwellP "
+    date: 2009/12/13 02:46:24
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: "■2009.09.15 時/3:54 彡/19 ◆再/106,471 コ/2,517 マ/8,654 (8.1%) "
+    date: 2009/12/13 02:46:32
+    is_admin: 1
+    is_odd: 1
+    "no": 66
+  - 
+    comment: おお、殿堂入りしとる！
+    date: 2009/12/13 02:47:04
+    is_admin: 1
+    is_odd: 0
+    "no": 67
+  - 
+    comment: ☆祝殿堂入り☆
+    date: 2009/12/13 02:47:17
+    is_admin: 1
+    is_odd: 1
+    "no": 68
+  - 
+    comment: おお、めでたい！
+    date: 2009/12/13 02:47:26
+    is_odd: 0
+    "no": 69
+  - 
+    comment: めでたい！
+    date: 2009/12/13 02:47:30
+    is_admin: 1
+    is_odd: 1
+    "no": 70
+  - 
+    comment: イケメン殿堂入り
+    date: 2009/12/13 02:47:35
+    is_odd: 0
+    "no": 71
+  - 
+    comment: なんぞｗｗ
+    date: 2009/12/13 02:47:39
+    is_admin: 1
+    is_odd: 1
+    "no": 72
+  - 
+    comment: 二股男殿堂入り
+    date: 2009/12/13 02:48:15
+    is_odd: 0
+    "no": 73
+  - 
+    comment: ひどいｗｗｗ
+    date: 2009/12/13 02:49:06
+    is_admin: 1
+    is_odd: 1
+    "no": 74
+  - 
+    comment: 次でラスト！
+    date: 2009/12/13 02:50:05
+    is_admin: 1
+    is_odd: 0
+    "no": 75
+  - 
+    comment: "■【初音ミク】 オリジナル　『春色観覧車』 ■ aquascape "
+    date: 2009/12/13 02:50:18
+    is_admin: 1
+    is_odd: 1
+    "no": 76
+  - 
+    comment: "■2009.03.20 時/4:02 彡/18 ◆再/9,534 コ/313 マ/542 (5.7%) "
+    date: 2009/12/13 02:50:26
+    is_admin: 1
+    is_odd: 0
+    "no": 78
+  - 
+    comment: であであ、この曲でおしまいとなります。
+    date: 2009/12/13 02:50:34
+    is_admin: 1
+    is_odd: 1
+    "no": 79
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/12/13 02:50:42
+    is_admin: 1
+    is_odd: 0
+    "no": 80
+  - 
+    comment: 深夜枠おつでした～
+    date: 2009/12/13 02:50:45
+    is_odd: 1
+    "no": 81
+  - 
+    comment: えー次枠ー
+    date: 2009/12/13 02:50:48
+    is_odd: 0
+    "no": 82
+  - 
+    comment: おつめん
+    date: 2009/12/13 02:50:52
+    is_odd: 1
+    "no": 83
+  - 
+    comment: 多分次枠待ってる間にnoc余裕ですｗ
+    date: 2009/12/13 02:51:09
+    is_admin: 1
+    is_odd: 0
+    "no": 84
+  - 
+    comment: おつでしたー
+    date: 2009/12/13 02:51:32
+    is_odd: 1
+    "no": 85
+  - 
+    comment: 一発でとれた！って事もなくなるから寂しいのう。。
+    date: 2009/12/13 02:51:33
+    is_admin: 1
+    is_odd: 0
+    "no": 86
+  - 
+    comment: やはり予約or延長なのかしら。。
+    date: 2009/12/13 02:51:46
+    is_admin: 1
+    is_odd: 1
+    "no": 87
+  - 
+    comment: 2枠またぐ場合ね
+    date: 2009/12/13 02:51:52
+    is_admin: 1
+    is_odd: 0
+    "no": 88
+  - 
+    comment: それでは皆さん良い夢を！
+    date: 2009/12/13 02:52:06
+    is_admin: 1
+    is_odd: 1
+    "no": 89
+  - 
+    comment: 延長はお金かかるからねぇｗ策略やなコレはｗ
+    date: 2009/12/13 02:52:08
+    is_odd: 0
+    "no": 90
+  - 
+    comment: ですねｗ
+    date: 2009/12/13 02:52:18
+    is_admin: 1
+    is_odd: 1
+    "no": 91
+  - 
+    comment: 徹夜組は作業ガンバです！ｂ
+    date: 2009/12/13 02:52:25
+    is_admin: 1
+    is_odd: 0
+    "no": 92
+  - 
+    comment: 音気持ちいい～　乙！
+    date: 2009/12/13 02:52:33
+    is_odd: 1
+    "no": 93
+  - 
+    comment: はーい、がんばりマース
+    date: 2009/12/13 02:52:33
+    is_odd: 0
+    "no": 94
+  - 
+    comment: おっつー
+    date: 2009/12/13 02:52:36
+    is_odd: 1
+    "no": 95
+  - 
+    comment: 素敵な日曜でありますように！
+    date: 2009/12/13 02:52:43
+    is_admin: 1
+    is_odd: 0
+    "no": 96
+  - 
+    comment: ﾉｼ
+    date: 2009/12/13 02:52:46
+    is_odd: 1
+    "no": 97
+  - 
+    comment: おやすー！☆
+    date: 2009/12/13 02:52:48
+    is_admin: 1
+    is_odd: 0
+    "no": 98
+  - 
+    comment: のし！
+    date: 2009/12/13 02:52:50
+    is_admin: 1
+    is_odd: 1
+    "no": 99
+  - 
+    comment: ノシ
+    date: 2009/12/13 02:52:52
+    is_odd: 0
+    "no": 100
+  - 
+    comment: ノシ～☆
+    date: 2009/12/13 02:52:53
+    is_admin: 1
+    is_odd: 1
+    "no": 101
+frame: 1
+start: 1260638629
+time: 29
+

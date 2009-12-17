@@ -1,0 +1,671 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんにちはー！
+    date: 2009/11/15 11:52:05
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: 昼ミクノです。
+    date: 2009/11/15 11:52:09
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 乙ですぅぅぅ
+    date: 2009/11/15 11:52:09
+    is_odd: 1
+    "no": 3
+  - 
+    comment: ボ－マス会場から配信？
+    date: 2009/11/15 11:52:16
+    is_odd: 0
+    "no": 4
+  - 
+    comment: いけめんこんつぁ
+    date: 2009/11/15 11:52:18
+    is_odd: 1
+    "no": 5
+  - 
+    comment: 主セレ→明るめ～
+    date: 2009/11/15 11:52:21
+    is_admin: 1
+    is_odd: 0
+    "no": 6
+  - 
+    comment: リク随時でっす！
+    date: 2009/11/15 11:52:25
+    is_admin: 1
+    is_odd: 1
+    "no": 7
+  - 
+    comment: "(ﾉ・∀・)ﾉ \n＝＝＝＝＝[蒟蒻]))ﾟДﾟ)･∵.＜ボーマス充"
+    date: 2009/11/15 11:52:41
+    is_admin: 1
+    is_odd: 0
+    "no": 8
+  - 
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Freestyle ver.K】◆ No.8 presented by k-sk
+    date: 2009/11/15 11:52:52
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: ボーマス羨ましいのぅ、羨ましいのぅ。
+    date: 2009/11/15 11:53:48
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: ﾁｮｲｱｰ!!&gt;(ﾉ・∀・)ﾉ ＝＝＝＝＝[蒟蒻]))ﾟДﾟ)･∵.
+    date: 2009/11/15 11:54:03
+    is_admin: 1
+    is_odd: 1
+    "no": 12
+  - 
+    comment: "■【VOCALOIDオリジナル曲】スパイラル　ステップ【ファミコン音源】 ■ ジョイメカP "
+    date: 2009/11/15 11:54:45
+    is_odd: 0
+    "no": 13
+  - 
+    comment: "■2008.11.19 時/3:23 彡/6 ◆再/1,850 コ/74 マ/88 (4.8%) "
+    date: 2009/11/15 11:54:53
+    is_admin: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: この時間でも案外人いるのですね～。
+    date: 2009/11/15 11:56:28
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: ありがたや～
+    date: 2009/11/15 11:56:34
+    is_admin: 1
+    is_odd: 1
+    "no": 17
+  - 
+    comment: "■【初音ミク】Chip Tears【オリジナル曲】 ■ U-ji "
+    date: 2009/11/15 11:58:08
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: "■2008.10.15 時/4:07 彡/21 ◆再/49,923 コ/2,286 マ/2,266 (4.5%) "
+    date: 2009/11/15 11:58:16
+    is_admin: 1
+    is_odd: 1
+    "no": 20
+  - 
+    comment: "■【初音ミク】KiLaKiLa☆ShineGets!【オリジナル】 ■ じゅるＰ "
+    date: 2009/11/15 12:02:17
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: "■2008.04.10 時/6:19 彡/20 ◆再/11,350 コ/604 マ/582 (5.1%) "
+    date: 2009/11/15 12:02:25
+    is_admin: 1
+    is_odd: 1
+    "no": 23
+  - 
+    comment: (ﾉ・∀・)ﾉ ＝＝＝＝＝[蒟蒻]))ﾟДﾟ)･∵.＜イケメン
+    date: 2009/11/15 12:03:05
+    is_odd: 0
+    "no": 24
+  - 
+    comment: なぜにｗｗ
+    date: 2009/11/15 12:03:13
+    is_admin: 1
+    is_odd: 1
+    "no": 25
+  - 
+    comment: イケメンなら仕方ない
+    date: 2009/11/15 12:03:32
+    is_odd: 0
+    "no": 26
+  - 
+    comment: イケメンに嫉妬ｗ
+    date: 2009/11/15 12:03:33
+    is_odd: 1
+    "no": 27
+  - 
+    comment: ｗｗｗｗｗ
+    date: 2009/11/15 12:03:38
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: 蒟蒻祭の流れですか！(・∀・)
+    date: 2009/11/15 12:04:00
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: 蒟蒻祭り＝ボーマスってことでいいのか！？
+    date: 2009/11/15 12:04:44
+    is_odd: 0
+    "no": 30
+  - 
+    comment: 蒟蒻祭＝ボマスエア参加組　かな？ｗ
+    date: 2009/11/15 12:05:05
+    is_admin: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: ﾃｲﾔｰ!!&gt;(ﾉ・∀・)ﾉ ＝＝＝＝＝[蒟蒻]))ﾟДﾟ)･∵.
+    date: 2009/11/15 12:05:26
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: ここには嫉妬の対象がイケメンしかいない件。
+    date: 2009/11/15 12:07:16
+    is_odd: 1
+    "no": 33
+  - 
+    comment: 悲しいことよね
+    date: 2009/11/15 12:07:28
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: 早ければ夕方頃にはボーマス帰りの人も
+    date: 2009/11/15 12:08:07
+    is_odd: 1
+    "no": 35
+  - 
+    comment: そうか！その時に蒟蒻投げればいいのか！
+    date: 2009/11/15 12:08:21
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: "■【初音ミク】ハートフルドライブ【オリジナル】 ■ P∴Rhythmatiq "
+    date: 2009/11/15 12:08:37
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: "■2009.02.20 時/3:43 彡/24 ◆再/32,449 コ/710 マ/1,758 (5.4%) "
+    date: 2009/11/15 12:08:45
+    is_admin: 1
+    is_odd: 0
+    "no": 39
+  - 
+    comment: 今だともう、おでんの季節かな。
+    date: 2009/11/15 12:09:19
+    is_odd: 1
+    "no": 40
+  - 
+    comment: おでんの蒟蒻食べてないなぁ。
+    date: 2009/11/15 12:10:06
+    is_admin: 1
+    is_odd: 0
+    "no": 41
+  - 
+    comment: 厚揚げと大根スキーです。
+    date: 2009/11/15 12:10:32
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: あと、たけのこ。
+    date: 2009/11/15 12:10:45
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: おでんにたけのこ・・・・だと・・・・
+    date: 2009/11/15 12:11:15
+    is_odd: 1
+    "no": 44
+  - 
+    comment: たけのこ・・・！？
+    date: 2009/11/15 12:11:24
+    is_odd: 0
+    "no": 45
+  - 
+    comment: え？ｗ入れないの？ｗ
+    date: 2009/11/15 12:11:26
+    is_admin: 1
+    is_odd: 1
+    "no": 46
+  - 
+    comment: 入れない人　　ノ
+    date: 2009/11/15 12:11:40
+    is_odd: 0
+    "no": 47
+  - 
+    comment: ノ
+    date: 2009/11/15 12:11:43
+    is_odd: 1
+    "no": 48
+  - 
+    comment: なんと
+    date: 2009/11/15 12:11:47
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: 美味しいのにー。
+    date: 2009/11/15 12:12:02
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: 美味しいし相性がいいのも判るが入れないね
+    date: 2009/11/15 12:12:16
+    is_odd: 0
+    "no": 51
+  - 
+    comment: おいしいんですか・・！？
+    date: 2009/11/15 12:12:19
+    is_odd: 1
+    "no": 52
+  - 
+    comment: "■【初音ミク】オリジナル曲【A to the world】 ■ orzヘッド=ホン=モノローグP orzヘッドホンP モノローグP "
+    date: 2009/11/15 12:12:24
+    is_admin: 1
+    is_odd: 0
+    "no": 53
+  - 
+    comment: "■2009.04.10 時/4:27 彡/20 ◆再/8,220 コ/216 マ/446 (5.4%) "
+    date: 2009/11/15 12:12:32
+    is_admin: 1
+    is_odd: 1
+    "no": 55
+  - 
+    comment: 厚揚げとか大根とか入れたい物もっとあるからね
+    date: 2009/11/15 12:12:36
+    is_odd: 0
+    "no": 56
+  - 
+    comment: 大根最強説を提唱します
+    date: 2009/11/15 12:12:55
+    is_odd: 1
+    "no": 57
+  - 
+    comment: たまご！　たまご！
+    date: 2009/11/15 12:13:04
+    is_odd: 0
+    "no": 58
+  - 
+    comment: それには反論する術を持ち合わせていない。
+    date: 2009/11/15 12:13:12
+    is_admin: 1
+    is_odd: 1
+    "no": 59
+  - 
+    comment: 厚揚げと牛すじが！ｗｗｗ
+    date: 2009/11/15 12:13:30
+    is_odd: 0
+    "no": 60
+  - 
+    comment: すじ・・・・ｼﾞｭﾙﾘ
+    date: 2009/11/15 12:13:44
+    is_odd: 1
+    "no": 61
+  - 
+    comment: 牛すじ食べたことないなぁ
+    date: 2009/11/15 12:13:46
+    is_admin: 1
+    is_odd: 0
+    "no": 62
+  - 
+    comment: (ﾉ・∀・)ﾉ ＝＝＝＝＝（卵）))ﾟДﾟ)･∵.
+    date: 2009/11/15 12:13:55
+    is_odd: 1
+    "no": 63
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/15 12:13:58
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: ﾀﾏｺﾞｷﾀｰ!!
+    date: 2009/11/15 12:14:12
+    is_odd: 1
+    "no": 65
+  - 
+    comment: おでんときいて
+    date: 2009/11/15 12:14:16
+    is_odd: 0
+    "no": 66
+  - 
+    comment: (ﾉ・∀・)ﾉ ＝＝＝＝＝(大根))ﾟДﾟ)･∵.
+    date: 2009/11/15 12:14:29
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: 今北
+    date: 2009/11/15 12:14:29
+    is_odd: 0
+    "no": 68
+  - 
+    comment: いらっさ！
+    date: 2009/11/15 12:14:36
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: 火傷するから火傷するから
+    date: 2009/11/15 12:14:57
+    is_odd: 0
+    "no": 70
+  - 
+    comment: おでんにたけのこは有りか無しか？　＞６８
+    date: 2009/11/15 12:15:12
+    is_odd: 1
+    "no": 71
+  - 
+    comment: 68さんに期待
+    date: 2009/11/15 12:15:21
+    is_admin: 1
+    is_odd: 0
+    "no": 72
+  - 
+    comment: たけのこ入れるなんて始めて聴いた　６８
+    date: 2009/11/15 12:15:47
+    is_odd: 1
+    "no": 73
+  - 
+    comment: orz
+    date: 2009/11/15 12:15:52
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: だよねーｗ
+    date: 2009/11/15 12:15:54
+    is_odd: 1
+    "no": 75
+  - 
+    comment: だよねｗ
+    date: 2009/11/15 12:15:57
+    is_odd: 0
+    "no": 76
+  - 
+    comment: ですよねーｗｗ
+    date: 2009/11/15 12:16:02
+    is_odd: 1
+    "no": 77
+  - 
+    comment: (ﾉ・∀・)ﾉ ＝＝＝＝＝[たけのこ]))ﾟДﾟ)･∵.
+    date: 2009/11/15 12:16:08
+    is_admin: 1
+    is_odd: 0
+    "no": 78
+  - 
+    comment: k-sk家の慣習はマイナーであると決定。
+    date: 2009/11/15 12:16:33
+    is_odd: 1
+    "no": 79
+  - 
+    comment: たけのこ族なんだよ
+    date: 2009/11/15 12:16:45
+    is_odd: 0
+    "no": 80
+  - 
+    comment: いや、北海道ではメジャーなのかも
+    date: 2009/11/15 12:16:45
+    is_admin: 1
+    is_odd: 1
+    "no": 81
+  - 
+    comment: 古いｗ
+    date: 2009/11/15 12:16:49
+    is_admin: 1
+    is_odd: 0
+    "no": 82
+  - 
+    comment: 道民なのか
+    date: 2009/11/15 12:16:52
+    is_odd: 1
+    "no": 83
+  - 
+    comment: "■【初音ミク】「ひとひらの頃」BPM140 ■ tatmos "
+    date: 2009/11/15 12:16:54
+    is_admin: 1
+    is_odd: 0
+    "no": 84
+  - 
+    comment: 道民他にいないかな？
+    date: 2009/11/15 12:16:58
+    is_odd: 1
+    "no": 86
+  - 
+    comment: "■2008.04.27 時/4:21 彡/6 ◆再/1,129 コ/39 マ/34 (3.0%) "
+    date: 2009/11/15 12:17:02
+    is_admin: 1
+    is_odd: 0
+    "no": 87
+  - 
+    comment: ですです。道民。
+    date: 2009/11/15 12:17:05
+    is_admin: 1
+    is_odd: 1
+    "no": 88
+  - 
+    comment: 北海道のコンビニでは入れてたような気がしたんだけどなぁ。。。
+    date: 2009/11/15 12:17:18
+    is_admin: 1
+    is_odd: 0
+    "no": 89
+  - 
+    comment: ナウいヤングだからたけのこ族なんだよね
+    date: 2009/11/15 12:17:19
+    is_odd: 1
+    "no": 90
+  - 
+    comment: たけのこ族とか久々にきいたｗｗｗｗ
+    date: 2009/11/15 12:17:45
+    is_odd: 0
+    "no": 91
+  - 
+    comment: あ、この曲でおしまいとなります。
+    date: 2009/11/15 12:18:00
+    is_admin: 1
+    is_odd: 1
+    "no": 92
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/11/15 12:18:05
+    is_admin: 1
+    is_odd: 0
+    "no": 93
+  - 
+    comment: おつです！
+    date: 2009/11/15 12:18:21
+    is_odd: 1
+    "no": 94
+  - 
+    comment: nm4473735
+    date: 2009/11/15 12:18:28
+    is_odd: 0
+    "no": 95
+  - 
+    comment: 遅い朝ごはん食べてきます～。
+    date: 2009/11/15 12:18:32
+    is_admin: 1
+    is_odd: 1
+    "no": 96
+  - 
+    comment: リクセンキュｗ
+    date: 2009/11/15 12:18:36
+    is_admin: 1
+    is_odd: 0
+    "no": 97
+  - 
+    comment: 昼後にかけるねｗ
+    date: 2009/11/15 12:18:42
+    is_admin: 1
+    is_odd: 1
+    "no": 98
+  - 
+    comment: あーい
+    date: 2009/11/15 12:18:51
+    is_odd: 0
+    "no": 99
+  - 
+    comment: 待ってます、全裸で。
+    date: 2009/11/15 12:18:53
+    is_odd: 1
+    "no": 100
+  - 
+    comment: 服きてーｗ
+    date: 2009/11/15 12:18:58
+    is_admin: 1
+    is_odd: 0
+    "no": 101
+  - 
+    comment: 何作ろうかなぁ。
+    date: 2009/11/15 12:19:07
+    is_admin: 1
+    is_odd: 1
+    "no": 102
+  - 
+    comment: たけのこ
+    date: 2009/11/15 12:19:13
+    is_odd: 0
+    "no": 103
+  - 
+    comment: 風邪引くから風邪引くから
+    date: 2009/11/15 12:19:15
+    is_odd: 1
+    "no": 104
+  - 
+    comment: 炒飯でいっかな。
+    date: 2009/11/15 12:19:17
+    is_admin: 1
+    is_odd: 0
+    "no": 105
+  - 
+    comment: （；`・ω・）ｏ━ヽ_｡_･_ﾟ_･_フ))　チャーハン作るよ！
+    date: 2009/11/15 12:19:30
+    is_odd: 1
+    "no": 106
+  - 
+    comment: チャーハンに細かく刻んだたけのこは美味しそうだ
+    date: 2009/11/15 12:19:36
+    is_odd: 0
+    "no": 107
+  - 
+    comment: チャーハン来場者２９人前お願いします
+    date: 2009/11/15 12:19:45
+    is_odd: 1
+    "no": 108
+  - 
+    comment: あー、良いな。。
+    date: 2009/11/15 12:19:45
+    is_admin: 1
+    is_odd: 0
+    "no": 109
+  - 
+    comment: ｗｗｗｗｗ
+    date: 2009/11/15 12:19:50
+    is_admin: 1
+    is_odd: 1
+    "no": 110
+  - 
+    comment: ":(；ﾞﾟ'ωﾟ'):"
+    date: 2009/11/15 12:19:55
+    is_odd: 0
+    "no": 111
+  - 
+    comment: たけのこあったかな。。
+    date: 2009/11/15 12:20:03
+    is_admin: 1
+    is_odd: 1
+    "no": 112
+  - 
+    comment: たけのこそんなにすきなのか
+    date: 2009/11/15 12:20:26
+    is_odd: 0
+    "no": 113
+  - 
+    comment: たけのこ美味しいよ？
+    date: 2009/11/15 12:20:36
+    is_odd: 1
+    "no": 114
+  - 
+    comment: 北海道に竹やぶあったっけ？
+    date: 2009/11/15 12:20:40
+    is_odd: 0
+    "no": 115
+  - 
+    comment: たけのこ旨いよたけのこ？
+    date: 2009/11/15 12:20:41
+    is_admin: 1
+    is_odd: 1
+    "no": 116
+  - 
+    comment: どうだろうｗ
+    date: 2009/11/15 12:20:46
+    is_admin: 1
+    is_odd: 0
+    "no": 117
+  - 
+    comment: たけのこそんなにすきじゃないんだ・・・
+    date: 2009/11/15 12:20:52
+    is_odd: 1
+    "no": 118
+  - 
+    comment: 残念～。。
+    date: 2009/11/15 12:20:59
+    is_admin: 1
+    is_odd: 0
+    "no": 119
+  - 
+    comment: であであ。乙した！
+    date: 2009/11/15 12:21:17
+    is_admin: 1
+    is_odd: 1
+    "no": 120
+  - 
+    comment: おつおつ！
+    date: 2009/11/15 12:21:22
+    is_odd: 0
+    "no": 121
+  - 
+    comment: おつおつ！
+    date: 2009/11/15 12:21:26
+    is_odd: 1
+    "no": 122
+  - 
+    comment: おつおつ！
+    date: 2009/11/15 12:21:29
+    is_admin: 1
+    is_odd: 0
+    "no": 123
+  - 
+    comment: ノシ
+    date: 2009/11/15 12:21:32
+    is_odd: 1
+    "no": 124
+  - 
+    comment: ﾉｼ
+    date: 2009/11/15 12:21:34
+    is_admin: 1
+    is_odd: 0
+    "no": 125
+  - 
+    comment: ﾉｽ
+    date: 2009/11/15 12:21:37
+    is_odd: 1
+    "no": 126
+  - 
+    comment: "(ﾉ・∀・)ﾉ \n＝＝＝＝＝[蒟蒻]))ﾟДﾟ)･∵.＜ボーマス充"
+    date: 2009/11/15 12:21:42
+    is_admin: 1
+    is_odd: 0
+    "no": 127
+frame: 1
+start: 1258253525
+time: 29
+

@@ -1,0 +1,488 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: こんにちは！
+    date: 2009/11/22 13:51:32
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: 昼ミクノです。
+    date: 2009/11/22 13:51:35
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 主セレ→爽やかなミクうた
+    date: 2009/11/22 13:51:53
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: リク随時でう～。
+    date: 2009/11/22 13:52:00
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: 主の曲がもう出来たときいて
+    date: 2009/11/22 13:52:04
+    is_odd: 1
+    "no": 5
+  - 
+    comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】◆ No.4 presented by \nk-sk"
+    date: 2009/11/22 13:52:22
+    is_odd: 0
+    "no": 7
+  - 
+    comment: 現実逃避大事、うん。
+    date: 2009/11/22 13:52:31
+    is_admin: 1
+    is_odd: 1
+    "no": 8
+  - 
+    comment: 0U0s0U0k^0M0kge0_0\
+    date: 2009/11/22 13:52:54
+    is_odd: 0
+    "no": 9
+  - 
+    comment: ？？
+    date: 2009/11/22 13:53:04
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: Hisa bisa ni
+    date: 2009/11/22 13:53:11
+    is_odd: 0
+    "no": 11
+  - 
+    comment: kikini kitaze!
+    date: 2009/11/22 13:53:18
+    is_odd: 1
+    "no": 12
+  - 
+    comment: いらっさい！
+    date: 2009/11/22 13:53:23
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: Flash was broken...
+    date: 2009/11/22 13:53:27
+    is_odd: 1
+    "no": 14
+  - 
+    comment: アップデートしていってね！
+    date: 2009/11/22 13:53:38
+    is_admin: 1
+    is_odd: 0
+    "no": 15
+  - 
+    comment: so,my comment can't write japanese
+    date: 2009/11/22 13:53:39
+    is_odd: 1
+    "no": 16
+  - 
+    comment: ok～
+    date: 2009/11/22 13:53:47
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: can't update...
+    date: 2009/11/22 13:53:48
+    is_odd: 1
+    "no": 18
+  - 
+    comment: "■初音ミクオリジナル曲 「Luminous Point」 ■ ジミーサムＰ "
+    date: 2009/11/22 13:54:10
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: "■2008.09.25 時/4:50 彡/2 ◆再/100,800 コ/5,862 マ/3,067 (3.0%) "
+    date: 2009/11/22 13:54:18
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: あー、冬の朝に聞くと良さそうだなｗこの曲ｗ
+    date: 2009/11/22 13:54:43
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: 今北ぁぁぁ乙ですぅぅぅポーパラから北句したぁぁぁ
+    date: 2009/11/22 13:55:09
+    is_odd: 1
+    "no": 23
+  - 
+    comment: おかえりなさいーー！！
+    date: 2009/11/22 13:55:17
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: だいまっしたぁぁぁ
+    date: 2009/11/22 13:55:25
+    is_odd: 1
+    "no": 25
+  - 
+    comment: ﾀﾉｼｶｯﾀﾃﾞｽｶｰ??!!(ﾉ・∀・)ﾉ　＝＝＝＝＝[蒟蒻]))ﾟДﾟ)･∵．
+    date: 2009/11/22 13:56:18
+    is_odd: 0
+    "no": 26
+  - 
+    comment: 初めてサンダーさんに会って話ししてき真下ぁぁぁ
+    date: 2009/11/22 13:56:39
+    is_odd: 1
+    "no": 27
+  - 
+    comment: ぼぱら充爆発しろ☆
+    date: 2009/11/22 13:56:40
+    is_odd: 0
+    "no": 28
+  - 
+    comment: おおおー
+    date: 2009/11/22 13:56:46
+    is_admin: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: 今日も蒟蒻を投げる日が始まるなぁ。
+    date: 2009/11/22 13:57:27
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: 日本語でおｋ
+    date: 2009/11/22 13:57:40
+    is_odd: 1
+    "no": 31
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/22 13:57:49
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: 爽快感がたまらないですなあ
+    date: 2009/11/22 13:58:19
+    is_odd: 1
+    "no": 33
+  - 
+    comment: ええですなあ
+    date: 2009/11/22 13:58:36
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: "■【初音ミク】 Showered 【オリジナル曲】 ■ パイパンP chan×co "
+    date: 2009/11/22 13:59:03
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: "■2008.10.29 時/4:41 彡/16 ◆再/86,615 コ/1,730 マ/3,142 (3.6%) "
+    date: 2009/11/22 13:59:12
+    is_admin: 1
+    is_odd: 0
+    "no": 37
+  - 
+    comment: 今日はこの枠が終わったらスーパーに行ってきます。
+    date: 2009/11/22 14:00:10
+    is_admin: 1
+    is_odd: 1
+    "no": 38
+  - 
+    comment: 駅弁特集やってるみたいなのでｗｋｔｋ
+    date: 2009/11/22 14:00:22
+    is_admin: 1
+    is_odd: 0
+    "no": 39
+  - 
+    comment: 蒟蒻買いに行くの？
+    date: 2009/11/22 14:00:31
+    is_odd: 1
+    "no": 40
+  - 
+    comment: うらやま！
+    date: 2009/11/22 14:00:33
+    is_odd: 0
+    "no": 41
+  - 
+    comment: 蒟蒻は買わないｗ
+    date: 2009/11/22 14:00:41
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: sm3777816
+    date: 2009/11/22 14:01:26
+    is_odd: 0
+    "no": 43
+  - 
+    comment: リクあざっす！あざっす！
+    date: 2009/11/22 14:01:37
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: 日常のどこを切ってもりあじゅう
+    date: 2009/11/22 14:01:46
+    is_odd: 0
+    "no": 45
+  - 
+    comment: 金太郎飴みたいいに言わないｗ
+    date: 2009/11/22 14:02:14
+    is_admin: 1
+    is_odd: 1
+    "no": 46
+  - 
+    comment: 主、今日は料理しないの？
+    date: 2009/11/22 14:03:21
+    is_odd: 0
+    "no": 47
+  - 
+    comment: sm8809800
+    date: 2009/11/22 14:03:23
+    is_odd: 1
+    "no": 48
+  - 
+    comment: 今日はしないかなー
+    date: 2009/11/22 14:03:40
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: "■【初音ミク】bpm【オリジナル】 ■ チーターガールP ジョニィＰ "
+    date: 2009/11/22 14:03:45
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: "■2008.06.26 時/4:08 彡/17 ◆再/74,517 コ/1,350 マ/2,122 (2.8%) "
+    date: 2009/11/22 14:03:53
+    is_admin: 1
+    is_odd: 0
+    "no": 52
+  - 
+    comment: sm4892696
+    date: 2009/11/22 14:04:00
+    is_odd: 1
+    "no": 53
+  - 
+    comment: リクども！リク〆～
+    date: 2009/11/22 14:04:25
+    is_admin: 1
+    is_odd: 0
+    "no": 54
+  - 
+    comment: 今日は日曜かー。。
+    date: 2009/11/22 14:05:08
+    is_admin: 1
+    is_odd: 1
+    "no": 55
+  - 
+    comment: 11月22日。
+    date: 2009/11/22 14:05:23
+    is_admin: 1
+    is_odd: 0
+    "no": 56
+  - 
+    comment: 良い夫婦の日。
+    date: 2009/11/22 14:05:32
+    is_admin: 1
+    is_odd: 1
+    "no": 57
+  - 
+    comment: ちなみに昨日は良いにおいの日だったらしいです。
+    date: 2009/11/22 14:06:01
+    is_admin: 1
+    is_odd: 0
+    "no": 58
+  - 
+    comment: 明日は良いにーさんか。
+    date: 2009/11/22 14:06:15
+    is_admin: 1
+    is_odd: 1
+    "no": 59
+  - 
+    comment: こじつけもいいとこｗｗｗ
+    date: 2009/11/22 14:06:20
+    is_odd: 0
+    "no": 60
+  - 
+    comment: ｗｗｗ
+    date: 2009/11/22 14:06:25
+    is_admin: 1
+    is_odd: 1
+    "no": 61
+  - 
+    comment: 11月は「いい○○」シリーズ多そうだなｗ
+    date: 2009/11/22 14:06:26
+    is_odd: 0
+    "no": 62
+  - 
+    comment: 言葉遊び楽しいねｗ
+    date: 2009/11/22 14:06:42
+    is_admin: 1
+    is_odd: 1
+    "no": 63
+  - 
+    comment: "■初音ミクオリジナル ひとこと ■ AVTechNO "
+    date: 2009/11/22 14:07:56
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: "■2009.11.15 時/3:12 彡/0 ◆再/4,319 コ/127 マ/481 (11.1%) "
+    date: 2009/11/22 14:08:04
+    is_admin: 1
+    is_odd: 1
+    "no": 66
+  - 
+    comment: ヒゲ０！ヒゲ０！
+    date: 2009/11/22 14:08:06
+    is_admin: 1
+    is_odd: 0
+    "no": 67
+  - 
+    comment: って新着やんｗ
+    date: 2009/11/22 14:09:06
+    is_odd: 1
+    "no": 68
+  - 
+    comment: てへっ☆
+    date: 2009/11/22 14:09:11
+    is_admin: 1
+    is_odd: 0
+    "no": 69
+  - 
+    comment: てへ、とか打つものじゃないなｗ後で恥ずかしさがｗｗ
+    date: 2009/11/22 14:09:42
+    is_admin: 1
+    is_odd: 1
+    "no": 70
+  - 
+    comment: ええのう。。
+    date: 2009/11/22 14:11:06
+    is_admin: 1
+    is_odd: 0
+    "no": 71
+  - 
+    comment: "■【初音ミク】Parabola last mix【オリジナル曲】 ■ アンテナP "
+    date: 2009/11/22 14:11:13
+    is_admin: 1
+    is_odd: 1
+    "no": 72
+  - 
+    comment: "■2008.10.11 時/4:09 彡/3 ◆再/2,212 コ/67 マ/59 (2.7%) "
+    date: 2009/11/22 14:11:21
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: 前にも言ったかな？「ジェイコブズラダー」っていう
+    date: 2009/11/22 14:13:51
+    is_admin: 1
+    is_odd: 1
+    "no": 75
+  - 
+    comment: アルバムがニコ内にあがってるはず。オススメ。
+    date: 2009/11/22 14:14:15
+    is_admin: 1
+    is_odd: 0
+    "no": 76
+  - 
+    comment: 収録曲のうちの一つがこの曲なのですよー・
+    date: 2009/11/22 14:14:38
+    is_admin: 1
+    is_odd: 1
+    "no": 77
+  - 
+    comment: どうやって探せばいいんだったけなー。。。
+    date: 2009/11/22 14:15:16
+    is_admin: 1
+    is_odd: 0
+    "no": 78
+  - 
+    comment: "■【初音ミク】uta girl【オリジナル】 ■ キュートなずどどんＰ ずどどんP "
+    date: 2009/11/22 14:15:29
+    is_admin: 1
+    is_odd: 1
+    "no": 79
+  - 
+    comment: "■2008.07.25 時/5:03 彡/17 ◆再/7,048 コ/152 マ/234 (3.3%) "
+    date: 2009/11/22 14:15:37
+    is_admin: 1
+    is_odd: 0
+    "no": 81
+  - 
+    comment: さてさて、この曲でおしまいとなります。
+    date: 2009/11/22 14:15:47
+    is_admin: 1
+    is_odd: 1
+    "no": 82
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/11/22 14:15:53
+    is_admin: 1
+    is_odd: 0
+    "no": 83
+  - 
+    comment: ずどどーーん！
+    date: 2009/11/22 14:16:08
+    is_odd: 1
+    "no": 84
+  - 
+    comment: また晩ご飯前にでもやるかなぁ。。
+    date: 2009/11/22 14:16:12
+    is_admin: 1
+    is_odd: 0
+    "no": 85
+  - 
+    comment: おつです！アルバムきになる・・・。
+    date: 2009/11/22 14:16:13
+    is_odd: 1
+    "no": 86
+  - 
+    comment: 作曲がんばってね～
+    date: 2009/11/22 14:16:19
+    is_odd: 0
+    "no": 87
+  - 
+    comment: 浮気性・・ｗ
+    date: 2009/11/22 14:16:20
+    is_odd: 1
+    "no": 88
+  - 
+    comment: ちょと探してみますー！アルバム
+    date: 2009/11/22 14:16:24
+    is_admin: 1
+    is_odd: 0
+    "no": 89
+  - 
+    comment: 浮気てｗ　試行錯誤やってるから疲れちゃうｗ
+    date: 2009/11/22 14:16:54
+    is_admin: 1
+    is_odd: 1
+    "no": 90
+  - 
+    comment: でわでわ、おつした！
+    date: 2009/11/22 14:20:28
+    is_admin: 1
+    is_odd: 0
+    "no": 91
+  - 
+    comment: ノシ～☆
+    date: 2009/11/22 14:20:40
+    is_admin: 1
+    is_odd: 1
+    "no": 92
+frame: 1
+start: 1258865492
+time: 29
+

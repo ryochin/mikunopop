@@ -1,0 +1,762 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: 2枠め！
+    date: 2009/12/16 21:48:52
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: ２枠目きた！
+    date: 2009/12/16 21:48:53
+    is_odd: 0
+    "no": 2
+  - 
+    comment: 行列乙
+    date: 2009/12/16 21:48:55
+    is_odd: 1
+    "no": 3
+  - 
+    comment: リクは再び受付開始っす！
+    date: 2009/12/16 21:49:01
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: "■【初音ミク】Parasite Satellite【リミックス】 ■ フタエノP びにゅP yuxuki "
+    date: 2009/12/16 21:49:16
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: "■2009.12.03 時/4:06 彡/1 ◆再/2,449 コ/92 マ/253 (10.3%) "
+    date: 2009/12/16 21:49:24
+    is_admin: 1
+    is_odd: 0
+    "no": 7
+  - 
+    comment: sm8222588
+    date: 2009/12/16 21:49:48
+    is_odd: 1
+    "no": 8
+  - 
+    comment: ｔｈｘ！
+    date: 2009/12/16 21:50:00
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！yuxuki！
+    date: 2009/12/16 21:50:01
+    is_odd: 1
+    "no": 10
+  - 
+    comment: 2/10枠目にやってきましたぜ
+    date: 2009/12/16 21:50:42
+    is_odd: 0
+    "no": 11
+  - 
+    comment: ｗｗｗ
+    date: 2009/12/16 21:51:06
+    is_admin: 1
+    is_odd: 1
+    "no": 12
+  - 
+    comment: そうそう、昨日帰った時に丁度がくっぽいどコンテスト（？）が放送されたのですよ＠ニコ生
+    date: 2009/12/16 21:51:38
+    is_odd: 0
+    "no": 13
+  - 
+    comment: 超面白かった！
+    date: 2009/12/16 21:51:50
+    is_admin: 1
+    is_odd: 1
+    "no": 14
+  - 
+    comment: sm6195725
+    date: 2009/12/16 21:52:18
+    is_odd: 0
+    "no": 15
+  - 
+    comment: よかったよね
+    date: 2009/12/16 21:52:19
+    is_odd: 1
+    "no": 16
+  - 
+    comment: これからの展開が楽しみですん
+    date: 2009/12/16 21:52:40
+    is_admin: 1
+    is_odd: 0
+    "no": 17
+  - 
+    comment: ナニ、それはタイムシフト枠見に行けフラグ？
+    date: 2009/12/16 21:52:44
+    is_odd: 1
+    "no": 18
+  - 
+    comment: 見るべき！
+    date: 2009/12/16 21:52:50
+    is_admin: 1
+    is_odd: 0
+    "no": 19
+  - 
+    comment: びにゅＰの曲も聞きたいお
+    date: 2009/12/16 21:53:04
+    is_odd: 1
+    "no": 20
+  - 
+    comment: "■【初音ミク】PiNK!【オリジナル曲】 ■ ミュムP "
+    date: 2009/12/16 21:53:21
+    is_admin: 1
+    is_odd: 0
+    "no": 21
+  - 
+    comment: タイムシフト枠てなに？
+    date: 2009/12/16 21:53:25
+    is_odd: 1
+    "no": 23
+  - 
+    comment: "■2009.09.14 時/5:39 彡/25 ◆再/4,202 コ/91 マ/242 (5.8%) "
+    date: 2009/12/16 21:53:29
+    is_admin: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: 公式放送　を時間ずらして後で見れる機能
+    date: 2009/12/16 21:54:09
+    is_odd: 1
+    "no": 25
+  - 
+    comment: タイムシフト枠はヘルプページに行けば載ってるかな？
+    date: 2009/12/16 21:54:11
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: ですです
+    date: 2009/12/16 21:54:14
+    is_admin: 1
+    is_odd: 1
+    "no": 27
+  - 
+    comment: 25さんあざっす！詳しく説明出来なかったｗ
+    date: 2009/12/16 21:54:28
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: おー。ちょっとヘルプ見てくる
+    date: 2009/12/16 21:54:33
+    is_odd: 1
+    "no": 29
+  - 
+    comment: 主の初主配信をタイムシフトお願いします
+    date: 2009/12/16 21:54:37
+    is_odd: 0
+    "no": 30
+  - 
+    comment: 無理ーｗ
+    date: 2009/12/16 21:54:44
+    is_admin: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: この曲はホント元気をくれますね
+    date: 2009/12/16 21:56:32
+    is_admin: 1
+    is_odd: 0
+    "no": 32
+  - 
+    comment: 事前に予約しておかなきゃいけないのね＞タイムシフト
+    date: 2009/12/16 21:56:47
+    is_odd: 1
+    "no": 33
+  - 
+    comment: ぴんきゅいろ～
+    date: 2009/12/16 21:56:52
+    is_odd: 0
+    "no": 34
+  - 
+    comment: ナイスタイミングｗ
+    date: 2009/12/16 21:57:01
+    is_admin: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: 事前なのかな？この前放送中でも間に合った記憶ががが
+    date: 2009/12/16 21:57:13
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: 放送後はちとわからないな。。
+    date: 2009/12/16 21:57:27
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: 良くみればプレミアムは7日後まで予約？可能って書いてある！
+    date: 2009/12/16 21:58:33
+    is_odd: 0
+    "no": 38
+  - 
+    comment: おお！！
+    date: 2009/12/16 21:58:48
+    is_admin: 1
+    is_odd: 1
+    "no": 39
+  - 
+    comment: なんと親切設計
+    date: 2009/12/16 21:58:54
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: "■【巡音ルカ】 F.G.A.M. 【英語オリジナル曲】 ■ X-Plorez "
+    date: 2009/12/16 21:59:02
+    is_admin: 1
+    is_odd: 1
+    "no": 41
+  - 
+    comment: "■2009.02.19 時/4:35 彡/3 ◆再/5,600 コ/158 マ/265 (4.7%) "
+    date: 2009/12/16 21:59:12
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: がくぽコンテスト生放送あがってた s　m9104405
+    date: 2009/12/16 21:59:24
+    is_odd: 1
+    "no": 44
+  - 
+    comment: 44さん超GJ！光の早さでマイリスした
+    date: 2009/12/16 22:00:17
+    is_admin: 1
+    is_odd: 0
+    "no": 45
+  - 
+    comment: 曲も良かったですし、ガクトさんの曲に対する姿勢ももの凄く良かった放送でした。
+    date: 2009/12/16 22:02:26
+    is_odd: 1
+    "no": 46
+  - 
+    comment: 自分で気になった作者の別の曲探したりもしたみたいだしねー
+    date: 2009/12/16 22:03:17
+    is_odd: 0
+    "no": 47
+  - 
+    comment: 本当に全部聴いたっぽかったからねー
+    date: 2009/12/16 22:03:22
+    is_odd: 1
+    "no": 48
+  - 
+    comment: かこいい
+    date: 2009/12/16 22:03:35
+    is_admin: 1
+    is_odd: 0
+    "no": 49
+  - 
+    comment: "■初音ミク『Last Scene -P.D.S.Remix-』 ■ びにゅP yuxuki "
+    date: 2009/12/16 22:03:39
+    is_admin: 1
+    is_odd: 1
+    "no": 50
+  - 
+    comment: "■2009.12.03 時/4:01 彡/1 ◆再/1,431 コ/76 マ/119 (8.3%) "
+    date: 2009/12/16 22:03:47
+    is_admin: 1
+    is_odd: 0
+    "no": 52
+  - 
+    comment: ガクトのｲｹﾒﾝは顔だけじゃないんだな・・・
+    date: 2009/12/16 22:04:32
+    is_odd: 1
+    "no": 53
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/12/16 22:04:39
+    is_odd: 0
+    "no": 54
+  - 
+    comment: 内面もイケメン！
+    date: 2009/12/16 22:04:39
+    is_admin: 1
+    is_odd: 1
+    "no": 55
+  - 
+    comment: 惚れた
+    date: 2009/12/16 22:04:45
+    is_odd: 0
+    "no": 56
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/12/16 22:05:00
+    is_odd: 1
+    "no": 57
+  - 
+    comment: 右下の四角を黒板消しに錯覚するなど
+    date: 2009/12/16 22:05:04
+    is_admin: 1
+    is_odd: 0
+    "no": 58
+  - 
+    comment: 主とどっちがイケメンなの？
+    date: 2009/12/16 22:05:06
+    is_odd: 1
+    "no": 59
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/12/16 22:05:07
+    is_odd: 0
+    "no": 60
+  - 
+    comment: いいしょうぶだ
+    date: 2009/12/16 22:05:17
+    is_odd: 1
+    "no": 61
+  - 
+    comment: そりゃぁガクトさんですよｗ比べるまでもないｗｗ
+    date: 2009/12/16 22:05:19
+    is_admin: 1
+    is_odd: 0
+    "no": 62
+  - 
+    comment: ガクトのモデルは主なんだよね
+    date: 2009/12/16 22:05:24
+    is_odd: 1
+    "no": 63
+  - 
+    comment: ひどい上げられようだｗ
+    date: 2009/12/16 22:05:44
+    is_admin: 1
+    is_odd: 0
+    "no": 64
+  - 
+    comment: びにゅPの新曲早くここでききたいね！
+    date: 2009/12/16 22:05:58
+    is_odd: 1
+    "no": 65
+  - 
+    comment: ですね！
+    date: 2009/12/16 22:06:05
+    is_admin: 1
+    is_odd: 0
+    "no": 66
+  - 
+    comment: っと思い出した！！
+    date: 2009/12/16 22:06:09
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: だめ
+    date: 2009/12/16 22:06:28
+    is_odd: 0
+    "no": 68
+  - 
+    comment: 現在ミクノでは新曲制限についての議論が行われています。
+    date: 2009/12/16 22:06:34
+    is_admin: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: なんでｗ
+    date: 2009/12/16 22:06:35
+    is_admin: 1
+    is_odd: 0
+    "no": 70
+  - 
+    comment: リスナーさん達の意見も是非是非お聞かせいただきたいな、と思っています☆
+    date: 2009/12/16 22:06:56
+    is_odd: 1
+    "no": 71
+  - 
+    comment: 解放を考えてるってこと？
+    date: 2009/12/16 22:07:07
+    is_odd: 0
+    "no": 72
+  - 
+    comment: コミュトップから飛べますのでゼヒ読んでみてください☆
+    date: 2009/12/16 22:07:18
+    is_admin: 1
+    is_odd: 1
+    "no": 73
+  - 
+    comment: 解放も一つの選択肢かな。
+    date: 2009/12/16 22:07:31
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: 率直な意見を求めております
+    date: 2009/12/16 22:07:37
+    is_admin: 1
+    is_odd: 1
+    "no": 75
+  - 
+    comment: ■きれいな夢（ver.2）【初音ミクオリジナル曲】 ■ P名?
+    date: 2009/12/16 22:07:42
+    is_admin: 1
+    is_odd: 0
+    "no": 76
+  - 
+    comment: "■2008.02.26 時/5:01 彡/1 ◆再/1,059 コ/28 マ/20 (1.9%) "
+    date: 2009/12/16 22:07:50
+    is_admin: 1
+    is_odd: 1
+    "no": 78
+  - 
+    comment: せかちゃくなんてただのガヤなのにね
+    date: 2009/12/16 22:07:55
+    is_odd: 0
+    "no": 79
+  - 
+    comment: 生主議論のﾛｸﾞ見ました。なんというか結論出てない所がおもしろかったｗ
+    date: 2009/12/16 22:08:03
+    is_odd: 1
+    "no": 80
+  - 
+    comment: まぁ、オープンな場で結論出さないといけませんしねｗ
+    date: 2009/12/16 22:08:37
+    is_admin: 1
+    is_odd: 0
+    "no": 81
+  - 
+    comment: リスナーさんあっての放送ですから(ｷﾘｯ
+    date: 2009/12/16 22:08:51
+    is_admin: 1
+    is_odd: 1
+    "no": 82
+  - 
+    comment: そのとーし
+    date: 2009/12/16 22:09:07
+    is_odd: 0
+    "no": 83
+  - 
+    comment: 大勢で話すと「で、何の話だっけとかなります。
+    date: 2009/12/16 22:09:12
+    is_odd: 1
+    "no": 84
+  - 
+    comment: それはこの放送（ｒｙ
+    date: 2009/12/16 22:09:36
+    is_odd: 0
+    "no": 85
+  - 
+    comment: 主がｶﾞｸﾄよりイケメンって話じゃなかったっけ？
+    date: 2009/12/16 22:09:37
+    is_odd: 1
+    "no": 86
+  - 
+    comment: ｗｗｗ
+    date: 2009/12/16 22:09:47
+    is_admin: 1
+    is_odd: 0
+    "no": 87
+  - 
+    comment: そうその話はおわってない！
+    date: 2009/12/16 22:09:52
+    is_odd: 1
+    "no": 88
+  - 
+    comment: その前に始まってないですよｗ
+    date: 2009/12/16 22:10:03
+    is_admin: 1
+    is_odd: 0
+    "no": 89
+  - 
+    comment: じゃ、今はじめようｗ
+    date: 2009/12/16 22:10:13
+    is_odd: 1
+    "no": 90
+  - 
+    comment: そしｗ
+    date: 2009/12/16 22:10:18
+    is_admin: 1
+    is_odd: 0
+    "no": 91
+  - 
+    comment: k-sk、本当の始まり！
+    date: 2009/12/16 22:10:20
+    is_odd: 1
+    "no": 92
+  - 
+    comment: イケメン主は両刀だったんだっけ？
+    date: 2009/12/16 22:10:22
+    is_odd: 0
+    "no": 93
+  - 
+    comment: 違いますｗｗ
+    date: 2009/12/16 22:10:31
+    is_admin: 1
+    is_odd: 1
+    "no": 94
+  - 
+    comment: k-sk　来るもの拒まずはじまった
+    date: 2009/12/16 22:10:45
+    is_odd: 0
+    "no": 95
+  - 
+    comment: 印象操作怖いわぁｗ
+    date: 2009/12/16 22:11:00
+    is_admin: 1
+    is_odd: 1
+    "no": 96
+  - 
+    comment: 来る者拒まず、去るもの逃がさずですね！
+    date: 2009/12/16 22:11:14
+    is_odd: 0
+    "no": 97
+  - 
+    comment: ミクノ民はシビア
+    date: 2009/12/16 22:11:15
+    is_odd: 1
+    "no": 98
+  - 
+    comment: 悔しいから最後にクリスマス曲かけよう
+    date: 2009/12/16 22:11:36
+    is_admin: 1
+    is_odd: 0
+    "no": 99
+  - 
+    comment: ゼミ合宿の熱い一夜の話は大変興奮しますた
+    date: 2009/12/16 22:11:41
+    is_odd: 1
+    "no": 100
+  - 
+    comment: クリスマス？何それおいしいの？
+    date: 2009/12/16 22:11:49
+    is_odd: 0
+    "no": 101
+  - 
+    comment: クリスマスって音楽用語ですか？
+    date: 2009/12/16 22:12:01
+    is_odd: 1
+    "no": 102
+  - 
+    comment: ミクノ民たくましいｗ
+    date: 2009/12/16 22:12:03
+    is_admin: 1
+    is_odd: 0
+    "no": 103
+  - 
+    comment: ク○○○ス
+    date: 2009/12/16 22:12:26
+    is_odd: 1
+    "no": 104
+  - 
+    comment: グミとキス・・だと・・？
+    date: 2009/12/16 22:12:43
+    is_odd: 0
+    "no": 105
+  - 
+    comment: ■初音ミク　オリジナル曲　「モーション」 ■ P名?
+    date: 2009/12/16 22:12:43
+    is_admin: 1
+    is_odd: 1
+    "no": 106
+  - 
+    comment: リア充の発想は違うな・・・＞99
+    date: 2009/12/16 22:12:44
+    is_odd: 0
+    "no": 108
+  - 
+    comment: "■2009.11.20 時/4:05 彡/4 ◆再/1,174 コ/54 マ/87 (7.4%) "
+    date: 2009/12/16 22:12:51
+    is_admin: 1
+    is_odd: 1
+    "no": 109
+  - 
+    comment: リア充主！
+    date: 2009/12/16 22:13:20
+    is_odd: 0
+    "no": 110
+  - 
+    comment: 阻止＞１０５
+    date: 2009/12/16 22:13:21
+    is_odd: 1
+    "no": 111
+  - 
+    comment: エグイ音だぜ
+    date: 2009/12/16 22:15:06
+    is_odd: 0
+    "no": 112
+  - 
+    comment: 良い音だ
+    date: 2009/12/16 22:15:18
+    is_odd: 1
+    "no": 113
+  - 
+    comment: いいねー
+    date: 2009/12/16 22:15:21
+    is_odd: 0
+    "no": 114
+  - 
+    comment: ごめごめ、ちと目離してた。。
+    date: 2009/12/16 22:15:25
+    is_admin: 1
+    is_odd: 1
+    "no": 115
+  - 
+    comment: 切れてる
+    date: 2009/12/16 22:15:27
+    is_odd: 0
+    "no": 116
+  - 
+    comment: かこええね
+    date: 2009/12/16 22:15:51
+    is_admin: 1
+    is_odd: 1
+    "no": 117
+  - 
+    comment: 今夜は放送できるかなー。
+    date: 2009/12/16 22:16:36
+    is_admin: 1
+    is_odd: 0
+    "no": 118
+  - 
+    comment: k-sk△
+    date: 2009/12/16 22:16:43
+    is_odd: 1
+    "no": 119
+  - 
+    comment: 目指せ3000
+    date: 2009/12/16 22:16:47
+    is_odd: 0
+    "no": 120
+  - 
+    comment: ■【初音ミク】 溶けない雪 【オリジナル】 ■ P名?
+    date: 2009/12/16 22:16:50
+    is_admin: 1
+    is_odd: 1
+    "no": 121
+  - 
+    comment: "■2009.12.04 時/2:43 彡/2 ◆再/3,733 コ/150 マ/189 (5.1%) "
+    date: 2009/12/16 22:16:58
+    is_admin: 1
+    is_odd: 0
+    "no": 123
+  - 
+    comment: それではこの枠でおしまいとなります！
+    date: 2009/12/16 22:17:09
+    is_admin: 1
+    is_odd: 1
+    "no": 124
+  - 
+    comment: 雪が積もりまくってるんだが・・・
+    date: 2009/12/16 22:17:13
+    is_odd: 0
+    "no": 125
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/12/16 22:17:15
+    is_admin: 1
+    is_odd: 1
+    "no": 126
+  - 
+    comment: 工エエェェ（´д｀）ェェエエ工
+    date: 2009/12/16 22:17:21
+    is_odd: 0
+    "no": 127
+  - 
+    comment: (´Д⊂ｸﾞｽﾝ
+    date: 2009/12/16 22:17:27
+    is_odd: 1
+    "no": 128
+  - 
+    comment: 今日はこっちもアイスバーンでした、滑る滑る
+    date: 2009/12/16 22:17:34
+    is_admin: 1
+    is_odd: 0
+    "no": 129
+  - 
+    comment: このミクは俺の嫁
+    date: 2009/12/16 22:17:43
+    is_odd: 1
+    "no": 130
+  - 
+    comment: そし
+    date: 2009/12/16 22:17:46
+    is_admin: 1
+    is_odd: 0
+    "no": 131
+  - 
+    comment: ﾁｯ
+    date: 2009/12/16 22:17:53
+    is_odd: 1
+    "no": 132
+  - 
+    comment: 阻止
+    date: 2009/12/16 22:17:53
+    is_odd: 0
+    "no": 133
+  - 
+    comment: 他主さんに期待しつつ、ゆだってきますｂ
+    date: 2009/12/16 22:17:57
+    is_admin: 1
+    is_odd: 1
+    "no": 134
+  - 
+    comment: 寒いー
+    date: 2009/12/16 22:18:02
+    is_admin: 1
+    is_odd: 0
+    "no": 135
+  - 
+    comment: ではでは
+    date: 2009/12/16 22:18:06
+    is_admin: 1
+    is_odd: 1
+    "no": 136
+  - 
+    comment: のし！
+    date: 2009/12/16 22:18:07
+    is_admin: 1
+    is_odd: 0
+    "no": 137
+  - 
+    comment: 乙ー
+    date: 2009/12/16 22:18:08
+    is_odd: 1
+    "no": 138
+  - 
+    comment: ノシ～☆
+    date: 2009/12/16 22:18:10
+    is_admin: 1
+    is_odd: 0
+    "no": 139
+  - 
+    comment: おつー
+    date: 2009/12/16 22:18:11
+    is_odd: 1
+    "no": 140
+  - 
+    comment: ノシ
+    date: 2009/12/16 22:18:14
+    is_odd: 0
+    "no": 141
+  - 
+    comment: ミクノの主には受験生が痛希ガス＞１２９
+    date: 2009/12/16 22:18:15
+    is_odd: 1
+    "no": 142
+  - 
+    comment: ノシ
+    date: 2009/12/16 22:18:18
+    is_odd: 0
+    "no": 143
+  - 
+    comment: ﾉｼ
+    date: 2009/12/16 22:18:27
+    is_odd: 1
+    "no": 144
+  - 
+    comment: ノシ
+    date: 2009/12/16 22:18:34
+    is_odd: 0
+    "no": 145
+frame: 1
+start: 1260967732
+time: 29
+
