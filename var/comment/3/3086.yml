@@ -8,8 +8,9 @@ content:
     is_odd: 1
     "no": 1
   - 
-    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by \n    k-sk"
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by k-sk
     date: 2009/12/26 19:22:23
+    is_admin: 1
     is_odd: 0
     "no": 4
   - 
@@ -93,6 +94,7 @@ content:
   - 
     comment: １０分とか遅れたら容赦なく置いていくタイプの人が周りに多いのですｗ
     date: 2009/12/26 19:26:19
+    is_admin: 1
     is_odd: 1
     "no": 21
   - 
@@ -362,6 +364,7 @@ content:
   - 
     comment: うーん、ミクノ生にはたまに自貼りであったり、リスナーであったりして、
     date: 2009/12/26 19:41:14
+    is_admin: 1
     is_odd: 0
     "no": 76
   - 
