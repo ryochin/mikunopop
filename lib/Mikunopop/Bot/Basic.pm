@@ -41,6 +41,15 @@ my @admin = (
 	qr{^yuu*ki[\-_]*mirai(_.+)*}io,
 	qr{^Q[\-_]*iron(_.+)*}io,
 	qr{^aki_housenka(_.+)*}io,
+	qr{^Shaghar(_.+)*}io,
+	qr{^Mint(_.+)*}io,
+	qr{^cat+h+y(_.+)*}io,
+	qr{^mega\-ne(_.+)*}io,
+	qr{^birdm9101(_.+)*}io,
+	qr{^sumiwo(_.+)*}io,
+	qr{^kawa(_.+)*}io,
+	qr{^koke(_.+)*}io,
+	qr{^yagyou(_.+)*}io,
 );
 
 my @me_regex = (
@@ -67,6 +76,10 @@ my $aircaster_table = {
 	qr{Q[\-_]*iron.*}io => q{９鉄},
 	qr{aoid.*}io => q{aoid},
 	qr{k-sk.*}io => q{k-sk},
+	qr{sumiwo.*}io => q{すみを},
+	qr{Shaghar.*}io => q{シャガ〜ル},
+	qr{koke.*}io => q{コケ},
+	qr{birdm9101.*}io => q{トリィ},
 };
 
 my @ignore_hello = (

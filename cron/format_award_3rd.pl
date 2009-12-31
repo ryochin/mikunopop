@@ -171,7 +171,7 @@ sub get_info {
 
 	return {
 		# 掲示板の番号　内部シーケンス番号　主名など
-		1 => { no => 2, name => undef },
+		1 => { no => 2, name => undef },    # たぶん kotac さん
 		2 => { no => 3, name => q{真下} },
 		3 => { no => 4, name => undef },
 		4 => { no => 6, name => q{蒼空微風涼輝碧葉} },
@@ -192,8 +192,8 @@ sub get_info {
 		19 => { no => 21, name => undef },
 		20 => { no => 22, name => undef },
 		21 => { no => 25, name => undef },
-		22 => { no => 26, name => undef },
-		23 => { no => 27, name => undef },
+		22 => { no => 26, name => q{あすたー} },
+		23 => { no => 27, name => undef },    # k-sk さんっぽい？
 		24 => { no => 29, name => undef },
 		25 => { no => 31, name => undef },
 	}->{ $n };
