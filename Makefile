@@ -22,7 +22,7 @@ xmllint:
 	find ./htdocs/ -name '*html' | xargs xmllint --html --noout
 
 rsync-htdocs:
-	rsync -avz ./htdocs/ diana:/web/mikunopop/htdocs/
+	rsync -avz ./htdocs/ ryo@diana.aquahill.net:/web/mikunopop/htdocs/
 
 git-add-comment-html:
 	git add var/comment/meta.yml

@@ -86,6 +86,7 @@ my @ignore_hello = (
 	qr{^saihane(_.+)*}io,
 	qr{^higumon(_.+)*}io,
 	qr{^mib_.+}io,
+	qr{^mega\-ne(_.+)*}io,
 );
 
 my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
@@ -379,6 +380,8 @@ sub convert_aircaster {
 			}
 		}
 	}
+
+	$aircaster =~ s{_+$}{}o;
 
 	return $aircaster;
 }
