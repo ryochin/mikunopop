@@ -1,0 +1,15 @@
+# 
+# note: it may conflict with extract_forwarded.c
+
+<IfModule mod_authz_host.c>
+    <Location />
+	Order Allow,Deny
+	Allow from all
+
+	# trendmicro virusbuster 2007 ugly accesses
+#	Deny from 150.70.0.0/16
+#	Deny from 216.104.0.0/19
+	Deny from 61.247.0.0/16
+    </Location>
+</IfModule>
+
