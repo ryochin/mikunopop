@@ -1,0 +1,331 @@
+--- 
+aircaster: k-sk
+content: 
+  - 
+    comment: おはやうございます
+    date: 2009/12/20 11:15:49
+    is_admin: 1
+    is_odd: 1
+    "no": 1
+  - 
+    comment: 朝昼ミクノです
+    date: 2009/12/20 11:15:58
+    is_admin: 1
+    is_odd: 0
+    "no": 2
+  - 
+    comment: riku
+    date: 2009/12/20 11:16:02
+    is_admin: 1
+    is_odd: 1
+    "no": 3
+  - 
+    comment: リク随時ですよん～
+    date: 2009/12/20 11:16:09
+    is_admin: 1
+    is_odd: 0
+    "no": 4
+  - 
+    comment: "■初音ミク「HAPPY SUNDAY」【オリジナル曲】 ■ samfree "
+    date: 2009/12/20 11:16:26
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: "■2008.07.29 時/4:21 彡/2 ◆再/137,460 コ/3,517 マ/4,437 (3.2%) "
+    date: 2009/12/20 11:16:34
+    is_admin: 1
+    is_odd: 0
+    "no": 7
+  - 
+    comment: イケメン主きたー
+    date: 2009/12/20 11:16:44
+    is_odd: 1
+    "no": 8
+  - 
+    comment: ヽ( ・∀・)ﾉ
+    date: 2009/12/20 11:17:22
+    is_admin: 1
+    is_odd: 0
+    "no": 9
+  - 
+    comment: 今日は日曜ですよー！
+    date: 2009/12/20 11:18:04
+    is_admin: 1
+    is_odd: 1
+    "no": 10
+  - 
+    comment: "主は別の曜日と勘違いしてでかけそうになりましたがヽ( \n・∀・)ﾉ"
+    date: 2009/12/20 11:18:28
+    is_admin: 1
+    is_odd: 0
+    "no": 11
+  - 
+    comment: ｗｗｗｗ
+    date: 2009/12/20 11:18:41
+    is_odd: 1
+    "no": 12
+  - 
+    comment: 目も覚めておりますヽ( ・∀・)ﾉ
+    date: 2009/12/20 11:19:15
+    is_admin: 1
+    is_odd: 0
+    "no": 13
+  - 
+    comment: あ、
+    date: 2009/12/20 11:19:19
+    is_admin: 1
+    is_odd: 1
+    "no": 14
+  - 
+    comment: 最初3曲は日曜曲でお送りしますですヽ( ・∀・)ﾉ
+    date: 2009/12/20 11:19:34
+    is_admin: 1
+    is_odd: 0
+    "no": 15
+  - 
+    comment: もうそろそろ高校駅伝が始まるか
+    date: 2009/12/20 11:20:43
+    is_odd: 1
+    "no": 16
+  - 
+    comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】◆ No.4 presented by \nk-sk"
+    date: 2009/12/20 11:20:51
+    is_admin: 1
+    is_odd: 0
+    "no": 18
+  - 
+    comment: 昨日ニコニコからメールがきて、
+    date: 2009/12/20 11:21:09
+    is_admin: 1
+    is_odd: 1
+    "no": 19
+  - 
+    comment: このジングルの再生数が2525になったとのこと！
+    date: 2009/12/20 11:21:25
+    is_admin: 1
+    is_odd: 0
+    "no": 20
+  - 
+    comment: めでたいヽ( ・∀・)ﾉ
+    date: 2009/12/20 11:21:30
+    is_admin: 1
+    is_odd: 1
+    "no": 21
+  - 
+    comment: めでたいヽ( ・∀・)ﾉ
+    date: 2009/12/20 11:21:43
+    is_odd: 0
+    "no": 22
+  - 
+    comment: 皆さんのおカゲです、ありがとう！ヽ( ・∀・)ﾉ
+    date: 2009/12/20 11:21:48
+    is_admin: 1
+    is_odd: 1
+    "no": 23
+  - 
+    comment: おめでとう！
+    date: 2009/12/20 11:21:55
+    is_odd: 0
+    "no": 24
+  - 
+    comment: おめえ！
+    date: 2009/12/20 11:22:10
+    is_odd: 1
+    "no": 25
+  - 
+    comment: ありがとお！！
+    date: 2009/12/20 11:22:17
+    is_admin: 1
+    is_odd: 0
+    "no": 26
+  - 
+    comment: "■【初音ミク】　sunday_session　【オリジナル】 ■ 白熱灯 ごはんP "
+    date: 2009/12/20 11:22:36
+    is_admin: 1
+    is_odd: 1
+    "no": 27
+  - 
+    comment: 素敵なジングル作ってくれた主とぎんさんに感謝！
+    date: 2009/12/20 11:22:41
+    is_odd: 0
+    "no": 29
+  - 
+    comment: "■2009.02.19 時/3:36 彡/5 ◆再/1,025 コ/30 マ/56 (5.5%) "
+    date: 2009/12/20 11:22:45
+    is_admin: 1
+    is_odd: 1
+    "no": 30
+  - 
+    comment: これはなかなか良い日曜の始まりな感じではなかろうか。
+    date: 2009/12/20 11:24:39
+    is_admin: 1
+    is_odd: 0
+    "no": 31
+  - 
+    comment: "■【初音ミク】Sunday【オリジナル】 ■ びにゅP "
+    date: 2009/12/20 11:26:12
+    is_admin: 1
+    is_odd: 1
+    "no": 32
+  - 
+    comment: "■2008.12.08 時/5:05 彡/26 ◆再/6,229 コ/152 マ/290 (4.7%) "
+    date: 2009/12/20 11:26:20
+    is_admin: 1
+    is_odd: 0
+    "no": 34
+  - 
+    comment: ( ﾟ∀ﾟ)o彡ﾟびにゅP！びにゅP！
+    date: 2009/12/20 11:26:56
+    is_odd: 1
+    "no": 35
+  - 
+    comment: 昨夜はミュムPの放送＋自貼りがあったのですよ。
+    date: 2009/12/20 11:27:10
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: 幸せな放送だった！
+    date: 2009/12/20 11:27:27
+    is_admin: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: 放送途中で寝ちゃった俺は負け組？
+    date: 2009/12/20 11:29:44
+    is_odd: 0
+    "no": 38
+  - 
+    comment: ヽ( ・∀・)ﾉぷぎゃあ
+    date: 2009/12/20 11:30:11
+    is_admin: 1
+    is_odd: 1
+    "no": 39
+  - 
+    comment: サーセンｗ
+    date: 2009/12/20 11:30:28
+    is_admin: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: "■【初音ミク】Bittersweet Love Fever【オリジナル】 ■ dohety "
+    date: 2009/12/20 11:31:17
+    is_admin: 1
+    is_odd: 1
+    "no": 41
+  - 
+    comment: "■2009.12.11 時/5:38 彡/3 ◆再/4,804 コ/345 マ/396 (8.2%) "
+    date: 2009/12/20 11:31:25
+    is_admin: 1
+    is_odd: 0
+    "no": 43
+  - 
+    comment: カラオケ行きたいなぁ。
+    date: 2009/12/20 11:33:07
+    is_admin: 1
+    is_odd: 1
+    "no": 44
+  - 
+    comment: 粉雪歌いたい
+    date: 2009/12/20 11:33:23
+    is_admin: 1
+    is_odd: 0
+    "no": 45
+  - 
+    comment: "■【鏡音リン】 *tear* two-step mix 【オリジナル曲】 ■ DATEKEN "
+    date: 2009/12/20 11:36:54
+    is_admin: 1
+    is_odd: 1
+    "no": 46
+  - 
+    comment: "■2009.12.06 時/4:26 彡/2 ◆再/7,027 コ/245 マ/828 (11.8%) "
+    date: 2009/12/20 11:37:02
+    is_admin: 1
+    is_odd: 0
+    "no": 48
+  - 
+    comment: 2stepすてきー
+    date: 2009/12/20 11:38:25
+    is_odd: 1
+    "no": 49
+  - 
+    comment: 2stepいいですよね！
+    date: 2009/12/20 11:38:38
+    is_admin: 1
+    is_odd: 0
+    "no": 50
+  - 
+    comment: 2つのリズム軸があるから2stepらしいです。わかりやすい！
+    date: 2009/12/20 11:38:58
+    is_admin: 1
+    is_odd: 1
+    "no": 51
+  - 
+    comment: ほお？
+    date: 2009/12/20 11:39:22
+    is_odd: 0
+    "no": 52
+  - 
+    comment: ヽ( ・∀・)ﾉ間違ってたらごめんよ！
+    date: 2009/12/20 11:39:59
+    is_admin: 1
+    is_odd: 1
+    "no": 53
+  - 
+    comment: "■（初音ミク）　a day in your life[mutant edit]　(オリジナル） ■ ピコピコP "
+    date: 2009/12/20 11:41:22
+    is_admin: 1
+    is_odd: 0
+    "no": 54
+  - 
+    comment: "■2009.11.13 時/3:38 彡/4 ◆再/463 コ/24 マ/41 (8.9%) "
+    date: 2009/12/20 11:41:30
+    is_admin: 1
+    is_odd: 1
+    "no": 56
+  - 
+    comment: ちょっと流れ読み間違ったかしら( ・∀・)
+    date: 2009/12/20 11:42:34
+    is_admin: 1
+    is_odd: 0
+    "no": 57
+  - 
+    comment: でも良曲なので良し！
+    date: 2009/12/20 11:42:48
+    is_admin: 1
+    is_odd: 1
+    "no": 58
+  - 
+    comment: まだお昼まで時間あるな。。
+    date: 2009/12/20 11:43:08
+    is_admin: 1
+    is_odd: 0
+    "no": 59
+  - 
+    comment: ということでこの枠はこの曲でおしまいです。
+    date: 2009/12/20 11:44:30
+    is_admin: 1
+    is_odd: 1
+    "no": 60
+  - 
+    comment: 皆さんありがとうございました！
+    date: 2009/12/20 11:44:41
+    is_admin: 1
+    is_odd: 0
+    "no": 61
+  - 
+    comment: 次枠でもよろしくですヽ( ・∀・)ﾉ
+    date: 2009/12/20 11:44:51
+    is_admin: 1
+    is_odd: 1
+    "no": 62
+  - 
+    comment: ノシ
+    date: 2009/12/20 11:44:53
+    is_odd: 0
+    "no": 63
+frame: 1
+start: 1261275349
+time: 29
+
