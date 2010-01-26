@@ -68,7 +68,6 @@ my $aircaster_table = {
 	qr{kinuko.*}io => q{きぬこ},
 	qr{aki_housenka.*}io => q{きぬこ},
 	qr{noren.*}io => q{暖簾},
-	qr{Q[\-_]?iron.*}io => q{９鉄},
 	qr{miyumm.*}io => q{みゅむ},
 	qr{SOL.*}io => q{S.O.L},
 	qr{yuu*ki[\-_]*.*}io => q{未来勇気},
@@ -80,6 +79,8 @@ my $aircaster_table = {
 	qr{Shaghar.*}io => q{シャガ〜ル},
 	qr{koke.*}io => q{コケ},
 	qr{birdm9101.*}io => q{トリィ},
+	qr{cat+h+y.*}io => q{cathy},
+	qr{yagyou(_.+)*}io => q{百鬼夜行},
 };
 
 my @ignore_hello = (
@@ -87,6 +88,7 @@ my @ignore_hello = (
 	qr{^higumon(_.+)*}io,
 	qr{^mib_.+}io,
 	qr{^mega\-ne(_.+)*}io,
+	qr{^birdm9101(_.+)*}io,
 );
 
 my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );

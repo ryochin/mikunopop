@@ -15,6 +15,7 @@ my $bot = Mikunopop::Bot::Basic->new(
 	alt_nicks => ["bot", "mikuno_bot"],
 	username  => "mikuno_chan",
 	name      => "I am mikuno chan!",
+	password => 'yatsuhashi',
 	
 	charset => "utf-8", # charset the bot assumes the channel is using
 );
