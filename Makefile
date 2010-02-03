@@ -21,8 +21,19 @@ manifest::
 xmllint:
 	find ./htdocs/ -name '*html' | xargs xmllint --html --noout
 
+rsync: rsync-htdocs rsync-lib rsync-cron rsync-template
+
 rsync-htdocs:
-	rsync -avz ./htdocs/ ryo@diana.aquahill.net:/web/mikunopop/htdocs/
+	rsync -avz ./htdocs/ ryo@selene.aquahill.net:/web/mikunopop/htdocs/
+
+rsync-lib:
+	rsync -avz ./lib/ ryo@selene.aquahill.net:/web/mikunopop/lib/
+
+rsync-cron:
+	rsync -avz ./cron/ ryo@selene.aquahill.net:/web/mikunopop/cron/
+
+rsync-template:
+	rsync -avz ./template/ ryo@selene.aquahill.net:/web/mikunopop/template/
 
 git-add-comment-html:
 	git add var/comment/meta.yml
