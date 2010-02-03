@@ -19,6 +19,7 @@ my $base = '/web/mikunopop';
 my $log_dir = dir( $base, qw(var irclog) );
 my $status_file = file( $base, qw(htdocs var), "live_status.js" );
 my $chat_status_file = file( $base, qw(htdocs var), "chat_status.js" );
+my $topic_global;
 
 my @admin = (
 	qr{^saihane(_.+)*}io,
@@ -274,10 +275,14 @@ sub topic {
 
 	if( defined $args->{who} and $args->{who} ne '' ){
 		$self->logit( info => "%s: %s changed topic to %s.", @{$args}{qw(channel who topic)} );
+		
+		$topic_global = $args->{topic};
 	}
 	else{
 		my ($channel, $topic) = split ' ', $args->{channel}, 2;
 		$self->logit( info => "%s: topic: %s.", $channel, $topic );
+		
+		$topic_global = $topic
 	}
 
 	return;
@@ -342,11 +347,22 @@ sub tick {
 
 	# チャット中の人数をファイルに吐く
 
-
-
-
-
-#	$chat_status_file
+	do {
+		my $channel_data = $self->channel_data( $self->channels );
+		
+		my $num = scalar( keys %{ $channel_data } ) - 1;    # 自分を除く
+		
+		my $status = {
+			num => $num,
+			topic => $topic_global,
+		};
+		
+		my $json = JSON::Syck::Dump( $status );
+		if( my $fh = $chat_status_file->openw ){
+			$fh->print( JSON::Syck::Dump( $status ) );
+			$fh->close;
+		}
+	};
 
 	return $sec;
 }
