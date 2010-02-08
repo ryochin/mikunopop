@@ -284,6 +284,12 @@ sub mikuno_tags {
 	"Instrumental",
 	"テクノ",
 	"テクノポップ",
+	"VOCALOID和風曲",
+	"ミクウェーブ",
+	"VOCALOID-EUROBEAT",
+	"ボカロコア",
+	"VOCALOUD",
+	"Chiptune×VOCALOIDリンク",
 	"--------",
 	"みんなのミクうた",
 	"初音ミク処女作",
@@ -338,6 +344,7 @@ sub mikuno_tags {
 	"時田トリビュート",
 	"ジャガボンゴ",
 	"わりばしおんな。",
+	"ProjectDIVA-AC楽曲募集",
 	];
 }
 

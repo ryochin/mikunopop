@@ -38,7 +38,7 @@ function loadLiveMain(once) {
 				sec = 120;
 			}
 			else{
-				$('#update').html("[状況] 現在、生放送はありません（定期的にチェック）。");
+				$('#update').html("[状況] 現在、生放送はありません。");
 				flag = 0;
 				sec = sec_default;
 			}
