@@ -54,12 +54,18 @@ elsif( $content =~ m{<a href="http://www.nicovideo.jp/my" id="myname">([^<>]+?)<
 elsif( $content =~ m{<A id=myname href="http://www.nicovideo.jp/my">([^<>]+?)</A> }io ){
 	$db->{aircaster} = CGI::unescapeHTML( $1 );
 }
+elsif( $content =~ m{<A id=myname[\n\s]+?href="http://www.nicovideo.jp/my">([^<>]+?)</A> }iosm ){
+	$db->{aircaster} = CGI::unescapeHTML( $1 );
+}
 
 my @content;
 my $cnt = 0;
 for my $chunk( split m{</tr>}io, $content ){
 	$chunk =~ s/\r//go;
 	$chunk =~ s{ \n\s+(width)}{ $1}gosmi;
+	
+	$chunk =~ s{[\s\n\t]+<DIV .*?>([^<>]+)</DIV>}{$1}gsmi;
+	
 	$chunk =~ s{<tr[^<>]*class="?(odd|even)"?.*?>.+?<td nowrap[^<>]*>([\d\/\s\:]+?)</td>.+?<td.+?(style="color:\s?\#([\w\d]+)")*( width="100%")*>([^<>]*?)</td>.+?<td>(\d+)</td>}{
 		my $d = {
 			date => $2,
