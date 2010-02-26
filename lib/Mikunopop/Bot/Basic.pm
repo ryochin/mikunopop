@@ -90,6 +90,7 @@ my @ignore_hello = (
 	qr{^mib_.+}io,
 	qr{^mega\-ne(_.+)*}io,
 	qr{^birdm9101(_.+)*}io,
+	qr{^w2k(_.+)*}io,
 );
 
 my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
