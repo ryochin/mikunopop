@@ -234,6 +234,7 @@ content:
   - 
     comment: http://ch.nicovideo.jp/live_archives/co13879
     date: 2009/11/07 02:51:05
+    is_admin: 1
     is_odd: 0
     "no": 47
   - 

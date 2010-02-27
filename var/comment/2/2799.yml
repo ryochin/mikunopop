@@ -270,6 +270,7 @@ content:
   - 
     comment: "■【和音マコ】【UTAU連続音】マコマコ★ナイトフィーバー【カバー曲】 ■ こっぺぱんP "
     date: 2009/11/30 20:44:51
+    is_admin: 1
     is_odd: 0
     "no": 51
   - 
@@ -349,6 +350,7 @@ content:
   - 
     comment: はねさんのまとめページに主のユーザーページが載ってないのがちょっと寂しかったりする今日この頃。。
     date: 2009/11/30 20:47:45
+    is_admin: 1
     is_odd: 1
     "no": 67
   - 
@@ -414,6 +416,7 @@ content:
   - 
     comment: これで良いんかな？→http://www.nicovideo.jp/user/132543
     date: 2009/11/30 20:49:23
+    is_admin: 1
     is_odd: 1
     "no": 80
   - 
@@ -670,6 +673,7 @@ content:
   - 
     comment: 120さん、まったくもってその通りです。ありがとうございますorz
     date: 2009/11/30 20:58:18
+    is_admin: 1
     is_odd: 1
     "no": 130
   - 
@@ -733,6 +737,7 @@ content:
   - 
     comment: 放送を気に入っていただけましたら、コミュにも是非ご参加くださいね～☆
     date: 2009/11/30 20:59:57
+    is_admin: 1
     is_odd: 1
     "no": 142
   - 

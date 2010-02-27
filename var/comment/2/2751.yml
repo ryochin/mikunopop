@@ -33,6 +33,7 @@ content:
   - 
     comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】◆ No.4 presented by \nk-sk"
     date: 2009/11/28 01:00:57
+    is_admin: 1
     is_odd: 0
     "no": 7
   - 
@@ -383,6 +384,7 @@ content:
   - 
     comment: これは参加した人達だけで共有することに意義があるのですよーｗご了承くださいｗ
     date: 2009/11/28 01:15:05
+    is_admin: 1
     is_odd: 1
     "no": 73
   - 

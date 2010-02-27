@@ -142,6 +142,7 @@ content:
   - 
     comment: 昨日学祭でDJした時に流させていただいたボカロ曲を流しますね～。3曲。
     date: 2009/10/12 22:06:54
+    is_admin: 1
     is_odd: 0
     "no": 28
   - 
@@ -162,8 +163,9 @@ content:
     is_odd: 1
     "no": 31
   - 
-    comment: "■【初音ミク】LightSongのリミックスをリミックスしてみた【Remix】 ■ 吸引力の変わらない唯一の鼻そうめんP \n      鼻そうめんP "
+    comment: "■【初音ミク】LightSongのリミックスをリミックスしてみた【Remix】 ■ 吸引力の変わらない唯一の鼻そうめんP 鼻そうめんP "
     date: 2009/10/12 22:07:18
+    is_admin: 1
     is_odd: 0
     "no": 32
   - 
@@ -462,6 +464,7 @@ content:
   - 
     comment: 今考えてるのが、最近のお気に入りPV特集か、初期の3DPV特集か。。。
     date: 2009/10/12 22:23:22
+    is_admin: 1
     is_odd: 0
     "no": 89
   - 

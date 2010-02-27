@@ -36,6 +36,7 @@ content:
   - 
     comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】◆ No.4 presented by \nk-sk"
     date: 2009/11/04 01:22:29
+    is_admin: 1
     is_odd: 1
     "no": 7
   - 
@@ -421,6 +422,7 @@ content:
   - 
     comment: しばらく主やらなくなったら「買ったんだなｗ」とでも思っていただければーｗ
     date: 2009/11/04 01:36:54
+    is_admin: 1
     is_odd: 1
     "no": 81
   - 
@@ -584,6 +586,7 @@ content:
   - 
     comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】 ■ 律儀P k-sk "
     date: 2009/11/04 01:41:43
+    is_admin: 1
     is_odd: 1
     "no": 113
   - 

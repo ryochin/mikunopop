@@ -28,8 +28,9 @@ content:
     is_odd: 1
     "no": 5
   - 
-    comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】 ◆ No.4 presented by \n    k-sk"
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】 ◆ No.4 presented by k-sk
     date: 2009/10/12 22:35:07
+    is_admin: 1
     is_odd: 0
     "no": 7
   - 
@@ -377,6 +378,7 @@ content:
   - 
     comment: 普段僕が主する時リクほとんど来ないのに、この差はなんだろうｗ時間はみだしちゃってますｗ
     date: 2009/10/12 22:43:14
+    is_admin: 1
     is_odd: 1
     "no": 74
   - 
@@ -591,6 +593,7 @@ content:
   - 
     comment: 31さん以降のリクは戻ってきてからの放送で流させていただきます！ごめんね！
     date: 2009/10/12 22:50:26
+    is_admin: 1
     is_odd: 0
     "no": 114
   - 

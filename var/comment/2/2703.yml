@@ -31,8 +31,9 @@ content:
     is_odd: 1
     "no": 5
   - 
-    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by \n    k-sk"
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by k-sk
     date: 2009/11/23 01:32:40
+    is_admin: 1
     is_odd: 0
     "no": 7
   - 
@@ -450,6 +451,7 @@ content:
   - 
     comment: 中学のときセンセにお前は声小さくして歌えって言われるほどなんだけどなぁｗｗ
     date: 2009/11/23 01:51:50
+    is_admin: 1
     is_odd: 0
     "no": 86
   - 
@@ -579,6 +581,7 @@ content:
   - 
     comment: それだけ充実した時間を過ごしていただいた、という解釈でよろしいかな？ｗ
     date: 2009/11/23 01:56:56
+    is_admin: 1
     is_odd: 0
     "no": 111
   - 

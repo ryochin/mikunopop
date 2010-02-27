@@ -53,8 +53,9 @@ content:
     is_odd: 1
     "no": 9
   - 
-    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by \n    k-sk"
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by k-sk
     date: 2009/11/30 00:27:11
+    is_admin: 1
     is_odd: 0
     "no": 11
   - 
@@ -237,6 +238,7 @@ content:
   - 
     comment: でも正月の暇な時間帯とかにやるとかもありかなー、とか思ってきてしまいましてｗ
     date: 2009/11/30 00:35:36
+    is_admin: 1
     is_odd: 1
     "no": 46
   - 
@@ -437,6 +439,7 @@ content:
   - 
     comment: 24時間体制も主が夜中枠と昼間枠をカバーできればなんとか成立するとは思うんですが、
     date: 2009/11/30 00:43:13
+    is_admin: 1
     is_odd: 0
     "no": 84
   - 
@@ -605,6 +608,7 @@ content:
   - 
     comment: そういえば月ごとにその月の歌を特集して放送する、ってのも考えてたなぁ。。
     date: 2009/11/30 00:48:56
+    is_admin: 1
     is_odd: 0
     "no": 116
   - 

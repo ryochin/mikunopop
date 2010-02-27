@@ -31,6 +31,7 @@ content:
   - 
     comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】◆ No.4 presented by \nk-sk"
     date: 2009/10/24 02:07:58
+    is_admin: 1
     is_odd: 0
     "no": 7
   - 
@@ -174,6 +175,7 @@ content:
   - 
     comment: あとは、水槽に墨汁を垂らして、それを映像に撮ったものを加工したりとか。
     date: 2009/10/24 02:13:21
+    is_admin: 1
     is_odd: 0
     "no": 35
   - 

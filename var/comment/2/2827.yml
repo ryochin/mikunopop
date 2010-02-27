@@ -499,6 +499,7 @@ content:
   - 
     comment: "■初音ミク　オリジナル曲[saturation-ミク☆エディション-]Full ver. ■ fatP "
     date: 2009/12/03 02:35:29
+    is_admin: 1
     is_odd: 0
     "no": 95
   - 
@@ -745,6 +746,7 @@ content:
   - 
     comment: PCLを利用できるかどうかをYES、NO形式でわかりやすく分類しています☆
     date: 2009/12/03 02:44:50
+    is_admin: 1
     is_odd: 0
     "no": 141
   - 

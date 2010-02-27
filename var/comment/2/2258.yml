@@ -19,8 +19,9 @@ content:
     is_odd: 1
     "no": 3
   - 
-    comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】 ◆ No.4 presented by \n    k-sk"
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】 ◆ No.4 presented by k-sk
     date: 2009/10/08 00:06:26
+    is_admin: 1
     is_odd: 0
     "no": 5
   - 
@@ -105,6 +106,7 @@ content:
   - 
     comment: 18さんごめんね！凄く悩んだのだけども、今回はジャンル違いのためパスでお願いします！
     date: 2009/10/08 00:12:22
+    is_admin: 1
     is_odd: 1
     "no": 21
   - 
@@ -138,6 +140,7 @@ content:
   - 
     comment: ちょっと俺にはボカロックコミュの方が適当かな、と判断させていただきました！申し訳ない！！
     date: 2009/10/08 00:17:10
+    is_admin: 1
     is_odd: 1
     "no": 28
   - 
@@ -194,6 +197,7 @@ content:
   - 
     comment: 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（　´・ω・`）
     date: 2009/10/08 00:21:08
+    is_admin: 1
     is_odd: 1
     "no": 39
   - 

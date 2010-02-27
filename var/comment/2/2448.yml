@@ -276,6 +276,7 @@ content:
   - 
     comment: ID:21さん、よろしくお願いしますね　コマンド:OFF　コメント:ON
     date: 2009/10/31 18:32:47
+    is_admin: 1
     is_odd: 1
     "no": 55
   - 
@@ -298,6 +299,7 @@ content:
   - 
     comment: 大福Pさん、よろしくお願いしますね　コマンド:OFF　コメント:ON
     date: 2009/10/31 18:33:15
+    is_admin: 1
     is_odd: 1
     "no": 60
   - 

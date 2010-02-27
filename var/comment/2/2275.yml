@@ -36,8 +36,9 @@ content:
     is_odd: 0
     "no": 6
   - 
-    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】 ◆ No.10 presented by \n    k-sk"
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】 ◆ No.10 presented by k-sk
     date: 2009/10/10 01:33:37
+    is_admin: 1
     is_odd: 1
     "no": 8
   - 
@@ -175,6 +176,7 @@ content:
   - 
     comment: HDD買ってOS再インスコか、、、と頭下げたらコネクタ外れてるのに気付いたというｗ
     date: 2009/10/10 01:47:19
+    is_admin: 1
     is_odd: 1
     "no": 35
   - 
@@ -191,6 +193,7 @@ content:
   - 
     comment: ホントですｗこれでHDD買ってたらボカロ購入の夢も絶たれるトコでしたｗ
     date: 2009/10/10 01:48:04
+    is_admin: 1
     is_odd: 0
     "no": 38
   - 

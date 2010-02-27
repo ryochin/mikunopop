@@ -471,6 +471,7 @@ content:
   - 
     comment: http://www.echizenya.co.jp/mini/colum/13.htm
     date: 2009/11/02 00:25:10
+    is_admin: 1
     is_odd: 1
     "no": 92
   - 
@@ -497,6 +498,7 @@ content:
   - 
     comment: http://www.japandesign.ne.jp/HTM/DCG/CURATOR/yanagihara/5.html
     date: 2009/11/02 00:26:53
+    is_admin: 1
     is_odd: 0
     "no": 97
   - 
@@ -524,6 +526,7 @@ content:
   - 
     comment: この曲もそうですが、この解釈を動画に昇華させた作者様も凄いですね。
     date: 2009/11/02 00:28:14
+    is_admin: 1
     is_odd: 1
     "no": 102
   - 

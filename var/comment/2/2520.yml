@@ -22,6 +22,7 @@ content:
   - 
     comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】◆ No.4 presented by \nk-sk"
     date: 2009/11/07 01:11:01
+    is_admin: 1
     is_odd: 0
     "no": 5
   - 
@@ -717,6 +718,7 @@ content:
   - 
     comment: http://www.madeinhokkaido.jp/SHOP/100012.html
     date: 2009/11/07 01:37:21
+    is_admin: 1
     is_odd: 1
     "no": 137
   - 

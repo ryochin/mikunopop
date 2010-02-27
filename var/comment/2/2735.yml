@@ -21,6 +21,7 @@ content:
   - 
     comment: "■【初音ミクPV】僕、新生活が不安です。いや全然大丈夫(ry【完成版】 ■ ラヴリーP "
     date: 2009/11/26 00:40:49
+    is_admin: 1
     is_odd: 0
     "no": 4
   - 
@@ -231,6 +232,7 @@ content:
   - 
     comment: "■【初音ミクオリジナル】フロレット(Comp.PV-mix)【アニメ風PV】 ■ 入場無料Ｐ "
     date: 2009/11/26 00:45:44
+    is_admin: 1
     is_odd: 1
     "no": 44
   - 

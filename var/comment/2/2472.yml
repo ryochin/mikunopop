@@ -144,6 +144,7 @@ content:
   - 
     comment: 4さんのはちょいとジャンル違いかなぁ。。今枠では無しでよろしくです、ごめんね。
     date: 2009/11/03 01:43:00
+    is_admin: 1
     is_odd: 1
     "no": 29
   - 
@@ -395,6 +396,7 @@ content:
   - 
     comment: "■【初音ミク】オリジナル「リラホルン」fullver.【livetune】 ■ かじゅきP "
     date: 2009/11/03 01:54:45
+    is_admin: 1
     is_odd: 1
     "no": 77
   - 

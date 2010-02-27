@@ -20,8 +20,9 @@ content:
     is_odd: 1
     "no": 3
   - 
-    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by \n    k-sk"
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by k-sk
     date: 2009/11/06 10:33:54
+    is_admin: 1
     is_odd: 0
     "no": 5
   - 

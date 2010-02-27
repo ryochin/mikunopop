@@ -25,8 +25,9 @@ content:
     is_odd: 0
     "no": 4
   - 
-    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by \n    k-sk"
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by k-sk
     date: 2009/10/26 01:36:05
+    is_admin: 1
     is_odd: 1
     "no": 6
   - 
@@ -144,6 +145,7 @@ content:
   - 
     comment: 映像コンテンツなんて一昔前までリッチメディアコンテンツとか言われてたのに、
     date: 2009/10/26 01:44:39
+    is_admin: 1
     is_odd: 0
     "no": 28
   - 
@@ -188,6 +190,7 @@ content:
   - 
     comment: MMDのインタビューだったかな？何か良い事書いてあった気がします。
     date: 2009/10/26 01:46:40
+    is_admin: 1
     is_odd: 0
     "no": 37
   - 
@@ -209,6 +212,7 @@ content:
   - 
     comment: http://ascii.jp/elem/000/000/470/470260/
     date: 2009/10/26 01:47:16
+    is_admin: 1
     is_odd: 0
     "no": 41
   - 
@@ -595,6 +599,7 @@ content:
   - 
     comment: 投票対象曲は22日以前に投稿された曲なので、皆さんよろしくです(はぁと
     date: 2009/10/26 02:03:27
+    is_admin: 1
     is_odd: 1
     "no": 115
   - 

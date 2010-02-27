@@ -15,6 +15,7 @@ content:
   - 
     comment: 以後このようなことのないように、オサレ放送を目指していきたいとおもいます。
     date: 2009/11/08 23:16:12
+    is_admin: 1
     is_odd: 1
     "no": 3
   - 
@@ -332,6 +333,7 @@ content:
   - 
     comment: http://mizuma-art.co.jp/artist/popup.php?uid=0100&amp;imgID=7
     date: 2009/11/08 23:25:19
+    is_admin: 1
     is_odd: 1
     "no": 64
   - 

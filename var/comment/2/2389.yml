@@ -74,6 +74,7 @@ content:
   - 
     comment: "■【初音ミク】オリジナル「over16bit!」fullver.【livetune】 ■ かじゅきP "
     date: 2009/10/24 23:51:46
+    is_admin: 1
     is_odd: 1
     "no": 15
   - 
@@ -374,6 +375,7 @@ content:
   - 
     comment: いあｗだってねｗリクに重要な事がコメントにあったらそっち優先するじゃないｗｗ
     date: 2009/10/25 00:09:20
+    is_admin: 1
     is_odd: 1
     "no": 74
   - 
@@ -424,6 +426,7 @@ content:
   - 
     comment: 修羅場ってくる、とは書いたもののもう一枠やりたいなｗなどとぼやいてみる・・・ｗ
     date: 2009/10/25 00:10:56
+    is_admin: 1
     is_odd: 0
     "no": 84
   - 

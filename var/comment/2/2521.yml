@@ -14,8 +14,9 @@ content:
     is_odd: 0
     "no": 2
   - 
-    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by \n    k-sk"
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by k-sk
     date: 2009/11/07 01:41:42
+    is_admin: 1
     is_odd: 1
     "no": 4
   - 
@@ -177,6 +178,7 @@ content:
   - 
     comment: この放送ではキラピコなオサレボカロ曲をリクエスト形式で配信している生放送です
     date: 2009/11/07 01:44:59
+    is_admin: 1
     is_odd: 1
     "no": 35
   - 
@@ -901,6 +903,7 @@ content:
   - 
     comment: タグは目安なので、自分がオサレだと思う曲をドンドンリクエストしてくださいな☆
     date: 2009/11/07 02:01:15
+    is_admin: 1
     is_odd: 1
     "no": 174
   - 

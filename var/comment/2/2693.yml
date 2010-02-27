@@ -33,6 +33,7 @@ content:
   - 
     comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】◆ No.4 presented by \nk-sk"
     date: 2009/11/22 13:52:22
+    is_admin: 1
     is_odd: 0
     "no": 7
   - 
@@ -132,6 +133,7 @@ content:
   - 
     comment: ﾀﾉｼｶｯﾀﾃﾞｽｶｰ??!!(ﾉ・∀・)ﾉ　＝＝＝＝＝[蒟蒻]))ﾟДﾟ)･∵．
     date: 2009/11/22 13:56:18
+    is_admin: 1
     is_odd: 0
     "no": 26
   - 

@@ -62,6 +62,7 @@ content:
   - 
     comment: "■【ナウなヤングにバカウケ】Recollection【初音ミクオリジナル】 ■ らぶざわＰ CleanTears "
     date: 2009/11/29 11:48:09
+    is_admin: 1
     is_odd: 1
     "no": 13
   - 
@@ -255,6 +256,7 @@ content:
   - 
     comment: 90分周期の中で指定時刻の30分前からタイミング計って鳴らしてくれるみたいー
     date: 2009/11/29 11:57:57
+    is_admin: 1
     is_odd: 0
     "no": 50
   - 

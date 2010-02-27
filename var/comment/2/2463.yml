@@ -71,6 +71,7 @@ content:
   - 
     comment: 前枠で紹介した掛け時計、デザイナーの作品なのですが案外お買い得という。
     date: 2009/11/02 00:39:13
+    is_admin: 1
     is_odd: 1
     "no": 14
   - 
@@ -92,6 +93,7 @@ content:
   - 
     comment: "■【初音ミク】じゅるＰのaquariumをRemixしてみた【カバー】 ■ 胃痛Ｐ iroha(sasaki) "
     date: 2009/11/02 00:40:03
+    is_admin: 1
     is_odd: 1
     "no": 18
   - 
@@ -186,6 +188,7 @@ content:
   - 
     comment: 素材はブラックで、ホワイト塗装かな、と考えるのは無粋でしょうか？ｗ
     date: 2009/11/02 00:46:53
+    is_admin: 1
     is_odd: 0
     "no": 37
   - 
@@ -273,6 +276,7 @@ content:
   - 
     comment: http://www.echizenya.co.jp/mini/colum/13.htm
     date: 2009/11/02 00:51:40
+    is_admin: 1
     is_odd: 0
     "no": 54
   - 

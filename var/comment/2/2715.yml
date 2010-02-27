@@ -432,6 +432,7 @@ content:
   - 
     comment: ドラムンベースというジャンルがあることもミクノで知ったのですよ～。
     date: 2009/11/24 02:17:03
+    is_admin: 1
     is_odd: 0
     "no": 82
   - 
@@ -571,6 +572,7 @@ content:
   - 
     comment: 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　後で探そーっと
     date: 2009/11/24 02:21:53
+    is_admin: 1
     is_odd: 0
     "no": 110
   - 

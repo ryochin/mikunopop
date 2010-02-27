@@ -25,8 +25,9 @@ content:
     is_odd: 0
     "no": 4
   - 
-    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by \n    k-sk"
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by k-sk
     date: 2009/11/06 20:51:07
+    is_admin: 1
     is_odd: 1
     "no": 6
   - 
@@ -348,6 +349,7 @@ content:
   - 
     comment: リスナーの皆さんが３０分を想定したアルバムを制作して投票するといったもの
     date: 2009/11/06 21:01:08
+    is_admin: 1
     is_odd: 1
     "no": 68
   - 
@@ -513,6 +515,7 @@ content:
   - 
     comment: http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1254829253/
     date: 2009/11/06 21:05:49
+    is_admin: 1
     is_odd: 1
     "no": 100
   - 
@@ -549,6 +552,7 @@ content:
   - 
     comment: 「とりあえず生中（ニ杯目）」本日のゲストは双子のオカマ芸人、広海･深海！とりあえず生中（ニ杯目）へはコチラからどうぞ！
     date: 2009/11/06 21:07:53
+    is_admin: 1
     is_odd: 0
     "no": 107
   - 

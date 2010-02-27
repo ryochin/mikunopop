@@ -172,8 +172,9 @@ content:
     is_odd: 0
     "no": 32
   - 
-    comment: "■【初音ミク】baker氏のcarolをフルカバーしてみた【旧版ベース】 ■ iroha(sasaki) ウイイレＰ \n      baker "
+    comment: "■【初音ミク】baker氏のcarolをフルカバーしてみた【旧版ベース】 ■ iroha(sasaki) ウイイレＰ baker "
     date: 2009/11/03 01:15:27
+    is_admin: 1
     is_odd: 1
     "no": 33
   - 
@@ -211,6 +212,7 @@ content:
   - 
     comment: そう考えると、一つの楽曲に対して各方面の作り手の名前がココまで表層に出てくる分野は珍しいのでは。とか思ったり。
     date: 2009/11/03 01:16:57
+    is_admin: 1
     is_odd: 0
     "no": 41
   - 
@@ -389,6 +391,7 @@ content:
   - 
     comment: イケメン生主様達があなたのミクノ廃ライフを優しくサポートいたします☆
     date: 2009/11/03 01:22:09
+    is_admin: 1
     is_odd: 1
     "no": 75
   - 
@@ -473,6 +476,7 @@ content:
   - 
     comment: 初見さん。この生放送はボーカロイド楽曲の中でも「キラピコ、オサレ」な曲を
     date: 2009/11/03 01:24:14
+    is_admin: 1
     is_odd: 1
     "no": 91
   - 

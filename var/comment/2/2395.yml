@@ -152,11 +152,13 @@ content:
   - 
     comment: 告知動画といえば、さいはねさんが新しくwebページを作ってくださいました。
     date: 2009/10/25 13:34:39
+    is_admin: 1
     is_odd: 1
     "no": 30
   - 
     comment: http://mikunopop.info/award/3rd_albums.html
     date: 2009/10/25 13:34:49
+    is_admin: 1
     is_odd: 0
     "no": 31
   - 

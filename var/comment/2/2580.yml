@@ -415,6 +415,7 @@ content:
   - 
     comment: あっちのコミュとは適当な感じの繋がり方にしておこうと思っているので、
     date: 2009/11/12 01:44:22
+    is_admin: 1
     is_odd: 1
     "no": 79
   - 
@@ -473,6 +474,7 @@ content:
   - 
     comment: http://live.nicovideo.jp/gate/lv6556876
     date: 2009/11/12 01:47:33
+    is_admin: 1
     is_odd: 1
     "no": 90
   - 
@@ -558,6 +560,7 @@ content:
   - 
     comment: webで独学だったのですが、やっぱ本でやった方が上達はやいだろうなぁ。。
     date: 2009/11/12 01:54:35
+    is_admin: 1
     is_odd: 0
     "no": 106
   - 

@@ -20,8 +20,9 @@ content:
     is_odd: 1
     "no": 3
   - 
-    comment: "■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by \n    k-sk"
+    comment: ■【ジングル】ミクノポップをきかないか？ジングル【Heart-Beat】◆ No.10 presented by k-sk
     date: 2009/11/15 01:28:20
+    is_admin: 1
     is_odd: 0
     "no": 5
   - 
@@ -158,6 +159,7 @@ content:
   - 
     comment: ﾁｮｲﾔｰ!&gt;(ﾉ・∀・)ﾉ　＝＝＝＝＝[蒟蒻]))ﾟДﾟ)･∵.
     date: 2009/11/15 01:36:33
+    is_admin: 1
     is_odd: 0
     "no": 31
   - 
@@ -213,6 +215,7 @@ content:
   - 
     comment: ﾁｮｲﾔｰ!&gt;(ﾉ・∀・)ﾉ　＝＝＝＝＝[蒟蒻]))ﾟДﾟ)･∵.
     date: 2009/11/15 01:38:49
+    is_admin: 1
     is_odd: 0
     "no": 42
   - 
@@ -403,6 +406,7 @@ content:
   - 
     comment: "■【めぐっぽいど＋初音ミク】GummyBearSong-ムビギュビジャミスィギRMX-【PV】 ■ ささくれP "
     date: 2009/11/15 01:46:13
+    is_admin: 1
     is_odd: 1
     "no": 78
   - 

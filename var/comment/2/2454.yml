@@ -410,6 +410,7 @@ content:
   - 
     comment: 普段主の枠だとリク来ることも珍しいのに、今日は何故か多かったですねｗ
     date: 2009/11/01 01:25:01
+    is_admin: 1
     is_odd: 1
     "no": 81
   - 
@@ -432,6 +433,7 @@ content:
   - 
     comment: "■【巡音ルカ】　Trip!!!Trip!!!Trap!!!　【オリジナル】 ■ ポン酢P Hal "
     date: 2009/11/01 01:26:04
+    is_admin: 1
     is_odd: 1
     "no": 85
   - 

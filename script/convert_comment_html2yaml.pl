@@ -64,7 +64,7 @@ for my $chunk( split m{</tr>}io, $content ){
 	$chunk =~ s/\r//go;
 	$chunk =~ s{ \n\s+(width)}{ $1}gosmi;
 	
-	$chunk =~ s{[\s\n\t]+<DIV .*?>([^<>]+)</DIV>}{$1}gsmi;
+	$chunk =~ s{[\s\n\t]*<DIV .*?>([^<>]+)</DIV>}{$1}gsmi;
 	
 	$chunk =~ s{<tr[^<>]*class="?(odd|even)"?.*?>.+?<td nowrap[^<>]*>([\d\/\s\:]+?)</td>.+?<td.+?(style="color:\s?\#([\w\d]+)")*( width="100%")*>([^<>]*?)</td>.+?<td>(\d+)</td>}{
 		my $d = {

@@ -55,6 +55,7 @@ content:
   - 
     comment: ボカロックも気になってたけど、自分の作業開始が遅れるので今から放送でっす！
     date: 2009/10/24 21:29:40
+    is_admin: 1
     is_odd: 0
     "no": 11
   - 
@@ -186,6 +187,7 @@ content:
   - 
     comment: http://newfinder.jp/2009/05/10/10850.html
     date: 2009/10/24 21:39:46
+    is_admin: 1
     is_odd: 1
     "no": 37
   - 

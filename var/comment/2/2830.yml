@@ -167,6 +167,7 @@ content:
   - 
     comment: EasyPopさん、コメントよろしくお願いします！　コマンド:OFF　コメント:ON
     date: 2009/12/03 18:14:10
+    is_admin: 1
     is_odd: 0
     "no": 32
   - 
@@ -578,6 +579,7 @@ content:
   - 
     comment: 平山郁夫美術館にて記帳台設置+12月9日まで入館料無料だそうです。
     date: 2009/12/03 18:26:09
+    is_admin: 1
     is_odd: 0
     "no": 113
   - 

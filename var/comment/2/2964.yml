@@ -93,6 +93,7 @@ content:
   - 
     comment: "■【ジングル】ミクノポップをきかないか？ジングル【近未来ラジオver】◆ No.4 presented by \nk-sk"
     date: 2009/12/13 17:52:33
+    is_admin: 1
     is_odd: 1
     "no": 19
   - 
@@ -110,6 +111,7 @@ content:
   - 
     comment: "■【初音ミク】『コトバ　キモチ』を勝手に手書きアニメ【FULL.ver】 ■ チーターガールP "
     date: 2009/12/13 17:54:17
+    is_admin: 1
     is_odd: 0
     "no": 22
   - 
@@ -441,6 +443,7 @@ content:
   - 
     comment: その代わり、昼間と夜とで放送のスタイル変えてみるのも面白いかなとか思ったり？ｗ
     date: 2009/12/13 18:15:20
+    is_admin: 1
     is_odd: 0
     "no": 87
   - 
@@ -451,6 +454,7 @@ content:
   - 
     comment: 1枠だからこそできる事と、連続するからできる放送があると思うのですよ。
     date: 2009/12/13 18:15:43
+    is_admin: 1
     is_odd: 0
     "no": 89
   - 
