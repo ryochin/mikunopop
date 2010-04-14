@@ -82,6 +82,7 @@ my $aircaster_table = {
 	qr{birdm9101.*}io => q{トリィ},
 	qr{cat+h+y.*}io => q{cathy},
 	qr{yagyou(_.+)*}io => q{百鬼夜行},
+	qr{mega\-?ne(_.+)*}io => q{メガーネ君},
 };
 
 my @ignore_hello = (
@@ -353,9 +354,12 @@ sub tick {
 		
 		my $num = scalar( keys %{ $channel_data } ) - 1;    # 自分を除く
 		
+		my @name = map { $self->convert_aircaster($_) } grep { ! /^mikuno_chan/io } keys %{ $channel_data };
+		
 		my $status = {
 			num => $num,
 			topic => $topic_global,
+			name => [ @name ],
 		};
 		
 		my $json = JSON::Syck::Dump( $status );
