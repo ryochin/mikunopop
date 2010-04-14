@@ -18,12 +18,12 @@ body {
 
 a:link {
 	color: #eef;
-/*	text-decoration: underline;*/
+	text-decoration: underline;
 }
 
 a:visited {
 	color: #eef;
-/*	text-decoration: underline;*/
+	text-decoration: underline;
 }
 
 a:active {

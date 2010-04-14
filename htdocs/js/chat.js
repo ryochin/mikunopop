@@ -16,7 +16,7 @@ function loadChat(once) {
 				$('#chat-status').html("今、チャットルームには誰もいません。" );
 			}
 			else{
-				var str = "今、チャットルームに " + result.num + " 名います。" ;
+				var str = "今、チャットルームに " + result.num + " 名います（" + result.name.join(", ") + "）。" ;
 				if( result.topic != null && result.topic != "" ){
 					str += "トピックは「" + result.topic + "」です。";
 				}
