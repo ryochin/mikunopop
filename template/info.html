@@ -46,6 +46,9 @@ td.display {
 	padding: 8px;
 	background: #000;
 }
+span.warning {
+	color: #f9bbbb;
+}
 </style>
 <script type="text/javascript">
 <!--// <![CDATA[
@@ -107,7 +110,16 @@ $(document).ready(function() {
 		</tr>
 	</table>
 
-[% IF is_too_new %]
+
+[% IF no_live_play %]
+	<h2>注意</h2>
+
+	<p>
+		[注意！]　この動画は<span class="warning">生拒否動画</span>です！　（少なくとも今は）生放送で流すことはできません。
+	</p>
+[% END %]
+
+[% BLOCK is_too_new %]
 	<h2>注意</h2>
 
 	<p>

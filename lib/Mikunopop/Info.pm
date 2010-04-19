@@ -87,7 +87,7 @@ sub handler : method {    ## no critic
 			
 			for my $item( $elem->children ){
 				# get all
-				my @key = qw(title description thumbnail_url first_retrieve length view_counter comment_num mylist_counter watch_url last_res_body);
+				my @key = qw(title description thumbnail_url first_retrieve length view_counter comment_num mylist_counter watch_url last_res_body no_live_play);
 				
 				for my $key( @key ){
 					if( $item->name eq $key ){
