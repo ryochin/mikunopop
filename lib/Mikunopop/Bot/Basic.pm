@@ -204,7 +204,7 @@ sub chanjoin {
 	if( $args->{who} ne $self->nick ){
 		
 		# 名前が test だったら警告を出す
-		if( $args->{who} =~ /^test/io ){
+		if( $args->{who} =~ /^(test|noname|demo).*/io ){
 			{
 				my $msg = sprintf q{* 大変申し訳ありません、混乱するので名前を変更して頂けますか？＞%sさん}, $args->{who};
 				$self->_say( $args, $msg );
@@ -353,6 +353,7 @@ sub tick {
 		my $channel_data = $self->channel_data( $self->channels );
 		
 		my $num = scalar( keys %{ $channel_data } ) - 1;    # 自分を除く
+		$num = 0 if $num < 0;
 		
 		my @name = map { $self->convert_aircaster($_) } grep { ! /^mikuno_chan/io } keys %{ $channel_data };
 		
@@ -362,7 +363,6 @@ sub tick {
 			name => [ @name ],
 		};
 		
-		my $json = JSON::Syck::Dump( $status );
 		if( my $fh = $chat_status_file->openw ){
 			$fh->print( JSON::Syck::Dump( $status ) );
 			$fh->close;

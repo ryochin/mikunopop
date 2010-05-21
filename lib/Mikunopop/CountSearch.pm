@@ -114,14 +114,34 @@ sub handler : method {    ## no critic
 	}
 	$tag_list->{""} = q/▼ タグ/;
 
-	# main
-	my @video;
-	MAIN:
+
+	# prepare
+	my @candidate;
 	for my $video( @{ $count } ){
 		next if $video->{view} < $from;
 		next if $video->{view} > $to;
 		
-		my ($v) = $schema->resultset('Video')->search( { vid => $video->{id} } )->slice( 0, 1 );
+		push @candidate, $video->{id};
+	}
+	
+	# get all
+	my $where = {
+		vid => { -in => [ @candidate ] }
+	};
+	
+	my $video_list = {};    # vid => dbi obj
+	for my $v( $schema->resultset('Video')->search( $where ) ){
+		$video_list->{ $v->vid } = $v;
+	}
+
+	# main
+	my @video;
+	MAIN:
+	for my $video( @{ $count } ){
+#		next if $video->{view} < $from;
+#		next if $video->{view} > $to;
+		
+		my $v = $video_list->{ $video->{id} } or next;
 		
 		# query
 		if( scalar @query ){
@@ -177,7 +197,7 @@ sub handler : method {    ## no critic
 	# num
 	$stash->{num} = scalar @video;
 	$stash->{too_many} = 1
-		if scalar @video > 1000;
+		if scalar @video > 500;
 
 	$stash->{video} = [ @video ];
 	$stash->{max} = $max;
