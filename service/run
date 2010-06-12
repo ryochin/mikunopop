@@ -1,0 +1,18 @@
+#!/bin/sh
+# 
+# note: don't forget the setuidgid(1)ed user must match with Config::Pit's one.
+
+PROJECT_HOME=/web/mikunopop
+HOST=localhost
+PORT=8420
+WORKER=2
+
+exec \
+env - \
+    /bin/nice -5 \
+    /usr/local/bin/setuidgid ryo \
+    /usr/local/bin/starman --listen ${HOST}:${PORT} --workers ${WORKER} \
+	-I/web/mikunopop/lib \
+	${PROJECT_HOME}/app/app.psgi \
+2>&1
+

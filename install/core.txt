@@ -7,17 +7,34 @@ tmp/
 # base
 Makefile
 
-# apache
-#conf/httpd.conf.dist
+# app
+app/app.psgi
+app/ping
+app/info
+app/countsearch
+
+# service
+service/run
 
 # cron
 cron/create_playlist.pl
 cron/create_jinglelist.pl
 cron/check_live_status.pl
 
+# lib
+lib/Mikunopop/Bot/Basic.pm
+lib/Mikunopop/Bot/Talk.pm
+lib/Mikunopop/Pnames.pm
+lib/Mikunopop/Schema/Video.pm
+lib/Mikunopop/Schema.pm
+lib/Mikunopop/Tags.pm
+lib/Mikunopop/VideoInfo.pm
+
 # template
 template/play.html
 template/jingle.html
 template/comment.html
+template/count_search.html
+template/info.html
 
 # EOF

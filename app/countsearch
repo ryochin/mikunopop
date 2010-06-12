@@ -1,10 +1,14 @@
 # 
 
-package Mikunopop::CountSearch;
-
+use v5.10;
 use strict;
-use 5.008;
-use vars qw($VERSION);
+use warnings;
+use lib qw(/web/mikunopop/lib);
+
+use Plack::Builder;
+use Plack::Request;
+use Plack::Response;
+
 use Data::Dumper;
 use Path::Class qw(file);
 use List::Util qw(first max);
@@ -12,21 +16,14 @@ use List::MoreUtils qw(all);
 use YAML::Syck ();
 local $YAML::Syck::ImplicitUnicode = 1;    # utf8 flag on
 use CGI;
-use Data::Dumper;
-
-use Apache2::Const -compile => qw(:common);
-use Apache2::RequestRec ();
-use Apache2::Log ();
-use Apache2::Request ();
+use Config::Pit;
 
 use Mikunopop::Pnames;
 use Mikunopop::Tags;
 use Mikunopop::Schema;
 
 use utf8;
-use Encode;
-
-$VERSION = '0.01';
+use Encode ();
 
 my $base_dir = '/web/mikunopop/';
 my $var_dir = file( $base_dir, "var" );
@@ -46,18 +43,23 @@ my $dbiconfig = {
 	on_connect_do => [
 		"SET CHARACTER SET $code",
 		"SET NAMES $code",
-		"SET SESSION senna_2ind=OFF",
+#		"SET SESSION senna_2ind=OFF",
 	],
 };
-my $schema = Mikunopop::Schema->connect("dbi:mysql:database=mikunopop", "mikunopop", "mikunopop", $dbiconfig ) or die DBI->errstr;
 
-sub handler : method {    ## no critic
-	my ($class, $r) = @_;
-	$r = Apache2::Request->new($r);
+my $config = Config::Pit::pit_get("mysql/ryo", require => {
+	username => "username",
+	password => "password",
+} );
+
+my $schema = Mikunopop::Schema->connect("dbi:mysql:database=mikunopop", @{$config}{qw(username password)}, $dbiconfig ) or die DBI->errstr;
+
+my $app = sub {
+	my $req = Plack::Request->new(shift);
 
 	# insert to memory
 	if( time - $last > $expire ){
-		$r->log_error("=> count file reloaded.");
+#		$req->logger->("=> count file reloaded.");
 		$count = YAML::Syck::LoadFile( $db_file->stringify );
 		
 		# 前処理
@@ -77,16 +79,16 @@ sub handler : method {    ## no critic
 	my $stash = {};
 
 	# from, to
-	my $from = $stash->{from} = int $r->param('from') || 20;
-	my $to = $stash->{to} = int $r->param('to') || $max;
+	my $from = $stash->{from} = int $req->param('from') || 20;
+	my $to = $stash->{to} = int $req->param('to') || $max;
 
 	if( $from > $to ){
 		($from, $to) = ($to, $from);
 	}
 
 	# query
-	my $query = ( defined $cgi->param('query') and $cgi->param('query') ne '' )
-		? $cgi->param('query')
+	my $query = ( defined $req->param('query') and $req->param('query') ne '' )
+		? $req->param('query')
 		: "";
 
 	$query = Encode::decode_utf8( $query );
@@ -103,17 +105,16 @@ sub handler : method {    ## no critic
 	}
 
 	# tag
-	my $tag = ( defined $cgi->param('tag') and $cgi->param('tag') ne '' )
-		? $cgi->param('tag')
+	my $tag = ( defined $req->param('tag') and $req->param('tag') ne '' )
+		? $req->param('tag')
 		: "";
 
 	my $tag_list = {};
-	my @tags = @{ &mikuno_tags };
+	my @tags = @{ $Mikunopop::Tags::Tags };
 	for my $n( 0 .. scalar( @tags ) -1 ){
 		$tag_list->{$n} = $tags[$n];
 	}
 	$tag_list->{""} = q/▼ タグ/;
-
 
 	# prepare
 	my @candidate;
@@ -254,17 +255,21 @@ sub handler : method {    ## no critic
 #	);
 
 	# etc
-	$stash->{current_url} = $r->uri;
+	$stash->{current_url} = $req->script_name;
 
 	# out
 	my $template = &create_template;
 
-	$r->content_type("text/html; charset=UTF-8");
-	$template->process( $template_file, $stash, $r, binmode => ':utf8' )
+	my $output;
+	$template->process( $template_file, $stash, \ $output, binmode => ':utf8' )
 		or die ;
 
-	return Apache2::Const::OK;
-}
+	my $res = Plack::Response->new(200);
+	$res->content_type("text/html; charset=UTF-8");
+	$res->body( Encode::encode_utf8( $output ) );
+
+	return $res->finalize;
+};
 
 sub create_template {
 	require Template;
@@ -287,88 +292,4 @@ sub create_template {
 	return Template->new( $tmpl_config );
 }
 
-sub mikuno_tags {
-	return [
-	"ミクノ",
-	"ミクノポップ",
-	"MikuPOP",
-	"ミクビエント",
-	"ミクトランス",
-	"ミクトロニカ",
-	"ミニマル",
-	"ミクボッサ",
-	"ミックンベース",
-	"MikuHouse",
-	"ボカノバ",
-	"ChipTune",
-	"Instrumental",
-	"テクノ",
-	"テクノポップ",
-	"VOCALOID和風曲",
-	"ミクウェーブ",
-	"VOCALOID-EUROBEAT",
-	"ボカロコア",
-	"VOCALOUD",
-	"Chiptune×VOCALOIDリンク",
-	"--------",
-	"みんなのミクうた",
-	"初音ミク処女作",
-	"切ないミクうた",
-	"爽やかなミクうた",
-	"クールなミクうた",
-	"元気が出るミクうた",
-	"隠れたミク名曲",
-	"ミクちゃんといっしょ",
-	"かわいいミクうた",
-	"ききいるミクうた",
-	"ミクのクリスマス曲",
-	"ミクという音源を使ってみた",
-	"初音ミク迷曲リンク",
-	"大人のミク曲",
-	"素朴なミクうた",
-	"ごきげんミクさん",
-	"なごみく",
-	"元気が減るミクうた",
-	"全部初音ミク",
-	"全部ミク",
-	"エロかわいいミクうた",
-	"--------",
-	"隠れたリン名曲",
-	"鏡音リン迷曲リンク",
-	"鏡音リン名曲リンク",
-	"みんなのリンうた",
-	"切ないリンうた",
-	"元気が出るリンうた",
-	"爽やかなリンうた",
-	"かわいいリンうた",
-	"クールなリンうた",
-	"恋するリンうた",
-	"ききいるリンうた",
-	"ホットなリンうた",
-	"素朴なリンうた",
-	"元気の出るリンうた",
-	"--------",
-	"巡音ルカ名曲リンク",
-	"ききいるルカうた",
-	"クールなルカうた",
-	"切ないルカうた",
-	"隠れたルカ名曲",
-	"爽やかなルカうた",
-	"みんなのルカうた",
-	"やさしいルカうた",
-	"かわいいルカうた",
-	"--------",
-	"かわいいGUMIうた",
-	"ききいるGUMIうた",
-	"--------",
-	"時田トリビュート",
-	"ジャガボンゴ",
-	"わりばしおんな。",
-	"ProjectDIVA-AC楽曲募集",
-	];
-}
-
-1;
-
 __END__
-
