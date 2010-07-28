@@ -110,8 +110,18 @@ for( my $no = 1; $no <= $page->last_page; $no += 0.5 ){
 	
 	# meta
 	if( defined $meta->{ $no } and $meta->{ $no } ne '' ){
-		$stash->{meta_info} = $meta->{ $no };
+		if( ref $meta->{ $no } eq 'HASH' ){
+			$stash->{meta_info} = $meta->{ $no }->{info};
+			if( $meta->{ $no }->{image} ){
+				$stash->{meta_has_image} = 1;
+			}
+		}
+		else{
+			$stash->{meta_info} = $meta->{ $no };
+		}
 	}
+	
+	$stash->{no} = $no;
 	
 	# output
 	$template->process( $template_file->stringify, $stash, $html->stringify, binmode => ':utf8' )

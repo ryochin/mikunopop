@@ -61,13 +61,17 @@ for( my $no = max keys %{ $list }; $no >= 1; $no -= 0.5 ){
 	my $start = eval { DateTime->from_epoch( epoch => $db->{start}, time_zone => $tz ) }
 		or die;
 	
+	my $info = ref $meta->{ $no } eq 'HASH'
+		? $meta->{ $no }->{info}
+		: $meta->{ $no };
+	
 	unshift @html, {
 		no => $no,
 		path => $path,
 		start => $start,
 		aircaster => $db->{aircaster},
 		frame => $db->{frame},
-		meta_info => $meta->{ $no },
+		meta_info => $info,
 	};
 }
 printf STDERR "\n";

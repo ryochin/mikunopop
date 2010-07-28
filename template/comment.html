@@ -15,7 +15,9 @@
 <meta name="robots" content="noindex,nofollow" />
 <title>[% title | html %] コメント履歴</title>
 <style type="text/css">
-
+div.screenshot {
+	margin: 1em 0 1em 4em;
+}
 </style>
 <script type="text/javascript">
 <!--// <![CDATA[
@@ -59,6 +61,14 @@ $(document).ready( function () {
 			[% END %]
 		</li>
 	</ul>
+
+[% IF meta_has_image %]
+	<div class="screenshot">
+		<a href="/img/comment/[% no | html %].jpg">
+			<img src="/img/comment/[% no | html %]_s.jpg" alt="スクリーンショット" />
+		</a>
+	</div>
+[% END %]
 
 	<div>
 		<table class="comment" summary="comment log">
