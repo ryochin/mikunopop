@@ -16,6 +16,20 @@
 
 <item>
 	<title>[2010.07.23]</title>
+	<description>ニコリク・ミクノポップエディション 1.47 をリリースしました。</description>
+	<guid isPermaLink="true">http://mikunopop.info/</guid>
+	<pubDate>Wed, 04 Aug 2010 15:20:18 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
+	<title>[2010.07.30]</title>
+	<description>Ｐ名リストの補完という文章を書きました</description>
+	<guid isPermaLink="true">http://mikunopop.info/manual/pnames.html</guid>
+	<pubDate>Fri, 30 Jul 2010 09:50:34 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
+	<title>[2010.07.23]</title>
 	<description>ニコリク・ミクノポップエディション 1.46 をリリースしました。</description>
 	<guid isPermaLink="true">http://mikunopop.info/</guid>
 	<pubDate>Thu, 22 Jul 2010 15:21:45 GMT</pubDate>    <!-- use httpdate  -->
