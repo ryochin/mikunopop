@@ -1,0 +1,122 @@
+# 
+
+use v5.10;
+use strict;
+use warnings;
+use lib qw(/web/mikunopop/lib);
+
+use Plack::Builder;
+use Plack::Request;
+use Plack::Response;
+
+use Data::Dumper;
+use Path::Class qw(file);
+use List::Util qw(first max);
+use List::MoreUtils qw(all);
+use YAML::Syck ();
+local $YAML::Syck::ImplicitUnicode = 1;    # utf8 flag on
+use CGI;
+use Config::Pit;
+
+use Mikunopop::Pnames;
+use Mikunopop::Tags;
+use Mikunopop::Schema;
+
+use utf8;
+use Encode ();
+
+my $base_dir = '/web/mikunopop/';
+my $var_dir = file( $base_dir, "var" );
+
+my $db_file = file( $var_dir, 'playlist.db' );
+my $template_file = file( $base_dir, "template", "count_search.html" )->stringify;
+
+my $expire = 6 * 60 ** 2;    # 6hrs
+my $last = 0;    # epoch
+my $count;    # count container
+my $max = 0;    # count container
+
+my $code = 'utf8';
+my $dbiconfig = {
+#	AutoCommit => 0,    # transaction
+#	RaiseError => 1,
+	on_connect_do => [
+		"SET CHARACTER SET $code",
+		"SET NAMES $code",
+#		"SET SESSION senna_2ind=OFF",
+	],
+};
+
+my $config = Config::Pit::pit_get("mysql/ryo", require => {
+	username => "username",
+	password => "password",
+} );
+
+my $schema = Mikunopop::Schema->connect("dbi:mysql:database=mikunopop", @{$config}{qw(username password)}, $dbiconfig ) or die DBI->errstr;
+
+my $app = sub {
+	my $req = Plack::Request->new(shift);
+
+	# insert to memory
+	if( time - $last > $expire ){
+#		$req->logger->("=> count file reloaded.");
+		$count = YAML::Syck::LoadFile( $db_file->stringify );
+		
+		# 前処理
+		for my $video( @{ $count } ){
+			$max = $video->{view}
+				if $video->{view} > $max;
+			
+			$video->{title} = Encode::decode_utf8( $video->{title} );
+		}
+		
+		$last = time;
+	}
+
+	# prepare
+	my @candidate = map { $_->{id} } @{ $count };
+	
+	# get all
+	my $where = {
+		vid => { -in => [ @candidate ] }
+	};
+	
+	my $video_list = {};    # vid => dbi obj
+	for my $v( $schema->resultset('Video')->search( $where ) ){
+		$video_list->{ $v->vid } = $v;
+	}
+
+	# main
+	my @video;
+	MAIN:
+	for my $video( @{ $count } ){
+		next if $video->{view} <= 1;
+		my $v = $video_list->{ $video->{id} } or next;
+		
+		if( $v  ){
+			# pnames
+			$video->{pnames} = [ grep { $_ ne '' } split ':', Encode::decode_utf8( $v->pnames ) ];
+			
+			if( scalar @{ $video->{pnames} } > 0 ){
+				next MAIN;
+			}
+		}
+		
+		push @video, $video;
+	}
+	
+	my $output = '<html>';
+	for my $video( @video ){
+		$output .= sprintf qq|%d: <a href="http://www.nicovideo.jp/watch/%s" target="_blank">%s</a><br />\n|,
+			$video->{view}, $video->{id}, CGI::escapeHTML( $video->{title} );
+	}
+	
+	
+	my $res = Plack::Response->new(200);
+	$res->content_type("text/html; charset=UTF-8");
+	$res->body( Encode::encode_utf8( $output ) );
+
+	return $res->finalize;
+};
+
+__END__

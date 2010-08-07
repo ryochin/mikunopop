@@ -1,0 +1,62 @@
+# 
+# 〜Ｐで終わる名前の一覧を得る　除外Ｐ名を探すため
+
+use v5.10;
+use strict;
+use warnings;
+use lib qw(/web/mikunopop/lib);
+
+use Plack::Request;
+use Plack::Response;
+
+use List::Util qw(first);
+use List::MoreUtils qw(uniq);
+use Config::Pit;
+
+use Mikunopop::Schema;
+use Mikunopop::Pnames;
+
+use utf8;
+use Encode ();
+
+my $code = 'utf8';
+my $dbiconfig = {
+	on_connect_do => [
+		"SET CHARACTER SET $code",
+		"SET NAMES $code",
+	],
+};
+
+my $config = Config::Pit::pit_get("mysql/ryo", require => {
+	username => "username",
+	password => "password",
+} );
+
+my $schema = Mikunopop::Schema->connect("dbi:mysql:database=mikunopop", @{$config}{qw(username password)}, $dbiconfig ) or die DBI->errstr;
+
+my $app = sub {
+	my $req = Plack::Request->new(shift);
+
+	my @pnames;
+	for my $v( $schema->resultset('Video')->search( {  } ) ){
+		push @pnames, grep { /(p|P|ｐ|Ｐ)$/i } split ':', Encode::decode_utf8( $v->pnames );
+	}
+
+	# すでにＰ名リストにあるものは除く
+	my @result;
+	for my $name( sort( uniq( @pnames ) ) ){
+		next if first { uc( $name ) eq uc( $_ ) } @{ $Mikunopop::Pnames::Pnames };
+		next if first { uc( $name ) eq uc( $_ ) } @{ $Mikunopop::Pnames::Pnames_ex };
+		push @result, $name;
+	}
+
+	my $result = join "\n", @result;
+
+	my $res = Plack::Response->new(200);
+	$res->content_type("text/plain; charset=UTF-8");
+	$res->body( Encode::encode_utf8( $result ) );
+
+	return $res->finalize;
+};
+
+__END__

@@ -30,7 +30,7 @@ my $json_file = file( $htdocs_dir, "play", 'count.json' )->stringify;
 
 my $uri_list = [
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-400',
-	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1243754024/2-',
+	'http://jbbs.livedoor.jp/internet/2353/storage/1243754024.html',
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1257848535/2-',
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1274527202/2-',
 ];
@@ -73,6 +73,8 @@ my @jingle = qw(
 	sm10317607
 	nm10028152
 	sm11225262
+	sm11322979
+	sm11422493
 );
 
 # 明らかにおかしいもの
