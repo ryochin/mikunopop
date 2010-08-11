@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="ja-JP" xml:lang="ja-JP" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<base href="http://mikunopop.info" />
 <link rev="made" href="mailto:webmaster&#64;example.com" />
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -29,6 +30,21 @@ div#updated {
 div.twitter-widget {
 	margin: 4px 2em;
 }
+
+div.column-left {
+	float: left;
+	width: 360px;
+	padding: 1px;
+}
+div.column-right {
+	float: none;
+	margin: 0 0 0 360px;
+	padding: 1px;
+}
+
+h2 {
+	clear: both;
+}
 </style>
 <script type="text/javascript">
 <!--// <![CDATA[
@@ -54,145 +70,170 @@ $(document).ready(function() {
 		&nbsp; &nbsp; <input type="checkbox" id="alert" /><label for="alert"> 放送があったらポップアップを表示</label>
 	</p>
 	
-	<h2>外部リンク集</h2>
+	<h2>リンク集</h2>
 	
-	<ul>
-		<li>ニコニコ生放送</li>
+	<div class="column-left">
 		<ul>
-			<li><a href="http://ch.nicovideo.jp/community/co13879" target="_blank">ミクノポップをきかないか？　コミュニティトップ</a></li>
-			<li><a href="http://com.nicovideo.jp/live_archives/co13879" target="_blank">ミクノポップをきかないか？　生放送履歴</a></li>
-			<li><a href="http://ch.nicovideo.jp/bbs/co13879" target="_blank">ミクノポップをきかないか？　掲示板</a></li>
-			<li><a href="http://com.nicovideo.jp/community/co63888" target="_blank">ミクノ生主専用テストコミュ</a></li>
-		</ul>
-		<li>ニコニコ動画</li>
-		<ul>
-			<li><a href="http://www.nicovideo.jp/tag/%E3%83%9F%E3%82%AF%E3%83%8E%E3%83%9D%E3%83%83%E3%83%97%E3%82%92%E3%81%8D%E3%81%8B%E3%81%AA%E3%81%84%E3%81%8B%EF%BC%9F?sort=f" target="_blank">「ミクノポップをきかないか？」タグのついた動画</a></li>
-		</ul>
-		<li>したらば（掲示板）</li>
-		<ul>
-			<li>ミクノポップ関連</li>
+			<li>ニコニコミュニティ</li>
 			<ul>
-				<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/l5" target="_blank">総合スレ</a><span class="dim">（総合的な話題）</span></li>
-				<li><a href="http://jbbs.livedoor.jp/internet/2353/storage/1243754024.html" target="_blank">プレイリスト</a><span class="dim">（放送ログその１）</span></li>
-				<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1257848535/l5" target="_blank">プレイリスト</a><span class="dim">（放送ログその２）</span></li>
-				<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1274527202/l5" target="_blank">プレイリスト</a><span class="dim">（放送ログその３・現行）</span></li>
+				<li><a href="http://ch.nicovideo.jp/community/co13879" target="_blank">ミクノポップをきかないか？　コミュニティ</a></li>
+				<li><a href="http://ch.nicovideo.jp/bbs/co13879" target="_blank">ミクノポップをきかないか？　掲示板</a></li>
+			</ul>
+			<li>ニコニコ生放送</li>
+			<ul>
+				<li><a href="http://com.nicovideo.jp/live_archives/co13879" target="_blank">ミクノポップをきかないか？　生放送履歴</a></li>
+			</ul>
+			<li>したらば（掲示板）</li>
+			<ul>
+				<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/l5" target="_blank">ミクノポップ総合スレ</a><span class="dim">（総合的な話題）</span></li>
+				<li>プレイリスト</li>
+				<ul>
+					<li><a href="http://jbbs.livedoor.jp/internet/2353/storage/1243754024.html" target="_blank">放送ログその１</a></li>
+					<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1257848535/l5" target="_blank">放送ログその２</a></li>
+					<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1274527202/l5" target="_blank">放送ログその３</a><span class="dim">（現行）</span></li>
+				</ul>
 				<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1241620900/l5" target="_blank">ミクノポップって何？議論スレ</a><span class="dim">（議論）</span></li>
 			</ul>
 		</ul>
-		<li>ボーカロイドにゃっぽん（SNS）</li>
-		<ul>
-			<li><a href="http://v-nyappon.net/?m=pc&amp;a=page_c_home&amp;target_c_commu_id=2000" target="_blank">ミクノポップをきかないか？　コミュ</a></li>
-		</ul>
-		
-		<li>イベント</li>
-		<ul>
-			<li><a href="http://mikunopop.web.fc2.com/" target="_blank">VOCALOID SPECIAL BLOADCAST.web</a></li>
-		</ul>
-		
-<!--
-		<li>ニコニコ生放送　便利ツール</li>
-		<ul>
-			<li><a href="http://www.chikuwachan.com/live/index.cgi?sort=real&amp;tag=VOCALOID" target="_blank">リアルタイムランキング</a>（Vocaloid 関連）</li>
-		</ul>
--->
-		<li>ソフト等</li>
-		<ul>
-			<li><a href="http://namaalert.codeplex.com/" target="_blank">ニコ生アラート</a><span class="dim">（放送が始まったら教えてくれる便利ソフト for Win）</span></li>
-			<li><a href="http://hazisarashi.com/tools/%E4%BA%8C%E3%82%B3%E7%94%9Fwidget/" target="_blank">二コ生Widget</a><span class="dim">（放送が始まったら教えてくれる便利ソフト for Mac）</span></li>
-		</ul>
-	</ul>
+	</div>
 	
+	<div class="column-right">
+		<ul>
+			<li>ニコニコ動画</li>
+			<ul>
+				<li><a href="http://www.nicovideo.jp/tag/%E3%83%9F%E3%82%AF%E3%83%8E%E3%83%9D%E3%83%83%E3%83%97%E3%82%92%E3%81%8D%E3%81%8B%E3%81%AA%E3%81%84%E3%81%8B%EF%BC%9F?sort=f" target="_blank">ミクノポップ関係の動画</a></li>
+			</ul>
+			<li>ボーカロイドにゃっぽん（SNS）</li>
+			<ul>
+				<li><a href="http://v-nyappon.net/?m=pc&amp;a=page_c_home&amp;target_c_commu_id=2000" target="_blank">ミクノポップをきかないか？　コミュ</a></li>
+			</ul>
+			
+			<li>イベント</li>
+			<ul>
+				<li><a href="http://mikunopop.web.fc2.com/" target="_blank">VOCALOID SPECIAL BLOADCAST.web</a></li>
+			</ul>
+		</ul>
+	</div>
+
 	<h2>コンテンツ</h2>
 	
-	<ul>
-		<li>ミクノポップ再生回数ランキング</li>
+	<div class="column-left">
 		<ul>
-			<li><a href="/countsearch?from=30">３０回以上</a></li>
-			<li><a href="/countsearch?from=20">２０回以上</a></li>
-			<li><a href="/countsearch?from=10">１０回以上</a></li>
+			<li>ミクノポップ再生回数ランキング＆検索</li>
+			<ul>
+				<li><a href="/countsearch?from=30">３０回以上</a></li>
+				<li><a href="/countsearch?from=20">２０回以上</a></li>
+			</ul>
+			
+			<li>関連作品</li>
+			<ul>
+				<li><a href="/jingle/">ジングル動画一覧</a></li>
+			</ul>
+			
+			<li>ひとびと</li>
+			<ul>
+				<li><a href="/aircaster/">放送主の一覧</a></li>
+				<li><a href="/artisan/">職人の一覧</a></li>
+			</ul>
+			
 		</ul>
-		
-		<li>関連作品</li>
+	</div>
+	
+	<div class="column-right">
 		<ul>
-			<li><a href="/jingle/">ジングル動画一覧</a></li>
+			<li>データ</li>
+			<ul>
+				<li><a href="/glossary/">ミクノ用語集</a></li>
+				<li><a href="/self-requester/">自貼り者の一覧</a></li>
+			</ul>
+			
+			<li>コメント履歴</li>
+			<ul>
+				<li><a href="/comment/">一般放送</a><span class="dim">（一部のみ）</span></li>
+				<li>特別</li>
+				<ul>
+					<li><a href="/comment/1/1000.html">Part1000記念放送</a></li>
+					<li><a href="/comment/3/3000.html">Part3000記念放送</a></li>
+					<li><a href="/comment/4/4000.html">Part4000記念放送</a></li>
+				</ul>
+			</ul>
 		</ul>
-		
-		<li>チャットルーム</li>
+	</div>
+
+	<h2>チャットルーム</h2>
+
+	<div>
 		<ul>
 			<li><span id="chat-status"></span>
 			<li><a href="/chat/">参加する方法</a></li>
 		</ul>
-		
-		<li>ひとびと</li>
-		<ul>
-			<li><a href="/aircaster/">放送主の一覧</a></li>
-			<li><a href="/artisan/">職人の一覧</a></li>
-		</ul>
-		
-<!--  情報が古くなったのでオフ
-		<li>放送履歴</li>
-		<ul>
-			<li><a href="http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1243754024/475" target="_blank">放送主ごとの放送回数</a><span class="dim">（by ９鉄さん）</span></li>
-		</ul>
--->
-		
-		<li>データ</li>
-		<ul>
-			<li><a href="/glossary/">ミクノ用語集</a></li>
-			<li><a href="/self-requester/">自貼り者の一覧</a></li>
-		</ul>
-		
-		<li>コメント履歴</li>
-		<ul>
-			<li><a href="/comment/">一般放送</a><span class="dim">（一部のみ）</span></li>
-			<li>特別</li>
-			<ul>
-				<li><a href="/comment/1/1000.html">Part1000記念放送</a></li>
-				<li><a href="/comment/3/3000.html">Part3000記念放送</a></li>
-				<li><a href="/comment/4/4000.html">Part4000記念放送</a></li>
-				<li><a href="/comment/1/1260.html">第２回『ミクノポップ大賞』勝手に授賞式</a></li>
-				<li><a href="/comment/2/2438.html">第３回『ミクノポップ大賞』 コンセプトアルバム”LOVE”発表会</a></li>
-			</ul>
-		</ul>
-	</ul>
+	</div>
 
 	<h2>イベント</h2>
 
-	<ul>
-		<li>ミクノポップ大賞</li>
+	<div class="column-left">
 		<ul>
-			<li><a href="/award/3rd.html">第３回</a> &nbsp; <span class="dim">2009.10</span></li>
+			<li>ミクノポップ大賞</li>
 			<ul>
-				<li><a href="/award/3rd_albums.html">投票アルバム一覧</a></li>
+				<li><a href="/award/1st.html">第１回</a> &nbsp; <span class="dim">2009.03</span></li>
+				<li><a href="/award/2nd.html">第２回</a> &nbsp; <span class="dim">2009.06</span></li>
+				<li><a href="/award/3rd.html">第３回</a> &nbsp; <span class="dim">2009.10</span></li>
+				<ul>
+					<li><a href="/award/3rd_albums.html">投票アルバム一覧</a></li>
+				</ul>
 			</ul>
-			<li><a href="/award/2nd.html">第２回</a> &nbsp; <span class="dim">2009.06</span></li>
-			<li><a href="/award/1st.html">第１回</a> &nbsp; <span class="dim">2009.03</span></li>
+		</ul>
+	</div>
+	
+	<div class="column-right">
+		
+	</div>
+	
+	<h2>ツール</h2>
+	
+	<ul>
+		<li>放送通知ソフト</li>
+		<ul>
+			<li><a href="http://live.nicovideo.jp/alert/" target="_blank">ニコ生アラート（本家）</a><span class="dim">（for Win）</span></li>
+			<li><a href="http://namaalert.codeplex.com/" target="_blank">ニコ生アラート（βa・元祖）</a><span class="dim">（for Win）</span></li>
+			<li><a href="http://hazisarashi.com/tools/%E4%BA%8C%E3%82%B3%E7%94%9Fwidget/" target="_blank">二コ生Widget</a><span class="dim">（for Mac）</span></li>
 		</ul>
 	</ul>
 
 	<h2>放送者向け</h2>
 
-	<ul>
-		<li>ツール</li>
+	<div class="column-left">
 		<ul>
-			<li><a href="/info">動画情報取得ツール</a></li>
+			<li>ニコニコミュニティ</li>
+			<ul>
+				<li><a href="http://com.nicovideo.jp/community/co63888" target="_blank">ミクノ生主専用テストコミュ</a></li>
+			</ul>
+			<li>ツール</li>
+			<ul>
+				<li><a href="/info">動画情報取得ツール</a></li>
+			</ul>
 		</ul>
-		
-		<li>放送主向け文書</li>
+	</div>
+
+	<div class="column-right">
 		<ul>
-			<li><a href="/manual/template.html">テンプレート</a></li>
-			<li><a href="/manual/memo.html">生放送メモ</a></li>
-			<li><a href="/manual/nicoreq.html">ニコリク・ミクノポップエディション</a></li>
-			<li><a href="/manual/count.html">ミクノ度の数え方ついて</a></li>
-			<li><a href="/manual/pnames.html">Ｐ名リストの補完</a></li>
+			<li>放送主向け文書</li>
+			<ul>
+				<li><a href="/manual/template.html">テンプレート</a></li>
+				<li><a href="/manual/memo.html">生放送メモ</a></li>
+				<li><a href="/manual/nicoreq.html">ニコリク・ミクノポップエディション</a></li>
+				<li><a href="/manual/count.html">ミクノ度の数え方</a></li>
+				<li><a href="/manual/pnames.html">Ｐ名リストの補完</a></li>
+			</ul>
 		</ul>
-	</ul>
+	</div>
 
 	<h2>更新履歴</h2>
 
 	<!--  index.xml も編集すること  -->
 
 	<ul>
+		<li>[2010.08.12] <a href="/manual/nicoreq.html">ニコリク・ミクノポップエディション</a> 1.48 をリリースしました。</li>
 		<li>[2010.08.05] <a href="/manual/nicoreq.html">ニコリク・ミクノポップエディション</a> 1.47 をリリースしました。</li>
 		<li>[2010.07.30] <a href="/manual/pnames.html">Ｐ名リストの補完</a>という文章を書きました。放送主さんはぜひご一読ください。</li>
 		<li>[2010.07.23] <a href="/manual/nicoreq.html">ニコリク・ミクノポップエディション</a> 1.46 をリリースしました。</li>
@@ -203,7 +244,7 @@ $(document).ready(function() {
 
 	<p>
 		私（<a href="http://saihane.info" target="_blank">さいはね</a>）が個人的に運営する非公式サイトです。<br />
-		私宛の連絡はチャットルームや、webmaster at mikunopop dot info までどうぞ。
+		私宛の連絡はついった（&#64;ryochin）、あるいは webmaster at mikunopop dot info までどうぞ。
 	</p>
 
 </div>

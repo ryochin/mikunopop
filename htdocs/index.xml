@@ -15,7 +15,14 @@
 </image>
 
 <item>
-	<title>[2010.07.23]</title>
+	<title>[2010.08.12]</title>
+	<description>ニコリク・ミクノポップエディション 1.48 をリリースしました。</description>
+	<guid isPermaLink="true">http://mikunopop.info/</guid>
+	<pubDate>Wed, 11 Aug 2010 15:57:26 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
+	<title>[2010.08.05]</title>
 	<description>ニコリク・ミクノポップエディション 1.47 をリリースしました。</description>
 	<guid isPermaLink="true">http://mikunopop.info/</guid>
 	<pubDate>Wed, 04 Aug 2010 15:20:18 GMT</pubDate>    <!-- use httpdate  -->

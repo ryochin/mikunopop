@@ -42,7 +42,7 @@ span.commit {
 	</p>
 	
 	<p>
-		私が使っているニコリク（生放送ツール）を配布しています。ご利用は自己責任でどうぞ。
+		私が使っているニコリク（生放送ツール）を配布しています。ご利用は自己責任でどうぞ。2010.08.11 改訂 
 	</p>
 	
 <!--
@@ -70,6 +70,13 @@ span.commit {
 
 	<p>
 		もちろんミクノ以外の放送で使って頂いても構いませんし、改造や再配布もできます。
+	</p>
+
+	<h2>開発＆テストコミュについて</h2>
+
+	<p>
+		<a href="http://com.nicovideo.jp/community/co428546" target="_blank">ニコリク ME の開発＆テストコミュニティ</a>を立ち上げました（クローズドコミュです）。<br />
+		主に、ツールをテストしてレポートを頂ける方を募集しています。興味がありましたら、まずは<a href="./nicoreq_devel.html" target="_blank">コミュの説明文</a>をご覧下さい。
 	</p>
 
 	<h2>必要なもの</h2>
@@ -110,7 +117,40 @@ span.commit {
 
 	<table class="download-link">
 		<tr>
-			<td width="140">[2010.08.05] v1.46</td>
+			<td width="140">[2010.08.12] v1.48</td>
+			<td><a href="./archives/NicoReqMikunopopEdition_148.exe">NicoReqMikunopopEdition_148.exe</a></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/downloads" target="_blank">zip アーカイブ</a></td>
+		</tr>
+	</table>
+
+	<p>
+		　・「リク制限」タブを追加しました。リクエストをタグによって制限できるようになりました。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/8033c0e204013d2bc8051aa30563c128171b9f99" target="_blank">#commit</a>)</span>
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/069e9c33e3ad6d4be0ec2a26ef020ace242370b6" target="_blank">#commit</a>)</span>
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/1b594a2d94090b076d22d556ae473406481028c5" target="_blank">#commit</a>)</span><br />
+		　　　設定内容は自動保存され、次回起動時に復元されます。<br />
+		　　　副管理者のコマンドはこの制限を受けません。<br />
+		　・「オプション」タブの一人当たりのリクエスト最大数の設定が自動保存・復元されるようになりました。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/42b9f7a3075dac79ec1484bc6b876f1350576d14" target="_blank">#commit</a>)</span><br />
+		　・それに伴い、内部の一時設定ファイル保存機能を実装しました。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/bfd6bba3f8d4b5d17b25d3a0394cd6c3a9f47a6b" target="_blank">#commit</a>)</span><br />
+		　　併せてファイル周りの処理を集約するために書き換えています。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/e18cf37850f4f59e34f4b05fdfb3d2413fba7c23" target="_blank">#commit</a>)</span>
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/f0b68968f54550b24f981259da964ab33bd590f8" target="_blank">#commit</a>)</span><br />
+		　・一部のファイルキャッシュ時間を短めに変更しました。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/1a65aec8331562d993bb8474b43151a2da0717a9" target="_blank">#commit</a>)</span><br />
+		　・細かい情報（P名リスト、P名除外リスト）を更新しました。<br />
+		　・その他細かい点を調整しました。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/8fce623234268bba5402bf5f340f1b2a21ed3236" target="_blank">#commit</a>)</span>
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/546527d000bdc39f84312f42fc9696f1084e84d0" target="_blank">#commit</a>)</span>
+	</p>
+
+	<table class="download-link">
+		<tr>
+			<td width="140">[2010.08.05] v1.47</td>
 			<td><a href="./archives/NicoReqMikunopopEdition_147.exe">NicoReqMikunopopEdition_147.exe</a></td>
 		</tr>
 		<tr>
