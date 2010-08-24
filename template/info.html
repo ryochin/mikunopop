@@ -200,6 +200,10 @@ $(document).ready(function() {
 			<td align="center">最新コメ</td>
 			<td align="left">[% last_res_body | html %]</td>
 		</tr>
+		<tr>
+			<td align="center">permalink</td>
+			<td align="left"><a href="/info/[% id | html %]">http://mikunopop.info/info/[% id | html %]</a></td>
+		</tr>
 	</table>
 
 [% END # if has_info %]

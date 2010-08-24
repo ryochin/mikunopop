@@ -8,8 +8,8 @@ html {
 }
 
 body {
-	color: #eee;
-	background: #333;
+	color: #f3f3f3;
+	background: #3c3c3c;
 	margin: 0;
 	padding: 0;
 	zoom: 1;    /* for IE7 bug */
@@ -17,22 +17,22 @@ body {
 }
 
 a:link {
-	color: #eef;
+	color: #e0e0ff;
 	text-decoration: underline;
 }
 
 a:visited {
-	color: #eef;
+	color: #e0e0ff;
 	text-decoration: underline;
 }
 
 a:active {
-	color: #ffe;
+	color: #aaaaaa;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #ffe;
+	color: #e0e0ff;
 	text-decoration: underline;
 }
 
