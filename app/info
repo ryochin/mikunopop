@@ -87,7 +87,7 @@ my $app = sub {
 				
 				for my $key( @key ){
 					if( $item->name eq $key ){
-						$stash->{$key} = $item->trimmed_text;
+						$stash->{$key} = &unescape_html( $item->trimmed_text );
 					}
 				}
 				
@@ -194,6 +194,21 @@ sub create_template {
 	};
 
 	return Template->new( $tmpl_config );
+}
+
+sub unescape_html {
+	my $string = shift;
+	$string=~ s[&(.*?);]{
+		local $_ = $1;
+		/^amp$/i        ? "&" :
+		/^quot$/i       ? '"' :
+		/^gt$/i         ? ">" :
+		/^lt$/i         ? "<" :
+#		/^#(\d+)$/ && $latin         ? chr($1) :
+#		/^#x([0-9a-f]+)$/i && $latin ? chr(hex($1)) :
+		$_
+		}gex;
+	return $string;
 }
 
 __END__

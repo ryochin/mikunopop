@@ -54,11 +54,13 @@ my @admin = (
 	qr{^infee_koz(_.+)*}io,
 	qr{^danjoh(_.+)*}io,
 	qr{^kuranchi(_.+)*}io,
+	qr{^hbho(_.+)*}io,
+	qr{^karukaru(_.+)*}io,
 );
 
 my @me_regex = (
 	qr{mikuno_chan}io,
-	qr{(ミクノ|みくの)(ちゃ|チャ)}io,
+	qr{(ミクノ|みくの)(ちゃ|チャ)(?![う])}io,
 );
 
 my $aircaster_table = {
@@ -97,6 +99,7 @@ my @ignore_hello = (
 	qr{^mega\-ne(_.+)*}io,
 	qr{^birdm9101(_.+)*}io,
 	qr{^w2k(_.+)*}io,
+	qr{^danjoh(_.+)*}io,
 );
 
 my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
@@ -360,16 +363,25 @@ sub tick {
 		my $num = scalar( keys %{ $channel_data } ) - 1;    # 自分を除く
 		$num = 0 if $num < 0;
 		
+		my $name_list = {};
+		for my $name( grep { ! /^mikuno_chan/io } keys %{ $channel_data } ){
+			my $active = $name =~ /_(away|bath|o?furo|work|afk|busy)$/io
+				? "inactive"
+				: "active";
+			
+			$name_list->{ $self->escape_html( $self->convert_aircaster( $name ) ) } = $active;
+		}
+		
 		my @name = map { $self->convert_aircaster($_) } grep { ! /^mikuno_chan/io } keys %{ $channel_data };
 		
 		my $status = {
 			num => $num,
-			topic => $topic_global,
-			name => [ @name ],
+			topic => $self->escape_html( $topic_global ),
+			name => $name_list,
 		};
 		
 		if( my $fh = $chat_status_file->openw ){
-			$fh->print( JSON::Syck::Dump( $status ) );
+			$fh->print( JSON::Syck::Dump( $status ), "\n" );
 			$fh->close;
 		}
 	};
@@ -385,7 +397,7 @@ sub get_aircaster {
 	my $aircaster = "";
 	if( my $content = LWP::Simple::get( $uri ) ){
 		$content = eval { Encode::decode_utf8( $content ) } || $content;
-		if( $content =~ m{user/\d+?" target="_blank">([^<>]+?)</a></strong>さん}msio ){
+		if( $content =~ m{user/\d+?" target="_blank">([^<>]+?)</a></strong>さん}msio ){    # "
 			$aircaster = $1;
 		}
 	}
@@ -460,11 +472,23 @@ sub logit {
 	if( utf8::is_utf8( $msg ) ){
 		$msg = eval { Encode::encode_utf8( $msg ) } || $msg;
 	}
-use Devel::SimpleTrace;
+
 	if( my $fh = $self->prepare_fh ){
 		print {$fh} $msg, "\n";
 		printf STDERR "%s\n", $msg;
 	}
+}
+
+sub escape_html {
+	my $self = shift;
+	my $str = shift // "";
+
+	$str =~ s{&}{&amp;}gso;
+	$str =~ s{<}{&lt;}gso;
+	$str =~ s{>}{&gt;}gso;
+	$str =~ s{"}{&quot;}gso;    # "
+
+	return $str;
 }
 
 1;
