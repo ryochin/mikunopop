@@ -15,6 +15,13 @@
 </image>
 
 <item>
+	<title>[2010.08.25]</title>
+	<description>放送のきまりごとという文章を書きました</description>
+	<guid isPermaLink="true">http://mikunopop.info/manual/rfc.html</guid>
+	<pubDate>Wed, 25 Aug 2010 14:04:23 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
 	<title>[2010.08.12]</title>
 	<description>ニコリク・ミクノポップエディション 1.48 をリリースしました。</description>
 	<guid isPermaLink="true">http://mikunopop.info/</guid>
