@@ -117,6 +117,55 @@ span.commit {
 
 	<table class="download-link">
 		<tr>
+			<td width="140">[2010.09.01] v1.50</td>
+			<td><a href="./archives/NicoReqMikunopopEdition_150.exe">NicoReqMikunopopEdition_150.exe</a></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/downloads" target="_blank">zip アーカイブ</a></td>
+		</tr>
+	</table>
+
+	<p>
+		　・流すのに適していない曲を誤ってストックに入れてしまうことを防ぐために、NGIDList.txt に含まれている曲を<br />
+		　　主セレとして取り込むと「NG 動画」というアイコンが表示される機能を追加しました。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/c7ec4404c46c31038993aa06ee8724875db24ab7" target="_blank">#commit</a>)</span><br />
+		　　<span class="dim">NGIDList.txt は従来はリクエスト曲の NG データベースでしたが、主セレの場合と兼用することにしました。</span><br />
+		　・細かい情報（P名リスト、P名除外リスト、NG 動画リスト）を更新しました。<br />
+		　・その他細かい点を調整しました。
+	</p>
+
+	<p>
+		<img src="./ss/ss_v1500_01.png" style="margin-left: 3em" />
+	</p>
+
+	<table class="download-link">
+		<tr>
+			<td width="140">[2010.08.28] v1.49</td>
+			<td><a href="./archives/NicoReqMikunopopEdition_149.exe">NicoReqMikunopopEdition_149.exe</a></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/downloads" target="_blank">zip アーカイブ</a></td>
+		</tr>
+	</table>
+
+	<p>
+		　・主コメと各種ログ内の動画タイトルが正しくエスケープされていない問題を修正しました。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/8d323bbd60465e70ee6d7e8ab9df5ceb3aa98524" target="_blank">#commit</a>)</span>
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/6b842c4b39a8414916278ef0edc7d89eca551621" target="_blank">#commit</a>)</span><br />
+		　・Ｐ名を特定するポリシーを少し変更しました。放送に影響はありません。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/1c5973faab9a5f0354dbd74b831b05827fe70662" target="_blank">#commit</a>)</span><br />
+			<span class="dim">
+		　　主に末尾がＰで終わるＰ名で起こりうる偽陰性を回避する策でしたが、今後は除外Ｐ名リストで<br />
+		　　積極的に管理するポリシーへ変更します。これまではタグに該当するＰ名があっても、動画タイトルに<br />
+		　　その名前が含まれている場合は（Ｐ名ではなく）曲名の一部である可能性が高いとしてＰ名と<br />
+		　　みなさない方針でした。そのため、一部の曲でＰ名が正しく表示されない問題がありました。</span><br />
+		　・細かい情報（P名リスト）を更新しました。(thx!&gt; koke)
+	</p>
+
+	<table class="download-link">
+		<tr>
 			<td width="140">[2010.08.12] v1.48</td>
 			<td><a href="./archives/NicoReqMikunopopEdition_148.exe">NicoReqMikunopopEdition_148.exe</a></td>
 		</tr>
@@ -146,127 +195,6 @@ span.commit {
 		　・その他細かい点を調整しました。
 			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/8fce623234268bba5402bf5f340f1b2a21ed3236" target="_blank">#commit</a>)</span>
 			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/546527d000bdc39f84312f42fc9696f1084e84d0" target="_blank">#commit</a>)</span>
-	</p>
-
-	<table class="download-link">
-		<tr>
-			<td width="140">[2010.08.05] v1.47</td>
-			<td><a href="./archives/NicoReqMikunopopEdition_147.exe">NicoReqMikunopopEdition_147.exe</a></td>
-		</tr>
-		<tr>
-			<td>&nbsp;</td>
-			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/downloads" target="_blank">zip アーカイブ</a></td>
-		</tr>
-	</table>
-
-	<p>
-		　・「連続コメント」タブを削除しました。
-			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/06626ecf966795b8df50610b6f4b827542aa1f55" target="_blank">#commit</a>)</span><br />
-		　・setting.js を整理しました。通常は放送に影響ありません。
-			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/df0dcf804dae860ac571b70568595d6643dfc651" target="_blank">#commit</a>)</span><br />
-		　　　動画タイトルから削除する文字列の指定機能を削除しました。<br />
-		　　　ボカロ系以外の除外設定などを削除しました。<br />
-		　　　タイプ判定機能をオフにしました。<br />
-		　　　その他、いらない記述を削除したり調整しました。<br />
-		　・除外Ｐ名リストを外部ファイルに追い出しました。pnames_ex.js です。
-			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/20e2c517f03c76eb508caf63f6f25b10c6d98c04" target="_blank">#commit</a>)</span><br />
-		　・自分が放送主ではない番組に接続した際にエラーが出る問題を修正しました。
-			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/5488df6a05a7fd2457f0da735b727084d98ba232" target="_blank">#commit</a>)</span><br />
-		　・細かい情報（P名リスト）を更新しました。<br />
-		　・その他細かい点を調整しました。
-			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/d88b36ccdbdf1dc033f3a8db42acbd16031d3485" target="_blank">#commit</a>)</span>
-			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/005bb696cdf2064c42f08d4152cf221ba8d88932" target="_blank">#commit</a>)</span>
-			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/f526f47e1cc13cc45cf2ef59099357e9ab6298cc" target="_blank">#commit</a>)</span>
-	</p>
-
-	<table class="download-link">
-		<tr>
-			<td width="140">[2010.07.23] v1.46</td>
-			<td><a href="./archives/NicoReqMikunopopEdition_146.exe">NicoReqMikunopopEdition_146.exe</a></td>
-		</tr>
-		<tr>
-			<td>&nbsp;</td>
-			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/downloads" target="_blank">zip アーカイブ</a></td>
-		</tr>
-	</table>
-
-	<p>
-		　・ジングル情報の管理者コメントを /perm をつけない通常コメントに戻しました。
-			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/65f00711262077d519f24cb960ecf947a8af821f" target="_blank">#commit</a>)</span><br />
-		　・細かい情報（P名リスト、ジングルリスト）を更新しました。
-	</p>
-
-	<table class="download-link">
-		<tr>
-			<td width="140">[2010.07.10] v1.45.2</td>
-			<td><a href="./archives/NicoReqMikunopopEdition_1452.exe">NicoReqMikunopopEdition_1452.exe</a></td>
-		</tr>
-		<tr>
-			<td>&nbsp;</td>
-			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/downloads" target="_blank">zip アーカイブ</a></td>
-		</tr>
-	</table>
-
-	<p>
-		　・メンテナンスリリースです。機能の追加や修正はありません。<br />
-		　・細かい情報（P名リスト、ジングルリスト）を更新しました。
-	</p>
-
-	<table class="download-link">
-		<tr>
-			<td width="140">[2010.06.29] v1.45.1</td>
-			<td><a href="./archives/NicoReqMikunopopEdition_1451.exe">NicoReqMikunopopEdition_1451.exe</a></td>
-		</tr>
-		<tr>
-			<td>&nbsp;</td>
-			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/downloads" target="_blank">zip アーカイブ</a></td>
-		</tr>
-	</table>
-
-	<p>
-		　・メンテナンスリリースです。機能の追加や修正はありません。<br />
-		　・細かい情報（P名リスト、ジングルリスト、タグリスト）を更新しました。<br />
-		　・その他細かい点を調整しました。
-	</p>
-
-	<table class="download-link">
-		<tr>
-			<td width="140">[2010.06.15] v1.45</td>
-			<td><a href="./archives/NicoReqMikunopopEdition_145.exe">NicoReqMikunopopEdition_145.exe</a></td>
-		</tr>
-		<tr>
-			<td>&nbsp;</td>
-			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/downloads" target="_blank">zip アーカイブ</a></td>
-		</tr>
-	</table>
-
-	<p>
-		　・一定時間内に連続して再生ボタンが押された場合は操作ミスとみなして、２度目のクリック以降を<br />
-		　　再生しないようになりました。いわゆる再生ボタンのダブルクリックミスを防ぎます。
-			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/eee0e7d2d66a8ca240671b2f4303eed9e5517c10" target="_blank">#commit</a>)</span><br />
-		　・細かい情報（P名リスト）を更新しました。(thx!&gt;koke)<br />
-		　・その他細かい点を調整しました。
-	</p>
-
-	<table class="download-link">
-		<tr>
-			<td width="140">[2010.06.10] v1.44</td>
-			<td><a href="./archives/NicoReqMikunopopEdition_144.exe">NicoReqMikunopopEdition_144.exe</a></td>
-		</tr>
-		<tr>
-			<td>&nbsp;</td>
-			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/downloads" target="_blank">zip アーカイブ</a></td>
-		</tr>
-	</table>
-
-	<p>
-		　・ストックリスト（stock.txt）を自動的に保存するようになりました。
-			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/c272b6d8a5bfee0fae254932bc566a74e2e3719d" target="_blank">#commit</a>)</span><br />
-		　　リストの内容に変化（曲の増減）があれば、定期的にチェックし保存します。<br />
-		　　ニコリクが不意に落ちてもリストが失われる不幸な事故が減ると思います。<br />
-		　　この機能は settings.js の 168 行目あたりでオフにできます。<br />
-		　・細かい情報（P名リスト、タグリスト）を更新しました。<br />
-		　・その他細かい点を調整しました。
 	</p>
 
 	<p>

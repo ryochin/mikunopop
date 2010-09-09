@@ -24,7 +24,7 @@ function loadChat(once) {
 			// status
 			var str = ( result.num == 0 )
 				? "今、チャットルームには誰もいません。求むお留守番。"
-				: "今、ルームに" + result.num + " 名います（" + user.join(", ") + "）。";
+				: "今、ルームに " + result.num + " 名います（" + user.join(", ") + "）。";
 			
 			$('#chat-status').html( str );
 			
