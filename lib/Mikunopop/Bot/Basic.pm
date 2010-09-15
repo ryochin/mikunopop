@@ -45,7 +45,7 @@ my @admin = (
 	qr{^Shaghar(_.+)*}io,
 	qr{^Mint(_.+)*}io,
 	qr{^cat+h+y(_.+)*}io,
-	qr{^mega\-ne(_.+)*}io,
+	qr{^mega\-?ne(_.+)*}io,
 	qr{^birdm9101(_.+)*}io,
 	qr{^sumiwo(_.+)*}io,
 	qr{^kawa(_.+)*}io,
@@ -56,6 +56,7 @@ my @admin = (
 	qr{^kuranchi(_.+)*}io,
 	qr{^hbho(_.+)*}io,
 	qr{^karukaru(_.+)*}io,
+	qr{^Sword(_.+)*}io,
 );
 
 my @me_regex = (
@@ -90,6 +91,11 @@ my $aircaster_table = {
 	qr{mega\-?ne(_.+)*}io => q{メガーネ君},
 	qr{infee_koz(_.+)*}io => q{こず},
 	qr{kuranchi(_.+)*}io => q{くらんち},
+	qr{hbho(_.+)*}io => q{hbho},
+	qr{danjoh(_.+)*}io => q{danjoh},
+	qr{naniwa(_.+)*}io => q{naniwa},
+	qr{karukaru(_.+)*}io => q{karukaru},
+	qr{Sword(_.+)*}io => q{Sword},
 };
 
 my @ignore_hello = (
@@ -100,6 +106,7 @@ my @ignore_hello = (
 	qr{^birdm9101(_.+)*}io,
 	qr{^w2k(_.+)*}io,
 	qr{^danjoh(_.+)*}io,
+	qr{^karukaru(_.+)*}io,
 );
 
 my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
@@ -365,7 +372,7 @@ sub tick {
 		
 		my $name_list = {};
 		for my $name( grep { ! /^mikuno_chan/io } keys %{ $channel_data } ){
-			my $active = $name =~ /_(away|bath|o?furo|work|afk|busy)$/io
+			my $active = $name =~ /_(away|bath|o?(f|h)uro|work|afk|busy|gohan|rom|game|job|sagyou?|walk|sanpo)$/io
 				? "inactive"
 				: "active";
 			

@@ -48,4 +48,12 @@ upload:
 login:
 	nice -10 mysql -umikunopop -pmikunopop mikunopop
 
+check-xmllint: check-xmllint-xml check-xmllint-html
+
+check-xmllint-xml:
+	find . -name '*xml'|xargs xmllint --noout
+
+check-xmllint-html:
+	find . -name '*html'|xargs xmllint --html --noout
+
 # EOF

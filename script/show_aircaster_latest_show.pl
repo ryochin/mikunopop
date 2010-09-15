@@ -51,15 +51,17 @@ for my $line( split /\n/o, $content ){
 	my $aircaster = "";
 	if( $line =~ m{<a href="[^"]+"><b>([^<>]+)</b></a>}io ){    # "
 		$aircaster = $1;
-		next if first { $aircaster =~ /$_/ } ( qr{ジングル}, qr{なまはい}, qr{寝落ち}, qr{枠}, qr{クロスフェード}, qr{特集} );
+		next if first { $aircaster =~ /$_/ } ( qr{ジングル}, qr{なまはい}, qr{寝落ち}, qr{枠}, qr{クロスフェード}, qr{特集}, qr{代理カキコ} );
 		
 		$aircaster = 'きぬこもち' if $aircaster =~ /ルカ姉様/o;
 		$aircaster = 'higumon' if $aircaster =~ /higumon.+/o;
 		$aircaster = 'メガーネ君＠生主' if $aircaster =~ /メガーネ/o;
+		$aircaster = 'メガーネ君＠生主' if $aircaster =~ /めがね/o;
 		$aircaster = 'SOL' if $aircaster =~ /ＳＯＬ/o;
 		$aircaster = 'SOL' if $aircaster =~ /Ｓ.Ｏ.Ｌ/o;
 		$aircaster = 'Mint=Rabbit' if $aircaster =~ /Mint.+/o;
 		$aircaster = 'bird-m@トリィ' if $aircaster =~ /トリィ/o;
+		$aircaster = 'くらんち' if $aircaster =~ /くらんち.+/o;
 	}
 	else{
 		next;
