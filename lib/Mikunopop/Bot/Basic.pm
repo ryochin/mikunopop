@@ -57,6 +57,7 @@ my @admin = (
 	qr{^hbho(_.+)*}io,
 	qr{^karukaru(_.+)*}io,
 	qr{^Sword(_.+)*}io,
+	qr{^lefthorse(_.+)*}io,
 );
 
 my @me_regex = (
@@ -95,7 +96,8 @@ my $aircaster_table = {
 	qr{danjoh(_.+)*}io => q{danjoh},
 	qr{naniwa(_.+)*}io => q{naniwa},
 	qr{karukaru(_.+)*}io => q{karukaru},
-	qr{Sword(_.+)*}io => q{Sword},
+	qr{Sword(_.+)*}io => q{ソード},
+	qr{lefthorse(_.+)*}io => q{左馬},
 };
 
 my @ignore_hello = (
@@ -372,7 +374,7 @@ sub tick {
 		
 		my $name_list = {};
 		for my $name( grep { ! /^mikuno_chan/io } keys %{ $channel_data } ){
-			my $active = $name =~ /_(away|bath|o?(f|h)uro|work|afk|busy|gohan|rom|game|job|sagyou?|walk|sanpo)$/io
+			my $active = $name =~ /_(away|bath|o?(f|h)uro|work|afk|busy|gohan|rom|game|job|sagyou?|walk|sanpo|noc)$/io
 				? "inactive"
 				: "active";
 			

@@ -62,6 +62,7 @@ for my $line( split /\n/o, $content ){
 		$aircaster = 'Mint=Rabbit' if $aircaster =~ /Mint.+/o;
 		$aircaster = 'bird-m@トリィ' if $aircaster =~ /トリィ/o;
 		$aircaster = 'くらんち' if $aircaster =~ /くらんち.+/o;
+		$aircaster = 'シャガール' if $aircaster =~ /shaghar/io;
 	}
 	else{
 		next;
@@ -105,7 +106,14 @@ for my $line( split /\n/o, $content ){
 	$list->{ $aircaster } = $date;
 }
 
+my $limit = DateTime->now( time_zone => 'local' )->add( days => -30 );
+my $flag = 0;
 for my $aircaster( sort { $list->{$a} <=> $list->{$b} } keys %{ $list } ){
+	if( not $flag and $list->{ $aircaster }->epoch > $limit->epoch ){
+		printf "%s\n", '-' x 32;
+		$flag++;
+	}
+	
 	printf "%s: %s\n", Encode::encode_utf8( $aircaster ), $list->{ $aircaster }->ymd(".");
 }
 
