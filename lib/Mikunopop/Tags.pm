@@ -82,6 +82,7 @@ our $Tags = [
 	"VOCALOUD",
 	"Chiptune×VOCALOIDリンク",
 	"VOCALOID幻想狂気曲リンク",
+	"クラブで使えるボカロ曲リンク",
 	
 	"みんなのミクうた",
 	"初音ミク処女作",

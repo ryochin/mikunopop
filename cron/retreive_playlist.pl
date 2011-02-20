@@ -29,10 +29,10 @@ my $csv_file = file( $htdocs_dir, "play", 'all.csv.gz' )->stringify;
 my $json_file = file( $htdocs_dir, "play", 'count.json' )->stringify;
 
 my $uri_list = [
-	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-400',
-	'http://jbbs.livedoor.jp/internet/2353/storage/1243754024.html',
-	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1257848535/2-',
-	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1274527202/2-',
+	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-400',    # main
+	'http://jbbs.livedoor.jp/internet/2353/storage/1243754024.html',    # 1st
+	'http://jbbs.livedoor.jp/internet/2353/storage/1257848535.html',    # 2nd
+	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1274527202/2-',    # 3rd
 ];
 
 # ジングル
@@ -78,6 +78,10 @@ my @jingle = qw(
 	sm12101110
 	sm12109937
 	sm12374236
+	sm12689621
+	sm12791392
+	sm12834613
+	sm12836076
 );
 
 # 明らかにおかしいもの

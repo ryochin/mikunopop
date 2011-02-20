@@ -58,6 +58,7 @@ my @admin = (
 	qr{^karukaru(_.+)*}io,
 	qr{^Sword(_.+)*}io,
 	qr{^lefthorse(_.+)*}io,
+	qr{^katakuri(_.+)*}io,
 );
 
 my @me_regex = (
@@ -98,6 +99,7 @@ my $aircaster_table = {
 	qr{karukaru(_.+)*}io => q{karukaru},
 	qr{Sword(_.+)*}io => q{ソード},
 	qr{lefthorse(_.+)*}io => q{左馬},
+	qr{katakuri(_.+)*}io => q{かたくり},
 };
 
 my @ignore_hello = (
