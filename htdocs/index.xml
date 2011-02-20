@@ -15,6 +15,20 @@
 </image>
 
 <item>
+	<title>[2011.02.08]</title>
+	<description>ニコリク・ミクノポップエディション 1.53 をリリースしました。</description>
+	<guid isPermaLink="true">http://mikunopop.info/</guid>
+	<pubDate>Tue, 08 Feb 2011 12:30:49 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
+	<title>[2011.01.27]</title>
+	<description>ニコリク・ミクノポップエディション 1.52 をリリースしました。</description>
+	<guid isPermaLink="true">http://mikunopop.info/</guid>
+	<pubDate>Thu, 27 Jan 2011 12:30:49 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
 	<title>[2010.11.23]</title>
 	<description>Mint=Rabbit さんが第４回ミクノポップ大賞の&lt;a href=&quot;http://www.nicovideo.jp/watch/sm12836076&quot; target=&quot;_blank&quot;&gt; OP 動画&lt;/a&gt;を作ってくださいました。</description>
 	<guid isPermaLink="true">http://www.nicovideo.jp/watch/sm12836076</guid>

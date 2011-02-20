@@ -24,6 +24,19 @@ table.download-link td {
 span.commit {
 	font-size: 92%;
 }
+
+div#expire-warning {
+	width: 620px;
+	margin: 1.8em;
+	padding: 10px;
+	color: fff3f3;
+	background-color: #431c1c;
+}
+
+div#expire-warning p {
+	margin: 6px 12px;
+}
+
 </style>
 <script type="text/javascript">
 <!--// <![CDATA[
@@ -42,7 +55,7 @@ span.commit {
 	</p>
 	
 	<p>
-		私が使っているニコリク（生放送ツール）を配布しています。ご利用は自己責任でどうぞ。2010.12.21 改訂 
+		私が使っているニコリク（生放送ツール）を配布しています。ご利用は自己責任でどうぞ。2011.02.08 改訂 
 	</p>
 	
 <!--
@@ -114,6 +127,69 @@ span.commit {
 	</p>
 
 	<h2>ダウンロード</h2>
+	
+	<div id="expire-warning">
+		<p>
+			【注意】
+		</p>
+		
+		<p>
+			ボカロ系生放送界隈では、この ME を含むニコリクファミリーは積極的に機能追加や修正をしている開発者が
+			長らくいない状態が続いています。また、おそらく今後もこの状況が変わることはないでしょう。
+		</p>
+		
+		<p>
+			ME はこれからも最低限のメンテナンスや不具合対応は行いますが、たとえば 2009 年秋のように、
+			ニコ生側で大きな仕様変更等があった場合には追従できない可能性があります。
+		</p>
+		
+		<p>
+			そのため、積極的に開発が続いている他のツールへ乗り換えることを推奨します。
+			個人的にはニコヘルあたりがいいと思っています。
+		</p>
+		
+		<p>
+			ME は、はじめて生放送をする人に向けた簡易ツールという位置付けです。その意義は変わりませんが、
+			放送に慣れたら別の高機能ツールを使うことを検討してみてください。
+		</p>
+	</div>
+	
+	<table class="download-link">
+		<tr>
+			<td width="140">[2011.02.08] v1.53</td>
+			<td><a href="./archives/NicoReqMikunopopEdition_153.exe">NicoReqMikunopopEdition_153.exe</a></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/downloads" target="_blank">zip アーカイブ</a></td>
+		</tr>
+	</table>
+
+	<p>
+		　・リクエストタブの、各動画削除ボタンの有効化・無効化を切り替える機能を追加しました。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/545336b8c5bdc49174d88aad51583474fe223e6a" target="_blank">#commit</a>)</span><br />
+		　　「リクエスト」メニューから切り替えられます。<br />
+		　　放送を始める前に削除ボタンを無効にしておくことで、放送中に誤って消してしまう事故を防げます。<br />
+	</p>
+
+	<table class="download-link">
+		<tr>
+			<td width="140">[2011.01.27] v1.52</td>
+			<td><a href="./archives/NicoReqMikunopopEdition_152.exe">NicoReqMikunopopEdition_152.exe</a></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/downloads" target="_blank">zip アーカイブ</a></td>
+		</tr>
+	</table>
+
+	<p>
+		　・コミュニティ動画（so****）を再生できるようにしました。ただし、マイリス検索などは現在は仕組み上できません。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/77725b52863d4ee0220c6635a5f796879859c8f2" target="_blank">#commit</a>)</span><br />
+		　・サムネイル画像サーバの設定を settings.js に分離し、サーバを niconail.in へ変更しました（私が運用しています）。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/7cc134ad36aab3ab321728125566c473af1b905e" target="_blank">#commit</a>)</span><br />
+		　・細かい情報（P名除外リスト、タグリスト）を更新しました。
+	</p>
 
 	<table class="download-link">
 		<tr>
