@@ -93,7 +93,7 @@ for( my $no = 1; $no <= $page->last_page; $no += 0.5 ){
 			my $url = $1;
 			if( $url =~ m{((sm|nm)[0-9]{7,})}io ){
 				# 動画へのリンク
-				sprintf q|<a href="http://www.nicovideo.jp/watch/%s" target="_blank" class="video" title="&lt;img src=&quot;http://niconail.info/%s&quot; /&gt;">%s</a>|,
+				sprintf q|<a href="http://www.nicovideo.jp/watch/%s" target="_blank" class="video" title="&lt;img src=&quot;http://niconail.in/%s&quot; /&gt;">%s</a>|,
 					$1, $1, $1;
 			}
 			else{
