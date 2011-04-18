@@ -15,6 +15,20 @@
 </image>
 
 <item>
+	<title>[2011.04.18]</title>
+	<description>ニコリク・ミクノポップエディション 1.53.2 をリリースしました。</description>
+	<guid isPermaLink="true">http://mikunopop.info/</guid>
+	<pubDate>Mon, 18 Apr 2011 06:05:13 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
+	<title>[2011.04.17]</title>
+	<description>くらんちさんがジングル動画を作ってくださいました。</description>
+	<guid isPermaLink="true">http://www.nicovideo.jp/watch/sm14188953</guid>
+	<pubDate>Mon, 18 Apr 2011 04:07:07 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
 	<title>[2011.04.16]</title>
 	<description>ミクノアラート（彡）for Mac 1.00 をリリースしました。</description>
 	<guid isPermaLink="true">http://mikunopop.info/alert/</guid>

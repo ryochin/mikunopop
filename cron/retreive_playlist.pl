@@ -88,6 +88,7 @@ my @jingle = qw(
 my @ignore = qw(
 	sm7382119
 	sm1200617
+	sm13858315
 );
 
 my $content;
