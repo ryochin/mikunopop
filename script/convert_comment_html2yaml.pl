@@ -110,6 +110,11 @@ my $min = int( ( $end->epoch - $start->epoch ) / 60 );
 $db->{time} = $min;
 $db->{frame} = int( ( ( $min - 10 ) / 30 ) + 1 );
 
+# 予約の時は３分前からコメできるからずれちゃうので直す
+if( $start->minute > 50 ){
+	$start->add( minutes => 10 )->set( minute => 0 );
+}
+
 # 開始時刻をセットする
 $db->{start} = $start->epoch;
 
