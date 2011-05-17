@@ -18,6 +18,7 @@ my $uri_list = [
 #	'http://jbbs.livedoor.jp/internet/2353/storage/1243754024.html',
 #	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1257848535/2-',
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1274527202/2-',
+	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1304336074/2-',
 ];
 
 my $content;

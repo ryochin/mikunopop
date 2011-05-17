@@ -33,6 +33,7 @@ my $uri_list = [
 	'http://jbbs.livedoor.jp/internet/2353/storage/1243754024.html',    # 1st
 	'http://jbbs.livedoor.jp/internet/2353/storage/1257848535.html',    # 2nd
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1274527202/2-',    # 3rd
+	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1304336074/2-',    # 4th
 ];
 
 # ジングル
@@ -89,6 +90,8 @@ my @ignore = qw(
 	sm7382119
 	sm1200617
 	sm13858315
+	
+	sm13769516
 );
 
 my $content;
@@ -100,7 +103,7 @@ for my $uri( @{ $uri_list } ){
 	else{
 		printf STDERR "uri: %s: failed.\n", $uri;
 	}
-	sleep 1;
+	sleep 2;
 }
 
 my $ignore = {};    # vid => num
@@ -165,7 +168,9 @@ for my $line( split /\n/o, $content ){
 	}
 }
 
-printf STDERR "ignore: %d videos\n", scalar keys %{ $ignore };
+#printf STDERR "ignore: %d videos\n", scalar keys %{ $ignore };
+
+printf STDERR "total: %d videos\n", scalar keys %{ $video };
 
 my @video_all;
 for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{id} <=> $video->{$b}->{id} } keys %{ $video } ){
