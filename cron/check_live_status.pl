@@ -27,8 +27,10 @@ if( my $content = get( $feed_uri  ) ){
 		for my $entry( $feed->entries ){
 			$title = $entry->title;
 			next if $title !~ /ミクノポップを(き|聞|聴)かないか/o;
+			next if $title =~ /アイマス/o;
 			
 			$uri = $entry->link;
+			$uri =~ s{\?ref=community$}{};
 			
 			printf STDERR "=> ON AIR: %s by feed.\n", $title;
 			$live++;
@@ -50,6 +52,7 @@ if( not $live ){
 		# <h2><a href="http://live.nicovideo.jp/watch/lv10304992" class="community">ミクノポップをきかないか？Part3339</a></h2>
 		if( $html =~ m{<h2><a href="(http://live.nicovideo.jp/[^"]+?)" class="community">([^<>]+?)</a>}o ){    # "{
 			($uri, $title) = ($1, $2);
+			$uri =~ s{\?ref=community$}{};
 			
 			printf STDERR "=> ON AIR: %s by html.\n", $title;
 			$live++;
