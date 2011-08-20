@@ -7,7 +7,6 @@ app/countsearch
 app/info
 app/ping
 app/plist
-cron/check_live_status.pl
 cron/crontab.txt
 cron/fill_anon_pname_video_info_to_db.pl
 cron/fill_video_info_to_db.pl
@@ -739,6 +738,7 @@ lib/Mikunopop/Schema/Video.pm
 lib/Mikunopop/Tags.pm
 lib/Mikunopop/VideoInfo.pm
 script/Makefile
+script/check_live_status_daemon.pl
 script/convert_comment_html2yaml.pl
 script/create_comment_calendar.pl
 script/create_comment_html.pl
@@ -746,7 +746,8 @@ script/create_comment_index.pl
 script/mikunobot.pl
 script/mikunobot_test.pl
 script/show_aircaster_latest_show.pl
-service/run
+service/app/run
+service/live_checker/run
 setup/build_apache2_config.sh
 setup/build_apache2_modperl2.sh
 setup/logrotate.d/mikunopop

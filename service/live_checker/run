@@ -1,0 +1,13 @@
+#!/bin/sh
+# 
+
+PROJECT_HOME=/web/mikunopop
+
+exec \
+env - \
+    /bin/nice -5 \
+    /usr/local/bin/setuidgid ryo \
+	/usr/bin/perl \
+	${PROJECT_HOME}/script/check_live_status_daemon.pl -X \
+2>&1
+
