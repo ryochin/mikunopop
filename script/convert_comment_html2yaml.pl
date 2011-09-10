@@ -59,6 +59,7 @@ elsif( $content =~ m{<A id=myname[\n\s]+?href="http://www.nicovideo.jp/my">([^<>
 }
 
 my @content;
+my $seen = {};
 my $cnt = 0;
 for my $chunk( split m{</tr>}io, $content ){
 	$chunk =~ s/\r//go;
@@ -95,7 +96,17 @@ for my $chunk( split m{</tr>}io, $content ){
 			$d->{comment} =~ s{\n\s+}{}gso;
 		}
 		
-		push @content, $d;
+		# duplicate check
+		# -> kawa さんの主コメント（曲名とか）の重複を削る
+		my $content_admin = substr $content, 0, 30;
+		if( ( defined $d->{is_admin} and $d->{is_admin} ) and length $content_admin > 20 and defined $seen->{ $content_admin } ){
+			;
+		}
+		else{
+			$seen->{ $content_admin } = 1;
+			
+			push @content, $d;
+		}
 	}egios;
 }
 
