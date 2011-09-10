@@ -31,7 +31,6 @@ lib/Mikunopop/Tags.pm
 lib/Mikunopop/VideoInfo.pm
 
 # template
-template/play.html
 template/jingle.html
 template/comment.html
 template/count_search.html

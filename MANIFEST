@@ -761,7 +761,6 @@ template/comment_index.html
 template/count_search.html
 template/info.html
 template/jingle.html
-template/play.html
 var/comment/0/611.yml
 var/comment/0/617.yml
 var/comment/0/618.yml
