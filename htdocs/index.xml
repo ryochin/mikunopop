@@ -15,6 +15,13 @@
 </image>
 
 <item>
+	<title>[2011.09.10]</title>
+	<description>6000 回記念放送のコメントログを掲載しました。</description>
+	<guid isPermaLink="true">http://mikunopop.info/comment/6/6000.html</guid>
+	<pubDate>Sat, 10 Sep 2011 10:00:01 GMT</pubDate>    <!-- use httpdate  -->
+</item>
+
+<item>
 	<title>[2011.08.11]</title>
 	<description>ニコリク・ミクノポップエディション 1.55 をリリースしました。</description>
 	<guid isPermaLink="true">http://mikunopop.info/</guid>
