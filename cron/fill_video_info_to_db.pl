@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use lib qw(lib /web/mikunopop/lib);
 use Path::Class qw(file dir);
-use List::Util qw(first);
+use List::Util qw(first shuffle);
 use List::MoreUtils qw(uniq);
 use LWP::Simple qw(get);
 use YAML::Syck ();
@@ -13,6 +13,8 @@ use DateTime;
 use DateTime::Format::MySQL;
 use DateTime::Format::W3CDTF;
 use XML::Twig;
+use Getopt::Std;
+use Term::ANSIColor;
 
 use Mikunopop::Pnames;
 use Mikunopop::Tags;
@@ -21,6 +23,15 @@ use Mikunopop::Schema;
 
 use utf8;
 use Encode;
+
+local $ENV{DBIC_UNSAFE_AUTOCOMMIT_OK} = 1;
+
+Getopt::Std::getopts 'vi:s:' => my $opt = {};
+# -v: verbose
+# -i: single video id
+# -s: sort type( default: random) [random/new/old]
+
+my $debug = defined $opt->{v};
 
 my $base_dir = '/web/mikunopop/';
 my $var_dir = file( $base_dir, "var" );
@@ -42,9 +53,51 @@ my $schema = Mikunopop::Schema->connect("dbi:mysql:database=mikunopop", "mikunop
 
 my $now = DateTime->now( time_zone => 'Asia/Tokyo' );
 
+my @video;
+if( defined $opt->{i} ){
+	# single
+	my @list = grep { /^(sm|nm|so)\d+$/o }  split /[^0-9a-z]+/o, $opt->{i};
+	for my $video( @{ YAML::Syck::LoadFile( $db_file ) } ){
+		if( first { $video->{id} eq $_ } @list ){
+			push @video, $video;
+		}
+	}
+}
+else{
+	# multi
+	printf STDERR "loading yaml file ...  " if $debug;
+	
+	my $sub = sub {
+		( my $n = $a->{id} ) =~ s/^[^0-9]+//o;
+		( my $m = $b->{id} ) =~ s/^[^0-9]+//o;
+		return $n <=> $m;
+	};
+	
+	if( defined $opt->{s} and $opt->{s} ne '' ){
+		if( first { $opt->{s} eq $_ } qw(rand random) ){
+			# random
+			@video = shuffle @{ YAML::Syck::LoadFile( $db_file ) };
+		}
+		elsif( first { $opt->{s} eq $_ } qw(new) ){
+			# new
+			@video = reverse sort $sub @{ YAML::Syck::LoadFile( $db_file ) };
+		}
+		elsif( first { $opt->{s} eq $_ } qw(old) ){
+			# new
+			@video = sort $sub @{ YAML::Syck::LoadFile( $db_file ) };
+		}
+	} 
+	else{
+		# default
+		@video = shuffle @{ YAML::Syck::LoadFile( $db_file ) };
+	}
+	
+	printf STDERR "done.\n" if $debug;
+}
+
 my $cnt = 0;
-for my $video( @{ YAML::Syck::LoadFile( $db_file ) } ){
-	last if ++$cnt > 1000;
+for my $video( @video ){
+	last if $cnt > 500;
 	
 	next if first { $video->{id} eq $_ } @{ $Mikunopop::VideoInfo::Deleted };
 	
@@ -52,27 +105,32 @@ for my $video( @{ YAML::Syck::LoadFile( $db_file ) } ){
 		# 更新時刻をチェック
 		my $update_date = DateTime::Format::MySQL->parse_datetime( $v->update_date );
 		if( $now->epoch - $update_date->epoch < $hour * 60 ** 2 ){
-#			printf STDERR "=> too new, skip: %s\n", $video->{id};
+#			printf STDERR "% 12s: skip (too new)\n", $video->{id} if $debug;
+			
 			next;
 		}
 		else{
 			# 更新
 			if( my $result = &get_video_info( $video->{id} ) ){
+				$cnt++;
 				for my $key( qw(title description view_counter mylist_counter comment_num pnames tags) ){
 					$v->$key( $result->{$key} );
 				}
 				$v->update_date( DateTime::Format::MySQL->format_datetime( $now ) );
 				$v->update;
+				
+				printf STDERR "% 12s: updated\n", $video->{id} if $debug;
 			}
 			else{
-				printf STDERR "=> deleted?: %s\n", $video->{id};
+				printf STDERR "% 12s: %sdeleted?%s\n", $video->{id}, color('red'), color('reset') if $debug;
 			}
 		}
 	}
 	else{
 		# なければ埋める
 		if( my $result = &get_video_info( $video->{id} ) ){
-			printf STDERR "=> new entry: %s\n", $video->{id};
+			$cnt++;
+			printf STDERR "% 12s: new entry\n", $video->{id} if $debug;
 			
 			$schema->resultset('Video')->create( {
 				vid => $video->{id},
@@ -94,14 +152,14 @@ for my $video( @{ YAML::Syck::LoadFile( $db_file ) } ){
 			} );
 		}
 		else{
-			printf STDERR "=> deleted?: %s\n", $video->{id};
+			printf STDERR "% 12s: %sdeleted?%s\n", $video->{id}, color('red'), color('reset') if $debug;
 		}
 	}
 	
 	# commit
 	$schema->storage->txn_commit;
 	
-	sleep 3;
+	sleep 2;
 }
 
 # cleanup
