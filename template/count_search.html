@@ -112,7 +112,8 @@ $(document).ready( function () {
 		<form action="[% current_url %]" method="post">
 			<p>
 				再生回数が [% form.from %] から [% form.to %] の曲のうち
-					<input type="text" name="query" value="[% query | html %]" size="12" class="user-input" id="query" /> や [% form.tag %] を含む曲を <input type="submit" value="　見る　" />
+					<input type="text" name="query" value="[% query | html %]" size="12" class="user-input" id="query" placeholder="曲名、Ｐ名など" /> や
+					[% form.tag %] を含む曲を <input type="submit" value="　見る　" />
 			</p>
 		</form>
 	</div>
