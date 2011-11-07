@@ -111,6 +111,7 @@ my @ignore_hello = (
 	qr{^w2k(_.+)*}io,
 	qr{^danjoh(_.+)*}io,
 	qr{^karukaru(_.+)*}io,
+	qr{^kawa(_.+)*}io,
 );
 
 my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
@@ -236,6 +237,7 @@ sub chanjoin {
 			return;
 		}
 		
+=for
 		my @reply_hello = (
 			q{あら、%sさんいらっしゃい。},
 		);
@@ -276,6 +278,7 @@ sub chanjoin {
 		$msg = sprintf $msg, $who;
 		
 		$self->_say( $args, $msg );
+=cut
 	}
 
 	return;
