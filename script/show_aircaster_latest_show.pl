@@ -109,10 +109,18 @@ for my $line( split /\n/o, $content ){
 
 my $limit = DateTime->now( time_zone => 'local' )->add( days => -30 );
 my $flag = 0;
+
+my $flag_halfyear = 0;
+my $limit_halfyear = DateTime->now( time_zone => 'local' )->add( days => -180 );
+
 for my $aircaster( sort { $list->{$a} <=> $list->{$b} } keys %{ $list } ){
 	if( not $flag and $list->{ $aircaster }->epoch > $limit->epoch ){
-		printf "%s\n", '-' x 32;
+		printf "%s 1 month \n", '-' x 32;
 		$flag++;
+	}
+	if( not $flag_halfyear and $list->{ $aircaster }->epoch > $limit_halfyear->epoch ){
+		printf "%s 6 months \n", '-' x 32;
+		$flag_halfyear++;
 	}
 	
 	printf "%s: %s\n", Encode::encode_utf8( $aircaster ), $list->{ $aircaster }->ymd(".");
