@@ -4,47 +4,52 @@ use strict;
 use warnings;
 use List::Util qw(first shuffle);
 use DateTime;
+use Data::WeightedRoundRobin;
 
 use utf8;
 use Encode;
 
 my $tz = DateTime::TimeZone->new( name => 'Asia/Tokyo' );
 
-my @reply_random = (
-	q{誰か私を呼んだ？　いま忙しいからあとでね！＞%s},
-	q{なによ、気安く話しかけないでよね！＞%s},
-#	q{わたしの名前はミクノちゃん、でほんとにいいのかしら。},
-#	q{♪　㍍⊃、溶・け・て・しっまっい〜そぉ〜　♪},
-	q{さ、つぎ主やるのはだれなの？},
-	q{そろそろ放送が聴きたいわね、次は%sが主やるのよ。},
-	q{あらあらそんなこと言って、わたしに踏まれたいのかしら？＞%s},
-	q{あらあらウフフ。＞%s},
-#	q{まったく、またジャガボンゴなの？},
-	q{( ﾟ∀ﾟ)o彡ﾟ%s！%s！},
-	q{・・・・。},
-	q{・・・・？},
-	q{今すぐアイスを買ってきなさい！　姫はダッツをご所望よ！＞%s},
-	q{そうだわ、NoNoWireを爆破してらっしゃい！＞%s},
-	q{なんとなくnocしたい、そんな夜もあるわよね。わかるわ・・・。},
-	q{乙ですぅぅぅ！},
-#	q{園長カードオープン！　「６時間延長トラップ」発動！},
-#	q{「踏まれ隊」だなんて、ミクノは変態ばっかりね！},
-	q{ん？},
-#	q{そういえば、「ニコ生でいちばんオサレ」だなんて、ちょっと言い過ぎよね。},
-#	q{メルトはもう飽きたわ。そもそもミクノ分が無いじゃない。},
-	q{そろそろ私が主デビューしようかしら。},
-	q{え、なに？　よく聞こえなかったわ。＞%s},
-#	q{ミク廃連合もなにかテーマ曲が欲しいわね。},
-	q{ん〜、それもそうね。},
-	q{ん〜、よくわからないわ。},
-	q{あら、そ。},
-	q{ふわ〜ぁ・・},
-	q{zzZ...},
-	q{はぅ＞＜},
-	q{おなか・・すいた・・。},
-	q{__o-^L   __o-^L   __o-^L},
-	q{はっかたん・・///},
-);
+my $reply_random = [
+	{ value => q{誰か私を呼んだ？　いま忙しいからあとでね！＞%s}, weight => 70 },
+	{ value => 	q{なによ、気安く話しかけないでよね！＞%s}, weight => 70 },
+#	{ value => 	q{わたしの名前はミクノちゃん、でほんとにいいのかしら。}, weight => 100 },
+#	{ value => 	q{♪　㍍⊃、溶・け・て・しっまっい〜そぉ〜　♪}, weight => 100 },
+	{ value => 	q{さ、つぎ主やるのはだれなの？}, weight => 70 },
+	{ value => 	q{そろそろ放送が聴きたいわね、次は%sが主やるのよ。}, weight => 50 },
+	{ value => 	q{あらあらそんなこと言って、わたしに踏まれたいのかしら？＞%s}, weight => 20 },
+	{ value => 	q{あらあらウフフ。＞%s}, weight => 100 },
+#	{ value => 	q{まったく、またジャガボンゴなの？}, weight => 100 },
+	{ value => 	q{( ﾟ∀ﾟ)o彡ﾟ%s！%s！}, weight => 30 },
+	{ value => 	q{・・・・。}, weight => 100 },
+	{ value => 	q{・・・・？}, weight => 100 },
+	{ value => 	q{今すぐアイスを買ってきなさい！　姫はダッツをご所望よ！＞%s}, weight => 10 },
+	{ value => 	q{そうだわ、NoNoWireを爆破してらっしゃい！＞%s}, weight => 5 },
+	{ value => 	q{なんとなくnocしたい、そんな夜もあるわよね。わかるわ・・・。}, weight => 5 },
+	{ value => 	q{乙ですぅぅぅ！}, weight => 40 },
+#	{ value => 	q{園長カードオープン！　「６時間延長トラップ」発動！}, weight => 100 },
+#	{ value => 	q{「踏まれ隊」だなんて、ミクノは変態ばっかりね！}, weight => 100 },
+	{ value => 	q{ん？}, weight => 100 },
+#	{ value => 	q{そういえば、「ニコ生でいちばんオサレ」だなんて、ちょっと言い過ぎよね。}, weight => 100 },
+#	{ value => 	q{メルトはもう飽きたわ。そもそもミクノ分が無いじゃない。}, weight => 100 },
+	{ value => 	q{そろそろ私が主デビューしようかしら。}, weight => 20 },
+	{ value => 	q{え、なに？　よく聞こえなかったわ。＞%s}, weight => 100 },
+#	{ value => 	q{ミク廃連合もなにかテーマ曲が欲しいわね。}, weight => 100 },
+	{ value => 	q{ん〜、それもそうね。}, weight => 100 },
+	{ value => 	q{ん〜、よくわからないわ。}, weight => 100 },
+	{ value => 	q{あら、そ。}, weight => 100 },
+	{ value => 	q{ふわ〜ぁ・・}, weight => 100 },
+	{ value => 	q{zzZ...}, weight => 100 },
+	{ value => 	q{はぅ＞＜}, weight => 100 },
+	{ value => 	q{Yes!}, weight => 100 },
+	{ value => 	q{No!}, weight => 100 },
+	{ value => 	q{♪}, weight => 100 },
+	{ value => 	q{おなか・・すいた・・。}, weight => 50 },
+	{ value => 	q{__o-^L   __o-^L   __o-^L}, weight => 50 },
+	{ value => 	q{はっかたん・・///}, weight => 20 },
+	{ value => 	q{ヒマだわ、誰か腹踊りでもしないかしら（チラッ}, weight => 50 },
+];
 
 sub _talk {
 	my $self = shift;
@@ -311,7 +316,8 @@ sub _talk_random {
 	my $self = shift;
 	my $args = shift or return;
 
-	my ($msg) = shuffle @reply_random;
+	my $dwr = Data::WeightedRoundRobin->new( $reply_random );
+	my $msg = $dwr->next;
 	return sprintf $msg, $args->{who}, $args->{who}, $args->{who};
 }
 
@@ -347,7 +353,8 @@ sub _talk_hello {
 	my $self = shift;
 	my $args = shift or return;
 
-	my ($msg) = shuffle @reply_random;
+	my $dwr = Data::WeightedRoundRobin->new( $reply_random );
+	my $msg = $dwr->next;
 	return sprintf $msg, $args->{who}, $args->{who}, $args->{who};
 }
 
