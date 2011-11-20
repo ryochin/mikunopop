@@ -40,6 +40,7 @@ git-add-comment-html:
 	git add var/comment/*/**
 	git add htdocs/comment/*/**
 	git add htdocs/comment/index.html
+	$(MAKE) manifest
 
 upload:
 	rsync -avz -e ssh lib/Mikunopop/ diana:/web/mikunopop/lib/Mikunopop/
