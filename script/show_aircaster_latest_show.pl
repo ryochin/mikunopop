@@ -7,6 +7,7 @@ use CGI;
 use URI::Fetch;
 use DateTime;
 use Data::Dumper;
+use Text::ASCIITable;
 
 use utf8;
 use Encode;
@@ -52,7 +53,7 @@ for my $line( split /\n/o, $content ){
 	my $aircaster = "";
 	if( $line =~ m{<a href="[^"]+"><b>([^<>]+)</b></a>}io ){    # "
 		$aircaster = $1;
-		next if first { $aircaster =~ /$_/ } ( qr{ジングル}, qr{なまはい}, qr{寝落ち}, qr{枠}, qr{クロスフェード}, qr{特集}, qr{代理カキコ} );
+		next if first { $aircaster =~ /$_/ } ( qr{ジングル}, qr{なまはい}, qr{寝落ち}, qr{枠}, qr{クロスフェード}, qr{特集}, qr{代理カキコ}, qr{補正}, qr{まいして} );
 		
 		$aircaster = 'きぬこもち' if $aircaster =~ /ルカ姉様/o;
 		$aircaster = 'higumon' if $aircaster =~ /higumon.+/o;
@@ -60,6 +61,7 @@ for my $line( split /\n/o, $content ){
 		$aircaster = 'メガーネ君＠生主' if $aircaster =~ /めがね/o;
 		$aircaster = 'SOL' if $aircaster =~ /ＳＯＬ/o;
 		$aircaster = 'SOL' if $aircaster =~ /Ｓ.Ｏ.Ｌ/o;
+		$aircaster = 'SOL' if $aircaster =~ /S\.O\.L/io;
 		$aircaster = 'Mint=Rabbit' if $aircaster =~ /Mint.+/o;
 		$aircaster = 'bird-m@トリィ' if $aircaster =~ /トリィ/o;
 		$aircaster = 'くらんち' if $aircaster =~ /くらんち.+/o;
@@ -78,7 +80,8 @@ for my $line( split /\n/o, $content ){
 	
 	my $cnt = 0;
 	for my $data( split m{<br>}, $line ){
-		next if $data !~ /^\s*?[\-]*?\s*?(sm|nm)[0-9]{7,8}/o;
+#		next if $data !~ /^\s*?[\-]*?\s*?(sm|nm)[0-9]{7,8}/o;
+		next if $data !~ /(sm|nm)[0-9]{7,8}/o;
 		$cnt++;
 	}
 	
@@ -113,19 +116,36 @@ my $flag = 0;
 my $flag_halfyear = 0;
 my $limit_halfyear = DateTime->now( time_zone => 'local' )->add( days => -180 );
 
+my $flag_oneyear = 0;
+my $limit_oneyear = DateTime->now( time_zone => 'local' )->add( days => -365 );
+
+my $table = Text::ASCIITable->new( { allowANSI => 1 } );
+$table->setCols( qw(last_date aircaster) );
+$table->alignCol( aircaster => 'left' );
+
 for my $aircaster( sort { $list->{$a} <=> $list->{$b} } keys %{ $list } ){
 	if( not $flag and $list->{ $aircaster }->epoch > $limit->epoch ){
-		printf "%s 1 month \n", '-' x 32;
+		$table->addRow("----------------", "[ 1 month ]");
 		$flag++;
 	}
 	if( not $flag_halfyear and $list->{ $aircaster }->epoch > $limit_halfyear->epoch ){
-		printf "%s 6 months \n", '-' x 32;
+		$table->addRow("----------------", "[ 6 month ]");
 		$flag_halfyear++;
 	}
+	if( not $flag_oneyear and $list->{ $aircaster }->epoch > $limit_oneyear->epoch ){
+		$table->addRow("----------------", "[ 1 year ]");
+		$flag_oneyear++;
+	}
 	
-	printf "%s: %s\n", Encode::encode_utf8( $aircaster ), $list->{ $aircaster }->ymd(".");
+	$table->addRow( $list->{ $aircaster }->ymd("."), Encode::encode_utf8( $aircaster ) );
 }
 
+print $table->draw(
+	[qw(+ + - +)],
+	[qw(| | |)],
+	[qw(+ + - )],
+	[qw(| | |)],
+	[qw(+ + - +)],
+);
+
 __END__
-
-
