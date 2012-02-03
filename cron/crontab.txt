@@ -11,6 +11,9 @@
 31 */8 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/retreive_playlist.pl > /dev/null 2>&1
 32 */8 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/retreive_playlist_ura.pl > /dev/null 2>&1
 
+# fill count
+33 */8 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/fill_count_to_db.pl > /dev/null 2>&1
+
 # video info
 47 */6 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/fill_video_info_to_db.pl > /dev/null 2>&1
 

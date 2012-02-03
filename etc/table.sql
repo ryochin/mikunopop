@@ -13,6 +13,8 @@ create table video (
 
     pnames varchar(255) ,
     tags varchar(255) ,
+
+    count int(1) not null default 0,
     
     regist_date datetime,
     update_date datetime,

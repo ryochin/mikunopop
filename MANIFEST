@@ -9,6 +9,7 @@ app/ping
 app/plist
 cron/crontab.txt
 cron/fill_anon_pname_video_info_to_db.pl
+cron/fill_count_to_db.pl
 cron/fill_video_info_to_db.pl
 cron/format_award_3rd.pl
 cron/retreive_playlist.pl

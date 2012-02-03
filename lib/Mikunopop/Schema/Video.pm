@@ -19,6 +19,8 @@ CLASS->add_columns(qw(
 	
 	pnames
 	tags
+
+	count
 	
 	regist_date
 	update_date
