@@ -16,7 +16,7 @@ use List::MoreUtils qw(uniq);
 use DateTime;
 use DateTime::Format::W3CDTF;
 use JSON::XS ();
-use LWP::Simple qw(get);
+use Furl;
 use XML::Twig;
 
 use Mikunopop::Pnames;
@@ -45,119 +45,113 @@ my $app = sub {
 		$last = time;
 	}
 
-	my $id;
+	my $stash = {};
+	
+	my $addr;
 	if( defined $req->param('id') ){
-		if( $req->param('id') =~ m{^.+((sm|nm)\d+)\s*$}o ){
-			# http://www.nicovideo.jp/watch/sm6626954
-			# リクです〜sm6626954
-			$id = $1;
-		}
-		elsif( $req->param('id') =~ m{^(sm|nm)\d+\s*$}o ){
-			# sm6626954
-			$id = $req->param('id');
-		}
-		elsif( $req->param('id') =~ m{^\d+\s*$}o ){
-			# 6626954
-			# -> sm を補完する
-			$id = sprintf "sm%d", $req->param('id');
-		}
+		$addr = $req->param('id');
 	}
 	else{
-		# path_info から得る
-		$id = $req->path_info;
-		$id =~ s{^/+}{}o;
+		$addr = $req->path_info;
 	}
 
-	$id =~ s/\s+//go;
+	my $id = $stash->{id} = &parse_addr( $addr );
 
-	my $stash = {};
-	$stash->{id} = $id;
+	if( $id ){
+		my $info_url = sprintf "http://ext.nicovideo.jp/api/getthumbinfo/%s", $id;
 
-	my $info_url = sprintf "http://ext.nicovideo.jp/api/getthumbinfo/%s", $id;
+		my $furl = Furl->new( timeout => 10 );
+		my $res = $furl->get( $info_url );
 
-	if( $id and my $content = get( $info_url ) ){
-		my $handler = {};
-		my @tag;
-		$handler->{'/nicovideo_thumb_response/thumb'} = sub {
-			my ($tree, $elem) = @_;
+		if( $res->is_success ){
+			my $content = $res->content;
 			
-			for my $item( $elem->children ){
-				# get all
-				my @key = qw(title description thumbnail_url first_retrieve length view_counter comment_num mylist_counter watch_url last_res_body no_live_play);
+			my $handler = {};
+			my @tag;
+			$handler->{'/nicovideo_thumb_response/thumb'} = sub {
+				my ($tree, $elem) = @_;
 				
-				for my $key( @key ){
-					if( $item->name eq $key ){
-						$stash->{$key} = &unescape_html( $item->trimmed_text );
+				for my $item( $elem->children ){
+					# get all
+					my @key = qw(title description thumbnail_url first_retrieve length view_counter comment_num mylist_counter watch_url last_res_body no_live_play);
+					
+					for my $key( @key ){
+						if( $item->name eq $key ){
+							$stash->{$key} = &unescape_html( $item->trimmed_text );
+						}
 					}
-				}
-				
-				# all tag
-				if( $item->name eq 'tags' and $item->att('domain') eq 'jp' ){
-					for my $t( $item->children ){
-						next if first { $t->trimmed_text eq $_ } ( q{音楽}, "VOCALOID" );
-						push @tag, $t->trimmed_text;
+					
+					# all tag
+					if( $item->name eq 'tags' and $item->att('domain') eq 'jp' ){
+						for my $t( $item->children ){
+							next if first { $t->trimmed_text eq $_ } ( q{音楽}, "VOCALOID" );
+							push @tag, $t->trimmed_text;
+						}
 					}
-				}
-			}
-		};
-		
-		# parse
-		my $twig = XML::Twig->new( TwigHandlers => $handler );
-		eval { $twig->parse( $content ) };
-		
-		# vocaloid tag
-		my @tag_vocaloid;
-		for my $tag( @tag ){
-			# first が使えない
-			for my $t( @{ $Mikunopop::Tags::Tags } ){
-				if( $tag =~ /^$t$/i ){
-					push @tag_vocaloid, $tag;
-				}
-			}
-		}
-		
-		# set
-		$stash->{tag} = [ @tag ];
-		$stash->{tag_vocaloid} = [ uniq @tag_vocaloid ];
-		
-		if( defined $stash->{title} and $stash->{title} ne '' ){
-			$stash->{has_info} = 1;
-			
-			# pname
-			if( my @pname = &Mikunopop::Pnames::get_pnames( @{ $stash->{tag} } ) ){
-				$stash->{pnames} = [ @pname ];
-				$stash->{pname} = join ' ', @pname;
-			}
-			else{
-				$stash->{pname} = "Ｐ名？";
-			}
-			
-			# first_retrieve
-			my $f = DateTime::Format::W3CDTF->new;
-			$stash->{first_retrieve} = eval { $f->parse_datetime( $stash->{first_retrieve} ) };
-			
-			my $tz = DateTime::TimeZone->new( name => 'local' );
-			my $now = DateTime->now( time_zone => $tz );
-			
-			eval {
-				if( $now->epoch - $stash->{first_retrieve}->epoch < 7 * 24 * 60 ** 2 ){
-					$stash->{is_too_new} = 1;
 				}
 			};
 			
-			# マイリス率
-			$stash->{mylist_percent} = sprintf "%.1f", $stash->{mylist_counter} / $stash->{view_counter} * 100;
+			# parse
+			my $twig = XML::Twig->new( TwigHandlers => $handler );
+			eval { $twig->parse( $content ) };
 			
-			# ミクノ度
-			if( defined $count->{$id} and $count->{$id} > 0 ){
-				$stash->{count} = $count->{$id};
+			# vocaloid tag
+			my @tag_vocaloid;
+			for my $tag( @tag ){
+				# first が使えない
+				for my $t( @{ $Mikunopop::Tags::Tags } ){
+					if( $tag =~ /^$t$/i ){
+						push @tag_vocaloid, $tag;
+					}
+				}
+			}
+			
+			# set
+			$stash->{tag} = [ @tag ];
+			$stash->{tag_vocaloid} = [ uniq @tag_vocaloid ];
+			
+			if( defined $stash->{title} and $stash->{title} ne '' ){
+				$stash->{has_info} = 1;
+				
+				# pname
+				if( my @pname = &Mikunopop::Pnames::get_pnames( @{ $stash->{tag} } ) ){
+					$stash->{pnames} = [ @pname ];
+					$stash->{pname} = join ' ', @pname;
+				}
+				else{
+					$stash->{pname} = "Ｐ名？";
+				}
+				
+				# first_retrieve
+				my $f = DateTime::Format::W3CDTF->new;
+				$stash->{first_retrieve} = eval { $f->parse_datetime( $stash->{first_retrieve} ) };
+				
+				my $tz = DateTime::TimeZone->new( name => 'local' );
+				my $now = DateTime->now( time_zone => $tz );
+				
+				eval {
+					if( $now->epoch - $stash->{first_retrieve}->epoch < 7 * 24 * 60 ** 2 ){
+						$stash->{is_too_new} = 1;
+					}
+				};
+				
+				# マイリス率
+				$stash->{mylist_percent} = sprintf "%.1f", $stash->{mylist_counter} / $stash->{view_counter} * 100;
+				
+				# ミクノ度
+				if( defined $count->{$id} and $count->{$id} > 0 ){
+					$stash->{count} = $count->{$id};
+				}
+				else{
+					$stash->{count} = '0';
+				}
 			}
 			else{
-				$stash->{count} = '0';
+				$stash->{not_found} = 1;
 			}
 		}
 		else{
-			$stash->{not_found} = 1;
+			warn $res->status_line;
 		}
 	}
 
@@ -174,6 +168,31 @@ my $app = sub {
 
 	return $res->finalize;
 };
+
+sub parse_addr {
+	my $addr = shift;
+	$addr =~ s{^/+}{}o;
+	
+	my $id = '';
+	if( $addr =~ m{^.+((sm|nm)\d+)\s*$}o ){
+		# http://www.nicovideo.jp/watch/sm6626954
+		# リクです〜sm6626954
+		$id = $1;
+	}
+	elsif( $addr =~ m{^(sm|nm)\d+\s*$}o ){
+		# sm6626954
+		$id = $addr;
+	}
+	elsif( $addr =~ m{^\d+\s*$}o ){
+		# 6626954
+		# -> sm を補完する
+		$id = sprintf "sm%d", $addr;
+	}
+	
+	$id =~ s/\s+//go;
+	
+	return $id;
+}
 
 sub create_template {
 	require Template;
