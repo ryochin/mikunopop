@@ -597,6 +597,7 @@ htdocs/comment/2011/09.html
 htdocs/comment/2011/10.html
 htdocs/comment/2011/11.html
 htdocs/comment/2011/12.html
+htdocs/comment/2012/01.html
 htdocs/comment/3/3000.html
 htdocs/comment/3/3001.html
 htdocs/comment/3/3004.html
@@ -678,6 +679,7 @@ htdocs/comment/6/6155.html
 htdocs/comment/6/6238.html
 htdocs/comment/6/6239.html
 htdocs/comment/6/6328.html
+htdocs/comment/6/6437.html
 htdocs/comment/index.html
 htdocs/commentlog/1000.html
 htdocs/css/colorbox.css
@@ -1396,4 +1398,5 @@ var/comment/6/6155.yml
 var/comment/6/6238.yml
 var/comment/6/6239.yml
 var/comment/6/6328.yml
+var/comment/6/6437.yml
 var/comment/meta.yml
