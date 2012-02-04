@@ -1,6 +1,5 @@
 # 
 
-use v5.10;
 use strict;
 use warnings;
 use lib qw(/web/mikunopop/lib);
@@ -9,41 +8,40 @@ use Plack::Builder;
 use Plack::Request;
 use Plack::Response;
 
-use Data::Dumper;
 use Path::Class qw(file);
-use List::Util qw(first max);
-use List::MoreUtils qw(all);
-use YAML::Syck ();
-local $YAML::Syck::ImplicitUnicode = 1;    # utf8 flag on
+use List::Util qw(first);
+use List::MoreUtils qw(uniq);
 use CGI;
 use Config::Pit;
+use Text::Xslate ();
+use DateTime;
+use DateTime::Format::MySQL;
 
 use Mikunopop::Pnames;
 use Mikunopop::Tags;
 use Mikunopop::Schema;
+use Mikunopop::Query2SQL;
+
+use Data::Printer;
 
 use utf8;
 use Encode ();
 
+# setup
 my $base_dir = '/web/mikunopop/';
 my $var_dir = file( $base_dir, "var" );
 
-my $db_file = file( $var_dir, 'playlist.db' );
 my $template_file = file( $base_dir, "template", "count_search.html" )->stringify;
 
 my $expire = 6 * 60 ** 2;    # 6hrs
 my $last = 0;    # epoch
-my $count;    # count container
-my $max = 0;    # count container
 
+# db
 my $code = 'utf8';
 my $dbiconfig = {
-#	AutoCommit => 0,    # transaction
-#	RaiseError => 1,
 	on_connect_do => [
 		"SET CHARACTER SET $code",
 		"SET NAMES $code",
-#		"SET SESSION senna_2ind=OFF",
 	],
 };
 
@@ -57,58 +55,13 @@ my $schema = Mikunopop::Schema->connect("dbi:mysql:database=mikunopop", @{$confi
 my $app = sub {
 	my $req = Plack::Request->new(shift);
 
-	# insert to memory
-	if( time - $last > $expire ){
-#		$req->logger->("=> count file reloaded.");
-		$count = YAML::Syck::LoadFile( $db_file->stringify );
-		
-		# 前処理
-		for my $video( @{ $count } ){
-			$max = $video->{view}
-				if $video->{view} > $max;
-			
-			$video->{title} = Encode::decode_utf8( $video->{title} );
-		}
-		
-		$last = time;
+	# get count max
+	my $count_max = 0;
+	if( my ($video) = $schema->resultset('Video')->search( { }, { order_by => \ 'count DESC', columns => [ qw(count) ] } )->slice( 0, 1 ) ){
+		$count_max = $video->count;
 	}
 
-	my $cgi = CGI->new;
-	$cgi->charset('utf-8');
-
-	my $stash = {};
-
-	# from, to
-	my $from = $stash->{from} = int $req->param('from') || 20;
-	my $to = $stash->{to} = int $req->param('to') || $max;
-
-	if( $from > $to ){
-		($from, $to) = ($to, $from);
-	}
-
-	# query
-	my $query = ( defined $req->param('query') and $req->param('query') ne '' )
-		? $req->param('query')
-		: "";
-
-	$query = Encode::decode_utf8( $query );
-
-	my @query;
-	if( $query ne '' ){
-		$query =~ s/^\s+//o;
-		$query =~ s/\s+$//o;
-		
-		@query = split /[\s　]+/o, $query;
-		@query = splice @query, 0, 3 if scalar @query > 3;
-		
-		$query = join ' ', @query;
-	}
-
-	# tag
-	my $tag = ( defined $req->param('tag') and $req->param('tag') ne '' )
-		? $req->param('tag')
-		: "";
-
+	# tag list
 	my $tag_list = {};
 	my @tags = @{ $Mikunopop::Tags::Tags };
 	for my $n( 0 .. scalar( @tags ) -1 ){
@@ -116,98 +69,191 @@ my $app = sub {
 	}
 	$tag_list->{""} = q/▼ タグ/;
 
-	# prepare
-	my @candidate;
-	for my $video( @{ $count } ){
-		next if $video->{view} < $from;
-		next if $video->{view} > $to;
-		
-		push @candidate, $video->{id};
+	# cgi
+	my $cgi = CGI->new;
+	$cgi->charset('utf-8');
+
+	my $stash = {};
+
+	my @where;
+	my @search_param;
+
+	# date_from, date_to
+	if( defined $req->param('date_from') and $req->param('date_from') ne '' ){
+		my ($year, $month) = unpack "A4 A2", $req->param('date_from');
+		if( my $date_from = eval { DateTime->new( time_zone => 'Asia/Tokyo', year => $year, month => $month )->truncate( to => 'month' ) } ){
+			push @where, sprintf "first_retrieve >= '%s'", DateTime::Format::MySQL->format_datetime( $date_from );
+		}
 	}
-	
-	# get all
-	my $where = {
-		vid => { -in => [ @candidate ] }
-	};
-	
-	my $video_list = {};    # vid => dbi obj
-	for my $v( $schema->resultset('Video')->search( $where ) ){
-		$video_list->{ $v->vid } = $v;
+	if( defined $req->param('date_to') and $req->param('date_to') ne '' ){
+		my ($year, $month) = unpack "A4 A2", $req->param('date_to');
+		if( my $date_to = eval { DateTime->new( time_zone => 'Asia/Tokyo', year => $year, month => $month )->add( days => 45 )->truncate( to => 'month' )->add( seconds => -1 ) } ){
+			push @where, sprintf "first_retrieve <= '%s'", DateTime::Format::MySQL->format_datetime( $date_to );
+		}
 	}
 
-	# main
+	# from, to
+	my $from = $stash->{from} = $req->param('from') // 30;
+	my $to = $stash->{to} = $req->param('to') // $count_max;
+
+	if( $from > $to ){
+		($from, $to) = ($to, $from);
+	}
+
+	push @where, sprintf "count >= %d", $from;
+	push @where, sprintf "count <= %d", $to;
+
+	# query
+	my $query = Encode::decode_utf8( $req->param('query') ) // "";
+	if( $query ne '' ){
+		my $q2s = Mikunopop::Query2SQL->new( query => $query );
+		$q2s->method('AND');
+		$q2s->eliminate_num(3);
+		$q2s->column( [ qw(title pnames tags) ] );
+		
+		push @where, $q2s->sql;
+		push @search_param, $q2s->param;
+	
+		$stash->{query} = $q2s->query;    # normalized
+	}
+
+	# tag
+	my $tag = $req->param('tag') // "";
+	if( $tag ne '' ){
+		my $tag_name = $tag_list->{ $tag };
+		
+		my $q2s = Mikunopop::Query2SQL->new( query => $tag_name );
+		$q2s->method('AND');
+		$q2s->eliminate_num( 5 );
+		$q2s->column( [ qw(tags) ] );
+		$q2s->quote_with_colon( 1 );
+		
+		push @where, $q2s->sql;
+		push @search_param, $q2s->param;
+	}
+
+
+	### order:
+
+	my @order;
+	my $order =  $req->param('order') // "count";
+	if( $order eq "count" ){
+		push @order, 'count DESC, first_retrieve ASC';
+	}
+	elsif( $order eq "first_retrieve" ){
+		push @order, 'first_retrieve ASC, count DESC';
+	}
+	else{
+		# default (=count)
+		push @order, 'count DESC, first_retrieve ASC';
+	}
+
+
+	### search:
+
+	my @need_column = qw(vid title length first_retrieve pnames tags count);
+
+	# sql for search
+	my $sql = sprintf "SELECT %s FROM video \n", join ',', @need_column;
+	$sql .= sprintf "WHERE %s \n", join("\n AND ", @where);
+	$sql .= sprintf "ORDER BY %s \n", join(', ', @order);
+
 	my @video;
-	MAIN:
-	for my $video( @{ $count } ){
-#		next if $video->{view} < $from;
-#		next if $video->{view} > $to;
-		
-		my $v = $video_list->{ $video->{id} } or next;
-		
-		# query
-		if( scalar @query ){
-			
-			my $pnames = $v
-				? Encode::decode_utf8( $v->pnames )
-				: "";
-			
-			# 含む
-			if( $pnames ne '' ){
-				next MAIN if not all { $video->{title} =~ /$_/i  or $pnames =~ /$_/i } grep { ! /^-/ } @query;
-			}
-			else{
-				next MAIN if not all { $video->{title} =~ /$_/i } grep { ! /^-/ } @query;
-			}
-			
-			# 含まない
-			for my $pattern( @query ){
-				if( $pattern =~ /^-/o ){
-					(my $pat = $pattern) =~ s/^-//o;
-					next MAIN if $video->{title} =~ /$pat/;
-					next MAIN if $pnames ne '' && $pnames =~ /$pat/;
-				}
-			}
-		}
-		
-		# tag
-		if( $tag ne '' ){
-			next if not $v;
-			my @tags = grep { $_ ne '' } split ':', Encode::decode_utf8( $v->tags );
-			next if not first {  $_ =~ /^$tag_list->{ $tag }$/i } @tags;
-		}
-		
-		# value
-		$video->{pnames} = [];
-		$video->{tags} = [];
-		if( $v  ){
-			# pnames
-			$video->{pnames} = [ grep { $_ ne '' } split ':', Encode::decode_utf8( $v->pnames ) ];
-			
-			# tags
-			$video->{tags} = [ grep { $_ ne '' } split ':', Encode::decode_utf8( $v->tags ) ];
-			
-			# etc
-			for my $key( qw(length) ){
-				$video->{$key} = $v->$key();
-			}
-		}
-		
-		push @video, $video;
+	my $sth1 = $schema->storage->dbh->prepare( $sql );
+	my $total = $stash->{total} = $sth1->execute( @search_param ) or die $!;
+	while( my $hash = $sth1->fetchrow_hashref ){
+		push @video, $hash;
 	}
 
-	# num
-	$stash->{num} = scalar @video;
-	$stash->{too_many} = 1
-		if scalar @video > 500;
+	for my $video( @video ){
+		# id
+		( $video->{id} = $video->{vid} ) =~ s{^(sm|nm|so)}{}o;
+		
+		# pnames
+		$video->{pnames} = [ grep { $_ ne '' } split ':', Encode::decode_utf8( $video->{pnames} ) ];
+		$video->{has_pnames} = scalar @{ $video->{pnames} } > 0 ? 1 : 0;
+		
+		# tags
+		$video->{tags} = [ grep { $_ ne '' } split ':', Encode::decode_utf8( $video->{tags} ) ];
+		$video->{has_tags} = scalar @{ $video->{pnames} } > 0 ? 1 : 0;
+		
+		# count
+		$video->{count} =~ tr/0-9/０-９/;
+		
+		# date
+		if( defined $video->{first_retrieve} and $video->{first_retrieve} ne '' ){
+			$video->{date} = sprintf "%04d年%02d月%02d日", split /[\-\:\s]+/, $video->{first_retrieve};
+		}
+		else{
+			$video->{date} = "?";
+		}
+		
+		# set
+		push @{ $stash->{video} }, $video;
+	}
 
-	$stash->{video} = [ @video ];
-	$stash->{max} = $max;
+	# num check
+	$stash->{too_many} = 1
+		if $total > 500;
+
+
+	### form:
+
+	## date_from
+
+	my $now = DateTime->now( time_zone => 'Asia/Tokyo' );
+	
+	my @range_opt;
+	for my $year( 2007 .. $now->year ){
+		my $list = {};
+		for my $month( 1 .. 12 ){
+			next if $year == 2007 && $month < 9;
+			next if $year == $now->year && $month > $now->month;
+			
+			my $ym = sprintf "%04d%02d", $year, $month;
+			$list->{ $ym } = sprintf "%04d年%02d月", $year, $month;
+		}
+		
+		push @range_opt, $cgi->optgroup(
+			-name => $year,
+			-values => [ sort { $a <=> $b } keys %{ $list } ],
+			-labels => $list,
+		);
+	}
+
+	do {
+		$stash->{form}->{date_from} = $cgi->popup_menu(
+			-name => 'date_from',
+			-id => 'date-from',
+			-values => [ "", @range_opt ],
+			-default =>scalar( $req->param('date_from') // "" ),
+			-labels => { "" => q/▼ 〜から/ },
+			-override => 1,
+			-class => 'user-input',
+		);
+	};
+
+	## date_to
+
+	do {
+		$stash->{form}->{date_to} = $cgi->popup_menu(
+			-name => 'date_to',
+			-id => 'date-to',
+			-values => [ "", @range_opt ],
+			-default =>scalar( $req->param('date_to') // "" ),
+			-labels => { "" => q/▼ 〜まで/ },
+			-override => 1,
+			-class => 'user-input',
+		);
+	};
+
+
+	## from
 
 	# range
-	my @range = reverse 1 .. $max;
+	my @range = reverse 1 .. $count_max;
 	my $range_label = { map { $_ => sprintf "%d 回", $_ } @range };
 
-	# from
 	$stash->{form}->{from} = $cgi->popup_menu(
 		-name => 'from',
 		-id => 'from',
@@ -218,7 +264,8 @@ my $app = sub {
 		-class => 'user-input',
 	);
 
-	# to
+	## to
+
 	$stash->{form}->{to} = $cgi->popup_menu(
 		-name => 'to',
 		-id => 'to',
@@ -229,8 +276,8 @@ my $app = sub {
 		-class => 'user-input',
 	);
 
+	## tags
 
-	# tags
 	$stash->{form}->{tag} = $cgi->popup_menu(
 		-name => 'tag',
 		-id => 'tag',
@@ -241,55 +288,50 @@ my $app = sub {
 		-class => 'user-input',
 	);
 
-	$stash->{query} = $query;
+	## order
+	
+	my $order_list = {
+		count => q{ミクノ度順},
+		first_retrieve => q{投稿日順},
+	};
+	my @order_order = qw(count first_retrieve);
 
-	# query
-	# -> なぜか value が化ける
-#	$stash->{form}->{query} = $cgi->textfield(
-#		-name => 'query',
-#		-id => 'query',
-#		-default => $query,
-#		-override => 0,
-#		-size => 8,
-#		-class => 'user-input',
-#	);
+	$stash->{form}->{order} = $cgi->popup_menu(
+		-name => 'order',
+		-id => 'order',
+		-values => [ @order_order ],
+		-default => $order,
+		-labels => $order_list,
+		-override => 1,
+		-class => 'user-input',
+	);
+
+
+	### vars::
 
 	# etc
 	$stash->{current_url} = $req->script_name;
 
+
+	### output:
+
 	# out
-	my $template = &create_template;
+	my $xs = Text::Xslate->new(
+		path => [ '/', file( $base_dir, "template" ) ],
+		cache => 1,    # default
+		cache_dir => file( $base_dir, "tmp" ),
+		input_layer => ':utf8',    # default
+		syntax => 'TTerse',
+		type => 'html',
+	);
 
-	my $output;
-	$template->process( $template_file, $stash, \ $output, binmode => ':utf8' )
-		or die ;
-
+	# output
 	my $res = Plack::Response->new(200);
 	$res->content_type("text/html; charset=UTF-8");
-	$res->body( Encode::encode_utf8( $output ) );
+	$res->body( Encode::encode_utf8( $xs->render( $template_file, $stash ) ) );
 
 	return $res->finalize;
 };
 
-sub create_template {
-	require Template;
-
-	my $config = {
-		INCLUDE_PATH => '.',
-		ABSOLUTE => 1,
-		RELATIVE => 1,
-		AUTO_RESET => 1,
-		ENCODING => 'utf8',    # will be passed to Encode::decode()
-		PRE_CHOMP => 1,
-		POST_CHOMP => 0,
-		TRIM => 0,
-	};
-
-	my $tmpl_config = {
-		%{ $config },
-	};
-
-	return Template->new( $tmpl_config );
-}
 
 __END__

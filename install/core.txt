@@ -29,6 +29,7 @@ lib/Mikunopop/Schema/Video.pm
 lib/Mikunopop/Schema.pm
 lib/Mikunopop/Tags.pm
 lib/Mikunopop/VideoInfo.pm
+lib/Mikunopop/Query2SQL.pm
 
 # template
 template/jingle.html

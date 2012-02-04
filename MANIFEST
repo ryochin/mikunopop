@@ -754,6 +754,7 @@ install/recipe.yml
 lib/Mikunopop/Bot/Basic.pm
 lib/Mikunopop/Bot/Talk.pm
 lib/Mikunopop/Pnames.pm
+lib/Mikunopop/Query2SQL.pm
 lib/Mikunopop/Schema.pm
 lib/Mikunopop/Schema/Video.pm
 lib/Mikunopop/Tags.pm

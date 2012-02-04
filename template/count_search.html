@@ -48,6 +48,11 @@ span.length {
 	font-size: 85%;
 	margin-left: 4em;
 }
+span.date {
+	color: #999999;
+	font-size: 85%;
+	margin-left: 3em;
+}
 span.pnames {
 	color: #ffcccc;
 }
@@ -58,6 +63,12 @@ span.tags {
 hr {
 	size: 1px;
 	color: #666;
+}
+a.icon {
+	text-decoration: none;
+}
+span.strong {
+	color: #ffcccc;
 }
 </style>
 <script type="text/javascript">
@@ -72,7 +83,7 @@ $(document).ready( function () {
 	
 	// show-desc
 	$('#show-desc').click( function () {
-		$('#desc').show();
+		$('#desc').toggle();
 		return false;
 	} );
 } );
@@ -85,35 +96,40 @@ $(document).ready( function () {
 <div id="container">
 
 [% IF from == to %]
-	<h1>「ミクノポップをきかないか？」再生回数　[% from | html %]回</h1>
+	<h1>「ミクノポップをきかないか？」再生回数　[% from %]回</h1>
 [% ELSE %]
-	<h1>「ミクノポップをきかないか？」再生回数　[% from | html %]回〜[% to | html %]回</h1>
+	<h1>「ミクノポップをきかないか？」再生回数　[% from %]回〜[% to %]回</h1>
 [% END %]
 
-[% BLOCK links %]
 	<p>
 		<span id="show-desc">[クリックで詳しい説明を表示]</span><br />
 		[<a href="/">トップページに戻る</a>]<br />
 	</p>
-[% END %]
-
-[% PROCESS links %]
-	<p id="desc" style="display: none">
-		<a href="http://ch.nicovideo.jp/community/co13879" target="_blank">ミクノポップ</a>過去放送ログから、再生回数が多い順（同数なら古い順）に並べています。<br />
-		元のデータは、現在は８時間ごとに取得しています。<br />
-		プレイリストから自動生成する関係上、実際には再生されていない曲が含まれることもあります。<br />
-		再生回数に関しても、<strong>あくまでも参考値</strong>と考えて下さい。<br />
-		<a href="/play/all.csv.gz">すべてのデータのタブ区切りテキスト</a>（TSV 形式）もあります。解凍してエクセル等で加工できます。
-	</p>
+	
+	<div id="desc" style="display: none">
+		<ul>
+			<li>過去にコミュ放送で流れた回数を検索できます。</li>
+			<li>検索用語には、マイナス記号も使えます。例：「びにゅ ミク -charge」</li>
+		</ul>
+		<ul>
+			<li>放送プレイリストとニコニコ動画から定期的にデータを取得しています。</li>
+			<li>自動生成する関係上、実際には再生されていない曲が含まれることもあります。</li>
+			<li>いろんな理由でリク基準に合わない曲も含まれていたりしますので注意して下さい。</li>
+			<li>再生回数に関しても正確でない曲があります。<span class="strong">あくまでも参考値</span>と考えて下さい。</li>
+			<li><a href="/play/all.csv.gz">すべてのデータのタブ区切りテキスト</a>（TSV 形式）もあります。解凍してエクセル等で加工できます。</li>
+		</ul>
+	</div>
 
 	<h2>条件</h2>
-
 	<div>
 		<form action="[% current_url %]" method="post">
 			<p>
-				再生回数が [% form.from %] から [% form.to %] の曲のうち
-					<input type="text" name="query" value="[% query | html %]" size="12" class="user-input" id="query" placeholder="曲名、Ｐ名など" /> や
-					[% form.tag %] を含む曲を <input type="submit" value="　見る　" />
+				投稿日が [% form.date_from | raw %] から [% form.date_to | raw %] で再生回数が [% form.from | raw %] から [% form.to | raw %] の曲のうち、
+			</p>
+			<p>
+				[% form.tag | raw %] や
+				<input type="text" name="query" value="[% query %]" size="20" class="user-input" id="query" placeholder="曲名、Ｐ名、タグ" />
+				 を含む曲を [% form.order | raw %] で <input type="submit" value="　見る　" />
 			</p>
 		</form>
 	</div>
@@ -130,36 +146,32 @@ $(document).ready( function () {
 
 	<h2>動画一覧</h2>
 
-[% IF num > 0 %]
+[% IF total > 0 %]
 
 	<p>
-		[% num | html %] 曲見つかりました。
+		[% total %] 曲見つかりました。
 	</p>
 
 	<table summary="list">
 		<tr class="table-desc">
-			<td align="center" nowrap="nowrap">再生された回数</td>
-			<td align="center">サムネイル</td>
-			<td align="center" width="32">&nbsp;</td>
+			<td align="center" width="60">ミクノ度</td>
+			<td align="center" width="120">サムネイル</td>
+			<td align="center" width="16">&nbsp;</td>
 			<td align="left">　動画の説明</td>
 		</tr>
-[% FOR v = video %]
+[% FOR v IN video %]
 		<tr>
 			<td rowspan="3" align="center">
-				[% v.view | html %] 回
-				[% IF v.is_jingle %]
-					<br />
-					（ジングル）
-				[% END %]
+				彡[% v.count %]
 			</td>
-			<td rowspan="3" valign="top">
-				<a href="http://www.nicovideo.jp/watch/[% v.id | html %]" target="_blank" class="image"
-						title="&lt;img src=&quot;http://niconail.in/[% v.id | html %]&quot; /&gt;">
+			<td rowspan="3" align="center" valign="top">
+				<a href="http://www.nicovideo.jp/watch/[% v.vid %]" target="_blank" class="image"
+						title="&lt;img src=&quot;http://niconail.in/[% v.vid %]&quot; /&gt;">
 [% IF too_many %]
-					<img alt="[% v.title | html %]" src="/img/nico_dummy.png" 
+					<img alt="[% v.title %]" src="/img/nico_dummy.png"
 						class="video_w96 video-thumbnail" />
 [% ELSE %]
-					<img alt="[% v.title | html %]" src="http://tn-skr4.smilevideo.jp/smile?i=[% v.vid | html %]" 
+					<img alt="[% v.title %]" src="http://tn-skr4.smilevideo.jp/smile?i=[% v.id %]"
 						class="video_w96 video-thumbnail" />
 [% END %]
 				</a>
@@ -168,31 +180,36 @@ $(document).ready( function () {
 				&nbsp;
 			</td>
 			<td valign="top">
-				<a href="http://www.nicovideo.jp/watch/[% v.id | html %]" target="_blank" title="ニコニコ動画で見る">
-					<span class="title">[% v.title | html %]</span>
-				</a>
+				<span class="title"><a href="http://www.nicovideo.jp/watch/[% v.vid %]" target="_blank" title="ニコニコ動画で見る">[% v.title %]</a></span>
 				&nbsp;
-				<a href="http://nicosound.anyap.info/sound/[% v.id | html %]" target="_blank" title="にこ☆さうんど＃で見る">
+				&nbsp;
+				<a href="/info/[% v.vid %]" target="_blank" title="情報を見る" class="icon">
 					<img src="/img/music.gif" />
 				</a>
 				&nbsp;
-				<a href="http://dic.nicovideo.jp/v/[% v.id | html %]" target="_blank">
+				<a href="http://dic.nicovideo.jp/v/[% v.vid %]" target="_blank" class="icon">
 					<img src="http://res.nicovideo.jp/img/common/icon/dic_on.gif" />
 				</a>
 [% UNLESS is_all %]
 				&nbsp;
-				<img src="http://b.hatena.ne.jp/entry/image/small/http://www.nicovideo.jp/watch/[% v.id | html %]" alt="ブックマークユーザ数" valign="bottom" />
+				<a href="http://b.hatena.ne.jp/entry/http://www.nicovideo.jp/watch/[% v.vid %]" target="_blank" class="icon">
+					<img src="http://b.hatena.ne.jp/entry/image/small/http://www.nicovideo.jp/watch/[% v.vid %]" alt="ブックマークユーザ数" valign="bottom" />
+				</a>
 [% END %]
 			</td>
 		</tr>
 		<tr>
 			<td valign="top">
 				<span class="vid">
-					[% v.id | html %]
+					[% v.vid %]
 				</span>
 				
 				<span class="length">
-					[% v.length | html %]
+					[% v.length %]
+				</span>
+				
+				<span class="date">
+					[% v.date %]
 				</span>
 			</td>
 		</tr>
@@ -200,20 +217,20 @@ $(document).ready( function () {
 			<td valign="top">
 
 				<span class="pnames">
-[% IF v.pnames.size > 0 %]
-					[% FOR p = v.pnames %]
-						[%+ p | html %]
+[% IF v.has_pnames %]
+					[% FOR p IN v.pnames %]
+						[%+ p %]
 					[% END %]
 [% ELSE %]
 					Ｐ名？
 [% END %]
 				</span>
 
-[% IF v.tags.size > 0 %]
+[% IF v.has_tags %]
 				<span class="tags">
 					&nbsp; &nbsp; 
-					[% FOR t = v.tags %]
-						[%+ t | html %] &nbsp; 
+					[% FOR t IN v.tags %]
+						[%+ t %] &nbsp;
 					[% END %]
 				</span>
 [% END %]
@@ -239,7 +256,9 @@ $(document).ready( function () {
 
 	<h2>戻る</h2>
 
-[% PROCESS links %]
+	<p>
+		[<a href="/">トップページに戻る</a>]<br />
+	</p>
 </div>
 
 </body>
