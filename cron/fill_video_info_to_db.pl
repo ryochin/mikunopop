@@ -26,10 +26,11 @@ use Encode;
 
 local $ENV{DBIC_UNSAFE_AUTOCOMMIT_OK} = 1;
 
-Getopt::Std::getopts 'vi:s:' => my $opt = {};
+Getopt::Std::getopts 'vi:s:f' => my $opt = {};
 # -v: verbose
 # -i: single video id
 # -s: sort type( default: random) [random/new/old]
+# -f: force (ignore too new)
 
 my $debug = defined $opt->{v};
 
@@ -104,7 +105,7 @@ for my $video( @video ){
 	if( my ($v) = $schema->resultset('Video')->search( { vid => $video->{id} } ) ){
 		# 更新時刻をチェック
 		my $update_date = DateTime::Format::MySQL->parse_datetime( $v->update_date );
-		if( $now->epoch - $update_date->epoch < $hour * 60 ** 2 ){
+		if( not defined $opt->{f} and $now->epoch - $update_date->epoch < $hour * 60 ** 2 ){
 #			printf STDERR "% 12s: skip (too new)\n", $video->{id} if $debug;
 			
 			next;

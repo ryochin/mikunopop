@@ -16,6 +16,7 @@
 
 # video info
 47 */6 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/fill_video_info_to_db.pl > /dev/null 2>&1
+17 5 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/fill_video_info_to_db.pl -s new > /dev/null 2>&1
 
 # live status
 #* * * * * /usr/bin/ionice -c2 -n7 /bin/nice -20 /usr/bin/perl /web/mikunopop/cron/check_live_status.pl > /dev/null 2>&1
