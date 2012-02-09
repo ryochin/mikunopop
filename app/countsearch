@@ -22,8 +22,6 @@ use Mikunopop::Tags;
 use Mikunopop::Schema;
 use Mikunopop::Query2SQL;
 
-use Data::Printer;
-
 use utf8;
 use Encode ();
 
@@ -332,6 +330,5 @@ my $app = sub {
 
 	return $res->finalize;
 };
-
 
 __END__

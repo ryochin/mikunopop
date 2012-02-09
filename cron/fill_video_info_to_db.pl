@@ -15,6 +15,7 @@ use DateTime::Format::W3CDTF;
 use XML::Twig;
 use Getopt::Std;
 use Term::ANSIColor;
+use CGI ();
 
 use Mikunopop::Pnames;
 use Mikunopop::Tags;
@@ -187,7 +188,13 @@ sub get_video_info {
 				
 				for my $key( @key ){
 					if( $item->name eq $key ){
-						$result->{$key} = $item->trimmed_text;
+						my $val = $item->trimmed_text;
+						
+						if( first { $key eq $_ } qw(title description) ){
+							$val = CGI::unescapeHTML( $val );
+						}
+						
+						$result->{$key} = $val;
 					}
 				}
 				
