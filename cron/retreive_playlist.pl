@@ -14,6 +14,7 @@ use Text::CSV_XS;
 use Compress::Zlib;
 
 use Mikunopop::VideoInfo;
+use Mikunopop::Count;
 
 use utf8;
 use Encode;
@@ -27,91 +28,38 @@ my $htdocs_dir = file( $base_dir, "htdocs" );
 my $db_file = file( $var_dir, 'playlist.db' )->stringify;
 my $csv_file = file( $htdocs_dir, "play", 'all.csv.gz' )->stringify;
 my $json_file = file( $htdocs_dir, "play", 'count.json' )->stringify;
+my $text_file = file( $htdocs_dir, "play", 'count.txt' )->stringify;
 
 my $uri_list = [
-	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1235658251/29-400',    # main
-	'http://jbbs.livedoor.jp/internet/2353/storage/1243754024.html',    # 1st
-	'http://jbbs.livedoor.jp/internet/2353/storage/1257848535.html',    # 2nd
-	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1274527202/2-',    # 3rd
+	'/web/mikunopop/var/playlist/0.html',
+	'/web/mikunopop/var/playlist/1.html',
+	'/web/mikunopop/var/playlist/2.html',
+	'/web/mikunopop/var/playlist/3.html',
 	'http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/1304336074/2-',    # 4th
 ];
 
-# ジングル
-my @jingle = qw(
-	sm6789292
-	sm6789315
-	sm6939234
-	sm6981084
-	sm7007629
-	sm7033805
-	sm7075450
-	sm7246105
-	sm7346152
-	sm7539134
-	sm7539326
-	sm7870758
-	sm7891336
-	sm8009643
-	sm8031848
-	sm8032058
-	sm8138979
-	sm8183423
-	sm8230401
-	sm8311828
-	sm7335402
-	sm7337914
-	sm7341325
-	sm7343558
-	sm7346152
-	sm7473981
-	sm8145136
-	sm8432973
-	sm8569861
-	sm8588518
-	sm8611151
-	sm9334241
-	sm9446991
-	sm10317607
-	nm10028152
-	sm11225262
-	sm11322979
-	sm11422493
-	sm12101110
-	sm12109937
-	sm12374236
-	sm12689621
-	sm12791392
-	sm12834613
-	sm12836076
-	sm14188953
-	sm14649201
-	sm14817583
-	sm15692807
-	sm16598612
-	sm16804163
-	nm9362967
-	sm9539379
-);
-
-# 明らかにおかしいもの
-my @ignore = qw(
-	sm7382119
-	sm1200617
-	sm13858315
-	
-	sm13769516
-);
+#my @ignore = ( @{ $Mikunopop::VideoInfo::Jingle }, @{ $Mikunopop::VideoInfo::Wrong }, @{ $Mikunopop::VideoInfo::Deleted } );
+my @ignore = ( @{ $Mikunopop::VideoInfo::Jingle }, @{ $Mikunopop::VideoInfo::Wrong } );
 
 my $content;
 for my $uri( @{ $uri_list } ){
-	if( my $c = get( $uri ) ){
-		printf STDERR "uri: %s: ok.\n", $uri;
-		$content .= eval { Encode::decode( 'euc-jp', $c ) } || $c;
+	if( $uri =~ /^http/o ){
+		# http
+		if( my $c = get( $uri ) ){
+			printf STDERR "uri: %s: ok.\n", $uri;
+			$content .= eval { Encode::decode( 'euc-jp', $c ) } || $c;
+		}
+		else{
+			printf STDERR "uri: %s: failed.\n", $uri;
+			die;
+		}
 	}
 	else{
-		printf STDERR "uri: %s: failed.\n", $uri;
+		# file
+		my $c = file( $uri )->slurp or die $!;
+		$content .= eval { Encode::decode( 'euc-jp', $c ) } || $c;
+		printf STDERR "file: %s: ok.\n", $uri;
 	}
-	sleep 2;
 }
 
 my $ignore = {};    # vid => num
@@ -123,7 +71,7 @@ for my $line( split /\n/o, $content ){
 	
 	my $seen = {};
 	for my $data( split m{<br>}, $line ){
-		next if $data !~ /^\s*?[\-]*?\s*?(sm|nm)[0-9]{7,8}/o;
+		next if $data !~ /^\s*?[\-]*?\s*?(sm|nm|so)[0-9]{7,8}/o;
 		
 		$data =~ s/^\s+//o;
 		
@@ -182,27 +130,18 @@ printf STDERR "total: %d videos\n", scalar keys %{ $video };
 
 my @video_all;
 for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{id} <=> $video->{$b}->{id} } keys %{ $video } ){
-	# 再生数が０なら飛ばそう
-	next if $video->{$v}->{num} < 1;
-	
-	# ジングルは飛ばそう
-#	next if scalar( first { $v eq $_ } @jingle );
-	if( scalar( first { $v eq $_ } @jingle ) ){
-		$video->{$v}->{num} = 0;
-	}
-	
-	# 告知動画なども飛ばそう
+	# ジングル等は飛ばそう
 #	next if scalar( first { $v eq $_ } @ignore );
 	if( scalar( first { $v eq $_ } @ignore ) ){
 		$video->{$v}->{num} = 0;
 	}
 	
-	# すでに削除されているものを飛ばす
-	next if first { $v eq $_ } @{ $Mikunopop::VideoInfo::Deleted };
-	
 	# その他おかしいものは飛ばす
 	next if not defined $video->{$v}->{num};
 	next if $video->{$v}->{num} eq '';
+	
+	# 再生数が０なら飛ばそう
+	next if $video->{$v}->{num} < 1;
 	
 	my $d = {
 		id => $v,    # sm1234567
@@ -213,6 +152,23 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	
 	# all
 	push @video_all, $d;
+}
+
+## 補正する
+
+while( my ($id, $offset) = each %{ $Mikunopop::Count::Correction } ){
+	$offset = int $offset;
+	if( my $video = first { $_->{id} eq $id } @video_all ){
+#		printf STDERR "correction: found: %s\n", $id;
+		$video->{view} += $offset;
+	}
+	else{
+#		printf STDERR "correction: not found: %s\n", $id;
+		push @video_all, {
+			id => $id,
+			view => $offset,
+		};
+	}
 }
 
 # count.json
@@ -231,6 +187,18 @@ for my $v( sort { $video->{$b}->{num} <=> $video->{$a}->{num} || $video->{$a}->{
 	
 	my $fh = file( $json_file )->openw or die $!;
 	$fh->print( $json );
+	$fh->close;
+}
+
+# count.txt
+{
+	my $text;
+	for my $v( @video_all ){
+		$text .= sprintf "%s: %d\n", $v->{id}, $v->{view};
+	}
+	
+	my $fh = file( $text_file )->openw or die $!;
+	$fh->print( $text );
 	$fh->close;
 }
 
