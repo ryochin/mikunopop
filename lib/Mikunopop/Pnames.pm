@@ -1466,6 +1466,9 @@ our $Pnames_exception = [
 	"忍者らじおOP",
 	"育児POP",
 	"Nebula劇場版OP",
+	"ミクノPOP",
+	"Dubstep",
+	"Brostep",
 	
 	"Dump",
 	"JUMP",

@@ -19,6 +19,7 @@ my $base = '/web/mikunopop';
 my $log_dir = dir( $base, qw(var irclog) );
 my $status_file = file( $base, qw(htdocs var), "live_status.js" );
 my $chat_status_file = file( $base, qw(htdocs var), "chat_status.js" );
+my $count_file = file( $base, "htdocs", "play", "count.json" );
 my $topic_global;
 
 my @admin = (
@@ -59,6 +60,7 @@ my @admin = (
 	qr{^Sword(_.+)*}io,
 	qr{^lefthorse(_.+)*}io,
 	qr{^katakuri(_.+)*}io,
+	qr{^deep(diver)?(_.+)*}io,
 );
 
 my @me_regex = (
@@ -167,6 +169,18 @@ sub said {
 			if( defined $stash->{title} and $stash->{title} ne '' ){
 				my $info_url = sprintf "http://mikunopop.info/info/%s", $id;
 				my $msg = sprintf "%s %s", $stash->{title}, $info_url;
+				
+				# ミクノ度
+				if( my $json_content = $count_file->slurp ){
+					$json_content =~ s{^//.+\n}{}gsmo;
+					if( my $json = eval { JSON::Syck::Load( $json_content ) } ){
+						if( exists $json->{ $id } ){
+							my $count = int $json->{ $id };
+							$count =~ tr/0-9/０-９/;
+							$msg .= sprintf " (彡%s)", $count;
+						}
+					}
+				}
 				
 				$self->say(
 					channel => $self->channels,

@@ -167,6 +167,9 @@ my $app = sub {
 		# id
 		( $video->{id} = $video->{vid} ) =~ s{^(sm|nm|so)}{}o;
 		
+		# title
+		$video->{title} //= q{（削除済み？）};
+		
 		# pnames
 		$video->{pnames} = [ grep { $_ ne '' } split ':', Encode::decode_utf8( $video->{pnames} ) ];
 		$video->{has_pnames} = scalar @{ $video->{pnames} } > 0 ? 1 : 0;
