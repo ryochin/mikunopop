@@ -99,7 +99,7 @@ $(document).ready( function () {
 	[% END %]
 [% ELSE %]
 	[% IF c.is_empty %]
-				<td>（なぜか表示されません）</td>
+				<td class="hidden">（なぜか表示されません）</td>
 	[% ELSE %]
 				<td>[% c.comment # raw %]</td>
 	[% END %]
