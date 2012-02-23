@@ -684,6 +684,9 @@ htdocs/comment/6/6328.html
 htdocs/comment/6/6437.html
 htdocs/comment/6/6456.html
 htdocs/comment/6/6457.html
+htdocs/comment/6/6474.html
+htdocs/comment/6/6475.html
+htdocs/comment/6/6476.html
 htdocs/comment/6/6528.html
 htdocs/comment/index.html
 htdocs/commentlog/1000.html
@@ -1408,6 +1411,9 @@ var/comment/6/6328.yml
 var/comment/6/6437.yml
 var/comment/6/6456.yml
 var/comment/6/6457.yml
+var/comment/6/6474.yml
+var/comment/6/6475.yml
+var/comment/6/6476.yml
 var/comment/6/6528.yml
 var/comment/meta.yml
 var/playlist/0.html

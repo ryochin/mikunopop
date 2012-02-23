@@ -1,0 +1,862 @@
+--- 
+aircaster: deep
+content: 
+  - 
+    comment: わこつです～
+    date: 2012/02/10 23:33:49
+    is_odd: 1
+    "no": 1
+  - 
+    comment: (^0^)/ちゃ！　乙ですぅぅぅ
+    date: 2012/02/10 23:34:08
+    is_odd: 0
+    "no": 2
+  - 
+    comment: おつっつ
+    date: 2012/02/10 23:34:13
+    is_odd: 1
+    "no": 3
+  - 
+    comment: わこつー
+    date: 2012/02/10 23:34:16
+    is_odd: 0
+    "no": 4
+  - 
+    comment: ミクノポップをきかないか？　２枠です。
+    date: 2012/02/10 23:34:26
+    is_admin: 1
+    is_odd: 1
+    "no": 5
+  - 
+    comment: ミクノポップをきかないか？ジングル【アイヲシッタ。】 by 彡:0　　　リクエスト:主セレ
+    date: 2012/02/10 23:34:27
+    is_admin: 1
+    is_odd: 0
+    "no": 7
+  - 
+    comment: いらっしゃいませー
+    date: 2012/02/10 23:34:29
+    is_admin: 1
+    is_odd: 1
+    "no": 9
+  - 
+    comment: "投稿日 : 2011/09/23 22:54:45　　時間 : 2:02再生 : 435　コメント: 1　マイリスト: 5(1.1%)"
+    date: 2012/02/10 23:34:35
+    is_admin: 1
+    is_odd: 0
+    "no": 10
+  - 
+    comment: ''
+    date: 2012/02/10 23:34:43
+    is_empty: 1
+    is_odd: 1
+    "no": 11
+  - 
+    comment: いらっしゃいませー
+    date: 2012/02/10 23:35:01
+    is_admin: 1
+    is_odd: 0
+    "no": 12
+  - 
+    comment: わこおつ
+    date: 2012/02/10 23:35:06
+    is_odd: 1
+    "no": 13
+  - 
+    comment: ぅおっつ！
+    date: 2012/02/10 23:35:15
+    is_odd: 0
+    "no": 14
+  - 
+    comment: ''
+    date: 2012/02/10 23:35:18
+    is_empty: 1
+    is_odd: 1
+    "no": 15
+  - 
+    comment: 移動おつかれさまです
+    date: 2012/02/10 23:35:28
+    is_admin: 1
+    is_odd: 0
+    "no": 16
+  - 
+    comment: ''
+    date: 2012/02/10 23:35:44
+    is_empty: 1
+    is_odd: 1
+    "no": 17
+  - 
+    comment: 2枠目はリクいこうかねぇ
+    date: 2012/02/10 23:35:46
+    is_odd: 0
+    "no": 18
+  - 
+    comment: 　リクエストを受け付けます
+    date: 2012/02/10 23:35:52
+    is_admin: 1
+    is_odd: 1
+    "no": 19
+  - 
+    comment: うしリクするかー
+    date: 2012/02/10 23:36:01
+    is_odd: 0
+    "no": 20
+  - 
+    comment: nm15358304
+    date: 2012/02/10 23:36:02
+    is_odd: 1
+    "no": 21
+  - 
+    comment: 21 リクエストを受け付けました
+    date: 2012/02/10 23:36:03
+    is_admin: 1
+    is_odd: 0
+    "no": 22
+  - 
+    comment: リクエストうけます
+    date: 2012/02/10 23:36:04
+    is_admin: 1
+    is_odd: 1
+    "no": 23
+  - 
+    comment: ''
+    date: 2012/02/10 23:36:20
+    is_empty: 1
+    is_odd: 0
+    "no": 24
+  - 
+    comment: 【初音ミク】shadow【オリジナル】 by カズ家彡:2　　　リクエスト:主セレ
+    date: 2012/02/10 23:36:30
+    is_admin: 1
+    is_odd: 1
+    "no": 26
+  - 
+    comment: "投稿日 : 2011/11/24 17:37:13　　時間 : 3:57再生 : 802　コメント: 19　マイリスト: 44(5.5%)"
+    date: 2012/02/10 23:36:38
+    is_admin: 1
+    is_odd: 0
+    "no": 28
+  - 
+    comment: ''
+    date: 2012/02/10 23:36:47
+    is_empty: 1
+    is_odd: 1
+    "no": 29
+  - 
+    comment: 次から流しますねー
+    date: 2012/02/10 23:36:48
+    is_admin: 1
+    is_odd: 0
+    "no": 30
+  - 
+    comment: ''
+    date: 2012/02/10 23:37:04
+    is_empty: 1
+    is_odd: 1
+    "no": 31
+  - 
+    comment: そういえば、PVとかもありだったっけ？
+    date: 2012/02/10 23:37:30
+    is_odd: 0
+    "no": 32
+  - 
+    comment: ボカロ、UTAUであれば良いかと
+    date: 2012/02/10 23:37:59
+    is_admin: 1
+    is_odd: 1
+    "no": 33
+  - 
+    comment: sm15187219
+    date: 2012/02/10 23:38:10
+    is_odd: 0
+    "no": 34
+  - 
+    comment: ''
+    date: 2012/02/10 23:38:15
+    is_empty: 1
+    is_odd: 1
+    "no": 35
+  - 
+    comment: 34 その動画は既に再生されました
+    date: 2012/02/10 23:38:20
+    is_admin: 1
+    is_odd: 0
+    "no": 36
+  - 
+    comment: ''
+    date: 2012/02/10 23:38:36
+    is_empty: 1
+    is_odd: 1
+    "no": 37
+  - 
+    comment: ｏｒｚ
+    date: 2012/02/10 23:38:37
+    is_odd: 0
+    "no": 38
+  - 
+    comment: 手動で入れますね
+    date: 2012/02/10 23:38:54
+    is_admin: 1
+    is_odd: 1
+    "no": 39
+  - 
+    comment: ''
+    date: 2012/02/10 23:39:10
+    is_empty: 1
+    is_odd: 0
+    "no": 40
+  - 
+    comment: 【初音ミク】　強制スクロール　【オリジナル曲】 by 彡:1　　　リクエスト:21さん
+    date: 2012/02/10 23:40:25
+    is_admin: 1
+    is_odd: 1
+    "no": 42
+  - 
+    comment: "投稿日 : 2011/08/19 23:36:34　　時間 : 4:17再生 : 2,035　コメント: 90　マイリスト: 237(11.6%)"
+    date: 2012/02/10 23:40:33
+    is_admin: 1
+    is_odd: 0
+    "no": 44
+  - 
+    comment: すみません、テスト放送でたまたま流したもので＾＾
+    date: 2012/02/10 23:40:42
+    is_admin: 1
+    is_odd: 1
+    "no": 45
+  - 
+    comment: ''
+    date: 2012/02/10 23:40:42
+    is_empty: 1
+    is_odd: 0
+    "no": 46
+  - 
+    comment: ''
+    date: 2012/02/10 23:40:57
+    is_empty: 1
+    is_odd: 1
+    "no": 47
+  - 
+    comment: なるほどテスト放送か
+    date: 2012/02/10 23:41:07
+    is_odd: 0
+    "no": 48
+  - 
+    comment: sm16927894
+    date: 2012/02/10 23:41:08
+    is_odd: 1
+    "no": 49
+  - 
+    comment: 49 リクエストを受け付けました
+    date: 2012/02/10 23:41:09
+    is_admin: 1
+    is_odd: 0
+    "no": 50
+  - 
+    comment: ''
+    date: 2012/02/10 23:41:25
+    is_empty: 1
+    is_odd: 1
+    "no": 51
+  - 
+    comment: わこつ
+    date: 2012/02/10 23:42:56
+    is_odd: 0
+    "no": 52
+  - 
+    comment: いらっしゃい
+    date: 2012/02/10 23:43:03
+    is_odd: 1
+    "no": 53
+  - 
+    comment: これはいいピコピコ
+    date: 2012/02/10 23:43:07
+    is_odd: 0
+    "no": 54
+  - 
+    comment: いらっしゃいませー
+    date: 2012/02/10 23:43:08
+    is_admin: 1
+    is_odd: 1
+    "no": 55
+  - 
+    comment: ''
+    date: 2012/02/10 23:43:21
+    is_empty: 1
+    is_odd: 0
+    "no": 56
+  - 
+    comment: 新主さんよろしく。
+    date: 2012/02/10 23:43:41
+    is_odd: 1
+    "no": 57
+  - 
+    comment: nm12625489
+    date: 2012/02/10 23:43:56
+    is_odd: 0
+    "no": 58
+  - 
+    comment: 58 リクエストを受け付けました
+    date: 2012/02/10 23:43:56
+    is_admin: 1
+    is_odd: 1
+    "no": 59
+  - 
+    comment: こちらこそ、宜しくお願いいたします
+    date: 2012/02/10 23:44:05
+    is_admin: 1
+    is_odd: 0
+    "no": 60
+  - 
+    comment: ''
+    date: 2012/02/10 23:44:21
+    is_empty: 1
+    is_odd: 1
+    "no": 61
+  - 
+    comment: 【雪歌ユフ】 Still Alive In Love (and dreams are back remix) 【セルフリミックス曲】 by 彡:3　　　リクエスト:主セレ
+    date: 2012/02/10 23:44:41
+    is_admin: 1
+    is_odd: 0
+    "no": 63
+  - 
+    comment: sm16931227
+    date: 2012/02/10 23:44:42
+    is_odd: 1
+    "no": 65
+  - 
+    comment: 65 リクエストを受け付けました
+    date: 2012/02/10 23:44:42
+    is_admin: 1
+    is_odd: 0
+    "no": 66
+  - 
+    comment: "投稿日 : 2011/08/02 01:06:09　　時間 : 4:15再生 : 2,925　コメント: 57　マイリスト: 330(11.3%)"
+    date: 2012/02/10 23:44:49
+    is_admin: 1
+    is_odd: 1
+    "no": 67
+  - 
+    comment: リクエストありがとうございます
+    date: 2012/02/10 23:44:53
+    is_admin: 1
+    is_odd: 0
+    "no": 68
+  - 
+    comment: ''
+    date: 2012/02/10 23:44:58
+    is_empty: 1
+    is_odd: 1
+    "no": 69
+  - 
+    comment: ユフさんのウィスパーボイスいいですねー
+    date: 2012/02/10 23:45:29
+    is_admin: 1
+    is_odd: 0
+    "no": 70
+  - 
+    comment: ''
+    date: 2012/02/10 23:45:45
+    is_empty: 1
+    is_odd: 1
+    "no": 71
+  - 
+    comment: 大賞でも上位に来てたね
+    date: 2012/02/10 23:45:47
+    is_odd: 0
+    "no": 72
+  - 
+    comment: sm16931227
+    date: 2012/02/10 23:45:50
+    is_odd: 1
+    "no": 73
+  - 
+    comment: 73 その動画は既にリクエストされています
+    date: 2012/02/10 23:45:50
+    is_admin: 1
+    is_odd: 0
+    "no": 74
+  - 
+    comment: ''
+    date: 2012/02/10 23:46:06
+    is_empty: 1
+    is_odd: 1
+    "no": 75
+  - 
+    comment: リク〆ます
+    date: 2012/02/10 23:46:24
+    is_admin: 1
+    is_odd: 0
+    "no": 76
+  - 
+    comment: あ、大賞投票曲で気になったのリクしよ。
+    date: 2012/02/10 23:46:24
+    is_odd: 1
+    "no": 77
+  - 
+    comment: orz
+    date: 2012/02/10 23:46:31
+    is_odd: 0
+    "no": 78
+  - 
+    comment: あぁ見てなかった。65コメさんどうも
+    date: 2012/02/10 23:46:39
+    is_odd: 1
+    "no": 79
+  - 
+    comment: 短い奴なら
+    date: 2012/02/10 23:46:40
+    is_admin: 1
+    is_odd: 0
+    "no": 80
+  - 
+    comment: ''
+    date: 2012/02/10 23:46:40
+    is_empty: 1
+    is_odd: 1
+    "no": 81
+  - 
+    comment: まとめﾍﾟｰｼﾞのdeepさんの項目が刻々と変わっていってる気がするｗ
+    date: 2012/02/10 23:46:49
+    is_odd: 0
+    "no": 82
+  - 
+    comment: ''
+    date: 2012/02/10 23:46:56
+    is_empty: 1
+    is_odd: 1
+    "no": 83
+  - 
+    comment: 相変わらずはやいなぁw
+    date: 2012/02/10 23:47:03
+    is_odd: 0
+    "no": 84
+  - 
+    comment: 　リクエストを停止します
+    date: 2012/02/10 23:47:22
+    is_admin: 1
+    is_odd: 1
+    "no": 85
+  - 
+    comment: ''
+    date: 2012/02/10 23:47:38
+    is_empty: 1
+    is_odd: 0
+    "no": 86
+  - 
+    comment: 77さん　次もやりますので、良かったら次枠でどうぞ
+    date: 2012/02/10 23:48:26
+    is_admin: 1
+    is_odd: 1
+    "no": 87
+  - 
+    comment: ３枠だー
+    date: 2012/02/10 23:48:35
+    is_odd: 0
+    "no": 88
+  - 
+    comment: ''
+    date: 2012/02/10 23:48:42
+    is_empty: 1
+    is_odd: 1
+    "no": 89
+  - 
+    comment: 【GUMI】 Re:Try  【オリジナル】 by うたたP彡:0　　　リクエスト:49さん
+    date: 2012/02/10 23:48:57
+    is_admin: 1
+    is_odd: 0
+    "no": 91
+  - 
+    comment: デビューで3枠とか、大物の予感
+    date: 2012/02/10 23:49:03
+    is_odd: 1
+    "no": 93
+  - 
+    comment: "投稿日 : 2012/02/10 13:53:24　　時間 : 5:11再生 : 875　コメント: 69　マイリスト: 124(14.2%)"
+    date: 2012/02/10 23:49:05
+    is_admin: 1
+    is_odd: 0
+    "no": 94
+  - 
+    comment: ''
+    date: 2012/02/10 23:49:14
+    is_empty: 1
+    is_odd: 1
+    "no": 95
+  - 
+    comment: うたたPの新曲だ
+    date: 2012/02/10 23:49:17
+    is_odd: 0
+    "no": 96
+  - 
+    comment: ちょうど聞こうと思ってたやつだー
+    date: 2012/02/10 23:49:35
+    is_odd: 1
+    "no": 97
+  - 
+    comment: お、マイリスだコレ
+    date: 2012/02/10 23:49:46
+    is_odd: 0
+    "no": 98
+  - 
+    comment: かっけぇ
+    date: 2012/02/10 23:49:58
+    is_odd: 1
+    "no": 99
+  - 
+    comment: かわいい
+    date: 2012/02/10 23:50:48
+    is_odd: 0
+    "no": 100
+  - 
+    comment: カッコいい曲ですねー
+    date: 2012/02/10 23:51:19
+    is_admin: 1
+    is_odd: 1
+    "no": 101
+  - 
+    comment: マイリス頂戴します
+    date: 2012/02/10 23:51:30
+    is_admin: 1
+    is_odd: 0
+    "no": 102
+  - 
+    comment: ''
+    date: 2012/02/10 23:51:46
+    is_empty: 1
+    is_odd: 1
+    "no": 103
+  - 
+    comment: ここのコミュのリクは安定してるなぁ
+    date: 2012/02/10 23:53:32
+    is_odd: 0
+    "no": 104
+  - 
+    comment: 心地いいよねっ
+    date: 2012/02/10 23:54:01
+    is_odd: 1
+    "no": 105
+  - 
+    comment: 【MEIKO】 Blindness 【オリジナル】 by MineK彡:1　　　リクエスト:58さん
+    date: 2012/02/10 23:54:10
+    is_admin: 1
+    is_odd: 0
+    "no": 107
+  - 
+    comment: "投稿日 : 2010/11/02 20:06:45　　時間 : 5:41再生 : 4,216　コメント: 104　マイリスト: 273(6.5%)"
+    date: 2012/02/10 23:54:18
+    is_admin: 1
+    is_odd: 1
+    "no": 109
+  - 
+    comment: ''
+    date: 2012/02/10 23:54:27
+    is_empty: 1
+    is_odd: 0
+    "no": 110
+  - 
+    comment: 彡1だと・・
+    date: 2012/02/10 23:54:28
+    is_odd: 1
+    "no": 111
+  - 
+    comment: これはテクノになるんですかねー？
+    date: 2012/02/10 23:55:03
+    is_admin: 1
+    is_odd: 0
+    "no": 112
+  - 
+    comment: クラブかな？
+    date: 2012/02/10 23:55:15
+    is_admin: 1
+    is_odd: 1
+    "no": 113
+  - 
+    comment: ''
+    date: 2012/02/10 23:55:31
+    is_empty: 1
+    is_odd: 0
+    "no": 114
+  - 
+    comment: 髭もっと多くてもよさそうな感じ
+    date: 2012/02/10 23:55:58
+    is_admin: 1
+    is_odd: 1
+    "no": 115
+  - 
+    comment: まぁ、この人のはたいてい大丈夫な気がする
+    date: 2012/02/10 23:56:00
+    is_odd: 0
+    "no": 116
+  - 
+    comment: ''
+    date: 2012/02/10 23:56:14
+    is_empty: 1
+    is_odd: 1
+    "no": 117
+  - 
+    comment: 広義のテクノってドラムンベースとかも入るよね
+    date: 2012/02/10 23:56:31
+    is_odd: 0
+    "no": 118
+  - 
+    comment: カテ分けは難しい奴多いですよね
+    date: 2012/02/10 23:57:14
+    is_admin: 1
+    is_odd: 1
+    "no": 119
+  - 
+    comment: 人によって受け止め方が違うから難しいところ
+    date: 2012/02/10 23:57:21
+    is_odd: 0
+    "no": 120
+  - 
+    comment: ''
+    date: 2012/02/10 23:57:30
+    is_empty: 1
+    is_odd: 1
+    "no": 121
+  - 
+    comment: トランスともいえなくはないし
+    date: 2012/02/10 23:57:48
+    is_admin: 1
+    is_odd: 0
+    "no": 122
+  - 
+    comment: テクノ寄りのダンス系・・・ってかんじかなぁ
+    date: 2012/02/10 23:57:50
+    is_odd: 1
+    "no": 123
+  - 
+    comment: 心地よければそれでいいや
+    date: 2012/02/10 23:57:53
+    is_odd: 0
+    "no": 124
+  - 
+    comment: ''
+    date: 2012/02/10 23:58:05
+    is_empty: 1
+    is_odd: 1
+    "no": 125
+  - 
+    comment: かっけぇ
+    date: 2012/02/10 23:58:11
+    is_odd: 0
+    "no": 126
+  - 
+    comment: 放送用に分けたんですけど、困りました
+    date: 2012/02/10 23:58:25
+    is_admin: 1
+    is_odd: 1
+    "no": 127
+  - 
+    comment: 正直クラブとハウスの違いがよくわかってない
+    date: 2012/02/10 23:58:40
+    is_odd: 0
+    "no": 128
+  - 
+    comment: ''
+    date: 2012/02/10 23:58:41
+    is_empty: 1
+    is_odd: 1
+    "no": 129
+  - 
+    comment: まぁコミュのカテゴリーからは外れてないよねｗ
+    date: 2012/02/10 23:59:03
+    is_odd: 0
+    "no": 130
+  - 
+    comment: テクノ系であるのは間違いないなｗ
+    date: 2012/02/10 23:59:23
+    is_odd: 1
+    "no": 131
+  - 
+    comment: 【第8回MMD杯本選】水色と宇宙船【初音ミク PV】 by nexus,@まさたかP彡:0　　　リクエスト:65さん
+    date: 2012/02/10 23:59:52
+    is_admin: 1
+    is_odd: 0
+    "no": 133
+  - 
+    comment: "投稿日 : 2012/02/10 21:07:11　　時間 : 3:13再生 : 5,164　コメント: 486　マイリスト: 1,578(30.6%)"
+    date: 2012/02/11 00:00:00
+    is_admin: 1
+    is_odd: 1
+    "no": 134
+  - 
+    comment: ｗｋｔｋ
+    date: 2012/02/11 00:00:01
+    is_odd: 0
+    "no": 135
+  - 
+    comment: MMD杯始まったのでリクしてみた
+    date: 2012/02/11 00:00:08
+    is_odd: 1
+    "no": 136
+  - 
+    comment: ''
+    date: 2012/02/11 00:00:09
+    is_empty: 1
+    is_odd: 0
+    "no": 137
+  - 
+    comment: もう、始まってたのか
+    date: 2012/02/11 00:00:27
+    is_odd: 1
+    "no": 138
+  - 
+    comment: 次枠もやりますので、宜しければおいでください
+    date: 2012/02/11 00:00:35
+    is_admin: 1
+    is_odd: 0
+    "no": 139
+  - 
+    comment: ＰＶ系まだチェックしてないな。助かるｗ
+    date: 2012/02/11 00:00:37
+    is_odd: 1
+    "no": 140
+  - 
+    comment: つい数時間前開始した
+    date: 2012/02/11 00:00:38
+    is_odd: 0
+    "no": 141
+  - 
+    comment: ''
+    date: 2012/02/11 00:00:51
+    is_empty: 1
+    is_odd: 1
+    "no": 142
+  - 
+    comment: まだ黄金水しか見てない
+    date: 2012/02/11 00:00:55
+    is_odd: 0
+    "no": 143
+  - 
+    comment: ぉ、もうきたか
+    date: 2012/02/11 00:00:56
+    is_odd: 1
+    "no": 144
+  - 
+    comment: かわいいなー
+    date: 2012/02/11 00:01:17
+    is_odd: 0
+    "no": 145
+  - 
+    comment: この曲でこの枠は終了いたします。
+    date: 2012/02/11 00:01:22
+    is_admin: 1
+    is_odd: 1
+    "no": 146
+  - 
+    comment: プロの仕事ｗ
+    date: 2012/02/11 00:01:24
+    is_odd: 0
+    "no": 147
+  - 
+    comment: ご視聴ありがとうございました
+    date: 2012/02/11 00:01:35
+    is_admin: 1
+    is_odd: 1
+    "no": 148
+  - 
+    comment: おつでした～
+    date: 2012/02/11 00:01:42
+    is_odd: 0
+    "no": 149
+  - 
+    comment: おつ～
+    date: 2012/02/11 00:01:46
+    is_odd: 1
+    "no": 150
+  - 
+    comment: おつでしたー
+    date: 2012/02/11 00:01:48
+    is_odd: 0
+    "no": 151
+  - 
+    comment: ''
+    date: 2012/02/11 00:01:51
+    is_empty: 1
+    is_odd: 1
+    "no": 152
+  - 
+    comment: まさたかさん・・・すげ
+    date: 2012/02/11 00:01:58
+    is_odd: 0
+    "no": 153
+  - 
+    comment: 次枠へ　GO!
+    date: 2012/02/11 00:02:03
+    is_admin: 1
+    is_odd: 1
+    "no": 154
+  - 
+    comment: ''
+    date: 2012/02/11 00:02:19
+    is_empty: 1
+    is_odd: 0
+    "no": 155
+  - 
+    comment: って、まだ枠撮ってませんが＾＾
+    date: 2012/02/11 00:02:21
+    is_admin: 1
+    is_odd: 1
+    "no": 156
+  - 
+    comment: 取って
+    date: 2012/02/11 00:02:30
+    is_admin: 1
+    is_odd: 0
+    "no": 157
+  - 
+    comment: すごいなー
+    date: 2012/02/11 00:02:35
+    is_odd: 1
+    "no": 158
+  - 
+    comment: すげぇ・・　ひたすらすげぇ
+    date: 2012/02/11 00:02:45
+    is_odd: 0
+    "no": 159
+  - 
+    comment: ''
+    date: 2012/02/11 00:02:46
+    is_empty: 1
+    is_odd: 1
+    "no": 160
+  - 
+    comment: ありがとうございましたー
+    date: 2012/02/11 00:02:48
+    is_admin: 1
+    is_odd: 0
+    "no": 161
+  - 
+    comment: ﾉｼ　乙っしたぁぁぁ
+    date: 2012/02/11 00:02:50
+    is_odd: 1
+    "no": 162
+  - 
+    comment: ﾉ
+    date: 2012/02/11 00:02:54
+    is_odd: 0
+    "no": 163
+  - 
+    comment: あざとい！
+    date: 2012/02/11 00:03:04
+    is_odd: 1
+    "no": 164
+  - 
+    comment: 乙した！！！
+    date: 2012/02/11 00:03:04
+    is_odd: 0
+    "no": 165
+  - 
+    comment: ''
+    date: 2012/02/11 00:03:06
+    is_empty: 1
+    is_odd: 1
+    "no": 166
+frame: 1
+part: 647５
+start: '1328884429'
+time: 29
+title: ミクノポップをきかないか？ Part.647５
+
