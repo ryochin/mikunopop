@@ -1,0 +1,22 @@
+# 
+
+use strict;
+use warnings;
+
+use JSON::Syck ();
+
+# setup
+my $json_file = '/web/mikunopop/htdocs/play/count.json';
+
+my $app = sub {
+	my $env = shift;
+	
+	( my $id = $env->{REQUEST_URI} ) =~ s{^.*?((sm|nm|so)\d+?)$}{$1};
+	
+	my $list = JSON::Syck::LoadFile( $json_file );
+	my $count = $list->{ $id } // 0;
+	
+	return [ 200, [ 'Content-Type' => 'text/plain' ], [ $count ] ];
+};
+
+__END__

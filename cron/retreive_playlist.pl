@@ -181,12 +181,13 @@ while( my ($id, $offset) = each %{ $Mikunopop::Count::Correction } ){
 	require JSON::Syck;
 	require DateTime::Format::Mail;
 	
+	local $JSON::Syck::SortKeys = 1;
+	
 	# 最終更新日付を入れておく
-	my $json = sprintf "// %s\n", DateTime::Format::Mail->format_datetime( DateTime->now( time_zone => 'Asia/Tokyo' ) );
-	$json .= JSON::Syck::Dump( $list );
+	$list->{"created-at"} = DateTime::Format::Mail->format_datetime( DateTime->now( time_zone => 'Asia/Tokyo' ) );
 	
 	my $fh = file( $json_file )->openw or die $!;
-	$fh->print( $json );
+	$fh->print( JSON::Syck::Dump( $list ) );
 	$fh->close;
 }
 
