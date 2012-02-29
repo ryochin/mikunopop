@@ -16,7 +16,7 @@ my $app = sub {
 	my $list = JSON::Syck::LoadFile( $json_file );
 	my $count = $list->{ $id } // 0;
 	
-	return [ 200, [ 'Content-Type' => 'text/plain' ], [ $count ] ];
+	return [ 200, [ 'Content-Type' => 'text/plain', 'Access-Control-Allow-Origin' => 'http://www.nicovideo.jp/' ], [ $count ] ];
 };
 
 __END__
