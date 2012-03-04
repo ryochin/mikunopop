@@ -26,6 +26,7 @@ lib/Mikunopop/Bot/Basic.pm
 lib/Mikunopop/Bot/Talk.pm
 lib/Mikunopop/Pnames.pm
 lib/Mikunopop/Schema/Video.pm
+lib/Mikunopop/Schema/Pnames.pm
 lib/Mikunopop/Schema.pm
 lib/Mikunopop/Tags.pm
 lib/Mikunopop/VideoInfo.pm
@@ -36,5 +37,6 @@ template/jingle.html
 template/comment.html
 template/count_search.html
 template/info.html
+template/pnames.html
 
 # EOF

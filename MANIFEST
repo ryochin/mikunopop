@@ -8,6 +8,7 @@ app/countsearch
 app/info
 app/ping
 app/plist
+app/pnames
 cron/crontab.txt
 cron/fill_anon_pname_video_info_to_db.pl
 cron/fill_count_to_db.pl
@@ -770,6 +771,7 @@ lib/Mikunopop/Count.pm
 lib/Mikunopop/Pnames.pm
 lib/Mikunopop/Query2SQL.pm
 lib/Mikunopop/Schema.pm
+lib/Mikunopop/Schema/Pnames.pm
 lib/Mikunopop/Schema/Video.pm
 lib/Mikunopop/Tags.pm
 lib/Mikunopop/VideoInfo.pm
@@ -794,6 +796,7 @@ template/comment_index.html
 template/count_search.html
 template/info.html
 template/jingle.html
+template/pnames.html
 var/comment/0/611.yml
 var/comment/0/617.yml
 var/comment/0/618.yml

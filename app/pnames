@@ -1,0 +1,209 @@
+# 
+
+use strict;
+use warnings;
+use lib qw(/web/mikunopop/lib);
+
+use Plack::Request;
+use Plack::Response;
+
+use boolean;
+use Path::Class qw(file);
+use List::MoreUtils qw(uniq);
+use Config::Pit;
+use Text::Xslate ();
+use DateTime;
+use DateTime::Format::MySQL;
+use JSON::Syck ();
+
+use Mikunopop::Schema;
+
+use utf8;
+use Encode ();
+
+# setup
+my $base_dir = '/web/mikunopop/';
+my $var_dir = file( $base_dir, "var" );
+my $template_file = file( $base_dir, "template", "pnames.html" )->stringify;
+
+# db
+my $code = 'utf8';
+my $dbiconfig = {
+	on_connect_do => [
+		"SET CHARACTER SET $code",
+		"SET NAMES $code",
+	],
+};
+
+my $config = Config::Pit::pit_get("mysql/ryo", require => {
+	username => "username",
+	password => "password",
+} );
+
+my $schema = Mikunopop::Schema->connect("dbi:mysql:database=mikunopop", @{$config}{qw(username password)}, $dbiconfig ) or die DBI->errstr;
+$schema->storage->dbh->{mysql_enable_utf8} = 1;
+
+my $app = sub {
+	my $req = Plack::Request->new(shift);
+
+	my $res = Plack::Response->new(200);
+
+	### new:
+	
+	if( defined $req->param('new') ){
+		my $stash = {};
+		
+		# 候補チェック
+		my @pname;
+		my $cnt = 0;
+		my $has_error = false;
+		for my $line( split /\n+/o, $req->param('new') ){
+			$cnt++;
+			$line =~ s{^\s+}{}o;
+			$line =~ s{\s+$}{}o;
+			next if $line eq '';
+			
+			# それでも空白があると入力エラーにしよう
+			if( $line =~ /\s+/o ){
+				$stash->{message} = sprintf q{Ｐ名の中に空白文字があるようです（%d行目）。}, $cnt;
+				$has_error = true;
+				last;
+			}
+			
+			push @pname, Encode::decode_utf8( $line );
+		}
+		
+		# DB から一覧を得ておく
+		my $pname_list = {};
+		for my $pname( $schema->resultset('Pnames')->search( {}, { columns => [qw(pname)] } ) ){
+			$pname_list->{ $pname->pname } = 1;
+		}
+		
+		# check
+		if( not $has_error and scalar @pname > 0 ){
+			my $cnt = 0;
+			my $now = DateTime::Format::MySQL->format_datetime( DateTime->now( time_zone => 'Asia/Tokyo' ) );
+			for my $pname( @pname ){
+				next if exists $pname_list->{ $pname };
+				
+				# add
+				$schema->resultset('Pnames')->create( {
+					pname => $pname,
+					regist_date => $now,
+					update_date => $now,
+				} );
+				
+				$cnt++;
+			}
+			
+			if( ( my $dup = scalar( @pname ) - $cnt ) > 0 ){
+				$stash->{message} = sprintf q{%d名のＰ名を追加しました（重複が%d名ありました）。}, $cnt, $dup;
+			}
+			else{
+				$stash->{message} = sprintf q{%d名のＰ名を追加しました。}, $cnt;
+			}
+		}
+		
+		$stash->{message} //= q{有効なＰ名が指定されませんでした。};
+		
+		# vars
+		&set_total_count( $stash );
+		
+		# output
+		my $xs = &parepare_template( file( $base_dir, "template" ) );
+		$res->content_type("text/html; charset=UTF-8");
+		$res->body( Encode::encode_utf8( $xs->render( $template_file, $stash ) ) );
+	}
+
+	### text:
+	
+	elsif( defined $req->param('download') ){	
+		my @pnames = $schema->resultset('Pnames')->search( {}, { order_by => \ 'pname' } );
+		my @result = map { $_->pname } @pnames;
+		
+		# output
+		$res->content_type("text/plain; charset=UTF-8");
+		$res->body( Encode::encode_utf8( join "\n", @result ) );
+	}
+
+	### del:
+	
+	elsif( defined $req->param('del_id') ){
+		my $status;
+		if( my ($pname) = $schema->resultset('Pnames')->search( { pid => $req->param('del_id') } ) ){
+			$pname->delete;
+			$status = 1;
+		}
+		else{
+			$status = 0;
+		}
+		
+		# output
+		$res->content_type("text/plain; charset=UTF-8");
+		$res->body( JSON::Syck::Dump( { status => $status } ) );
+	}
+	
+	### search:
+	
+	else{
+		my $stash = {};
+		
+		## search
+		
+		my $q = $req->param('query');
+		if( defined $q and $q ne '' ){
+			$q =~ s{'}{\\'}go;
+			my $query = sprintf "%%%s%%", $q;
+			if( my @pnames = $schema->resultset('Pnames')->search( { pname => { 'like', $query } }, { order_by => \ 'pname' } ) ){
+				my $cnt = 0;
+				for my $pname( @pnames ){
+					push @{ $stash->{pnames} }, {
+						cnt => ++$cnt,
+						pid => $pname->pid,
+						name => $pname->pname,
+					};
+				}
+				
+				$stash->{total} = $cnt;
+			}
+		}
+		
+		# vars
+		&set_total_count( $stash );
+		$stash->{query} = $q;
+		
+		# output
+		my $xs = &parepare_template( file( $base_dir, "template" ) );
+		$res->content_type("text/html; charset=UTF-8");
+		$res->body( Encode::encode_utf8( $xs->render( $template_file, $stash ) ) );
+	}
+
+	return $res->finalize;
+};
+
+sub set_total_count {
+	my ($stash) = @_;
+	
+	$stash->{total_count} = &commify( $schema->resultset('Pnames')->search( {} )->count );
+}
+
+sub parepare_template {
+	my $template_file = shift;
+	
+	return Text::Xslate->new(
+		path => [ '/', $template_file ],
+		cache => 1,    # default
+		cache_dir => file( $base_dir, "tmp" ),
+		input_layer => ':utf8',    # default
+		syntax => 'TTerse',
+		type => 'html',
+	);
+}
+
+sub commify {
+	local $_  = shift;
+	1 while s/((?:\A|[^.0-9])[-+]?\d+)(\d{3})/$1,$2/s;
+	return $_;
+}
+
+__END__
