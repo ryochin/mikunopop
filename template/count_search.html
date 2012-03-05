@@ -70,6 +70,9 @@ a.icon {
 span.strong {
 	color: #ffcccc;
 }
+div.audio {
+	margin: 4px;
+}
 </style>
 <script type="text/javascript">
 <!--// <![CDATA[
@@ -85,6 +88,24 @@ $(document).ready( function () {
 	$('#show-desc').click( function () {
 		$('#desc').toggle();
 		return false;
+	} );
+	
+	// audio
+	$('span.length').click( function () {
+		var id = "#audio-control-" + $(this).attr('id').replace(/^audio-/, "");
+		
+		if( $(id).data('playing') == true ){
+			// close & stop
+			$(id + ' audio').get(0).pause();    // auto stop
+			$(id).data('playing', false);
+//			$(id).slideUp();
+		}
+		else{
+			// open & start
+			$(id + ' audio').get(0).play();    // auto play
+			$(id).data('playing', true);
+//			$(id).slideDown();
+		}
 	} );
 } );
 
@@ -204,13 +225,21 @@ $(document).ready( function () {
 					[% v.vid %]
 				</span>
 				
-				<span class="length">
+				<span class="length" id="audio-[% v.vid %]">
 					[% v.length %]
 				</span>
 				
 				<span class="date">
 					[% v.date %]
 				</span>
+				
+				<div class="audio" style="display: none" id="audio-control-[% v.vid %]">
+					<audio controls="controls" preload="none">
+						<source src="http://mikunopop.info/audio/[% v.audio_path %].ogg" type="audio/ogg" />
+						<source src="http://mikunopop.info/audio/[% v.audio_path %].mp3" type="audio/mpeg" />
+					</audio>
+				</div>
+				
 			</td>
 		</tr>
 		<tr>

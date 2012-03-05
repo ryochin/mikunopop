@@ -189,6 +189,9 @@ my $app = sub {
 			$video->{date} = "?";
 		}
 		
+		# path
+		$video->{audio_path} = &id2path( $video->{vid} );
+		
 		# set
 		push @{ $stash->{video} }, $video;
 	}
@@ -333,5 +336,16 @@ my $app = sub {
 
 	return $res->finalize;
 };
+
+sub id2path {
+	my $id = shift;
+	
+	( my $vid = $id ) =~ s{^(sm|nm|so)}{}o;
+	
+	my $first = sprintf "%03d", int( $vid / 1000 / 1000 );
+	my $second = sprintf "%03d", int( ( $vid - ( $first * 1000 ** 2 )  ) / 1000 );
+	
+	return file( $first , $second, sprintf "%s", $id );
+}
 
 __END__
