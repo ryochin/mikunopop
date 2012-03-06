@@ -123,7 +123,16 @@ my $app = sub {
 		
 		# output
 		$res->content_type("text/plain; charset=UTF-8");
-		$res->body( Encode::encode_utf8( join "\n", @result ) );
+		if( $req->param('download') eq 'nicoreq' ){
+			unshift @result, "";    # add dummy
+			push @result, "";    # add dummy
+			my $str = sprintf q|settings["exceptionPTagsVO"] = %s;|, JSON::Syck::Dump( [ @result  ] );
+			$str =~ s{","}{",\n\t"}go;
+			$res->body( $str );
+		}
+		else{
+			$res->body( Encode::encode_utf8( join "\n", @result ) );
+		}
 	}
 
 	### del:
