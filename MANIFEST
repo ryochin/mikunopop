@@ -604,6 +604,7 @@ htdocs/comment/2011/12.html
 htdocs/comment/2012/01.html
 htdocs/comment/2012/02.html
 htdocs/comment/2012/03.html
+htdocs/comment/2012/05.html
 htdocs/comment/3/3000.html
 htdocs/comment/3/3001.html
 htdocs/comment/3/3004.html
@@ -695,6 +696,7 @@ htdocs/comment/6/6528.html
 htdocs/comment/6/6591.html
 htdocs/comment/6/6592.html
 htdocs/comment/6/6593.html
+htdocs/comment/7/7000.html
 htdocs/comment/index.html
 htdocs/commentlog/1000.html
 htdocs/css/colorbox.css
@@ -1429,6 +1431,7 @@ var/comment/6/6528.yml
 var/comment/6/6591.yml
 var/comment/6/6592.yml
 var/comment/6/6593.yml
+var/comment/7/7000.yml
 var/comment/meta.yml
 var/playlist/0.html
 var/playlist/1.html
