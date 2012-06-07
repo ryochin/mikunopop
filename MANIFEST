@@ -30,6 +30,7 @@ htdocs/award/5th.html
 htdocs/chat/colloquy_ss.png
 htdocs/chat/index.html
 htdocs/chat/limechat_ss.png
+htdocs/chat/limechat_ss_s.png
 htdocs/chat/log/irc_20091212.txt
 htdocs/chat/log/irc_20100718.txt
 htdocs/comment/0/611.html
@@ -702,6 +703,8 @@ htdocs/css/common.css
 htdocs/css/default.css
 htdocs/error/404.html
 htdocs/error/500.html
+htdocs/genre/electro_vs_nica.html
+htdocs/genre/index_.html
 htdocs/glossary/index.html
 htdocs/history.html
 htdocs/img/aircaster/aoid.jpg
@@ -750,8 +753,6 @@ htdocs/manual/nicoreq.html
 htdocs/manual/nicoreq.png
 htdocs/manual/nicoreq_history.html
 htdocs/manual/pnames.html
-htdocs/manual/pnames.txt
-htdocs/manual/pnames_ss.png
 htdocs/manual/rfc.html
 htdocs/manual/ss/ss_v1300_01.png
 htdocs/manual/ss/ss_v1310_01.png
@@ -776,6 +777,7 @@ lib/Mikunopop/Schema/Video.pm
 lib/Mikunopop/Tags.pm
 lib/Mikunopop/VideoInfo.pm
 script/Makefile
+script/audio_converter.pl
 script/check_live_status_daemon.pl
 script/convert_comment_html2yaml.pl
 script/create_comment_calendar.pl

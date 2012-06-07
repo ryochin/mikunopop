@@ -10,6 +10,9 @@ SH = /bin/sh
 
 all:: install
 
+check:
+	jshint htdocs/userscript/mikunopop.user.js
+
 install::
 	$(NICE) $(PERL) install/installer.pl -q
 	chmod 755 $(BASE)/cron/*.pl > /dev/null 2>&1
