@@ -18,7 +18,7 @@ install::
 	chmod 755 $(BASE)/cron/*.pl > /dev/null 2>&1
 
 manifest::
-	find . -not -type dl -not -name '\.DS_*' | egrep -v  '\.(svn|git)' | egrep '^[a-zA-Z0-9-/_.]+$$' \
+	find . -not -type dl -not -name '\.DS_*' | egrep -v  '\.(svn|git)' | egrep '^[a-zA-Z0-9/_.]+$$' \
 	| egrep -v '^\.$$' | sed -e 's!^./!!g' | sort > ./MANIFEST
 
 xmllint:

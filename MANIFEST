@@ -710,6 +710,7 @@ htdocs/error/500.html
 htdocs/genre/electro_vs_nica.html
 htdocs/genre/index_.html
 htdocs/glossary/index.html
+htdocs/handover.html
 htdocs/history.html
 htdocs/img/aircaster/aoid.jpg
 htdocs/img/aircaster/boro.jpg
@@ -764,7 +765,6 @@ htdocs/manual/ss/ss_v1420_01.png
 htdocs/manual/ss/ss_v1500_01.png
 htdocs/manual/template.html
 htdocs/robots.txt
-htdocs/self-requester/index.html
 htdocs/userscript/mikunopop.user.js
 install/core.txt
 install/installer.pl

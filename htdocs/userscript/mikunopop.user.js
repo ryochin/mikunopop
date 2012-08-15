@@ -7,40 +7,32 @@
 // @include        http://jbbs.livedoor.jp/bbs/read.cgi/internet/2353/*
 // @include        http://jbbs.livedoor.jp/internet/2353/*
 // @require        http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js
-// @version        0.0.5
+// @version        0.0.4
 // ==/UserScript==
-/*jshint evil:true*/
-
-var id = location.href.split('/').reverse()[0];
-var countURL = "http://mikunopop.info/count/" + id;
-var style = 'margin: auto 4px; color: #cc3333';    // 表示スタイル
-var showOnlyPlayed = false;    // 彡が０の時は表示させたくないなら true に。
-var jsonURL = "http://mikunopop.info/play/count.json";
-var count = {};
-
-function getCount (id) {
-	var n = count[id];
-	return n === undefined ? 0 : n;
-}
-
-function setCount (n) {
-	// check
-	if( ( n === undefined || n === 0 ) && showOnlyPlayed === true )
-		return;
-	
-	// span
-	var str = "彡" + n;
-	var span = document.createElement("span");
-	span.setAttribute("style", style);
-	span.innerHTML = str;
-	
-	// set
-	var article = document.getElementById("video_article");
-	document.getElementById("video_title").insertBefore(span, article);
-}
 
 (function(){
 	if( location.href.match(/\/watch\/(sm|nm|so)/) ){
+		var id = location.href.split('/').reverse()[0];
+		var countURL = "http://mikunopop.info/count/" + id;
+		var style = 'margin: auto 4px; color: #cc3333';    // 表示スタイル
+		var showOnlyPlayed = false;    // 彡が０の時は表示させたくないなら true に。
+		
+		function setCount(n) {
+			// check
+			if( n == 0 && showOnlyPlayed == true )
+				return;
+			
+			// span
+			var str = "彡" + n;
+			var span = document.createElement("span");
+			span.setAttribute("style", style);
+			span.innerHTML = str;
+			
+			// set
+			var article = document.getElementById("video_article");
+			document.getElementById("video_title").insertBefore(span, article);
+		}
+		
 		// main
 		GM_xmlhttpRequest({
 			method: "GET",
@@ -51,7 +43,15 @@ function setCount (n) {
 		});
 	}
 	else if( location.href.match(/\/my\/mylist/) ){
-		// main
+		// get list
+		var jsonURL = "http://mikunopop.info/play/count.json";
+		var count = {};
+		function getCount (id) {
+			var n = count[id];
+			return n == null ? 0 : n;
+		}
+		
+		// maint
 		GM_xmlhttpRequest({
 			method: "GET",
 			url: jsonURL,
