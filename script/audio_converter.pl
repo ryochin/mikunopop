@@ -5,12 +5,15 @@
 use strict;
 use warnings;
 use Path::Class qw(file dir);
+use List::Util qw(first);
 use File::Temp;
 use Try::Tiny;
 use File::Glob;
 use Getopt::Std ();
 use JSON::Syck;
 use LWP::Simple;
+
+use Mikunopop::VideoInfo;
 
 use utf8;
 
@@ -19,9 +22,10 @@ chdir "/tmp";
 my $save_dir = dir("/Volumes/BOX2/Music/MikunoMP3");
 
 # getopt
-Getopt::Std::getopts 'fi:' => my $opt = {};
+Getopt::Std::getopts 'fi:c:' => my $opt = {};
 # -f: force
 # -i: video id
+# -c: count
 
 my @video;
 if( defined $opt->{i} and $opt->{i} ne '' ){
@@ -30,9 +34,14 @@ if( defined $opt->{i} and $opt->{i} ne '' ){
 else{
 	my $json = JSON::Syck::Load( get("http://mikunopop.info/play/count.json") ) or die $!;
 	@video = reverse sort { $json->{$a} <=> $json->{$b} } grep { /^(sm|nm|so)/o } keys %{ $json };
+	if( defined $opt->{c} and $opt->{c} > 0 ){
+		@video = grep { $json->{$_} == $opt->{c} } @video;
+	}
 }
 
 for my $video_id( @video ){
+	next if first { $video_id eq $_ } @{ $Mikunopop::VideoInfo::Deleted };
+	
 	try {
 		&main( $video_id );
 	} catch {
@@ -64,10 +73,25 @@ sub main {
 	
 	printf STDERR "=> %s\n", $video_id;
 	
+	# check existence
+	do {
+		my $url = sprintf "http://ext.nicovideo.jp/api/getthumbinfo/%s", $video_id;
+		if( my $content = get( $url ) ){
+			if( $content =~ /<nicovideo_thumb_response status="fail">/msio ){
+				printf STDERR "\tdeleted\n";
+				return;
+			}
+		}
+		else{
+			printf STDERR "\tcannot get xml.\n";
+			return;
+		}
+	};
+	
 	# 
 	my $file;
 	do {
-		my $cmd = sprintf "nicovideo-dl %s", $video_id;
+		my $cmd = sprintf "nicovideo-dl -q %s", $video_id;
 		system( $cmd );
 		
 		for( File::Glob::bsd_glob( sprintf "%s.*", $video_id ) ){
@@ -95,13 +119,17 @@ sub main {
 			my $file_before = sprintf "_%s", $file;
 			rename $file, $file_before;
 			
-			do {
+			try {
+				printf STDERR "\tcws2fws convert ...\n";
 				my $cmd = sprintf "cws2fws %s %s", $file_before, $file;
 				qx( $cmd );
 				
 				# fall back
 				if( not -e $file ){
 					$file = $file_before;
+				}
+				else{
+					unlink $file_before;
 				}
 			};
 			
@@ -129,8 +157,8 @@ sub main {
 		for( split /\n/o, $result ){
 			next if not /^estimated duration: ([\d\.]+)/o;
 			my $len = int($1);
-			if( $len < 30 ){
-				$start = 10;
+			if( $len < 50 ){
+				die "too short, deleted?";
 			}
 			else{
 				$start = $len - 60;

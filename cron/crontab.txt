@@ -1,6 +1,3 @@
-# [Mikunopop Project]
-# 
-
 # ------------------------------------------------
 #  Mikunopop
 # ------------------------------------------------
@@ -8,20 +5,13 @@
 ### rebuild:
 
 # playlist
-31 */8 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/retreive_playlist.pl > /dev/null 2>&1
-32 */8 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/retreive_playlist_ura.pl > /dev/null 2>&1
+31 */8 * * * ryo /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/retreive_playlist.pl > /dev/null 2>&1
+32 */8 * * * ryo /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/retreive_playlist_ura.pl > /dev/null 2>&1
 
 # fill count
-33 */8 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/fill_count_to_db.pl > /dev/null 2>&1
+33 */8 * * * ryo /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/fill_count_to_db.pl > /dev/null 2>&1
 
 # video info
-47 */6 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/fill_video_info_to_db.pl > /dev/null 2>&1
-17 5 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/fill_video_info_to_db.pl -s new > /dev/null 2>&1
-
-# live status
-#* * * * * /usr/bin/ionice -c2 -n7 /bin/nice -20 /usr/bin/perl /web/mikunopop/cron/check_live_status.pl > /dev/null 2>&1
-
-# award 3rd album
-#56 */2 * * * /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/format_award_3rd.pl > /dev/null 2>&1
+47 */6 * * * ryo /usr/bin/ionice -c2 -n7 /bin/nice -15 /usr/bin/perl /web/mikunopop/cron/fill_video_info_to_db.pl > /dev/null 2>&1
 
 # EOF
