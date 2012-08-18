@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja-JP" xml:lang="ja-JP" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rev="made" href="mailto:webmaster&#64;example.com" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="stylesheet" type="text/css" media="screen,projection,tv,print" href="/css/common.css" charset="utf-8" />
+<link rel="stylesheet" type="text/css" media="screen,projection,tv,print" href="/css/default.css" charset="utf-8" />
+<meta name="robots" content="noindex,nofollow" />
+<title>ニコリク・ミクノポップエディション</title>
+<style type="text/css">
+table.download-link {
+	border: 0;
+	margin: 2px 2em;
+	font-size: 92%;
+}
+table.download-link td {
+	margin: 0;
+	padding: 0;
+}
+span.commit {
+	font-size: 92%;
+}
+
+div#expire-warning {
+	width: 620px;
+	margin: 1.8em;
+	padding: 10px;
+	color: fff3f3;
+	background-color: #431c1c;
+}
+
+div#expire-warning p {
+	margin: 6px 12px;
+}
+
+</style>
+<script type="text/javascript">
+<!--// <![CDATA[
+// ]]> -->
+</script>
+</head>
+<body>
+
+<div id="container">
+
+	<h1>ニコリク・ミクノポップエディション（？）</h1>
+	
+	<p>
+		[<a href="/">トップページに戻る</a>]<br />
+		[<a href="./">放送主向け文書に戻る</a>]
+	</p>
+	
+	<p>
+		私が使っているニコリク（生放送ツール）を配布しています。ご利用は自己責任でどうぞ。2012.02.07 改訂
+	</p>
+	
+	<h2>ME について</h2>
+
+	<p>
+		この改造版ニコリクは、非公式のものです。ミクノポップの放送に推奨されているわけではありません。<br />
+		また、ミクノ度の表示も個人的な趣味であり、放送とは直接関係ありませんし、必要なわけでもありません。<br />
+	</p>
+
+	<p>
+		もちろんミクノ以外の放送で使って頂いても構いませんし、改造や再配布もできます。
+	</p>
+
+	<h2>必要なもの</h2>
+
+	<p>
+		Windows 2000 以上が必要です。Windows 7 でも動作するようです。<br />
+		（場合によっては、Microsoft .NET Framework 3.5 SP1 以降が必要かもしれません）
+	</p>
+
+	<p>
+		Windows XP + InternetExplorer (ver6-8) の組み合わせのみ、ニコリクだけで接続できます。<br />
+		Windows Vista + IE (ver7-8?) の組み合わせの場合は、ニコリクだけでいい場合とダメな場合があるようです。要検証。
+	</p>
+
+	<p>
+		それ以外の組み合わせ（Windows Vista や Firefox, Google Chrome 等）だと、別途 <a href="http://d.hatena.ne.jp/halxxxx/20090413/1239646055" target="_blank">NicoCookieImporter</a> (NCI) という<br />
+		ソフトを常駐させておく必要があります。共有できているのに繋がらない時は、一度クッキーを削除するといいようです。
+	</p>
+
+<!--
+	<h2>起動できない問題について</h2>
+
+	<p>
+		いまのところ私が怪しいと思っている原因は、「Microsoft .NET Framework 3.5 SP1 が入っていない」<br />
+		Windows XP（以降？）である、という条件です。SP1 は、3.5 が入っていれば Windows Update 経由で入手<br />
+		できます。.NET 3.5 がインストールされているかどうかは、XP の場合は「プログラムのアクセスと既定の設定」<br />
+		→「プログラムの変更と削除」の一覧で確認できます。
+	</p>
+-->
+
+	<h2>きまりごと</h2>
+
+	<p>
+		ME を使ってるひとは、後日でいいのでデビュー回のコメントログを<a href="/comment/#howto">私まで送って下さい</a>（ME の使用料なのです！）。
+	</p>
+
+	<h2>ダウンロード</h2>
+	
+	<div id="expire-warning">
+		<p>
+			【注意】
+		</p>
+		
+		<p>
+			ボカロ系生放送界隈では、この ME を含むニコリクファミリーは積極的に機能追加や修正をしている開発者が
+			長らくいない状態が続いています。また、おそらく今後もこの状況が変わることはないでしょう。
+		</p>
+		
+		<p>
+			ME はこれからも最低限のメンテナンスや不具合対応は行いますが、たとえば 2009 年秋のように、
+			ニコ生側で大きな仕様変更等があった場合には追従できない可能性があります。
+		</p>
+		
+		<p>
+			そのため、積極的に開発が続いている他のツールへ乗り換えることを推奨します。
+			個人的には<a href="http://dic.nicovideo.jp/a/nicolive%20helper" target="_blank">ニコヘル</a>あたりがいいと思っています。
+		</p>
+		
+		<p>
+			ME は、はじめて生放送をする人に向けた簡易ツールという位置付けです。その意義は変わりませんが、
+			放送に慣れたら別の高機能ツールを使うことを検討してみてください。
+		</p>
+	</div>
+
+	<table class="download-link">
+		<tr>
+			<td width="140">[2012.02.07] v1.58</td>
+			<td><a href="./archives/NicoReqMikunopopEdition_158.exe">NicoReqMikunopopEdition_158.exe</a></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/tags" target="_blank">zip アーカイブ</a></td>
+		</tr>
+	</table>
+
+	<p>
+		　・「マイリストから検索」機能が動いていなかった問題を修正しました。
+			<span class="commit">(<a href="http://github.com/ryochin/nicoreq_mikunopop/commit/83685a2eba5107a3f51970477a9089dc20854570" target="_blank">#commit</a>)</span><br />
+		　・細かい情報（P名リスト、ジングルリスト、タグリスト）を更新しました。
+	</p>
+
+	<table class="download-link">
+		<tr>
+			<td width="140">[2012.01.04] v1.57.1</td>
+			<td><a href="./archives/NicoReqMikunopopEdition_1571.exe">NicoReqMikunopopEdition_1571.exe</a></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><a href="http://github.com/ryochin/nicoreq_mikunopop/tags" target="_blank">zip アーカイブ</a></td>
+		</tr>
+	</table>
+
+	<p>
+		　・メンテナンスリリースです。機能の追加や修正はありません。<br />
+		　・細かい情報（ジングルリスト）を更新しました。
+	</p>
+
+	<p>
+		<a href="./nicoreq_history.html">すべての履歴</a>を見ることもできます。
+	</p>
+
+	<h2>簡単な説明（適当に書き足します、加筆者募集）</h2>
+
+	<p>
+		設定ファイルはメモ帳などで開いて編集できる。<a href="http://www5f.biglobe.ne.jp/~t-susumu/library/tpad.html" target="_blank">TeraPad</a> がおすすめ。
+		ME を（再）インストールすると、これらのファイルは上書きされてしまうことに注意。
+	</p>
+
+	<p>
+		再生履歴はニコリクを終了すると消えるけど、playlog.txt などのファイルにはちゃんと残っているのでチェックしよう。
+	</p>
+
+	<p>
+		すでに流れた曲がリクエストされた場合は、「さっき流れたばかりです」というメッセージが流れる（ニコリク再起動でリセット）。<br />
+		NG 扱いにしたい曲は NGIDList.txt に書いてある。必要に応じて追加しよう。
+	</p>
+
+	<p>
+		P 名の情報は pnames.js に書いてある。必要に応じて追加しよう。<br />
+		ジングルの情報は jingles.json に書いてある。自分で追加したり、オフになっているものを有効にしたりできる。
+	</p>
+
+	<p>
+		右上の「残 21:35」の部分をクリックすると「空 18:07」などと表示される。「今の曲が終わってから何分余裕があるか」がわかる。
+	</p>
+
+	<p>
+		・接続するには、「ＵＲＬをブラウザからコピー・Ｃキー・そのままエンターキー」<br />
+		・主セレをストックに追加するには「Ｉキー・ペースト」<br />
+		・プレイリスト用テキストを準備するには、「Ｅキー・コピーボタンをクリック・掲示板にペースト」<br />
+	</p>
+
+	<h2>ソース</h2>
+
+	<p>
+		次のアドレスで公開しています。少し詳しい README もこちらで読めます。<br />
+		<a href="http://github.com/ryochin/nicoreq_mikunopop/tree/master" target="_blank">http://github.com/ryochin/nicoreq_mikunopop/tree/master</a>
+	</p>
+
+	<h2>スクリーンショット</h2>
+
+	<p>
+		開発版のスクリーンショットです（ちょい古い）。
+	</p>
+
+	<p>
+		<img src="./nicoreq.png" alt="ニコリク" />
+	</p>
+
+	<h2>ME について、細かい話</h2>
+
+	<p>
+		元々 ME はミクノ度を表示するためだけの個人的な実験でした。今も役割は大して変わっていません。<br />
+		ミクノ度の ME 以外での使用は非推奨ですので、くれぐれも自己責任ということでお願いします。
+	</p>
+
+	<p>
+		たまに「動きません」という報告を生放送内で頂きますが、バグレポートを頂かないと対処のしようが<br />
+		ありませんので、不具合報告・要望・サポート等必要でしたら直接私までご連絡ください。<br />
+		<span class="dim">放送中に匿名で仰ってもヤキモキする以上のお手伝いはできませんし、私の精神衛生上よろしくありません。</span>
+	</p>
+
+	<p>
+		ME にこの機能を取り込んで欲しいというお話を頂くことがありますが、「最小限の機能をストレスなく<br />
+		使えるように」というコンセプトに合致しないものは基本的に見送らせて頂いています。それでも<br />
+		機能を拡張したい方がいらっしゃれば、完動するパッチをお送り頂くか、あるいは独自に ME 改造版を<br />
+		配布なさるのがよいと考えています。
+	</p>
+
+	<h2>その他</h2>
+
+	<p>
+		不具合、改善点や要望などありましたらご連絡ください。
+	</p>
+
+	<h2>戻る</h2>
+
+	<p>
+		[<a href="/">トップページに戻る</a>]<br />
+		[<a href="./">放送主向け文書に戻る</a>]
+	</p>
+</div>
+
+</body>
+</html>
+
